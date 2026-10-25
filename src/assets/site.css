@@ -272,3 +272,7 @@ p{margin:0 0 1rem}
 .hero-cr:hover{color:#ece6da}
 .hero-fade{background:linear-gradient(180deg,rgba(10,9,8,.55) 0%,rgba(10,9,8,.15) 30%,rgba(10,9,8,.35) 60%,rgba(10,9,8,.92) 100%)}
 .hero-sig{display:none}
+.refs-more{margin-top:4rem;border-top:1px solid var(--line,#ddd);padding-top:2rem}
+.refs-more h2{margin:0 0 .25rem}
+.refs-list{list-style:none;padding:0;margin:1.25rem 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.75rem}
+.refs-list li{display:flex;flex-direction:column;gap:.2rem;padding:1rem;border:1px solid var(--line,#ddd)}

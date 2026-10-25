@@ -527,6 +527,8 @@ export const refsText = {
     de: "Eine Auswahl von Wohnungen, die wir in Budapest gekauft und renoviert haben.",
     hu: "Válogatás a Budapesten általunk megvásárolt és felújított lakásokból.",
   },
+  moreTitle: { fr: "Autres appartements rénovés", en: "Other renovated apartments", de: "Weitere renovierte Wohnungen", hu: "További felújított lakások" },
+  moreNote: { fr: "Photos à venir.", en: "Photos coming soon.", de: "Fotos folgen.", hu: "Fotók hamarosan." },
 };
 
 // Resources page: topics from the "Leads magnets" plan (Drive). None is published yet.

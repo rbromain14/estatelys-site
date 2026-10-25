@@ -473,12 +473,17 @@ function referencesPage(l) {
 </div></section>
 <section class="sec wrap">
   <div class="grid2 refs" data-gallery>
-    ${REFS.map((r) => `<figure class="ref">
+    ${REFS.filter((r) => r.photos.length).map((r) => `<figure class="ref">
       <button class="gal-i ref-m" data-full="${src(r, 0)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}"><img src="${src(r, 0)}" alt="${esc(r.name)}" loading="lazy" decoding="async"></button>
       <div class="ref-t">${r.photos.slice(1).map((_, k) => `<button class="gal-i" data-full="${src(r, k + 1)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}"><img src="${src(r, k + 1)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>
       <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p></figcaption>
     </figure>`).join("")}
   </div>
+  ${REFS.some((r) => !r.photos.length) ? `<div class="refs-more">
+    <h2>${refsText.moreTitle[l]}</h2>
+    <p class="muted">${refsText.moreNote[l]}</p>
+    <ul class="refs-list">${REFS.filter((r) => !r.photos.length).map((r) => `<li><strong>${esc(r.name)}</strong><span class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</span></li>`).join("")}</ul>
+  </div>` : ""}
 </section>
 <div class="lb" id="lb" hidden><button class="lb-x" aria-label="Close">×</button><button class="lb-p" aria-label="Previous">‹</button><figure><img alt=""><figcaption></figcaption></figure><button class="lb-n" aria-label="Next">›</button></div>`;
   return layout({ l, route, title: `${t.navRefs[l]} — ${SITE.name}`, desc: refsText.intro[l], body, image: `refs/${REFS[0]?.slug}-1` });
