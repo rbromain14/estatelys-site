@@ -65,3 +65,4 @@ h2{font-size:clamp(2rem,4vw,3.4rem)}
 .ref{background:var(--bg2);border:0}
 .sig-img{width:min(600px,90%)}
 .band h2{font-family:var(--disp);font-weight:300}
+.hero h1{letter-spacing:0;word-spacing:.04em}
