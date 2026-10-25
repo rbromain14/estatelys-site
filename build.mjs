@@ -3,7 +3,9 @@
 // PREVIEW=1 node build.mjs  -> links end in index.html (for file:// or preview hosting)
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources } from "./src/data.mjs";
+import { readFileSync } from "node:fs";
+const REFS = existsSync("src/refs.json") ? JSON.parse(readFileSync("src/refs.json", "utf8")) : [];
 
 const OUT = process.env.OUT || "dist";
 const PREVIEW = process.env.PREVIEW === "1";
@@ -41,6 +43,8 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
   const nav = [
     ["", t.navHome[l]],
     ["projects/", t.navProjects[l]],
+    ...(REFS.length ? [["references/", t.navRefs[l]]] : []),
+    ["resources/", t.navResources[l]],
     ["about/", t.navAbout[l]],
     ["contact/", t.navContact[l]],
   ];
@@ -80,7 +84,7 @@ ${extraHead}
 <header class="hdr" id="hdr">
   <div class="wrap hdr-in">
     <a class="logo" href="${R("")}" aria-label="${SITE.name}">
-      <span class="logo-w">ESTATELYS</span><span class="logo-s">BUDAPEST</span>
+      <img src="${A("assets/logo-white.png")}" alt="Estatelys Budapest" width="160" height="46">
     </a>
     <nav class="nav" aria-label="Main">
       ${nav.map(([r, n]) => `<a href="${R(r)}"${isActive(r) ? ' aria-current="page"' : ""}>${n}</a>`).join("")}
@@ -111,13 +115,12 @@ ${body}
 <footer class="ftr">
   <div class="wrap ftr-in">
     <div>
-      <a class="logo" href="${R("")}"><span class="logo-w">ESTATELYS</span><span class="logo-s">BUDAPEST</span></a>
+      <a class="logo" href="${R("")}"><img src="${A("assets/logo-white.png")}" alt="Estatelys Budapest" width="180" height="52"></a>
       <p class="muted small">${t.tagline[l]}</p>
     </div>
     <div class="ftr-c">
       <a href="mailto:${SITE.email}">${SITE.email}</a>
-      <a href="tel:${SITE.phoneHref}">${SITE.phone}</a>
-      <span class="muted">${SITE.city}</span>
+      <span class="muted">${SITE.seat}</span>
     </div>
     <div class="ftr-c">
       ${nav.map(([r, n]) => `<a href="${R(r)}">${n}</a>`).join("")}
@@ -172,7 +175,7 @@ function home(l) {
   const A = (p) => asset(l, route, p);
   const R = (r) => rel(l, route, l, r);
   const body = `
-<section class="hero">
+<section class="hero dk">
   <img class="hero-img" src="${A("img/hero.jpg")}" srcset="${A("img/hero-s.jpg")} 800w, ${A("img/hero.jpg")} 1920w" sizes="100vw" alt="" fetchpriority="high">
   <div class="hero-fade"></div>
   <div class="wrap hero-in">
@@ -188,9 +191,9 @@ function home(l) {
 <section class="stats">
   <div class="wrap stats-in">
     <div><b>60+</b><span>${t.stat1[l]}</span></div>
-    <div><b>V · VI · VII</b><span>${t.stat2[l]}</span></div>
+    <div><b class="sm">I · II · V · VI · VII · VIII · XIII</b><span>${t.stat2[l]}</span></div>
     <div><b>${projects.length}</b><span>${t.stat3[l]}</span></div>
-    <div><b>FR · EN · DE · HU</b><span>${t.stat4[l]}</span></div>
+    <div><b class="sm">FR · EN · DE · HU</b><span>${t.stat4[l]}</span></div>
   </div>
 </section>
 <section class="sec wrap">
@@ -218,7 +221,7 @@ function home(l) {
 </section>`;
   const ld = {
     "@context": "https://schema.org", "@type": "RealEstateAgent", name: SITE.name,
-    url: `https://${SITE.domain}/`, email: SITE.email, telephone: SITE.phone,
+    url: `https://${SITE.domain}/`, email: SITE.email,
     address: { "@type": "PostalAddress", addressLocality: "Budapest", addressCountry: "HU" },
     areaServed: "Budapest", image: `https://${SITE.domain}/img/hero.jpg`,
   };
@@ -229,11 +232,11 @@ function home(l) {
 function projectsPage(l) {
   const route = "projects/";
   const body = `
-<section class="phdr wrap">
+<section class="phdr dk"><div class="wrap">
   <p class="eyebrow">${t.forSale[l]}</p>
   <h1>${t.projTitle[l]}</h1>
   <p class="lead muted">${t.projIntro[l]}</p>
-</section>
+</div></section>
 <section class="wrap"><div class="grid2">${projects.map((p) => card(p, l, route)).join("")}</div></section>
 <section class="sec wrap">
   <h2 class="h3">${t.mapTitle[l]}</h2>
@@ -287,7 +290,7 @@ function projectPage(p, l) {
 </section>` : "";
 
   const body = `
-<section class="phero">
+<section class="phero dk">
   ${p.cover ? img(l, route, p.cover, p.name, "phero-img", "100vw", true) : `<div class="phero-img phero-none"></div>`}
   <div class="hero-fade"></div>
   <div class="wrap phero-in">
@@ -311,7 +314,7 @@ function projectPage(p, l) {
       <p class="muted">${priceAlt(p, l)}${!p.rent && p.priceM2 ? ` · ${p.priceM2} / m²` : ""}</p>
       ${p.yield ? `<dl><div><dt>${t.rent[l]}</dt><dd>${eur(p.rent, l)}</dd></div><div><dt>${t.yield[l]}</dt><dd>${pct(p.yield, l)}</dd></div></dl>` : ""}
       <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.askInfo[l]}</a>
-      <a class="btn btn-o wfull" href="https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(p.name + " — " + t.visit[l])}" target="_blank" rel="noopener">WhatsApp · ${t.visit[l]}</a>
+      <a class="btn btn-o wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.visit[l]}</a>
       <p class="small muted">${p.rent ? "" : t.hufNote[l]}</p>
     </aside>
   </div>
@@ -346,10 +349,17 @@ ${plans}
 function about(l) {
   const route = "about/";
   const body = `
-<section class="phdr wrap">
+<section class="phdr dk"><div class="wrap">
   <p class="eyebrow">${t.aboutEyebrow[l]}</p>
   <h1>${t.aboutTitle[l]}</h1>
   <p class="lead muted">${t.aboutIntro[l]}</p>
+</div></section>
+<section class="sec wrap sig">
+  <h2>${signature.title[l]}</h2>
+  <img class="sig-img" src="${asset(l, route, "assets/signature.png")}" alt="Estatelys" width="1400" height="341" loading="lazy">
+  <div class="vals vals-row">
+    ${[1, 2, 3].map((i) => `<div><h3>${t[`v${i}t`][l]}</h3><p class="muted">${t[`v${i}d`][l]}</p></div>`).join("")}
+  </div>
 </section>
 <section class="sec wrap">
   <div class="about">
@@ -358,9 +368,6 @@ function about(l) {
       <h2>${t.approach[l]}</h2>
       <p class="muted">${t.approach1[l]}</p>
       <p class="muted">${t.approach2[l]}</p>
-      <div class="vals">
-        ${[1, 2, 3].map((i) => `<div><h3>${t[`v${i}t`][l]}</h3><p class="muted">${t[`v${i}d`][l]}</p></div>`).join("")}
-      </div>
     </div>
   </div>
 </section>
@@ -377,11 +384,11 @@ function about(l) {
 function contact(l) {
   const route = "contact/";
   const body = `
-<section class="phdr wrap">
+<section class="phdr dk"><div class="wrap">
   <p class="eyebrow">${t.navContact[l]}</p>
   <h1>${t.contactTitle[l]}</h1>
   <p class="lead muted">${t.contactIntro[l]}</p>
-</section>
+</div></section>
 <section class="wrap sec0">
   <div class="cgrid">
     <form class="form" id="cform" data-email="${SITE.email}" data-subject="${esc(SITE.name)}">
@@ -400,9 +407,7 @@ function contact(l) {
     <aside class="pbox">
       <p class="eyebrow">${SITE.name}</p>
       <a class="big-l" href="mailto:${SITE.email}">${SITE.email}</a>
-      <a class="big-l" href="tel:${SITE.phoneHref}">${SITE.phone}</a>
-      <a class="btn btn-o wfull" href="https://wa.me/${SITE.whatsapp}" target="_blank" rel="noopener">WhatsApp</a>
-      <p class="muted">${SITE.city}</p>
+      <p class="muted">${SITE.company}<br>${SITE.seat}</p>
     </aside>
   </div>
 </section>`;
@@ -414,9 +419,9 @@ function legalPage(l) {
   const route = "legal/";
   const rows = [[legal.lblName[l], `${SITE.company}<br><span class="muted small">${SITE.companyFull}</span>`], [legal.lblSeat[l], SITE.seat],
     [legal.lblReg[l], SITE.regNo], [legal.lblCourt[l], SITE.court], [legal.lblTax[l], SITE.taxNo], [legal.lblDir[l], SITE.director],
-    [legal.lblContact[l], `<a href="mailto:${SITE.email}">${SITE.email}</a> · <a href="tel:${SITE.phoneHref}">${SITE.phone}</a>`]];
+    [legal.lblContact[l], `<a href="mailto:${SITE.email}">${SITE.email}</a>`]];
   const body = `
-<section class="phdr wrap"><p class="eyebrow">${legal.nav[l]}</p><h1>${legal.title[l]}</h1></section>
+<section class="phdr dk"><div class="wrap"><p class="eyebrow">${legal.nav[l]}</p><h1>${legal.title[l]}</h1></div></section>
 <section class="wrap sec0 legal">
   <h2 class="h3">${legal.publisher[l]}</h2>
   <dl class="ldl">${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
@@ -431,10 +436,47 @@ function legalPage(l) {
   return layout({ l, route, title: `${legal.title[l]} — ${SITE.name}`, desc: `${legal.title[l]} — ${SITE.company}`, body });
 }
 
+
+function resourcesPage(l) {
+  const route = "resources/";
+  const R = (r) => rel(l, route, l, r);
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow">${t.navResources[l]}</p>
+  <h1>${resources.title[l]}</h1>
+  <p class="lead muted">${resources.intro[l]}</p>
+</div></section>
+<section class="sec wrap">
+  <div class="res">
+    ${resources.groups.map((g) => `<div class="res-g"><h2 class="h3">${g.t[l]}</h2><ul>${g.items.map((it) => `<li><span>${it[l]}</span><a class="res-a" href="${R("contact/")}?r=${encodeURIComponent(it.en)}"><em>${resources.soon[l]}</em> ${resources.ask[l]} →</a></li>`).join("")}</ul></div>`).join("")}
+  </div>
+</section>`;
+  return layout({ l, route, title: `${t.navResources[l]} — ${SITE.name}`, desc: resources.intro[l], body });
+}
+
+function referencesPage(l) {
+  const route = "references/";
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow">${t.navRefs[l]}</p>
+  <h1>${refsText.title[l]}</h1>
+  <p class="lead muted">${refsText.intro[l]}</p>
+</div></section>
+<section class="sec wrap">
+  <div class="grid3 refs">
+    ${REFS.map((r) => `<figure class="ref">
+      <div class="ref-m">${r.photos.map((ph, i) => `<img src="${asset(l, route, `img/refs/${r.slug}-${i + 1}.jpg`)}" alt="${esc(r.name)}" loading="lazy" decoding="async"${i ? ' class="ref-x"' : ""}>`).join("")}</div>
+      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? esc(r.district[l] || r.district.en) + " · " : ""}Budapest</p></figcaption>
+    </figure>`).join("")}
+  </div>
+</section>`;
+  return layout({ l, route, title: `${t.navRefs[l]} — ${SITE.name}`, desc: refsText.intro[l], body });
+}
+
 function notFound() {
   const l = "fr", route = "";
-  const body = `<section class="phdr wrap"><p class="eyebrow">404</p><h1>${t.notFound.fr} · ${t.notFound.en}</h1>
-  <div class="row"><a class="btn" href="/">${t.backHome.fr}</a><a class="btn btn-o" href="/en/">${t.backHome.en}</a></div></section>`;
+  const body = `<section class="phdr dk"><div class="wrap"><p class="eyebrow">404</p><h1>${t.notFound.fr} · ${t.notFound.en}</h1>
+  <div class="row"><a class="btn" href="/">${t.backHome.fr}</a><a class="btn btn-o" href="/en/">${t.backHome.en}</a></div></div></section>`;
   return layout({ l, route, title: `404 — ${SITE.name}`, desc: t.metaDesc.fr, body }).replace(/href="(?!https?:|mailto:|tel:|\/|#)([^"]*)"/g, 'href="/$1"').replace(/src="(?!https?:|\/)([^"]*)"/g, 'src="/$1"');
 }
 
@@ -448,7 +490,7 @@ cpSync("src/assets", join(OUT, "assets"), { recursive: true });
 
 const urls = [];
 for (const l of LANGS) {
-  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)],
+  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
     ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); }
 }

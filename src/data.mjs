@@ -9,9 +9,6 @@ export const SITE = {
   domain: "www.estatelys.com",
   name: "Estatelys Budapest",
   email: "info@estatelys.com",
-  phone: "+36 30 957 6834",
-  phoneHref: "+36309576834",
-  whatsapp: "36309576834",
   city: "Budapest, Magyarország",
   hufRate: 364, // HUF per EUR used for the indicative HUF amounts (Oct 2026)
   // Publisher (source: public company registry, ceginfo.hu / opten.hu)
@@ -106,10 +103,10 @@ export const t = {
     hu: "Projektmenedzsment · Ingatlanbefektetés · Prémium felújítás",
   },
   metaDesc: {
-    fr: "Estatelys Budapest achète, rénove et vend des appartements de caractère dans les V, VI et VII arrondissements de Budapest.",
-    en: "Estatelys Budapest buys, renovates and sells character apartments in Budapest's 5th, 6th and 7th districts.",
-    de: "Estatelys Budapest kauft, renoviert und verkauft Charakterwohnungen im 5., 6. und 7. Bezirk von Budapest.",
-    hu: "Az Estatelys Budapest karakteres lakásokat vásárol, újít fel és értékesít Budapest V., VI. és VII. kerületében.",
+    fr: "Estatelys Budapest achète, rénove et vend des appartements de caractère dans les arrondissements I, II, V, VI, VII, VIII et XIII de Budapest.",
+    en: "Estatelys Budapest buys, renovates and sells character apartments in Budapest's 1st, 2nd, 5th, 6th, 7th, 8th and 13th districts.",
+    de: "Estatelys Budapest kauft, renoviert und verkauft Charakterwohnungen im 1., 2., 5., 6., 7., 8. und 13. Bezirk von Budapest.",
+    hu: "Az Estatelys Budapest karakteres lakásokat vásárol, újít fel és értékesít Budapest I., II., V., VI., VII., VIII. és XIII. kerületében.",
   },
   heroEyebrow: { fr: "Budapest · Immobilier de caractère", en: "Budapest · Character real estate", de: "Budapest · Charakterimmobilien", hu: "Budapest · Karakteres ingatlanok" },
   heroTitle: {
@@ -126,7 +123,9 @@ export const t = {
   },
   ctaProjects: { fr: "Voir les biens", en: "View properties", de: "Objekte ansehen", hu: "Ingatlanok megtekintése" },
   stat1: { fr: "Appartements rénovés", en: "Renovated apartments", de: "Renovierte Wohnungen", hu: "Felújított lakás" },
-  stat2: { fr: "Arrondissements centraux", en: "Central districts", de: "Zentrale Bezirke", hu: "Belvárosi kerület" },
+  stat2: { fr: "Arrondissements", en: "Districts", de: "Bezirke", hu: "Kerület" },
+  navRefs: { fr: "Références", en: "References", de: "Referenzen", hu: "Referenciák" },
+  navResources: { fr: "Ressources", en: "Resources", de: "Ressourcen", hu: "Források" },
   stat3: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlan" },
   stat4: { fr: "Langues parlées", en: "Languages spoken", de: "Gesprochene Sprachen", hu: "Beszélt nyelv" },
   featuredEyebrow: { fr: "En vente actuellement", en: "Currently for sale", de: "Aktuell zum Verkauf", hu: "Jelenleg eladó" },
@@ -239,10 +238,10 @@ export const t = {
   v3d: { fr: "Un réseau d'artisans, d'architectes et d'avocats de confiance à Budapest.", en: "A network of trusted craftsmen, architects and lawyers in Budapest.", de: "Ein Netzwerk vertrauenswürdiger Handwerker, Architekten und Anwälte in Budapest.", hu: "Megbízható szakemberek, építészek és ügyvédek hálózata Budapesten." },
   contactTitle: { fr: "Parlons de votre projet", en: "Let's talk about your project", de: "Sprechen wir über Ihr Projekt", hu: "Beszéljünk a projektjéről" },
   contactIntro: {
-    fr: "Une question sur un bien, une demande de brochure ou de visite ? Écrivez-nous ou appelez-nous.",
-    en: "A question about a property, a brochure or a viewing? Write to us or call us.",
-    de: "Fragen zu einem Objekt, Exposé oder Besichtigung? Schreiben oder rufen Sie uns an.",
-    hu: "Kérdése van egy ingatlanról, brosúrát vagy megtekintést szeretne? Írjon vagy hívjon minket.",
+    fr: "Une question sur un bien, une demande de brochure ou de visite ? Écrivez-nous.",
+    en: "A question about a property, a brochure or a viewing? Write to us.",
+    de: "Fragen zu einem Objekt, Exposé oder Besichtigung? Schreiben Sie uns.",
+    hu: "Kérdése van egy ingatlanról, brosúrát vagy megtekintést szeretne? Írjon nekünk.",
   },
   name: { fr: "Nom", en: "Name", de: "Name", hu: "Név" },
   email: { fr: "E-mail", en: "Email", de: "E-Mail", hu: "E-mail" },
@@ -510,3 +509,60 @@ export const cityPhotos = [
     label: L("Le Danube de nuit", "The Danube by night", "Die Donau bei Nacht", "A Duna éjjel"),
     credit: "Lok Kwan", link: "https://unsplash.com/photos/5pXAijxFw6c" },
 ];
+
+export const signature = {
+  title: { fr: "Signature Estatelys : la marque de fabrique", en: "The Estatelys signature: our hallmark", de: "Die Estatelys-Signatur: unser Markenzeichen", hu: "Az Estatelys kézjegye: a védjegyünk" },
+};
+
+export const refsText = {
+  title: { fr: "Nos réalisations à Budapest", en: "Our completed projects in Budapest", de: "Unsere realisierten Projekte in Budapest", hu: "Megvalósult projektjeink Budapesten" },
+  intro: {
+    fr: "Une sélection d'appartements que nous avons achetés et rénovés à Budapest.",
+    en: "A selection of apartments we have bought and renovated in Budapest.",
+    de: "Eine Auswahl von Wohnungen, die wir in Budapest gekauft und renoviert haben.",
+    hu: "Válogatás a Budapesten általunk megvásárolt és felújított lakásokból.",
+  },
+};
+
+// Resources page: topics from the "Leads magnets" plan (Drive). None is published yet.
+export const resources = {
+  title: { fr: "Ressources pour investir à Budapest", en: "Resources for investing in Budapest", de: "Ressourcen für Investitionen in Budapest", hu: "Források a budapesti befektetéshez" },
+  intro: {
+    fr: "Guides, données et outils en préparation. Demandez celui qui vous intéresse : nous vous l'envoyons dès sa parution.",
+    en: "Guides, data and tools in preparation. Ask for the one you need and we will send it as soon as it is published.",
+    de: "Leitfäden, Daten und Tools in Vorbereitung. Fragen Sie das gewünschte an, wir senden es Ihnen bei Erscheinen zu.",
+    hu: "Útmutatók, adatok és eszközök készülőben. Kérje azt, amelyik érdekli, és megjelenéskor elküldjük.",
+  },
+  soon: { fr: "En préparation", en: "In preparation", de: "In Vorbereitung", hu: "Készülőben" },
+  ask: { fr: "Être prévenu", en: "Notify me", de: "Benachrichtigen", hu: "Értesítést kérek" },
+  groups: [
+    { t: { fr: "Guides pratiques", en: "Practical guides", de: "Praktische Leitfäden", hu: "Gyakorlati útmutatók" }, items: [
+      { fr: "Fiscalité immobilière hongroise pour les non-résidents : revenus locatifs, plus-values, taxes locales, convention fiscale France-Hongrie", en: "Hungarian property taxation for non-residents: rental income, capital gains, local taxes, France-Hungary tax treaty", de: "Ungarische Immobilienbesteuerung für Gebietsfremde: Mieteinnahmen, Veräußerungsgewinne, lokale Steuern, DBA Frankreich-Ungarn", hu: "Magyar ingatlanadózás nem rezidenseknek: bérleti jövedelem, árfolyamnyereség, helyi adók, francia–magyar egyezmény" },
+      { fr: "Acheter à Budapest étape par étape : de l'offre à l'acte chez l'avocat, frais, délais, documents", en: "Buying in Budapest step by step: from offer to deed with the lawyer, costs, timelines, documents", de: "Kauf in Budapest Schritt für Schritt: vom Angebot bis zum Vertrag beim Anwalt, Kosten, Fristen, Unterlagen", hu: "Vásárlás Budapesten lépésről lépésre: az ajánlattól az ügyvédi szerződésig, költségek, határidők, dokumentumok" },
+      { fr: "Financer son achat : crédit hongrois ou étranger, conditions pour les non-résidents, taux, apport", en: "Financing your purchase: Hungarian vs foreign mortgage, conditions for foreigners, rates, down payment", de: "Finanzierung: ungarischer oder ausländischer Kredit, Bedingungen für Ausländer, Zinsen, Eigenkapital", hu: "A vásárlás finanszírozása: magyar vagy külföldi hitel, feltételek külföldieknek, kamatok, önerő" },
+      { fr: "Créer une Kft pour investir : avantages, coûts, comptabilité, limites", en: "Setting up a Hungarian Kft to invest: advantages, costs, accounting, limits", de: "Gründung einer Kft für Investitionen: Vorteile, Kosten, Buchhaltung, Grenzen", hu: "Kft. alapítása befektetéshez: előnyök, költségek, könyvelés, korlátok" },
+      { fr: "Gérer un bien à distance : agences, conciergerie, assurance, syndic (közös képviselő)", en: "Managing a property remotely: agencies, concierge, insurance, building manager (közös képviselő)", de: "Immobilie aus der Ferne verwalten: Agenturen, Concierge, Versicherung, Hausverwaltung (közös képviselő)", hu: "Ingatlankezelés távolról: ügynökségek, concierge, biztosítás, közös képviselő" },
+      { fr: "Location courte durée à Budapest : règles par arrondissement, licences, impôts, rentabilité réelle", en: "Short-term rentals in Budapest: rules by district, licences, taxes, real profitability", de: "Kurzzeitvermietung in Budapest: Regeln je Bezirk, Lizenzen, Steuern, tatsächliche Rendite", hu: "Rövid távú kiadás Budapesten: kerületi szabályok, engedélyek, adók, valós jövedelmezőség" },
+    ]},
+    { t: { fr: "Études et données", en: "Reports and data", de: "Studien und Daten", hu: "Elemzések és adatok" }, items: [
+      { fr: "Rendement locatif par arrondissement : loyer moyen, prix au m², rendement brut et net", en: "Rental yield by district: average rent, price per m², gross and net yield", de: "Mietrendite nach Bezirk: Durchschnittsmiete, Preis pro m², Brutto- und Nettorendite", hu: "Bérleti hozam kerületenként: átlagbérleti díj, négyzetméterár, bruttó és nettó hozam" },
+      { fr: "Carte des quartiers à potentiel : projets de métro, programmes neufs, gentrification", en: "Map of high-potential neighbourhoods: metro projects, new developments, gentrification", de: "Karte der Viertel mit Potenzial: Metro-Projekte, Neubauten, Gentrifizierung", hu: "A potenciállal bíró negyedek térképe: metróprojektek, új fejlesztések, dzsentrifikáció" },
+      { fr: "Évolution des loyers à Budapest sur 5 ans", en: "Rent trends in Budapest over 5 years", de: "Mietentwicklung in Budapest über 5 Jahre", hu: "A budapesti bérleti díjak alakulása 5 év alatt" },
+      { fr: "Budapest face à Prague, Varsovie et Vienne", en: "Budapest vs Prague, Warsaw and Vienna", de: "Budapest im Vergleich zu Prag, Warschau und Wien", hu: "Budapest Prágához, Varsóhoz és Bécshez képest" },
+    ]},
+    { t: { fr: "Outils à télécharger", en: "Downloadable tools", de: "Tools zum Herunterladen", hu: "Letölthető eszközök" }, items: [
+      { fr: "Simulateur de rentabilité locative : prix, travaux, loyer, charges, impôts, rendement net", en: "Rental profitability simulator: price, renovation, rent, charges, taxes, net yield", de: "Renditerechner: Preis, Renovierung, Miete, Nebenkosten, Steuern, Nettorendite", hu: "Bérleti jövedelmezőség-kalkulátor: ár, felújítás, bérleti díj, rezsi, adók, nettó hozam" },
+      { fr: "Budget de rénovation type au m² selon le niveau de finition", en: "Typical renovation budget per m² by finish level", de: "Typisches Renovierungsbudget pro m² nach Ausstattungsniveau", hu: "Jellemző felújítási költség m²-enként, kivitelezési szint szerint" },
+      { fr: "Check-list de visite et de vérifications : état de l'immeuble, charges, titre de propriété, hypothèques", en: "Viewing and due-diligence checklist: building condition, charges, title deed, mortgages", de: "Checkliste für Besichtigung und Prüfung: Gebäudezustand, Nebenkosten, Grundbuch, Hypotheken", hu: "Megtekintési és átvilágítási ellenőrzőlista: épület állapota, közös költség, tulajdoni lap, jelzálog" },
+      { fr: "Modèles bilingues de bail et de mandat de gestion", en: "Bilingual lease and management mandate templates", de: "Zweisprachige Muster für Mietvertrag und Verwaltungsauftrag", hu: "Kétnyelvű bérleti és kezelési megbízási minták" },
+      { fr: "Calculateur des frais d'achat et de revente", en: "Purchase and resale cost calculator", de: "Rechner für Kauf- und Verkaufskosten", hu: "Vételi és eladási költségkalkulátor" },
+    ]},
+    { t: { fr: "Pour décider en confiance", en: "To decide with confidence", de: "Für eine sichere Entscheidung", hu: "A magabiztos döntéshez" }, items: [
+      { fr: "Les erreurs fréquentes des investisseurs étrangers à Budapest", en: "Common mistakes made by foreign investors in Budapest", de: "Häufige Fehler ausländischer Investoren in Budapest", hu: "A külföldi befektetők gyakori hibái Budapesten" },
+      { fr: "Études de cas chiffrées : achat, rénovation et location du début à la fin", en: "Case studies with real numbers: purchase, renovation and rental from start to finish", de: "Fallstudien mit echten Zahlen: Kauf, Renovierung und Vermietung von A bis Z", hu: "Esettanulmányok valós számokkal: vásárlás, felújítás és kiadás az elejétől a végéig" },
+      { fr: "Glossaire immobilier hongrois (termes juridiques et techniques EN/HU/FR)", en: "Hungarian real estate glossary (legal and technical terms EN/HU/FR)", de: "Ungarisches Immobilienglossar (juristische und technische Begriffe EN/HU/FR)", hu: "Magyar ingatlanszótár (jogi és műszaki kifejezések EN/HU/FR)" },
+      { fr: "FAQ : un étranger peut-il acheter ? Quels risques ? Quels impôts ?", en: "FAQ: Can a foreigner buy? What are the risks? What are the taxes?", de: "FAQ: Darf ein Ausländer kaufen? Welche Risiken? Welche Steuern?", hu: "GYIK: Vásárolhat-e külföldi? Milyen kockázatok? Milyen adók?" },
+      { fr: "Annuaire de contacts de confiance : avocats, notaires, artisans, comptables", en: "Directory of trusted contacts: lawyers, notaries, contractors, accountants", de: "Verzeichnis vertrauenswürdiger Kontakte: Anwälte, Notare, Handwerker, Steuerberater", hu: "Megbízható kapcsolatok jegyzéke: ügyvédek, közjegyzők, kivitelezők, könyvelők" },
+    ]},
+  ],
+};

@@ -43,6 +43,8 @@
   if (f) {
     var q = new URLSearchParams(location.search).get("p");
     if (q) { var sel = f.querySelector("select"); [].forEach.call(sel.options, function (o) { if (o.text === q) sel.value = o.text; }); }
+    var rq = new URLSearchParams(location.search).get("r");
+    if (rq) { var ta = f.querySelector("textarea"); if (ta && !ta.value) ta.value = "Resource: " + rq + "\n"; }
     f.addEventListener("submit", function (e) {
       e.preventDefault();
       var d = new FormData(f), prop = d.get("property");
