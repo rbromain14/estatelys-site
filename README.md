@@ -49,8 +49,7 @@ Dans **hPanel Hostinger → Domaines → votre domaine → DNS / Nameservers →
 ## Points à valider
 - **E-mail / téléphone** : `info@estatelys.com` et `+36 30 957 6834` repris de l'ancienne brochure Paulay Ede. À confirmer.
 - **« 60+ appartements rénovés »** : chiffre repris du projet Lovable. À confirmer.
-- **Paulay Ede 18** : pas de photos disponibles → carte « Photos et brochure sur demande ». Déposer les photos (`paulay-01.jpg`…) et remplir `cover` / `images`.
 - **Stollár Béla 22** : les photos intérieures sont des rendus 3D (mention affichée sous la galerie).
 - **Formulaire de contact** : ouvre la messagerie du visiteur (mailto). Pour recevoir les messages sans mailto, brancher Formspree ou Web3Forms (gratuit) sur le `<form id="cform">`.
-- **Mentions légales** : non incluses (raison sociale, numéro d'immatriculation, adresse du siège à fournir).
+- **Mentions légales** : page `/legal/` (IIB, Cg. 01-09-387534, adószám 27184192-2-42, siège 1088 Budapest, Múzeum körút 10. 3. em. 13., d'après ceginfo.hu / opten.hu). À faire relire par votre avocat ou comptable.
 - Photos de la ville : Unsplash (licence libre, crédit affiché).

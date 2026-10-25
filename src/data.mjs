@@ -14,6 +14,78 @@ export const SITE = {
   whatsapp: "36309576834",
   city: "Budapest, Magyarország",
   hufRate: 364, // HUF per EUR used for the indicative HUF amounts (Oct 2026)
+  // Publisher (source: public company registry, ceginfo.hu / opten.hu)
+  company: "Investissement Immobilier Bud Kft.",
+  companyFull: "Investissement Immobilier Bud Korlátolt Felelősségű Társaság",
+  seat: "1088 Budapest, Múzeum körút 10. 3. em. 13.",
+  regNo: "01-09-387534",
+  court: "Fővárosi Törvényszék Cégbírósága",
+  taxNo: "27184192-2-42",
+  director: "Yohan Royer",
+};
+
+export const legal = {
+  title: { fr: "Mentions légales et confidentialité", en: "Legal notice and privacy", de: "Impressum und Datenschutz", hu: "Impresszum és adatvédelem" },
+  nav: { fr: "Mentions légales", en: "Legal notice", de: "Impressum", hu: "Impresszum" },
+  publisher: { fr: "Éditeur du site", en: "Site publisher", de: "Herausgeber", hu: "A honlap üzemeltetője" },
+  lblName: { fr: "Raison sociale", en: "Company name", de: "Firma", hu: "Cégnév" },
+  lblSeat: { fr: "Siège social", en: "Registered office", de: "Sitz", hu: "Székhely" },
+  lblReg: { fr: "Numéro d'immatriculation", en: "Company registration number", de: "Firmenbuchnummer", hu: "Cégjegyzékszám" },
+  lblCourt: { fr: "Tribunal d'enregistrement", en: "Registry court", de: "Registergericht", hu: "Nyilvántartó cégbíróság" },
+  lblTax: { fr: "Numéro fiscal", en: "Tax number", de: "Steuernummer", hu: "Adószám" },
+  lblDir: { fr: "Gérant", en: "Managing director", de: "Geschäftsführer", hu: "Ügyvezető" },
+  lblContact: { fr: "Contact", en: "Contact", de: "Kontakt", hu: "Elérhetőség" },
+  brand: {
+    fr: "Estatelys Budapest est le nom commercial sous lequel Investissement Immobilier Bud Kft. présente ses biens.",
+    en: "Estatelys Budapest is the trade name under which Investissement Immobilier Bud Kft. presents its properties.",
+    de: "Estatelys Budapest ist der Handelsname, unter dem die Investissement Immobilier Bud Kft. ihre Objekte präsentiert.",
+    hu: "Az Estatelys Budapest az a kereskedelmi név, amelyen az Investissement Immobilier Bud Kft. ingatlanjait bemutatja.",
+  },
+  hosting: { fr: "Hébergement", en: "Hosting", de: "Hosting", hu: "Tárhelyszolgáltató" },
+  hostingText: {
+    fr: "GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. Nom de domaine enregistré chez Hostinger.",
+    en: "GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Domain name registered with Hostinger.",
+    de: "GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Domain bei Hostinger registriert.",
+    hu: "GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. A domain regisztrátora a Hostinger.",
+  },
+  offers: { fr: "Informations sur les biens", en: "Property information", de: "Angaben zu den Objekten", hu: "Az ingatlanokra vonatkozó információk" },
+  offersText: {
+    fr: "Les descriptions, surfaces, prix et loyers sont donnés à titre indicatif et ne constituent pas une offre contractuelle. Les montants en forints sont convertis au taux indiqué sur chaque page. Les visualisations 3D sont signalées comme telles.",
+    en: "Descriptions, floor areas, prices and rents are indicative and do not constitute a contractual offer. HUF amounts are converted at the rate stated on each page. Computer-generated visualisations are labelled as such.",
+    de: "Beschreibungen, Flächen, Preise und Mieten sind unverbindlich und stellen kein Vertragsangebot dar. HUF-Beträge werden zum auf jeder Seite angegebenen Kurs umgerechnet. Visualisierungen sind als solche gekennzeichnet.",
+    hu: "A leírások, alapterületek, árak és bérleti díjak tájékoztató jellegűek, nem minősülnek ajánlattételnek. A forintösszegek az adott oldalon feltüntetett árfolyamon vannak átszámítva. A látványterveket ennek megfelelően jelöljük.",
+  },
+  privacy: { fr: "Données personnelles", en: "Personal data", de: "Datenschutz", hu: "Adatkezelés" },
+  privacyText: {
+    fr: [
+      "Responsable du traitement : Investissement Immobilier Bud Kft. (coordonnées ci-dessus).",
+      "Ce site n'utilise ni cookies, ni outil de mesure d'audience, ni publicité. Votre choix de langue est seulement enregistré dans votre navigateur.",
+      "Le formulaire de contact n'envoie rien au site : il ouvre votre messagerie. Les messages reçus servent uniquement à répondre à votre demande et ne sont conservés que le temps nécessaire au traitement de votre demande.",
+      "Pour afficher les pages, votre navigateur charge des ressources chez des tiers, qui reçoivent votre adresse IP : Google Fonts (polices), OpenStreetMap (fond de carte), unpkg.com (bibliothèque de carte Leaflet) et Unsplash (photos de la ville).",
+      "Vous pouvez demander l'accès, la rectification ou l'effacement de vos données en écrivant à l'adresse ci-dessus, et déposer une réclamation auprès de la NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
+    ],
+    en: [
+      "Data controller: Investissement Immobilier Bud Kft. (details above).",
+      "This site uses no cookies, no analytics and no advertising. Your language choice is only stored in your own browser.",
+      "The contact form sends nothing to the site: it opens your email app. Messages we receive are used only to answer your request and kept only as long as needed to handle it.",
+      "To display the pages, your browser loads resources from third parties, which receive your IP address: Google Fonts (fonts), OpenStreetMap (map tiles), unpkg.com (Leaflet map library) and Unsplash (city photos).",
+      "You may request access to, correction or erasure of your data by writing to the address above, and lodge a complaint with the NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
+    ],
+    de: [
+      "Verantwortlicher: Investissement Immobilier Bud Kft. (Angaben oben).",
+      "Diese Website verwendet keine Cookies, keine Reichweitenmessung und keine Werbung. Ihre Sprachwahl wird nur in Ihrem eigenen Browser gespeichert.",
+      "Das Kontaktformular sendet nichts an die Website, es öffnet Ihr E-Mail-Programm. Eingehende Nachrichten dienen nur der Beantwortung Ihrer Anfrage und nur so lange wie dafür nötig aufbewahrt.",
+      "Zur Anzeige lädt Ihr Browser Inhalte von Dritten, die Ihre IP-Adresse erhalten: Google Fonts (Schriften), OpenStreetMap (Kartenkacheln), unpkg.com (Kartenbibliothek Leaflet) und Unsplash (Stadtfotos).",
+      "Sie können Auskunft, Berichtigung oder Löschung Ihrer Daten unter der obigen Adresse verlangen und Beschwerde bei der NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu) einlegen.",
+    ],
+    hu: [
+      "Adatkezelő: Investissement Immobilier Bud Kft. (adatai fent).",
+      "A honlap nem használ sütiket, látogatottságmérést vagy hirdetéseket. A választott nyelvet csak az Ön böngészője tárolja.",
+      "A kapcsolatfelvételi űrlap nem küld adatot a honlapra: megnyitja az Ön levelezőprogramját. A beérkező üzeneteket kizárólag a megkeresés megválaszolására használjuk, és csak az ehhez szükséges ideig őrizzük.",
+      "Az oldalak megjelenítéséhez a böngésző harmadik felektől tölt be tartalmat, amelyek megkapják az Ön IP-címét: Google Fonts (betűtípusok), OpenStreetMap (térkép), unpkg.com (Leaflet térképkönyvtár) és Unsplash (városfotók).",
+      "Kérheti adatai megismerését, helyesbítését vagy törlését a fenti címen, és panaszt tehet a NAIH-nál (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
+    ],
+  },
 };
 
 export const LANGS = ["fr", "en", "de", "hu"];
@@ -218,6 +290,10 @@ export const cap = {
   studioB: { fr: "Studio B", en: "Studio B", de: "Studio B", hu: "B stúdió" },
   studioBg: { fr: "Studio B · mezzanine", en: "Studio B · sleeping gallery", de: "Studio B · Schlafgalerie", hu: "B stúdió · galéria" },
   kitchenette: { fr: "Kitchenette", en: "Kitchenette", de: "Küchenzeile", hu: "Teakonyha" },
+  moulding: { fr: "Moulures", en: "Mouldings", de: "Stuck", hu: "Stukkó" },
+  wc: { fr: "WC", en: "WC", de: "WC", hu: "WC" },
+  hallway: { fr: "Entrée", en: "Entrance hall", de: "Eingangsbereich", hu: "Előszoba" },
+  lift: { fr: "Ascenseur", en: "Lift", de: "Aufzug", hu: "Lift" },
 };
 
 const L = (fr, en, de, hu) => ({ fr, en, de, hu });
@@ -299,9 +375,26 @@ export const projects = [
       "Eine 5-Zimmer-Wohnung mit 104 m² im 3. Stock, Südost-Ausrichtung, wenige Schritte von Oper und Andrássy út: hohe Decken, restaurierter Stuck, Fußbodenheizung, zentrale Klimaanlage und Smart Home.",
       "104 m²-es, 5 szobás, délkeleti fekvésű lakás a 3. emeleten, pár lépésre az Operától és az Andrássy úttól: magas belmagasság, felújított stukkók, padlófűtés, központi klíma és okosotthon.",
     ),
-    cover: null,
-    images: [],
-    plans: [],
+    districtText: L(
+      "Paulay Ede utca se trouve à Terézváros, le VIᵉ arrondissement, entre l'Opéra d'État hongrois et l'avenue Andrássy, classée au patrimoine mondial de l'UNESCO. Façades historiques, boutiques de l'avenue, restaurants et lieux culturels sont à quelques pas ; le métro M1 s'arrête à Opera et la place Deák Ferenc (M1, M2, M3) est à quelques minutes à pied.",
+      "Paulay Ede utca is in Terézváros, Budapest's 6th District, between the Hungarian State Opera and Andrássy Avenue, a UNESCO World Heritage site. Historic façades, the avenue's boutiques, restaurants and cultural venues are steps away; metro M1 stops at Opera and Deák Ferenc tér (M1, M2, M3) is a few minutes' walk.",
+      "Die Paulay Ede utca liegt in Terézváros, dem 6. Bezirk, zwischen der Ungarischen Staatsoper und der Andrássy út, UNESCO-Welterbe. Historische Fassaden, Boutiquen, Restaurants und Kultur sind nur wenige Schritte entfernt; die Metro M1 hält an der Oper, der Deák Ferenc tér (M1, M2, M3) ist wenige Gehminuten entfernt.",
+      "A Paulay Ede utca Terézvárosban, a VI. kerületben található, a Magyar Állami Operaház és az UNESCO-világörökség részét képező Andrássy út között. Történelmi homlokzatok, az út üzletei, éttermek és kulturális helyszínek pár lépésre; az M1-es metró az Operánál áll meg, a Deák Ferenc tér (M1, M2, M3) néhány perc séta.",
+    ),
+    buildingText: L(
+      "Un immeuble historique de Paulay Ede utca, avec hall d'entrée orné de mosaïques au sol, ascenseur vitré dans la cour et exposition ensoleillée.",
+      "A historic apartment building on Paulay Ede utca, with a mosaic-floored entrance hall, a glazed lift in the courtyard and a sunny aspect.",
+      "Ein historisches Wohnhaus in der Paulay Ede utca mit Eingangshalle mit Mosaikboden, verglastem Aufzug im Hof und sonniger Lage.",
+      "Történelmi bérház a Paulay Ede utcában, mozaikpadlós bejárati csarnokkal, üvegezett lifttel az udvaron és napos fekvéssel.",
+    ),
+    cover: "paulay-01",
+    images: [
+      ["paulay-01", "living"], ["paulay-02", "kitchen"], ["paulay-03", "master"], ["paulay-04", "ensuite"],
+      ["paulay-05", "wardrobe"], ["paulay-06", "living"], ["paulay-07", "moulding"], ["paulay-08", "bath"],
+      ["paulay-09", "wc"], ["paulay-10", "hallway"],
+    ],
+    buildingImages: [["paulay-11", "hall"], ["paulay-12", "lift"]],
+    plans: ["paulay-plan"],
   },
   {
     slug: "rakoczi-40",

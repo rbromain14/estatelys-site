@@ -3,7 +3,7 @@
 // PREVIEW=1 node build.mjs  -> links end in index.html (for file:// or preview hosting)
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal } from "./src/data.mjs";
 
 const OUT = process.env.OUT || "dist";
 const PREVIEW = process.env.PREVIEW === "1";
@@ -121,10 +121,11 @@ ${body}
     </div>
     <div class="ftr-c">
       ${nav.map(([r, n]) => `<a href="${R(r)}">${n}</a>`).join("")}
+      <a href="${R("legal/")}">${legal.nav[l]}</a>
     </div>
   </div>
   <div class="wrap ftr-b small muted">
-    <span>© ${new Date().getFullYear()} ${SITE.name}</span>
+    <span>© ${new Date().getFullYear()} ${SITE.name} · ${SITE.company} · Cg. ${SITE.regNo}</span>
     <span>${t.photoCredit[l]}</span>
   </div>
 </footer>
@@ -408,6 +409,28 @@ function contact(l) {
   return layout({ l, route, title: `${t.navContact[l]} — ${SITE.name}`, desc: t.contactIntro[l], body });
 }
 
+
+function legalPage(l) {
+  const route = "legal/";
+  const rows = [[legal.lblName[l], `${SITE.company}<br><span class="muted small">${SITE.companyFull}</span>`], [legal.lblSeat[l], SITE.seat],
+    [legal.lblReg[l], SITE.regNo], [legal.lblCourt[l], SITE.court], [legal.lblTax[l], SITE.taxNo], [legal.lblDir[l], SITE.director],
+    [legal.lblContact[l], `<a href="mailto:${SITE.email}">${SITE.email}</a> · <a href="tel:${SITE.phoneHref}">${SITE.phone}</a>`]];
+  const body = `
+<section class="phdr wrap"><p class="eyebrow">${legal.nav[l]}</p><h1>${legal.title[l]}</h1></section>
+<section class="wrap sec0 legal">
+  <h2 class="h3">${legal.publisher[l]}</h2>
+  <dl class="ldl">${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
+  <p class="muted">${legal.brand[l]}</p>
+  <h2 class="h3">${legal.hosting[l]}</h2>
+  <p class="muted">${legal.hostingText[l]}</p>
+  <h2 class="h3">${legal.offers[l]}</h2>
+  <p class="muted">${legal.offersText[l]}</p>
+  <h2 class="h3">${legal.privacy[l]}</h2>
+  ${legal.privacyText[l].map((p) => `<p class="muted">${p}</p>`).join("")}
+</section>`;
+  return layout({ l, route, title: `${legal.title[l]} — ${SITE.name}`, desc: `${legal.title[l]} — ${SITE.company}`, body });
+}
+
 function notFound() {
   const l = "fr", route = "";
   const body = `<section class="phdr wrap"><p class="eyebrow">404</p><h1>${t.notFound.fr} · ${t.notFound.en}</h1>
@@ -425,7 +448,7 @@ cpSync("src/assets", join(OUT, "assets"), { recursive: true });
 
 const urls = [];
 for (const l of LANGS) {
-  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["about/", about(l)], ["contact/", contact(l)],
+  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)],
     ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); }
 }
