@@ -68,3 +68,4 @@ h2{font-size:clamp(2rem,4vw,3.4rem)}
 .form input,.form textarea,.form select{background:#fff;border-color:var(--tx)}
 .ref{border:1px solid var(--tx);background:#fff}
 .band h2{font-family:var(--disp)}
+.stats b.sm{font-size:clamp(.95rem,1.35vw,1.2rem);letter-spacing:0}
