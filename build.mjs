@@ -8,6 +8,8 @@ import { readFileSync } from "node:fs";
 const REFS = existsSync("src/refs.json") ? JSON.parse(readFileSync("src/refs.json", "utf8")) : [];
 
 const OUT = process.env.OUT || "dist";
+// A property counts as for sale unless its status in data.mjs is set to "sold"
+const FOR_SALE = projects.filter((p) => (p.status || "for-sale") === "for-sale");
 const PREVIEW = process.env.PREVIEW === "1";
 const LOCALE = { fr: "fr-FR", en: "en-GB", de: "de-DE", hu: "hu-HU" };
 const OG_LOCALE = { fr: "fr_FR", en: "en_GB", de: "de_DE", hu: "hu_HU" };
@@ -176,7 +178,8 @@ function home(l) {
   const R = (r) => rel(l, route, l, r);
   const body = `
 <section class="hero dk">
-  <img class="hero-img" src="${A("img/hero.jpg")}" srcset="${A("img/hero-s.jpg")} 800w, ${A("img/hero.jpg")} 1920w" sizes="100vw" alt="" fetchpriority="high">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1920" srcset="https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=900 900w, https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1600 1600w, https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=2400 2400w" sizes="100vw" alt="${esc(t.heroAlt[l])}" fetchpriority="high">
+  <a class="hero-cr" href="https://unsplash.com/photos/QtPzZP9Y2Sk" target="_blank" rel="noopener">© waa towaw / Unsplash</a>
   <div class="hero-fade"></div>
   <div class="wrap hero-in">
     <p class="eyebrow">${t.heroEyebrow[l]}</p>
@@ -192,7 +195,7 @@ function home(l) {
   <div class="wrap stats-in">
     <div><b>60+</b><span>${t.stat1[l]}</span></div>
     <div><b class="sm">I · II · V · VI · VII · VIII · XIII</b><span>${t.stat2[l]}</span></div>
-    <div><b>${projects.length}</b><span>${t.stat3[l]}</span></div>
+    <a class="stat-l" href="${R("projects/")}"><b>${FOR_SALE.length}</b><span>${t.stat3[l]} →</span></a>
     <div><b class="sm">FR · EN · DE · HU</b><span>${t.stat4[l]}</span></div>
   </div>
 </section>
@@ -201,7 +204,7 @@ function home(l) {
     <div><p class="eyebrow">${t.featuredEyebrow[l]}</p><h2>${t.featuredTitle[l]}</h2></div>
     <a class="link" href="${R("projects/")}">${t.allProjects[l]} →</a>
   </div>
-  <div class="grid2">${projects.map((p) => card(p, l, route)).join("")}</div>
+  <div class="grid2">${FOR_SALE.map((p) => card(p, l, route)).join("")}</div>
 </section>
 <section class="sec wrap">
   <p class="eyebrow">${t.jobEyebrow[l]}</p>
@@ -237,10 +240,10 @@ function projectsPage(l) {
   <h1>${t.projTitle[l]}</h1>
   <p class="lead muted">${t.projIntro[l]}</p>
 </div></section>
-<section class="wrap"><div class="grid2">${projects.map((p) => card(p, l, route)).join("")}</div></section>
+<section class="wrap"><div class="grid2">${FOR_SALE.map((p) => card(p, l, route)).join("")}</div></section>
 <section class="sec wrap">
   <h2 class="h3">${t.mapTitle[l]}</h2>
-  ${mapBlock(projects, l)}
+  ${mapBlock(FOR_SALE, l)}
 </section>`;
   return layout({ l, route, title: `${t.projTitle[l]} — ${SITE.name}`, desc: t.projIntro[l], body, extraHead: leafletHead });
 }
@@ -248,7 +251,7 @@ function projectsPage(l) {
 function projectPage(p, l) {
   const route = `projects/${p.slug}/`;
   const R = (r) => rel(l, route, l, r);
-  const others = projects.filter((x) => x.slug !== p.slug);
+  const others = FOR_SALE.filter((x) => x.slug !== p.slug);
   const gallery = p.images.length ? `
 <section class="sec wrap">
   <h2 class="h3">${t.gallery[l]}</h2>
@@ -398,7 +401,7 @@ function contact(l) {
         <label><span>${t.phone[l]}</span><input name="phone" type="tel" autocomplete="tel"></label>
       </div>
       <label><span>${t.property[l]}</span>
-        <select name="property"><option value="">${t.general[l]}</option>${projects.map((p) => `<option>${p.name}</option>`).join("")}</select>
+        <select name="property"><option value="">${t.general[l]}</option>${FOR_SALE.map((p) => `<option>${p.name}</option>`).join("")}</select>
       </label>
       <label><span>${t.message[l]}</span><textarea name="message" rows="6" required></textarea></label>
       <button class="btn" type="submit">${t.send[l]}</button>
@@ -456,6 +459,7 @@ function resourcesPage(l) {
 
 function referencesPage(l) {
   const route = "references/";
+  const src = (r, i) => asset(l, route, `img/refs/${r.slug}-${i + 1}.jpg`);
   const body = `
 <section class="phdr dk"><div class="wrap">
   <p class="eyebrow">${t.navRefs[l]}</p>
@@ -463,14 +467,16 @@ function referencesPage(l) {
   <p class="lead muted">${refsText.intro[l]}</p>
 </div></section>
 <section class="sec wrap">
-  <div class="grid3 refs">
+  <div class="grid2 refs" data-gallery>
     ${REFS.map((r) => `<figure class="ref">
-      <div class="ref-m">${r.photos.map((ph, i) => `<img src="${asset(l, route, `img/refs/${r.slug}-${i + 1}.jpg`)}" alt="${esc(r.name)}" loading="lazy" decoding="async"${i ? ' class="ref-x"' : ""}>`).join("")}</div>
-      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? esc(r.district[l] || r.district.en) + " · " : ""}Budapest</p></figcaption>
+      <button class="gal-i ref-m" data-full="${src(r, 0)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}"><img src="${src(r, 0)}" alt="${esc(r.name)}" loading="lazy" decoding="async"></button>
+      <div class="ref-t">${r.photos.slice(1).map((_, k) => `<button class="gal-i" data-full="${src(r, k + 1)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}"><img src="${src(r, k + 1)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>
+      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p></figcaption>
     </figure>`).join("")}
   </div>
-</section>`;
-  return layout({ l, route, title: `${t.navRefs[l]} — ${SITE.name}`, desc: refsText.intro[l], body });
+</section>
+<div class="lb" id="lb" hidden><button class="lb-x" aria-label="Close">×</button><button class="lb-p" aria-label="Previous">‹</button><figure><img alt=""><figcaption></figcaption></figure><button class="lb-n" aria-label="Next">›</button></div>`;
+  return layout({ l, route, title: `${t.navRefs[l]} — ${SITE.name}`, desc: refsText.intro[l], body, image: `refs/${REFS[0]?.slug}-1` });
 }
 
 function notFound() {

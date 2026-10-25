@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "andrassy-53",
+  "name": "Andrássy út 53",
+  "district": {
+   "fr": "VIᵉ arrondissement",
+   "en": "6th district",
+   "de": "6. Bezirk",
+   "hu": "VI. kerület"
+  },
+  "photos": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg"
+  ]
+ },
+ {
+  "slug": "dessewffy-47",
+  "name": "Dessewffy utca 47",
+  "district": {
+   "fr": "VIᵉ arrondissement",
+   "en": "6th district",
+   "de": "6. Bezirk",
+   "hu": "VI. kerület"
+  },
+  "photos": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg"
+  ]
+ },
+ {
+  "slug": "szent-istvan-17",
+  "name": "Szent István körút 17",
+  "district": null,
+  "photos": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg"
+  ]
+ },
+ {
+  "slug": "kertesz-43",
+  "name": "Kertész utca 43",
+  "district": {
+   "fr": "VIIᵉ arrondissement",
+   "en": "7th district",
+   "de": "7. Bezirk",
+   "hu": "VII. kerület"
+  },
+  "photos": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg"
+  ]
+ },
+ {
+  "slug": "harsfa-57",
+  "name": "Hársfa utca 57",
+  "district": {
+   "fr": "VIIᵉ arrondissement",
+   "en": "7th district",
+   "de": "7. Bezirk",
+   "hu": "VII. kerület"
+  },
+  "photos": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg"
+  ]
+ },
+ {
+  "slug": "aradi-17",
+  "name": "Aradi utca 17",
+  "district": {
+   "fr": "VIᵉ arrondissement",
+   "en": "6th district",
+   "de": "6. Bezirk",
+   "hu": "VI. kerület"
+  },
+  "photos": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg"
+  ]
+ }
+]

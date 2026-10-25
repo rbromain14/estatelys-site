@@ -108,6 +108,7 @@ export const t = {
     de: "Estatelys Budapest kauft, renoviert und verkauft Charakterwohnungen im 1., 2., 5., 6., 7., 8. und 13. Bezirk von Budapest.",
     hu: "Az Estatelys Budapest karakteres lakásokat vásárol, újít fel és értékesít Budapest I., II., V., VI., VII., VIII. és XIII. kerületében.",
   },
+  heroAlt: { fr: "Le Parlement de Budapest de nuit, vu à travers les arcades du Bastion des pêcheurs", en: "Budapest's Parliament at night, seen through the arches of the Fishermen's Bastion", de: "Das Budapester Parlament bei Nacht, durch die Bögen der Fischerbastei gesehen", hu: "Az Országház éjjel a Halászbástya árkádjain át" },
   heroEyebrow: { fr: "Budapest · Immobilier de caractère", en: "Budapest · Character real estate", de: "Budapest · Charakterimmobilien", hu: "Budapest · Karakteres ingatlanok" },
   heroTitle: {
     fr: "Redonner vie aux plus belles adresses de Budapest",
@@ -300,6 +301,7 @@ const L = (fr, en, de, hu) => ({ fr, en, de, hu });
 export const projects = [
   {
     slug: "stollar-bela-22",
+    status: "for-sale", // set to "sold" to remove it from the listing and the counter
     name: "Stollár Béla 22",
     address: "Stollár Béla utca 22, 1055 Budapest",
     lat: 47.5107, lng: 19.0513,
@@ -349,6 +351,7 @@ export const projects = [
   },
   {
     slug: "paulay-ede-18",
+    status: "for-sale", // set to "sold" to remove it from the listing and the counter
     name: "Paulay Ede 18",
     address: "Paulay Ede utca 18, 1061 Budapest",
     lat: 47.4997, lng: 19.0577,
@@ -397,6 +400,7 @@ export const projects = [
   },
   {
     slug: "rakoczi-40",
+    status: "for-sale", // set to "sold" to remove it from the listing and the counter
     name: "Rákóczi 40",
     address: "Rákóczi út 40, 1072 Budapest",
     lat: 47.4952, lng: 19.0655,
@@ -447,6 +451,7 @@ export const projects = [
   },
   {
     slug: "klauzal-23",
+    status: "for-sale", // set to "sold" to remove it from the listing and the counter
     name: "Klauzál 23",
     address: "Klauzál utca 23, 1072 Budapest",
     lat: 47.4991, lng: 19.0638,
