@@ -210,6 +210,12 @@ export const t = {
     de: "HUF-Beträge unverbindlich, zum Kurs von 364 HUF/EUR (Oktober 2026).",
     hu: "A forintösszegek tájékoztató jellegűek, 364 HUF/EUR árfolyamon (2026. október).",
   },
+  eurNote: {
+    fr: "Prix fixé en forints ; montant en euros indicatif, au taux de 364 HUF/EUR (octobre 2026).",
+    en: "Price set in HUF; EUR amount indicative, at 364 HUF/EUR (October 2026).",
+    de: "Preis in HUF festgelegt; EUR-Betrag unverbindlich, zum Kurs von 364 HUF/EUR (Oktober 2026).",
+    hu: "Az ár forintban rögzített; az euróösszeg tájékoztató jellegű, 364 HUF/EUR árfolyamon (2026. október).",
+  },
   aboutEyebrow: { fr: "À propos", en: "About us", de: "Über uns", hu: "Rólunk" },
   aboutTitle: { fr: "L'art de rénover le patrimoine de Budapest", en: "The art of renovating Budapest's heritage", de: "Die Kunst, Budapests Erbe zu renovieren", hu: "Budapest örökségének megújítása" },
   aboutIntro: {

@@ -26,6 +26,10 @@ const huf = (n, l) => {
 const pct = (v, l) => new Intl.NumberFormat(LOCALE[l], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v) + (l === "en" ? "%" : " %");
 const priceMain = (p, l) => (p.priceFromHuf ? p.priceHuf : eur(p.price, l));
 const priceAlt = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : huf(p.price, l));
+// EUR on the left, HUF on the right; the currency the price was set in carries no "≈"
+const priceEur = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l));
+const priceFt = (p, l) => (p.priceFromHuf ? p.priceHuf : huf(p.price, l));
+const priceDuo = (p, l) => `<span class="pd"><span class="pd-e">${priceEur(p, l)}</span><span class="pd-h">${priceFt(p, l)}</span></span>`;
 
 // path helpers: a "route" is like "" | "projects/" | "projects/klauzal-23/"
 const langBase = (l) => (l === "fr" ? "" : `${l}/`);
@@ -161,8 +165,8 @@ function card(p, l, route) {
     <h3>${p.name}</h3>
     <p class="muted">${p.short[l]}</p>
     <div class="card-f">
-      <span class="price">${priceMain(p, l)}</span>
-      ${p.yield ? `<span class="yield">${t.yield[l]} ${pct(p.yield, l)}</span>` : `<span class="muted small">${priceAlt(p, l)}</span>`}
+      <span class="price">${priceDuo(p, l)}</span>
+      ${p.yield ? `<span class="yield">${t.yield[l]} ${pct(p.yield, l)}</span>` : ""}
     </div>
   </div>
 </a>`;
@@ -268,11 +272,11 @@ function projectPage(p, l) {
 
   const invest = p.rent ? `
 <div class="inv">
-  <div><span>${t.price[l]}</span><b>${priceMain(p, l)}</b><em>${priceAlt(p, l)}${p.priceM2 ? ` · ${p.priceM2} / m²` : ""}</em></div>
+  <div><span>${t.price[l]}</span><b>${priceDuo(p, l)}</b>${p.priceM2 ? `<em>${p.priceM2} / m²</em>` : ""}</div>
   <div><span>${t.rent[l]}</span><b>${eur(p.rent, l)}</b><em>${p.rentDetail[l]} · ${eur(p.rent * 12, l)} / ${l === "fr" ? "an" : l === "de" ? "Jahr" : l === "hu" ? "év" : "year"}</em></div>
   <div><span>${t.yield[l]}</span><b>${pct(p.yield, l)}</b><em>${eur(p.rent * 12, l)} ÷ ${eur(p.price, l)}</em></div>
 </div>
-<p class="small muted note">${t.yieldNote[l]} ${t.hufNote[l]}</p>` : "";
+<p class="small muted note">${t.yieldNote[l]} ${(p.priceFromHuf ? t.eurNote : t.hufNote)[l]}</p>` : "";
 
   const building = p.buildingText ? `
 <section class="sec wrap">
@@ -318,12 +322,12 @@ function projectPage(p, l) {
     </div>
     <aside class="pbox">
       <p class="eyebrow">${t.price[l]}</p>
-      <p class="pbig">${priceMain(p, l)}</p>
-      <p class="muted">${priceAlt(p, l)}${!p.rent && p.priceM2 ? ` · ${p.priceM2} / m²` : ""}</p>
+      <p class="pbig">${priceDuo(p, l)}</p>
+      ${!p.rent && p.priceM2 ? `<p class="muted">${p.priceM2} / m²</p>` : ""}
       ${p.yield ? `<dl><div><dt>${t.rent[l]}</dt><dd>${eur(p.rent, l)}</dd></div><div><dt>${t.yield[l]}</dt><dd>${pct(p.yield, l)}</dd></div></dl>` : ""}
       <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.askInfo[l]}</a>
       <a class="btn btn-o wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.visit[l]}</a>
-      <p class="small muted">${p.rent ? "" : t.hufNote[l]}</p>
+      <p class="small muted">${p.rent ? "" : (p.priceFromHuf ? t.eurNote : t.hufNote)[l]}</p>
     </aside>
   </div>
 </section>

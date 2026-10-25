@@ -70,3 +70,9 @@ h2{font-size:clamp(2rem,4vw,3.4rem)}
 .ref{border:1px solid var(--tx);background:#fff}
 .band h2{font-family:var(--disp)}
 .stats b.sm{font-size:clamp(.95rem,1.35vw,1.2rem);letter-spacing:0}
+/* price: EUR left, HUF right */
+.pd{display:flex;align-items:baseline;justify-content:space-between;gap:.75em;width:100%;flex-wrap:wrap}
+.pd-h{font-size:.62em;font-weight:600;color:var(--mu);white-space:nowrap}
+.pd-e{white-space:nowrap}
+.price{display:block;width:100%}
+.pbig .pd{flex-wrap:nowrap}.pbig{font-size:clamp(1.5rem,2.3vw,2.1rem)}
