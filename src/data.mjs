@@ -111,13 +111,13 @@ export const t = {
   heroAlt: { fr: "Le Parlement de Budapest de nuit, vu à travers les arcades du Bastion des pêcheurs", en: "Budapest's Parliament at night, seen through the arches of the Fishermen's Bastion", de: "Das Budapester Parlament bei Nacht, durch die Bögen der Fischerbastei gesehen", hu: "Az Országház éjjel a Halászbástya árkádjain át" },
   heroEyebrow: { fr: "Budapest · Immobilier de caractère", en: "Budapest · Character real estate", de: "Budapest · Charakterimmobilien", hu: "Budapest · Karakteres ingatlanok" },
   heroTitle: {
-    fr: "Redonner vie aux plus belles adresses de Budapest",
+    fr: "Redonner vie aux<br class=\"brd\"> plus belles adresses<br class=\"brd\"> de Budapest",
     en: "Bringing Budapest's finest addresses back to life",
     de: "Budapests schönsten Adressen neues Leben schenken",
     hu: "Új életet adunk Budapest legszebb címeinek",
   },
   heroText: {
-    fr: "Appartements rénovés à vendre dans les immeubles historiques du centre : résidences de prestige et investissements locatifs.",
+    fr: "Appartements rénovés à vendre dans les immeubles historiques du centre&nbsp;: résidences de prestige et investissements locatifs.",
     en: "Renovated apartments for sale in the city centre's historic buildings: prestige homes and rental investments.",
     de: "Renovierte Wohnungen zum Verkauf in historischen Gebäuden der Innenstadt: Prestigewohnungen und Mietinvestments.",
     hu: "Felújított eladó lakások a belváros történelmi épületeiben: prémium otthonok és bérleti befektetések.",

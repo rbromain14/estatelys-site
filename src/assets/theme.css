@@ -76,3 +76,11 @@ h2{font-size:clamp(2rem,4vw,3.4rem)}
 .pd-e{white-space:nowrap}
 .price{display:block;width:100%}
 .pbig .pd{flex-wrap:nowrap}.pbig{font-size:clamp(1.5rem,2.3vw,2.1rem)}
+/* hero title: forced 3 lines on desktop (FR) */
+.hero h1:has(br.brd){max-width:none}
+@media (max-width:760px){.hero h1 br.brd{display:none}}
+/* header: contact button same frame height as the language switch */
+.hdr-r{align-items:center}
+.hdr-r>.langs{height:38px;align-items:stretch}
+.hdr-r>.langs a{display:flex;align-items:center;padding:0 9px}
+.hdr-r>.btn-s{height:38px;padding:0 18px;font-size:.9rem}
