@@ -271,3 +271,4 @@ p{margin:0 0 1rem}
 .hero-cr{position:absolute;right:12px;bottom:10px;z-index:2;font-size:.66rem;color:rgba(236,230,218,.6)}
 .hero-cr:hover{color:#ece6da}
 .hero-fade{background:linear-gradient(180deg,rgba(10,9,8,.55) 0%,rgba(10,9,8,.15) 30%,rgba(10,9,8,.35) 60%,rgba(10,9,8,.92) 100%)}
+.hero-sig{display:none}

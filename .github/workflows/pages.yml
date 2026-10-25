@@ -1,4 +1,7 @@
 name: Deploy to GitHub Pages
+# Builds main at the site root, and every design/* branch under /preview/<name>/ (noindex).
+# Push to main to publish; a push to a design/* branch only rebuilds when main is redeployed,
+# so the workflow can also be started by hand (Actions > Run workflow).
 on:
   push:
     branches: [main]
@@ -15,10 +18,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - run: node build.mjs
+      - name: Build design previews
+        run: |
+          for ref in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/design/); do
+            name=${ref#origin/design/}
+            git worktree add -f "/tmp/wt-$name" "$ref"
+            (cd "/tmp/wt-$name" && OUT="$GITHUB_WORKSPACE/dist/preview/$name" NOINDEX=1 node build.mjs)
+            rm -f "dist/preview/$name/CNAME"
+          done
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

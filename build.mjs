@@ -1,13 +1,15 @@
 // Static site generator for Estatelys Budapest. No dependencies: `node build.mjs`.
 // Output: dist/  (FR at the root, EN/DE/HU under /en/, /de/, /hu/)
 // PREVIEW=1 node build.mjs  -> links end in index.html (for file:// or preview hosting)
-import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync } from "node:fs";
+import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources } from "./src/data.mjs";
-import { readFileSync } from "node:fs";
 const REFS = existsSync("src/refs.json") ? JSON.parse(readFileSync("src/refs.json", "utf8")) : [];
 
 const OUT = process.env.OUT || "dist";
+// Design variant: optional src/assets/theme.css (loaded after site.css) and its Google Fonts URL in src/theme.json
+const THEME = Object.assign({ fonts: "https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" },
+  existsSync("src/theme.json") ? JSON.parse(readFileSync("src/theme.json", "utf8")) : {}, { css: existsSync("src/assets/theme.css") });
 // A property counts as for sale unless its status in data.mjs is set to "sold"
 const FOR_SALE = projects.filter((p) => (p.status || "for-sale") === "for-sale");
 const PREVIEW = process.env.PREVIEW === "1";
@@ -77,8 +79,10 @@ ${alt}
 <link rel="icon" href="${A("assets/favicon.svg")}" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="${THEME.fonts}">
 <link rel="stylesheet" href="${A("assets/site.css")}">
+${THEME.css ? `<link rel="stylesheet" href="${A("assets/theme.css")}">` : ""}
+${process.env.NOINDEX ? '<meta name="robots" content="noindex">' : ""}
 ${extraHead}
 </head>
 <body class="${bodyClass}">
@@ -182,6 +186,7 @@ function home(l) {
   <a class="hero-cr" href="https://unsplash.com/photos/QtPzZP9Y2Sk" target="_blank" rel="noopener">© waa towaw / Unsplash</a>
   <div class="hero-fade"></div>
   <div class="wrap hero-in">
+    <img class="hero-sig" src="${A("assets/signature-white.png")}" alt="" width="1400" height="341">
     <p class="eyebrow">${t.heroEyebrow[l]}</p>
     <h1>${t.heroTitle[l]}</h1>
     <p class="lead">${t.heroText[l]}</p>
@@ -195,14 +200,14 @@ function home(l) {
   <div class="wrap stats-in">
     <div><b>60+</b><span>${t.stat1[l]}</span></div>
     <div><b class="sm">I · II · V · VI · VII · VIII · XIII</b><span>${t.stat2[l]}</span></div>
-    <a class="stat-l" href="${R("projects/")}"><b>${FOR_SALE.length}</b><span>${t.stat3[l]} →</span></a>
+    <a class="stat-l" href="${R("projects/")}"><b>${FOR_SALE.length}</b><span>${t.stat3[l]} <i class="arr">→</i></span></a>
     <div><b class="sm">FR · EN · DE · HU</b><span>${t.stat4[l]}</span></div>
   </div>
 </section>
 <section class="sec wrap">
   <div class="sec-h">
     <div><p class="eyebrow">${t.featuredEyebrow[l]}</p><h2>${t.featuredTitle[l]}</h2></div>
-    <a class="link" href="${R("projects/")}">${t.allProjects[l]} →</a>
+    <a class="link" href="${R("projects/")}">${t.allProjects[l]} <i class="arr">→</i></a>
   </div>
   <div class="grid2">${FOR_SALE.map((p) => card(p, l, route)).join("")}</div>
 </section>
@@ -451,7 +456,7 @@ function resourcesPage(l) {
 </div></section>
 <section class="sec wrap">
   <div class="res">
-    ${resources.groups.map((g) => `<div class="res-g"><h2 class="h3">${g.t[l]}</h2><ul>${g.items.map((it) => `<li><span>${it[l]}</span><a class="res-a" href="${R("contact/")}?r=${encodeURIComponent(it.en)}"><em>${resources.soon[l]}</em> ${resources.ask[l]} →</a></li>`).join("")}</ul></div>`).join("")}
+    ${resources.groups.map((g) => `<div class="res-g"><h2 class="h3">${g.t[l]}</h2><ul>${g.items.map((it) => `<li><span>${it[l]}</span><a class="res-a" href="${R("contact/")}?r=${encodeURIComponent(it.en)}"><em>${resources.soon[l]}</em> ${resources.ask[l]} <i class="arr">→</i></a></li>`).join("")}</ul></div>`).join("")}
   </div>
 </section>`;
   return layout({ l, route, title: `${t.navResources[l]} — ${SITE.name}`, desc: resources.intro[l], body });
