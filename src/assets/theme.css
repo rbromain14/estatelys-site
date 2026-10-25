@@ -84,3 +84,6 @@ h2{font-size:clamp(2rem,4vw,3.4rem)}
 .hdr-r>.langs{height:38px;align-items:stretch}
 .hdr-r>.langs a{display:flex;align-items:center;padding:0 9px}
 .hdr-r>.btn-s{height:38px;padding:0 18px;font-size:.9rem}
+/* stats: all labels on one line, whatever the value size */
+.stats b{height:calc(clamp(1.8rem,3.4vw,3rem)*1.1);display:flex;align-items:center;justify-content:center}
+.stats-in>*{justify-content:flex-start}
