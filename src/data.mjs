@@ -312,7 +312,7 @@ export const projects = [
     type: L("Investissement étudiant", "Student investment", "Studenteninvestment", "Diákbefektetés"),
     price: 295000, priceM2: "≈ 4 610 €",
     rent: 1650, rentDetail: L("4 chambres × 412,50 €", "4 rooms × €412.50", "4 Zimmer × 412,50 €", "4 szoba × 412,50 €"),
-    yield: "6,7 %",
+    yield: 6.7,
     facts: [
       L("64 m²", "64 m²", "64 m²", "64 m²"),
       L("2ᵉ étage", "2nd floor", "2. Stock", "2. emelet"),
@@ -362,7 +362,7 @@ export const projects = [
     type: L("Investissement locatif", "Rental investment", "Mietinvestment", "Bérleti befektetés"),
     price: 290000, priceM2: "≈ 4 830 €",
     rent: 1370, rentDetail: L("Studio A 720 € · Studio B 650 €", "Studio A €720 · Studio B €650", "Studio A 720 € · Studio B 650 €", "A stúdió 720 € · B stúdió 650 €"),
-    yield: "5,7 %",
+    yield: 5.7,
     facts: [
       L("60 m² + mezzanines", "60 m² + galleries", "60 m² + Galerien", "60 m² + galériák"),
       L("2 studios indépendants", "2 independent studios", "2 unabhängige Studios", "2 önálló stúdió"),

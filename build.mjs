@@ -17,6 +17,7 @@ const huf = (n, l) => {
   const s = new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 1, minimumFractionDigits: 1 }).format(m);
   return `≈ ${s} M Ft`;
 };
+const pct = (v, l) => new Intl.NumberFormat(LOCALE[l], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v) + (l === "en" ? "%" : " %");
 const priceMain = (p, l) => (p.priceFromHuf ? p.priceHuf : eur(p.price, l));
 const priceAlt = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : huf(p.price, l));
 
@@ -151,7 +152,7 @@ function card(p, l, route) {
     <p class="muted">${p.short[l]}</p>
     <div class="card-f">
       <span class="price">${priceMain(p, l)}</span>
-      ${p.yield ? `<span class="yield">${t.yield[l]} ${p.yield}</span>` : `<span class="muted small">${priceAlt(p, l)}</span>`}
+      ${p.yield ? `<span class="yield">${t.yield[l]} ${pct(p.yield, l)}</span>` : `<span class="muted small">${priceAlt(p, l)}</span>`}
     </div>
   </div>
 </a>`;
@@ -257,7 +258,7 @@ function projectPage(p, l) {
 <div class="inv">
   <div><span>${t.price[l]}</span><b>${priceMain(p, l)}</b><em>${priceAlt(p, l)}${p.priceM2 ? ` · ${p.priceM2} / m²` : ""}</em></div>
   <div><span>${t.rent[l]}</span><b>${eur(p.rent, l)}</b><em>${p.rentDetail[l]} · ${eur(p.rent * 12, l)} / ${l === "fr" ? "an" : l === "de" ? "Jahr" : l === "hu" ? "év" : "year"}</em></div>
-  <div><span>${t.yield[l]}</span><b>${p.yield}</b><em>${eur(p.rent * 12, l)} ÷ ${eur(p.price, l)}</em></div>
+  <div><span>${t.yield[l]}</span><b>${pct(p.yield, l)}</b><em>${eur(p.rent * 12, l)} ÷ ${eur(p.price, l)}</em></div>
 </div>
 <p class="small muted note">${t.yieldNote[l]} ${t.hufNote[l]}</p>` : "";
 
@@ -307,7 +308,7 @@ function projectPage(p, l) {
       <p class="eyebrow">${t.price[l]}</p>
       <p class="pbig">${priceMain(p, l)}</p>
       <p class="muted">${priceAlt(p, l)}${!p.rent && p.priceM2 ? ` · ${p.priceM2} / m²` : ""}</p>
-      ${p.yield ? `<dl><div><dt>${t.rent[l]}</dt><dd>${eur(p.rent, l)}</dd></div><div><dt>${t.yield[l]}</dt><dd>${p.yield}</dd></div></dl>` : ""}
+      ${p.yield ? `<dl><div><dt>${t.rent[l]}</dt><dd>${eur(p.rent, l)}</dd></div><div><dt>${t.yield[l]}</dt><dd>${pct(p.yield, l)}</dd></div></dl>` : ""}
       <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.askInfo[l]}</a>
       <a class="btn btn-o wfull" href="https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(p.name + " — " + t.visit[l])}" target="_blank" rel="noopener">WhatsApp · ${t.visit[l]}</a>
       <p class="small muted">${p.rent ? "" : t.hufNote[l]}</p>
