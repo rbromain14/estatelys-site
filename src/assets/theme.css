@@ -38,7 +38,7 @@ h2{font-size:clamp(2rem,4vw,3.4rem)}
 .hero-in,.phero-in{z-index:1}
 /* stats: a measured strip */
 .stats{border-block:1px solid var(--tx)}
-.stats-in>*{border-right:1px solid var(--tx);text-align:left;padding:28px 22px}
+.stats-in>*{border-right:1px solid var(--tx);text-align:center;padding:28px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .stats b{font-family:var(--disp);font-weight:700;color:var(--tx);font-variant-numeric:tabular-nums}
 .stats b.sm{font-size:clamp(1.05rem,1.6vw,1.35rem)}
 .stats span{text-transform:none;letter-spacing:0;font-size:.85rem}
