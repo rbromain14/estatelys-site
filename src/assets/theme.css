@@ -1,0 +1,67 @@
+/* ── Direction C · "Signature" ────────────────────────────────────────
+   Built around the hand-written Estatelys signature: it opens the site, large,
+   over the night view. Fraunces (soft, high-contrast serif) for titles, Figtree
+   for text. Properties are presented one per row, alternating image left and
+   right like the spreads of a printed brochure. Champagne gold on black,
+   bronze on white.                                                          */
+:root{
+  --bg:#ffffff; --bg2:#faf8f5; --bg3:#efe9e1;
+  --tx:#191714; --mu:#625b52; --gold:#7a5a2e; --gold2:#5e4522;
+  --line:#e6e0d8; --line2:#c9bfb2; --goldbg:#c8a97e; --goldbg2:#d9bf98; --ink:#191714;
+  --disp:"Fraunces",Georgia,serif; --sans:"Figtree",system-ui,sans-serif;
+}
+.dk,.hdr,.ftr,.band,.lb,.mnav{
+  --bg:#000000; --bg2:#0c0b0a; --bg3:#181614; --tx:#f3eee6; --mu:#aaa196;
+  --gold:#c8a97e; --gold2:#e0c9a3; --line:rgba(200,169,126,.2); --line2:rgba(200,169,126,.45);
+}
+body{font-weight:400;font-size:17px}
+h1,h2,h3{font-family:var(--disp);font-weight:300;font-variation-settings:"opsz" 144;letter-spacing:-.015em}
+h1{font-size:clamp(2.4rem,5.4vw,4.6rem)}
+h2{font-size:clamp(2rem,4vw,3.4rem)}
+.eyebrow{text-transform:none;letter-spacing:0;font:italic 300 1.05rem/1.4 var(--disp);color:var(--gold)}
+.arr{display:none}
+.btn{border-radius:2px;text-transform:none;letter-spacing:.01em;font:500 .95rem/1 var(--sans);padding:16px 28px}
+.link{text-transform:none;letter-spacing:0;font:italic 400 1.1rem var(--disp);color:var(--gold)}
+.nav a,.langs a{text-transform:none;letter-spacing:.01em;font-size:.92rem}
+/* hero: the signature is the headline */
+.hero{min-height:min(96svh,960px);align-items:center}
+.hero-in{text-align:center;display:flex;flex-direction:column;align-items:center;padding-top:110px}
+.hero-sig{display:block;width:min(820px,92%);height:auto;margin:0 auto 18px;filter:drop-shadow(0 2px 18px rgba(0,0,0,.45))}
+.hero h1{font-size:clamp(1.6rem,3vw,2.5rem);max-width:28ch;font-style:italic;font-weight:300}
+.hero .eyebrow{order:2;margin-top:18px}
+.hero .lead{margin-inline:auto;max-width:40rem;color:#ddd5c9}
+.hero .row{justify-content:center}
+.hero-fade{background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,.25) 0%,rgba(0,0,0,.7) 65%,rgba(0,0,0,.92) 100%)}
+/* stats on white, light and centered */
+.stats{border:0;background:var(--bg2)}
+.stats-in>*{border-right:1px solid var(--line)}
+.stats b{font-family:var(--disp);font-weight:300;color:var(--gold)}
+.stats b.sm{font-size:clamp(1.1rem,1.8vw,1.5rem)}
+.stats span{text-transform:none;letter-spacing:0;font-size:.9rem}
+/* properties as brochure spreads */
+.grid2{grid-template-columns:1fr;gap:clamp(48px,7vw,110px)}
+.grid2 .card{display:grid;grid-template-columns:1.25fr 1fr;align-items:center;background:none;border:0;gap:clamp(24px,4vw,64px)}
+.grid2 .card:nth-child(even) .card-m{order:2}
+.grid2 .card-m{aspect-ratio:4/3}
+.grid2 .card-b{padding:0}
+.grid2 .card-b h3{font-size:clamp(2rem,3.6vw,3.2rem)}
+.grid2 .card-b .muted{font-size:1.05rem;max-width:42ch}
+.card-f{border-top:1px solid var(--line2)}
+.price{font-family:var(--disp);font-weight:300;color:var(--gold);font-size:2rem}
+.yield{text-transform:none;letter-spacing:0;font-size:.95rem;color:var(--mu)}
+.tag{text-transform:none;letter-spacing:0;font-size:.82rem;border-radius:2px}
+@media (max-width:860px){.grid2 .card{grid-template-columns:1fr}.grid2 .card:nth-child(even) .card-m{order:0}}
+.grid3 .card{background:var(--bg2);border:0}
+.svc{background:none;border:0;gap:clamp(24px,4vw,56px)}
+.svc>div{background:none;padding:0;border-top:1px solid var(--line2);padding-top:22px}
+.num{display:none}
+.city figcaption{text-transform:none;letter-spacing:0;font-size:.85rem}
+.chips li{text-transform:none;letter-spacing:0;font-size:.9rem;border-radius:2px;background:var(--bg2);border-color:var(--line)}
+.pbox{background:var(--bg2);border:0}
+.inv{background:none;border:0;gap:20px}
+.inv>div{background:var(--bg2)}
+.inv span,.form label span,.ldl dt,.res-a{text-transform:none;letter-spacing:0;font-size:.88rem}
+.res-a em{font-style:italic}
+.ref{background:var(--bg2);border:0}
+.sig-img{width:min(600px,90%)}
+.band h2{font-family:var(--disp);font-weight:300}
