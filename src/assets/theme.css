@@ -1,0 +1,69 @@
+/* ── Direction A · "Galerie" ──────────────────────────────────────────
+   A private gallery hanging four works. True black hero, pure white rooms,
+   one brass accent reserved for prices. Bodoni Moda for titles, Hanken Grotesk
+   for text. No eyebrow labels, no caps, no boxes: every property is shown as a
+   framed picture with a museum label underneath.                           */
+:root{
+  --bg:#ffffff; --bg2:#ffffff; --bg3:#efede9;
+  --tx:#0d0d0d; --mu:#5f5b55; --gold:#8a6a3c; --gold2:#6f5530;
+  --line:#e4e1dc; --line2:#bdb8b0; --goldbg:#0d0d0d; --goldbg2:#2a2a2a; --ink:#ffffff;
+  --disp:"Bodoni Moda",Didot,"Times New Roman",serif; --sans:"Hanken Grotesk",system-ui,sans-serif;
+}
+.dk,.hdr,.ftr,.band,.lb,.mnav{
+  --bg:#000000; --bg2:#0a0a0a; --bg3:#151515; --tx:#f4f1ea; --mu:#a7a29a;
+  --gold:#c8a97e; --gold2:#e0c9a3; --line:rgba(244,241,234,.14); --line2:rgba(244,241,234,.32);
+  --goldbg:#f4f1ea; --goldbg2:#ffffff; --ink:#000000;
+}
+body{font-weight:400;font-size:17px}
+h1,h2,h3{font-weight:400;letter-spacing:-.02em}
+h1{font-size:clamp(3rem,7.4vw,6.6rem);line-height:.98}
+h2{font-size:clamp(2.2rem,4.6vw,4rem)}
+.eyebrow{display:none}
+.arr{display:none}
+.btn{border-radius:999px;text-transform:none;letter-spacing:0;font:500 .95rem/1 var(--sans);padding:16px 28px}
+.btn-s{padding:11px 20px;font-size:.85rem}
+.link{text-transform:none;letter-spacing:0;font-size:1rem;text-decoration:underline;text-underline-offset:5px;color:var(--tx)}
+.nav a,.langs a{text-transform:none;letter-spacing:.01em;font-size:.9rem}
+.hdr{background-color:rgba(0,0,0,.94)}
+.is-home .hdr:not(.solid){background:transparent}
+/* hero: headline only, image does the talking */
+.hero{min-height:min(92svh,920px)}
+.hero h1{max-width:12ch}
+.hero .lead{font-size:1.1rem;color:#d7d2c9}
+/* stats as a quiet caption line */
+.stats{border:0;border-bottom:1px solid var(--line)}
+.stats-in>*{border-right:0;padding:34px 16px;text-align:left}
+.stats b{font-family:var(--disp);color:var(--tx);font-size:clamp(2rem,3.6vw,3rem)}
+.stats b.sm{font-size:clamp(1.1rem,1.8vw,1.45rem)}
+.stats span{text-transform:none;letter-spacing:0;font-size:.9rem}
+/* property cards = framed works with a museum label */
+.grid2{gap:clamp(40px,6vw,96px) clamp(24px,4vw,64px)}
+.grid2 .card:nth-child(even){margin-top:clamp(0px,8vw,120px)}
+.card{background:none;border:0}
+.card-m{aspect-ratio:4/5}
+.card-b{padding:22px 0 0}
+.card-b h3{font-size:clamp(1.8rem,2.6vw,2.4rem)}
+.card-f{border-top:0;padding-top:10px}
+.price{font-family:var(--disp);color:var(--gold);font-size:1.6rem}
+.yield{text-transform:none;letter-spacing:0;font-size:.95rem;color:var(--mu)}
+.tag{background:#fff;color:#0d0d0d;border:0;text-transform:none;letter-spacing:0;font-size:.8rem;border-radius:999px;padding:6px 12px}
+/* services: three paragraphs, not a numbered sequence */
+.svc{background:none;border:0;gap:clamp(24px,4vw,60px)}
+.svc>div{padding:0;background:none}
+.num{display:none}
+.svc h3{margin-top:0}
+.city img{aspect-ratio:4/5}
+.city figcaption{text-transform:none;letter-spacing:0;font-size:.85rem}
+.chips li{border-radius:999px;text-transform:none;letter-spacing:0;font-size:.85rem}
+.pbox{border:1px solid var(--line);background:#fff}
+.inv{background:none;border:0;gap:24px}
+.inv>div{background:none;border-top:1px solid var(--tx);padding:16px 0 0}
+.inv span{text-transform:none;letter-spacing:0;font-size:.85rem}
+.form label span{text-transform:none;letter-spacing:0;font-size:.85rem}
+.form input,.form textarea,.form select{background:#fff;border-color:var(--line2);border-radius:2px}
+.res-a{text-transform:none;letter-spacing:0;font-size:.85rem}
+.res-a em{display:none}
+.ldl dt{text-transform:none;letter-spacing:0;font-size:.85rem}
+.ref{background:none;border:0}
+.ref figcaption{padding:16px 0}
+.band h2{font-family:var(--disp)}
