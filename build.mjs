@@ -508,12 +508,24 @@ function md(text = "", nSources = 0) {
   const inline = (x) => esc(x)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\[(\d+)\]/g, (m, n) => (+n >= 1 && +n <= nSources ? `<sup><a href="#src-${n}">[${n}]</a></sup>` : m));
-  return String(text).trim().split(/\n\s*\n/).map((block) => {
-    const lines = block.split("\n").map((x) => x.trim()).filter(Boolean);
-    if (lines.length && lines.every((x) => /^- /.test(x))) return `<ul>${lines.map((x) => `<li>${inline(x.slice(2))}</li>`).join("")}</ul>`;
-    if (lines.length && lines.every((x) => /^\d+\. /.test(x))) return `<ol>${lines.map((x) => `<li>${inline(x.replace(/^\d+\. /, ""))}</li>`).join("")}</ol>`;
-    return `<p>${inline(lines.join(" "))}</p>`;
-  }).join("\n");
+  const out = [];
+  for (const block of String(text).trim().split(/\n\s*\n/)) {
+    let para = [], list = null, kind = "";
+    const flushP = () => { if (para.length) out.push(`<p>${inline(para.join(" "))}</p>`); para = []; };
+    const flushL = () => { if (list) out.push(`<${kind}>${list.map((x) => `<li>${inline(x)}</li>`).join("")}</${kind}>`); list = null; };
+    for (const raw of block.split("\n")) {
+      const x = raw.trim(); if (!x) continue;
+      const ul = /^- /.test(x), ol = /^\d+\. /.test(x);
+      if (ul || ol) {
+        const k = ul ? "ul" : "ol";
+        flushP(); if (list && kind !== k) flushL();
+        if (!list) { list = []; kind = k; }
+        list.push(ul ? x.slice(2) : x.replace(/^\d+\. /, ""));
+      } else { flushL(); para.push(x); }
+    }
+    flushP(); flushL();
+  }
+  return out.join("\n");
 }
 function simTool(l, r) {
   const S = resources.sim, c = (r && r.calc) || {};
