@@ -1,0 +1,455 @@
+{
+  "slug": "short-term-rental-rules-budapest",
+  "item": "str",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Location courte durée à Budapest : les règles en vigueur en 2026",
+    "en": "Short-term rentals in Budapest: the rules in force in 2026",
+    "de": "Kurzzeitvermietung in Budapest: die 2026 geltenden Regeln",
+    "hu": "Rövid távú lakáskiadás Budapesten: a 2026-ban érvényes szabályok"
+  },
+  "summary": {
+    "fr": "NTAK, déclaration au jegyző, moratoire de Budapest, interdiction dans le VIe, règles par arrondissement, taxe de séjour et impôt, au 26 octobre 2026.",
+    "en": "NTAK and notary registration, the Budapest moratorium, the District VI ban, district rules, tourist tax and income tax, as of 26 October 2026.",
+    "de": "NTAK und Meldung beim Jegyző, Budapester Moratorium, Verbot im VI. Bezirk, Bezirksregeln, Kurtaxe und Einkommensteuer, Stand 26. Oktober 2026.",
+    "hu": "NTAK és jegyzői nyilvántartás, budapesti moratórium, terézvárosi tilalom, kerületi szabályok, IFA és adózás – 2026. október 26-i állapot."
+  },
+  "keyFacts": [
+    {
+      "fr": "Aucune nouvelle magánszálláshely ne peut être enregistrée à Budapest jusqu'au 31 décembre 2026 (moratoire en vigueur depuis le 1er janvier 2025) [1].",
+      "en": "No new magánszálláshely (private accommodation) can be registered in Budapest until 31 December 2026; the moratorium has applied since 1 January 2025 [1].",
+      "de": "Bis 31. Dezember 2026 kann in Budapest keine neue magánszálláshely (Privatunterkunft) registriert werden; das Moratorium gilt seit 1. Januar 2025 [1].",
+      "hu": "2026. december 31-ig Budapesten nem vehető nyilvántartásba új magánszálláshely; a moratórium 2025. január 1. óta hatályos [1]."
+    },
+    {
+      "fr": "VIe arrondissement : 0 jour de location courte durée autorisé depuis le 1er janvier 2026, après un vote local à 54 % de oui (participation 20,52 %) [3][4].",
+      "en": "District VI: zero days of short-term letting allowed since 1 January 2026, after a local vote with 54% in favour on a 20.52% turnout [3][4].",
+      "de": "VI. Bezirk: seit 1. Januar 2026 null Tage Kurzzeitvermietung erlaubt, nach einer lokalen Abstimmung mit 54 % Ja-Stimmen bei 20,52 % Beteiligung [3][4].",
+      "hu": "VI. kerület: 2026. január 1. óta évi 0 nap engedélyezett, a helyi szavazáson 54% igen, 20,52%-os részvétel mellett [3][4]."
+    },
+    {
+      "fr": "Tételes átalányadó (impôt forfaitaire) à Budapest : 150 000 HUF par chambre et par an depuis 2025 [11].",
+      "en": "Tételes átalányadó (fixed lump-sum tax) in Budapest: HUF 150,000 per guest room per year since 2025 [11].",
+      "de": "Tételes átalányadó (pauschale Feststeuer) in Budapest: 150.000 HUF pro Gästezimmer und Jahr seit 2025 [11].",
+      "hu": "Tételes átalányadó Budapesten: 2025 óta szobánként évi 150 000 Ft [11]."
+    },
+    {
+      "fr": "Taxe de séjour (idegenforgalmi adó) : 4 % du prix de l'hébergement dans les Ve et VIIIe arrondissements [15][16] ; contribution TFH : 4 % du prix hors TVA [12].",
+      "en": "Tourist tax (idegenforgalmi adó): 4% of the accommodation fee in Districts V and VIII [15][16]; TFH contribution: 4% of the price excluding VAT [12].",
+      "de": "Kurtaxe (idegenforgalmi adó): 4 % des Übernachtungspreises im V. und VIII. Bezirk [15][16]; TFH-Beitrag: 4 % des Preises ohne MwSt. [12].",
+      "hu": "Idegenforgalmi adó: az V. és a VIII. kerületben a szállásdíj 4%-a [15][16]; turizmusfejlesztési hozzájárulás: az áfa nélküli ár 4%-a [12]."
+    },
+    {
+      "fr": "Frais Airbnb côté hôte : environ 3 % (frais partagés) ou 15,5 % (frais unique, vers lequel Airbnb fait migrer les hôtes) [17].",
+      "en": "Airbnb host fees: about 3% (split fee) or 15.5% (single fee, to which Airbnb is moving home hosts) [17].",
+      "de": "Airbnb-Gebühren für Gastgeber: etwa 3 % (geteilte Gebühr) oder 15,5 % (Einheitsgebühr, auf die Airbnb die Gastgeber umstellt) [17].",
+      "hu": "Airbnb szállásadói díj: kb. 3% (megosztott díj) vagy 15,5% (egységes díj, amelyre az Airbnb átállítja a szállásadókat) [17]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Ce qu'est juridiquement une location courte durée, et les deux enregistrements",
+        "en": "What a short-term rental is in law, and the two registrations",
+        "de": "Was eine Kurzzeitvermietung rechtlich ist, und die zwei Registrierungen",
+        "hu": "Mi számít rövid távú kiadásnak, és a két nyilvántartásba vétel"
+      },
+      "body": {
+        "fr": "En droit hongrois, louer un appartement à des touristes pour de courts séjours n'est pas un bail mais une prestation d'hébergement, la szálláshely-szolgáltatás (service d'hébergement). Un appartement exploité ainsi est en général déclaré comme magánszálláshely (hébergement privé), statut ouvert aux particuliers et aux entrepreneurs individuels et limité à 8 chambres et 16 lits [14]. Les conditions détaillées figurent dans le décret gouvernemental 239/2009 (X. 20.) [1].\n\nAvant d'accueillir le premier client, l'exploitant doit en principe [14][1] :\n1. Obtenir un numéro fiscal auprès de la NAV (Nemzeti Adó- és Vámhivatal, administration fiscale).\n2. S'inscrire au NTAK (Nemzeti Turisztikai Adatszolgáltató Központ, centre national de données touristiques) et utiliser un logiciel compatible.\n3. Faire classer l'hébergement par l'organisme de classement.\n4. Déposer la déclaration auprès du jegyző (le notaire administratif, chef des services de l'arrondissement), qui procède à l'enregistrement. Dans le Ve arrondissement par exemple, le dossier comprend la décision relative à l'aspect urbain (településképi eljárás), le certificat de classement, la preuve de l'inscription au NTAK et du logiciel, les plans, et l'accord des copropriétaires indivis le cas échéant ; la procédure est gratuite et l'enregistrement intervient sous 15 jours [1].\n\nUne fois l'activité ouverte, l'exploitant transmet chaque jour les données des clients au NTAK, enregistre leurs pièces d'identité dans le système VIZA, affiche son numéro d'enregistrement dans chaque annonce et renouvelle le classement tous les 3 ans [14]. Il est interdit d'accueillir des clients sans l'enregistrement du jegyző [14].",
+        "en": "In Hungarian law, letting a flat to tourists for short stays is not a lease but an accommodation service, szálláshely-szolgáltatás. A flat let this way is normally registered as magánszálláshely (private accommodation), a status open to private individuals and sole traders and limited to 8 rooms and 16 beds [14]. The detailed conditions are set in Government Decree 239/2009 (X. 20.) [1].\n\nBefore the first guest arrives, the operator normally has to [14][1]:\n1. Obtain a tax number from NAV (Nemzeti Adó- és Vámhivatal, the tax authority).\n2. Register in NTAK (Nemzeti Turisztikai Adatszolgáltató Központ, the national tourism data centre) and use NTAK-compatible software.\n3. Have the accommodation classified by the classification body.\n4. File the notification with the jegyző (the district notary, head of the district office), who registers the accommodation. In District V, for example, the file includes the townscape decision (településképi eljárás), the classification certificate, proof of NTAK registration and of the software, floor plans, and co-owners' consent where relevant; the procedure is free and registration takes 15 days [1].\n\nOnce open, the operator sends guest data to NTAK every day, records guests' identity documents in the VIZA system, shows the registration number in every advert and renews the classification every 3 years [14]. Hosting guests without the jegyző's registration is not allowed [14].",
+        "de": "Nach ungarischem Recht ist die Vermietung einer Wohnung an Touristen für kurze Aufenthalte kein Mietverhältnis, sondern eine Beherbergungsleistung, die szálláshely-szolgáltatás. Eine so genutzte Wohnung wird in der Regel als magánszálláshely (Privatunterkunft) registriert; dieser Status steht Privatpersonen und Einzelunternehmern offen und ist auf 8 Zimmer und 16 Betten begrenzt [14]. Die Einzelheiten regelt die Regierungsverordnung 239/2009 (X. 20.) [1].\n\nVor dem ersten Gast muss der Betreiber in der Regel [14][1]:\n1. Bei der NAV (Nemzeti Adó- és Vámhivatal, Steuerbehörde) eine Steuernummer beantragen.\n2. Sich im NTAK (Nemzeti Turisztikai Adatszolgáltató Központ, nationale Tourismus-Datenzentrale) registrieren und eine NTAK-kompatible Software nutzen.\n3. Die Unterkunft von der Klassifizierungsstelle einstufen lassen.\n4. Die Meldung beim Jegyző (Verwaltungsnotar, Leiter des Bezirksamts) einreichen, der die Unterkunft registriert. Im V. Bezirk umfasst die Akte zum Beispiel den Ortsbildbescheid (településképi eljárás), das Klassifizierungszertifikat, den Nachweis der NTAK-Registrierung und der Software, Grundrisse sowie gegebenenfalls die Zustimmung der Miteigentümer; das Verfahren ist gebührenfrei, die Registrierung erfolgt binnen 15 Tagen [1].\n\nIm laufenden Betrieb meldet der Betreiber täglich die Gästedaten an das NTAK, erfasst die Ausweisdaten der Gäste im VIZA-System, nennt die Registrierungsnummer in jeder Anzeige und erneuert die Klassifizierung alle 3 Jahre [14]. Gäste ohne Registrierung durch den Jegyző aufzunehmen, ist nicht zulässig [14].",
+        "hu": "A magyar jog szerint a lakás turistáknak, rövid időre történő kiadása nem bérlet, hanem szálláshely-szolgáltatás. Az így hasznosított lakást jellemzően magánszálláshelyként veszik nyilvántartásba; ez a forma magánszemélyeknek és egyéni vállalkozóknak nyitott, legfeljebb 8 szobával és 16 ágyhellyel [14]. A részletes feltételeket a 239/2009. (X. 20.) Korm. rendelet tartalmazza [1].\n\nAz első vendég fogadása előtt a szolgáltatónak általában [14][1]:\n1. Adószámot kell kérnie a NAV-tól.\n2. Regisztrálnia kell a Nemzeti Turisztikai Adatszolgáltató Központban (NTAK), és NTAK-kompatibilis szoftvert kell használnia.\n3. Minősíttetnie kell a szálláshelyet a minősítő szervezettel.\n4. Be kell jelentenie a tevékenységet a jegyzőnél, aki nyilvántartásba veszi a szálláshelyet. Az V. kerületben például a kérelemhez csatolni kell a településképi eljárásban hozott döntést, a minősítési tanúsítványt, az NTAK-regisztráció és a szoftver igazolását, az alaprajzot, valamint adott esetben a tulajdonostársak hozzájárulását; az eljárás illetékmentes, a nyilvántartásba vétel 15 nap [1].\n\nMűködés közben a szolgáltató naponta adatot küld az NTAK-ba, a vendégek okmányadatait a VIZA rendszerben rögzíti, minden hirdetésben feltünteti a nyilvántartási számot, és 3 évente megújítja a minősítést [14]. A jegyzői nyilvántartásba vétel nélkül vendég nem fogadható [14]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Le moratoire de Budapest : la situation au 26 octobre 2026",
+        "en": "The Budapest moratorium: position on 26 October 2026",
+        "de": "Das Budapester Moratorium: Stand 26. Oktober 2026",
+        "hu": "A budapesti moratórium: helyzet 2026. október 26-án"
+      },
+      "body": {
+        "fr": "En vertu de l'article 11/H de la loi CLXIV de 2005 sur le commerce, aucune nouvelle magánszálláshely ni egyéb szálláshely (autre hébergement) ne peut être enregistrée sur le territoire de Budapest jusqu'au 31 décembre 2026 [1]. Le moratoire s'applique depuis le 1er janvier 2025 ; seules les demandes de classement déposées avant le 31 décembre 2024 y échappaient, et le changement d'exploitant des hébergements enregistrés à cette date est lui aussi restreint [1]. Les hébergements déjà enregistrés peuvent continuer à fonctionner.\n\nAu 26 octobre 2026, le moratoire doit toujours prendre fin le 31 décembre 2026. En septembre et octobre 2026, quatre associations d'hébergeurs ont demandé au gouvernement de le prolonger jusqu'au 31 décembre 2027 et de supprimer le pouvoir des arrondissements de limiter le nombre de jours de location ; au 14 octobre 2026, aucune prolongation n'avait été adoptée [6]. Plusieurs arrondissements ont préparé leurs propres règles pour le 1er janvier 2027, date à laquelle le moratoire expire (voir le tableau) [7][8].\n\nDepuis 2020, la loi permet aux arrondissements de fixer par règlement local le nombre de jours par an, de 0 à 365, pendant lesquels un logement peut servir à l'hébergement de courte durée [9]. Toute personne qui envisage une nouvelle location courte durée à Budapest a intérêt à vérifier la situation en décembre 2026, puis de nouveau en janvier 2027.",
+        "en": "Under section 11/H of Act CLXIV of 2005 on trade, no new magánszálláshely or egyéb szálláshely (other accommodation) can be registered anywhere in Budapest until 31 December 2026 [1]. The moratorium has applied since 1 January 2025; only classification applications filed by 31 December 2024 were exempt, and a change of operator for units registered by that date is also restricted [1]. Units that were already registered may continue to operate.\n\nOn 26 October 2026 the moratorium is still due to end on 31 December 2026. In September and October 2026, four associations of accommodation providers asked the government to extend it to 31 December 2027 and to remove the districts' power to limit the number of rentable days; as of 14 October 2026 no extension had been adopted [6]. Several districts have prepared their own rules to take effect on 1 January 2027, when the moratorium lapses (see the table) [7][8].\n\nSince 2020 the law has allowed districts to set by local decree how many days a year, from 0 to 365, a flat may be used for short-term accommodation [9]. Anyone planning a new short-term rental in Budapest should check the position in December 2026 and again in January 2027.",
+        "de": "Nach § 11/H des Gesetzes CLXIV von 2005 über den Handel kann bis 31. Dezember 2026 in ganz Budapest keine neue magánszálláshely oder egyéb szálláshely (sonstige Unterkunft) registriert werden [1]. Das Moratorium gilt seit 1. Januar 2025; ausgenommen waren nur Klassifizierungsanträge, die bis 31. Dezember 2024 gestellt wurden, und auch ein Betreiberwechsel bei bis dahin registrierten Einheiten ist eingeschränkt [1]. Bereits registrierte Unterkünfte dürfen weiter betrieben werden.\n\nAm 26. Oktober 2026 soll das Moratorium weiterhin am 31. Dezember 2026 enden. Im September und Oktober 2026 forderten vier Verbände von Unterkunftsanbietern die Regierung auf, es bis 31. Dezember 2027 zu verlängern und den Bezirken die Befugnis zur Begrenzung der Vermietungstage zu entziehen; bis 14. Oktober 2026 war keine Verlängerung beschlossen [6]. Mehrere Bezirke haben eigene Regeln vorbereitet, die am 1. Januar 2027, nach Ablauf des Moratoriums, in Kraft treten sollen (siehe Tabelle) [7][8].\n\nSeit 2020 dürfen die Bezirke per Verordnung festlegen, an wie vielen Tagen im Jahr, zwischen 0 und 365, eine Wohnung zur Kurzzeitbeherbergung genutzt werden darf [9]. Wer in Budapest eine neue Kurzzeitvermietung plant, sollte die Lage im Dezember 2026 und erneut im Januar 2027 prüfen.",
+        "hu": "A kereskedelemről szóló 2005. évi CLXIV. törvény 11/H. §-a alapján 2026. december 31-ig Budapest területén nem vehető nyilvántartásba új magánszálláshely és egyéb szálláshely [1]. A moratórium 2025. január 1. óta érvényes; csak a 2024. december 31-ig benyújtott minősítési kérelmek képeztek kivételt, és a 2024. december 31-ig nyilvántartásba vett szálláshelyeknél a szolgáltató személyének változása is korlátozott [1]. A már nyilvántartott szálláshelyek tovább működhetnek.\n\n2026. október 26-án a moratórium továbbra is 2026. december 31-én jár le. 2026 szeptemberében és októberében négy szállásadói érdekképviselet kérte a kormánytól, hogy hosszabbítsa meg 2027. december 31-ig, és vonja vissza a kerületek jogát a kiadható napok számának korlátozására; 2026. október 14-ig hosszabbításról nem született döntés [6]. Több kerület saját szabályokat készített elő 2027. január 1-jei hatállyal, a moratórium lejártára (lásd a táblázatot) [7][8].\n\n2020 óta a törvény lehetővé teszi, hogy a kerületek rendeletben határozzák meg, évente hány napig (0 és 365 között) használható egy lakás rövid távú szálláshelyként [9]. Aki új rövid távú kiadást tervez Budapesten, érdemes 2026 decemberében, majd 2027 januárjában újra ellenőriznie a helyzetet."
+      }
+    },
+    {
+      "h": {
+        "fr": "VIe arrondissement (Terézváros) : interdiction totale depuis le 1er janvier 2026",
+        "en": "District VI (Terézváros): full ban since 1 January 2026",
+        "de": "VI. Bezirk (Terézváros): vollständiges Verbot seit 1. Januar 2026",
+        "hu": "VI. kerület (Terézváros): teljes tilalom 2026. január 1. óta"
+      },
+      "body": {
+        "fr": "Terézváros a organisé un vote consultatif local du 2 au 15 septembre 2024. La participation a été de 20,52 % (6 083 habitants) et 54 % des votants se sont prononcés pour l'interdiction (3 265 oui, 2 818 non) [3]. Le vote n'était pas contraignant, mais le conseil a ensuite fixé à zéro le nombre de jours de location courte durée, avec effet au 1er janvier 2026 [3]. Saisie, la Kúria (Cour suprême) a jugé le règlement légal le 11 novembre 2025 [4].\n\nL'interdiction vise les magánszálláshely et egyéb szálláshely, y compris ceux enregistrés avant 2026 ; les hôtels, pensions et hébergements collectifs peuvent continuer à fonctionner [5][7]. L'arrondissement, la police et la NAV mènent des contrôles conjoints : à mai 2026, plus de 600 contrôles sur place et 57 procédures avaient eu lieu, avec des amendes de 200 000 à 2 millions de HUF [5]. En octobre 2026, des recours constitutionnels et des actions en justice contre l'interdiction étaient encore pendants [6].\n\nDans le VIe arrondissement, les alternatives les plus citées sont la location longue durée et la location de moyenne durée (30 à 90 jours) [14] ; la qualification juridique d'une location de moyenne durée est à vérifier avec un juriste.",
+        "en": "Terézváros held a local consultative vote from 2 to 15 September 2024. Turnout was 20.52% (6,083 residents) and 54% of voters backed a ban (3,265 yes, 2,818 no) [3]. The vote was not binding, but the council then set the number of days for short-term letting at zero, with effect from 1 January 2026 [3]. The decree was referred to the Kúria (Supreme Court), which found it lawful on 11 November 2025 [4].\n\nThe ban covers magánszálláshely and egyéb szálláshely, including units registered before 2026; hotels, pensions and community accommodation may still operate [5][7]. The district, the police and NAV run joint checks: by May 2026 there had been more than 600 on-site inspections and 57 proceedings, with fines of HUF 200,000 to 2 million [5]. In October 2026, constitutional complaints and court cases against the ban were still pending [6].\n\nIn District VI, the alternatives most often cited are long-term letting and medium-term letting (30 to 90 days) [14]; how a medium-term let is classified in law should be checked with a lawyer.",
+        "de": "Terézváros hielt vom 2. bis 15. September 2024 eine lokale konsultative Abstimmung ab. Die Beteiligung lag bei 20,52 % (6.083 Einwohner), 54 % stimmten für ein Verbot (3.265 Ja, 2.818 Nein) [3]. Die Abstimmung war nicht bindend, doch der Gemeinderat setzte die zulässigen Tage für Kurzzeitvermietung anschließend mit Wirkung zum 1. Januar 2026 auf null [3]. Die Kúria (Oberster Gerichtshof) erklärte die Verordnung am 11. November 2025 für rechtmäßig [4].\n\nDas Verbot erfasst magánszálláshely und egyéb szálláshely, auch vor 2026 registrierte Einheiten; Hotels, Pensionen und Gemeinschaftsunterkünfte dürfen weiter betrieben werden [5][7]. Bezirk, Polizei und NAV kontrollieren gemeinsam: Bis Mai 2026 gab es mehr als 600 Vor-Ort-Kontrollen und 57 Verfahren, mit Bußgeldern von 200.000 bis 2 Millionen HUF [5]. Im Oktober 2026 waren Verfassungsbeschwerden und Gerichtsverfahren gegen das Verbot noch anhängig [6].\n\nIm VI. Bezirk werden als Alternativen vor allem die Langzeitvermietung und die mittelfristige Vermietung (30 bis 90 Tage) genannt [14]; wie eine mittelfristige Vermietung rechtlich einzuordnen ist, sollte mit einem Juristen geklärt werden.",
+        "hu": "Terézváros 2024. szeptember 2. és 15. között helyi véleménynyilvánító szavazást tartott. A részvétel 20,52% volt (6083 lakos), a szavazók 54%-a támogatta a tilalmat (3265 igen, 2818 nem) [3]. A szavazás nem volt kötelező erejű, de a képviselő-testület ezt követően 2026. január 1-jei hatállyal évi 0 napban határozta meg a rövid távú kiadás idejét [3]. A rendeletet a Kúria elé vitték, amely 2025. november 11-én jogszerűnek ítélte [4].\n\nA tilalom a magánszálláshelyekre és az egyéb szálláshelyekre vonatkozik, a 2026 előtt nyilvántartásba vettekre is; szállodák, panziók és közösségi szálláshelyek továbbra is működhetnek [5][7]. Az önkormányzat, a rendőrség és a NAV közösen ellenőriz: 2026 májusáig több mint 600 helyszíni ellenőrzés és 57 eljárás volt, a bírság 200 ezer és 2 millió forint között van [5]. 2026 októberében a tilalom ellen alkotmányjogi panaszok és bírósági eljárások voltak folyamatban [6].\n\nA VI. kerületben leggyakrabban említett alternatíva a hosszú távú és a középtávú (30–90 napos) kiadás [14]; a középtávú kiadás jogi minősítését érdemes jogásszal egyeztetni."
+      }
+    },
+    {
+      "h": {
+        "fr": "Les autres arrondissements et l'accord de l'immeuble",
+        "en": "Other districts and the building's consent",
+        "de": "Andere Bezirke und die Zustimmung des Hauses",
+        "hu": "A többi kerület és a társasház hozzájárulása"
+      },
+      "body": {
+        "fr": "Les règles diffèrent d'un arrondissement à l'autre et changent au 1er janvier 2027 ; le tableau ci-dessous résume ce qui était en vigueur ou adopté au 26 octobre 2026. Là où aucune interdiction n'est connue, l'appartement doit tout de même respecter le règlement de construction de l'arrondissement, les règles d'aspect urbain et celles de la copropriété [7].\n\nL'immeuble compte autant que l'arrondissement. Le SZMSZ (szervezeti-működési szabályzat, règlement d'organisation et de fonctionnement de la copropriété) peut restreindre ou interdire l'usage de courte durée des appartements, ce que la jurisprudence de la Kúria admet [14]. Selon la loi sur les copropriétés, si le SZMSZ le prévoit, la location courte durée peut être soumise à l'accord préalable de l'assemblée générale ; une telle règle n'est pas rétroactive, et le SZMSZ peut fixer des charges communes plus élevées pour ces logements [9]. Dans le VIIe arrondissement, un accord valide de la copropriété sera nécessaire à partir du 1er janvier 2027, et les hébergements déjà enregistrés qui n'en disposent pas doivent le fournir avant le 31 décembre 2026 [7].\n\nAvant d'acheter pour louer en courte durée : lire l'alapító okirat (acte constitutif de la copropriété) et le SZMSZ, demander au közös képviselő (syndic) les décisions récentes de l'assemblée générale, et vérifier les règles de l'arrondissement.",
+        "en": "Rules differ by district and are changing on 1 January 2027; the table below summarises what was in force or adopted on 26 October 2026. Where no district ban is known, the flat must still comply with the district building regulation, the townscape rules and the condominium's own rules [7].\n\nThe building matters as much as the district. The SZMSZ (szervezeti-működési szabályzat, the condominium's organisational and operating rules) can restrict or prohibit short-term use of the flats, which Kúria case law accepts [14]. Under the Condominium Act, if the SZMSZ provides for it, short-term letting can be made subject to the general meeting's prior approval; such a rule does not apply retroactively, and the SZMSZ can set higher common charges for units used this way [9]. In District VII, a valid condominium consent will be needed from 1 January 2027, and registered units without one must submit it by 31 December 2026 [7].\n\nBefore buying a flat to let short term: read the alapító okirat (founding deed) and the SZMSZ, ask the közös képviselő (building manager) for recent general-meeting resolutions, and check the district rules.",
+        "de": "Die Regeln unterscheiden sich je nach Bezirk und ändern sich zum 1. Januar 2027; die Tabelle unten fasst zusammen, was am 26. Oktober 2026 galt oder beschlossen war. Auch wo kein Verbot bekannt ist, muss die Wohnung die Bauordnung des Bezirks, die Ortsbildregeln und die Regeln der Eigentümergemeinschaft einhalten [7].\n\nDas Haus ist ebenso wichtig wie der Bezirk. Die SZMSZ (szervezeti-működési szabályzat, Organisations- und Betriebsordnung der Eigentümergemeinschaft) kann die Kurzzeitnutzung der Wohnungen einschränken oder untersagen, was die Rechtsprechung der Kúria anerkennt [14]. Nach dem Gesetz über Eigentumswohnungen kann die Kurzzeitvermietung, wenn die SZMSZ dies vorsieht, an die vorherige Zustimmung der Eigentümerversammlung gebunden werden; eine solche Regel wirkt nicht rückwirkend, und die SZMSZ kann für solche Einheiten höhere Hausgeldbeiträge festlegen [9]. Im VII. Bezirk ist ab 1. Januar 2027 eine gültige Zustimmung der Eigentümergemeinschaft erforderlich; registrierte Einheiten ohne Zustimmung müssen diese bis 31. Dezember 2026 vorlegen [7].\n\nVor dem Kauf zur Kurzzeitvermietung: alapító okirat (Gründungsurkunde) und SZMSZ lesen, beim közös képviselő (Hausverwalter) die jüngsten Beschlüsse der Eigentümerversammlung anfordern und die Bezirksregeln prüfen.",
+        "hu": "A szabályok kerületenként eltérnek, és 2027. január 1-jén változnak; az alábbi táblázat a 2026. október 26-án hatályos vagy már elfogadott szabályokat foglalja össze. Ahol nincs ismert tilalom, ott is meg kell felelni a kerületi építési szabályzatnak, a településképi előírásoknak és a társasház szabályainak [7].\n\nA ház ugyanannyit számít, mint a kerület. A társasház szervezeti-működési szabályzata (SZMSZ) korlátozhatja vagy megtilthatja a lakások rövid távú hasznosítását, amit a Kúria gyakorlata elfogad [14]. A társasházi törvény alapján, ha az SZMSZ így rendelkezik, a rövid távú kiadás a közgyűlés előzetes jóváhagyásához köthető; ez a szabály nem visszamenőleges, és az SZMSZ az így használt lakásokra magasabb közös költséget is megállapíthat [9]. A VII. kerületben 2027. január 1-jétől érvényes társasházi hozzájárulás szükséges, a már nyilvántartott, hozzájárulással nem rendelkező szálláshelyeknek ezt 2026. december 31-ig kell benyújtaniuk [7].\n\nRövid távú kiadásra szánt lakás vásárlása előtt érdemes elolvasni az alapító okiratot és az SZMSZ-t, elkérni a közös képviselőtől a legutóbbi közgyűlési határozatokat, és ellenőrizni a kerületi szabályokat."
+      }
+    },
+    {
+      "h": {
+        "fr": "Taxe de séjour et contribution au développement touristique",
+        "en": "Tourist tax and tourism development contribution",
+        "de": "Kurtaxe und Tourismusförderbeitrag",
+        "hu": "Idegenforgalmi adó és turizmusfejlesztési hozzájárulás"
+      },
+      "body": {
+        "fr": "L'idegenforgalmi adó (IFA, taxe de séjour) est un impôt local fixé par chaque arrondissement. Les clients qui n'ont pas leur résidence permanente dans l'arrondissement la paient pour chaque nuit commencée ; l'hébergeur la collecte, dépose une déclaration mensuelle et la reverse au plus tard le 15 du mois suivant [15][16]. Dans les Ve et VIIIe arrondissements, le taux est de 4 % du prix de l'hébergement (Ve : du prix brut) [15][16]. Pour les autres arrondissements, vérifier le taux auprès du service fiscal de l'arrondissement avant de fixer les prix. Chaque client doit recevoir une facture ou un reçu, y compris pour les réservations via une plateforme, et la taxe de séjour doit y figurer sur une ligne séparée [14].\n\nS'y ajoute la turizmusfejlesztési hozzájárulás (TFH, contribution au développement touristique) de 4 % du prix hors TVA, due même par les hébergeurs exonérés de TVA ; pour 2026, elle se déclare à la NAV sur le formulaire 26TFEJLH [12].",
+        "en": "The idegenforgalmi adó (IFA, tourist tax) is a local tax set by each district. Guests who are not permanent residents of the district pay it for each night started; the host collects it, files a monthly return and pays it by the 15th of the following month [15][16]. In Districts V and VIII the rate is 4% of the accommodation fee (District V: of the gross fee) [15][16]. For other districts, check the rate with the district tax office before setting prices. Every guest must receive an invoice or receipt, including for platform bookings, with the tourist tax shown as a separate line [14].\n\nOn top of this comes the turizmusfejlesztési hozzájárulás (TFH, tourism development contribution) of 4% of the price excluding VAT, which is owed even by VAT-exempt hosts; for 2026 it is declared to NAV on form 26TFEJLH [12].",
+        "de": "Die idegenforgalmi adó (IFA, Kurtaxe) ist eine lokale Steuer, die jeder Bezirk festlegt. Gäste ohne ständigen Wohnsitz im Bezirk zahlen sie für jede angefangene Nacht; der Gastgeber zieht sie ein, gibt eine monatliche Erklärung ab und führt sie bis zum 15. des Folgemonats ab [15][16]. Im V. und VIII. Bezirk beträgt der Satz 4 % des Übernachtungspreises (V. Bezirk: des Bruttopreises) [15][16]. Für andere Bezirke sollte der Satz vor der Preisgestaltung beim Steueramt des Bezirks erfragt werden. Jeder Gast muss eine Rechnung oder Quittung erhalten, auch bei Buchungen über Plattformen, mit der Kurtaxe als eigener Position [14].\n\nHinzu kommt die turizmusfejlesztési hozzájárulás (TFH, Tourismusförderbeitrag) von 4 % des Preises ohne MwSt., die auch von mehrwertsteuerbefreiten Gastgebern geschuldet wird; für 2026 wird sie bei der NAV mit dem Formular 26TFEJLH erklärt [12].",
+        "hu": "Az idegenforgalmi adó (IFA) helyi adó, mértékét a kerület határozza meg. Az a vendég fizeti, aki nem állandó lakosa a kerületnek, minden megkezdett vendégéjszaka után; a szállásadó beszedi, havonta bevallja, és a tárgyhót követő hónap 15. napjáig befizeti [15][16]. Az V. és a VIII. kerületben a mérték a szállásdíj 4%-a (az V. kerületben a bruttó szállásdíjé) [15][16]. Más kerületekben az árak kialakítása előtt érdemes a kerületi adóhatóságnál ellenőrizni a mértéket. Minden vendégnek számlát vagy nyugtát kell adni, platformos foglalásnál is, és ezen az IFA-t külön sorban kell feltüntetni [14].\n\nEhhez jön a turizmusfejlesztési hozzájárulás (TFH), amely az áfa nélküli ellenérték 4%-a, és alanyi áfamentes szállásadót is terhel; 2026-ban a 26TFEJLH nyomtatványon kell bevallani a NAV-nak [12]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Les options d'imposition pour un particulier",
+        "en": "Income tax options for a private individual",
+        "de": "Steueroptionen für Privatpersonen",
+        "hu": "Adózási lehetőségek magánszemélyként"
+      },
+      "body": {
+        "fr": "En 2026, un particulier qui exploite un hébergement dispose de trois options principales :\n- **Tételes átalányadó (impôt forfaitaire par chambre) :** 150 000 HUF par chambre et par an dans les communes ayant enregistré plus de 2 millions de nuitées deux ans plus tôt, 38 400 HUF ailleurs ; en 2026, seule Budapest figure sur la liste du taux élevé [11]. Ce régime est ouvert au particulier qui n'est pas entrepreneur individuel, possède ou détient en usufruit au plus trois biens de ce type et n'héberge pas un même client plus de 90 jours par an ; il se paie chaque trimestre au plus tard le 12 du mois suivant, et au moins une chambre est due même pour une année incomplète [12]. Aucune cotisation sociale ne s'y ajoute [13].\n- **Frais réels :** impôt sur le revenu de 15 % sur les recettes diminuées des dépenses justifiées et de l'amortissement, plus 13 % de szocho (contribution sociale) [13].\n- **Forfait de 10 % de frais :** 90 % des recettes sont imposés à 15 %, plus la szocho [13].\n\nUn entrepreneur individuel (egyéni vállalkozó) dispose d'autres régimes, dont les paramètres sont à vérifier avec un expert-comptable.\n\nTVA : l'hébergement est soumis à une TVA de 5 %, mais l'hébergeur peut opter pour la franchise (alanyi adómentesség) si son chiffre d'affaires annuel reste inférieur à 20 millions de HUF en 2026 ; il ne peut alors pas récupérer la TVA sur ses achats et travaux [12][13]. Pour publier sur Airbnb ou Booking, il faut un numéro de TVA intracommunautaire, et la TVA sur la commission de la plateforme peut devoir être déclarée chaque mois même en franchise [13]. La déclaration annuelle d'impôt sur le revenu 2025 était due le 20 mai 2026 [13].",
+        "en": "In 2026 a private individual who provides accommodation has three main options:\n- **Tételes átalányadó (fixed lump-sum tax per room):** HUF 150,000 per guest room per year in municipalities that recorded more than 2 million guest nights two years earlier, and HUF 38,400 elsewhere; in 2026 only Budapest is on the higher-rate list [11]. It is open to an individual who is not a sole trader, owns or holds usufruct over at most three such properties and hosts the same guest for no more than 90 days a year; it is paid quarterly by the 12th of the month after the quarter, and at least one room is charged even for part of a year [12]. No social contribution tax is due on top [13].\n- **Itemised costs:** 15% personal income tax on revenue minus documented expenses and depreciation, plus 13% szocho (social contribution tax) [13].\n- **10% flat cost allowance:** 90% of revenue is taxed at 15%, plus szocho [13].\n\nA sole trader (egyéni vállalkozó) has further regimes, whose parameters should be checked with an accountant.\n\nVAT: accommodation is subject to 5% VAT, but a host can opt for the small-business exemption (alanyi adómentesség) if annual revenue stays below HUF 20 million in 2026; under the exemption, VAT on purchases and renovation cannot be recovered [12][13]. Advertising on Airbnb or Booking requires an EU VAT number, and VAT on the platform's commission may have to be declared monthly even when exempt [13]. The annual income tax return for 2025 was due on 20 May 2026 [13].",
+        "de": "2026 hat eine Privatperson, die eine Unterkunft betreibt, drei Hauptoptionen:\n- **Tételes átalányadó (Feststeuer pro Zimmer):** 150.000 HUF pro Gästezimmer und Jahr in Gemeinden mit mehr als 2 Millionen Übernachtungen zwei Jahre zuvor, sonst 38.400 HUF; 2026 steht nur Budapest auf der Liste mit dem höheren Satz [11]. Die Option steht Personen offen, die keine Einzelunternehmer sind, höchstens drei solche Objekte besitzen oder nießbrauchen und denselben Gast höchstens 90 Tage im Jahr beherbergen; gezahlt wird vierteljährlich bis zum 12. des Folgemonats, und mindestens ein Zimmer ist auch für ein angebrochenes Jahr fällig [12]. Sozialabgaben fallen zusätzlich nicht an [13].\n- **Tatsächliche Kosten:** 15 % Einkommensteuer auf die Einnahmen abzüglich belegter Ausgaben und Abschreibungen, zuzüglich 13 % szocho (Sozialbeitragssteuer) [13].\n- **Pauschale von 10 % Kosten:** 90 % der Einnahmen werden mit 15 % besteuert, zuzüglich szocho [13].\n\nFür Einzelunternehmer (egyéni vállalkozó) gibt es weitere Regelungen, deren Parameter mit einem Steuerberater zu prüfen sind.\n\nMwSt.: Beherbergung unterliegt 5 % MwSt., der Gastgeber kann aber die Kleinunternehmerbefreiung (alanyi adómentesség) wählen, wenn der Jahresumsatz 2026 unter 20 Millionen HUF bleibt; dann ist kein Vorsteuerabzug auf Einkäufe und Renovierung möglich [12][13]. Für Anzeigen auf Airbnb oder Booking ist eine EU-USt-IdNr. nötig, und die MwSt. auf die Plattformprovision kann auch bei Befreiung monatlich zu erklären sein [13]. Die Einkommensteuererklärung für 2025 war am 20. Mai 2026 fällig [13].",
+        "hu": "2026-ban a szálláshely-szolgáltató magánszemélynek három fő lehetősége van:\n- **Tételes átalányadó:** szobánként évi 150 000 Ft azokon a településeken, ahol két évvel korábban 2 milliónál több vendégéjszaka volt, máshol 38 400 Ft; 2026-ban csak Budapest szerepel a magasabb tételű listán [11]. Az a magánszemély választhatja, aki nem egyéni vállalkozó, legfeljebb három ilyen ingatlan tulajdonosa vagy haszonélvezője, és ugyanazt a vendéget évente legfeljebb 90 napig szállásolja el; negyedévente, a negyedévet követő hónap 12. napjáig kell megfizetni, és töredékévre is legalább egy szoba után fizetendő [12]. Szocho nem terheli [13].\n- **Tételes költségelszámolás:** a bevétel és az igazolt kiadások, valamint az értékcsökkenés különbözete után 15% szja és 13% szociális hozzájárulási adó (szocho) [13].\n- **10% költséghányad:** a bevétel 90%-a után 15% szja, valamint szocho [13].\n\nAz egyéni vállalkozóra további adózási módok vonatkoznak; ezek feltételeit könyvelővel érdemes egyeztetni.\n\nÁfa: a szálláshely-szolgáltatás 5%-os áfakulcs alá esik, de a szállásadó alanyi adómentességet választhat, ha éves bevétele 2026-ban 20 millió forint alatt marad; ekkor a beszerzések és a felújítás áfája nem vonható le [12][13]. Airbnb- vagy Booking-hirdetéshez közösségi adószám kell, és a platform jutaléka után alanyi mentesség mellett is havi áfabevallási kötelezettség keletkezhet [13]. A 2025-ös szja-bevallás határideje 2026. május 20. volt [13]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Ce qui détermine la rentabilité réelle",
+        "en": "What determines real profitability",
+        "de": "Was die tatsächliche Rentabilität bestimmt",
+        "hu": "Mitől függ a valódi jövedelmezőség"
+      },
+      "body": {
+        "fr": "Le prix par nuit affiché surestime ce que garde le propriétaire. Les principaux postes à déduire sont :\n- **Frais de plateforme :** sur Airbnb, le modèle à frais partagés prélève environ 3 % côté hôte ; le frais unique côté hôte, vers lequel Airbnb fait migrer tous les hôtes de logements et qui s'applique aux hôtes utilisant un logiciel de gestion, est en général de 15,5 % (14 % à 16 %) [17].\n- **Taxes et prélèvements :** taxe de séjour (4 % dans les arrondissements cités), TFH (4 % du prix hors TVA), impôt sur le revenu (forfait par chambre, ou 15 % plus szocho) et, sans franchise, TVA de 5 % [11][12][13][15].\n- **Frais d'exploitation :** ménage et blanchisserie après chaque séjour, consommables, énergie, internet, charges de copropriété, assurance, logiciel NTAK et renouvellement du classement tous les 3 ans [14].\n- **Gestion :** un propriétaire qui vit à l'étranger a en général besoin d'un gestionnaire local pour les arrivées, le ménage et la relation client ; les honoraires, souvent exprimés en pourcentage des recettes, varient : comparer des devis écrits.\n- **Vacance et risque réglementaire :** nuits non louées, fin possible du moratoire au 31 décembre 2026 et règles d'arrondissement qui peuvent s'appliquer aux hébergements existants, comme dans le VIe [5][6].\n\nIl est utile de comparer le résultat net avec une location longue durée du même appartement, qui ne demande aucun enregistrement touristique.",
+        "en": "The advertised nightly rate overstates what the owner keeps. The main deductions are:\n- **Platform fees:** on Airbnb, the split-fee model charges the host about 3%; the single host-only fee, to which Airbnb is moving all home hosts and which applies to hosts using property management software, is typically 15.5% (14% to 16%) [17].\n- **Taxes and levies:** tourist tax (4% in the districts cited), TFH (4% of the net price), income tax (the per-room lump sum, or 15% plus szocho) and, without the exemption, 5% VAT [11][12][13][15].\n- **Operating costs:** cleaning and laundry after each stay, consumables, energy, internet, building common charges, insurance, NTAK software and classification renewal every 3 years [14].\n- **Management:** an owner living abroad usually needs a local manager for check-ins, cleaning and guest contact; fees are often quoted as a share of revenue and vary, so compare written quotes.\n- **Vacancy and regulatory risk:** unlet nights, the possible end of the moratorium on 31 December 2026, and district rules that can apply to existing units, as in District VI [5][6].\n\nIt is worth comparing the net result with a long-term lease of the same flat, which needs no tourism registration.",
+        "de": "Der ausgeschriebene Übernachtungspreis überzeichnet, was dem Eigentümer bleibt. Die wichtigsten Abzüge:\n- **Plattformgebühren:** Bei Airbnb zahlt der Gastgeber im Modell der geteilten Gebühr etwa 3 %; die Einheitsgebühr für Gastgeber, auf die Airbnb alle Gastgeber von Wohnungen umstellt und die bei Nutzung einer Verwaltungssoftware gilt, beträgt meist 15,5 % (14 % bis 16 %) [17].\n- **Steuern und Abgaben:** Kurtaxe (4 % in den genannten Bezirken), TFH (4 % des Nettopreises), Einkommensteuer (Festbetrag pro Zimmer oder 15 % plus szocho) und ohne Befreiung 5 % MwSt. [11][12][13][15].\n- **Betriebskosten:** Reinigung und Wäsche nach jedem Aufenthalt, Verbrauchsmaterial, Energie, Internet, Hausgeld, Versicherung, NTAK-Software und Erneuerung der Klassifizierung alle 3 Jahre [14].\n- **Verwaltung:** Wer im Ausland lebt, braucht meist einen Verwalter vor Ort für Check-in, Reinigung und Gästekontakt; die Honorare werden oft als Anteil am Umsatz angegeben und schwanken, daher schriftliche Angebote vergleichen.\n- **Leerstand und Regulierungsrisiko:** unvermietete Nächte, ein mögliches Ende des Moratoriums am 31. Dezember 2026 und Bezirksregeln, die auch bestehende Einheiten treffen können, wie im VI. Bezirk [5][6].\n\nEs lohnt sich, das Nettoergebnis mit einer Langzeitvermietung derselben Wohnung zu vergleichen, für die keine touristische Registrierung nötig ist.",
+        "hu": "A hirdetett éjszakai ár többet mutat, mint ami a tulajdonosnál marad. A fő levonások:\n- **Platformdíj:** az Airbnb megosztott díjas modelljében a szállásadó kb. 3%-ot fizet; az egységes, csak a szállásadót terhelő díj, amelyre az Airbnb minden lakáskiadót átállít, és amely ingatlankezelő szoftvert használóknál kötelező, jellemzően 15,5% (14–16%) [17].\n- **Adók és járulékok:** IFA (az említett kerületekben 4%), TFH (a nettó ár 4%-a), jövedelemadó (szobánkénti tételes átalányadó, vagy 15% plusz szocho), alanyi mentesség nélkül 5% áfa [11][12][13][15].\n- **Működési költségek:** takarítás és mosatás minden vendég után, fogyóeszközök, energia, internet, közös költség, biztosítás, NTAK-szoftver és a minősítés 3 évenkénti megújítása [14].\n- **Kezelés:** külföldön élő tulajdonosnak általában helyi kezelőre van szüksége a vendégfogadáshoz, takarításhoz és kapcsolattartáshoz; a díjat gyakran a bevétel százalékában adják meg, és ez eltérő, ezért írásos ajánlatokat érdemes összevetni.\n- **Kihasználatlanság és szabályozási kockázat:** üres éjszakák, a moratórium esetleges lejárta 2026. december 31-én, valamint kerületi szabályok, amelyek a meglévő szálláshelyeket is érinthetik, mint a VI. kerületben [5][6].\n\nÉrdemes a nettó eredményt összevetni ugyanannak a lakásnak a hosszú távú kiadásával, amelyhez nem kell turisztikai nyilvántartásba vétel."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Règles de location courte durée par arrondissement au 26 octobre 2026",
+      "en": "Short-term rental rules by district on 26 October 2026",
+      "de": "Regeln zur Kurzzeitvermietung nach Bezirk am 26. Oktober 2026",
+      "hu": "Rövid távú kiadás szabályai kerületenként, 2026. október 26."
+    },
+    "head": {
+      "fr": [
+        "Arrondissement",
+        "Règle en vigueur ou adoptée",
+        "Prochaine étape / dates"
+      ],
+      "en": [
+        "District",
+        "Rule in force or adopted",
+        "Next step / dates"
+      ],
+      "de": [
+        "Bezirk",
+        "Geltende oder beschlossene Regel",
+        "Nächster Schritt / Termine"
+      ],
+      "hu": [
+        "Kerület",
+        "Hatályos vagy elfogadott szabály",
+        "Következő lépés / határidők"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "V (Belváros-Lipótváros)",
+          "Au plus 5 % des logements d'un immeuble en hébergement privé ou autre ; surfaces minimales des chambres ; procédure d'aspect urbain obligatoire (décret 2/2026, en vigueur depuis le 1er avril 2026) [1][2]",
+          "Projets engagés avant le 1er avril 2026 : enregistrement possible jusqu'au 30 juin 2027 [2]"
+        ],
+        [
+          "VI (Terézváros)",
+          "0 jour par an depuis le 1er janvier 2026, y compris pour les hébergements existants ; jugé légal par la Kúria le 11 novembre 2025 [3][4][5]",
+          "Recours constitutionnels et judiciaires pendants en octobre 2026 [6]"
+        ],
+        [
+          "VII (Erzsébetváros)",
+          "Depuis septembre 2025, nouveaux hébergements seulement au rez-de-chaussée, dans la limite de 10 % de la surface habitable [5][7]",
+          "À partir du 1er janvier 2027 : accord de la copropriété obligatoire, à fournir avant le 31 décembre 2026 pour les hébergements enregistrés [7]"
+        ],
+        [
+          "VIII (Józsefváros)",
+          "Concept adopté le 25 juin 2026 : plafond de 3,5 % du parc de logements, 1 à 5 % selon les quartiers ; plafond par immeuble abaissé à 15 % dans le projet de règlement [8]",
+          "Entrée en vigueur prévue le 1er janvier 2027 ; règlement non encore adopté au 26 octobre 2026 [8]"
+        ],
+        [
+          "I (Várkerület)",
+          "Projet de règlement : interdiction totale dans le quartier du Château, accord de la copropriété ailleurs [10]",
+          "Vote attendu en novembre 2026 ; application prévue au 1er janvier 2028 [10]"
+        ],
+        [
+          "IX, X, XII, XIII",
+          "Pas d'interdiction générale ni de quota connus en août 2026 [7]",
+          "Vérifier le règlement de construction et la copropriété pour chaque bien [7]"
+        ]
+      ],
+      "en": [
+        [
+          "V (Belváros-Lipótváros)",
+          "At most 5% of a building's units used as private or other accommodation; minimum room sizes; townscape procedure required (decree 2/2026, in force since 1 April 2026) [1][2]",
+          "Projects started before 1 April 2026 can be registered until 30 June 2027 [2]"
+        ],
+        [
+          "VI (Terézváros)",
+          "0 days a year since 1 January 2026, existing units included; found lawful by the Kúria on 11 November 2025 [3][4][5]",
+          "Constitutional and court challenges pending in October 2026 [6]"
+        ],
+        [
+          "VII (Erzsébetváros)",
+          "Since September 2025, new units only on the ground floor and within 10% of residential floor area [5][7]",
+          "From 1 January 2027: condominium consent required; registered units must submit it by 31 December 2026 [7]"
+        ],
+        [
+          "VIII (Józsefváros)",
+          "Concept adopted 25 June 2026: cap of 3.5% of the housing stock, 1% to 5% by quarter; per-building cap lowered to 15% in the draft regulation [8]",
+          "Planned entry into force 1 January 2027; regulation not yet adopted on 26 October 2026 [8]"
+        ],
+        [
+          "I (Castle District)",
+          "Draft decree: full ban in the Castle quarter, condominium consent elsewhere [10]",
+          "Vote expected November 2026; planned to apply from 1 January 2028 [10]"
+        ],
+        [
+          "IX, X, XII, XIII",
+          "No known general ban or quota as of August 2026 [7]",
+          "Check the building regulation and the condominium for each property [7]"
+        ]
+      ],
+      "de": [
+        [
+          "V (Belváros-Lipótváros)",
+          "Höchstens 5 % der Einheiten eines Hauses als Privat- oder sonstige Unterkunft; Mindestzimmergrößen; Ortsbildverfahren Pflicht (Verordnung 2/2026, gültig seit 1. April 2026) [1][2]",
+          "Vor dem 1. April 2026 begonnene Vorhaben können bis 30. Juni 2027 registriert werden [2]"
+        ],
+        [
+          "VI (Terézváros)",
+          "0 Tage pro Jahr seit 1. Januar 2026, auch für bestehende Einheiten; von der Kúria am 11. November 2025 bestätigt [3][4][5]",
+          "Verfassungs- und Gerichtsverfahren im Oktober 2026 anhängig [6]"
+        ],
+        [
+          "VII (Erzsébetváros)",
+          "Seit September 2025 neue Einheiten nur im Erdgeschoss und bis 10 % der Wohnfläche [5][7]",
+          "Ab 1. Januar 2027: Zustimmung der Eigentümergemeinschaft nötig; registrierte Einheiten müssen sie bis 31. Dezember 2026 vorlegen [7]"
+        ],
+        [
+          "VIII (Józsefváros)",
+          "Konzept vom 25. Juni 2026: Obergrenze 3,5 % des Wohnungsbestands, 1 % bis 5 % je Viertel; Obergrenze pro Haus im Verordnungsentwurf auf 15 % gesenkt [8]",
+          "Geplantes Inkrafttreten 1. Januar 2027; Verordnung am 26. Oktober 2026 noch nicht beschlossen [8]"
+        ],
+        [
+          "I (Burgviertel)",
+          "Verordnungsentwurf: vollständiges Verbot im Burgviertel, sonst Zustimmung der Eigentümergemeinschaft [10]",
+          "Abstimmung im November 2026 erwartet; Anwendung ab 1. Januar 2028 geplant [10]"
+        ],
+        [
+          "IX, X, XII, XIII",
+          "Kein bekanntes allgemeines Verbot und keine Quote, Stand August 2026 [7]",
+          "Bauordnung und Eigentümergemeinschaft für jedes Objekt prüfen [7]"
+        ]
+      ],
+      "hu": [
+        [
+          "V. (Belváros-Lipótváros)",
+          "Egy épületben az önálló egységek legfeljebb 5%-a lehet magán- vagy egyéb szálláshely; minimális szobaméretek; településképi eljárás kötelező (2/2026. rendelet, 2026. április 1-jétől) [1][2]",
+          "A 2026. április 1. előtt indult ügyekben a nyilvántartásba vétel 2027. június 30-ig lehetséges [2]"
+        ],
+        [
+          "VI. (Terézváros)",
+          "2026. január 1. óta évi 0 nap, a meglévő szálláshelyekre is; a Kúria 2025. november 11-én jogszerűnek ítélte [3][4][5]",
+          "Alkotmányjogi és bírósági eljárások 2026 októberében folyamatban [6]"
+        ],
+        [
+          "VII. (Erzsébetváros)",
+          "2025 szeptembere óta új szálláshely csak földszinten, a lakóterület legfeljebb 10%-án [5][7]",
+          "2027. január 1-jétől társasházi hozzájárulás kell; a nyilvántartott szálláshelyeknek 2026. december 31-ig kell benyújtaniuk [7]"
+        ],
+        [
+          "VIII. (Józsefváros)",
+          "2026. június 25-én elfogadott koncepció: a lakásállomány legfeljebb 3,5%-a, negyedenként 1–5%; az épületenkénti korlát a rendelettervezetben 15%-ra csökkent [8]",
+          "Tervezett hatálybalépés 2027. január 1.; a rendeletet 2026. október 26-ig még nem fogadták el [8]"
+        ],
+        [
+          "I. (Várkerület)",
+          "Rendelettervezet: teljes tilalom a Várnegyedben, máshol társasházi hozzájárulás [10]",
+          "Szavazás 2026 novemberében várható; alkalmazás 2028. január 1-jétől [10]"
+        ],
+        [
+          "IX., X., XII., XIII.",
+          "2026 augusztusában nem ismert általános tilalom vagy kvóta [7]",
+          "Ingatlanonként ellenőrizni kell az építési szabályzatot és a társasházi szabályokat [7]"
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Puis-je acheter un appartement maintenant et le louer sur Airbnb ?",
+        "en": "Can I buy a flat now and start letting it on Airbnb?",
+        "de": "Kann ich jetzt eine Wohnung kaufen und über Airbnb vermieten?",
+        "hu": "Vehetek most lakást, és kiadhatom Airbnb-n?"
+      },
+      "a": {
+        "fr": "Pas comme nouvel hébergement avant la fin du moratoire, prévue au 31 décembre 2026, sauf si le gouvernement le prolonge [1][6]. Ensuite, les règles de l'arrondissement et de la copropriété décideront si l'enregistrement est possible [7].",
+        "en": "Not as a new unit before the moratorium ends, which is due on 31 December 2026 unless the government extends it [1][6]. After that, the district and condominium rules will decide whether registration is possible [7].",
+        "de": "Nicht als neue Unterkunft vor Ende des Moratoriums, das am 31. Dezember 2026 ausläuft, sofern die Regierung es nicht verlängert [1][6]. Danach entscheiden Bezirks- und Hausregeln, ob eine Registrierung möglich ist [7].",
+        "hu": "Új szálláshelyként nem a moratórium vége előtt, amely 2026. december 31-én jár le, hacsak a kormány meg nem hosszabbítja [1][6]. Ezt követően a kerületi és a társasházi szabályok döntik el, lehetséges-e a nyilvántartásba vétel [7]."
+      }
+    },
+    {
+      "q": {
+        "fr": "L'interdiction du VIe arrondissement vise-t-elle les hébergements déjà enregistrés ?",
+        "en": "Does the District VI ban apply to units already registered?",
+        "de": "Gilt das Verbot im VI. Bezirk auch für bereits registrierte Einheiten?",
+        "hu": "A VI. kerületi tilalom a már nyilvántartott szálláshelyekre is vonatkozik?"
+      },
+      "a": {
+        "fr": "Oui. Depuis le 1er janvier 2026, le nombre de jours autorisé est de zéro pour tous les hébergements privés et autres de l'arrondissement ; seuls les hôtels, pensions et hébergements collectifs peuvent fonctionner [5][7].",
+        "en": "Yes. Since 1 January 2026 the permitted number of days is zero for all private and other accommodation in the district; only hotels, pensions and community accommodation may operate [5][7].",
+        "de": "Ja. Seit 1. Januar 2026 sind für alle Privat- und sonstigen Unterkünfte im Bezirk null Tage erlaubt; nur Hotels, Pensionen und Gemeinschaftsunterkünfte dürfen betrieben werden [5][7].",
+        "hu": "Igen. 2026. január 1. óta a kerület minden magán- és egyéb szálláshelyére évi 0 nap vonatkozik; csak szálloda, panzió és közösségi szálláshely működhet [5][7]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Ma copropriété peut-elle interdire la location courte durée ?",
+        "en": "Can my building prohibit short-term letting?",
+        "de": "Kann meine Eigentümergemeinschaft die Kurzzeitvermietung verbieten?",
+        "hu": "Megtilthatja a társasház a rövid távú kiadást?"
+      },
+      "a": {
+        "fr": "Oui, par son SZMSZ, ce que la jurisprudence de la Kúria admet [14]. Une telle règle n'est pas rétroactive [9], et dans le VIIe arrondissement l'accord de la copropriété devient obligatoire au 1er janvier 2027 [7].",
+        "en": "Yes, through its SZMSZ, which Kúria case law accepts [14]. Such a rule is not retroactive [9], and in District VII condominium consent becomes mandatory on 1 January 2027 [7].",
+        "de": "Ja, über ihre SZMSZ, was die Rechtsprechung der Kúria anerkennt [14]. Eine solche Regel wirkt nicht rückwirkend [9], und im VII. Bezirk wird die Zustimmung des Hauses ab 1. Januar 2027 Pflicht [7].",
+        "hu": "Igen, az SZMSZ-ben, amit a Kúria gyakorlata elfogad [14]. Ez a szabály nem visszamenőleges [9], a VII. kerületben pedig 2027. január 1-jétől kötelező a társasházi hozzájárulás [7]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel régime fiscal est le plus avantageux ?",
+        "en": "Which tax option costs least?",
+        "de": "Welche Steueroption ist am günstigsten?",
+        "hu": "Melyik adózási mód a legkedvezőbb?"
+      },
+      "a": {
+        "fr": "Cela dépend du nombre de chambres, des recettes et des frais. Le forfait de 150 000 HUF par chambre à Budapest est fixe quel que soit le chiffre d'affaires [11] ; les régimes à 15 % plus szocho dépendent des recettes et des frais [13]. Une simulation avec un expert-comptable est recommandée.",
+        "en": "It depends on the number of rooms, revenue and costs. The HUF 150,000 per-room lump sum in Budapest is fixed whatever the revenue [11]; the 15% plus szocho options depend on revenue and costs [13]. A calculation with an accountant is advisable.",
+        "de": "Das hängt von Zimmerzahl, Umsatz und Kosten ab. Die Pauschale von 150.000 HUF pro Zimmer in Budapest ist unabhängig vom Umsatz fest [11]; die Varianten mit 15 % plus szocho hängen von Umsatz und Kosten ab [13]. Eine Berechnung mit einem Steuerberater ist ratsam.",
+        "hu": "A szobák számától, a bevételtől és a költségektől függ. A budapesti szobánkénti 150 000 Ft-os tételes átalányadó a bevételtől független [11]; a 15% plusz szocho szerinti módok a bevételtől és a költségektől függnek [13]. Érdemes könyvelővel kiszámolni."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Belváros-Lipótváros – Szálláshely-szolgáltatási tevékenység bejelentése (District V notary procedure, Kertv. 11/H)",
+      "url": "https://www.belvaros-lipotvaros.hu/egovernment_affairs/details/237",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Nemzeti Jogszabálytár – Belváros-Lipótváros 2/2026. (II. 12.) önkormányzati rendelet",
+      "url": "https://njt.jog.gov.hu/jogszabaly/2026-2-SP-5Y254.0",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Infostart – Terézváros lakossága döntött (referendum result, 16 Sep 2024)",
+      "url": "https://infostart.hu/belfold/2024/09/16/terezvaros-lakossaga-dontott-nem-az-airbnbn-re/amp",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Terézváros: the Kúria upheld the zero-day rule (4 Dec 2025)",
+      "url": "https://www.economx.hu/gazdasag/2025/12/04/terezvaros-soproni-tamas-budapest-airbnb-polgarmester-nulla-nap-szallas-turizmus-lakhatas-820237/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Pénzcentrum – Végleges tiltás lép életbe a főváros szívében (19 May 2026)",
+      "url": "https://www.penzcentrum.hu/otthon/20260519/vegleges-tiltas-lep-eletbe-a-fovaros-sziveben-rengeteg-ingatlantulajdonos-bukja-el-emiatt-a-biztos-bevetelt-1198922",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Turizmus.com – Nincs bizonyíték az Airbnb-korlátozás lakhatási előnyeire (14 Oct 2026)",
+      "url": "https://turizmus.com/cikk/szallashely/nincs-bizonyitek-az-airbnb-korlatozas-lakhatasi-elonyeire-jogszabaly-modositast-surgetnek-szakmai-szervezetek",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NW Apartments – Airbnb Budapesten 2027-től: district-by-district overview (28 Aug 2026)",
+      "url": "https://www.nwapartments.hu/post/airbnb-budapesten-2027-tol-hollehet-uj-rovid-tavu-szallashelyetinditani-a-moratorium-utan",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Józsefváros – Partnerségi egyeztetés az Építési Szabályzat rövidtávú szálláskiadást érintő módosításáról (Sep 2026)",
+      "url": "https://jozsefvaros.hu/otthon/hirdetotabla/hirek/2026/09/partnersegi-egyeztetes-a-keruleti-epitesi-szabalyzat-eseti-modositasarol-mondja-el-velemenyet-es-vegyen-reszt-online-forumunkon/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Józsefváros – Háttéranyag és javaslat a rövidtávú szálláskiadás szabályozására (May 2026)",
+      "url": "https://jozsefvaros.hu/downloads/2026/05/hatteranyag-es-javaslat-a-rovidtavu-szallaskiadas-szabalyozasara-jozsefvarosban-pdf-1.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Telex – Betilthatják 2028-tól az Airbnb-t a budai Várban (22 Oct 2026)",
+      "url": "https://telex.hu/belfold/2026/10/22/az-i-kerulet-is-betilthatja-az-airbnb-t-elkeszult-a-rendelet-tervezete",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Individual: Income determination (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/individual/income-determination",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Székhelycentrum – Magánszálláshely-szolgáltatás 2026: adózás, NTAK és bejelentés (updated 21 Jul 2026)",
+      "url": "https://szekhelycentrum.hu/maganszallashely-szolgaltatas-2025/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "TudatosAdozo.hu – Airbnb adózás 2026: útmutató magánszemélyeknek (12 Mar 2026)",
+      "url": "https://tudatosadozo.hu/airbnb-adozas-2026-igy-adozz-maganszemelykent-okosan/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Appartman Akadémia – Rövid távú lakáskiadás szabályai 2026-ban",
+      "url": "https://www.akademia.appartman.hu/rovid-tavu-lakaskiadas-szabalyai/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Belváros-Lipótváros – Idegenforgalmi adó (District V tourist tax)",
+      "url": "https://www.belvaros-lipotvaros.hu/egovernment_affairs/details/182",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Józsefváros – Idegenforgalmi adó (District VIII tourist tax)",
+      "url": "https://jozsefvaros.hu/ugyintezes/ugy/idegenforgalmi-ado/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Airbnb Help Center – Airbnb service fees",
+      "url": "https://mk.airbnb.com/help/article/1857/airbnb-service-fees",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": true
+}
