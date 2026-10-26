@@ -149,3 +149,8 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .hero-img{filter:grayscale(1)}
 .hero::after,.phero::after,.phdr::after{display:none}
 .hero .eyebrow,.hero h1,.hero p{text-shadow:0 1px 18px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.45)}
+/* hero on a light B&W photo: white text and a darker left side behind it */
+.hero .eyebrow,.hero .lead,.hero p,.hero .muted{color:#f4f3ef!important}
+.hero .eyebrow{font-weight:600}
+.hero-fade{background:linear-gradient(90deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.42) 45%,rgba(0,0,0,.12) 75%,rgba(0,0,0,0) 100%),linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 70%,rgba(0,0,0,.55) 100%)}
+.hero-cr{color:rgba(255,255,255,.8)}
