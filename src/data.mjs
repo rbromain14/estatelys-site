@@ -557,10 +557,10 @@ export const refsText = {
 export const resources = {
   title: { fr: "Ressources pour investir à Budapest", en: "Resources for investing in Budapest", de: "Ressourcen für Investitionen in Budapest", hu: "Források a budapesti befektetéshez" },
   intro: {
-    fr: "Guides, données et outils en préparation. Demandez celui qui vous intéresse : nous vous l'envoyons dès sa parution.",
-    en: "Guides, data and tools in preparation. Ask for the one you need and we will send it as soon as it is published.",
-    de: "Leitfäden, Daten und Tools in Vorbereitung. Fragen Sie das gewünschte an, wir senden es Ihnen bei Erscheinen zu.",
-    hu: "Útmutatók, adatok és eszközök készülőben. Kérje azt, amelyik érdekli, és megjelenéskor elküldjük.",
+    fr: "Guides, données et outils pour acheter, louer et revendre à Budapest. Chaque page indique ses sources et la date de vérification des informations.",
+    en: "Guides, data and tools for buying, letting and reselling in Budapest. Each page lists its sources and the date its information was checked.",
+    de: "Leitfäden, Daten und Tools zum Kaufen, Vermieten und Verkaufen in Budapest. Jede Seite nennt ihre Quellen und das Prüfdatum der Angaben.",
+    hu: "Útmutatók, adatok és eszközök a budapesti vásárláshoz, bérbeadáshoz és eladáshoz. Minden oldal feltünteti forrásait és az adatok ellenőrzésének dátumát.",
   },
   soon: { fr: "En préparation", en: "In preparation", de: "In Vorbereitung", hu: "Készülőben" },
   ask: { fr: "Être prévenu", en: "Notify me", de: "Benachrichtigen", hu: "Értesítést kérek" },
@@ -636,7 +636,7 @@ export const resources = {
       { key: "rents", slug: "budapest-rent-trends", fr: "Évolution des loyers à Budapest sur 5 ans", en: "Rent trends in Budapest over 5 years", de: "Mietentwicklung in Budapest über 5 Jahre", hu: "A budapesti bérleti díjak alakulása 5 év alatt" },
       { key: "compare", slug: "budapest-vs-prague-warsaw-vienna", fr: "Budapest face à Prague, Varsovie et Vienne", en: "Budapest vs Prague, Warsaw and Vienna", de: "Budapest im Vergleich zu Prag, Warschau und Wien", hu: "Budapest Prágához, Varsóhoz és Bécshez képest" },
     ]},
-    { t: { fr: "Outils à télécharger", en: "Downloadable tools", de: "Tools zum Herunterladen", hu: "Letölthető eszközök" }, items: [
+    { t: { fr: "Outils pratiques", en: "Practical tools", de: "Praktische Tools", hu: "Gyakorlati eszközök" }, items: [
       { key: "sim", slug: "rental-yield-calculator", fr: "Simulateur de rentabilité locative : prix, travaux, loyer, charges, impôts, rendement net", en: "Rental profitability simulator: price, renovation, rent, charges, taxes, net yield", de: "Renditerechner: Preis, Renovierung, Miete, Nebenkosten, Steuern, Nettorendite", hu: "Bérleti jövedelmezőség-kalkulátor: ár, felújítás, bérleti díj, rezsi, adók, nettó hozam" },
       { key: "reno", slug: "renovation-budget-per-m2-budapest", fr: "Budget de rénovation type au m² selon le niveau de finition", en: "Typical renovation budget per m² by finish level", de: "Typisches Renovierungsbudget pro m² nach Ausstattungsniveau", hu: "Jellemző felújítási költség m²-enként, kivitelezési szint szerint" },
       { key: "check", slug: "viewing-due-diligence-checklist", fr: "Check-list de visite et de vérifications : état de l'immeuble, charges, titre de propriété, hypothèques", en: "Viewing and due-diligence checklist: building condition, charges, title deed, mortgages", de: "Checkliste für Besichtigung und Prüfung: Gebäudezustand, Nebenkosten, Grundbuch, Hypotheken", hu: "Megtekintési és átvilágítási ellenőrzőlista: épület állapota, közös költség, tulajdoni lap, jelzálog" },
