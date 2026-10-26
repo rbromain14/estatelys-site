@@ -1,0 +1,337 @@
+{
+  "slug": "faq-buying-property-hungary-foreigner",
+  "item": "faq",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "FAQ : un étranger peut-il acheter en Hongrie ? Quels risques ? Quels impôts ?",
+    "en": "FAQ: Can a foreigner buy property in Hungary? What are the risks and taxes?",
+    "de": "FAQ: Darf ein Ausländer in Ungarn kaufen? Welche Risiken, welche Steuern?",
+    "hu": "GYIK: Vásárolhat-e külföldi ingatlant Magyarországon? Kockázatok és adók"
+  },
+  "summary": {
+    "fr": "Droit d'achat UE et hors UE, délais, frais, impôts sur les loyers et la revente, achat à distance ou via société, droit de séjour : les règles en octobre 2026.",
+    "en": "EU and non-EU buying rights, timing, costs, tax on rent and resale, remote or company purchase, residence rights: the rules as of October 2026.",
+    "de": "Kaufrecht für EU- und Nicht-EU-Bürger, Fristen, Kosten, Steuern auf Miete und Verkauf, Kauf per Vollmacht oder Gesellschaft, Aufenthalt: Stand Oktober 2026.",
+    "hu": "EU-s és nem EU-s vevők, határidők, költségek, a bérbeadás és az eladás adója, távoli vagy céges vásárlás, tartózkodási jog: a szabályok 2026 októberében."
+  },
+  "keyFacts": [
+    {
+      "fr": "Citoyens UE/EEE et suisses : aucun permis pour acheter un logement [1].",
+      "en": "EU/EEA and Swiss citizens: no permit needed to buy a home [1].",
+      "de": "EU-/EWR- und Schweizer Bürger: keine Genehmigung für den Wohnungskauf nötig [1].",
+      "hu": "EU/EGT- és svájci állampolgárok: lakásvásárláshoz nem kell engedély [1]."
+    },
+    {
+      "fr": "Hors UE/EEE : permis de l'office gouvernemental, 45 jours, 65 000 HUF [2].",
+      "en": "Non-EU/EEA: government office permit, 45 days, HUF 65,000 [2].",
+      "de": "Außerhalb EU/EWR: Genehmigung des Regierungsamts, 45 Tage, 65.000 HUF [2].",
+      "hu": "EU/EGT-n kívül: kormányhivatali engedély, 45 nap, 65 000 Ft [2]."
+    },
+    {
+      "fr": "Droit de mutation : 4 % de la valeur vénale (2 % au-delà de 1 milliard HUF, plafond 200 millions HUF) [4][7].",
+      "en": "Transfer duty: 4% of market value (2% above HUF 1 billion, capped at HUF 200 million) [4][7].",
+      "de": "Grunderwerbsabgabe: 4 % des Verkehrswerts (2 % über 1 Mrd. HUF, Deckel 200 Mio. HUF) [4][7].",
+      "hu": "Vagyonszerzési illeték: a forgalmi érték 4%-a (1 milliárd Ft felett 2%, legfeljebb 200 millió Ft) [4][7]."
+    },
+    {
+      "fr": "Loyers : impôt de 15 %, sans szocho ; revente exonérée à partir de la 5e année après l'acquisition [4][5][6].",
+      "en": "Rent: 15% income tax, no szocho; resale tax-free from the fifth year after acquisition [4][5][6].",
+      "de": "Miete: 15 % Einkommensteuer, kein szocho; Verkauf ab dem fünften Jahr nach Erwerb steuerfrei [4][5][6].",
+      "hu": "Bérbeadás: 15% szja, szocho nélkül; az eladás a szerzést követő ötödik évtől adómentes [4][5][6]."
+    },
+    {
+      "fr": "Acheter un logement ne donne pas de titre de séjour ; le programme d'investisseur invité (vendégbefektetői) exige 250 000 € en fonds immobilier ou un don de 1 000 000 € [9].",
+      "en": "Buying a home gives no residence permit; the guest investor programme requires €250,000 in a real estate fund or a €1,000,000 donation [9].",
+      "de": "Ein Wohnungskauf verschafft keinen Aufenthaltstitel; das Gastinvestorenprogramm verlangt 250.000 € in einem Immobilienfonds oder 1.000.000 € Spende [9].",
+      "hu": "A lakásvásárlás nem ad tartózkodási engedélyt; a vendégbefektetői programhoz 250 000 € ingatlanalap-befektetés vagy 1 000 000 € adomány kell [9]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Qui peut acheter, et comment",
+        "en": "Who can buy, and how",
+        "de": "Wer kaufen darf und wie",
+        "hu": "Ki vásárolhat, és hogyan"
+      },
+      "body": {
+        "fr": "Les citoyens de l'UE, de l'EEE et de la Suisse achètent un logement en Hongrie dans les mêmes conditions que les Hongrois [1]. Les autres étrangers, personnes physiques ou sociétés, ont besoin d'une autorisation de l'office gouvernemental (kormányhivatal) du lieu du bien, régie par le décret 251/2014 [3]. Cette règle ne concerne pas les terres agricoles et forestières, qui relèvent d'un régime distinct [3].\n\nDans tous les cas, le contrat est rédigé et contresigné par un avocat hongrois. L'acheteur verse en général un acompte (foglaló) d'environ 10 % à la signature, puis l'avocat dépose la mutation au földhivatal (bureau du registre foncier) [8].",
+        "en": "EU, EEA and Swiss citizens buy a home in Hungary on the same terms as Hungarians [1]. Other foreigners, individuals or companies, need permission from the kormányhivatal (government office) where the property is, under Government Decree 251/2014 [3]. This rule does not cover agricultural and forest land, which falls under a separate regime [3].\n\nIn every case, the contract is drafted and countersigned by a Hungarian lawyer. The buyer usually pays a deposit (foglaló) of about 10% at signing, then the lawyer files the transfer at the földhivatal (land registry office) [8].",
+        "de": "EU-, EWR- und Schweizer Bürger kaufen in Ungarn zu denselben Bedingungen wie Ungarn [1]. Andere Ausländer, Personen oder Gesellschaften, brauchen eine Genehmigung des kormányhivatal (Regierungsamt) am Ort der Immobilie nach der Regierungsverordnung 251/2014 [3]. Land- und forstwirtschaftliche Flächen fallen nicht darunter, für sie gilt ein eigenes Regime [3].\n\nIn jedem Fall wird der Vertrag von einem ungarischen Anwalt verfasst und gegengezeichnet. Der Käufer zahlt meist bei Unterzeichnung eine Anzahlung (foglaló) von rund 10 %, danach reicht der Anwalt den Eigentumswechsel beim földhivatal (Grundbuchamt) ein [8].",
+        "hu": "Az EU, az EGT és Svájc állampolgárai a magyarokkal azonos feltételekkel vehetnek lakást [1]. A többi külföldinek – magánszemélynek vagy cégnek – a 251/2014. Korm. rendelet alapján az ingatlan fekvése szerinti kormányhivatal engedélye kell [3]. A szabály nem vonatkozik a mező- és erdőgazdasági földekre, amelyekre külön szabályozás érvényes [3].\n\nA szerződést minden esetben magyar ügyvéd készíti és ellenjegyzi. A vevő az aláíráskor jellemzően kb. 10% foglalót fizet, majd az ügyvéd benyújtja a változást a földhivatalhoz [8]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Coûts et impôts en bref",
+        "en": "Costs and taxes at a glance",
+        "de": "Kosten und Steuern im Überblick",
+        "hu": "Költségek és adók röviden"
+      },
+      "body": {
+        "fr": "- **Droit de mutation (vagyonszerzési illeték)** : 4 % de la valeur vénale fixée par la NAV, 2 % au-delà de 1 milliard HUF, plafonné à 200 millions HUF ; à payer dans les 30 jours suivant la décision de la NAV [4][7].\n- **Avocat** : environ 1 % du prix plus TVA selon une estimation de marché ; budget total d'environ 5 à 7 % du prix [8].\n- **Loyers** : 15 % d'impôt, sur 90 % du loyer (forfait de frais de 10 %) ou sur le revenu net des frais justifiés [6] ; pas de szocho [5].\n- **Revente** : 15 % sur la plus-value, avec une fraction imposable dégressive ; exonération à partir de la 5e année après l'année d'acquisition [4].",
+        "en": "- **Transfer duty (vagyonszerzési illeték)**: 4% of the market value set by NAV, 2% above HUF 1 billion, capped at HUF 200 million; payable within 30 days of NAV's decision [4][7].\n- **Lawyer**: about 1% of the price plus VAT according to one market estimate; total budget of about 5–7% of the price [8].\n- **Rent**: 15% tax, on 90% of the rent (10% flat cost allowance) or on income net of documented costs [6]; no szocho [5].\n- **Resale**: 15% on the gain, with a tapering taxable share; exempt from the fifth year after the year of acquisition [4].",
+        "de": "- **Grunderwerbsabgabe (vagyonszerzési illeték)**: 4 % des von der NAV festgesetzten Verkehrswerts, 2 % über 1 Mrd. HUF, gedeckelt bei 200 Mio. HUF; zahlbar binnen 30 Tagen nach dem NAV-Bescheid [4][7].\n- **Anwalt**: rund 1 % des Preises zzgl. MwSt. nach einer Marktschätzung; Gesamtbudget rund 5–7 % des Preises [8].\n- **Miete**: 15 % Steuer, auf 90 % der Miete (10 % Kostenpauschale) oder auf die Einkünfte nach belegten Kosten [6]; kein szocho [5].\n- **Verkauf**: 15 % auf den Gewinn mit sinkendem steuerpflichtigem Anteil; steuerfrei ab dem fünften Jahr nach dem Erwerbsjahr [4].",
+        "hu": "- **Vagyonszerzési illeték**: a NAV által megállapított forgalmi érték 4%-a, 1 milliárd Ft felett 2%, legfeljebb 200 millió Ft; a NAV határozatának kézbesítésétől számított 30 napon belül fizetendő [4][7].\n- **Ügyvéd**: egy piaci becslés szerint a vételár kb. 1%-a + áfa; a teljes járulékos költség a vételár kb. 5–7%-a [8].\n- **Bérbeadás**: 15% adó a bevétel 90%-a után (10%-os költséghányad) vagy az igazolt költségekkel csökkentett jövedelem után [6]; szocho nincs [5].\n- **Eladás**: 15% a jövedelem után, csökkenő adóköteles résszel; a szerzés évét követő ötödik évtől adómentes [4]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Changements récents et annoncés",
+        "en": "Recent and announced changes",
+        "de": "Aktuelle und angekündigte Änderungen",
+        "hu": "Friss és bejelentett változások"
+      },
+      "body": {
+        "fr": "- **Location courte durée** : aucun nouvel enregistrement à Budapest du 1er janvier 2025 au 31 décembre 2026 [13] ; interdiction totale dans le 6e arrondissement depuis le 1er janvier 2026 [12].\n- **Droit de séjour** : la voie « achat d'un logement d'au moins 500 000 € » du programme d'investisseur invité a été supprimée fin 2024, avant son entrée en vigueur [10]. Restent les fonds immobiliers et les dons [9].\n- **Impôt sur la fortune** : projet de loi publié le 6 octobre 2026, au-delà de 1 milliard HUF de patrimoine net, à partir de la situation au 31 décembre 2026 ; il viserait l'immobilier hongrois des non-résidents. Projet non adopté à ce jour [11].",
+        "en": "- **Short-term rental**: no new registrations in Budapest from 1 January 2025 to 31 December 2026 [13]; full ban in District VI since 1 January 2026 [12].\n- **Residence**: the guest investor route based on buying a home worth at least €500,000 was removed at the end of 2024, before it took effect [10]. The real estate fund and donation routes remain [9].\n- **Wealth tax**: draft law published on 6 October 2026, on net wealth above HUF 1 billion, based on holdings on 31 December 2026; it would cover non-residents' Hungarian real estate. Not adopted as of today [11].",
+        "de": "- **Kurzzeitvermietung**: keine neuen Registrierungen in Budapest vom 1. Januar 2025 bis 31. Dezember 2026 [13]; vollständiges Verbot im VI. Bezirk seit 1. Januar 2026 [12].\n- **Aufenthalt**: Der Weg über den Kauf einer Wohnung ab 500.000 € im Gastinvestorenprogramm wurde Ende 2024 gestrichen, bevor er in Kraft trat [10]. Es bleiben Immobilienfonds und Spenden [9].\n- **Vermögensteuer**: Gesetzentwurf vom 6. Oktober 2026 für Nettovermögen über 1 Mrd. HUF, bezogen auf den Stand vom 31. Dezember 2026; er würde ungarische Immobilien Gebietsfremder erfassen. Bisher nicht verabschiedet [11].",
+        "hu": "- **Rövid távú kiadás**: Budapesten 2025. január 1. és 2026. december 31. között nincs új regisztráció [13]; a VI. kerületben 2026. január 1-jétől teljes tilalom [12].\n- **Tartózkodás**: a vendégbefektetői program legalább 500 000 € értékű lakás vásárlásán alapuló lehetőségét 2024 végén, hatálybalépése előtt törölték [10]. Az ingatlanalapos és az adományos út megmaradt [9].\n- **Vagyonadó**: a 2026. október 6-án közzétett tervezet 1 milliárd Ft feletti nettó vagyonra vonatkozna, a 2026. december 31-i állapot alapján; nem rezidenseknél a magyarországi ingatlanokra terjedne ki. Egyelőre nem fogadták el [11]."
+      }
+    }
+  ],
+  "table": null,
+  "faq": [
+    {
+      "q": {
+        "fr": "Un citoyen de l'UE peut-il acheter un appartement en Hongrie ?",
+        "en": "Can an EU citizen buy a flat in Hungary?",
+        "de": "Darf ein EU-Bürger in Ungarn eine Wohnung kaufen?",
+        "hu": "Vehet-e lakást Magyarországon egy EU-állampolgár?"
+      },
+      "a": {
+        "fr": "Oui, sans permis. Les citoyens de l'UE, de l'EEE et de la Suisse, ainsi que leurs sociétés, sont exemptés [1].",
+        "en": "Yes, without a permit. EU, EEA and Swiss citizens, and their companies, are exempt [1].",
+        "de": "Ja, ohne Genehmigung. EU-, EWR- und Schweizer Bürger sowie ihre Gesellschaften sind ausgenommen [1].",
+        "hu": "Igen, engedély nélkül. Az EU, az EGT és Svájc állampolgárai és cégeik mentesek [1]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Et un acheteur hors UE ?",
+        "en": "And a non-EU buyer?",
+        "de": "Und ein Käufer außerhalb der EU?",
+        "hu": "És egy EU-n kívüli vevő?"
+      },
+      "a": {
+        "fr": "Il doit obtenir l'autorisation de l'office gouvernemental du lieu du bien. Délai légal de 45 jours, frais de 65 000 HUF, avis du maire sur l'intérêt local ; refus possible pour motifs d'ordre public ou en l'absence de réciprocité [2][3]. Le contrat est signé sous condition du permis [8].",
+        "en": "They need permission from the government office where the property is. Legal deadline 45 days, fee HUF 65,000, the mayor gives an opinion on local interest; refusal is possible on public-order grounds or without reciprocity [2][3]. The contract is signed subject to the permit [8].",
+        "de": "Er braucht die Genehmigung des Regierungsamts am Ort der Immobilie. Gesetzliche Frist 45 Tage, Gebühr 65.000 HUF, Stellungnahme des Bürgermeisters; Ablehnung möglich aus Gründen der öffentlichen Ordnung oder mangels Gegenseitigkeit [2][3]. Der Vertrag wird unter der Bedingung der Genehmigung geschlossen [8].",
+        "hu": "Az ingatlan fekvése szerinti kormányhivatal engedélye kell. Ügyintézési határidő 45 nap, díj 65 000 Ft, a polgármester nyilatkozik az önkormányzati érdekről; közérdek sérelme vagy viszonosság hiánya miatt elutasítható [2][3]. A szerződést az engedélytől függő hatállyal kötik [8]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Combien de temps prend un achat ?",
+        "en": "How long does a purchase take?",
+        "de": "Wie lange dauert ein Kauf?",
+        "hu": "Mennyi ideig tart a vásárlás?"
+      },
+      "a": {
+        "fr": "Pour un acheteur UE, la durée dépend surtout des vérifications et du financement. La mention de la mutation est portée au registre foncier le jour du dépôt par l'avocat, et la NAV émet l'avis de droit de mutation quelques semaines après [8]. Hors UE, ajoutez le délai du permis (45 jours légaux) [2].",
+        "en": "For an EU buyer, timing mainly depends on checks and financing. The transfer is noted on the land register on the day the lawyer files it, and NAV issues the duty assessment a few weeks later [8]. For non-EU buyers, add the permit period (45 days by law) [2].",
+        "de": "Für EU-Käufer hängt die Dauer vor allem von Prüfungen und Finanzierung ab. Der Eigentumswechsel wird am Tag der Einreichung durch den Anwalt im Grundbuch vermerkt, den Abgabenbescheid stellt die NAV einige Wochen später aus [8]. Für Nicht-EU-Käufer kommt die Genehmigungsfrist (gesetzlich 45 Tage) hinzu [2].",
+        "hu": "EU-s vevőnél az időtartam főként az ellenőrzéseken és a finanszírozáson múlik. A változás széljegye az ügyvédi benyújtás napján bekerül az ingatlan-nyilvántartásba, az illetékről a NAV néhány héttel később határoz [8]. EU-n kívüli vevőnél ehhez jön az engedélyezés (45 napos határidő) [2]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel est le coût total d'un achat ?",
+        "en": "What does a purchase cost in total?",
+        "de": "Was kostet ein Kauf insgesamt?",
+        "hu": "Mennyi a vásárlás teljes költsége?"
+      },
+      "a": {
+        "fr": "Comptez environ 5 à 7 % du prix en plus : droit de mutation de 4 %, honoraires d'avocat (environ 1 % plus TVA selon une estimation de marché), frais de registre et, hors UE, les 65 000 HUF du permis [2][4][8]. La commission d'agence est en général payée par le vendeur [8].",
+        "en": "Budget about 5–7% on top of the price: 4% transfer duty, lawyer's fees (about 1% plus VAT according to one market estimate), registry fees and, for non-EU buyers, the HUF 65,000 permit fee [2][4][8]. The agent's commission is usually paid by the seller [8].",
+        "de": "Rechnen Sie mit rund 5–7 % zusätzlich zum Preis: 4 % Grunderwerbsabgabe, Anwaltshonorar (nach einer Marktschätzung rund 1 % zzgl. MwSt.), Registergebühren und für Nicht-EU-Käufer 65.000 HUF Genehmigungsgebühr [2][4][8]. Die Maklerprovision zahlt meist der Verkäufer [8].",
+        "hu": "A vételáron felül kb. 5–7%-kal számoljon: 4% illeték, ügyvédi díj (egy piaci becslés szerint kb. 1% + áfa), földhivatali díj, EU-n kívüli vevőnél 65 000 Ft engedélyezési díj [2][4][8]. Az ingatlanközvetítői jutalékot általában az eladó fizeti [8]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment les loyers sont-ils imposés ?",
+        "en": "How is rental income taxed?",
+        "de": "Wie werden Mieteinnahmen besteuert?",
+        "hu": "Hogyan adózik a bérleti jövedelem?"
+      },
+      "a": {
+        "fr": "À 15 %, y compris pour un non-résident. Vous déduisez soit un forfait de 10 % (impôt effectif de 13,5 % du loyer brut), soit vos frais justifiés [6]. Aucune szocho (contribution sociale) n'est due sur ce revenu [5]. La location courte durée suit d'autres règles.",
+        "en": "At 15%, including for non-residents. You deduct either a 10% flat allowance (an effective 13.5% of gross rent) or your documented costs [6]. No szocho (social contribution tax) is due on this income [5]. Short-term rental follows other rules.",
+        "de": "Mit 15 %, auch für Gebietsfremde. Abziehbar ist entweder eine Pauschale von 10 % (effektiv 13,5 % der Bruttomiete) oder die belegten Kosten [6]. Auf diese Einkünfte fällt kein szocho (Sozialbeitrag) an [5]. Für Kurzzeitvermietung gelten andere Regeln.",
+        "hu": "15%-kal, nem rezidensnél is. Levonható vagy a 10%-os költséghányad (így az adó a bruttó bérleti díj 13,5%-a), vagy az igazolt költség [6]. Szocho e jövedelem után nem fizetendő [5]. A rövid távú kiadásra más szabályok vonatkoznak."
+      }
+    },
+    {
+      "q": {
+        "fr": "Et à la revente ?",
+        "en": "And on resale?",
+        "de": "Und beim Verkauf?",
+        "hu": "És eladáskor?"
+      },
+      "a": {
+        "fr": "La plus-value (prix moins coûts justifiés) est imposée à 15 %. Pour une vente en 2026, la fraction imposable est de 100 % pour un bien acquis en 2025 ou 2026, 90 % (2024), 60 % (2023), 30 % (2022) et 0 % à partir de 2021. Déclaration avant le 20 mai de l'année suivante [4].",
+        "en": "The gain (price less documented costs) is taxed at 15%. For a sale in 2026, the taxable share is 100% for a property acquired in 2025 or 2026, 90% (2024), 60% (2023), 30% (2022) and 0% for 2021 or earlier. Declare by 20 May of the following year [4].",
+        "de": "Der Gewinn (Preis abzüglich belegter Kosten) wird mit 15 % besteuert. Bei Verkauf 2026 ist der steuerpflichtige Anteil 100 % bei Erwerb 2025 oder 2026, 90 % (2024), 60 % (2023), 30 % (2022) und 0 % ab 2021 und früher. Erklärung bis 20. Mai des Folgejahres [4].",
+        "hu": "A jövedelem (bevétel mínusz igazolt költségek) adója 15%. 2026-os eladásnál az adóköteles rész 2025-ös vagy 2026-os szerzésnél 100%, 2024-esnél 90%, 2023-asnál 60%, 2022-esnél 30%, 2021-es vagy korábbinál 0%. Bevallás a következő év május 20-áig [4]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Dois-je être présent en Hongrie ?",
+        "en": "Do I need to be in Hungary?",
+        "de": "Muss ich in Ungarn anwesend sein?",
+        "hu": "Jelen kell lennem Magyarországon?"
+      },
+      "a": {
+        "fr": "Non. Vous pouvez donner une procuration à votre avocat pour signer, et payer par virement. Beaucoup d'acheteurs viennent pour les visites et l'ouverture d'un compte, puis finalisent à distance [8].",
+        "en": "No. You can give your lawyer a power of attorney to sign, and pay by bank transfer. Many buyers come for viewings and to open an account, then complete remotely [8].",
+        "de": "Nein. Sie können Ihrem Anwalt eine Vollmacht zur Unterzeichnung erteilen und per Überweisung zahlen. Viele Käufer reisen für Besichtigungen und die Kontoeröffnung an und schließen dann aus der Ferne ab [8].",
+        "hu": "Nem. Meghatalmazást adhat ügyvédjének az aláírásra, a fizetés átutalással történik. Sok vevő a megtekintésre és a számlanyitásra utazik ide, a többit távolról intézi [8]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Faut-il un numéro fiscal hongrois ?",
+        "en": "Do I need a Hungarian tax number?",
+        "de": "Brauche ich eine ungarische Steuernummer?",
+        "hu": "Kell magyar adóazonosító jel?"
+      },
+      "a": {
+        "fr": "La NAV calcule le droit de mutation et reçoit vos déclarations de loyers et de plus-values [4], ce qui suppose d'être identifié auprès d'elle. La démarche et son délai sont à confirmer avec votre avocat, qui s'en charge en général avec le dossier d'achat.",
+        "en": "NAV assesses the transfer duty and receives your rental and capital gains returns [4], so you need to be identified with it. Confirm the procedure and its timing with your lawyer, who usually handles it with the purchase file.",
+        "de": "Die NAV setzt die Grunderwerbsabgabe fest und erhält Ihre Erklärungen zu Mieten und Veräußerungsgewinnen [4]; dafür müssen Sie dort registriert sein. Verfahren und Dauer klären Sie mit Ihrem Anwalt, der dies meist mit dem Kaufdossier erledigt.",
+        "hu": "Az illetéket a NAV állapítja meg, és hozzá kell benyújtani a bérleti és az eladási jövedelem bevallását [4], ezért a NAV-nál nyilvántartásba kell kerülnie. Az eljárást és időigényét ügyvédjével egyeztesse, aki ezt általában a vásárlási ügy részeként intézi."
+      }
+    },
+    {
+      "q": {
+        "fr": "Peut-on acheter via une société ?",
+        "en": "Can I buy through a company?",
+        "de": "Kann ich über eine Gesellschaft kaufen?",
+        "hu": "Vásárolhatok cégen keresztül?"
+      },
+      "a": {
+        "fr": "Oui. Une société d'un pays de l'UE/EEE n'a pas besoin de permis ; une société d'un pays tiers en a besoin [1][3]. Une société hongroise est imposée à 9 % d'impôt sur les sociétés sur ses plus-values [6]. Comparez avec un comptable les coûts de tenue et l'imposition des distributions.",
+        "en": "Yes. A company from an EU/EEA country needs no permit; a company from a third country does [1][3]. A Hungarian company pays 9% corporate income tax on gains [6]. Compare running costs and the tax on distributions with an accountant.",
+        "de": "Ja. Eine Gesellschaft aus einem EU-/EWR-Staat braucht keine Genehmigung, eine aus einem Drittstaat schon [1][3]. Eine ungarische Gesellschaft zahlt 9 % Körperschaftsteuer auf Gewinne [6]. Vergleichen Sie Verwaltungskosten und Ausschüttungsbesteuerung mit einem Steuerberater.",
+        "hu": "Igen. EU/EGT-beli cégnek nem kell engedély, harmadik országbelinek igen [1][3]. Magyar cég a nyereség után 9% társasági adót fizet [6]. A fenntartási költségeket és az osztalék adózását könyvelővel vesse össze."
+      }
+    },
+    {
+      "q": {
+        "fr": "Acheter un bien donne-t-il un droit de séjour ?",
+        "en": "Does buying property give a right of residence?",
+        "de": "Verschafft ein Immobilienkauf ein Aufenthaltsrecht?",
+        "hu": "Ad-e tartózkodási jogot az ingatlanvásárlás?"
+      },
+      "a": {
+        "fr": "Non. Pour les ressortissants de pays tiers, le titre de séjour d'investisseur invité (vendégbefektetői tartózkodási engedély) exige soit des parts d'un fonds immobilier enregistré auprès de la MNB d'au moins 250 000 €, soit un don d'au moins 1 000 000 € à un établissement d'enseignement supérieur ; il est valable jusqu'à 10 ans, renouvelable [9]. L'achat direct d'un logement n'en fait pas partie [9][10].",
+        "en": "No. For third-country nationals, the guest investor residence permit (vendégbefektetői tartózkodási engedély) requires either units of at least €250,000 in a real estate fund registered with the MNB or a donation of at least €1,000,000 to a higher education institution; it is valid for up to 10 years and renewable [9]. Buying a home directly is not one of the routes [9][10].",
+        "de": "Nein. Für Drittstaatsangehörige setzt die Gastinvestoren-Aufenthaltserlaubnis (vendégbefektetői tartózkodási engedély) entweder Anteile von mindestens 250.000 € an einem bei der MNB registrierten Immobilienfonds oder eine Spende von mindestens 1.000.000 € an eine Hochschule voraus; sie gilt bis zu 10 Jahre und ist verlängerbar [9]. Der direkte Wohnungskauf gehört nicht dazu [9][10].",
+        "hu": "Nem. Harmadik országbeli állampolgárok vendégbefektetői tartózkodási engedélyt legalább 250 000 € értékű, az MNB-nél nyilvántartott ingatlanalap befektetési jegyével vagy felsőoktatási intézménynek adott legalább 1 000 000 € adománnyal kaphatnak; legfeljebb 10 évre szól, meghosszabbítható [9]. A közvetlen lakásvásárlás nem tartozik a lehetőségek közé [9][10]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Puis-je louer en courte durée ?",
+        "en": "Can I let short-term?",
+        "de": "Darf ich kurzzeitig vermieten?",
+        "hu": "Kiadhatom rövid távra?"
+      },
+      "a": {
+        "fr": "Pas avec un nouvel enregistrement à Budapest avant le 1er janvier 2027 [13]. Dans le 6e arrondissement, l'activité est interdite depuis le 1er janvier 2026, avec des amendes de 200 000 à 2 millions HUF ; le 5e plafonne la part de logements concernés par immeuble [12], et le 7e n'autorise les nouveaux hébergements qu'au rez-de-chaussée, dans la limite de 10 % de la surface résidentielle de l'immeuble, avec l'accord de la copropriété exigé à partir du 1er janvier 2027 [14].",
+        "en": "Not with a new registration in Budapest before 1 January 2027 [13]. In District VI the activity has been banned since 1 January 2026, with fines of HUF 200,000 to 2 million; District V caps the share of flats per building [12], and District VII allows new units only on the ground floor and within 10% of a building's residential floor area, with condominium consent required from 1 January 2027 [14].",
+        "de": "Mit einer neuen Registrierung in Budapest nicht vor dem 1. Januar 2027 [13]. Im VI. Bezirk ist die Tätigkeit seit 1. Januar 2026 verboten, mit Bußgeldern von 200.000 bis 2 Mio. HUF; der V. Bezirk begrenzt den Anteil der Wohnungen je Haus [12], der VII. erlaubt neue Unterkünfte nur im Erdgeschoss und auf höchstens 10 % der Wohnfläche eines Hauses, ab 1. Januar 2027 mit Zustimmung der Eigentümergemeinschaft [14].",
+        "hu": "Új regisztrációval Budapesten 2027. január 1. előtt nem [13]. A VI. kerületben 2026. január 1-jétől tilos, a bírság 200 000–2 millió Ft; az V. kerület épületenként korlátozza az érintett lakások arányát [12], a VII. kerületben új szálláshely csak földszinten, az épület lakóterületének legfeljebb 10%-án nyílhat, 2027. január 1-jétől pedig társasházi hozzájárulás kell [14]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quels sont les principaux risques ?",
+        "en": "What are the main risks?",
+        "de": "Was sind die wichtigsten Risiken?",
+        "hu": "Melyek a fő kockázatok?"
+      },
+      "a": {
+        "fr": "Charges non vues au registre foncier (hypothèque, usufruit), travaux votés par la copropriété, règles de location courte durée, risque de change sur un bien en forint, et acompte versé sans avocat. Notre page sur les erreurs fréquentes détaille ce qu'il faut vérifier. Pour les patrimoines importants, suivez aussi le projet d'impôt sur la fortune [11].",
+        "en": "Encumbrances missed on the land register (mortgage, usufruct), works voted by the condominium, short-term rental rules, currency risk on a forint asset, and a deposit paid without a lawyer. Our page on common mistakes details what to check. For large estates, also follow the draft wealth tax [11].",
+        "de": "Übersehene Grundbuchlasten (Hypothek, Nießbrauch), von der Eigentümergemeinschaft beschlossene Arbeiten, Regeln zur Kurzzeitvermietung, Währungsrisiko bei einem Forint-Objekt und eine Anzahlung ohne Anwalt. Unsere Seite zu häufigen Fehlern erläutert die Prüfpunkte. Bei großen Vermögen auch den Entwurf zur Vermögensteuer verfolgen [11].",
+        "hu": "A tulajdoni lapon észre nem vett terhek (jelzálog, haszonélvezet), a társasház által megszavazott felújítások, a rövid távú kiadás szabályai, a forintban lévő vagyon árfolyamkockázata, és az ügyvéd nélkül fizetett foglaló. A gyakori hibákról szóló oldalunk részletezi, mit kell ellenőrizni. Nagy vagyon esetén a vagyonadó-tervezetet is érdemes követni [11]."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ecovis – Buying property in Hungary as a foreigner: rules and regulations",
+      "url": "https://global.ecovis.com/?p=10282",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Kormányhivatalok – Külföldiek ingatlanszerzése (23 Mar 2026)",
+      "url": "https://kormanyhivatalok.hu/sites/default/files/2026-07/kulfoldiek-ingatlanszerzese.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "251/2014. (X. 2.) Korm. rendelet – Nemzeti Jogszabálytár (consolidated 3 Jan 2026)",
+      "url": "https://njt.jog.gov.hu/jogszabaly/2014-251-20-22",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NAV – Az ingatlan-adásvétel adózási szabályai (14 Oct 2026)",
+      "url": "https://nav.gov.hu/print/Elethelyzetek-adozasa/vagyonugyek/Ingatlan-adasvetel",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NAV – 49. információs füzet: A szociális hozzájárulási adó (16 Jan 2026)",
+      "url": "https://nav.gov.hu/pfile/file?path=%2Fugyfeliranytu%2Fnezzen-utana%2Finf_fuz%2F2026%2F49.-A-szocialis-hozzajarulasi-ado-2026.-01.-16",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Global Property Guide – Guide to property taxes in Hungary (Sep 2026)",
+      "url": "https://www.globalpropertyguide.com/europe/hungary/taxes-and-costs",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Individual, Other taxes (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/individual/other-taxes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Housiko – How to buy property in Hungary as a foreigner (27 Jun 2026)",
+      "url": "https://housiko.com/en-hu/blog/how-to-buy-property-in-hungary-as-a-foreigner",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Országos Idegenrendészeti Főigazgatóság – Vendégbefektetői tartózkodási engedély (edited 3 Mar 2026)",
+      "url": "https://oif.gov.hu/tajekoztatok/vendegbefektetoi-tartozkodasi-engedely",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Settlers – 2025. január 1-től fontos változás a vendégbefektetői tartózkodási engedéllyel kapcsolatban",
+      "url": "https://settlers.hu/hu/2025-januar-1-tol-fontos-valtozas-a-vendegbefektetoi-tartozkodasi-engedellyel-kapcsolatban/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "BDO Hungary – A magyarországi vagyonadó (draft bill, Oct 2026)",
+      "url": "https://www.bdo.hu/hu-hu/aktualitasok-blog/blog/vagyonado-2027",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Pénzcentrum – Végleges tiltás lép életbe a főváros szívében (19 May 2026)",
+      "url": "https://www.penzcentrum.hu/otthon/20260519/vegleges-tiltas-lep-eletbe-a-fovaros-sziveben-rengeteg-ingatlantulajdonos-bukja-el-emiatt-a-biztos-bevetelt-1198922",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Airbnb moratórium Budapesten (9 Dec 2024)",
+      "url": "https://www.economx.hu/gazdasag/2024/12/09/airbnb-moratorium-engedelyeztetes-budapest-szallashely-800846/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NW Apartments – Airbnb Budapesten 2027-től: district-by-district overview (28 Aug 2026)",
+      "url": "https://www.nwapartments.hu/post/airbnb-budapesten-2027-tol-hollehet-uj-rovid-tavu-szallashelyetinditani-a-moratorium-utan",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": true
+}

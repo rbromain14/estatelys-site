@@ -1,0 +1,303 @@
+{
+  "slug": "purchase-resale-cost-calculator",
+  "item": "costs",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Frais d'achat et de revente en Hongrie",
+    "en": "Costs of buying and reselling in Hungary",
+    "de": "Kauf- und Verkaufskosten in Ungarn",
+    "hu": "A vásárlás és az eladás költségei"
+  },
+  "summary": {
+    "fr": "Droits de mutation, avocat, registre foncier, agence, permis, impôt sur la plus-value et son abattement : les taux et montants 2026 pour acheter et revendre.",
+    "en": "Transfer duty, lawyer, land registry, agency, permit, tax on the gain and its holding-period reduction: 2026 rates and amounts for buying and reselling.",
+    "de": "Erwerbsteuer, Anwalt, Grundbuch, Makler, Genehmigung, Steuer auf den Gewinn und ihre Haltedauer-Ermäßigung: Sätze und Beträge 2026.",
+    "hu": "Illeték, ügyvéd, földhivatal, ingatlaniroda, engedély, az eladás jövedelmének adója és csökkentése: a vásárlás és az eladás 2026-os díjai és kulcsai."
+  },
+  "keyFacts": [
+    {
+      "fr": "Droits de mutation : 4 % de la valeur vénale, 2 % au-delà de 1 milliard HUF, plafond 200 millions HUF par bien [1][4].",
+      "en": "Transfer duty: 4% of market value, 2% above HUF 1 billion, capped at HUF 200 million per property [1][4].",
+      "de": "Erwerbsteuer: 4 % des Verkehrswerts, 2 % über 1 Milliarde HUF, höchstens 200 Millionen HUF pro Immobilie [1][4].",
+      "hu": "Vagyonszerzési illeték: a forgalmi érték 4%-a, 1 milliárd Ft felett 2%, ingatlanonként legfeljebb 200 millió Ft [1][4]."
+    },
+    {
+      "fr": "Depuis le 1er janvier 2026, la réduction pour remplacement de logement porte sur une vente intervenue jusqu'à 5 ans avant l'achat (contre 3 ans auparavant) [3].",
+      "en": "Since 1 January 2026, the replacement-home reduction covers a sale up to 5 years before the purchase (previously 3 years) [3].",
+      "de": "Seit dem 1. Januar 2026 gilt die Ermäßigung bei Ersatzbeschaffung für einen Verkauf bis zu 5 Jahre vor dem Kauf (zuvor 3 Jahre) [3].",
+      "hu": "2026. január 1-jétől a cserepótló vételi kedvezmény a vásárlást megelőző 5 éven belüli eladásra is jár (korábban 3 év) [3]."
+    },
+    {
+      "fr": "Inscription de la propriété : 10 600 HUF par bien ; inscription d'une hypothèque : 20 000 HUF [5].",
+      "en": "Ownership registration: HUF 10,600 per property; mortgage registration: HUF 20,000 [5].",
+      "de": "Eigentumseintragung: 10.600 HUF pro Immobilie; Hypothekeneintragung: 20.000 HUF [5].",
+      "hu": "Tulajdonjog bejegyzése: ingatlanonként 10 600 Ft; jelzálogjog bejegyzése: 20 000 Ft [5]."
+    },
+    {
+      "fr": "Permis pour acheteur hors UE : 65 000 HUF par bien [10].",
+      "en": "Permit for non-EU buyers: HUF 65,000 per property [10].",
+      "de": "Genehmigung für Nicht-EU-Käufer: 65.000 HUF pro Immobilie [10].",
+      "hu": "Engedély nem uniós vevőknek: ingatlanonként 65 000 Ft [10]."
+    },
+    {
+      "fr": "Revente par un particulier : impôt de 15 % sur le revenu imposable, qui tombe à zéro à partir de la 5e année suivant l'année d'acquisition [1].",
+      "en": "Resale by an individual: 15% tax on the taxable income, which falls to zero from the 5th year after the year of acquisition [1].",
+      "de": "Verkauf durch Privatpersonen: 15 % Steuer auf das steuerpflichtige Einkommen, das ab dem 5. Jahr nach dem Erwerbsjahr auf null sinkt [1].",
+      "hu": "Magánszemély eladása: az adóköteles jövedelem 15%-a, amely a szerzés évét követő 5. évtől nulla [1]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Comment lire ces chiffres",
+        "en": "How to read these figures",
+        "de": "Wie diese Zahlen zu lesen sind",
+        "hu": "Hogyan értelmezzük a számokat"
+      },
+      "body": {
+        "fr": "Deux types de coûts coexistent. Les **coûts réglementés** (droits de mutation, frais du registre foncier, frais de permis, impôt sur le revenu) sont fixés par la loi et identiques pour tous. Les **coûts de marché** (avocat, agence, certificat énergétique) se négocient : les fourchettes ci-dessous sont celles que publient des sites hongrois de comparaison financière en 2026, pas des tarifs officiels.\n\nTous les montants sont en forints (HUF) et vérifiés au 26 octobre 2026. Les règles décrites concernent les particuliers. Une société qui achète et revend est imposée selon d'autres règles, qui ne sont pas traitées ici. Un vendeur non résident doit aussi vérifier la convention fiscale entre la Hongrie et son pays.",
+        "en": "There are two kinds of cost. **Regulated costs** (transfer duty, land registry fees, permit fee, income tax) are set by law and the same for everyone. **Market costs** (lawyer, agency, energy certificate) are negotiated: the ranges below are those published by Hungarian financial comparison sites in 2026, not official tariffs.\n\nAll amounts are in forints (HUF) and were checked on 26 October 2026. The rules described apply to private individuals. A company that buys and resells is taxed under different rules, not covered here. A non-resident seller should also check the tax treaty between Hungary and their country of residence.",
+        "de": "Es gibt zwei Arten von Kosten. **Gesetzlich geregelte Kosten** (Erwerbsteuer, Grundbuchgebühren, Genehmigungsgebühr, Einkommensteuer) sind für alle gleich. **Marktkosten** (Anwalt, Makler, Energieausweis) sind verhandelbar: Die folgenden Spannen stammen von ungarischen Finanzvergleichsportalen aus dem Jahr 2026 und sind keine amtlichen Tarife.\n\nAlle Beträge sind in Forint (HUF) angegeben und wurden am 26. Oktober 2026 geprüft. Die Regeln gelten für Privatpersonen. Für Gesellschaften, die kaufen und weiterverkaufen, gelten andere Steuerregeln, die hier nicht behandelt werden. Nichtansässige Verkäufer sollten zudem das Doppelbesteuerungsabkommen zwischen Ungarn und ihrem Wohnsitzstaat prüfen.",
+        "hu": "Kétféle költség van. A **jogszabályban rögzített költségek** (illeték, földhivatali díjak, engedélyezési díj, személyi jövedelemadó) mindenkire azonosak. A **piaci költségek** (ügyvéd, ingatlaniroda, energetikai tanúsítvány) alku tárgyát képezik: az alábbi sávok magyar pénzügyi összehasonlító oldalak 2026-os adatai, nem hivatalos díjtételek.\n\nMinden összeg forintban szerepel, ellenőrzés napja: 2026. október 26. A leírt szabályok magánszemélyekre vonatkoznak. A vásárló és továbbértékesítő cégekre más adószabályok vonatkoznak, ezekkel ez az anyag nem foglalkozik. Nem rezidens eladónak a Magyarország és lakóhelye szerinti állam közötti kettős adóztatási egyezményt is érdemes megnéznie."
+      }
+    },
+    {
+      "h": {
+        "fr": "Droits de mutation (vagyonszerzési illeték)",
+        "en": "Transfer duty (vagyonszerzési illeték)",
+        "de": "Erwerbsteuer (vagyonszerzési illeték)",
+        "hu": "Vagyonszerzési illeték"
+      },
+      "body": {
+        "fr": "C'est le principal coût d'achat. Il est payé par l'acheteur et calculé sur la valeur vénale (forgalmi érték) retenue par la NAV, qui correspond en général au prix du contrat [1][4].\n\n- **Taux :** 4 % jusqu'à 1 milliard HUF, 2 % sur la part qui dépasse 1 milliard, avec un plafond de 200 millions HUF par bien [4]. Exemple : pour un appartement de 80 millions HUF, le droit est de 3,2 millions HUF.\n- **Remplacement de logement :** si l'acheteur a vendu un autre logement dans les 5 ans précédant l'achat, ou en vend un dans l'année qui suit, le droit ne porte que sur la différence de valeur ; il n'y a rien à payer si le nouveau bien vaut moins. La fenêtre de 5 ans s'applique depuis le 1er janvier 2026 (3 ans auparavant), et l'acheteur choisit désormais quelle vente retenir [3]. La réduction doit être demandée sur le formulaire B400 [3].\n- **Moins de 35 ans, premier logement :** réduction de 50 % si la valeur du logement ne dépasse pas 15 millions HUF [2][4].\n- **Autres exonérations :** transferts entre époux et entre parents en ligne directe ; achats financés par le CSOK Plusz ou le CSOK rural ; certains logements neufs de faible valeur [1][2].\n\nLe paiement est dû dans les 30 jours suivant la réception de la décision de la NAV, qui peut arriver plusieurs semaines ou mois après le dépôt du contrat [1][4].",
+        "en": "This is the main purchase cost. The buyer pays it, based on the market value (forgalmi érték) set by NAV, which usually matches the contract price [1][4].\n\n- **Rate:** 4% up to HUF 1 billion, 2% on the part above HUF 1 billion, capped at HUF 200 million per property [4]. Example: on an apartment of HUF 80 million, the duty is HUF 3.2 million.\n- **Replacement home:** if the buyer sold another home in the 5 years before the purchase, or sells one within the following year, duty is charged only on the difference in value, and nothing is due if the new property is worth less. The 5-year window applies from 1 January 2026 (previously 3 years), and the buyer now chooses which sale to count [3]. The reduction must be claimed on form B400 [3].\n- **Under 35, first home:** 50% reduction if the home's value does not exceed HUF 15 million [2][4].\n- **Other exemptions:** transfers between spouses and between direct relatives; purchases financed with CSOK Plusz or rural CSOK; some low-value new homes [1][2].\n\nPayment is due within 30 days of receiving NAV's decision, which can arrive weeks or months after the contract is filed [1][4].",
+        "de": "Das ist der größte Kostenpunkt beim Kauf. Der Käufer zahlt sie auf Grundlage des von der NAV festgestellten Verkehrswerts (forgalmi érték), der meist dem Vertragspreis entspricht [1][4].\n\n- **Satz:** 4 % bis 1 Milliarde HUF, 2 % auf den darüber liegenden Teil, höchstens 200 Millionen HUF pro Immobilie [4]. Beispiel: Bei einer Wohnung für 80 Millionen HUF beträgt die Steuer 3,2 Millionen HUF.\n- **Ersatzbeschaffung:** Hat der Käufer in den 5 Jahren vor dem Kauf eine andere Wohnung verkauft oder verkauft er eine innerhalb des folgenden Jahres, wird nur die Wertdifferenz besteuert; ist die neue Immobilie weniger wert, fällt nichts an. Das 5-Jahres-Fenster gilt seit dem 1. Januar 2026 (zuvor 3 Jahre), und der Käufer wählt nun selbst, welcher Verkauf zählt [3]. Die Ermäßigung ist auf dem Formular B400 zu beantragen [3].\n- **Unter 35, erste Wohnung:** 50 % Ermäßigung, wenn der Wert 15 Millionen HUF nicht übersteigt [2][4].\n- **Weitere Befreiungen:** Übertragungen zwischen Ehegatten und Verwandten in gerader Linie; Käufe mit CSOK Plusz oder Dorf-CSOK; einige günstige Neubauwohnungen [1][2].\n\nZahlbar ist die Steuer innerhalb von 30 Tagen nach Erhalt des NAV-Bescheids, der Wochen oder Monate nach Einreichung des Vertrags eintreffen kann [1][4].",
+        "hu": "Ez a vásárlás legnagyobb költsége. A vevő fizeti, a NAV által megállapított forgalmi érték alapján, amely általában megegyezik a szerződéses árral [1][4].\n\n- **Mérték:** 1 milliárd Ft-ig 4%, az e feletti részre 2%, ingatlanonként legfeljebb 200 millió Ft [4]. Példa: egy 80 millió Ft-os lakás után 3,2 millió Ft az illeték.\n- **Cserepótló vétel:** ha a vevő a vásárlást megelőző 5 évben eladott egy másik lakást, vagy a vásárlást követő egy éven belül elad, csak az értékkülönbözet után kell illetéket fizetni; ha az új ingatlan olcsóbb, nem kell fizetni. Az 5 éves időszak 2026. január 1-jétől érvényes (korábban 3 év), és a vevő maga választhatja ki, melyik eladást veszi figyelembe [3]. A kedvezményt a B400-as nyomtatványon kell kérni [3].\n- **35 év alatti első lakásvásárló:** 50% kedvezmény, ha a lakás értéke nem haladja meg a 15 millió Ft-ot [2][4].\n- **Egyéb mentességek:** házastársak és egyenes ági rokonok közötti átruházás; CSOK Plusszal vagy falusi CSOK-kal finanszírozott vásárlás; egyes alacsony értékű új lakások [1][2].\n\nAz illetéket a NAV-határozat kézhezvételétől számított 30 napon belül kell megfizetni; a határozat a szerződés benyújtása után hetekkel vagy hónapokkal is megérkezhet [1][4]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Avocat, registre foncier, permis et traductions",
+        "en": "Lawyer, land registry, permit and translations",
+        "de": "Anwalt, Grundbuch, Genehmigung und Übersetzungen",
+        "hu": "Ügyvéd, földhivatal, engedély és fordítás"
+      },
+      "body": {
+        "fr": "- **Avocat :** son intervention est obligatoire pour l'inscription du contrat. Ses honoraires sont libres. Les sources de 2026 citent le plus souvent 0,5 % à 1 % du prix ; un site relève 0,3 % à 0,8 % à Budapest, avec un minimum de 100 000 à 150 000 HUF, et un autre mentionne jusqu'à 3 % [7][8]. L'acheteur paie habituellement.\n- **Registre foncier :** inscription de la propriété 10 600 HUF par bien, inscription d'une hypothèque 20 000 HUF, extrait certifié électronique 4 800 HUF, extrait papier certifié 10 000 HUF [5]. Ces montants sont en vigueur depuis fin juillet 2024, après une hausse d'environ 60 % [6].\n- **Permis pour acheteur hors UE, EEE et Suisse :** 65 000 HUF par bien ; 13 000 HUF dans le cas particulier d'un demandeur de la nationalité hongroise bénéficiant de la libre circulation ou d'un statut d'établi qui achète un logement [10].\n- **Traductions :** les documents d'une société étrangère doivent être traduits en hongrois par l'OFFI (Office national de traduction) pour la demande de permis [10]. Le coût dépend du volume et doit être demandé à l'avance.\n- **Évaluation bancaire :** si l'achat est financé par un prêt, l'évaluation est généralement facturée entre 30 000 et 80 000 HUF [8].",
+        "en": "- **Lawyer:** required for the contract to be registered. Fees are freely agreed. 2026 sources most often quote 0.5% to 1% of the price; one site reports 0.3% to 0.8% in Budapest with a minimum of HUF 100,000 to 150,000, and another mentions up to 3% [7][8]. The buyer usually pays.\n- **Land registry:** ownership registration HUF 10,600 per property, mortgage registration HUF 20,000, certified electronic title extract HUF 4,800, certified paper extract HUF 10,000 [5]. These amounts have applied since late July 2024, after a rise of about 60% [6].\n- **Permit for buyers from outside the EU, EEA and Switzerland:** HUF 65,000 per property; HUF 13,000 in the specific case of an applicant for Hungarian citizenship with free-movement or settled status who is buying a home [10].\n- **Translations:** a foreign company's documents must be translated into Hungarian by OFFI (the National Office for Translation) for the permit application [10]. The cost depends on volume and should be requested in advance.\n- **Bank valuation:** if the purchase is financed with a loan, a valuation is typically charged at HUF 30,000 to 80,000 [8].",
+        "de": "- **Anwalt:** für die Eintragung des Vertrags vorgeschrieben. Das Honorar ist frei vereinbar. Quellen aus 2026 nennen meist 0,5 % bis 1 % des Preises; ein Portal nennt für Budapest 0,3 % bis 0,8 % bei einem Minimum von 100.000 bis 150.000 HUF, ein anderes bis zu 3 % [7][8]. Üblicherweise zahlt der Käufer.\n- **Grundbuch:** Eigentumseintragung 10.600 HUF pro Immobilie, Hypothekeneintragung 20.000 HUF, beglaubigter elektronischer Auszug 4.800 HUF, beglaubigter Papierauszug 10.000 HUF [5]. Diese Beträge gelten seit Ende Juli 2024 nach einer Erhöhung um rund 60 % [6].\n- **Genehmigung für Käufer außerhalb von EU, EWR und Schweiz:** 65.000 HUF pro Immobilie; 13.000 HUF im Sonderfall eines Antragstellers auf die ungarische Staatsbürgerschaft mit Freizügigkeits- oder Niederlassungsstatus, der eine Wohnung kauft [10].\n- **Übersetzungen:** Unterlagen ausländischer Gesellschaften müssen für den Genehmigungsantrag vom OFFI (Landesamt für Übersetzungen) ins Ungarische übersetzt werden [10]. Die Kosten hängen vom Umfang ab und sollten vorab angefragt werden.\n- **Bankbewertung:** Bei Kreditfinanzierung werden für das Gutachten üblicherweise 30.000 bis 80.000 HUF berechnet [8].",
+        "hu": "- **Ügyvéd:** közreműködése a szerződés bejegyzéséhez kötelező. A díj szabadon megállapodás tárgya. A 2026-os források leggyakrabban a vételár 0,5–1%-át említik; egy oldal Budapestre 0,3–0,8%-ot közöl 100 000–150 000 Ft-os minimummal, egy másik akár 3%-ot is [7][8]. Általában a vevő fizeti.\n- **Földhivatal:** tulajdonjog bejegyzése ingatlanonként 10 600 Ft, jelzálogjog bejegyzése 20 000 Ft, hiteles elektronikus tulajdoni lap 4 800 Ft, hiteles papír alapú 10 000 Ft [5]. Ezek az összegek 2024. július végétől érvényesek, mintegy 60%-os emelés után [6].\n- **Engedély az EU-n, az EGT-n és Svájcon kívüli vevőknek:** ingatlanonként 65 000 Ft; 13 000 Ft abban a különleges esetben, ha a szabad mozgás jogával vagy letelepedett jogállással rendelkező kérelmező magyar állampolgárságot kérelmezett, és lakóingatlant vásárol [10].\n- **Fordítás:** külföldi cég iratait az engedélykérelemhez az OFFI-val magyarra kell fordíttatni [10]. A költség terjedelemfüggő, érdemes előre árajánlatot kérni.\n- **Banki értékbecslés:** hitelből vásárlásnál az értékbecslés díja jellemzően 30 000–80 000 Ft [8]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Frais d'agence",
+        "en": "Agency fees",
+        "de": "Maklerprovision",
+        "hu": "Ingatlanirodai jutalék"
+      },
+      "body": {
+        "fr": "En Hongrie, la commission d'agence est en général à la charge du vendeur et souvent déjà incluse dans le prix affiché [7][8]. Les fourchettes publiées vont de 1,5 % à 5 % du prix [7] ; une autre source indique 2 % à 5 % hors TVA côté vendeur [9]. Un acheteur qui mandate lui-même un agent de recherche paie la commission convenue avec lui.\n\nAvant de signer un mandat, il faut vérifier si la commission s'entend TVA comprise ou non, si le mandat est exclusif, sa durée, et si une commission reste due lorsque le bien est vendu sans l'agence pendant le mandat.",
+        "en": "In Hungary, the agency commission is usually paid by the seller and often already built into the asking price [7][8]. Published ranges run from 1.5% to 5% of the price [7]; another source gives 2% to 5% plus VAT on the seller side [9]. A buyer who appoints their own search agent pays the commission agreed with that agent.\n\nBefore signing an agency agreement, check whether the commission includes VAT, whether the mandate is exclusive, how long it lasts, and whether a commission is still owed if the property is sold without the agency during the mandate.",
+        "de": "In Ungarn zahlt meist der Verkäufer die Maklerprovision, die oft bereits im Angebotspreis enthalten ist [7][8]. Veröffentlichte Spannen reichen von 1,5 % bis 5 % des Preises [7]; eine andere Quelle nennt 2 % bis 5 % zuzüglich Mehrwertsteuer auf Verkäuferseite [9]. Ein Käufer, der selbst einen Suchmakler beauftragt, zahlt die mit diesem vereinbarte Provision.\n\nVor der Unterzeichnung eines Maklervertrags ist zu prüfen, ob die Provision die Mehrwertsteuer enthält, ob der Auftrag exklusiv ist, wie lange er läuft und ob eine Provision auch fällig wird, wenn die Immobilie während der Laufzeit ohne den Makler verkauft wird.",
+        "hu": "Magyarországon az ingatlanirodai jutalékot általában az eladó fizeti, és gyakran már benne van a meghirdetett árban [7][8]. A közölt sávok a vételár 1,5–5%-a között mozognak [7]; egy másik forrás eladói oldalon 2–5% + áfát említ [9]. Ha a vevő maga bíz meg keresőirodát, a vele megállapodott jutalékot fizeti.\n\nMegbízási szerződés aláírása előtt érdemes ellenőrizni, hogy a jutalék bruttó vagy nettó, kizárólagos-e a megbízás, mennyi ideig tart, és jár-e jutalék akkor is, ha az ingatlant a megbízás alatt az iroda nélkül adják el."
+      }
+    },
+    {
+      "h": {
+        "fr": "Revendre : impôt sur le revenu et abattement selon la durée de détention",
+        "en": "Reselling: income tax and the holding-period reduction",
+        "de": "Weiterverkauf: Einkommensteuer und Ermäßigung nach Haltedauer",
+        "hu": "Eladás: személyi jövedelemadó és a tartási idő szerinti csökkentés"
+      },
+      "body": {
+        "fr": "Un particulier qui revend un bien paie un impôt sur le revenu (személyi jövedelemadó) de 15 % sur le revenu imposable [1]. Le calcul se fait en trois temps [1] :\n\n1. **Recette :** en général le prix de vente.\n2. **Moins les coûts justifiés :** prix d'achat, frais d'acquisition (droits de mutation, avocat), investissements qui augmentent la valeur, frais de vente (publicité, avocat, commission d'agence). Les coûts ne peuvent pas dépasser la recette et doivent être justifiés par des factures ou d'autres pièces.\n3. **Moins l'abattement lié à la durée de détention**, appliqué au résultat selon l'année d'acquisition.\n\nPart du revenu restant imposable [1] :\n\n- année d'acquisition et année suivante : 100 % ;\n- 2e année après l'acquisition : 90 % ;\n- 3e année : 60 % ;\n- 4e année : 30 % ;\n- à partir de la 5e année : 0 %, aucun impôt.\n\nLa date d'acquisition est en général celle du dépôt du contrat au registre foncier [1]. Exemple : un appartement acquis en 2024 et revendu en 2026 est dans sa 2e année ; pour un revenu de 10 millions HUF après coûts, 9 millions sont imposables, soit 1,35 million HUF d'impôt.\n\nLe revenu se déclare dans la déclaration annuelle, au plus tard le 20 mai de l'année suivant le dépôt du contrat de vente au registre foncier. Un impôt déclaré jusqu'à 500 000 HUF peut être payé en 12 mensualités au maximum, sans majoration [1].\n\n**Autres frais du vendeur :** un certificat de performance énergétique est obligatoire pour vendre ; les sites de comparaison citent 25 000 à 50 000 HUF selon la surface [9]. Les certificats établis selon les règles en vigueur depuis le 1er novembre 2023 sont valables 5 ans [11]. S'y ajoutent la commission d'agence et, le cas échéant, l'avocat du vendeur.",
+        "en": "An individual who resells a property pays personal income tax (személyi jövedelemadó) of 15% on the taxable income [1]. It is calculated in three steps [1]:\n\n1. **Revenue:** usually the sale price.\n2. **Minus documented costs:** the purchase price, acquisition costs (transfer duty, lawyer), value-increasing investments, and sale costs (advertising, lawyer, agency commission). Costs cannot exceed the revenue and must be backed by invoices or other documents.\n3. **Minus the holding-period reduction**, applied to the result according to the year of acquisition.\n\nShare of the income that remains taxable [1]:\n\n- year of acquisition and the following year: 100%;\n- 2nd year after acquisition: 90%;\n- 3rd year: 60%;\n- 4th year: 30%;\n- from the 5th year: 0%, no tax.\n\nThe acquisition date is generally the date the contract was filed at the land registry [1]. Example: an apartment acquired in 2024 and sold in 2026 is in its 2nd year; on income of HUF 10 million after costs, HUF 9 million is taxable, so the tax is HUF 1.35 million.\n\nThe income is reported in the annual tax return, by 20 May of the year after the sale contract was filed at the land registry. Declared tax of up to HUF 500,000 can be paid in at most 12 monthly instalments without a surcharge [1].\n\n**Other seller costs:** an energy performance certificate is required to sell; comparison sites quote HUF 25,000 to 50,000 depending on floor area [9]. Certificates issued under the rules in force since 1 November 2023 are valid for 5 years [11]. Add the agency commission and, where used, the seller's lawyer.",
+        "de": "Eine Privatperson, die eine Immobilie verkauft, zahlt 15 % Einkommensteuer (személyi jövedelemadó) auf das steuerpflichtige Einkommen [1]. Die Berechnung erfolgt in drei Schritten [1]:\n\n1. **Erlös:** in der Regel der Verkaufspreis.\n2. **Abzüglich belegter Kosten:** Kaufpreis, Erwerbsnebenkosten (Erwerbsteuer, Anwalt), werterhöhende Investitionen und Verkaufskosten (Werbung, Anwalt, Maklerprovision). Die Kosten dürfen den Erlös nicht übersteigen und müssen durch Rechnungen oder andere Belege nachgewiesen werden.\n3. **Abzüglich der Ermäßigung nach Haltedauer**, angewandt auf das Ergebnis je nach Erwerbsjahr.\n\nSteuerpflichtiger Anteil des Einkommens [1]:\n\n- Erwerbsjahr und Folgejahr: 100 %;\n- 2. Jahr nach dem Erwerb: 90 %;\n- 3. Jahr: 60 %;\n- 4. Jahr: 30 %;\n- ab dem 5. Jahr: 0 %, keine Steuer.\n\nAls Erwerbsdatum gilt in der Regel der Tag der Einreichung des Vertrags beim Grundbuchamt [1]. Beispiel: Eine 2024 erworbene und 2026 verkaufte Wohnung befindet sich im 2. Jahr; bei einem Einkommen von 10 Millionen HUF nach Kosten sind 9 Millionen steuerpflichtig, die Steuer beträgt 1,35 Millionen HUF.\n\nDas Einkommen wird in der jährlichen Steuererklärung angegeben, spätestens bis zum 20. Mai des Jahres nach Einreichung des Kaufvertrags beim Grundbuchamt. Eine erklärte Steuer bis 500.000 HUF kann in höchstens 12 Monatsraten ohne Zuschlag gezahlt werden [1].\n\n**Weitere Verkäuferkosten:** Für den Verkauf ist ein Energieausweis Pflicht; Vergleichsportale nennen je nach Fläche 25.000 bis 50.000 HUF [9]. Ausweise nach den seit dem 1. November 2023 geltenden Regeln sind 5 Jahre gültig [11]. Hinzu kommen die Maklerprovision und gegebenenfalls der Anwalt des Verkäufers.",
+        "hu": "Az ingatlant eladó magánszemély az adóköteles jövedelem után 15% személyi jövedelemadót fizet [1]. A számítás három lépésből áll [1]:\n\n1. **Bevétel:** általában az eladási ár.\n2. **Levonható igazolt költségek:** a szerzési ár, a szerzéssel kapcsolatos költségek (illeték, ügyvédi díj), az értéknövelő beruházások és az eladás költségei (hirdetés, ügyvéd, ingatlanirodai jutalék). A költség nem haladhatja meg a bevételt, és számlával vagy más okirattal kell igazolni.\n3. **Levonandó a szerzés éve szerinti csökkentés**, amelyet az így kapott összegre kell alkalmazni.\n\nA jövedelem adóköteles része [1]:\n\n- a szerzés éve és az azt követő év: 100%;\n- a szerzést követő 2. év: 90%;\n- 3. év: 60%;\n- 4. év: 30%;\n- az 5. évtől: 0%, nincs adó.\n\nA szerzés időpontja általában a szerződés földhivatali benyújtásának napja [1]. Példa: a 2024-ben szerzett és 2026-ban eladott lakás a 2. évben van; 10 millió Ft költségek utáni jövedelemből 9 millió Ft adóköteles, az adó 1,35 millió Ft.\n\nA jövedelmet az éves bevallásban kell szerepeltetni, legkésőbb az adásvételi szerződés földhivatali benyújtását követő év május 20-ig. A legfeljebb 500 000 Ft bevallott adó pótlékmentesen, legfeljebb 12 havi részletben is megfizethető [1].\n\n**Az eladó egyéb költségei:** az eladáshoz energetikai tanúsítvány kell; az összehasonlító oldalak alapterülettől függően 25 000–50 000 Ft-ot említenek [9]. A 2023. november 1-je óta hatályos szabályok szerint kiállított tanúsítvány 5 évig érvényes [11]. Ehhez jön az ingatlanirodai jutalék és adott esetben az eladó ügyvédje."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Coûts d'achat et de revente, octobre 2026",
+      "en": "Costs of buying and reselling, October 2026",
+      "de": "Kauf- und Verkaufskosten, Oktober 2026",
+      "hu": "A vásárlás és az eladás költségei, 2026. október"
+    },
+    "head": {
+      "fr": ["Coût", "Qui paie", "Montant / taux", "Source"],
+      "en": ["Cost", "Who pays", "Amount / rate", "Source"],
+      "de": ["Kosten", "Wer zahlt", "Betrag / Satz", "Quelle"],
+      "hu": ["Költség", "Ki fizeti", "Összeg / mérték", "Forrás"]
+    },
+    "rows": {
+      "fr": [
+        ["Droits de mutation", "Acheteur", "4 % de la valeur vénale ; 2 % au-delà de 1 Md HUF ; plafond 200 M HUF par bien", "[1][4]"],
+        ["Réduction remplacement de logement", "Acheteur", "droit sur la seule différence de valeur si vente dans les 5 ans avant ou 1 an après", "[3]"],
+        ["Réduction moins de 35 ans, 1er logement", "Acheteur", "50 % si la valeur ≤ 15 M HUF", "[2][4]"],
+        ["Avocat", "Acheteur (en général)", "le plus souvent 0,5–1 % du prix ; jusqu'à 3 % cité ; minimum 100 000–150 000 HUF cité", "[7][8]"],
+        ["Inscription de la propriété", "Acheteur", "10 600 HUF par bien", "[5][6]"],
+        ["Inscription d'hypothèque", "Emprunteur", "20 000 HUF", "[5]"],
+        ["Extrait du registre (tulajdoni lap)", "Demandeur", "4 800 HUF électronique certifié ; 10 000 HUF papier certifié", "[5]"],
+        ["Permis acheteur hors UE/EEE/Suisse", "Acheteur", "65 000 HUF par bien (13 000 HUF cas réduit)", "[10]"],
+        ["Traduction OFFI (société étrangère)", "Acheteur", "obligatoire ; coût sur devis", "[10]"],
+        ["Évaluation bancaire", "Emprunteur", "30 000–80 000 HUF", "[8]"],
+        ["Commission d'agence", "Vendeur (en général)", "1,5–5 % du prix ; 2–5 % + TVA cité", "[7][9]"],
+        ["Certificat énergétique", "Vendeur", "25 000–50 000 HUF ; valable 5 ans", "[9][11]"],
+        ["Impôt sur le revenu de la vente", "Vendeur (particulier)", "15 % du revenu imposable ; 0 à partir de la 5e année", "[1]"]
+      ],
+      "en": [
+        ["Transfer duty", "Buyer", "4% of market value; 2% above HUF 1bn; cap HUF 200m per property", "[1][4]"],
+        ["Replacement-home reduction", "Buyer", "duty only on the value difference if a home is sold within 5 years before or 1 year after", "[3]"],
+        ["Under-35 first-home reduction", "Buyer", "50% if value ≤ HUF 15m", "[2][4]"],
+        ["Lawyer", "Buyer (usually)", "most often 0.5–1% of price; up to 3% reported; minimum HUF 100,000–150,000 reported", "[7][8]"],
+        ["Ownership registration", "Buyer", "HUF 10,600 per property", "[5][6]"],
+        ["Mortgage registration", "Borrower", "HUF 20,000", "[5]"],
+        ["Title extract (tulajdoni lap)", "Requester", "HUF 4,800 certified electronic; HUF 10,000 certified paper", "[5]"],
+        ["Permit, non-EU/EEA/Swiss buyer", "Buyer", "HUF 65,000 per property (HUF 13,000 reduced case)", "[10]"],
+        ["OFFI translation (foreign company)", "Buyer", "required; cost on quotation", "[10]"],
+        ["Bank valuation", "Borrower", "HUF 30,000–80,000", "[8]"],
+        ["Agency commission", "Seller (usually)", "1.5–5% of price; 2–5% + VAT reported", "[7][9]"],
+        ["Energy performance certificate", "Seller", "HUF 25,000–50,000; valid 5 years", "[9][11]"],
+        ["Income tax on the sale", "Seller (individual)", "15% of taxable income; 0 from the 5th year", "[1]"]
+      ],
+      "de": [
+        ["Erwerbsteuer", "Käufer", "4 % des Verkehrswerts; 2 % über 1 Mrd. HUF; max. 200 Mio. HUF pro Immobilie", "[1][4]"],
+        ["Ermäßigung bei Ersatzbeschaffung", "Käufer", "nur Wertdifferenz, wenn Verkauf 5 Jahre vorher oder 1 Jahr nachher", "[3]"],
+        ["Ermäßigung unter 35, erste Wohnung", "Käufer", "50 %, wenn Wert ≤ 15 Mio. HUF", "[2][4]"],
+        ["Anwalt", "Käufer (meist)", "meist 0,5–1 % des Preises; bis 3 % genannt; Minimum 100.000–150.000 HUF genannt", "[7][8]"],
+        ["Eigentumseintragung", "Käufer", "10.600 HUF pro Immobilie", "[5][6]"],
+        ["Hypothekeneintragung", "Kreditnehmer", "20.000 HUF", "[5]"],
+        ["Grundbuchauszug (tulajdoni lap)", "Antragsteller", "4.800 HUF elektronisch beglaubigt; 10.000 HUF Papier beglaubigt", "[5]"],
+        ["Genehmigung Nicht-EU/EWR/Schweiz", "Käufer", "65.000 HUF pro Immobilie (13.000 HUF ermäßigt)", "[10]"],
+        ["OFFI-Übersetzung (ausl. Gesellschaft)", "Käufer", "vorgeschrieben; Kosten nach Angebot", "[10]"],
+        ["Bankbewertung", "Kreditnehmer", "30.000–80.000 HUF", "[8]"],
+        ["Maklerprovision", "Verkäufer (meist)", "1,5–5 % des Preises; 2–5 % zzgl. MwSt. genannt", "[7][9]"],
+        ["Energieausweis", "Verkäufer", "25.000–50.000 HUF; 5 Jahre gültig", "[9][11]"],
+        ["Einkommensteuer auf den Verkauf", "Verkäufer (privat)", "15 % des steuerpflichtigen Einkommens; ab dem 5. Jahr 0", "[1]"]
+      ],
+      "hu": [
+        ["Vagyonszerzési illeték", "Vevő", "a forgalmi érték 4%-a; 1 Mrd Ft felett 2%; ingatlanonként max. 200 M Ft", "[1][4]"],
+        ["Cserepótló vételi kedvezmény", "Vevő", "csak az értékkülönbözet után, ha 5 évvel előtte vagy 1 éven belül utána eladás történik", "[3]"],
+        ["35 év alatti első lakás kedvezmény", "Vevő", "50%, ha az érték ≤ 15 M Ft", "[2][4]"],
+        ["Ügyvédi díj", "Vevő (általában)", "többnyire a vételár 0,5–1%-a; akár 3% is előfordul; minimum 100 000–150 000 Ft", "[7][8]"],
+        ["Tulajdonjog bejegyzése", "Vevő", "ingatlanonként 10 600 Ft", "[5][6]"],
+        ["Jelzálogjog bejegyzése", "Adós", "20 000 Ft", "[5]"],
+        ["Tulajdoni lap", "Igénylő", "hiteles elektronikus 4 800 Ft; hiteles papír 10 000 Ft", "[5]"],
+        ["Engedély EU/EGT/svájci körön kívüli vevőnek", "Vevő", "ingatlanonként 65 000 Ft (kedvezményes eset 13 000 Ft)", "[10]"],
+        ["OFFI-fordítás (külföldi cég)", "Vevő", "kötelező; árajánlat alapján", "[10]"],
+        ["Banki értékbecslés", "Adós", "30 000–80 000 Ft", "[8]"],
+        ["Ingatlanirodai jutalék", "Eladó (általában)", "a vételár 1,5–5%-a; 2–5% + áfa is szerepel", "[7][9]"],
+        ["Energetikai tanúsítvány", "Eladó", "25 000–50 000 Ft; 5 évig érvényes", "[9][11]"],
+        ["Szja az eladás jövedelme után", "Eladó (magánszemély)", "az adóköteles jövedelem 15%-a; az 5. évtől 0", "[1]"]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Les droits de mutation se calculent-ils sur le prix du contrat ?",
+        "en": "Is transfer duty based on the contract price?",
+        "de": "Wird die Erwerbsteuer auf den Vertragspreis berechnet?",
+        "hu": "A szerződéses ár után kell illetéket fizetni?"
+      },
+      "a": {
+        "fr": "Sur la valeur vénale fixée par la NAV, qui correspond en général au prix du contrat, mais qui est déterminée par la NAV elle-même [1][4].",
+        "en": "On the market value set by NAV, which usually matches the contract price but is determined by NAV itself [1][4].",
+        "de": "Auf den von der NAV festgestellten Verkehrswert, der meist dem Vertragspreis entspricht, aber von der NAV selbst bestimmt wird [1][4].",
+        "hu": "A NAV által megállapított forgalmi érték után, amely általában megegyezik a szerződéses árral, de azt a NAV maga határozza meg [1][4]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Les travaux de rénovation sont-ils déductibles à la revente ?",
+        "en": "Can renovation work be deducted on resale?",
+        "de": "Sind Renovierungskosten beim Verkauf abziehbar?",
+        "hu": "Levonható-e a felújítás költsége eladáskor?"
+      },
+      "a": {
+        "fr": "Les investissements qui augmentent la valeur du bien sont déductibles s'ils sont justifiés par des factures ou d'autres pièces, et s'ils n'ont pas déjà été déduits ailleurs [1].",
+        "en": "Investments that increase the property's value are deductible if backed by invoices or other documents and not already deducted elsewhere [1].",
+        "de": "Werterhöhende Investitionen sind abziehbar, wenn sie durch Rechnungen oder andere Belege nachgewiesen und nicht bereits anderweitig abgezogen wurden [1].",
+        "hu": "Az értéknövelő beruházások levonhatók, ha számlával vagy más okirattal igazoltak, és máshol még nem számolták el őket [1]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Faut-il déclarer une vente qui ne génère aucun revenu imposable ?",
+        "en": "Must a sale with no taxable income be declared?",
+        "de": "Muss ein Verkauf ohne steuerpflichtiges Einkommen erklärt werden?",
+        "hu": "Be kell-e vallani az adóköteles jövedelmet nem eredményező eladást?"
+      },
+      "a": {
+        "fr": "Non. Selon la NAV, si la vente ne produit pas de revenu imposable (par exemple après la 5e année, ou en cas de perte), la recette n'a pas à être déclarée [1].",
+        "en": "No. According to NAV, if the sale produces no taxable income (for example from the 5th year, or at a loss), the revenue does not need to be reported [1].",
+        "de": "Nein. Laut NAV muss der Erlös nicht erklärt werden, wenn kein steuerpflichtiges Einkommen entsteht (etwa ab dem 5. Jahr oder bei Verlust) [1].",
+        "hu": "Nem. A NAV szerint ha az eladásból nem keletkezik adóköteles jövedelem (például az 5. évtől vagy veszteség esetén), a bevételt nem kell bevallani [1]."
+      }
+    }
+  ],
+  "sources": [
+    { "title": "NAV – Az ingatlan-adásvétel adózási szabályai", "url": "https://nav.gov.hu/print/ado/ingatlan-adasvetel/ingatlan_adasvetel", "seen": "2026-10-26" },
+    { "title": "money.hu – Ingatlan vagyonszerzési illeték, illetékmentesség és illetékkedvezmény (updated Jan 2026)", "url": "https://tudastar.money.hu/fogalom/illetekmentesseg/", "seen": "2026-10-26" },
+    { "title": "money.hu – Jó hír a lakásvásárlóknak: jelentős könnyítés történt egy illetékkedvezményben (16 Jan 2026)", "url": "https://tudastar.money.hu/hir/20260116/jo-hir-a-lakasvasarloknak-jelentos-konnyites-tortent-egy-illetekkedvezmenyben/", "seen": "2026-10-26" },
+    { "title": "Bank360 – Vagyonszerzési illeték (updated Jan 2026)", "url": "https://bank360.hu/vagyonszerzesi-illetek", "seen": "2026-10-26" },
+    { "title": "Pest Vármegyei Kormányhivatal – Földhivatali szolgáltatások díjai", "url": "https://kormanyhivatalok.hu/kormanyhivatalok/pest/megye/foldhivatali-szolgaltatasok-dijai", "seen": "2026-10-26" },
+    { "title": "Bank360 – Drágulnak a földhivatali díjak (2024)", "url": "https://bank360.hu/blog/foldhivatali-dijak-tulajdoni-lap-dragulasa", "seen": "2026-10-26" },
+    { "title": "money.hu – Az ingatlanvásárlás költségei 2026-ban (updated Jun 2026)", "url": "https://tudastar.money.hu/ismerteto/az-ingatlanvasarlas-koltsegei-ezekkel-a-koltsegekkel-szamolhatunk-a-vetelaron-felul/", "seen": "2026-10-26" },
+    { "title": "Financera – Ingatlan vásárlás költségei 2026 (Jul 2026)", "url": "https://financera.hu/hitelek/ingatlan-vasarlas-koltsegei/", "seen": "2026-10-26" },
+    { "title": "Bank360 – Lakáseladás költségei (updated Jan 2026)", "url": "https://bank360.hu/blog/lakaseladas-koltsegei", "seen": "2026-10-26" },
+    { "title": "Budapest Főváros Kormányhivatala – Tájékoztató a külföldiek ingatlanszerzési eljárásáról (2025)", "url": "https://kormanyhivatalok.hu/sites/default/files/2025-05/tajekoztato_kulfoldiek-ingatlanszerzesi-eljarasa.pdf", "seen": "2026-10-26" },
+    { "title": "Bankmonitor – Novembertől életbe lépnek az új energiatanúsítvány-szabályok (Oct 2023)", "url": "https://bankmonitor.hu/mediatar/cikk/novembertol-eletbe-lepnek-az-uj-energiatanusitvany-szabalyok-mutatjuk-mi-valtozik/", "seen": "2026-10-26" }
+  ],
+  "legalNotice": true,
+  "calc": {
+    "currency": "HUF",
+    "asOf": "2026-10-26",
+    "transferDutyRate": 0.04,
+    "transferDutyRateAboveThreshold": 0.02,
+    "transferDutyThresholdHUF": 1000000000,
+    "transferDutyCapHUF": 200000000,
+    "transferDutyCapNote": "4% on market value up to HUF 1bn, 2% on the part above HUF 1bn, total capped at HUF 200m per property. Base is the market value set by NAV (usually the contract price).",
+    "transferDutyPaymentDays": 30,
+    "replacementPurchase": {
+      "yearsBeforePurchase": 5,
+      "yearsAfterPurchase": 1,
+      "rule": "duty on (new value - sold home value); 0 if negative",
+      "note": "5-year look-back since 1 Jan 2026 (was 3); buyer chooses which sale counts; claim on form B400"
+    },
+    "under35FirstHome": {
+      "maxValueHUF": 15000000,
+      "dutyReductionPct": 50,
+      "note": "buyer under 35, first home; 50% reduction only if value <= HUF 15m"
+    },
+    "landRegistryOwnershipFeeHUF": 10600,
+    "landRegistryMortgageFeeHUF": 20000,
+    "titleExtractFeeHUF": { "certifiedElectronic": 4800, "certifiedPaper": 10000 },
+    "nonEUPermitFeeHUF": 65000,
+    "nonEUPermitReducedFeeHUF": 13000,
+    "lawyerFeePct": [0.5, 1],
+    "lawyerFeePctMaxReported": 3,
+    "lawyerFeeMinHUFReported": [100000, 150000],
+    "lawyerFeeNote": "market practice, freely agreed; not regulated",
+    "agencyFeePct": [1.5, 5],
+    "agencyFeeNote": "market practice; usually paid by seller; one source quotes 2-5% + VAT",
+    "bankValuationHUF": [30000, 80000],
+    "energyCertificateHUF": [25000, 50000],
+    "energyCertificateValidityYears": 5,
+    "pitRate": 0.15,
+    "gainReduction": [
+      { "year": 0, "pct": 0, "taxablePct": 100 },
+      { "year": 1, "pct": 0, "taxablePct": 100 },
+      { "year": 2, "pct": 10, "taxablePct": 90 },
+      { "year": 3, "pct": 40, "taxablePct": 60 },
+      { "year": 4, "pct": 70, "taxablePct": 30 },
+      { "year": 5, "pct": 100, "taxablePct": 0 }
+    ],
+    "gainReductionNote": "year = calendar year of sale minus calendar year of acquisition (0 = year of acquisition); 5 and above = no tax. pct = reduction applied to (revenue - documented costs). Acquisition date = date the contract was filed at the land registry.",
+    "deductibleCosts": ["purchase price", "acquisition costs (transfer duty, lawyer)", "value-increasing investments", "sale costs (advertising, lawyer, agency commission)"],
+    "pitInstalments": { "maxTaxHUF": 500000, "maxMonths": 12 },
+    "pitDeclarationDeadline": "20 May of the year after the sale contract is filed at the land registry"
+  }
+}

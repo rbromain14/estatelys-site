@@ -1,0 +1,273 @@
+{
+  "slug": "renovation-budget-per-m2-budapest",
+  "item": "reno",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Budget de rénovation au m² à Budapest (2025–2026)",
+    "en": "Renovation budget per m² in Budapest (2025–2026)",
+    "de": "Renovierungsbudget pro m² in Budapest (2025–2026)",
+    "hu": "Lakásfelújítási költség négyzetméterenként Budapesten (2025–2026)"
+  },
+  "summary": {
+    "fr": "Coûts de rénovation publiés par m² et par poste en Hongrie, évolution des prix de la construction (KSH) et contraintes des immeubles anciens.",
+    "en": "Published Hungarian renovation cost ranges per m² and per item, construction price trends from KSH, and what drives costs in old Budapest buildings.",
+    "de": "Veröffentlichte ungarische Renovierungskosten pro m² und Gewerk, Baupreisentwicklung laut KSH und Kostentreiber in Budapester Altbauten.",
+    "hu": "Publikált hazai felújítási költségsávok négyzetméterenként és tételenként, a KSH építőipari árindexe, valamint a régi budapesti épületek költségtényezői."
+  },
+  "keyFacts": [
+    {
+      "fr": "Au 2e trimestre 2026, les prix à la production de la construction ont augmenté de 5,3 % sur un an ; ceux des travaux spécialisés (électricité, plomberie, finitions) de 5,8 % [1][2].",
+      "en": "In Q2 2026 construction producer prices were 5.3% higher than a year earlier; prices of specialised construction work (electrics, plumbing, finishing) rose 5.8% [1][2].",
+      "de": "Im 2. Quartal 2026 lagen die Erzeugerpreise im Bau um 5,3 % über dem Vorjahr; bei spezialisierten Bauarbeiten (Elektrik, Sanitär, Ausbau) um 5,8 % [1][2].",
+      "hu": "2026 II. negyedévében az építőipari termelői árak 5,3%-kal, a speciális szaképítés (villany-, víz-, befejező munkák) árai 5,8%-kal haladták meg az egy évvel korábbit [1][2]."
+    },
+    {
+      "fr": "Guides publiés en 2026 : rénovation complète d'un appartement avec réseaux, environ 160 000 HUF/m² (base), 240 000 (milieu de gamme) et 380 000 HUF/m² (haut de gamme), hors mobilier [9].",
+      "en": "2026 published guides: full renovation of a flat including services, about HUF 160,000/m² (basic), 240,000 (mid-range) and 380,000/m² (premium), furniture excluded [9].",
+      "de": "Ratgeber 2026: Komplettsanierung einer Wohnung inklusive Haustechnik etwa 160.000 HUF/m² (einfach), 240.000 (mittel) und 380.000 HUF/m² (gehoben), ohne Möbel [9].",
+      "hu": "2026-os útmutatók: lakás teljes felújítása gépészettel kb. 160 000 Ft/m² (alap), 240 000 (közép) és 380 000 Ft/m² (prémium), bútor nélkül [9]."
+    },
+    {
+      "fr": "Rafraîchissement esthétique d'un appartement moyen de 60 m² : jusqu'à 6 millions HUF ; rénovation énergétique complète : jusqu'à 15 millions HUF (2025) [7].",
+      "en": "Cosmetic refresh of an average 60 m² flat: up to HUF 6 million; comprehensive energy renovation: up to HUF 15 million (2025) [7].",
+      "de": "Kosmetische Auffrischung einer durchschnittlichen 60-m²-Wohnung: bis 6 Mio. HUF; umfassende energetische Sanierung: bis 15 Mio. HUF (2025) [7].",
+      "hu": "Egy átlagos, 60 m²-es lakás kozmetikai felújítása akár 6 millió Ft, átfogó energetikai korszerűsítése akár 15 millió Ft is lehet (2025) [7]."
+    },
+    {
+      "fr": "Les prix moyens des matériaux de construction ont baissé de 1,3 % sur un an au premier semestre 2025 [8].",
+      "en": "Average building material prices fell 1.3% year on year in the first half of 2025 [8].",
+      "de": "Die durchschnittlichen Baustoffpreise sanken im ersten Halbjahr 2025 gegenüber dem Vorjahr um 1,3 % [8].",
+      "hu": "Az építőanyagok átlagárai 2025 első félévében éves alapon 1,3%-kal mérséklődtek [8]."
+    },
+    {
+      "fr": "Pour un monument classé (műemlék), l'autorisation patrimoniale couvre aussi les travaux intérieurs (plan, surfaces, menuiseries) ; délai d'instruction : 25 jours [10].",
+      "en": "For a listed building (műemlék), the heritage permit also covers interior works (layout, surfaces, doors and windows); processing time: 25 days [10].",
+      "de": "Bei einem Baudenkmal (műemlék) umfasst die Denkmalgenehmigung auch Innenarbeiten (Grundriss, Oberflächen, Fenster und Türen); Bearbeitungsfrist: 25 Tage [10].",
+      "hu": "Műemléknél az örökségvédelmi engedély a belső munkákra (alaprajz, felületek, nyílászárók) is kiterjed; ügyintézési határidő: 25 nap [10]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Ce que valent les chiffres publiés",
+        "en": "What the published figures are worth",
+        "de": "Was die veröffentlichten Zahlen aussagen",
+        "hu": "Mit mutatnak a publikált számok"
+      },
+      "body": {
+        "fr": "Il n'existe pas en Hongrie d'enquête officielle sur le coût de rénovation au m². Le KSH (office central de la statistique) publie un indice des prix de la construction, pas des prix unitaires. Les fourchettes au m² viennent de la presse économique, d'analystes de réseaux immobiliers, de la fédération des entreprises du bâtiment (ÉVOSZ) et de plateformes ou guides d'entrepreneurs. Leur méthode est rarement décrite et les périmètres diffèrent : certains incluent les matériaux, d'autres seulement la main-d'œuvre ; le mobilier, la cuisine équipée et la conception sont souvent exclus [9].\n\nCes chiffres servent donc d'ordre de grandeur. Un budget fiable suppose un relevé de l'existant et des devis détaillés de plusieurs entreprises. Selon un guide de 2026, la main-d'œuvre est en général 10 à 20 % plus chère à Budapest qu'en province [5]. Le même type de guide recommande une réserve d'environ 15 % pour les imprévus [9].",
+        "en": "Hungary has no official survey of renovation costs per m². KSH (the Central Statistical Office) publishes a construction price index, not unit prices. Per-m² ranges come from the business press, analysts at estate agency networks, the builders' federation ÉVOSZ, and contractor platforms or guides. Their methods are rarely described and their scope differs: some include materials, others only labour; furniture, the fitted kitchen and design fees are often excluded [9].\n\nThese figures are therefore orders of magnitude. A reliable budget needs a survey of the existing condition and itemised quotes from several contractors. According to one 2026 guide, labour is typically 10–20% more expensive in Budapest than in the rest of the country [5]. The same type of guide recommends a contingency of about 15% [9].",
+        "de": "In Ungarn gibt es keine amtliche Erhebung der Renovierungskosten pro m². Das KSH (Zentralamt für Statistik) veröffentlicht einen Baupreisindex, keine Einheitspreise. Die m²-Spannen stammen aus der Wirtschaftspresse, von Analysten der Maklernetze, vom Bauunternehmerverband ÉVOSZ sowie von Handwerkerplattformen und Ratgebern. Ihre Methodik wird selten erläutert, und der Umfang unterscheidet sich: Manche enthalten Material, andere nur Arbeit; Möbel, Einbauküche und Planung sind oft ausgenommen [9].\n\nDie Zahlen sind daher Größenordnungen. Ein belastbares Budget erfordert eine Bestandsaufnahme und detaillierte Angebote mehrerer Firmen. Laut einem Ratgeber von 2026 ist Arbeit in Budapest meist 10–20 % teurer als auf dem Land [5]. Derselbe Ratgebertyp empfiehlt eine Reserve von etwa 15 % für Unvorhergesehenes [9].",
+        "hu": "Magyarországon nincs hivatalos felmérés a négyzetméterenkénti felújítási költségről. A KSH építőipari árindexet közöl, nem egységárakat. A négyzetméterárak a gazdasági sajtóból, ingatlanközvetítő hálózatok elemzőitől, az ÉVOSZ-tól, valamint kivitelezői platformoktól és útmutatókból származnak. Módszertanukat ritkán ismertetik, és a tartalmuk is eltér: van, amelyik anyaggal, van, amelyik csak munkadíjjal számol; a bútor, a konyhagépek és a tervezés gyakran nincs benne [9].\n\nEzek a számok tehát nagyságrendet mutatnak. Megbízható költségvetéshez állapotfelmérés és több kivitelező tételes ajánlata kell. Egy 2026-os útmutató szerint a munkadíj Budapesten általában 10–20%-kal magasabb, mint vidéken [5]. Ugyanez a típusú útmutató kb. 15% tartalékot javasol a váratlan tételekre [9]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Fourchettes par niveau de finition",
+        "en": "Ranges by finish level",
+        "de": "Spannen nach Ausbaustandard",
+        "hu": "Költségsávok kivitelezési szint szerint"
+      },
+      "body": {
+        "fr": "Fourchettes publiées en 2025–2026, main-d'œuvre et matériaux, par m² de surface habitable :\n\n- **Rafraîchissement léger** (peinture, petites réparations, sols, interrupteurs) : 30 000–60 000 HUF/m² selon une compilation de prix d'avril 2025 [4] ; 60 000–100 000 HUF/m² selon un guide de 2026 [5]. Un analyste d'un réseau immobilier estimait en 2025 le rafraîchissement esthétique d'un appartement de 60 m² à jusqu'à 6 millions HUF [7].\n- **Rénovation complète** (carrelage, salle de bains, cuisine, réseaux d'eau et d'électricité) : 80 000–150 000 HUF/m² pour un niveau intermédiaire et 150 000–300 000 HUF/m² pour une rénovation totale avec réseaux et fenêtres (2025) [4] ; 100 000–180 000 HUF/m² [5], 135 000–275 000 HUF/m² [6] et environ 240 000 HUF/m² en milieu de gamme avec réseaux [9] dans des sources de 2026. Une rénovation énergétique complète d'un appartement de 60 m² peut atteindre 15 millions HUF (2025) [7].\n- **Haut de gamme** (refonte du plan, mobilier sur mesure, matériaux nobles) : 180 000–350 000 HUF/m² [5] et environ 380 000 HUF/m² [9] en 2026.\n\nL'écart entre sources tient surtout au périmètre (réseaux inclus ou non, cuisine et mobilier inclus ou non) et à l'état de départ.",
+        "en": "Published ranges for 2025–2026, labour and materials, per m² of floor area:\n\n- **Light refresh** (painting, minor repairs, floors, switches): HUF 30,000–60,000/m² in a price compilation from April 2025 [4]; HUF 60,000–100,000/m² in a 2026 guide [5]. An estate agency network analyst put the cosmetic refresh of a 60 m² flat at up to HUF 6 million in 2025 [7].\n- **Full renovation** (tiling, bathroom, kitchen, water and electrical networks): HUF 80,000–150,000/m² at mid level and HUF 150,000–300,000/m² for a complete renovation with services and windows (2025) [4]; HUF 100,000–180,000/m² [5], HUF 135,000–275,000/m² [6] and about HUF 240,000/m² mid-range with services [9] in 2026 sources. A comprehensive energy renovation of a 60 m² flat can reach HUF 15 million (2025) [7].\n- **High-end** (new layout, custom joinery, premium materials): HUF 180,000–350,000/m² [5] and about HUF 380,000/m² [9] in 2026.\n\nThe gap between sources mostly reflects scope (services included or not, kitchen and furniture included or not) and the starting condition.",
+        "de": "Veröffentlichte Spannen für 2025–2026, Arbeit und Material, pro m² Wohnfläche:\n\n- **Leichte Auffrischung** (Malerarbeiten, kleine Reparaturen, Böden, Schalter): 30.000–60.000 HUF/m² laut einer Preisübersicht vom April 2025 [4]; 60.000–100.000 HUF/m² laut einem Ratgeber von 2026 [5]. Ein Analyst eines Maklernetzes bezifferte 2025 die kosmetische Auffrischung einer 60-m²-Wohnung auf bis zu 6 Mio. HUF [7].\n- **Komplettsanierung** (Fliesen, Bad, Küche, Wasser- und Elektroleitungen): 80.000–150.000 HUF/m² auf mittlerem Niveau und 150.000–300.000 HUF/m² für eine Gesamtsanierung mit Haustechnik und Fenstern (2025) [4]; 100.000–180.000 HUF/m² [5], 135.000–275.000 HUF/m² [6] und etwa 240.000 HUF/m² im mittleren Segment mit Haustechnik [9] in Quellen von 2026. Eine umfassende energetische Sanierung einer 60-m²-Wohnung kann 15 Mio. HUF erreichen (2025) [7].\n- **Gehoben** (neuer Grundriss, Möbel nach Maß, hochwertige Materialien): 180.000–350.000 HUF/m² [5] und etwa 380.000 HUF/m² [9] im Jahr 2026.\n\nDie Unterschiede zwischen den Quellen erklären sich vor allem durch den Umfang (Haustechnik, Küche und Möbel enthalten oder nicht) und den Ausgangszustand.",
+        "hu": "2025–2026-ban publikált sávok, munkadíjjal és anyaggal, a lakás alapterületének négyzetméterére:\n\n- **Könnyű frissítés** (festés, kisebb javítások, padló, kapcsolók): 30 000–60 000 Ft/m² egy 2025. áprilisi árösszesítés szerint [4]; 60 000–100 000 Ft/m² egy 2026-os útmutató szerint [5]. Egy ingatlanközvetítő hálózat elemzője 2025-ben egy 60 m²-es lakás kozmetikai felújítását akár 6 millió Ft-ra becsülte [7].\n- **Teljes felújítás** (burkolás, fürdőszoba, konyha, víz- és villanyhálózat): közepes szinten 80 000–150 000 Ft/m², gépészettel és nyílászárókkal teljes körűen 150 000–300 000 Ft/m² (2025) [4]; 2026-os források szerint 100 000–180 000 Ft/m² [5], 135 000–275 000 Ft/m² [6], illetve gépészettel közepes szinten kb. 240 000 Ft/m² [9]. Egy 60 m²-es lakás átfogó energetikai korszerűsítése akár 15 millió Ft is lehet (2025) [7].\n- **Prémium** (új alaprajz, egyedi bútor, minőségi anyagok): 2026-ban 180 000–350 000 Ft/m² [5], illetve kb. 380 000 Ft/m² [9].\n\nA források közötti eltérést főként a tartalom (gépészet, konyha, bútor benne van-e) és a kiinduló állapot magyarázza."
+      }
+    },
+    {
+      "h": {
+        "fr": "Coûts par poste",
+        "en": "Costs by item",
+        "de": "Kosten nach Gewerk",
+        "hu": "Költségek tételenként"
+      },
+      "body": {
+        "fr": "Le tableau ci-dessous reprend les prix par poste publiés en 2025–2026. Les postes les plus lourds dans un appartement ancien sont en général l'électricité, la plomberie et le chauffage, car ils impliquent saignées, reprise des enduits et coordination avec les colonnes communes. La salle de bains et la cuisine varient le plus selon le niveau de finition.\n\nLes prix des fenêtres proviennent de données de l'ÉVOSZ publiées en 2025 et portent sur des maisons ; dans un immeuble ancien de Budapest, les fenêtres à double châssis en bois sont souvent restaurées plutôt que remplacées, et leur remplacement peut être encadré par les règles de protection [4][10].\n\nLa démolition et l'évacuation des gravats s'ajoutent : 8 000–25 000 HUF/m² pour la démolition et 150 000–200 000 HUF pour évacuer 15–20 m³ de gravats d'un appartement de 60 m² [6]. En centre-ville, l'absence d'ascenseur, le stationnement et la location d'une benne sur la voie publique augmentent ce poste.",
+        "en": "The table below lists item prices published in 2025–2026. In an old flat the heaviest items are usually electrics, plumbing and heating, because they involve chasing walls, re-plastering and coordination with the common risers. The bathroom and the kitchen vary most with the finish level.\n\nWindow prices come from ÉVOSZ data published in 2025 and refer to houses; in an old Budapest building, double-sash timber windows are often restored rather than replaced, and replacement can be restricted by protection rules [4][10].\n\nDemolition and debris removal come on top: HUF 8,000–25,000/m² for demolition and HUF 150,000–200,000 to remove 15–20 m³ of debris from a 60 m² flat [6]. In the city centre, a missing lift, parking and renting a skip on the street add to this item.",
+        "de": "Die Tabelle unten führt die 2025–2026 veröffentlichten Preise je Gewerk auf. In einer Altbauwohnung sind Elektrik, Sanitär und Heizung meist die größten Posten, weil Wände geschlitzt, neu verputzt und mit den gemeinsamen Steigleitungen abgestimmt werden müssen. Bad und Küche schwanken am stärksten mit dem Ausbaustandard.\n\nDie Fensterpreise stammen aus 2025 veröffentlichten ÉVOSZ-Daten und beziehen sich auf Häuser; in Budapester Altbauten werden Holz-Kastenfenster oft restauriert statt ersetzt, und ein Austausch kann durch Schutzvorschriften eingeschränkt sein [4][10].\n\nAbbruch und Schuttentsorgung kommen hinzu: 8.000–25.000 HUF/m² für den Abbruch und 150.000–200.000 HUF für den Abtransport von 15–20 m³ Schutt aus einer 60-m²-Wohnung [6]. In der Innenstadt erhöhen fehlender Aufzug, Parken und ein Container auf öffentlichem Grund diesen Posten.",
+        "hu": "Az alábbi táblázat a 2025–2026-ban publikált tételes árakat foglalja össze. Régi lakásban jellemzően a villany, a víz és a fűtés a legnagyobb tétel, mert vésést, újravakolást és a közös strangokkal való egyeztetést igényelnek. A fürdőszoba és a konyha ára függ leginkább a kivitelezési szinttől.\n\nA nyílászárók árai az ÉVOSZ 2025-ben közölt adataiból származnak, és családi házakra vonatkoznak; régi budapesti épületben a kapcsolt gerébtokos ablakokat gyakran felújítják csere helyett, a cserét pedig védettségi szabályok korlátozhatják [4][10].\n\nA bontás és a sitt elszállítása külön tétel: a bontás 8 000–25 000 Ft/m², egy 60 m²-es lakás 15–20 m³ sittjének elszállítása 150 000–200 000 Ft [6]. A belvárosban a lift hiánya, a parkolás és a közterületi konténer tovább növeli ezt a tételt."
+      }
+    },
+    {
+      "h": {
+        "fr": "Évolution des prix de la construction",
+        "en": "Construction price trend",
+        "de": "Entwicklung der Baupreise",
+        "hu": "Az építőipari árak alakulása"
+      },
+      "body": {
+        "fr": "L'indice KSH des prix à la production de la construction mesure la hausse sur un an, trimestre par trimestre [1] :\n\n- Ensemble de la construction : +6,7 % au T1 2024, +5,7 % au T2 2025, +5,1 % au T4 2025, +4,7 % au T1 2026, +5,3 % au T2 2026.\n- Bâtiments : +4,5 % au T2 2026.\n- Travaux spécialisés de construction (installations électriques et sanitaires, finitions, démolition) : +6,5 % au T2 2025, +5,4 % au T1 2026, +5,8 % au T2 2026.\n\nLa hausse du T1 2026 était la plus faible depuis le T2 2017 [3]. Au T2 2026, les prix étaient en moyenne supérieurs de 1,9 % à ceux du trimestre précédent [2]. Les données du T3 2026 n'étaient pas encore publiées au 26 octobre 2026.\n\nLes matériaux n'étaient pas le moteur principal en 2025 : leurs prix moyens ont reculé de 1,3 % au premier semestre 2025 et les variations des produits importés suivaient surtout le taux de change [8]. Selon la revue sectorielle de mai 2026, ce sont les coûts de main-d'œuvre, de matériaux et de sous-traitance qui continuent de pousser les prix à la hausse [3]. Les entreprises interrogées anticipaient en avril 2026 de nouvelles hausses de prix (solde d'opinion de +27,6 points) [3]. Pour un projet qui démarre dans six à douze mois, il est prudent d'indexer les devis sur cette tendance.",
+        "en": "The KSH construction producer price index measures year-on-year change, quarter by quarter [1]:\n\n- Total construction: +6.7% in Q1 2024, +5.7% in Q2 2025, +5.1% in Q4 2025, +4.7% in Q1 2026, +5.3% in Q2 2026.\n- Buildings: +4.5% in Q2 2026.\n- Specialised construction work (electrical and plumbing installation, finishing, demolition): +6.5% in Q2 2025, +5.4% in Q1 2026, +5.8% in Q2 2026.\n\nThe Q1 2026 increase was the smallest since Q2 2017 [3]. In Q2 2026 prices were on average 1.9% higher than in the previous quarter [2]. Q3 2026 data had not yet been published on 26 October 2026.\n\nMaterials were not the main driver in 2025: their average prices fell 1.3% in the first half of 2025, and price moves in imported products mostly followed the exchange rate [8]. According to the May 2026 sector review, labour, material and subcontractor costs continue to push prices up [3]. Companies surveyed in April 2026 expected further price rises (balance of +27.6 points) [3]. For a project starting in six to twelve months, it is prudent to index quotes to this trend.",
+        "de": "Der KSH-Erzeugerpreisindex für Bauleistungen misst die Veränderung zum Vorjahr, Quartal für Quartal [1]:\n\n- Bau insgesamt: +6,7 % im Q1 2024, +5,7 % im Q2 2025, +5,1 % im Q4 2025, +4,7 % im Q1 2026, +5,3 % im Q2 2026.\n- Gebäude: +4,5 % im Q2 2026.\n- Spezialisierte Bauarbeiten (Elektro- und Sanitärinstallation, Ausbau, Abbruch): +6,5 % im Q2 2025, +5,4 % im Q1 2026, +5,8 % im Q2 2026.\n\nDer Anstieg im Q1 2026 war der geringste seit dem Q2 2017 [3]. Im Q2 2026 lagen die Preise im Schnitt 1,9 % über dem Vorquartal [2]. Daten für das Q3 2026 waren am 26. Oktober 2026 noch nicht veröffentlicht.\n\nDas Material war 2025 nicht der Haupttreiber: Die durchschnittlichen Baustoffpreise sanken im ersten Halbjahr 2025 um 1,3 %, und Preisänderungen bei Importware folgten vor allem dem Wechselkurs [8]. Laut dem Branchenbericht vom Mai 2026 treiben Arbeits-, Material- und Subunternehmerkosten die Preise weiter nach oben [3]. Im April 2026 erwarteten befragte Unternehmen weitere Preiserhöhungen (Saldo +27,6 Punkte) [3]. Für ein Projekt, das in sechs bis zwölf Monaten beginnt, ist es sinnvoll, Angebote an diese Entwicklung anzupassen.",
+        "hu": "A KSH építőipari termelői árindexe az előző év azonos negyedévéhez mért változást mutatja [1]:\n\n- Építőipar összesen: 2024 I. negyedév +6,7%, 2025 II. negyedév +5,7%, 2025 IV. negyedév +5,1%, 2026 I. negyedév +4,7%, 2026 II. negyedév +5,3%.\n- Épületek építése: 2026 II. negyedév +4,5%.\n- Speciális szaképítés (villany- és vízszerelés, befejező munkák, bontás): 2025 II. negyedév +6,5%, 2026 I. negyedév +5,4%, 2026 II. negyedév +5,8%.\n\nA 2026 I. negyedévi emelkedés 2017 II. negyedéve óta a legkisebb volt [3]. 2026 II. negyedévében az árak átlagosan 1,9%-kal haladták meg az előző negyedévit [2]. A 2026 III. negyedévi adatot október 26-ig még nem tették közzé.\n\n2025-ben nem az anyagár volt a fő hajtóerő: az építőanyagok átlagárai 2025 első félévében 1,3%-kal csökkentek, az import termékek árváltozása pedig főként az árfolyamot követte [8]. A 2026. májusi ágazati elemzés szerint a munkaerő-, anyag- és alvállalkozói költségek továbbra is felfelé hajtják az árakat [3]. A megkérdezett vállalatok 2026 áprilisában további áremelkedésre számítottak (+27,6 pontos egyenleg) [3]. Hat-tizenkét hónap múlva induló projektnél érdemes az ajánlatokat ehhez a trendhez igazítani."
+      }
+    },
+    {
+      "h": {
+        "fr": "Ce qui renchérit les travaux dans un immeuble ancien",
+        "en": "What drives costs in old buildings",
+        "de": "Kostentreiber im Altbau",
+        "hu": "Mi drágítja a munkát régi épületben"
+      },
+      "body": {
+        "fr": "- **Parties communes et accord de la copropriété** : murs porteurs, dalles, courettes (lichthof) et colonnes d'eau ou de chauffage sont des parties communes, même à l'intérieur de l'appartement. Depuis la modification de 2021 de la loi sur les copropriétés, ces travaux exigent l'accord de l'assemblée générale, sur la base de plans et d'un avis d'ingénieur structure [11]. Comptez le coût de l'ingénieur, le délai de vote et les éventuelles conditions posées par les voisins.\n- **Autorisations de construire** : les procédures d'urbanisme sont régies par le décret gouvernemental 281/2024 (IX. 30.), applicable depuis octobre 2024 [12]. Les travaux réalisés sans autorisation requise au cours des dix dernières années sont régularisés selon la procédure d'autorisation de construire [12]. Faites vérifier par un architecte si votre projet relève d'une autorisation.\n- **Bâtiments protégés** : pour un műemlék, une autorisation patrimoniale est nécessaire non seulement pour la façade, les fenêtres et la toiture, mais aussi pour le plan intérieur, les surfaces, les menuiseries, les éléments décoratifs et les installations du logement ; délai d'instruction de 25 jours, validité d'un an [10]. Les arrêtés d'arrondissement peuvent imposer des règles plus strictes pour les bâtiments protégés localement [13].\n- **Installations anciennes** : câblage d'origine, colonnes en fin de vie et conduits de fumée à mettre aux normes conduisent souvent à refaire l'ensemble plutôt qu'à réparer.\n- **Logistique** : immeubles sans ascenseur, rues étroites, horaires de travaux fixés par le règlement intérieur et évacuation des gravats [6].\n\nRègle pratique : faites établir un diagnostic (structure, réseaux, humidité) avant d'arrêter le prix d'achat, puisque le coût des travaux réduit directement la marge.",
+        "en": "- **Common parts and the condominium's consent**: load-bearing walls, floor slabs, light wells (lichthof) and water or heating risers are common property, even inside the flat. Since the 2021 amendment of the Condominium Act, such works require the general meeting's consent, based on plans and a structural engineer's opinion [11]. Budget for the engineer, the time to vote and any conditions set by neighbours.\n- **Building permits**: building authority procedures are governed by Government Decree 281/2024 (IX. 30.), applied since October 2024 [12]. Works carried out without a required permit in the last ten years are regularised through the building permit procedure [12]. Have an architect confirm whether your project needs a permit.\n- **Protected buildings**: for a műemlék, a heritage permit is needed not only for the facade, windows and roof but also for the interior layout, surfaces, doors and windows, decorative elements and the flat's installations; processing time 25 days, validity one year [10]. District regulations can set stricter rules for locally protected buildings [13].\n- **Old installations**: original wiring, risers at the end of their life and flues that must be brought up to standard often mean replacing everything rather than repairing.\n- **Logistics**: buildings without a lift, narrow streets, working hours set by the house rules, and debris removal [6].\n\nRule of thumb: commission a survey (structure, services, damp) before agreeing the purchase price, since renovation cost directly reduces the margin.",
+        "de": "- **Gemeinschaftseigentum und Zustimmung der Gemeinschaft**: Tragende Wände, Decken, Lichtschächte (lichthof) sowie Wasser- und Heizungssteigleitungen sind Gemeinschaftseigentum, auch innerhalb der Wohnung. Seit der Änderung des Wohnungseigentumsgesetzes 2021 brauchen solche Arbeiten die Zustimmung der Eigentümerversammlung auf Grundlage von Plänen und einem Statikgutachten [11]. Planen Sie Kosten für den Statiker, Zeit für die Abstimmung und mögliche Auflagen der Nachbarn ein.\n- **Baugenehmigungen**: Die baubehördlichen Verfahren regelt die Regierungsverordnung 281/2024 (IX. 30.), angewandt seit Oktober 2024 [12]. Ohne erforderliche Genehmigung ausgeführte Arbeiten der letzten zehn Jahre werden im Baugenehmigungsverfahren legalisiert [12]. Lassen Sie einen Architekten prüfen, ob Ihr Vorhaben genehmigungspflichtig ist.\n- **Geschützte Gebäude**: Bei einem műemlék ist eine Denkmalgenehmigung nicht nur für Fassade, Fenster und Dach nötig, sondern auch für Grundriss, Oberflächen, Türen und Fenster, Schmuckelemente und Installationen der Wohnung; Bearbeitungsfrist 25 Tage, Gültigkeit ein Jahr [10]. Bezirksverordnungen können für lokal geschützte Gebäude strengere Regeln vorsehen [13].\n- **Alte Installationen**: Originalleitungen, verbrauchte Steigleitungen und zu ertüchtigende Abgasleitungen führen oft zu einer Komplett­erneuerung statt einer Reparatur.\n- **Logistik**: Häuser ohne Aufzug, enge Straßen, in der Hausordnung festgelegte Arbeitszeiten und Schuttabtransport [6].\n\nFaustregel: Lassen Sie vor der Einigung über den Kaufpreis ein Gutachten (Statik, Haustechnik, Feuchtigkeit) erstellen, denn die Renovierungskosten mindern direkt die Marge.",
+        "hu": "- **Közös tulajdon és a társasház hozzájárulása**: a teherhordó falak, a födém, a lichthof, valamint a víz- és fűtési strangok közös tulajdonban állnak, akkor is, ha a lakáson belül vannak. A társasházi törvény 2021-es módosítása óta ezekhez a munkákhoz a közgyűlés hozzájárulása kell, tervek és statikai szakvélemény alapján [11]. Számoljon a statikus díjával, a szavazás idejével és a szomszédok esetleges feltételeivel.\n- **Építési engedélyek**: az építésügyi hatósági eljárásokat a 281/2024. (IX. 30.) Korm. rendelet szabályozza, 2024 októberétől [12]. Az elmúlt tíz évben szükséges engedély nélkül végzett munkák fennmaradása az építési engedélyezési eljárás szerint rendezhető [12]. Építésszel ellenőriztesse, hogy a tervezett munka engedélyköteles-e.\n- **Védett épületek**: műemléknél örökségvédelmi engedély kell nemcsak a homlokzathoz, a nyílászárókhoz és a tetőhöz, hanem a belső alaprajzhoz, a felületekhez, az ajtókhoz és ablakokhoz, a díszítőelemekhez és a lakás gépészetéhez is; az ügyintézési határidő 25 nap, az engedély egy évig érvényes [10]. A kerületi rendeletek a helyi védett épületekre szigorúbb feltételeket szabhatnak [13].\n- **Régi gépészet**: az eredeti vezetékek, az elhasználódott strangok és a szabványosítandó kémények miatt gyakran a teljes csere a megoldás javítás helyett.\n- **Logisztika**: lift nélküli épületek, szűk utcák, a házirendben rögzített munkaidő és a sitt elszállítása [6].\n\nGyakorlati szabály: a vételár véglegesítése előtt készíttessen állapotfelmérést (statika, gépészet, nedvesség), mert a felújítási költség közvetlenül csökkenti a megtérülést."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Prix publiés par poste de rénovation, Hongrie, 2025–2026 (main-d'œuvre et matériaux sauf mention contraire)",
+      "en": "Published renovation prices by item, Hungary, 2025–2026 (labour and materials unless stated)",
+      "de": "Veröffentlichte Renovierungspreise je Gewerk, Ungarn, 2025–2026 (Arbeit und Material, sofern nicht anders angegeben)",
+      "hu": "Publikált felújítási árak tételenként, Magyarország, 2025–2026 (munkadíjjal és anyaggal, ha nincs más jelölve)"
+    },
+    "head": {
+      "fr": ["Poste", "Fourchette (HUF)", "Base", "Source"],
+      "en": ["Item", "Range (HUF)", "Basis", "Source"],
+      "de": ["Gewerk", "Spanne (HUF)", "Bezug", "Quelle"],
+      "hu": ["Tétel", "Sáv (Ft)", "Vetítési alap", "Forrás"]
+    },
+    "rows": {
+      "fr": [
+        ["Électricité – recâblage complet", "600 000–1 200 000", "appartement de 60 m², 2026", "[5]"],
+        ["Électricité", "15 000–30 000", "par m², 2025", "[6]"],
+        ["Plomberie – remplacement des conduites d'eau", "400 000–800 000", "appartement de 60 m², 2026", "[5]"],
+        ["Plomberie", "20 000–40 000", "par m², 2025", "[6]"],
+        ["Chauffage – radiateurs et tuyauterie", "500 000–1 500 000", "appartement, 2026", "[5]"],
+        ["Chaudière gaz à condensation – remplacement", "400 000–800 000", "par appareil, 2026", "[5]"],
+        ["Salle de bains (4–6 m²) – basique / milieu / haut de gamme", "800 000–1 500 000 / 1 500 000–2 500 000 / 2 500 000–5 000 000+", "par pièce, 2026", "[5]"],
+        ["Cuisine – meubles sur mesure, milieu / haut de gamme", "500 000–1 500 000 / 1 500 000–3 500 000", "par cuisine, 2026", "[5]"],
+        ["Plan de travail granit ou quartz", "60 000–150 000", "par mètre linéaire, 2026", "[5]"],
+        ["Carrelage – pose (main-d'œuvre)", "5 000–10 000", "par m², 2026", "[5]"],
+        ["Stratifié – pose / matériau", "3 000–6 000 / 3 000–12 000", "par m², 2026", "[5]"],
+        ["Parquet", "12 000–25 000", "par m², 2025", "[6]"],
+        ["Peinture – deux couches, peinture comprise", "2 500–5 000", "par m² de mur, 2026", "[5]"],
+        ["Peinture – préparation complète et peinture", "5 000–10 000", "par m² de mur, 2026", "[5]"],
+        ["Fenêtre 150×150 cm oscillo-battante, dépose et pose comprises", "env. 250 000", "par fenêtre, maison, 2025 (ÉVOSZ)", "[4]"],
+        ["Porte-fenêtre de balcon 90×210 cm", "env. 460 000", "par unité, maison, 2025 (ÉVOSZ)", "[4]"],
+        ["Radiateur", "env. 90 000", "par radiateur, 2025 (ÉVOSZ)", "[4]"]
+      ],
+      "en": [
+        ["Electrics – full rewiring", "600,000–1,200,000", "60 m² flat, 2026", "[5]"],
+        ["Electrics", "15,000–30,000", "per m², 2025", "[6]"],
+        ["Plumbing – water pipe replacement", "400,000–800,000", "60 m² flat, 2026", "[5]"],
+        ["Plumbing", "20,000–40,000", "per m², 2025", "[6]"],
+        ["Heating – radiators and pipework", "500,000–1,500,000", "per flat, 2026", "[5]"],
+        ["Condensing gas boiler – replacement", "400,000–800,000", "per unit, 2026", "[5]"],
+        ["Bathroom (4–6 m²) – basic / mid / premium", "800,000–1,500,000 / 1,500,000–2,500,000 / 2,500,000–5,000,000+", "per room, 2026", "[5]"],
+        ["Kitchen – custom cabinets, mid / premium", "500,000–1,500,000 / 1,500,000–3,500,000", "per kitchen, 2026", "[5]"],
+        ["Granite or quartz worktop", "60,000–150,000", "per running metre, 2026", "[5]"],
+        ["Tiling – laying (labour)", "5,000–10,000", "per m², 2026", "[5]"],
+        ["Laminate – laying / material", "3,000–6,000 / 3,000–12,000", "per m², 2026", "[5]"],
+        ["Parquet", "12,000–25,000", "per m², 2025", "[6]"],
+        ["Painting – two coats, paint included", "2,500–5,000", "per m² of wall, 2026", "[5]"],
+        ["Painting – full preparation and painting", "5,000–10,000", "per m² of wall, 2026", "[5]"],
+        ["Window 150×150 cm tilt-and-turn, removal and fitting included", "approx. 250,000", "per window, house, 2025 (ÉVOSZ)", "[4]"],
+        ["Balcony door 90×210 cm", "approx. 460,000", "per unit, house, 2025 (ÉVOSZ)", "[4]"],
+        ["Radiator", "approx. 90,000", "per radiator, 2025 (ÉVOSZ)", "[4]"]
+      ],
+      "de": [
+        ["Elektrik – komplette Neuverkabelung", "600.000–1.200.000", "60-m²-Wohnung, 2026", "[5]"],
+        ["Elektrik", "15.000–30.000", "pro m², 2025", "[6]"],
+        ["Sanitär – Austausch der Wasserleitungen", "400.000–800.000", "60-m²-Wohnung, 2026", "[5]"],
+        ["Sanitär", "20.000–40.000", "pro m², 2025", "[6]"],
+        ["Heizung – Heizkörper und Rohre", "500.000–1.500.000", "pro Wohnung, 2026", "[5]"],
+        ["Gas-Brennwerttherme – Austausch", "400.000–800.000", "pro Gerät, 2026", "[5]"],
+        ["Bad (4–6 m²) – einfach / mittel / gehoben", "800.000–1.500.000 / 1.500.000–2.500.000 / 2.500.000–5.000.000+", "pro Raum, 2026", "[5]"],
+        ["Küche – Maßanfertigung, mittel / gehoben", "500.000–1.500.000 / 1.500.000–3.500.000", "pro Küche, 2026", "[5]"],
+        ["Arbeitsplatte Granit oder Quarz", "60.000–150.000", "pro laufendem Meter, 2026", "[5]"],
+        ["Fliesen – Verlegung (Arbeit)", "5.000–10.000", "pro m², 2026", "[5]"],
+        ["Laminat – Verlegung / Material", "3.000–6.000 / 3.000–12.000", "pro m², 2026", "[5]"],
+        ["Parkett", "12.000–25.000", "pro m², 2025", "[6]"],
+        ["Malerarbeiten – zwei Anstriche inkl. Farbe", "2.500–5.000", "pro m² Wand, 2026", "[5]"],
+        ["Malerarbeiten – komplette Vorbereitung und Anstrich", "5.000–10.000", "pro m² Wand, 2026", "[5]"],
+        ["Fenster 150×150 cm Dreh-Kipp, inkl. Ausbau und Einbau", "ca. 250.000", "pro Fenster, Haus, 2025 (ÉVOSZ)", "[4]"],
+        ["Balkontür 90×210 cm", "ca. 460.000", "pro Stück, Haus, 2025 (ÉVOSZ)", "[4]"],
+        ["Heizkörper", "ca. 90.000", "pro Heizkörper, 2025 (ÉVOSZ)", "[4]"]
+      ],
+      "hu": [
+        ["Villany – teljes vezetékcsere", "600 000–1 200 000", "60 m²-es lakás, 2026", "[5]"],
+        ["Villanyszerelés", "15 000–30 000", "m²-enként, 2025", "[6]"],
+        ["Víz – vízvezeték-csere", "400 000–800 000", "60 m²-es lakás, 2026", "[5]"],
+        ["Vízszerelés", "20 000–40 000", "m²-enként, 2025", "[6]"],
+        ["Fűtés – radiátorok és csövezés", "500 000–1 500 000", "lakásonként, 2026", "[5]"],
+        ["Kondenzációs gázkazán cseréje", "400 000–800 000", "készülékenként, 2026", "[5]"],
+        ["Fürdőszoba (4–6 m²) – alap / közép / prémium", "800 000–1 500 000 / 1 500 000–2 500 000 / 2 500 000–5 000 000+", "helyiségenként, 2026", "[5]"],
+        ["Konyha – egyedi bútor, közép / prémium", "500 000–1 500 000 / 1 500 000–3 500 000", "konyhánként, 2026", "[5]"],
+        ["Gránit vagy kvarc munkalap", "60 000–150 000", "folyóméterenként, 2026", "[5]"],
+        ["Burkolás – lerakás (munkadíj)", "5 000–10 000", "m²-enként, 2026", "[5]"],
+        ["Laminált padló – lerakás / anyag", "3 000–6 000 / 3 000–12 000", "m²-enként, 2026", "[5]"],
+        ["Parketta", "12 000–25 000", "m²-enként, 2025", "[6]"],
+        ["Festés – két réteg, festékkel", "2 500–5 000", "falfelület m²-enként, 2026", "[5]"],
+        ["Festés – teljes előkészítés és festés", "5 000–10 000", "falfelület m²-enként, 2026", "[5]"],
+        ["Bukó-nyíló ablak 150×150 cm, bontással és beépítéssel", "kb. 250 000", "ablakonként, családi ház, 2025 (ÉVOSZ)", "[4]"],
+        ["Erkélyajtó 90×210 cm", "kb. 460 000", "darabonként, családi ház, 2025 (ÉVOSZ)", "[4]"],
+        ["Radiátor", "kb. 90 000", "radiátoronként, 2025 (ÉVOSZ)", "[4]"]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Pourquoi les fourchettes au m² varient-elles autant d'une source à l'autre ?",
+        "en": "Why do per-m² ranges differ so much between sources?",
+        "de": "Warum unterscheiden sich die m²-Spannen so stark zwischen den Quellen?",
+        "hu": "Miért térnek el ennyire a négyzetméterárak forrásonként?"
+      },
+      "a": {
+        "fr": "Parce que le périmètre diffère : réseaux, cuisine, mobilier et conception sont inclus ou non, et l'état de départ n'est pas le même. Aucune source publiée ne décrit une méthode d'enquête [9].",
+        "en": "Because the scope differs: services, kitchen, furniture and design fees may or may not be included, and the starting condition varies. None of the published sources describes a survey method [9].",
+        "de": "Weil der Umfang verschieden ist: Haustechnik, Küche, Möbel und Planung sind enthalten oder nicht, und der Ausgangszustand variiert. Keine der veröffentlichten Quellen beschreibt eine Erhebungsmethode [9].",
+        "hu": "Mert eltér a tartalmuk: a gépészet, a konyha, a bútor és a tervezés vagy benne van, vagy nincs, és a kiinduló állapot is különböző. A publikált források egyike sem ismertet felmérési módszert [9]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Les prix vont-ils continuer à monter ?",
+        "en": "Will prices keep rising?",
+        "de": "Werden die Preise weiter steigen?",
+        "hu": "Tovább nőnek az árak?"
+      },
+      "a": {
+        "fr": "Les dernières données KSH montrent une hausse de 5,3 % sur un an au T2 2026 [1], et les entreprises anticipaient en avril 2026 de nouvelles hausses [3]. Aucune prévision officielle chiffrée n'est publiée pour les travaux de rénovation.",
+        "en": "The latest KSH data show a 5.3% year-on-year rise in Q2 2026 [1], and companies expected further increases in April 2026 [3]. No official numerical forecast is published for renovation work.",
+        "de": "Die jüngsten KSH-Daten zeigen für das Q2 2026 einen Anstieg um 5,3 % zum Vorjahr [1], und Unternehmen erwarteten im April 2026 weitere Erhöhungen [3]. Eine amtliche Prognose für Renovierungsarbeiten wird nicht veröffentlicht.",
+        "hu": "A legfrissebb KSH-adat szerint 2026 II. negyedévében 5,3% volt az éves áremelkedés [1], a vállalatok 2026 áprilisában további emelkedést vártak [3]. Felújítási munkákra hivatalos számszerű előrejelzés nem jelenik meg."
+      }
+    },
+    {
+      "q": {
+        "fr": "Faut-il une autorisation pour abattre une cloison ?",
+        "en": "Do I need a permit to remove a partition wall?",
+        "de": "Brauche ich eine Genehmigung, um eine Trennwand zu entfernen?",
+        "hu": "Kell engedély egy válaszfal kibontásához?"
+      },
+      "a": {
+        "fr": "Une cloison non porteuse relève en général de l'appartement. Si le mur est porteur ou touche une partie commune, l'accord de l'assemblée générale et un avis d'ingénieur structure sont nécessaires [11] ; dans un műemlék, une autorisation patrimoniale s'applique aussi aux modifications du plan intérieur [10].",
+        "en": "A non-load-bearing partition is usually part of the flat. If the wall is load-bearing or affects a common part, the general meeting's consent and a structural engineer's opinion are needed [11]; in a műemlék, a heritage permit also applies to changes to the interior layout [10].",
+        "de": "Eine nichttragende Trennwand gehört meist zur Wohnung. Ist die Wand tragend oder betrifft sie Gemeinschaftseigentum, sind die Zustimmung der Eigentümerversammlung und ein Statikgutachten nötig [11]; in einem műemlék gilt die Denkmalgenehmigung auch für Grundrissänderungen [10].",
+        "hu": "A nem teherhordó válaszfal általában a lakáshoz tartozik. Ha a fal teherhordó vagy közös tulajdont érint, a közgyűlés hozzájárulása és statikai szakvélemény kell [11]; műemléknél a belső alaprajz módosítása is örökségvédelmi engedélyköteles [10]."
+      }
+    }
+  ],
+  "sources": [
+    { "title": "KSH STADAT 1.2.1.25. – Az építőipar termelőiár-indexei, negyedévente", "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0061.html", "seen": "2026-10-26" },
+    { "title": "KSH Gyorstájékoztató – Építőipar, 2026. június (2026.08.13.)", "url": "https://www.ksh.hu/gyorstajekoztatok/epi/epi2606.html", "seen": "2026-10-26" },
+    { "title": "MGFÜ – Havi ágazati kitekintő: építőipar (2026.05.29.)", "url": "https://www.mgfu.hu/medias/1254/20260529_havi-agazati-kitekinto-epitoipar.pdf", "seen": "2026-10-26" },
+    { "title": "Világgazdaság – Ennyibe kerül most a lakásfelújítás és az építkezés (2025.04.01., ÉVOSZ-adatokkal)", "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/04/lakasfelujitas-epitkezes-ennyibe-kerul", "seen": "2026-10-26" },
+    { "title": "Teljeskivitelezes.hu – Mennyibe kerül egy lakásfelújítás 2026-ban?", "url": "https://www.teljeskivitelezes.hu/blog/mennyibe-kerul-a-felujitas", "seen": "2026-10-26" },
+    { "title": "ÁrBázis – Mennyibe kerül egy lakás teljes felújítása négyzetméterenként? (2025.11.29.)", "url": "https://arbazis.hu/mennyibe-kerul-egy-lakas-teljes-felujitasa-negyzetmeterenkent-utmutato-a-koltsegekhez/", "seen": "2026-10-26" },
+    { "title": "Economx – Már a felújítandó ingatlanok négyzetméterára is karcolja a milliót (2025.06.17.)", "url": "https://www.economx.hu/ingatlan/2025/06/17/felujitando-ingatlanok-arak-negyzetmeter-811111/", "seen": "2026-10-26" },
+    { "title": "Economx – ÉVOSZ Építőanyag-kereskedelmi Tagozat: 2025. első félév (2025.08.15.)", "url": "https://www.economx.hu/magyar-gazdasag/2025/08/15/evosz-epitoipar-otthonfelujtas-epitoanyag-kereskedelem-projektek-814464/", "seen": "2026-10-26" },
+    { "title": "Építcentrum – Teljes felújítás 2026: lakás és családi ház ára", "url": "https://epitcentrum.hu/teljes-lakasfelujitas/", "seen": "2026-10-26" },
+    { "title": "Kormányhivatalok – Tájékoztatás az örökségvédelmi engedélyezési eljárásról (műemlékvédelem)", "url": "https://kormanyhivatalok.hu/sites/default/files/2024-06/1.-tajekoztatas-az-oroksegvedelmi-engedelyezesi-eljarasrol-muemlekvedelem.pdf", "seen": "2026-10-26" },
+    { "title": "Világgazdaság – Lakásfelújítás társasházban: a közgyűlés hozzájárulása a 2021-es módosítás óta", "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2021/10/lakasfelujitas-kevesen-tudnak-rola-pedig-torvenybe-is-foglaltak", "seen": "2026-10-26" },
+    { "title": "Decs Nagyközség Önkormányzata – Lakossági tájékoztató a 281/2024. (IX. 30.) Korm. rendelet szerinti építésügyi szabályokról", "url": "https://decs.hu/wp-content/uploads/2025/01/Lakossagi-tajekoztato.pdf", "seen": "2026-10-26" },
+    { "title": "Privátbankár – Vaskos bírság a lakásfelújítás miatt: társasházi és helyi szabályok", "url": "https://privatbankar.hu/ingatlan/vaskos-birsag-a-lakasfelujitas-miatt-meg-lehet-uszni-valahogy-312361", "seen": "2026-10-26" }
+  ],
+  "legalNotice": true
+}

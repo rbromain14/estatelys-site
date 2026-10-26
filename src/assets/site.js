@@ -69,3 +69,59 @@
   }
   if (document.querySelector(".map")) window.addEventListener("load", initMaps);
 })();
+
+// resource tools: rental yield calculator and purchase/resale cost calculator
+(function () {
+  var nf = function (lang, d) { return new Intl.NumberFormat({ fr: "fr-FR", en: "en-GB", de: "de-DE", hu: "hu-HU" }[lang] || "en-GB", { maximumFractionDigits: d }); };
+  var lang = document.documentElement.lang || "fr";
+  var eur = function (v) { return nf(lang, 0).format(Math.round(v)) + " €"; };
+  var pct = function (v) { return isFinite(v) ? nf(lang, 2).format(v * 100) + (lang === "en" ? "%" : " %") : "–"; };
+  document.querySelectorAll("[data-sim]").forEach(function (f) {
+    var num = function (n) { var x = parseFloat(f.elements[n].value); return isFinite(x) ? x : 0; };
+    var out = function (k, v) { f.querySelector('[data-out="' + k + '"]').textContent = v; };
+    function run() {
+      var price = num("price"), invest = price * (1 + num("buyCosts") / 100) + num("works");
+      var months = Math.max(0, 12 - num("vacancy"));
+      var income = num("rent") * months;
+      var costs = num("charges") * 12 + income * num("mgmt") / 100 + num("other");
+      var netBefore = income - costs;
+      var tax = Math.max(0, netBefore) * num("tax") / 100;
+      out("invest", eur(invest));
+      out("gross", price ? pct(num("rent") * 12 / price) : "–");
+      out("net", invest ? pct(netBefore / invest) : "–");
+      out("netTax", invest ? pct((netBefore - tax) / invest) : "–");
+      out("cash", eur(netBefore - tax));
+    }
+    f.addEventListener("input", run); run();
+  });
+  document.querySelectorAll("[data-costs]").forEach(function (box) {
+    var c = JSON.parse(box.dataset.costs), L = box.dataset.lang || lang;
+    var lbl = {
+      duty: { fr: "Droit de mutation", en: "Transfer duty", de: "Grunderwerbsteuer", hu: "Vagyonszerzési illeték" },
+      lawyer: { fr: "Avocat (fourchette)", en: "Lawyer (range)", de: "Anwalt (Spanne)", hu: "Ügyvéd (sáv)" },
+      agency: { fr: "Agence à la revente (fourchette)", en: "Agency on resale (range)", de: "Makler beim Verkauf (Spanne)", hu: "Ingatlaniroda eladáskor (sáv)" },
+      gain: { fr: "Impôt sur la plus-value (personne physique)", en: "Capital gains tax (individual)", de: "Steuer auf Veräußerungsgewinn (Privatperson)", hu: "Árfolyamnyereség adója (magánszemély)" },
+      buy: { fr: "Total frais d'achat", en: "Total purchase costs", de: "Kaufnebenkosten gesamt", hu: "Vételi költségek összesen" }
+    };
+    var q = function (n) { var x = parseFloat(box.querySelector('[name="' + n + '"]').value); return isFinite(x) ? x : 0; };
+    var row = function (k, v) { return "<div><span>" + lbl[k][L] + "</span><b>" + v + "</b></div>"; };
+    var range = function (p, a) { return a ? eur(p * a[0] / 100) + " – " + eur(p * a[1] / 100) : "–"; };
+    function run() {
+      var p = q("p"), s = q("s"), y = q("y"), html = "";
+      var duty = p * c.transferDutyRate;
+      html += row("duty", eur(duty));
+      html += row("lawyer", range(p, c.lawyerFeePct));
+      if (c.lawyerFeePct) html += row("buy", eur(duty + p * c.lawyerFeePct[0] / 100) + " – " + eur(duty + p * c.lawyerFeePct[1] / 100));
+      if (s) {
+        html += row("agency", range(s, c.agencyFeePct));
+        if (c.pitRate && c.gainReduction) {
+          var red = 0; c.gainReduction.forEach(function (g) { if (y >= g.year) red = g.pct; });
+          var gain = Math.max(0, s - p - duty);
+          html += row("gain", eur(gain * (1 - red / 100) * c.pitRate));
+        }
+      }
+      box.querySelector("[data-costs-out]").innerHTML = html;
+    }
+    box.addEventListener("input", run); run();
+  });
+})();

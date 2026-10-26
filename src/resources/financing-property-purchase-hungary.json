@@ -1,0 +1,242 @@
+{
+  "slug": "financing-property-purchase-hungary",
+  "item": "finance",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Financer un achat immobilier en Hongrie",
+    "en": "Financing a property purchase in Hungary",
+    "de": "Immobilienkauf in Ungarn finanzieren",
+    "hu": "Ingatlanvásárlás finanszírozása Magyarországon"
+  },
+  "summary": {
+    "fr": "Crédit hongrois pour étrangers, règles de la MNB sur l'apport et la mensualité, taux 2026, prêt du pays d'origine, achat comptant et risque de change EUR/HUF.",
+    "en": "Hungarian mortgages for foreigners, MNB limits on loan-to-value and repayments, 2026 rates, home-country loans, cash purchases and EUR/HUF currency risk.",
+    "de": "Ungarische Kredite für Ausländer, MNB-Grenzen für Beleihung und Rate, Zinsen 2026, Kredite aus dem Heimatland, Barkauf und Währungsrisiko EUR/HUF.",
+    "hu": "Lakáshitel külföldieknek, az MNB hitelfedezeti és jövedelemarányos korlátai, 2026-os kamatok, hazai bank, készpénzes vásárlás és az euró–forint árfolyamkockázat."
+  },
+  "keyFacts": [
+    {
+      "fr": "Prêt en forints : jusqu'à 80 % de la valeur du bien, 90 % pour un premier achat ; prêt en euros : 50 % au maximum [1].",
+      "en": "Forint loan: up to 80% of the property value, 90% for first-time buyers; euro loan: 50% at most [1].",
+      "de": "Forintkredit: bis 80 % des Immobilienwerts, 90 % für Ersterwerber; Eurokredit: höchstens 50 % [1].",
+      "hu": "Forinthitel: az ingatlan értékének legfeljebb 80%-a, első lakásvásárlónál 90%; euróhitel: legfeljebb 50% [1]."
+    },
+    {
+      "fr": "Depuis le 1er janvier 2026, le seuil de revenu net mensuel des règles sur la mensualité (JTM) est de 800 000 HUF (600 000 auparavant) [1][2].",
+      "en": "Since 1 January 2026, the net monthly income threshold in the payment-to-income (JTM) rules is HUF 800,000 (previously 600,000) [1][2].",
+      "de": "Seit dem 1. Januar 2026 liegt die Einkommensschwelle der Regeln zur Schuldendienstquote (JTM) bei 800.000 HUF netto monatlich (zuvor 600.000) [1][2].",
+      "hu": "2026. január 1-jétől a jövedelemarányos törlesztőrészlet-mutató (JTM) jövedelemhatára havi nettó 800 000 Ft (korábban 600 000) [1][2]."
+    },
+    {
+      "fr": "Taux directeur de la MNB : 5,50 %, inchangé le 20 octobre 2026 [4].",
+      "en": "MNB base rate: 5.50%, unchanged on 20 October 2026 [4].",
+      "de": "MNB-Leitzins: 5,50 %, am 20. Oktober 2026 unverändert [4].",
+      "hu": "MNB-alapkamat: 5,50%, 2026. október 20-án változatlan [4]."
+    },
+    {
+      "fr": "Taux moyen des prêts immobiliers aux conditions du marché : 6,4 % au 2e trimestre 2026 (MNB) [3].",
+      "en": "Average rate on market-based housing loans: 6.4% in Q2 2026 (MNB) [3].",
+      "de": "Durchschnittszins marktüblicher Wohnungskredite: 6,4 % im 2. Quartal 2026 (MNB) [3].",
+      "hu": "A piaci lakáshitelek átlagos kamata 2026 második negyedévében 6,4% volt (MNB) [3]."
+    },
+    {
+      "fr": "Euro/forint : 366,73 HUF le 23 octobre 2026, après une fourchette de 349,53 à 369,18 entre juin et octobre 2026 (BCE) [5][6].",
+      "en": "Euro/forint: HUF 366.73 on 23 October 2026, after a range of 349.53 to 369.18 between June and October 2026 (ECB) [5][6].",
+      "de": "Euro/Forint: 366,73 HUF am 23. Oktober 2026, nach einer Spanne von 349,53 bis 369,18 zwischen Juni und Oktober 2026 (EZB) [5][6].",
+      "hu": "Euró/forint: 2026. október 23-án 366,73 Ft, miután 2026 júniusa és októbere között 349,53 és 369,18 között mozgott (EKB) [5][6]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Les trois manières de financer",
+        "en": "Three ways to finance",
+        "de": "Drei Wege der Finanzierung",
+        "hu": "A finanszírozás három útja"
+      },
+      "body": {
+        "fr": "Un acheteur étranger dispose en pratique de trois options : un **crédit immobilier auprès d'une banque hongroise**, garanti par une hypothèque sur l'appartement ; un **prêt obtenu dans son pays d'origine**, généralement garanti par d'autres actifs ; ou un **achat comptant**, parfois combiné à l'un des deux.\n\nLe choix dépend surtout de trois éléments : la résidence et les revenus de l'acheteur (que la banque hongroise doit pouvoir vérifier), la devise de ses revenus et de son épargne, et le délai dont il dispose. Un financement bancaire ajoute des étapes au calendrier de l'achat : évaluation du bien, offre de prêt, inscription de l'hypothèque, puis versement des fonds au vendeur.",
+        "en": "In practice, a foreign buyer has three options: a **mortgage from a Hungarian bank**, secured on the apartment; a **loan from their home country**, usually secured on other assets; or a **cash purchase**, sometimes combined with one of the two.\n\nThe choice mainly depends on three things: the buyer's residence and income (which a Hungarian bank must be able to verify), the currency of their income and savings, and the time available. Bank financing adds steps to the purchase timeline: valuation of the property, loan offer, mortgage registration, then payment of the funds to the seller.",
+        "de": "Ausländische Käufer haben in der Praxis drei Möglichkeiten: einen **Immobilienkredit einer ungarischen Bank**, besichert durch eine Hypothek auf die Wohnung; einen **Kredit im Heimatland**, meist mit anderen Sicherheiten; oder einen **Barkauf**, manchmal kombiniert mit einer der beiden Varianten.\n\nDie Wahl hängt vor allem von drei Faktoren ab: Wohnsitz und Einkommen des Käufers (die eine ungarische Bank prüfen können muss), Währung von Einkommen und Ersparnissen sowie der verfügbaren Zeit. Eine Bankfinanzierung verlängert den Ablauf: Bewertung der Immobilie, Kreditangebot, Eintragung der Hypothek und schließlich Auszahlung an den Verkäufer.",
+        "hu": "Külföldi vevőnek a gyakorlatban három lehetősége van: **magyar banktól felvett lakáshitel** a lakásra bejegyzett jelzálogjoggal; **a hazájában felvett hitel**, rendszerint más fedezettel; vagy **készpénzes vásárlás**, esetleg a kettő valamelyikével kombinálva.\n\nA választás elsősorban három tényezőn múlik: a vevő lakóhelyén és jövedelmén (amelyet a magyar banknak ellenőriznie kell), jövedelmének és megtakarításának devizanemén, valamint a rendelkezésre álló időn. A banki finanszírozás további lépéseket jelent: értékbecslés, hitelajánlat, a jelzálogjog bejegyzése, majd folyósítás az eladónak."
+      }
+    },
+    {
+      "h": {
+        "fr": "Crédit hongrois : ce que demandent les banques",
+        "en": "Hungarian mortgages: what banks ask for",
+        "de": "Ungarischer Kredit: was Banken verlangen",
+        "hu": "Magyar lakáshitel: mit kérnek a bankok"
+      },
+      "body": {
+        "fr": "Chaque banque fixe sa propre politique, mais les conditions de base pour un emprunteur étranger sont les suivantes [7] :\n\n- un **titre de séjour ou d'établissement** pour les ressortissants hors UE ; sans lui, la demande n'est pas examinée ;\n- une **adresse permanente en Hongrie** ;\n- un **numéro d'identification fiscale hongrois** ;\n- un **revenu accepté par la banque**, dont le montant requis dépend du prêt, des autres charges et de la situation personnelle.\n\nUn non-résident sans adresse ni revenu en Hongrie a donc peu de chances d'obtenir un crédit hongrois classique. La possibilité de faire valoir des revenus perçus à l'étranger, et dans quelle devise, relève de chaque banque ; il faut la vérifier avant de signer un contrat avec foglaló.\n\nLe crédit ajoute des frais : évaluation du bien, inscription de l'hypothèque au registre foncier (20 000 HUF), et le cas échéant acte notarié et frais de dossier. Ces montants figurent dans la ressource sur les frais.",
+        "en": "Each bank sets its own policy, but the basic conditions for a foreign borrower are [7]:\n\n- a **residence or settlement permit** for non-EU nationals; without one, the application is not considered;\n- a **permanent address in Hungary**;\n- a **Hungarian tax identification number**;\n- **income the bank accepts**, with the required amount depending on the loan, other commitments and personal circumstances.\n\nA non-resident with no address or income in Hungary is therefore unlikely to obtain a standard Hungarian mortgage. Whether income earned abroad counts, and in which currency, is up to each bank, and should be checked before signing a contract with a foglaló.\n\nA loan adds costs: property valuation, mortgage registration at the land registry (HUF 20,000), and where applicable a notarial deed and arrangement fees. These amounts are set out in the resource on costs.",
+        "de": "Jede Bank hat eigene Richtlinien, die Grundvoraussetzungen für ausländische Kreditnehmer sind jedoch [7]:\n\n- eine **Aufenthalts- oder Niederlassungserlaubnis** für Nicht-EU-Bürger; ohne sie wird der Antrag nicht geprüft;\n- eine **ständige Adresse in Ungarn**;\n- eine **ungarische Steuer-Identifikationsnummer**;\n- ein **von der Bank akzeptiertes Einkommen**, dessen erforderliche Höhe vom Kredit, anderen Verpflichtungen und der persönlichen Lage abhängt.\n\nEin Nichtansässiger ohne Adresse und Einkommen in Ungarn erhält daher kaum einen klassischen ungarischen Immobilienkredit. Ob im Ausland erzieltes Einkommen anerkannt wird und in welcher Währung, entscheidet jede Bank selbst; das sollte vor einem Vertrag mit foglaló geklärt sein.\n\nEin Kredit verursacht zusätzliche Kosten: Bewertung, Eintragung der Hypothek im Grundbuch (20.000 HUF) sowie gegebenenfalls Notarurkunde und Bearbeitungsgebühren. Die Beträge stehen in der Ressource zu den Kosten.",
+        "hu": "A bankok saját hitelezési politikát alkalmaznak, de a külföldi adós alapfeltételei a következők [7]:\n\n- nem uniós állampolgárnál **tartózkodási vagy letelepedési engedély**; enélkül a kérelmet nem bírálják el;\n- **állandó magyarországi lakcím**;\n- **magyar adóazonosító jel**;\n- **a bank által elfogadott jövedelem**, amelynek szükséges összege a hitel nagyságától, az egyéb terhektől és a személyes helyzettől függ.\n\nA Magyarországon lakcímmel és jövedelemmel nem rendelkező külföldi így aligha kap hagyományos magyar lakáshitelt. Hogy a külföldön szerzett jövedelmet és milyen devizában fogadják el, azt bankonként kell tisztázni, még a foglalós szerződés aláírása előtt.\n\nA hitel további költséggel jár: értékbecslés, a jelzálogjog földhivatali bejegyzése (20 000 Ft), adott esetben közjegyzői okirat és folyósítási díj. Az összegeket a költségekről szóló anyag tartalmazza."
+      }
+    },
+    {
+      "h": {
+        "fr": "Les règles de la MNB : apport et mensualité",
+        "en": "MNB rules: loan-to-value and payment-to-income",
+        "de": "MNB-Regeln: Beleihungsquote und Schuldendienstquote",
+        "hu": "Az MNB adósságfék-szabályai: HFM és JTM"
+      },
+      "body": {
+        "fr": "La banque centrale (MNB) impose deux plafonds à tous les crédits immobiliers accordés en Hongrie [1].\n\n**Le ratio prêt/valeur (HFM)** limite le prêt à un pourcentage de la valeur du bien :\n\n- prêt en forints : 80 % ; 90 % pour un primo-accédant, c'est-à-dire une personne qui ne possède pas et n'a jamais possédé au moins 50 % d'un logement ;\n- prêt en euros : 50 % ;\n- prêt dans une autre devise : 35 %.\n\nLe plafond de 90 % existe depuis le 1er janvier 2024. La limite d'âge a été supprimée le 1er septembre 2025, et depuis le 1er décembre 2025 la qualité de primo-accédant est vérifiée uniquement à partir du registre foncier [1][2]. Chaque co-emprunteur doit remplir la condition.\n\n**Le ratio mensualité/revenu (JTM)** limite la part du revenu net mensuel consacrée aux remboursements. Pour un prêt en forints d'au moins 5 ans, il dépend du revenu et de la durée de fixation du taux (voir le tableau). Le seuil de revenu est passé de 600 000 à 800 000 HUF le 1er janvier 2026 [1][2]. Les limites sont plus basses pour les prêts en devises : pour les prêts de moins de 5 ans, le tableau de la MNB indique 25 % ou 30 % pour l'euro selon le revenu, contre 50 % ou 60 % pour le forint ; pour les prêts plus longs en devises, la MNB précise seulement que les limites sont plus basses [1]. Les petits prêts de moins de 550 000 HUF ne sont pas concernés [1].\n\nCes règles s'appliquent aux banques hongroises ; une banque étrangère applique celles de son propre pays.",
+        "en": "The central bank (MNB) sets two caps on every housing loan made in Hungary [1].\n\n**Loan-to-value (HFM)** limits the loan to a share of the property value:\n\n- forint loan: 80%; 90% for a first-time buyer, meaning someone who does not own and has never owned at least 50% of a home;\n- euro loan: 50%;\n- loan in another currency: 35%.\n\nThe 90% limit has existed since 1 January 2024. The age limit was removed on 1 September 2025, and since 1 December 2025 first-time-buyer status is checked solely against land registry data [1][2]. Every co-borrower must meet the condition.\n\n**Payment-to-income (JTM)** limits the share of net monthly income that can go to repayments. For forint loans of at least 5 years, it depends on income and on how long the rate is fixed (see the table). The income threshold rose from HUF 600,000 to HUF 800,000 on 1 January 2026 [1][2]. Limits are lower for foreign-currency loans: for loans under 5 years, the MNB table shows 25% or 30% for euro loans depending on income, against 50% or 60% for forint loans; for longer foreign-currency loans, the MNB only states that lower limits apply [1]. Small loans below HUF 550,000 are outside the rules [1].\n\nThese rules apply to Hungarian banks; a foreign bank applies those of its own country.",
+        "de": "Die Zentralbank (MNB) setzt jedem in Ungarn vergebenen Wohnungskredit zwei Obergrenzen [1].\n\n**Die Beleihungsquote (HFM)** begrenzt den Kredit auf einen Anteil des Immobilienwerts:\n\n- Forintkredit: 80 %; 90 % für Ersterwerber, also Personen, die keine Wohnung zu mindestens 50 % besitzen oder besessen haben;\n- Eurokredit: 50 %;\n- Kredit in einer anderen Währung: 35 %.\n\nDie 90-%-Grenze gilt seit dem 1. Januar 2024. Die Altersgrenze entfiel am 1. September 2025, und seit dem 1. Dezember 2025 wird der Ersterwerberstatus ausschließlich anhand der Grundbuchdaten geprüft [1][2]. Jeder Mitkreditnehmer muss die Bedingung erfüllen.\n\n**Die Schuldendienstquote (JTM)** begrenzt den Anteil des monatlichen Nettoeinkommens, der für Raten verwendet werden darf. Bei Forintkrediten ab 5 Jahren Laufzeit hängt sie vom Einkommen und von der Zinsbindung ab (siehe Tabelle). Die Einkommensschwelle stieg am 1. Januar 2026 von 600.000 auf 800.000 HUF [1][2]. Für Fremdwährungskredite gelten niedrigere Grenzen: Für Laufzeiten unter 5 Jahren nennt die MNB-Tabelle 25 % oder 30 % für Eurokredite je nach Einkommen, gegenüber 50 % oder 60 % für Forintkredite; für längere Fremdwährungskredite heißt es nur, dass niedrigere Grenzen gelten [1]. Kleinkredite unter 550.000 HUF sind ausgenommen [1].\n\nDiese Regeln gelten für ungarische Banken; eine ausländische Bank wendet die Vorschriften ihres Landes an.",
+        "hu": "A jegybank (MNB) minden Magyarországon nyújtott lakáshitelre két korlátot ír elő [1].\n\n**A hitelfedezeti mutató (HFM)** az ingatlan értékének arányában korlátozza a hitelt:\n\n- forinthitel: 80%; első lakásvásárlónál 90% – vagyis annál, akinek nincs és nem is volt legalább 50%-os tulajdoni hányada lakásban;\n- euróhitel: 50%;\n- egyéb devizahitel: 35%.\n\nA 90%-os korlát 2024. január 1-je óta érvényes. Az életkori feltételt 2025. szeptember 1-jén eltörölték, 2025. december 1-jétől pedig az első lakásvásárlói státuszt kizárólag az ingatlan-nyilvántartás adatai alapján vizsgálják [1][2]. Minden adóstársnak meg kell felelnie a feltételnek.\n\n**A jövedelemarányos törlesztőrészlet-mutató (JTM)** azt korlátozza, a havi nettó jövedelem mekkora része mehet törlesztésre. Legalább 5 éves forinthiteleknél a jövedelemtől és a kamatperiódus hosszától függ (lásd a táblázatot). A jövedelemhatár 2026. január 1-jén 600 000 Ft-ról 800 000 Ft-ra emelkedett [1][2]. Devizahitelnél alacsonyabbak a korlátok: 5 évnél rövidebb futamidőnél az MNB táblázata euróhitelre jövedelemtől függően 25% vagy 30%, forinthitelre 50% vagy 60% korlátot ad meg; hosszabb devizahiteleknél az MNB csak annyit rögzít, hogy alacsonyabb korlátok érvényesek [1]. Az 550 000 Ft alatti kis összegű hitelekre a szabály nem vonatkozik [1].\n\nEzek a szabályok a magyar bankokra vonatkoznak; külföldi bank a saját országa előírásait alkalmazza."
+      }
+    },
+    {
+      "h": {
+        "fr": "Taux d'intérêt en 2026 et le programme Otthon Start",
+        "en": "Interest rates in 2026 and the Otthon Start programme",
+        "de": "Zinsen 2026 und das Programm Otthon Start",
+        "hu": "Kamatok 2026-ban és az Otthon Start program"
+      },
+      "body": {
+        "fr": "Le taux directeur de la MNB est de 5,50 %. Il a été abaissé de 0,25 point en août 2026 et maintenu le 20 octobre 2026 [4]. Selon la MNB, le taux moyen des prêts immobiliers aux conditions du marché était de 6,4 % au 2e trimestre 2026, sans changement sur le trimestre [3]. Le taux moyen payé par l'ensemble des nouveaux emprunteurs est tombé à 3,6 % avec le lancement du programme subventionné Otthon Start [3]. Le taux proposé à un emprunteur dépend de la banque, de la durée de fixation, du revenu vérifié et du montant.\n\n**Otthon Start** est un prêt à taux fixe de 3 % lancé en septembre 2025 [8]. En août 2026, il représentait 68,5 % des montants de crédit immobilier accordés [10]. Ses principales conditions [8][9] :\n\n- emprunteurs : citoyens hongrois, personnes bénéficiant de la libre circulation qui séjournent en Hongrie depuis plus de trois mois, titulaires d'un droit de séjour de longue durée ;\n- ne pas avoir possédé de logement en zone urbanisée au cours des 10 dernières années (avec exceptions) ;\n- au moins 2 ans d'affiliation continue à la sécurité sociale hongroise ;\n- prêt de 50 millions HUF au maximum ; appartement d'une valeur de 100 millions HUF au plus et d'un prix de 1,5 million HUF par m² au plus ;\n- apport de 10 % au minimum, les banques pouvant exiger davantage.\n\nUn ressortissant de l'UE qui vit et travaille en Hongrie peut donc y être éligible ; un investisseur non résident ne l'est pas.",
+        "en": "The MNB base rate is 5.50%. It was cut by 0.25 points in August 2026 and held on 20 October 2026 [4]. According to the MNB, the average rate on market-based housing loans was 6.4% in Q2 2026, unchanged over the quarter [3]. The average rate paid across all new borrowers fell to 3.6% when the subsidised Otthon Start programme was launched [3]. The rate offered to an individual borrower depends on the bank, the fixation period, verified income and the loan amount.\n\n**Otthon Start** is a 3% fixed-rate loan launched in September 2025 [8]. In August 2026 it accounted for 68.5% of new housing loan volume [10]. Its main conditions [8][9]:\n\n- borrowers: Hungarian citizens, people with free-movement rights who have stayed in Hungary for more than three months, and holders of long-term residence rights;\n- no ownership of a home in a built-up area in the previous 10 years (with exceptions);\n- at least 2 years of continuous Hungarian social security coverage;\n- loan of at most HUF 50 million; apartment worth at most HUF 100 million and priced at most HUF 1.5 million per m²;\n- down payment of at least 10%, though banks may ask for more.\n\nAn EU national who lives and works in Hungary can therefore qualify; a non-resident investor cannot.",
+        "de": "Der MNB-Leitzins beträgt 5,50 %. Er wurde im August 2026 um 0,25 Punkte gesenkt und am 20. Oktober 2026 beibehalten [4]. Laut MNB lag der Durchschnittszins marktüblicher Wohnungskredite im 2. Quartal 2026 unverändert bei 6,4 % [3]. Der durchschnittliche Zins aller neuen Kreditnehmer sank mit dem Start des geförderten Programms Otthon Start auf 3,6 % [3]. Welcher Zins einem Kreditnehmer angeboten wird, hängt von Bank, Zinsbindung, nachgewiesenem Einkommen und Kreditbetrag ab.\n\n**Otthon Start** ist ein Kredit mit festem Zins von 3 %, eingeführt im September 2025 [8]. Im August 2026 entfielen auf ihn 68,5 % des neu vergebenen Wohnungskreditvolumens [10]. Die wichtigsten Bedingungen [8][9]:\n\n- Kreditnehmer: ungarische Staatsbürger, Freizügigkeitsberechtigte mit mehr als drei Monaten Aufenthalt in Ungarn sowie Inhaber eines Daueraufenthaltsrechts;\n- kein Wohneigentum in bebautem Gebiet in den letzten 10 Jahren (mit Ausnahmen);\n- mindestens 2 Jahre durchgehende ungarische Sozialversicherung;\n- Kredit höchstens 50 Millionen HUF; Wohnung im Wert von höchstens 100 Millionen HUF und zu höchstens 1,5 Millionen HUF pro m²;\n- Eigenkapital mindestens 10 %, Banken können mehr verlangen.\n\nEU-Bürger, die in Ungarn leben und arbeiten, können also berechtigt sein; nichtansässige Investoren nicht.",
+        "hu": "Az MNB alapkamata 5,50%. 2026 augusztusában 0,25 százalékponttal csökkent, 2026. október 20-án változatlan maradt [4]. Az MNB szerint a piaci lakáshitelek átlagos kamata 2026 második negyedévében változatlanul 6,4% volt [3]. Az összes új adós által fizetett átlagkamat az Otthon Start bevezetésével 3,6%-ra csökkent [3]. Az egyedi ajánlat a banktól, a kamatperiódustól, az igazolt jövedelemtől és a hitelösszegtől függ.\n\nAz **Otthon Start** 2025 szeptemberében indult, fix 3%-os kamatozású hitel [8]. 2026 augusztusában az új lakáshitel-volumen 68,5%-át tette ki [10]. Főbb feltételei [8][9]:\n\n- igénylők: magyar állampolgárok, a szabad mozgás jogával rendelkező, három hónapnál hosszabb ideje Magyarországon tartózkodók, valamint huzamos tartózkodási joggal rendelkezők;\n- az elmúlt 10 évben ne legyen belterületi lakástulajdona (kivételekkel);\n- legalább 2 év folyamatos magyar társadalombiztosítási jogviszony;\n- legfeljebb 50 millió Ft hitel; legfeljebb 100 millió Ft értékű lakás, legfeljebb bruttó 1,5 millió Ft/m² vételárral;\n- legalább 10% önerő, a bankok ennél többet is kérhetnek.\n\nA Magyarországon élő és dolgozó uniós állampolgár tehát jogosult lehet, a nem rezidens befektető viszont nem."
+      }
+    },
+    {
+      "h": {
+        "fr": "Prêt dans le pays d'origine et achat comptant",
+        "en": "Home-country loans and cash purchases",
+        "de": "Kredit im Heimatland und Barkauf",
+        "hu": "Hitel a vevő hazájában és készpénzes vásárlás"
+      },
+      "body": {
+        "fr": "**Prêt dans le pays d'origine.** Une banque française, allemande ou britannique prend rarement une hypothèque sur un bien situé en Hongrie. Les solutions habituelles sont un prêt garanti par un bien ou un portefeuille détenu dans le pays d'origine, ou un prêt personnel. Les conditions (taux, durée, garanties, éventuelle déductibilité fiscale) relèvent du droit de ce pays et de chaque banque. L'avantage est de rester dans la devise de ses revenus ; l'inconvénient, de mobiliser d'autres actifs en garantie.\n\n**Achat comptant.** C'est la voie la plus simple en Hongrie : pas d'évaluation bancaire, pas d'hypothèque à inscrire, un calendrier plus court. Les fonds sont en général virés sur le compte séquestre de l'avocat, qui les libère selon le contrat. Avocats et banques doivent appliquer les règles contre le blanchiment : l'acheteur doit pouvoir justifier l'origine des fonds (relevés, acte de vente d'un autre bien, etc.). Prévoir les pièces à l'avance évite de retarder la signature.\n\nUn achat comptant peut être refinancé plus tard, mais les conditions d'un prêt hongrois (résidence, revenus, plafonds de la MNB) s'appliqueront alors de la même manière.",
+        "en": "**Home-country loan.** A French, German or British bank rarely takes a mortgage on property located in Hungary. The usual solutions are a loan secured on property or investments held in the home country, or a personal loan. Terms (rate, duration, security, any tax deductibility) depend on that country's law and on each bank. The advantage is staying in the currency of your income; the drawback is tying up other assets as security.\n\n**Cash purchase.** This is the simplest route in Hungary: no bank valuation, no mortgage to register, and a shorter timeline. Funds are usually transferred to the lawyer's escrow account and released as the contract provides. Lawyers and banks must apply anti-money-laundering rules, so the buyer must be able to show where the funds come from (statements, the sale deed of another property, and so on). Preparing these documents in advance avoids delaying the signing.\n\nA cash purchase can be refinanced later, but the conditions for a Hungarian loan (residence, income, MNB caps) will apply in the same way.",
+        "de": "**Kredit im Heimatland.** Eine französische, deutsche oder britische Bank nimmt selten eine Hypothek auf eine Immobilie in Ungarn. Üblich sind ein Kredit mit Sicherheiten im Heimatland, etwa einer Immobilie oder einem Depot, oder ein Privatkredit. Die Bedingungen (Zins, Laufzeit, Sicherheiten, mögliche steuerliche Absetzbarkeit) richten sich nach dem Recht dieses Landes und der jeweiligen Bank. Vorteil: Man bleibt in der Währung des eigenen Einkommens; Nachteil: andere Vermögenswerte werden als Sicherheit gebunden.\n\n**Barkauf.** In Ungarn der einfachste Weg: keine Bankbewertung, keine Hypothekeneintragung, kürzerer Ablauf. Das Geld wird meist auf das Anderkonto des Anwalts überwiesen und gemäß Vertrag freigegeben. Anwälte und Banken müssen die Geldwäschevorschriften anwenden; der Käufer muss die Herkunft der Mittel belegen können (Kontoauszüge, Kaufvertrag über eine andere Immobilie usw.). Wer die Unterlagen früh vorbereitet, vermeidet Verzögerungen bei der Unterzeichnung.\n\nEin Barkauf kann später refinanziert werden; dann gelten dieselben Bedingungen für ungarische Kredite (Wohnsitz, Einkommen, MNB-Grenzen).",
+        "hu": "**Hitel a vevő hazájában.** Francia, német vagy brit bank ritkán fogad el fedezetként magyarországi ingatlant. A szokásos megoldás a hazai ingatlannal vagy értékpapírral fedezett hitel, illetve a személyi kölcsön. A feltételek (kamat, futamidő, fedezet, esetleges adókedvezmény) az adott ország jogától és a banktól függenek. Előnye, hogy a hitel a jövedelem devizanemében marad; hátránya, hogy más vagyontárgyat köt le fedezetként.\n\n**Készpénzes vásárlás.** Magyarországon ez a legegyszerűbb: nincs banki értékbecslés, nincs jelzálog-bejegyzés, rövidebb az átfutás. A vételárat általában ügyvédi letéti számlára utalják, ahonnan a szerződés szerint kerül kifizetésre. Az ügyvédeknek és a bankoknak alkalmazniuk kell a pénzmosás elleni szabályokat, ezért a vevőnek igazolnia kell a pénz eredetét (bankszámlakivonat, egy másik ingatlan adásvételi szerződése stb.). Ha ezeket előre összekészíti, nem csúszik az aláírás.\n\nA készpénzes vásárlás később refinanszírozható, de ekkor ugyanazok a magyar hitelfeltételek (lakóhely, jövedelem, MNB-korlátok) érvényesek."
+      }
+    },
+    {
+      "h": {
+        "fr": "Le risque de change euro/forint",
+        "en": "Euro/forint currency risk",
+        "de": "Das Währungsrisiko Euro/Forint",
+        "hu": "Az euró–forint árfolyamkockázat"
+      },
+      "body": {
+        "fr": "Le forint flotte librement face à l'euro. Selon la BCE, le cours de référence était de 366,73 HUF pour 1 euro le 23 octobre 2026 [5]. Entre le 16 juin 2026 (349,53) et le 2 octobre 2026 (369,18), il a varié d'environ 5,6 % en moins de quatre mois [5][6].\n\nPour un acheteur dont l'épargne est en euros, ce mouvement a un effet direct. Un appartement de 100 millions HUF coûtait environ 286 100 euros au cours du 16 juin et environ 270 900 euros au cours du 2 octobre, soit un écart d'environ 15 200 euros pour le même prix en forints.\n\nPoints à considérer :\n\n- **Entre la signature et le paiement**, plusieurs semaines peuvent s'écouler. L'acheteur peut convertir les fonds dès la signature, ou utiliser un contrat de change à terme proposé par sa banque.\n- **Prêt en forints avec des revenus en euros** : les mensualités sont fixes en forints, mais leur coût en euros varie avec le cours.\n- **Prêt en euros auprès d'une banque hongroise** : le risque de change disparaît pour un emprunteur payé en euros, mais les plafonds de la MNB sont plus stricts (50 % de la valeur au maximum) [1].\n- **À la revente**, le prix est encaissé en forints ; le résultat en euros dépend du cours à ce moment-là, en plus de l'évolution du marché.",
+        "en": "The forint floats freely against the euro. According to the ECB, the reference rate was HUF 366.73 per euro on 23 October 2026 [5]. Between 16 June 2026 (349.53) and 2 October 2026 (369.18), it moved by about 5.6% in under four months [5][6].\n\nFor a buyer whose savings are in euros, this has a direct effect. An apartment priced at HUF 100 million cost about EUR 286,100 at the 16 June rate and about EUR 270,900 at the 2 October rate: a gap of about EUR 15,200 for the same forint price.\n\nPoints to consider:\n\n- **Between signing and payment**, several weeks can pass. The buyer can convert the funds at signing, or use a forward exchange contract offered by their bank.\n- **Forint loan with euro income**: repayments are fixed in forints, but their cost in euros changes with the rate.\n- **Euro loan from a Hungarian bank**: the currency risk disappears for a borrower paid in euros, but the MNB caps are stricter (at most 50% of the value) [1].\n- **On resale**, the price is received in forints; the result in euros depends on the rate at that time, on top of market movements.",
+        "de": "Der Forint schwankt frei gegenüber dem Euro. Laut EZB lag der Referenzkurs am 23. Oktober 2026 bei 366,73 HUF je Euro [5]. Zwischen dem 16. Juni 2026 (349,53) und dem 2. Oktober 2026 (369,18) veränderte er sich in weniger als vier Monaten um rund 5,6 % [5][6].\n\nFür Käufer mit Ersparnissen in Euro hat das direkte Folgen. Eine Wohnung für 100 Millionen HUF kostete zum Kurs vom 16. Juni rund 286.100 Euro, zum Kurs vom 2. Oktober rund 270.900 Euro: ein Unterschied von etwa 15.200 Euro bei gleichem Forintpreis.\n\nZu bedenken:\n\n- **Zwischen Unterzeichnung und Zahlung** können Wochen vergehen. Der Käufer kann die Mittel schon bei Unterzeichnung umtauschen oder ein Devisentermingeschäft seiner Bank nutzen.\n- **Forintkredit bei Einkommen in Euro**: Die Raten sind in Forint fest, ihr Wert in Euro schwankt mit dem Kurs.\n- **Eurokredit einer ungarischen Bank**: Für Kreditnehmer mit Euro-Einkommen entfällt das Währungsrisiko, doch die MNB-Grenzen sind strenger (höchstens 50 % des Werts) [1].\n- **Beim Weiterverkauf** wird der Preis in Forint erzielt; das Ergebnis in Euro hängt zusätzlich zur Marktentwicklung vom dann geltenden Kurs ab.",
+        "hu": "A forint szabadon lebeg az euróval szemben. Az EKB szerint a referencia-árfolyam 2026. október 23-án 366,73 Ft/euró volt [5]. 2026. június 16. (349,53) és október 2. (369,18) között kevesebb mint négy hónap alatt mintegy 5,6%-ot mozdult [5][6].\n\nEurós megtakarítással rendelkező vevőnél ennek közvetlen hatása van. Egy 100 millió forintos lakás a június 16-i árfolyamon mintegy 286 100 euróba, az október 2-in mintegy 270 900 euróba került: ugyanazért a forintárért nagyjából 15 200 euró a különbség.\n\nMérlegelendő szempontok:\n\n- **Az aláírás és a fizetés között** hetek telhetnek el. A vevő már aláíráskor átválthatja a pénzt, vagy a bankja által kínált határidős devizaügyletet használhat.\n- **Forinthitel eurós jövedelemmel**: a törlesztőrészlet forintban rögzített, de euróban kifejezett terhe az árfolyammal változik.\n- **Euróhitel magyar banktól**: euróban kereső adósnál megszűnik az árfolyamkockázat, de az MNB-korlátok szigorúbbak (legfeljebb az érték 50%-a) [1].\n- **Eladáskor** a vételár forintban folyik be; az euróban mért eredmény a piaci változás mellett az akkori árfolyamtól is függ."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Plafond JTM pour les prêts en forints d'au moins 5 ans, depuis le 1er janvier 2026 (part maximale du revenu net mensuel)",
+      "en": "JTM cap for forint loans of 5 years or more, since 1 January 2026 (maximum share of net monthly income)",
+      "de": "JTM-Obergrenze für Forintkredite ab 5 Jahren, seit 1. Januar 2026 (Höchstanteil am monatlichen Nettoeinkommen)",
+      "hu": "JTM-korlát legalább 5 éves forinthiteleknél 2026. január 1-jétől (a havi nettó jövedelem legfeljebb ennyi része)"
+    },
+    "head": {
+      "fr": ["Revenu net mensuel", "Taux fixé moins de 5 ans", "Taux fixé 5 à 10 ans", "Taux fixé 10 ans ou plus", "Source"],
+      "en": ["Net monthly income", "Rate fixed under 5 years", "Rate fixed 5–10 years", "Rate fixed 10+ years", "Source"],
+      "de": ["Monatliches Nettoeinkommen", "Zinsbindung unter 5 Jahren", "Zinsbindung 5–10 Jahre", "Zinsbindung ab 10 Jahren", "Quelle"],
+      "hu": ["Havi nettó jövedelem", "5 évnél rövidebb kamatperiódus", "5–10 éves kamatperiódus", "Legalább 10 éves / végig fix", "Forrás"]
+    },
+    "rows": {
+      "fr": [
+        ["Moins de 800 000 HUF", "25 %", "35 %", "50 %", "[1][2]"],
+        ["Moins de 800 000 HUF, objet « vert »", "25 %", "35 %", "60 %", "[1][2]"],
+        ["800 000 HUF ou plus", "30 %", "40 %", "60 %", "[1][2]"]
+      ],
+      "en": [
+        ["Below HUF 800,000", "25%", "35%", "50%", "[1][2]"],
+        ["Below HUF 800,000, green purpose", "25%", "35%", "60%", "[1][2]"],
+        ["HUF 800,000 or more", "30%", "40%", "60%", "[1][2]"]
+      ],
+      "de": [
+        ["Unter 800.000 HUF", "25 %", "35 %", "50 %", "[1][2]"],
+        ["Unter 800.000 HUF, grüner Zweck", "25 %", "35 %", "60 %", "[1][2]"],
+        ["800.000 HUF oder mehr", "30 %", "40 %", "60 %", "[1][2]"]
+      ],
+      "hu": [
+        ["800 000 Ft alatt", "25%", "35%", "50%", "[1][2]"],
+        ["800 000 Ft alatt, zöld hitelcél", "25%", "35%", "60%", "[1][2]"],
+        ["800 000 Ft vagy több", "30%", "40%", "60%", "[1][2]"]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Un non-résident peut-il obtenir un crédit immobilier en Hongrie ?",
+        "en": "Can a non-resident get a mortgage in Hungary?",
+        "de": "Bekommt ein Nichtansässiger in Ungarn einen Immobilienkredit?",
+        "hu": "Kaphat-e lakáshitelt Magyarországon nem rezidens vevő?"
+      },
+      "a": {
+        "fr": "Difficilement. Les banques demandent en principe une adresse permanente en Hongrie, un numéro fiscal hongrois, un revenu qu'elles acceptent et, pour les ressortissants hors UE, un titre de séjour [7].",
+        "en": "With difficulty. Banks generally ask for a permanent Hungarian address, a Hungarian tax number, income they accept and, for non-EU nationals, a residence permit [7].",
+        "de": "Nur schwer. Banken verlangen in der Regel eine ständige ungarische Adresse, eine ungarische Steuernummer, ein anerkanntes Einkommen und für Nicht-EU-Bürger eine Aufenthaltserlaubnis [7].",
+        "hu": "Nehezen. A bankok általában állandó magyarországi lakcímet, magyar adóazonosítót, elfogadott jövedelmet, nem uniós állampolgártól pedig tartózkodási engedélyt kérnek [7]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel apport faut-il prévoir ?",
+        "en": "How much of a down payment is needed?",
+        "de": "Wie viel Eigenkapital ist nötig?",
+        "hu": "Mekkora önerő kell?"
+      },
+      "a": {
+        "fr": "Au moins 20 % pour un prêt en forints (10 % pour un primo-accédant) et au moins 50 % pour un prêt en euros, auxquels s'ajoutent les frais d'achat [1].",
+        "en": "At least 20% for a forint loan (10% for a first-time buyer) and at least 50% for a euro loan, with purchase costs on top [1].",
+        "de": "Mindestens 20 % bei einem Forintkredit (10 % für Ersterwerber) und mindestens 50 % bei einem Eurokredit, zuzüglich der Kaufnebenkosten [1].",
+        "hu": "Forinthitelnél legalább 20% (első lakásvásárlónál 10%), euróhitelnél legalább 50%, és ezen felül a vásárlás járulékos költségei [1]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Un citoyen de l'UE vivant à Budapest a-t-il droit à Otthon Start ?",
+        "en": "Can an EU citizen living in Budapest use Otthon Start?",
+        "de": "Kann ein in Budapest lebender EU-Bürger Otthon Start nutzen?",
+        "hu": "Igénybe veheti-e az Otthon Startot Budapesten élő uniós állampolgár?"
+      },
+      "a": {
+        "fr": "Oui, s'il séjourne en Hongrie depuis plus de trois mois, remplit la condition de premier logement, compte 2 ans de sécurité sociale hongroise et achète un appartement dans les plafonds de prix [8][9].",
+        "en": "Yes, if they have stayed in Hungary for more than three months, meet the first-home condition, have 2 years of Hungarian social security and buy an apartment within the price caps [8][9].",
+        "de": "Ja, wenn er sich seit mehr als drei Monaten in Ungarn aufhält, die Ersterwerberbedingung erfüllt, 2 Jahre ungarische Sozialversicherung nachweist und eine Wohnung innerhalb der Preisgrenzen kauft [8][9].",
+        "hu": "Igen, ha három hónapnál hosszabb ideje tartózkodik Magyarországon, megfelel az első lakás feltételének, 2 év magyar tb-jogviszonya van, és az árkorlátokon belüli lakást vásárol [8][9]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Vaut-il mieux fixer le taux longtemps ?",
+        "en": "Is a long fixed-rate period better?",
+        "de": "Ist eine lange Zinsbindung besser?",
+        "hu": "Érdemes hosszú kamatperiódust választani?"
+      },
+      "a": {
+        "fr": "Cela dépend de la situation, mais les règles de la MNB autorisent une mensualité plus élevée lorsque le taux est fixé 10 ans ou plus (50 % ou 60 % du revenu, contre 25 % ou 30 % pour moins de 5 ans) [1].",
+        "en": "It depends on your situation, but MNB rules allow a higher repayment when the rate is fixed for 10 years or more (50% or 60% of income, against 25% or 30% for under 5 years) [1].",
+        "de": "Das hängt von der Situation ab, doch die MNB-Regeln erlauben bei einer Zinsbindung von 10 Jahren oder mehr eine höhere Rate (50 % oder 60 % des Einkommens statt 25 % oder 30 % unter 5 Jahren) [1].",
+        "hu": "Ez a helyzettől függ, de az MNB szabályai legalább 10 éves kamatperiódusnál magasabb törlesztőt engednek (a jövedelem 50 vagy 60%-át, szemben az 5 évnél rövidebb periódus 25 vagy 30%-ával) [1]."
+      }
+    }
+  ],
+  "sources": [
+    { "title": "MNB – Borrower-based measures (LTV, DSTI)", "url": "https://www.mnb.hu/en/financial-stability/macroprudential-policy/the-macroprudential-toolkit/borrower-based-measures-ltv-dsti", "seen": "2026-10-26" },
+    { "title": "money.hu – Változott az adósságfék-rendelet (2 Sep 2025)", "url": "https://tudastar.money.hu/hir/20250902/valtozott-az-adossagfek-rendelet-jtm-ltv-hitelfedezeti-mutato-10-szazalek-onero/", "seen": "2026-10-26" },
+    { "title": "MNB – Hitelezési folyamatok, 2026. augusztus", "url": "https://www.mnb.hu/kiadvanyok/jelentesek/hitelezesi-folyamatok/hitelezesi-folyamatok-2026-augusztus", "seen": "2026-10-26" },
+    { "title": "Infostart – Itt az MNB kamatdöntése (20 Oct 2026)", "url": "https://infostart.hu/gazdasag/2026/10/20/itt-az-mnb-kamatdontese", "seen": "2026-10-26" },
+    { "title": "European Central Bank – Euro foreign exchange reference rates: Hungarian forint (HUF)", "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-huf.en.html", "seen": "2026-10-26" },
+    { "title": "European Central Bank – Euro referencia-árfolyamok: magyar forint (HUF)", "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-huf.hu.html", "seen": "2026-10-26" },
+    { "title": "Bankmonitor – Külföldi állampolgár vagy? Neked is járhat CSOK és lakáshitel (updated Aug 2024)", "url": "https://bankmonitor.hu/mediatar/cikk/kulfoldi-allampolgar-vagy-neked-is-jarhat-csok-es-lakashitel", "seen": "2026-10-26" },
+    { "title": "money.hu – Otthon Start hitel feltételei (updated Mar 2026)", "url": "https://tudastar.money.hu/ismerteto/otthon-start-hitel-feltetelei-3-szazalek-lakashitel/", "seen": "2026-10-26" },
+    { "title": "Otthon Start product information sheet (bank document, valid from 1 Jul 2026)", "url": "https://www.unicreditbank.hu/content/dam/cee2020-pws-hu/Maganszemelyek/Hitelek/2025/202505/Term%C3%A9kismertet%C5%91_Otthon%20Start_2026.07.01.pdf", "seen": "2026-10-26" },
+    { "title": "Ementor – Augusztus végéig több lakáshitel fogyott, mint tavaly egész évben (MNB data, Oct 2026)", "url": "https://ementor.hu/2026/10/09/augusztus-vegeig-tobb-lakashitel-fogyott-mint-tavaly-egesz-evben/", "seen": "2026-10-26" }
+  ],
+  "legalNotice": true
+}

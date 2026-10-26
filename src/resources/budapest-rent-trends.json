@@ -1,0 +1,469 @@
+{
+  "slug": "budapest-rent-trends",
+  "item": "rents",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Évolution des loyers à Budapest, 2021–2026",
+    "en": "Budapest rent trends, 2021–2026",
+    "de": "Mietentwicklung in Budapest, 2021–2026",
+    "hu": "A budapesti lakbérek alakulása, 2021–2026"
+  },
+  "summary": {
+    "fr": "Loyers demandés à Budapest année par année selon l’indice KSH–ingatlan.com, de la chute du Covid à 2026, et les facteurs qui les ont fait bouger.",
+    "en": "Budapest asking rents year by year from the KSH–ingatlan.com index, from the Covid drop to 2026, and the factors that moved them.",
+    "de": "Budapester Angebotsmieten Jahr für Jahr laut KSH–ingatlan.com-Index, vom Covid-Einbruch bis 2026, und was sie bewegt hat.",
+    "hu": "A budapesti kínálati lakbérek évről évre a KSH–ingatlan.com lakbérindex alapján, a Covid-mélyponttól 2026-ig, és ami mozgatta őket."
+  },
+  "keyFacts": [
+    {
+      "fr": "En juin 2026, les loyers demandés à Budapest dépassaient de 73 % leur niveau moyen de 2021, et de 17 % en termes réels [1].",
+      "en": "In June 2026, Budapest asking rents were 73% above their 2021 average, and 17% above it in real terms [1].",
+      "de": "Im Juni 2026 lagen die Budapester Angebotsmieten 73 % über dem Durchschnitt von 2021, real 17 % darüber [1].",
+      "hu": "2026 júniusában a budapesti kínálati lakbérek 73%-kal haladták meg a 2021-es átlagot, reálértékben 17%-kal [1]."
+    },
+    {
+      "fr": "Plus forte hausse annuelle de la période : +21,9 % en décembre 2022 [5].",
+      "en": "Strongest annual rise of the period: +21.9% in December 2022 [5].",
+      "de": "Stärkster Jahresanstieg des Zeitraums: +21,9 % im Dezember 2022 [5].",
+      "hu": "Az időszak legnagyobb éves drágulása: +21,9% 2022 decemberében [5]."
+    },
+    {
+      "fr": "Septembre 2026 : +5,3 % sur un an à Budapest, −0,1 % sur un mois [9].",
+      "en": "September 2026: +5.3% year on year in Budapest, −0.1% month on month [9].",
+      "de": "September 2026: +5,3 % zum Vorjahr in Budapest, −0,1 % zum Vormonat [9].",
+      "hu": "2026. szeptember: Budapesten +5,3% éves és −0,1% havi változás [9]."
+    },
+    {
+      "fr": "Loyer médian demandé à Budapest début octobre 2026 : 260 000 HUF par mois, inchangé sur un an [10].",
+      "en": "Median asking rent in Budapest in early October 2026: HUF 260,000 per month, unchanged year on year [10].",
+      "de": "Mediane Angebotsmiete in Budapest Anfang Oktober 2026: 260.000 HUF pro Monat, unverändert zum Vorjahr [10].",
+      "hu": "A budapesti medián kínálati lakbér 2026. október elején havi 260 ezer Ft volt, egy év alatt nem változott [10]."
+    },
+    {
+      "fr": "Offre de location à Budapest début octobre 2026 : un peu plus de 9 000 annonces, −12 % sur un an [10].",
+      "en": "Rental supply in Budapest in early October 2026: just over 9,000 listings, 12% fewer than a year earlier [10].",
+      "de": "Mietangebot in Budapest Anfang Oktober 2026: knapp über 9.000 Inserate, 12 % weniger als ein Jahr zuvor [10].",
+      "hu": "Budapesten 2026. október elején valamivel több mint 9 ezer kiadó lakás hirdetése volt, 12%-kal kevesebb, mint egy évvel korábban [10]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "La source : l’indice des loyers KSH–ingatlan.com",
+        "en": "The source: the KSH–ingatlan.com rent index",
+        "de": "Die Quelle: der KSH–ingatlan.com-Mietindex",
+        "hu": "A forrás: a KSH–ingatlan.com lakbérindex"
+      },
+      "body": {
+        "fr": "L’Office central hongrois de la statistique (KSH) publie chaque mois, avec le portail ingatlan.com, un indice des loyers calculé à partir des annonces de location. Il mesure donc des **loyers demandés**, pas les loyers inscrits dans les baux [1]. Il est publié pour le pays, pour Budapest et pour cinq groupes d’arrondissements de la capitale (collines de Buda, autres arrondissements de Buda, Pest intérieur, arrondissements de transition, Pest extérieur) [1][9]. Il existe aussi en version réelle, corrigée de l’inflation [1].\n\nLa base de l’indice a changé : les publications jusqu’en 2023 comparaient à 2015 [2], celles de 2026 comparent à la moyenne de 2021 [1]. Les variations annuelles du tableau ne dépendent pas de ce changement de base.\n\nLe tableau donne la variation de décembre à décembre, pour suivre une année complète. Pour 2026, l’année n’est pas terminée : le chiffre est celui de septembre 2026, le dernier publié au moment de la mise à jour.",
+        "en": "The Hungarian Central Statistical Office (KSH) publishes a monthly rent index with the ingatlan.com portal, calculated from rental listings. It therefore measures **asking rents**, not the rents written into leases [1]. It is published for the country, for Budapest and for five district groups of the capital (Buda hills, other Buda districts, inner Pest, transitional districts, outer Pest) [1][9]. A real version, adjusted for inflation, is also published [1].\n\nThe index base has changed: releases up to 2023 compared with 2015 [2], releases in 2026 compare with the 2021 average [1]. The annual changes in the table do not depend on this rebasing.\n\nThe table shows the December-on-December change, to follow complete years. For 2026 the year is not over: the figure is for September 2026, the latest published at the time of this update.",
+        "de": "Das ungarische Statistikamt (KSH) veröffentlicht gemeinsam mit dem Portal ingatlan.com monatlich einen Mietindex, der aus Mietinseraten berechnet wird. Er misst also **Angebotsmieten**, nicht die in Mietverträgen vereinbarten Mieten [1]. Er erscheint für das ganze Land, für Budapest und für fünf Bezirksgruppen der Hauptstadt (Budaer Hügel, übrige Budaer Bezirke, innere Pester Bezirke, Übergangsbezirke, äußere Pester Bezirke) [1][9]. Es gibt auch eine reale, inflationsbereinigte Version [1].\n\nDie Indexbasis hat sich geändert: Veröffentlichungen bis 2023 bezogen sich auf 2015 [2], jene von 2026 auf den Durchschnitt 2021 [1]. Die jährlichen Veränderungen in der Tabelle hängen davon nicht ab.\n\nDie Tabelle zeigt die Veränderung Dezember zu Dezember, um ganze Jahre abzubilden. 2026 ist noch nicht abgeschlossen: Der Wert bezieht sich auf September 2026, den zum Zeitpunkt der Aktualisierung zuletzt veröffentlichten.",
+        "hu": "A Központi Statisztikai Hivatal (KSH) az ingatlan.com-mal közösen havonta közöl lakbérindexet, amelyet a kiadó lakások hirdetéseiből számítanak. Az index tehát **kínálati lakbéreket** mér, nem a bérleti szerződésekben szereplő összegeket [1]. Országosan, Budapestre és a főváros öt kerületcsoportjára (budai hegyvidéki, egyéb budai, belső pesti, átmeneti és külső pesti kerületek) is megjelenik [1][9], valamint inflációval korrigált, reál változatban is [1].\n\nAz index bázisa megváltozott: a 2023-ig megjelent közlések 2015-höz viszonyítottak [2], a 2026-osak a 2021-es átlaghoz [1]. A táblázat éves változásai ettől nem függnek.\n\nA táblázat a decemberi éves változást mutatja, hogy teljes éveket kövessen. 2026 még nem zárult le: az érték a 2026. szeptemberi, a frissítéskor legutóbb közölt adat."
+      }
+    },
+    {
+      "h": {
+        "fr": "Année par année",
+        "en": "Year by year",
+        "de": "Jahr für Jahr",
+        "hu": "Évről évre"
+      },
+      "body": {
+        "fr": "- **2020 (point de départ)** : en décembre 2020, les loyers demandés à Budapest étaient inférieurs de 14,3 % à ceux de décembre 2019, dans un marché privé de touristes étrangers [3].\n- **2021** : +12,7 % sur un an en décembre ; l’indice national avait à peu près retrouvé son niveau d’avant la pandémie, mais pas celui de Budapest [4].\n- **2022** : +21,9 % sur un an en décembre, la plus forte hausse de la période. Les loyers stagnaient toutefois depuis l’automne et ont reculé de 0,9 % sur le seul mois de décembre ; à la mi-janvier 2023, le loyer moyen demandé à Budapest était de 200 000 HUF [5].\n- **2023** : +12 % sur un an en décembre ; les loyers dépassaient alors de 85 % leur niveau de 2015, mais de 16 % seulement en termes réels [2].\n- **2024** : +9,6 % sur un an en décembre [6].\n- **2025** : +5,6 % sur un an en décembre ; début janvier 2026, le loyer médian demandé était de 260 000 HUF [7].\n- **2026** : en avril, la hausse annuelle est passée sous 5 % (4,9 %) pour la première fois depuis la période du Covid [8] ; elle était de 4,7 % en juin [1], de 5,2 % en août et de 5,3 % en septembre, avec une hausse réelle de 3,7 % [9]. Le loyer médian demandé est resté à 260 000 HUF début octobre, comme un an plus tôt [10].",
+        "en": "- **2020 (starting point)**: in December 2020, Budapest asking rents were 14.3% below December 2019, in a market without foreign tourists [3].\n- **2021**: +12.7% year on year in December; the national index had roughly returned to its pre-pandemic level, but Budapest's had not [4].\n- **2022**: +21.9% year on year in December, the strongest rise of the period. Rents had, however, stagnated since the autumn and fell 0.9% in December alone; in mid-January 2023 the average asking rent in Budapest was HUF 200,000 [5].\n- **2023**: +12% year on year in December; rents were then 85% above their 2015 level, but only 16% above it in real terms [2].\n- **2024**: +9.6% year on year in December [6].\n- **2025**: +5.6% year on year in December; in early January 2026 the median asking rent was HUF 260,000 [7].\n- **2026**: in April, the annual rise fell below 5% (4.9%) for the first time since the Covid period [8]; it was 4.7% in June [1], 5.2% in August and 5.3% in September, with a real rise of 3.7% [9]. The median asking rent stayed at HUF 260,000 in early October, the same as a year earlier [10].",
+        "de": "- **2020 (Ausgangspunkt)**: Im Dezember 2020 lagen die Budapester Angebotsmieten 14,3 % unter Dezember 2019, in einem Markt ohne ausländische Touristen [3].\n- **2021**: +12,7 % zum Vorjahr im Dezember; der Landesindex hatte etwa das Vor-Pandemie-Niveau erreicht, der Budapester noch nicht [4].\n- **2022**: +21,9 % zum Vorjahr im Dezember, der stärkste Anstieg des Zeitraums. Seit dem Herbst stagnierten die Mieten jedoch und sanken allein im Dezember um 0,9 %; Mitte Januar 2023 lag die durchschnittliche Angebotsmiete in Budapest bei 200.000 HUF [5].\n- **2023**: +12 % zum Vorjahr im Dezember; die Mieten lagen damit 85 % über dem Niveau von 2015, real jedoch nur 16 % [2].\n- **2024**: +9,6 % zum Vorjahr im Dezember [6].\n- **2025**: +5,6 % zum Vorjahr im Dezember; Anfang Januar 2026 betrug die mediane Angebotsmiete 260.000 HUF [7].\n- **2026**: Im April fiel der Jahresanstieg erstmals seit der Covid-Zeit unter 5 % (4,9 %) [8]; im Juni waren es 4,7 % [1], im August 5,2 % und im September 5,3 %, real 3,7 % [9]. Die mediane Angebotsmiete blieb Anfang Oktober bei 260.000 HUF, wie ein Jahr zuvor [10].",
+        "hu": "- **2020 (kiindulópont)**: 2020 decemberében a budapesti kínálati lakbérek 14,3%-kal maradtak el az egy évvel korábbitól, a külföldi turisták nélküli piacon [3].\n- **2021**: decemberben +12,7% éves szinten; az országos index nagyjából elérte a járvány előtti szintet, a budapesti még nem [4].\n- **2022**: decemberben +21,9% éves szinten, az időszak legnagyobb drágulása. Ősztől azonban stagnáltak a lakbérek, decemberben egy hónap alatt 0,9%-kal csökkentek; 2023. január közepén a budapesti átlagos kínálati lakbér 200 ezer Ft volt [5].\n- **2023**: decemberben +12% éves szinten; a lakbérek ekkor 85%-kal haladták meg a 2015-ös szintet, reálértékben azonban csak 16%-kal [2].\n- **2024**: decemberben +9,6% éves szinten [6].\n- **2025**: decemberben +5,6% éves szinten; 2026. január elején a medián kínálati lakbér 260 ezer Ft volt [7].\n- **2026**: áprilisban az éves drágulás a Covid-időszak óta először 5% alá (4,9%-ra) lassult [8]; júniusban 4,7% [1], augusztusban 5,2%, szeptemberben 5,3% volt, reálértékben 3,7% [9]. A medián kínálati lakbér október elején is 260 ezer Ft volt, ugyanannyi, mint egy évvel korábban [10]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Covid, tourisme et location de courte durée",
+        "en": "Covid, tourism and short-term letting",
+        "de": "Covid, Tourismus und Kurzzeitvermietung",
+        "hu": "Covid, turizmus és rövid távú kiadás"
+      },
+      "body": {
+        "fr": "La baisse de 2020 s’explique par l’arrêt du tourisme : les propriétaires de logements loués à la nuitée ont dû s’adapter à l’absence de visiteurs étrangers, et une partie de ces logements est passée sur le marché de la location longue [3]. Le retour de la demande en 2021–2022 a ensuite entraîné un rattrapage rapide [4][5].\n\nLa location de courte durée continue de peser sur l’offre. Fin 2025, un moratoire sur les nouvelles autorisations a poussé des logements d’investissement vers la location longue durée, et une interdiction de la location de courte durée était annoncée dans le VI (Terézváros) à partir de 2026 [11]. Début septembre 2026, le loyer médian a baissé dans le VI (de 290 000 à 280 000 HUF) et dans le VIII (de 240 000 à 229 000 HUF), deux arrondissements où cette activité est restreinte [12].",
+        "en": "The 2020 drop reflects the halt in tourism: owners of nightly-let flats had to adapt to the absence of foreign visitors, and some of these flats moved onto the long-term rental market [3]. The return of demand in 2021–2022 then led to a fast catch-up [4][5].\n\nShort-term letting still affects supply. At the end of 2025, a moratorium on new permits pushed investment flats into long-term letting, and a ban on short-term letting was announced in district VI (Terézváros) from 2026 [11]. In early September 2026, the median rent fell in VI (from HUF 290,000 to 280,000) and in VIII (from HUF 240,000 to 229,000), two districts where this activity is restricted [12].",
+        "de": "Der Rückgang 2020 spiegelt den Stillstand des Tourismus: Eigentümer von tageweise vermieteten Wohnungen mussten sich auf das Fehlen ausländischer Gäste einstellen, und ein Teil dieser Wohnungen wechselte in die Langzeitvermietung [3]. Die Rückkehr der Nachfrage 2021–2022 führte danach zu einem schnellen Aufholen [4][5].\n\nDie Kurzzeitvermietung beeinflusst das Angebot weiterhin. Ende 2025 drängte ein Moratorium für neue Genehmigungen Anlagewohnungen in die Langzeitvermietung, und für den VI. Bezirk (Terézváros) war ab 2026 ein Verbot der Kurzzeitvermietung angekündigt [11]. Anfang September 2026 sank die Medianmiete im VI. (von 290.000 auf 280.000 HUF) und im VIII. Bezirk (von 240.000 auf 229.000 HUF), zwei Bezirken, in denen diese Tätigkeit eingeschränkt ist [12].",
+        "hu": "A 2020-as visszaesést a turizmus leállása magyarázza: a napi kiadású lakások tulajdonosainak alkalmazkodniuk kellett a külföldi vendégek hiányához, és e lakások egy része a hosszú távú bérleti piacra került [3]. A kereslet 2021–2022-es visszatérése ezután gyors felzárkózást hozott [4][5].\n\nA rövid távú kiadás továbbra is hat a kínálatra. 2025 végén az új engedélyekre vonatkozó moratórium befektetési lakásokat terelt a hosszú távú bérbeadásba, a VI. kerületben (Terézváros) pedig 2026-tól a rövid távú lakáskiadás tilalmát jelentették be [11]. 2026. szeptember elején a medián lakbér csökkent a VI. (290 ezerről 280 ezer Ft-ra) és a VIII. kerületben (240 ezerről 229 ezer Ft-ra), két olyan kerületben, ahol ez a tevékenység korlátozott [12]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Inflation, salaires et pouvoir d’achat des locataires",
+        "en": "Inflation, wages and tenants' ability to pay",
+        "de": "Inflation, Löhne und Zahlungsfähigkeit der Mieter",
+        "hu": "Infláció, bérek és a bérlők fizetőképessége"
+      },
+      "body": {
+        "fr": "Les fortes hausses nominales de 2022 et 2023 se sont produites en pleine période d’inflation, et l’indice réel montre qu’elles ont été en grande partie absorbées par la hausse des prix : fin 2023, les loyers dépassaient leur niveau de 2015 de 85 % en nominal mais de 16 % seulement en réel [2]. En juin 2026, l’écart par rapport à 2021 était de 73 % en nominal et de 17 % en réel [1].\n\nÀ partir de fin 2022, les bailleurs ont davantage tenu compte de la capacité de paiement des locataires [5]. Selon ingatlan.com, les loyers évoluent surtout avec les salaires [6] ; en 2026, la hausse des loyers a été plus lente que celle des revenus, ce qui a amélioré l’accessibilité pour les locataires [13].",
+        "en": "The large nominal rises of 2022 and 2023 happened during a period of high inflation, and the real index shows that much of them was absorbed by rising prices: at the end of 2023, rents were 85% above their 2015 level in nominal terms but only 16% in real terms [2]. In June 2026, the gap to 2021 was 73% nominal and 17% real [1].\n\nFrom late 2022, landlords paid more attention to tenants' ability to pay [5]. According to ingatlan.com, rents move mainly with wages [6]; in 2026, rents rose more slowly than incomes, which improved affordability for tenants [13].",
+        "de": "Die hohen nominalen Anstiege von 2022 und 2023 fielen in eine Phase hoher Inflation, und der reale Index zeigt, dass sie großteils von der Teuerung aufgezehrt wurden: Ende 2023 lagen die Mieten nominal 85 % über dem Niveau von 2015, real aber nur 16 % [2]. Im Juni 2026 betrug der Abstand zu 2021 nominal 73 % und real 17 % [1].\n\nAb Ende 2022 achteten Vermieter stärker auf die Zahlungsfähigkeit der Mieter [5]. Laut ingatlan.com bewegen sich die Mieten vor allem mit den Löhnen [6]; 2026 stiegen die Mieten langsamer als die Einkommen, was die Bezahlbarkeit für Mieter verbesserte [13].",
+        "hu": "A 2022-es és 2023-as nagy nominális drágulás magas infláció idején történt, és a reálindex szerint ennek jelentős részét az áremelkedés elvitte: 2023 végén a lakbérek nominálisan 85%-kal, reálértékben viszont csak 16%-kal haladták meg a 2015-ös szintet [2]. 2026 júniusában a 2021-hez mért különbség nominálisan 73%, reálértékben 17% volt [1].\n\n2022 végétől a bérbeadók jobban figyelembe vették a bérlők fizetőképességét [5]. Az ingatlan.com szerint a lakbérek elsősorban a fizetésekkel együtt mozognak [6]; 2026-ban a lakbérek lassabban nőttek, mint a jövedelmek, ami javította a bérlők helyzetét [13]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Offre, Otthon Start et saison étudiante",
+        "en": "Supply, Otthon Start and the student season",
+        "de": "Angebot, Otthon Start und Semesterbeginn",
+        "hu": "Kínálat, Otthon Start és a diákszezon"
+      },
+      "body": {
+        "fr": "**Offre.** L’offre de logements à louer à Budapest a fortement augmenté : en juin 2026, elle dépassait de 52,3 % son niveau d’il y a quatre ans et de 2,9 % celui d’un an plus tôt, ce qui a freiné les loyers [13]. En 2025, des investisseurs ont réorienté vers le logement des capitaux issus d’obligations d’État arrivées à échéance [11], et la MNB relevait fin septembre 2025 une hausse de 9 % sur un an du stock national de logements libres à louer [14]. La tendance s’est inversée à l’automne 2026 : début octobre, Budapest comptait un peu plus de 9 000 annonces, 12 % de moins qu’un an plus tôt, l’offre nationale étant au plus bas depuis deux ans ; moins d’achats d’investissement signifie moins de logements mis en location [10].\n\n**Otthon Start.** Ce programme public de prêt immobilier à 3 %, lancé en septembre 2025, a fait passer de nombreux locataires à l’achat et a réduit la demande locative [11][8].\n\n**Étudiants.** La demande suit le calendrier universitaire : la saison locative commence fin juillet, avant la rentrée [15], puis les loyers reculent souvent en septembre [10]. Aucune statistique publique ne mesure séparément la demande étudiante à Budapest.",
+        "en": "**Supply.** The stock of flats for rent in Budapest rose sharply: in June 2026 it was 52.3% above its level four years earlier and 2.9% above a year earlier, which slowed rents [13]. In 2025, investors moved money from maturing government bonds into housing [11], and the MNB recorded a 9% year-on-year rise in the national stock of vacant rental flats at the end of September 2025 [14]. The trend reversed in autumn 2026: in early October, Budapest had just over 9,000 listings, 12% fewer than a year earlier, with national supply at a two-year low; fewer investment purchases mean fewer flats offered for rent [10].\n\n**Otthon Start.** This government home-loan programme at 3%, launched in September 2025, moved many tenants into ownership and reduced rental demand [11][8].\n\n**Students.** Demand follows the academic calendar: the rental season starts at the end of July, before the start of the academic year [15], and rents often ease in September [10]. No public statistic measures student demand separately in Budapest.",
+        "de": "**Angebot.** Das Angebot an Mietwohnungen in Budapest ist stark gewachsen: Im Juni 2026 lag es 52,3 % über dem Stand von vor vier Jahren und 2,9 % über dem Vorjahr, was die Mieten bremste [13]. 2025 lenkten Anleger Geld aus fällig gewordenen Staatsanleihen in Wohnungen um [11], und die MNB verzeichnete Ende September 2025 landesweit 9 % mehr freie Mietwohnungen als ein Jahr zuvor [14]. Im Herbst 2026 drehte der Trend: Anfang Oktober gab es in Budapest knapp über 9.000 Inserate, 12 % weniger als ein Jahr zuvor, das landesweite Angebot erreichte ein Zweijahrestief; weniger Anlagekäufe bedeuten weniger angebotene Mietwohnungen [10].\n\n**Otthon Start.** Dieses staatliche Wohnkreditprogramm zu 3 %, gestartet im September 2025, hat viele Mieter zum Kauf gebracht und die Mietnachfrage verringert [11][8].\n\n**Studierende.** Die Nachfrage folgt dem Studienkalender: Die Mietsaison beginnt Ende Juli, vor dem Semesterstart [15], im September geben die Mieten oft nach [10]. Keine öffentliche Statistik weist die studentische Nachfrage in Budapest gesondert aus.",
+        "hu": "**Kínálat.** A budapesti kiadó lakások kínálata jelentősen bővült: 2026 júniusában 52,3%-kal haladta meg a négy évvel korábbit és 2,9%-kal az egy évvel korábbit, ami fékezte a lakbéreket [13]. 2025-ben a befektetők a lejáró állampapírokból felszabaduló pénzt lakásokba fektették [11], az MNB pedig 2025 szeptember végére országosan 9%-os éves növekedést mért a szabad bérlakásállományban [14]. 2026 őszén a trend megfordult: október elején Budapesten valamivel több mint 9 ezer hirdetés volt, 12%-kal kevesebb, mint egy évvel korábban, az országos kínálat pedig kétéves mélypontra került; kevesebb befektetési vásárlás kevesebb kiadó lakást jelent [10].\n\n**Otthon Start.** A 2025 szeptemberében indult, 3%-os kamatozású állami lakáshitelprogram sok bérlőt vásárlóvá tett, és csökkentette a bérleti keresletet [11][8].\n\n**Diákok.** A kereslet az egyetemi naptárt követi: az albérletszezon július végén, a tanévkezdés előtt indul [15], szeptemberben pedig gyakran csökkennek a lakbérek [10]. Budapesten nincs olyan nyilvános statisztika, amely külön mérné a diákok keresletét."
+      }
+    },
+    {
+      "h": {
+        "fr": "Par groupe d’arrondissements en 2026",
+        "en": "By district group in 2026",
+        "de": "Nach Bezirksgruppen 2026",
+        "hu": "Kerületcsoportok szerint 2026-ban"
+      },
+      "body": {
+        "fr": "Les hausses ne sont pas uniformes. En septembre 2026, sur un an, les collines de Buda affichaient la plus forte hausse (+7,4 %) et le Pest intérieur la plus faible (+3,7 %) [9]. En juin 2026, l’écart allait de +5,7 % (collines de Buda) à +2,9 % (Pest extérieur) [1]. Les arrondissements du Pest intérieur ont donc progressé moins vite que la moyenne de Budapest (+5,3 %) [9].\n\nPour suivre un arrondissement précis, il faut comparer des médianes issues d’une même source et à des dates comparables, car le niveau varie d’un portail à l’autre.",
+        "en": "Rises are not uniform. In September 2026, year on year, the Buda hills showed the largest rise (+7.4%) and inner Pest the smallest (+3.7%) [9]. In June 2026, the range was from +5.7% (Buda hills) to +2.9% (outer Pest) [1]. Inner Pest districts therefore rose more slowly than the Budapest average (+5.3%) [9].\n\nTo follow a specific district, compare medians from the same source at comparable dates, as the level varies from one portal to another.",
+        "de": "Die Anstiege sind nicht einheitlich. Im September 2026 zeigten die Budaer Hügel zum Vorjahr den stärksten Anstieg (+7,4 %) und die inneren Pester Bezirke den schwächsten (+3,7 %) [9]. Im Juni 2026 reichte die Spanne von +5,7 % (Budaer Hügel) bis +2,9 % (äußeres Pest) [1]. Die inneren Pester Bezirke sind also langsamer gestiegen als der Budapester Durchschnitt (+5,3 %) [9].\n\nWer einen bestimmten Bezirk verfolgen will, sollte Mediane aus derselben Quelle und zu vergleichbaren Zeitpunkten vergleichen, da das Niveau je nach Portal schwankt.",
+        "hu": "A drágulás nem egyenletes. 2026 szeptemberében éves összevetésben a budai hegyvidéki kerületekben volt a legnagyobb (+7,4%), a belső pesti kerületekben a legkisebb (+3,7%) az emelkedés [9]. 2026 júniusában a sáv +5,7% (budai hegyvidék) és +2,9% (külső pesti kerületek) között volt [1]. A belső pesti kerületekben tehát lassabban nőttek a lakbérek a budapesti átlagnál (+5,3%) [9].\n\nEgy adott kerület követéséhez azonos forrásból és hasonló időpontból származó mediánokat érdemes összevetni, mert a szint portálonként eltér."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Évolution annuelle des loyers demandés à Budapest, indice KSH–ingatlan.com (une seule source pour toute la colonne ; loyers affichés dans les annonces, pas loyers signés). Décembre sur décembre, sauf 2026 (septembre sur septembre, dernier chiffre publié).",
+      "en": "Annual change in asking rents in Budapest, KSH–ingatlan.com rent index (one source for the whole column; advertised rents, not signed rents). December on December, except 2026 (September on September, latest published figure).",
+      "de": "Jährliche Veränderung der Angebotsmieten in Budapest, KSH–ingatlan.com-Mietindex (eine einzige Quelle für die ganze Spalte; inserierte, nicht vereinbarte Mieten). Dezember zu Dezember, außer 2026 (September zu September, letzter veröffentlichter Wert).",
+      "hu": "A budapesti kínálati lakbérek éves változása, KSH–ingatlan.com lakbérindex (az egész oszlop egyetlen forrásból; meghirdetett, nem szerződéses lakbérek). Decemberi összevetés, kivéve 2026 (szeptemberi összevetés, a legfrissebb közölt adat)."
+    },
+    "head": {
+      "fr": [
+        "Année",
+        "Période comparée",
+        "Variation annuelle, Budapest",
+        "Contexte"
+      ],
+      "en": [
+        "Year",
+        "Period compared",
+        "Annual change, Budapest",
+        "Context"
+      ],
+      "de": [
+        "Jahr",
+        "Vergleichszeitraum",
+        "Jährliche Veränderung, Budapest",
+        "Kontext"
+      ],
+      "hu": [
+        "Év",
+        "Összevetett időszak",
+        "Éves változás, Budapest",
+        "Háttér"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "2020",
+          "déc. 2020 / déc. 2019",
+          "−14,3 % [3]",
+          "Covid : absence de touristes, logements de courte durée basculés vers la location longue"
+        ],
+        [
+          "2021",
+          "déc. 2021 / déc. 2020",
+          "+12,7 % [4]",
+          "Reprise ; Budapest encore sous son niveau d’avant la pandémie"
+        ],
+        [
+          "2022",
+          "déc. 2022 / déc. 2021",
+          "+21,9 % [5]",
+          "Plus forte hausse de la période ; ralentissement dès l’automne"
+        ],
+        [
+          "2023",
+          "déc. 2023 / déc. 2022",
+          "+12,0 % [2]",
+          "Hausse encore forte ; en termes réels, bien plus modeste"
+        ],
+        [
+          "2024",
+          "déc. 2024 / déc. 2023",
+          "+9,6 % [6]",
+          "Les loyers suivent surtout les salaires"
+        ],
+        [
+          "2025",
+          "déc. 2025 / déc. 2024",
+          "+5,6 % [7]",
+          "Offre plus large, programme Otthon Start (prêt à 3 %) à partir de septembre"
+        ],
+        [
+          "2026",
+          "sept. 2026 / sept. 2025",
+          "+5,3 % [9]",
+          "Septembre 2026 sur un an ; +3,7 % en termes réels"
+        ]
+      ],
+      "en": [
+        [
+          "2020",
+          "Dec 2020 vs Dec 2019",
+          "-14.3% [3]",
+          "Covid: no tourists, short-term flats moved to long-term letting"
+        ],
+        [
+          "2021",
+          "Dec 2021 vs Dec 2020",
+          "+12.7% [4]",
+          "Recovery; Budapest still below its pre-pandemic level"
+        ],
+        [
+          "2022",
+          "Dec 2022 vs Dec 2021",
+          "+21.9% [5]",
+          "Strongest rise of the period; slowing from the autumn"
+        ],
+        [
+          "2023",
+          "Dec 2023 vs Dec 2022",
+          "+12.0% [2]",
+          "Still strong; much smaller in real terms"
+        ],
+        [
+          "2024",
+          "Dec 2024 vs Dec 2023",
+          "+9.6% [6]",
+          "Rents track wages above all"
+        ],
+        [
+          "2025",
+          "Dec 2025 vs Dec 2024",
+          "+5.6% [7]",
+          "Wider supply; Otthon Start programme (3% loan) from September"
+        ],
+        [
+          "2026",
+          "Sep 2026 vs Sep 2025",
+          "+5.3% [9]",
+          "September 2026, year on year; +3.7% in real terms"
+        ]
+      ],
+      "de": [
+        [
+          "2020",
+          "Dez. 2020 ggü. Dez. 2019",
+          "−14,3 % [3]",
+          "Covid: keine Touristen, Kurzzeitwohnungen wechseln in die Langzeitvermietung"
+        ],
+        [
+          "2021",
+          "Dez. 2021 ggü. Dez. 2020",
+          "+12,7 % [4]",
+          "Erholung; Budapest noch unter dem Vor-Pandemie-Niveau"
+        ],
+        [
+          "2022",
+          "Dez. 2022 ggü. Dez. 2021",
+          "+21,9 % [5]",
+          "Stärkster Anstieg des Zeitraums; Abschwächung ab Herbst"
+        ],
+        [
+          "2023",
+          "Dez. 2023 ggü. Dez. 2022",
+          "+12,0 % [2]",
+          "Weiterhin kräftig; real deutlich geringer"
+        ],
+        [
+          "2024",
+          "Dez. 2024 ggü. Dez. 2023",
+          "+9,6 % [6]",
+          "Mieten folgen vor allem den Löhnen"
+        ],
+        [
+          "2025",
+          "Dez. 2025 ggü. Dez. 2024",
+          "+5,6 % [7]",
+          "Größeres Angebot; Programm Otthon Start (3-%-Kredit) ab September"
+        ],
+        [
+          "2026",
+          "Sep. 2026 ggü. Sep. 2025",
+          "+5,3 % [9]",
+          "September 2026 gegenüber Vorjahr; real +3,7 %"
+        ]
+      ],
+      "hu": [
+        [
+          "2020",
+          "2020. dec. / 2019. dec.",
+          "−14,3% [3]",
+          "Covid: elmaradó turisták, rövid távú kiadású lakások a hosszú távú piacon"
+        ],
+        [
+          "2021",
+          "2021. dec. / 2020. dec.",
+          "+12,7% [4]",
+          "Visszarendeződés; Budapest még a járvány előtti szint alatt"
+        ],
+        [
+          "2022",
+          "2022. dec. / 2021. dec.",
+          "+21,9% [5]",
+          "Az időszak legnagyobb drágulása; ősztől lassulás"
+        ],
+        [
+          "2023",
+          "2023. dec. / 2022. dec.",
+          "+12,0% [2]",
+          "Még mindig erős; reálértékben jóval kisebb"
+        ],
+        [
+          "2024",
+          "2024. dec. / 2023. dec.",
+          "+9,6% [6]",
+          "A lakbérek elsősorban a bérekkel mozognak"
+        ],
+        [
+          "2025",
+          "2025. dec. / 2024. dec.",
+          "+5,6% [7]",
+          "Bővülő kínálat; Otthon Start Program (3%-os hitel) szeptembertől"
+        ],
+        [
+          "2026",
+          "2026. szept. / 2025. szept.",
+          "+5,3% [9]",
+          "2026. szeptember, éves összevetés; reálértékben +3,7%"
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Les loyers baissent-ils à Budapest ?",
+        "en": "Are rents falling in Budapest?",
+        "de": "Sinken die Mieten in Budapest?",
+        "hu": "Csökkennek a lakbérek Budapesten?"
+      },
+      "a": {
+        "fr": "Pas sur un an : +5,3 % en septembre 2026 [9]. Ils baissent certains mois (−0,1 % en septembre 2026 par rapport à août) et la hausse annuelle a nettement ralenti depuis 2022 [9][5].",
+        "en": "Not year on year: +5.3% in September 2026 [9]. They fall in some months (−0.1% in September 2026 compared with August), and the annual rise has slowed markedly since 2022 [9][5].",
+        "de": "Nicht im Jahresvergleich: +5,3 % im September 2026 [9]. In einzelnen Monaten sinken sie (−0,1 % im September 2026 gegenüber August), und der Jahresanstieg hat sich seit 2022 deutlich verlangsamt [9][5].",
+        "hu": "Éves összevetésben nem: 2026 szeptemberében +5,3% [9]. Egyes hónapokban csökkennek (2026 szeptemberében −0,1% augusztushoz képest), és az éves drágulás 2022 óta jelentősen lassult [9][5]."
+      }
+    },
+    {
+      "q": {
+        "fr": "L’indice mesure-t-il les loyers réellement payés ?",
+        "en": "Does the index measure rents actually paid?",
+        "de": "Misst der Index tatsächlich gezahlte Mieten?",
+        "hu": "A ténylegesen fizetett lakbéreket méri az index?"
+      },
+      "a": {
+        "fr": "Non. Il repose sur les loyers affichés dans les annonces d’ingatlan.com [1]. Les loyers des baux en cours, souvent plus anciens, peuvent être plus bas.",
+        "en": "No. It is based on rents advertised in ingatlan.com listings [1]. Rents in existing, often older leases may be lower.",
+        "de": "Nein. Er beruht auf den in ingatlan.com-Inseraten angegebenen Mieten [1]. Mieten in laufenden, oft älteren Verträgen können niedriger sein.",
+        "hu": "Nem. Az ingatlan.com hirdetéseiben szereplő lakbéreken alapul [1]. A meglévő, gyakran régebbi szerződések lakbérei alacsonyabbak lehetnek."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand paraît le chiffre suivant ?",
+        "en": "When is the next figure published?",
+        "de": "Wann erscheint der nächste Wert?",
+        "hu": "Mikor jelenik meg a következő adat?"
+      },
+      "a": {
+        "fr": "L’indice est mensuel et paraît généralement vers le milieu du mois suivant ; le chiffre de septembre 2026 a été publié mi-octobre 2026 [9].",
+        "en": "The index is monthly and usually appears around the middle of the following month; the September 2026 figure was published in mid-October 2026 [9].",
+        "de": "Der Index ist monatlich und erscheint meist um die Mitte des Folgemonats; der Wert für September 2026 wurde Mitte Oktober 2026 veröffentlicht [9].",
+        "hu": "Az index havi, és általában a következő hónap közepe táján jelenik meg; a 2026. szeptemberi adat 2026. október közepén jelent meg [9]."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "KSH (HCSO) – HCSO–ingatlan.com rent index, June 2026",
+      "url": "https://www.ksh.hu/s/en/experimental-statistics/publications/hcsoingatlancom-rent-index-june-2026/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "KSH (HCSO) – HCSO–ingatlan.com rent index, December 2023",
+      "url": "https://ksh.hu/s/en/experimental-statistics/publications/hcsoingatlancom-rent-index-december-2023",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – KSH–ingatlan.com lakbérindex, December 2020",
+      "url": "https://www.economx.hu/ingatlan/2021/02/02/ingatlanpiac-lakaspiac-alberlet-berleti-dij-lakberindex-ksh-ingatlancom-722585/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Kitartóan emelkednek a lakbérek (KSH–ingatlan.com lakbérindex, December 2021)",
+      "url": "https://www.economx.hu/ingatlan/2022/01/26/kitartoan-emelkednek-a-lakberek-magyarorszagon-744766/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Fordulat az albérletpiacon (KSH–ingatlan.com lakbérindex, December 2022)",
+      "url": "https://www.economx.hu/magyar-gazdasag/2023/01/25/fordulat-az-alberletpiacon-ingatlancom-csokkentek-a-lakberarak-766537/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – KSH–ingatlan.com lakbérindex, December 2024",
+      "url": "https://www.economx.hu/ingatlan/lakhatas-alberletpiac-ingatlan-lakhatas-otthon-alberlet.802678.html",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – KSH–ingatlan.com lakbérindex, December 2025; ingatlan.com district medians, January 2026",
+      "url": "https://www.economx.hu/ingatlan/2026/01/14/alberlet-budapest-videk-ingatlan-822308/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – A világjárvány óta nem csinált ilyet a magyar albérletpiac (April 2026)",
+      "url": "https://www.economx.hu/ingatlan/2026/05/11/vilagjarvany-magyar-alberletpiac-lakasar/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Esti Hírlap – KSH–ingatlan.com lakbérindex, September 2026",
+      "url": "https://estihirlap.hu/csokkentek-alberletarak-2026-szeptember-ksh-ingatlancom-lakberindex/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Pénzcentrum – Kétéves mélyponton a kínálat (ingatlan.com, early October 2026)",
+      "url": "https://www.penzcentrum.hu/otthon/20261012/ember-legyen-a-talpan-aki-most-jo-alberletet-talal-keteves-melyponton-a-kinalat-magyarorszagon-1207089",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Mi történt 2025-ben az albérletpiacon",
+      "url": "https://www.economx.hu/ingatlan/2025/12/19/mi-tortent-2025-ben-az-alberletpiacon-elkepeszto-tuzijatek-zajlik-a-szinfalak-mogott-821092/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Origo – A lakbérek emelkedése szeptemberre megtorpant Budapesten (August 2026 index, early September medians)",
+      "url": "https://www.origo.hu/gazdasag/2026/09/lakber-szeptember-arak-csokkenese-ket-budapesti-kerulet",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Döbbenetes folyamatok zajlanak a magyar albérletpiacon (May 2026)",
+      "url": "https://www.economx.hu/ingatlan/2026/06/11/dobbenetes-folyamatok-zajlanak-a-magyar-alberletpiacon/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Magyar Nemzeti Bank – Lakáspiaci jelentés, 2025. november",
+      "url": "https://www.mnb.hu/letoltes/laka-spiaci-jelente-s-2025-november-hun.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Még mindig drágul az albérlet, de már alig (June 2025)",
+      "url": "https://www.economx.hu/ingatlan/2025/07/10/van-egy-rossz-es-egy-jo-hirunk-az-egyetemistaknak-meg-mindig-dragul-az-alberlet-de-mar-alig-812450/",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": false
+}
