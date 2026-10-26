@@ -276,3 +276,6 @@ p{margin:0 0 1rem}
 .refs-more h2{margin:0 0 .25rem}
 .refs-list{list-style:none;padding:0;margin:1.25rem 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.75rem}
 .refs-list li{display:flex;flex-direction:column;gap:.2rem;padding:1rem;border:1px solid var(--line,#ddd)}
+
+/* WebP <picture> wrappers must not change the layout of the images they hold */
+picture{display:contents}
