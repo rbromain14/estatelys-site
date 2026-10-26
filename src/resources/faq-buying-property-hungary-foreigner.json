@@ -40,7 +40,7 @@
       "hu": "Bérbeadás: 15% szja, szocho nélkül; az eladás a szerzést követő ötödik évtől adómentes [4][5][6]."
     },
     {
-      "fr": "Acheter un logement ne donne pas de titre de séjour ; le programme guest investor exige 250 000 € en fonds immobilier ou un don de 1 000 000 € [9].",
+      "fr": "Acheter un logement ne donne pas de titre de séjour ; le programme d'investisseur invité (vendégbefektetői) exige 250 000 € en fonds immobilier ou un don de 1 000 000 € [9].",
       "en": "Buying a home gives no residence permit; the guest investor programme requires €250,000 in a real estate fund or a €1,000,000 donation [9].",
       "de": "Ein Wohnungskauf verschafft keinen Aufenthaltstitel; das Gastinvestorenprogramm verlangt 250.000 € in einem Immobilienfonds oder 1.000.000 € Spende [9].",
       "hu": "A lakásvásárlás nem ad tartózkodási engedélyt; a vendégbefektetői programhoz 250 000 € ingatlanalap-befektetés vagy 1 000 000 € adomány kell [9]."
@@ -83,7 +83,7 @@
         "hu": "Friss és bejelentett változások"
       },
       "body": {
-        "fr": "- **Location courte durée** : aucun nouvel enregistrement à Budapest du 1er janvier 2025 au 31 décembre 2026 [13] ; interdiction totale dans le 6e arrondissement depuis le 1er janvier 2026 [12].\n- **Droit de séjour** : la voie « achat d'un logement d'au moins 500 000 € » du programme guest investor a été supprimée fin 2024, avant son entrée en vigueur [10]. Restent les fonds immobiliers et les dons [9].\n- **Impôt sur la fortune** : projet de loi publié le 6 octobre 2026, au-delà de 1 milliard HUF de patrimoine net, à partir de la situation au 31 décembre 2026 ; il viserait l'immobilier hongrois des non-résidents. Projet non adopté à ce jour [11].",
+        "fr": "- **Location courte durée** : aucun nouvel enregistrement à Budapest du 1er janvier 2025 au 31 décembre 2026 [13] ; interdiction totale dans le 6e arrondissement depuis le 1er janvier 2026 [12].\n- **Droit de séjour** : la voie « achat d'un logement d'au moins 500 000 € » du programme d'investisseur invité a été supprimée fin 2024, avant son entrée en vigueur [10]. Restent les fonds immobiliers et les dons [9].\n- **Impôt sur la fortune** : projet de loi publié le 6 octobre 2026, au-delà de 1 milliard HUF de patrimoine net, à partir de la situation au 31 décembre 2026 ; il viserait l'immobilier hongrois des non-résidents. Projet non adopté à ce jour [11].",
         "en": "- **Short-term rental**: no new registrations in Budapest from 1 January 2025 to 31 December 2026 [13]; full ban in District VI since 1 January 2026 [12].\n- **Residence**: the guest investor route based on buying a home worth at least €500,000 was removed at the end of 2024, before it took effect [10]. The real estate fund and donation routes remain [9].\n- **Wealth tax**: draft law published on 6 October 2026, on net wealth above HUF 1 billion, based on holdings on 31 December 2026; it would cover non-residents' Hungarian real estate. Not adopted as of today [11].",
         "de": "- **Kurzzeitvermietung**: keine neuen Registrierungen in Budapest vom 1. Januar 2025 bis 31. Dezember 2026 [13]; vollständiges Verbot im VI. Bezirk seit 1. Januar 2026 [12].\n- **Aufenthalt**: Der Weg über den Kauf einer Wohnung ab 500.000 € im Gastinvestorenprogramm wurde Ende 2024 gestrichen, bevor er in Kraft trat [10]. Es bleiben Immobilienfonds und Spenden [9].\n- **Vermögensteuer**: Gesetzentwurf vom 6. Oktober 2026 für Nettovermögen über 1 Mrd. HUF, bezogen auf den Stand vom 31. Dezember 2026; er würde ungarische Immobilien Gebietsfremder erfassen. Bisher nicht verabschiedet [11].",
         "hu": "- **Rövid távú kiadás**: Budapesten 2025. január 1. és 2026. december 31. között nincs új regisztráció [13]; a VI. kerületben 2026. január 1-jétől teljes tilalom [12].\n- **Tartózkodás**: a vendégbefektetői program legalább 500 000 € értékű lakás vásárlásán alapuló lehetőségét 2024 végén, hatálybalépése előtt törölték [10]. Az ingatlanalapos és az adományos út megmaradt [9].\n- **Vagyonadó**: a 2026. október 6-án közzétett tervezet 1 milliárd Ft feletti nettó vagyonra vonatkozna, a 2026. december 31-i állapot alapján; nem rezidenseknél a magyarországi ingatlanokra terjedne ki. Egyelőre nem fogadták el [11]."
@@ -226,7 +226,7 @@
         "hu": "Ad-e tartózkodási jogot az ingatlanvásárlás?"
       },
       "a": {
-        "fr": "Non. Pour les ressortissants de pays tiers, le permis de séjour guest investor (vendégbefektetői tartózkodási engedély) exige soit des parts d'un fonds immobilier enregistré auprès de la MNB d'au moins 250 000 €, soit un don d'au moins 1 000 000 € à un établissement d'enseignement supérieur ; il est valable jusqu'à 10 ans, renouvelable [9]. L'achat direct d'un logement n'en fait pas partie [9][10].",
+        "fr": "Non. Pour les ressortissants de pays tiers, le titre de séjour d'investisseur invité (vendégbefektetői tartózkodási engedély) exige soit des parts d'un fonds immobilier enregistré auprès de la MNB d'au moins 250 000 €, soit un don d'au moins 1 000 000 € à un établissement d'enseignement supérieur ; il est valable jusqu'à 10 ans, renouvelable [9]. L'achat direct d'un logement n'en fait pas partie [9][10].",
         "en": "No. For third-country nationals, the guest investor residence permit (vendégbefektetői tartózkodási engedély) requires either units of at least €250,000 in a real estate fund registered with the MNB or a donation of at least €1,000,000 to a higher education institution; it is valid for up to 10 years and renewable [9]. Buying a home directly is not one of the routes [9][10].",
         "de": "Nein. Für Drittstaatsangehörige setzt die Gastinvestoren-Aufenthaltserlaubnis (vendégbefektetői tartózkodási engedély) entweder Anteile von mindestens 250.000 € an einem bei der MNB registrierten Immobilienfonds oder eine Spende von mindestens 1.000.000 € an eine Hochschule voraus; sie gilt bis zu 10 Jahre und ist verlängerbar [9]. Der direkte Wohnungskauf gehört nicht dazu [9][10].",
         "hu": "Nem. Harmadik országbeli állampolgárok vendégbefektetői tartózkodási engedélyt legalább 250 000 € értékű, az MNB-nél nyilvántartott ingatlanalap befektetési jegyével vagy felsőoktatási intézménynek adott legalább 1 000 000 € adománnyal kaphatnak; legfeljebb 10 évre szól, meghosszabbítható [9]. A közvetlen lakásvásárlás nem tartozik a lehetőségek közé [9][10]."
@@ -240,10 +240,10 @@
         "hu": "Kiadhatom rövid távra?"
       },
       "a": {
-        "fr": "Pas avec un nouvel enregistrement à Budapest avant le 1er janvier 2027 [13]. Dans le 6e arrondissement, l'activité est interdite depuis le 1er janvier 2026, avec des amendes de 200 000 à 2 millions HUF ; le 5e et le 7e plafonnent la part de logements concernés par immeuble [12].",
-        "en": "Not with a new registration in Budapest before 1 January 2027 [13]. In District VI the activity has been banned since 1 January 2026, with fines of HUF 200,000 to 2 million; Districts V and VII cap the share of flats per building [12].",
-        "de": "Mit einer neuen Registrierung in Budapest nicht vor dem 1. Januar 2027 [13]. Im VI. Bezirk ist die Tätigkeit seit 1. Januar 2026 verboten, mit Bußgeldern von 200.000 bis 2 Mio. HUF; der V. und VII. Bezirk begrenzen den Anteil der Wohnungen je Haus [12].",
-        "hu": "Új regisztrációval Budapesten 2027. január 1. előtt nem [13]. A VI. kerületben 2026. január 1-jétől tilos, a bírság 200 000–2 millió Ft; az V. és a VII. kerület épületenként korlátozza az érintett lakások arányát [12]."
+        "fr": "Pas avec un nouvel enregistrement à Budapest avant le 1er janvier 2027 [13]. Dans le 6e arrondissement, l'activité est interdite depuis le 1er janvier 2026, avec des amendes de 200 000 à 2 millions HUF ; le 5e plafonne la part de logements concernés par immeuble [12], et le 7e n'autorise les nouveaux hébergements qu'au rez-de-chaussée, dans la limite de 10 % de la surface résidentielle de l'immeuble, avec l'accord de la copropriété exigé à partir du 1er janvier 2027 [14].",
+        "en": "Not with a new registration in Budapest before 1 January 2027 [13]. In District VI the activity has been banned since 1 January 2026, with fines of HUF 200,000 to 2 million; District V caps the share of flats per building [12], and District VII allows new units only on the ground floor and within 10% of a building's residential floor area, with condominium consent required from 1 January 2027 [14].",
+        "de": "Mit einer neuen Registrierung in Budapest nicht vor dem 1. Januar 2027 [13]. Im VI. Bezirk ist die Tätigkeit seit 1. Januar 2026 verboten, mit Bußgeldern von 200.000 bis 2 Mio. HUF; der V. Bezirk begrenzt den Anteil der Wohnungen je Haus [12], der VII. erlaubt neue Unterkünfte nur im Erdgeschoss und auf höchstens 10 % der Wohnfläche eines Hauses, ab 1. Januar 2027 mit Zustimmung der Eigentümergemeinschaft [14].",
+        "hu": "Új regisztrációval Budapesten 2027. január 1. előtt nem [13]. A VI. kerületben 2026. január 1-jétől tilos, a bírság 200 000–2 millió Ft; az V. kerület épületenként korlátozza az érintett lakások arányát [12], a VII. kerületben új szálláshely csak földszinten, az épület lakóterületének legfeljebb 10%-án nyílhat, 2027. január 1-jétől pedig társasházi hozzájárulás kell [14]."
       }
     },
     {
@@ -325,6 +325,11 @@
     {
       "title": "Economx – Airbnb moratórium Budapesten (9 Dec 2024)",
       "url": "https://www.economx.hu/gazdasag/2024/12/09/airbnb-moratorium-engedelyeztetes-budapest-szallashely-800846/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NW Apartments – Airbnb Budapesten 2027-től: district-by-district overview (28 Aug 2026)",
+      "url": "https://www.nwapartments.hu/post/airbnb-budapesten-2027-tol-hollehet-uj-rovid-tavu-szallashelyetinditani-a-moratorium-utan",
       "seen": "2026-10-26"
     }
   ],

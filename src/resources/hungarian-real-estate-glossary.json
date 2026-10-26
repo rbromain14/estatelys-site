@@ -34,10 +34,10 @@
       "hu": "A foglaló jellemzően a vételár kb. 10%-a; ha az eladó hibájából hiúsul meg a szerződés, kétszeresen jár vissza [4]."
     },
     {
-      "fr": "Le certificat énergétique est valable 10 ans [7].",
-      "en": "An energy certificate is valid for 10 years [7].",
-      "de": "Ein Energieausweis gilt 10 Jahre [7].",
-      "hu": "Az energetikai tanúsítvány 10 évig érvényes [7]."
+      "fr": "Un certificat énergétique établi depuis le 1er novembre 2023 est valable 5 ans [14].",
+      "en": "An energy certificate issued since 1 November 2023 is valid for 5 years [14].",
+      "de": "Ein seit dem 1. November 2023 ausgestellter Energieausweis gilt 5 Jahre [14].",
+      "hu": "A 2023. november 1. óta kiállított energetikai tanúsítvány 5 évig érvényes [14]."
     },
     {
       "fr": "Les copropriétés de plus de six logements doivent inscrire leur syndic au registre foncier avant le 31 octobre 2026 [10].",
@@ -323,7 +323,7 @@
         [
           "energetikai tanúsítvány",
           "certificat de performance énergétique",
-          "Valable 10 ans ; 12 classes de AA++ à JJ ; obligatoire pour vendre ou louer [7]."
+          "Valable 5 ans s'il est établi depuis le 1er novembre 2023 ; 12 classes de A+++ à I ; obligatoire pour vendre ou louer [7][14]."
         ],
         [
           "albérlet",
@@ -600,7 +600,7 @@
         [
           "energetikai tanúsítvány",
           "energy performance certificate",
-          "Valid 10 years; 12 classes from AA++ to JJ; required for sale or rental [7]."
+          "Valid 5 years if issued since 1 November 2023; 12 classes from A+++ to I; required for sale or rental [7][14]."
         ],
         [
           "albérlet",
@@ -877,7 +877,7 @@
         [
           "energetikai tanúsítvány",
           "Energieausweis",
-          "10 Jahre gültig; 12 Klassen von AA++ bis JJ; Pflicht bei Verkauf oder Vermietung [7]."
+          "5 Jahre gültig, wenn seit dem 1. November 2023 ausgestellt; 12 Klassen von A+++ bis I; Pflicht bei Verkauf oder Vermietung [7][14]."
         ],
         [
           "albérlet",
@@ -1154,7 +1154,7 @@
         [
           "energetikai tanúsítvány",
           "épületenergetikai tanúsítvány",
-          "10 évig érvényes; 12 kategória AA++-tól JJ-ig; eladáshoz és bérbeadáshoz kötelező [7]."
+          "2023. november 1. óta kiállítva 5 évig érvényes; 12 kategória A+++-tól I-ig; eladáshoz és bérbeadáshoz kötelező [7][14]."
         ],
         [
           "albérlet",
@@ -1352,6 +1352,11 @@
     {
       "title": "NAV – Adóazonosító jel és adókártya igénylése",
       "url": "https://nav.gov.hu/Elethelyzetek-adozasa/kezdetek/Adoazonosito-jel-es-adokartya",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Bankmonitor – Novembertől életbe lépnek az új energiatanúsítvány-szabályok (Oct 2023)",
+      "url": "https://bankmonitor.hu/mediatar/cikk/novembertol-eletbe-lepnek-az-uj-energiatanusitvany-szabalyok-mutatjuk-mi-valtozik/",
       "seen": "2026-10-26"
     }
   ],

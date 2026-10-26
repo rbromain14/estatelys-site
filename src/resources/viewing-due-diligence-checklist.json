@@ -22,10 +22,10 @@
       "hu": "Magánszemélyek évente két e-hiteles tulajdoni lapot ingyen kérhetnek le; minden további 4 800 Ft, a papíralapú hiteles másolat 10 000 Ft (2026) [2]."
     },
     {
-      "fr": "Un energetikai tanúsítvány (certificat énergétique) est valable 10 ans et classe le bien dans l'une des 12 catégories, de AA++ à JJ [4].",
-      "en": "An energetikai tanúsítvány (energy certificate) is valid for 10 years and rates the property in one of 12 classes, from AA++ to JJ [4].",
-      "de": "Ein energetikai tanúsítvány (Energieausweis) gilt 10 Jahre und ordnet die Immobilie einer von 12 Klassen zu, von AA++ bis JJ [4].",
-      "hu": "Az energetikai tanúsítvány 10 évig érvényes, és 12 kategória egyikébe sorolja az ingatlant, AA++-tól JJ-ig [4]."
+      "fr": "Un energetikai tanúsítvány (certificat énergétique) établi depuis le 1er novembre 2023 est valable 5 ans et classe le bien dans l'une des 12 catégories, de A+++ à I [14].",
+      "en": "An energetikai tanúsítvány (energy certificate) issued since 1 November 2023 is valid for 5 years and rates the property in one of 12 classes, from A+++ to I [14].",
+      "de": "Ein seit dem 1. November 2023 ausgestellter energetikai tanúsítvány (Energieausweis) gilt 5 Jahre und ordnet die Immobilie einer von 12 Klassen zu, von A+++ bis I [14].",
+      "hu": "A 2023. november 1. óta kiállított energetikai tanúsítvány 5 évig érvényes, és 12 kategória egyikébe sorolja az ingatlant, A+++-tól I-ig [14]."
     },
     {
       "fr": "Les copropriétés (társasház) de plus de six logements doivent faire inscrire leur közös képviselő (syndic) au registre foncier ; la date limite est le 31 octobre 2026 [5][6].",
@@ -184,7 +184,12 @@
     { "title": "Money.hu Tudástár – Hogy működik az elővásárlási jog? (frissítve 2026.03.23.)", "url": "https://tudastar.money.hu/ismerteto/elovasarlasi-jog/", "seen": "2026-10-26" },
     { "title": "Privátbankár – Mit jelent és hogy működik a haszonélvezeti jog?", "url": "https://privatbankar.hu/cikkek/ingatlan/mit-jelent-es-hogy-mukodik-a-haszonelvezeti-jog-288481.html", "seen": "2026-10-26" },
     { "title": "Economx – Közös költség tartozás és a társasház javára bejegyzett jelzálogjog", "url": "https://www.economx.hu/ingatlan/2012/09/08/igy_veszitheti_el_a_lakasat_ha_tartozik_a_haznak-530047/", "seen": "2026-10-26" },
-    { "title": "Money.hu Tudástár – Tulajdoni lap (fogalom): törzslap és különlap", "url": "https://tudastar.money.hu/fogalom/tulajdoni-lap/", "seen": "2026-10-26" }
+    { "title": "Money.hu Tudástár – Tulajdoni lap (fogalom): törzslap és különlap", "url": "https://tudastar.money.hu/fogalom/tulajdoni-lap/", "seen": "2026-10-26" },
+    {
+      "title": "Bankmonitor – Novembertől életbe lépnek az új energiatanúsítvány-szabályok (Oct 2023)",
+      "url": "https://bankmonitor.hu/mediatar/cikk/novembertol-eletbe-lepnek-az-uj-energiatanusitvany-szabalyok-mutatjuk-mi-valtozik/",
+      "seen": "2026-10-26"
+    }
   ],
   "legalNotice": true
 }
