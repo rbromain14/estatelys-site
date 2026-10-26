@@ -116,7 +116,7 @@ export const t = {
     de: "Estatelys Budapest kauft, renoviert und verkauft Charakterwohnungen im 1., 2., 5., 6., 7., 8. und 13. Bezirk von Budapest.",
     hu: "Az Estatelys Budapest karakteres lakásokat vásárol, újít fel és értékesít Budapest I., II., V., VI., VII., VIII. és XIII. kerületében.",
   },
-  heroAlt: { fr: "Le Parlement de Budapest de nuit, vu à travers les arcades du Bastion des pêcheurs", en: "Budapest's Parliament at night, seen through the arches of the Fishermen's Bastion", de: "Das Budapester Parlament bei Nacht, durch die Bögen der Fischerbastei gesehen", hu: "Az Országház éjjel a Halászbástya árkádjain át" },
+  heroAlt: { fr: "La basilique Saint-Étienne de Budapest entre deux rangées d'immeubles anciens, en noir et blanc", en: "St Stephen's Basilica in Budapest between two rows of historic apartment buildings, in black and white", de: "Die St.-Stephans-Basilika in Budapest zwischen zwei Reihen historischer Wohnhäuser, in Schwarzweiß", hu: "A budapesti Szent István-bazilika két sor régi bérház között, fekete-fehérben" },
   heroEyebrow: { fr: "Budapest · Immobilier de caractère", en: "Budapest · Character real estate", de: "Budapest · Charakterimmobilien", hu: "Budapest · Karakteres ingatlanok" },
   heroTitle: {
     fr: "Redonner vie aux<br class=\"brd\"> plus belles adresses<br class=\"brd\"> de Budapest",

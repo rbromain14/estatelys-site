@@ -146,4 +146,4 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .sim-r b{font:700 1.25rem var(--disp);font-variant-numeric:tabular-nums}
 @media (max-width:900px){.rwrap{grid-template-columns:1fr}.rside{position:static}}
 @media (max-width:560px){.sim-f{grid-template-columns:1fr}}
-.hero-img{filter:grayscale(1) contrast(1.15) brightness(1.1)}
+.hero-img{filter:grayscale(1)}

@@ -219,8 +219,8 @@ function home(l) {
   const R = (r) => rel(l, route, l, r);
   const body = `
 <section class="hero dk">
-  <img class="hero-img" src="https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1920" srcset="https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=900 900w, https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1600 1600w, https://images.unsplash.com/photo-1780134757922-df3cbc738807?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=2400 2400w" sizes="100vw" alt="${esc(t.heroAlt[l])}" fetchpriority="high">
-  <a class="hero-cr" href="https://unsplash.com/photos/QtPzZP9Y2Sk" target="_blank" rel="noopener">© waa towaw / Unsplash</a>
+  <img class="hero-img" src="https://images.unsplash.com/photo-1587325599468-a18a9650de2c?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1920" srcset="https://images.unsplash.com/photo-1587325599468-a18a9650de2c?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=900 900w, https://images.unsplash.com/photo-1587325599468-a18a9650de2c?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1600 1600w, https://images.unsplash.com/photo-1587325599468-a18a9650de2c?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=2400 2400w" sizes="100vw" alt="${esc(t.heroAlt[l])}" fetchpriority="high">
+  <a class="hero-cr" href="https://unsplash.com/photos/sbyz9wX9Rrg" target="_blank" rel="noopener">© Salmen Bejaoui / Unsplash</a>
   <div class="hero-fade"></div>
   <div class="wrap hero-in">
     <img class="hero-sig" src="${A("assets/signature-white.png")}" alt="" width="1400" height="341">
