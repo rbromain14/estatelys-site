@@ -1,9 +1,14 @@
 // Static site generator for Estatelys Budapest. No dependencies: `node build.mjs`.
 // Output: dist/  (FR at the root, EN/DE/HU under /en/, /de/, /hu/)
 // PREVIEW=1 node build.mjs  -> links end in index.html (for file:// or preview hosting)
+import { readdirSync } from "node:fs";
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources } from "./src/data.mjs";
+const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
+const RES_ITEMS = resources.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g })));
+const TOOL_PAGES = new Set(["sim"]);
+const resReady = (it) => Boolean(RES[it.key]) || TOOL_PAGES.has(it.key);
 const REFS = existsSync("src/refs.json") ? JSON.parse(readFileSync("src/refs.json", "utf8")) : [];
 
 const OUT = process.env.OUT || "dist";
@@ -488,10 +493,90 @@ function resourcesPage(l) {
 </div></section>
 <section class="sec wrap">
   <div class="res">
-    ${resources.groups.map((g) => `<div class="res-g"><h2 class="h3">${g.t[l]}</h2><ul>${g.items.map((it) => `<li><span>${it[l]}</span><a class="res-a" href="${R("contact/")}?r=${encodeURIComponent(it.en)}"><em>${resources.soon[l]}</em> ${resources.ask[l]} <i class="arr">→</i></a></li>`).join("")}</ul></div>`).join("")}
+    ${resources.groups.map((g) => `<div class="res-g"><h2 class="h3">${g.t[l]}</h2><ul>${g.items.map((it) => resReady(it)
+      ? `<li class="on"><a class="res-l" href="${R(`resources/${it.slug}/`)}">${it[l]}</a><a class="res-a" href="${R(`resources/${it.slug}/`)}">${resources.ui.read[l]} <i class="arr">→</i></a></li>`
+      : `<li><span>${it[l]}</span><a class="res-a" href="${R("contact/")}?r=${encodeURIComponent(it.en)}"><em>${resources.soon[l]}</em> ${resources.ask[l]} <i class="arr">→</i></a></li>`).join("")}</ul></div>`).join("")}
   </div>
 </section>`;
   return layout({ l, route, title: `${t.navResources[l]} — ${SITE.name}`, desc: resources.intro[l], body });
+}
+
+
+// ── resource pages ───────────────────────────────────────────
+const DATE_FMT = (d, l) => new Intl.DateTimeFormat(LOCALE[l], { day: "numeric", month: "long", year: "numeric" }).format(new Date(d + "T12:00:00Z"));
+function md(text = "", nSources = 0) {
+  const inline = (x) => esc(x)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\[(\d+)\]/g, (m, n) => (+n >= 1 && +n <= nSources ? `<sup><a href="#src-${n}">[${n}]</a></sup>` : m));
+  return String(text).trim().split(/\n\s*\n/).map((block) => {
+    const lines = block.split("\n").map((x) => x.trim()).filter(Boolean);
+    if (lines.length && lines.every((x) => /^- /.test(x))) return `<ul>${lines.map((x) => `<li>${inline(x.slice(2))}</li>`).join("")}</ul>`;
+    if (lines.length && lines.every((x) => /^\d+\. /.test(x))) return `<ol>${lines.map((x) => `<li>${inline(x.replace(/^\d+\. /, ""))}</li>`).join("")}</ol>`;
+    return `<p>${inline(lines.join(" "))}</p>`;
+  }).join("\n");
+}
+function simTool(l, r) {
+  const S = resources.sim, c = (r && r.calc) || {};
+  const buy = c.defaultBuyCostsPct ?? "";
+  const fields = [["price", 295000, 1000], ["buyCosts", buy, 0.1], ["works", 0, 500], ["rent", 1650, 10], ["vacancy", 0, 0.5], ["charges", 0, 5], ["mgmt", 0, 0.5], ["other", 0, 50], ["tax", "", 0.5]];
+  return `<form class="sim" data-sim onsubmit="return false">
+  <div class="sim-f">${fields.map(([k, v, step]) => `<label><span>${S.f[k][l]}</span><input type="number" inputmode="decimal" min="0" step="${step}" name="${k}" value="${v}"></label>`).join("")}</div>
+  <div class="sim-r" aria-live="polite">
+    ${["invest", "gross", "net", "netTax", "cash"].map((k) => `<div><span>${S.r[k][l]}</span><b data-out="${k}">–</b></div>`).join("")}
+  </div>
+  <p class="small muted">${S.r.formula[l]}</p>
+  <p class="small muted">${S.note[l]}</p>
+</form>`;
+}
+function costTool(l, r) {
+  const c = (r && r.calc) || {};
+  if (!c.transferDutyRate) return "";
+  return `<div class="sim" data-costs='${esc(JSON.stringify(c))}' data-lang="${l}">
+  <div class="sim-f"><label><span>${{ fr: "Prix du bien (€)", en: "Property price (€)", de: "Kaufpreis (€)", hu: "Az ingatlan ára (€)" }[l]}</span><input type="number" min="0" step="1000" name="p" value="295000"></label>
+  <label><span>${{ fr: "Prix de revente (€)", en: "Resale price (€)", de: "Verkaufspreis (€)", hu: "Eladási ár (€)" }[l]}</span><input type="number" min="0" step="1000" name="s" value=""></label>
+  <label><span>${{ fr: "Années de détention", en: "Years held", de: "Haltedauer (Jahre)", hu: "Tartási idő (év)" }[l]}</span><input type="number" min="0" max="30" step="1" name="y" value="3"></label></div>
+  <div class="sim-r" aria-live="polite" data-costs-out></div>
+</div>`;
+}
+function resourcePage(it, l) {
+  const r = RES[it.key] || null;
+  const route = `resources/${it.slug}/`;
+  const R = (x) => rel(l, route, l, x);
+  const title = r ? r.title[l] : (it.key === "sim" ? resources.sim.title[l] : it[l]);
+  const summary = r ? r.summary[l] : (it.key === "sim" ? resources.sim.summary[l] : "");
+  const n = r ? (r.sources || []).length : 0;
+  const tbl = r && r.table && r.table.rows && r.table.rows[l] ? `<div class="rtbl"><table>${r.table.caption ? `<caption>${esc(r.table.caption[l])}</caption>` : ""}<thead><tr>${r.table.head[l].map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${r.table.rows[l].map((row) => `<tr>${row.map((c, i) => i === 0 ? `<th scope="row">${md(String(c), n).replace(/^<p>|<\/p>$/g, "")}</th>` : `<td>${md(String(c), n).replace(/^<p>|<\/p>$/g, "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
+  const faq = r && r.faq && r.faq.length ? `<section class="rsec"><h2>${resources.ui.faq[l]}</h2><div class="rfaq">${r.faq.map((q) => `<details><summary>${esc(q.q[l])}</summary>${md(q.a[l], n)}</details>`).join("")}</div></section>` : "";
+  const siblings = it.group.items.filter((x) => x.key !== it.key && resReady(x));
+  const tool = it.key === "sim" ? simTool(l, RES.costs) : it.key === "costs" ? costTool(l, r) : "";
+  const places = r && r.places && r.places.length ? `<div class="map rmap" data-points='${esc(JSON.stringify(r.places.map((p) => ({ n: esc(p.name), a: esc(p.status ? p.status[l] : ""), t: esc((p.district ? p.district + " · " : "") + (p.note ? p.note[l] : "")), lat: p.lat, lng: p.lng }))))}'></div>` : "";
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow"><a href="${R("resources/")}">${t.navResources[l]}</a> · ${it.group.t[l]}</p>
+  <h1 class="rh1">${esc(title)}</h1>
+  ${summary ? `<p class="lead muted">${esc(summary)}</p>` : ""}
+  ${r ? `<p class="small muted rdate">${resources.ui.updated[l]} ${DATE_FMT(r.updated, l)}</p>` : ""}
+</div></section>
+<section class="sec wrap rwrap">
+  <article class="rart">
+    ${r && r.legalNotice ? `<p class="rnote">${resources.ui.legal[l]}</p>` : ""}
+    ${tool}
+    ${r && r.keyFacts && r.keyFacts.length ? `<div class="rkey"><h2 class="h4">${resources.ui.keyFacts[l]}</h2><ul>${r.keyFacts.map((k) => `<li>${md(k[l], n).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul></div>` : ""}
+    ${places}
+    ${r ? (r.sections || []).map((x, i) => `<section class="rsec"><h2>${esc(x.h[l])}</h2>${md(x.body[l], n)}</section>${i === 0 ? tbl : ""}`).join("") : ""}
+    ${r && !(r.sections || []).length ? tbl : ""}
+    ${faq}
+    ${n ? `<section class="rsec rsrc"><h2 class="h4">${resources.ui.sources[l]}</h2><ol>${r.sources.map((x, i) => `<li id="src-${i + 1}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="muted">— ${resources.ui.seen[l]} ${DATE_FMT(x.seen, l)}</span></li>`).join("")}</ol></section>` : ""}
+  </article>
+  <aside class="rside">
+    <div class="rbox"><p class="h4">${resources.ui.question[l]}</p><a class="btn" href="${R("contact/")}?r=${encodeURIComponent(it.en)}">${t.contactUs[l]}</a></div>
+    ${siblings.length ? `<div class="rbox"><p class="small muted">${resources.ui.related[l]}</p><ul>${siblings.map((x) => `<li><a href="${R(`resources/${x.slug}/`)}">${RES[x.key] ? esc(RES[x.key].title[l]) : x.key === "sim" ? resources.sim.title[l] : x[l]}</a></li>`).join("")}</ul></div>` : ""}
+    <a class="rback" href="${R("resources/")}"><i class="arr">←</i> ${resources.ui.back[l]}</a>
+  </aside>
+</section>`;
+  const ld = r && r.faq && r.faq.length ? `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: r.faq.map((q) => ({ "@type": "Question", name: q.q[l], acceptedAnswer: { "@type": "Answer", text: q.a[l].replace(/\*\*|\[\d+\]/g, "") } })) })}</script>` : "";
+  const art = r ? `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: title, description: summary, dateModified: r.updated, inLanguage: l, publisher: { "@type": "Organization", name: SITE.name, url: `https://${SITE.domain}/` } })}</script>` : "";
+  return layout({ l, route, title: `${title} — ${SITE.name}`, desc: summary || resources.intro[l], body, extraHead: (places ? leafletHead : "") + ld + art });
 }
 
 function referencesPage(l) {
@@ -539,7 +624,8 @@ cpSync("src/assets", join(OUT, "assets"), { recursive: true });
 const urls = [];
 for (const l of LANGS) {
   const pages = [["", home(l)], ["projects/", projectsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
-    ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)])];
+    ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
+    ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); }
 }
 write(join(OUT, "404.html"), notFound());
