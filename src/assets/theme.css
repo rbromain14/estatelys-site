@@ -148,3 +148,4 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 @media (max-width:560px){.sim-f{grid-template-columns:1fr}}
 .hero-img{filter:grayscale(1)}
 .hero::after,.phero::after,.phdr::after{display:none}
+.hero .eyebrow,.hero h1,.hero p{text-shadow:0 1px 18px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.45)}
