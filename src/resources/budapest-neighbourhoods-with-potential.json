@@ -1,0 +1,933 @@
+{
+  "slug": "budapest-neighbourhoods-with-potential",
+  "item": "map",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Quartiers de Budapest à potentiel : la carte des projets",
+    "en": "Budapest neighbourhoods with potential: the projects map",
+    "de": "Budapester Viertel mit Potenzial: die Projektkarte",
+    "hu": "Budapesti városrészek fejlődési lehetőséggel: projekttérkép"
+  },
+  "summary": {
+    "fr": "Projets de transport et de renouvellement urbain qui vont changer des quartiers de Budapest, avec leur statut au 26 octobre 2026 et leur source.",
+    "en": "Transport and regeneration projects that will change Budapest neighbourhoods, each with its status on 26 October 2026 and its source.",
+    "de": "Verkehrs- und Stadtentwicklungsprojekte, die Budapester Viertel verändern, jeweils mit Stand vom 26. Oktober 2026 und Quelle.",
+    "hu": "Közlekedési és városfejlesztési projektek, amelyek budapesti városrészeket alakítanak át, 2026. október 26-i állapottal és forrással."
+  },
+  "keyFacts": [
+    {
+      "fr": "Tramway de Buda, 2e phase : 2,8 km, 7 paires d’arrêts, subvention UE de 32,32 Mrd HUF, fin prévue fin 2029 [6].",
+      "en": "Buda tram, phase II: 2.8 km, 7 pairs of stops, EU grant of HUF 32.32 billion, completion planned for end-2029 [6].",
+      "de": "Budaer Straßenbahn, 2. Phase: 2,8 km, 7 Haltestellenpaare, EU-Zuschuss von 32,32 Mrd. HUF, Fertigstellung Ende 2029 geplant [6].",
+      "hu": "Budai fonódó villamos II. ütem: 2,8 km, 7 megállópár, 32,32 milliárd Ft uniós támogatás, tervezett befejezés 2029 vége [6]."
+    },
+    {
+      "fr": "Métro M3 prolongé jusqu’à la gare de Rákospalota-Újpest : 2 nouvelles stations, 80 Mrd HUF, achèvement possible en 2030 selon le ministre [9].",
+      "en": "M3 metro extended to Rákospalota-Újpest station: 2 new stations, HUF 80 billion, possible completion in 2030 according to the minister [9].",
+      "de": "Verlängerung der Metro M3 bis zum Bahnhof Rákospalota-Újpest: 2 neue Stationen, 80 Mrd. HUF, Fertigstellung laut Minister 2030 möglich [9].",
+      "hu": "Az M3-as metró meghosszabbítása Rákospalota-Újpest vasútállomásig: 2 új állomás, 80 milliárd Ft, a miniszter szerint 2030-ra elkészülhet [9]."
+    },
+    {
+      "fr": "Rákosrendező : environ 10 000 logements et 25 ha d’espaces verts dans le plan lauréat ; premiers travaux visibles vers 2029 [3].",
+      "en": "Rákosrendező: about 10,000 homes and 25 ha of green space in the winning masterplan; first visible works around 2029 [3].",
+      "de": "Rákosrendező: rund 10.000 Wohnungen und 25 ha Grünflächen im Siegerentwurf; erste sichtbare Arbeiten um 2029 [3].",
+      "hu": "Rákosrendező: a győztes mesterterv nagyjából 10 ezer lakással és 25 hektár zöldfelülettel számol; az első látható munkák 2029 körül [3]."
+    },
+    {
+      "fr": "Déli körvasút (ceinture ferroviaire sud) : le 9 octobre 2026, le gouvernement a annoncé la résiliation du contrat de travaux, à 42 % d’avancement technique [12][17].",
+      "en": "Déli körvasút (southern rail ring): on 9 October 2026 the government announced the termination of the works contract, at 42% technical progress [12][17].",
+      "de": "Déli körvasút (südlicher Bahnring): Am 9. Oktober 2026 kündigte die Regierung die Auflösung des Bauvertrags an, bei 42 % technischem Fertigstellungsgrad [12][17].",
+      "hu": "Déli körvasút: a kormány 2026. október 9-én bejelentette a kivitelezési szerződés felbontását, 42%-os műszaki készültségnél [12][17]."
+    },
+    {
+      "fr": "Liaison métro M2 – HÉV de Gödöllő : coût estimé à 270 Mrd HUF, mise en service attendue en 2035 [10].",
+      "en": "M2 metro – Gödöllő HÉV link: estimated cost HUF 270 billion, opening expected in 2035 [10].",
+      "de": "Verbindung Metro M2 – HÉV nach Gödöllő: geschätzte Kosten 270 Mrd. HUF, Inbetriebnahme für 2035 erwartet [10].",
+      "hu": "M2-es metró és gödöllői HÉV összekötése: becsült költség 270 milliárd Ft, várható átadás 2035 [10]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Comment lire cette carte",
+        "en": "How to read this map",
+        "de": "So lesen Sie diese Karte",
+        "hu": "Hogyan olvassa a térképet?"
+      },
+      "body": {
+        "fr": "La carte et le tableau recensent les projets qui vont changer la manière dont on accède à un quartier de Budapest ou dont on l’utilise : lignes de métro, de HÉV (train de banlieue) et de tramway, ponts, ceinture ferroviaire et grandes friches à reconvertir. Chaque projet porte son statut au 26 octobre 2026 et la source utilisée pour le vérifier.\n\nLes statuts :\n- **Achevé** : ouvert ou livré.\n- **En travaux** : chantier en cours sur le terrain.\n- **Prévu** : décidé ou en conception, sans chantier pour l’instant. Beaucoup de projets prévus dépendent de fonds européens qui ne sont pas encore acquis.\n- **Suspendu** : arrêté par une décision, sans reprise confirmée.\n- **Abandonné** : retiré officiellement.\n\nLa politique a changé en 2026. Après les élections du printemps 2026, un nouveau gouvernement est entré en fonctions et un ministère des Transports et des Investissements pilote désormais les grands projets [5][8]. Le Fővárosi Közfejlesztések Tanácsa (Conseil des aménagements publics de Budapest), organe commun de cinq membres du gouvernement et cinq de la Ville qui décide à l’unanimité, a été rétabli et s’est réuni le 1er octobre 2026 [1]. Plusieurs projets arrêtés par le gouvernement précédent ont été relancés, et au moins un a été stoppé. Les dates annoncées par les ministres sont des objectifs, pas des engagements : le ministre a lui-même indiqué en septembre 2026 que tous les projets ne seront pas terminés en 2030 [8].\n\nCette page ne dit pas si un projet fera monter les prix immobiliers : aucune des sources consultées ne l’affirme.",
+        "en": "The map and the table list projects that will change how a Budapest neighbourhood is reached or used: metro, HÉV (suburban rail) and tram lines, bridges, a rail ring and large brownfield sites. Each project carries its status on 26 October 2026 and the source used to check it.\n\nStatus labels:\n- **Completed**: open or handed over.\n- **Under construction**: works under way on site.\n- **Planned**: decided or in design, with no works on site yet. Many planned projects depend on EU funds that are not yet secured.\n- **Suspended**: stopped by a decision, with no confirmed restart.\n- **Cancelled**: formally dropped.\n\nPolicy changed in 2026. After the spring 2026 election a new government took office, and a Ministry of Transport and Investment now leads the major projects [5][8]. The Fővárosi Közfejlesztések Tanácsa (Budapest Public Development Council), a joint body of five government and five city members that decides unanimously, was re-established and met on 1 October 2026 [1]. Several projects stopped by the previous government have been restarted, and at least one has been halted. Dates announced by ministers are targets, not commitments: the minister himself said in September 2026 that not every project will be finished by 2030 [8].\n\nThis page does not say whether a project will raise property prices: none of the sources consulted makes that claim.",
+        "de": "Karte und Tabelle erfassen Projekte, die verändern werden, wie ein Budapester Viertel erreicht oder genutzt wird: Metro-, HÉV- (Vorortbahn-) und Straßenbahnlinien, Brücken, ein Bahnring und große Brachflächen. Jedes Projekt trägt seinen Stand vom 26. Oktober 2026 und die Quelle, mit der er geprüft wurde.\n\nDie Statusangaben:\n- **Abgeschlossen**: eröffnet oder übergeben.\n- **Im Bau**: Arbeiten vor Ort laufen.\n- **Geplant**: beschlossen oder in Planung, noch ohne Baustelle. Viele geplante Projekte hängen von EU-Mitteln ab, die noch nicht gesichert sind.\n- **Ausgesetzt**: durch eine Entscheidung gestoppt, ohne bestätigte Wiederaufnahme.\n- **Aufgegeben**: offiziell gestrichen.\n\nDie Politik hat sich 2026 geändert. Nach der Wahl im Frühjahr 2026 trat eine neue Regierung ihr Amt an, und ein Ministerium für Verkehr und Investitionen steuert nun die Großprojekte [5][8]. Der Fővárosi Közfejlesztések Tanácsa (Rat für öffentliche Entwicklungen Budapests), ein gemeinsames Gremium aus fünf Regierungs- und fünf Stadtvertretern, das einstimmig entscheidet, wurde wieder eingerichtet und tagte am 1. Oktober 2026 [1]. Mehrere von der Vorgängerregierung gestoppte Projekte wurden wieder aufgenommen, mindestens eines wurde angehalten. Von Ministern genannte Termine sind Ziele, keine Zusagen: Der Minister sagte im September 2026 selbst, dass nicht alle Projekte bis 2030 fertig sein werden [8].\n\nDiese Seite sagt nicht, ob ein Projekt die Immobilienpreise steigen lässt: Keine der geprüften Quellen behauptet das.",
+        "hu": "A térkép és a táblázat azokat a projekteket gyűjti össze, amelyek megváltoztatják, hogyan lehet megközelíteni vagy használni egy-egy budapesti városrészt: metró-, HÉV- és villamosvonalak, hidak, vasúti körgyűrű és nagy rozsdaövezeti területek. Minden projektnél szerepel a 2026. október 26-i állapot és az ellenőrzéshez használt forrás.\n\nAz állapotok:\n- **Elkészült**: átadták vagy üzemel.\n- **Épül**: a helyszínen folynak a munkák.\n- **Tervezett**: döntés született róla vagy tervezés alatt áll, de még nincs kivitelezés. Sok tervezett projekt olyan uniós forrásoktól függ, amelyek még nem biztosak.\n- **Felfüggesztve**: döntéssel leállították, újraindítása nem megerősített.\n- **Elvetve**: hivatalosan törölték.\n\n2026-ban változott a politika. A 2026 tavaszi választás után új kormány alakult, és a nagyberuházásokat ma a Közlekedési és Beruházási Minisztérium irányítja [5][8]. Újra felállt a Fővárosi Közfejlesztések Tanácsa, a kormány és a főváros öt-öt tagjából álló, egyhangúlag döntő közös testület, amely 2026. október 1-jén ülésezett [1]. Az előző kormány által leállított projektek közül többet újraindítottak, legalább egyet pedig leállítottak. A miniszterek által közölt határidők célok, nem vállalások: a miniszter maga mondta 2026 szeptemberében, hogy nem minden projekt készül el 2030-ig [8].\n\nAz oldal nem állítja, hogy egy projekt emelné az ingatlanárakat: a felhasznált források egyike sem állít ilyet."
+      }
+    },
+    {
+      "h": {
+        "fr": "Métro et HÉV : ce qui est prévu",
+        "en": "Metro and HÉV: what is planned",
+        "de": "Metro und HÉV: was geplant ist",
+        "hu": "Metró és HÉV: mi várható?"
+      },
+      "body": {
+        "fr": "- **Métro M3, prolongement nord (IVe et XVe arrondissements).** Annoncé le 22 juillet 2026 : la ligne ira jusqu’à la gare de Rákospalota-Újpest, avec deux nouvelles stations (le terminus et un arrêt à la cité de la rue Rózsa). Les travaux sont estimés à 80 Mrd HUF, financés par l’UE ; selon le ministre, ils pourraient être terminés en 2030 [9]. Un prolongement plus long jusqu’à Káposztásmegyer (4,8 km, cinq stations) reste un simple objectif [9]. Statut : prévu.\n- **Liaison métro M2 – HÉV de Gödöllő (XIVe et XVIe arrondissements).** En avril 2026, le ministère précédent a signé un contrat d’études de 8,5 Mrd HUF. Le projet complet est estimé à 270 Mrd HUF, avec une mise en service attendue en 2035 ; les travaux pourraient commencer vers 2029–2030, et un financement européen est peu probable avant la période budgétaire 2028–2035 [10]. Statut : prévu.\n- **Lignes HÉV H5 (Szentendre), H6 (Ráckeve) et H7 (Csepel).** Renouvellement des voies, quais accessibles et doublement partiel des voies sont prévus d’ici 2030 [8]. 42 nouvelles rames accessibles et climatisées sont en cours d’achat, avec de premières livraisons attendues en 2029 [10][16]. Le contrat antérieur pour les lignes de Ráckeve et de Csepel avait été résilié sous le gouvernement précédent [5]. Statut : prévu.\n- **Tunnel du HÉV (M5, train régional nord–sud) et tunnel ferroviaire sous le Danube.** Les deux restent des concepts de long terme de la stratégie ferroviaire de l’agglomération. Aucun n’est conçu ni décidé ; en juin 2026, le ministre a jugé irréaliste de les construire maintenant et les a renvoyés à un futur cycle de financement européen [11]. Statut : concept, sans décision.",
+        "en": "- **M3 metro, northern extension (Districts IV and XV).** Announced on 22 July 2026: the line will run to Rákospalota-Újpest railway station, with two new stations (the terminus and a stop at the Rózsa utca housing estate). Construction is estimated at HUF 80 billion, funded by the EU; the minister said it could be finished by 2030 [9]. A longer extension to Káposztásmegyer (4.8 km, five stations) remains an aim only [9]. Status: planned.\n- **M2 metro – Gödöllő HÉV link (Districts XIV and XVI).** In April 2026 the previous ministry signed a HUF 8.5 billion design contract. The whole project is estimated at HUF 270 billion with opening expected in 2035; construction could start around 2029–2030, and EU money is unlikely before the 2028–2035 budget period [10]. Status: planned.\n- **HÉV lines H5 (Szentendre), H6 (Ráckeve) and H7 (Csepel).** Track renewal, accessible platforms and partial double-tracking are planned within the 2030 horizon [8]. 42 new accessible, air-conditioned trains are being procured, with first deliveries expected in 2029 [10][16]. The earlier contract for the Ráckeve and Csepel lines had been terminated under the previous government [5]. Status: planned.\n- **HÉV tunnel (M5, north–south regional rail) and the Danube rail tunnel.** Both remain long-term concepts in the agglomeration rail strategy. Neither has been designed or decided; in June 2026 the minister said building them now is not realistic and placed them in a future EU funding cycle [11]. Status: concept, no decision.",
+        "de": "- **Metro M3, Nordverlängerung (Bezirke IV und XV).** Angekündigt am 22. Juli 2026: Die Linie wird bis zum Bahnhof Rákospalota-Újpest geführt, mit zwei neuen Stationen (Endstation und Halt an der Wohnsiedlung Rózsa utca). Die Bauarbeiten werden auf 80 Mrd. HUF geschätzt und von der EU finanziert; laut Minister könnten sie bis 2030 abgeschlossen sein [9]. Eine längere Verlängerung bis Káposztásmegyer (4,8 km, fünf Stationen) bleibt nur ein Ziel [9]. Status: geplant.\n- **Verbindung Metro M2 – HÉV nach Gödöllő (Bezirke XIV und XVI).** Im April 2026 unterzeichnete das frühere Ministerium einen Planungsvertrag über 8,5 Mrd. HUF. Das Gesamtprojekt wird auf 270 Mrd. HUF geschätzt, die Inbetriebnahme für 2035 erwartet; der Bau könnte um 2029–2030 beginnen, EU-Mittel sind vor dem Haushaltszeitraum 2028–2035 unwahrscheinlich [10]. Status: geplant.\n- **HÉV-Linien H5 (Szentendre), H6 (Ráckeve) und H7 (Csepel).** Gleiserneuerung, barrierefreie Bahnsteige und ein teilweise zweigleisiger Ausbau sind bis 2030 vorgesehen [8]. 42 neue barrierefreie, klimatisierte Züge werden beschafft, erste Lieferungen werden 2029 erwartet [10][16]. Der frühere Vertrag für die Linien nach Ráckeve und Csepel war unter der Vorgängerregierung aufgelöst worden [5]. Status: geplant.\n- **HÉV-Tunnel (M5, Nord-Süd-Regionalbahn) und Bahntunnel unter der Donau.** Beide bleiben langfristige Konzepte der Bahnstrategie für den Großraum. Keiner ist geplant oder beschlossen; im Juni 2026 bezeichnete der Minister ihren Bau derzeit als unrealistisch und verwies sie auf einen künftigen EU-Förderzeitraum [11]. Status: Konzept, keine Entscheidung.",
+        "hu": "- **Az M3-as metró északi meghosszabbítása (IV. és XV. kerület).** 2026. július 22-én jelentették be: a vonal Rákospalota-Újpest vasútállomásig hosszabbodik, két új állomással (a végállomással és egy Rózsa utcai lakótelepi megállóval). A kivitelezés becsült költsége 80 milliárd Ft, uniós forrásból; a miniszter szerint 2030-ra elkészülhet [9]. A hosszabb, Káposztásmegyerig tartó változat (4,8 km, öt állomás) egyelőre csak cél [9]. Állapot: tervezett.\n- **Az M2-es metró és a gödöllői HÉV összekötése (XIV. és XVI. kerület).** 2026 áprilisában az előző minisztérium 8,5 milliárd Ft-os tervezési szerződést írt alá. A teljes beruházás becsült költsége 270 milliárd Ft, a várható átadás 2035; a kivitelezés 2029–2030 körül indulhat, uniós forrás a 2028–2035-ös költségvetési időszak előtt kevéssé valószínű [10]. Állapot: tervezett.\n- **A H5 (szentendrei), H6 (ráckevei) és H7 (csepeli) HÉV.** 2030-ig pályafelújítás, akadálymentes peronok és részleges második vágány épülhet [8]. Folyamatban van 42 új, akadálymentes, klimatizált szerelvény beszerzése, az első szállítások 2029-re várhatók [10][16]. A ráckevei és csepeli vonal korábbi szerződését az előző kormány idején felbontották [5]. Állapot: tervezett.\n- **HÉV-alagút (M5, észak–déli regionális gyorsvasút) és Duna alatti vasúti alagút.** Mindkettő az agglomerációs vasútstratégia hosszú távú koncepciója. Egyiket sem tervezték meg és nem döntöttek róluk; a miniszter 2026 júniusában úgy fogalmazott, hogy most nem reális megépíteni őket, és egy későbbi uniós finanszírozási ciklusra tette őket [11]. Állapot: koncepció, döntés nélkül."
+      }
+    },
+    {
+      "h": {
+        "fr": "Tramways",
+        "en": "Trams",
+        "de": "Straßenbahnen",
+        "hu": "Villamosok"
+      },
+      "body": {
+        "fr": "- **Budai fonódó villamos, 2e phase (réseau de tramway interconnecté de Buda, XIe arrondissement).** Nouvelle ligne à double voie de 2,8 km, de la place Szent Gellért le long du quai Műegyetem jusqu’au secteur Budafoki út–Dombóvári út, avec sept paires d’arrêts accessibles et des liaisons vers les campus universitaires, Infopark et Kopaszi-gát. La convention de subvention a été signée le 6 juillet 2026 (subvention UE de 32,32 Mrd HUF). Les travaux préparatoires pouvaient commencer à l’automne 2026 et la fin est prévue fin 2029 [6]. Statut : prévu, contrat signé.\n- **Pesti fonódó villamos (réseau de tramway interconnecté de Pest, Ve, VIe et XIIIe arrondissements).** Après le changement de gouvernement, la Ville a autorisé la BKK à poursuivre les études. Le projet comprend le déplacement des voies sur Bajcsy-Zsilinszky út, un arrêt à côté de la halle Eiffel de la gare de l’Ouest, un parc à la place de la gare routière et la démolition du pont routier de Nyugati [7]. L’achèvement est visé pour 2030 [8]. Aucun coût de travaux n’a été publié [7]. Statut : prévu.\n\nPour ces deux projets, les travaux se feront par étapes selon la libération des emprises ; des coupures de circulation sont à prévoir pendant le chantier [6].",
+        "en": "- **Budai fonódó villamos, phase II (Buda interlinked tram network, District XI).** A new 2.8 km double-track line from Szent Gellért tér along the Műegyetem embankment to the Budafoki út–Dombóvári út area, with seven pairs of accessible stops and links to the university campuses, Infopark and Kopaszi-gát. The grant agreement was signed on 6 July 2026 (EU grant of HUF 32.32 billion). Preparatory works could begin in autumn 2026 and completion is planned for the end of 2029 [6]. Status: planned, contract signed.\n- **Pesti fonódó villamos (Pest interlinked tram network, Districts V, VI and XIII).** After the change of government, the city authorised BKK to continue the design. The project includes moving the tracks on Bajcsy-Zsilinszky út, a stop beside the Eiffel hall of Nyugati station, a park in place of the bus station, and the removal of the Nyugati flyover [7]. Completion is targeted for 2030 [8]. No construction cost has been published [7]. Status: planned.\n\nFor both projects, works will proceed in stages as sites become available; traffic disruption should be expected during construction [6].",
+        "de": "- **Budai fonódó villamos, 2. Phase (verknüpftes Straßenbahnnetz Buda, Bezirk XI).** Eine neue, 2,8 km lange zweigleisige Strecke vom Szent Gellért tér entlang des Műegyetem-Kais bis zum Bereich Budafoki út–Dombóvári út, mit sieben barrierefreien Haltestellenpaaren und Anbindung der Universitätscampus, von Infopark und Kopaszi-gát. Der Fördervertrag wurde am 6. Juli 2026 unterzeichnet (EU-Zuschuss 32,32 Mrd. HUF). Vorbereitende Arbeiten konnten im Herbst 2026 beginnen, die Fertigstellung ist für Ende 2029 geplant [6]. Status: geplant, Vertrag unterzeichnet.\n- **Pesti fonódó villamos (verknüpftes Straßenbahnnetz Pest, Bezirke V, VI und XIII).** Nach dem Regierungswechsel ermächtigte die Stadt die BKK, die Planung fortzusetzen. Vorgesehen sind die Verlegung der Gleise in der Bajcsy-Zsilinszky út, eine Haltestelle neben der Eiffel-Halle des Westbahnhofs, ein Park anstelle des Busbahnhofs und der Abriss der Hochstraße am Nyugati tér [7]. Ziel ist die Fertigstellung bis 2030 [8]. Baukosten wurden nicht veröffentlicht [7]. Status: geplant.\n\nBei beiden Projekten wird abschnittsweise gebaut, je nachdem, wann Flächen frei werden; während der Bauzeit ist mit Verkehrseinschränkungen zu rechnen [6].",
+        "hu": "- **Budai fonódó villamos II. ütem (XI. kerület).** Új, 2,8 km-es kétvágányú vonal a Szent Gellért tértől a Műegyetem rakparton át a Budafoki út–Dombóvári út térségéig, hét akadálymentes megállópárral, az egyetemi kampuszok, az Infopark és a Kopaszi-gát bekötésével. A támogatási szerződést 2026. július 6-án írták alá (32,32 milliárd Ft uniós támogatás). Az előkészítő munkák 2026 őszén kezdődhettek, a befejezés 2029 végére tervezett [6]. Állapot: tervezett, szerződés aláírva.\n- **Pesti fonódó villamos (V., VI. és XIII. kerület).** A kormányváltás után a főváros felhatalmazta a BKK-t a tervezés folytatására. A projekt része a Bajcsy-Zsilinszky úti vágányok áthelyezése, megálló a Nyugati pályaudvar Eiffel-csarnoka mellett, park a buszpályaudvar helyén és a Nyugati téri felüljáró elbontása [7]. A cél a 2030-as befejezés [8]. Kivitelezési költséget nem tettek közzé [7]. Állapot: tervezett.\n\nMindkét projekt ütemezve, a területek átadásától függően épül; az építkezés alatt forgalmi korlátozásokkal kell számolni [6]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Ponts et ceinture ferroviaire sud",
+        "en": "Bridges and the southern rail ring",
+        "de": "Brücken und südlicher Bahnring",
+        "hu": "Hidak és a Déli körvasút"
+      },
+      "body": {
+        "fr": "- **Déli körvasút (ceinture ferroviaire sud), 2e phase, Kelenföld–Ferencváros (XIe et IXe arrondissements).** Les travaux ont commencé en janvier 2024. Le 9 octobre 2026, le gouvernement a annoncé la résiliation du contrat de travaux et un nouvel appel d’offres ; des plaintes pénales doivent être déposées au sujet de la passation [12]. La Commission européenne s’était retirée de la convention de subvention en raison de soupçons d’irrégularités dans l’appel d’offres ; l’avancement technique atteignait 42 % [17]. Le projet comprend deux nouvelles haltes, Közvágóhíd et Nádorkert, et doit faire passer la capacité de 18 à 32 trains par heure et par sens. L’arrêté gouvernemental 1325/2026 (X.9.) repousse l’échéance à fin 2030 [12]. Statut : suspendu.\n- **Pont Galvani.** Nouveau pont routier prévu entre Galvani út (XIe arrondissement), le nord de l’île de Csepel et Pest. Il disposait de ses autorisations environnementales, mais ses études ont été arrêtées par décret gouvernemental le 5 septembre 2023 [4]. En avril 2026, le futur ministre a déclaré le pont toujours nécessaire, tout en reconnaissant l’opposition locale [5]. Aucune décision de relance n’avait été publiée au 26 octobre 2026. Statut : suspendu.\n- **Rénovation du pont Petőfi (IXe et XIe arrondissements).** Le 25 février 2026, l’assemblée municipale a approuvé l’appel d’offres d’études. La rénovation complète est estimée à 40–45 Mrd HUF TTC ; le choix entre simple entretien et rénovation complète est attendu à l’automne 2027, et les travaux pourraient commencer en 2029 au plus tôt [13]. Statut : prévu.",
+        "en": "- **Déli körvasút (southern rail ring), phase II, Kelenföld–Ferencváros (Districts XI and IX).** Works began in January 2024. On 9 October 2026 the government announced that it would terminate the works contract and re-tender; criminal complaints are to be filed over the procurement [12]. The European Commission had withdrawn from the grant agreement over suspected irregularities in the tender; technical progress stood at 42% [17]. The project includes two new stops, Közvágóhíd and Nádorkert, and is to raise capacity from 18 to 32 trains per hour in each direction. Government Decree 1325/2026 (X.9.) extends the deadline to the end of 2030 [12]. Status: suspended.\n- **Galvani bridge.** A new road bridge planned between Galvani út (District XI), the north of Csepel Island and Pest. Its environmental permits were in place, but its planning was halted by government decree on 5 September 2023 [4]. In April 2026 the incoming minister said the bridge is still needed, while acknowledging local opposition [5]. No restart decision had been published by 26 October 2026. Status: suspended.\n- **Petőfi bridge renovation (Districts IX and XI).** On 25 February 2026 the City Assembly approved the design procurement. A full renovation is estimated at HUF 40–45 billion gross; the choice between maintenance only and full renovation is expected in autumn 2027, and works could start in 2029 at the earliest [13]. Status: planned.",
+        "de": "- **Déli körvasút (südlicher Bahnring), 2. Phase, Kelenföld–Ferencváros (Bezirke XI und IX).** Die Arbeiten begannen im Januar 2024. Am 9. Oktober 2026 kündigte die Regierung an, den Bauvertrag aufzulösen und neu auszuschreiben; wegen der Vergabe sollen Strafanzeigen erstattet werden [12]. Die Europäische Kommission war wegen mutmaßlicher Unregelmäßigkeiten bei der Ausschreibung aus dem Fördervertrag ausgestiegen; der technische Fertigstellungsgrad lag bei 42 % [17]. Das Projekt umfasst zwei neue Haltepunkte, Közvágóhíd und Nádorkert, und soll die Kapazität von 18 auf 32 Züge pro Stunde und Richtung erhöhen. Die Regierungsverordnung 1325/2026 (X.9.) verlängert die Frist bis Ende 2030 [12]. Status: ausgesetzt.\n- **Galvani-Brücke.** Geplante neue Straßenbrücke zwischen der Galvani út (Bezirk XI), dem Norden der Insel Csepel und Pest. Die Umweltgenehmigungen lagen vor, ihre Planung wurde jedoch am 5. September 2023 per Regierungsverordnung gestoppt [4]. Im April 2026 nannte der designierte Minister die Brücke weiterhin notwendig, räumte aber den Widerstand vor Ort ein [5]. Bis zum 26. Oktober 2026 war keine Entscheidung über eine Wiederaufnahme veröffentlicht. Status: ausgesetzt.\n- **Sanierung der Petőfi-Brücke (Bezirke IX und XI).** Am 25. Februar 2026 genehmigte die Stadtversammlung die Ausschreibung der Planung. Eine Komplettsanierung wird auf 40–45 Mrd. HUF brutto geschätzt; die Wahl zwischen reiner Instandhaltung und Komplettsanierung wird für Herbst 2027 erwartet, Bauarbeiten könnten frühestens 2029 beginnen [13]. Status: geplant.",
+        "hu": "- **Déli körvasút II. ütem, Kelenföld–Ferencváros (XI. és IX. kerület).** A munkák 2024 januárjában kezdődtek. 2026. október 9-én a kormány bejelentette, hogy felbontja a kivitelezési szerződést és új közbeszerzést ír ki; a közbeszerzés miatt büntetőfeljelentést tesznek [12]. Az Európai Bizottság a közbeszerzési szabálytalanságok gyanúja miatt kilépett a támogatási szerződésből; a műszaki készültség 42% volt [17]. A projekt két új megállót hoz (Közvágóhíd és Nádorkert), és irányonként óránként 18-ról 32-re növelné a vonatok számát. Az 1325/2026. (X. 9.) Korm. határozat 2030 végéig hosszabbítja meg a határidőt [12]. Állapot: felfüggesztve.\n- **Galvani híd.** A Galvani út (XI. kerület), a Csepel-sziget északi része és Pest között tervezett új közúti híd. Környezetvédelmi engedélyei megvoltak, de tervezését 2023. szeptember 5-én kormányrendelet leállította [4]. A leendő miniszter 2026 áprilisában azt mondta, hogy a hídra továbbra is szükség van, miközben elismerte a helyi ellenállást [5]. 2026. október 26-ig nem jelent meg döntés az újraindításról. Állapot: felfüggesztve.\n- **A Petőfi híd felújítása (IX. és XI. kerület).** A Fővárosi Közgyűlés 2026. február 25-én jóváhagyta a tervezési közbeszerzést. A teljes felújítás becsült költsége bruttó 40–45 milliárd Ft; a csak karbantartás és a teljes felújítás közötti döntés 2027 őszén várható, a munkák legkorábban 2029-ben kezdődhetnek [13]. Állapot: tervezett."
+      }
+    },
+    {
+      "h": {
+        "fr": "Grands secteurs de renouvellement urbain",
+        "en": "Large regeneration areas",
+        "de": "Große Stadterneuerungsgebiete",
+        "hu": "Nagy városmegújítási területek"
+      },
+      "body": {
+        "fr": "- **Diákváros (Cité étudiante), IXe arrondissement.** Ancienne zone industrielle entre Soroksári út et le bras de Soroksár du Danube, au sud de Pest et au nord de Csepel [1]. Le gouvernement précédent avait confié les terrains à une fondation pour un campus de l’université Fudan, jamais construit ; ils sont revenus au domaine public. Le 7 octobre 2026, le ministre a annoncé que le Conseil des aménagements publics avait décidé de relancer le projet sur la base du concours d’architecture antérieur, avec des places en résidence étudiante et des logements abordables, financés par des fonds européens [1][2]. Les plans antérieurs prévoyaient 12 000 places ; aucun nouveau chiffre ni calendrier n’a été publié [2]. Statut : prévu.\n- **Rákosrendező, XIVe arrondissement.** Ancienne gare de triage de près de 150 ha, à aménager conjointement par l’État et la Ville [1] ; les terrains ont été rachetés par une société de la Ville [3]. Le plan directeur lauréat, choisi le 31 mars 2026, prévoit environ 10 000 logements et 25 ha d’espaces verts ; l’État s’est engagé sur au moins 800 M EUR d’infrastructures ; les premiers travaux visibles pourraient intervenir vers 2029 [3]. Les logements suivront les principes du programme de logement Wekerle, dont le détail reste à publier [1]. Statut : prévu.\n- **Népliget, Xe arrondissement.** La Ville a préparé un plan de rénovation du parc, en commençant par le Planétarium, fermé depuis près de dix ans ; une nouvelle halte sur la ceinture ferroviaire est envisagée [14]. Le financement n’est pas acquis. Statut : proposé, non décidé.\n- **Corvin sétány (promenade Corvin), VIIIe arrondissement (Józsefváros).** La reconversion de 22 ha a commencé en 2004 et s’est achevée en 2022, avec environ 2 700 logements neufs [15]. Statut : achevé ; il figure ici comme exemple de projet terminé.",
+        "en": "- **Diákváros (Student City), District IX.** A former industrial area between Soroksári út and the Soroksár branch of the Danube, in south Pest and north Csepel [1]. The previous government had placed the land in a foundation for a Fudan University campus that was never built; the land is back in public ownership. On 7 October 2026 the minister announced that the Public Development Council had decided to restart the project on the basis of the earlier design competition, with student residence places and affordable homes, financed by EU funds [1][2]. Earlier plans provided for 12,000 places; no new figure or timetable has been published [2]. Status: planned.\n- **Rákosrendező, District XIV.** A former rail yard of nearly 150 ha, to be developed jointly by the state and the city [1]; the plots were bought by a city-owned company [3]. The winning masterplan, chosen on 31 March 2026, provides for about 10,000 homes and 25 ha of green space; the state committed at least EUR 800 million of infrastructure; the first visible works could come around 2029 [3]. Housing is to follow the principles of the Wekerle housing programme, with details still to be published [1]. Status: planned.\n- **Népliget, District X.** The city has prepared renewal plans for the park, starting with the Planetarium, closed for almost ten years; a new stop on the ring railway is foreseen [14]. Funding is not secured. Status: proposed, not decided.\n- **Corvin sétány (Corvin Promenade), District VIII (Józsefváros).** The redevelopment of 22 ha began in 2004 and was completed in 2022, with about 2,700 new homes [15]. Status: completed; it is shown here as an example of a finished project.",
+        "de": "- **Diákváros (Studentenstadt), Bezirk IX.** Ein ehemaliges Industriegebiet zwischen der Soroksári út und dem Soroksárer Donauarm, im Süden Pests und im Norden Csepels [1]. Die Vorgängerregierung hatte die Grundstücke einer Stiftung für einen nie gebauten Campus der Fudan-Universität übertragen; sie sind wieder in öffentlicher Hand. Am 7. Oktober 2026 gab der Minister bekannt, dass der Rat für öffentliche Entwicklungen die Wiederaufnahme des Projekts auf Grundlage des früheren Planungswettbewerbs beschlossen hat, mit Wohnheimplätzen und bezahlbaren Wohnungen, finanziert aus EU-Mitteln [1][2]. Frühere Pläne sahen 12.000 Plätze vor; neue Zahlen oder ein Zeitplan wurden nicht veröffentlicht [2]. Status: geplant.\n- **Rákosrendező, Bezirk XIV.** Ein ehemaliger Rangierbahnhof von fast 150 ha, den Staat und Stadt gemeinsam entwickeln sollen [1]; die Grundstücke kaufte ein städtisches Unternehmen [3]. Der am 31. März 2026 gewählte Siegerentwurf sieht rund 10.000 Wohnungen und 25 ha Grünflächen vor; der Staat sagte Infrastruktur im Wert von mindestens 800 Mio. EUR zu; erste sichtbare Arbeiten könnten um 2029 beginnen [3]. Der Wohnungsbau soll den Grundsätzen des Wekerle-Wohnungsprogramms folgen, Einzelheiten stehen noch aus [1]. Status: geplant.\n- **Népliget, Bezirk X.** Die Stadt hat Pläne zur Erneuerung des Parks ausgearbeitet, beginnend mit dem seit fast zehn Jahren geschlossenen Planetarium; ein neuer Halt an der Ringbahn ist vorgesehen [14]. Die Finanzierung ist nicht gesichert. Status: vorgeschlagen, nicht beschlossen.\n- **Corvin sétány (Corvin-Promenade), Bezirk VIII (Józsefváros).** Die Umgestaltung von 22 ha begann 2004 und wurde 2022 abgeschlossen, mit rund 2.700 neuen Wohnungen [15]. Status: abgeschlossen; sie steht hier als Beispiel für ein fertiges Projekt.",
+        "hu": "- **Diákváros, IX. kerület.** Egykori iparterület a Soroksári út és a Soroksári-Duna-ág között, Dél-Pesten és Észak-Csepelen [1]. Az előző kormány a területet a soha meg nem épült Fudan-kampusz céljára alapítványba helyezte; a telkek visszakerültek állami tulajdonba. 2026. október 7-én a miniszter bejelentette, hogy a Fővárosi Közfejlesztések Tanácsa döntött a projekt újraindításáról a korábbi tervpályázat alapján, kollégiumi férőhelyekkel és megfizethető lakásokkal, uniós forrásból [1][2]. A korábbi tervek 12 ezer férőhellyel számoltak; új számot vagy ütemtervet nem tettek közzé [2]. Állapot: tervezett.\n- **Rákosrendező, XIV. kerület.** Közel 150 hektáros egykori rendező-pályaudvar, amelyet az állam és a főváros közösen fejleszt [1]; a telkeket fővárosi cég vásárolta meg [3]. A 2026. március 31-én kiválasztott győztes mesterterv nagyjából 10 ezer lakással és 25 hektár zöldfelülettel számol; az állam legalább 800 millió euró értékű infrastruktúrát vállalt; az első látható munkák 2029 körül kezdődhetnek [3]. A lakásépítés a Wekerle lakásprogram elveit követi, a részleteket még nem tették közzé [1]. Állapot: tervezett.\n- **Népliget, X. kerület.** A főváros elkészítette a park megújításának terveit, az első lépés a közel tíz éve zárva tartó Planetárium; a körvasúton új megálló is szerepel a tervekben [14]. A finanszírozás nem biztos. Állapot: javaslat, döntés nélkül.\n- **Corvin sétány, VIII. kerület (Józsefváros).** A 22 hektáros terület megújítása 2004-ben kezdődött és 2022-ben zárult, nagyjából 2700 új lakással [15]. Állapot: elkészült; befejezett projekt példájaként szerepel."
+      }
+    },
+    {
+      "h": {
+        "fr": "Vérifier un projet avant d’acheter",
+        "en": "Checking a project before you buy",
+        "de": "Ein Projekt vor dem Kauf prüfen",
+        "hu": "Egy projekt ellenőrzése vásárlás előtt"
+      },
+      "body": {
+        "fr": "1. Vérifiez le statut à la source : décisions du Fővárosi Közfejlesztések Tanácsa, pages projets de la BKK (autorité des transports de Budapest) et décrets ou arrêtés publiés au Magyar Közlöny (Journal officiel hongrois).\n2. Traitez les dates comme des objectifs. Plusieurs projets de cette carte ont été arrêtés puis relancés au moins une fois : Diákváros, le pont Galvani, les lignes HÉV [2][4][5].\n3. Regardez le financement. Une grande partie de ces projets dépend de fonds européens dont les échéances, notamment la fin du cycle 2021–2027 en 2029, déterminent le calendrier [11].\n4. Repérez les chantiers proches. Un bien situé près d’une ligne en travaux peut subir coupures, bruit et déviations pendant plusieurs années ; la 2e phase du tramway de Buda est prévue sur environ trois ans [6].\n5. Consultez les règles d’urbanisme de l’arrondissement (kerületi építési szabályzat, KÉSZ, règlement local de construction) pour la parcelle concernée.",
+        "en": "1. Check the status at the source: decisions of the Fővárosi Közfejlesztések Tanácsa, BKK (Budapest transport authority) project pages, and decrees and resolutions published in the Magyar Közlöny (Hungarian official gazette).\n2. Treat dates as targets. Several projects on this map have been stopped and restarted at least once: Diákváros, the Galvani bridge, the HÉV lines [2][4][5].\n3. Look at the funding. Many of these projects depend on EU funds whose deadlines, in particular the end of the 2021–2027 cycle in 2029, drive the timetable [11].\n4. Locate nearby construction sites. A property close to a line under construction can face closures, noise and diversions for several years; phase II of the Buda tram is planned to take about three years [6].\n5. Read the district planning rules (kerületi építési szabályzat, KÉSZ, local building regulations) for the plot concerned.",
+        "de": "1. Prüfen Sie den Status an der Quelle: Beschlüsse des Fővárosi Közfejlesztések Tanácsa, Projektseiten der BKK (Budapester Verkehrsbehörde) sowie Verordnungen und Beschlüsse im Magyar Közlöny (ungarisches Amtsblatt).\n2. Betrachten Sie Termine als Ziele. Mehrere Projekte auf dieser Karte wurden mindestens einmal gestoppt und wieder aufgenommen: Diákváros, die Galvani-Brücke, die HÉV-Linien [2][4][5].\n3. Achten Sie auf die Finanzierung. Viele dieser Projekte hängen von EU-Mitteln ab, deren Fristen, insbesondere das Ende des Förderzeitraums 2021–2027 im Jahr 2029, den Zeitplan bestimmen [11].\n4. Ermitteln Sie nahe Baustellen. Eine Immobilie an einer Strecke im Bau kann über mehrere Jahre von Sperrungen, Lärm und Umleitungen betroffen sein; für die 2. Phase der Budaer Straßenbahn sind rund drei Jahre vorgesehen [6].\n5. Lesen Sie die Bauvorschriften des Bezirks (kerületi építési szabályzat, KÉSZ, örtliche Bauordnung) für das betreffende Grundstück.",
+        "hu": "1. Az állapotot a forrásnál ellenőrizze: a Fővárosi Közfejlesztések Tanácsa döntései, a BKK projektoldalai, valamint a Magyar Közlönyben megjelent rendeletek és határozatok.\n2. A határidőket kezelje célként. A térkép több projektjét legalább egyszer leállították, majd újraindították: Diákváros, Galvani híd, HÉV-vonalak [2][4][5].\n3. Nézze meg a finanszírozást. Sok projekt uniós forrásoktól függ, amelyek határideje, különösen a 2021–2027-es ciklus 2029-es vége, meghatározza az ütemezést [11].\n4. Tájékozódjon a közeli építkezésekről. Egy épülő vonal közelében lévő ingatlant évekig érinthetnek lezárások, zaj és terelések; a Budai fonódó villamos II. ütemének kivitelezése nagyjából három évig tart [6].\n5. Olvassa el az adott telekre vonatkozó kerületi építési szabályzatot (KÉSZ)."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Projets de transport et d’aménagement à Budapest, statut au 26 octobre 2026. Les dates sont celles annoncées par les autorités ou rapportées par la source ; ce sont des objectifs.",
+      "en": "Transport and development projects in Budapest, status on 26 October 2026. Dates are those announced by the authorities or reported by the source; they are targets.",
+      "de": "Verkehrs- und Entwicklungsprojekte in Budapest, Stand 26. Oktober 2026. Die Termine wurden von den Behörden angekündigt oder von der Quelle berichtet; es sind Zielwerte.",
+      "hu": "Budapesti közlekedési és városfejlesztési projektek, 2026. október 26-i állapot. Az időpontokat a hatóságok jelentették be vagy a forrás közölte; ezek célok."
+    },
+    "head": {
+      "fr": [
+        "Projet",
+        "Arrondissement",
+        "Statut au 26/10/2026",
+        "Date attendue",
+        "Source"
+      ],
+      "en": [
+        "Project",
+        "District",
+        "Status on 26 Oct 2026",
+        "Expected date",
+        "Source"
+      ],
+      "de": [
+        "Projekt",
+        "Bezirk",
+        "Stand 26.10.2026",
+        "Erwarteter Termin",
+        "Quelle"
+      ],
+      "hu": [
+        "Projekt",
+        "Kerület",
+        "Állapot 2026.10.26.",
+        "Várható időpont",
+        "Forrás"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "Tramway de Buda, 2e phase (Szent Gellért tér – Budafoki út)",
+          "XI",
+          "Prévu, contrat signé ; travaux préparatoires dès l’automne 2026",
+          "Fin 2029",
+          "[6]"
+        ],
+        [
+          "Tramway de Pest interconnecté (Nyugati tér, Bajcsy-Zsilinszky út)",
+          "V, VI, XIII",
+          "Prévu, études en cours",
+          "Objectif 2030",
+          "[7][8]"
+        ],
+        [
+          "Métro M3 jusqu’à Rákospalota-Újpest",
+          "IV, XV",
+          "Prévu, annoncé le 22/07/2026",
+          "2030 (estimation du ministre)",
+          "[9]"
+        ],
+        [
+          "Liaison métro M2 – HÉV de Gödöllő",
+          "XIV, XVI",
+          "Prévu, contrat d’études signé en avril 2026",
+          "2035 (estimation)",
+          "[10]"
+        ],
+        [
+          "HÉV H5, H6, H7 : rénovation et 42 nouvelles rames",
+          "III, IX, XXI, XXIII",
+          "Prévu, appels d’offres en préparation",
+          "Premières rames 2029 ; travaux d’ici 2030",
+          "[8][10][16]"
+        ],
+        [
+          "Tunnel HÉV (M5) et tunnel ferroviaire sous le Danube",
+          "V, VIII, IX",
+          "Concept, sans décision",
+          "Pas de date",
+          "[11]"
+        ],
+        [
+          "Déli körvasút, 2e phase (Kelenföld – Ferencváros)",
+          "XI, IX",
+          "Suspendu : contrat résilié le 09/10/2026, nouvel appel d’offres",
+          "Échéance repoussée à fin 2030",
+          "[12][17]"
+        ],
+        [
+          "Pont Galvani",
+          "XI, XXI, IX",
+          "Suspendu depuis septembre 2023 ; aucune relance publiée",
+          "Pas de date",
+          "[4][5]"
+        ],
+        [
+          "Rénovation du pont Petőfi",
+          "IX, XI",
+          "Prévu, études en cours d’attribution",
+          "Travaux en 2029 au plus tôt",
+          "[13]"
+        ],
+        [
+          "Diákváros (Cité étudiante)",
+          "IX",
+          "Prévu, relancé le 07/10/2026",
+          "Pas de calendrier publié",
+          "[1][2]"
+        ],
+        [
+          "Rákosrendező",
+          "XIV",
+          "Prévu, plan directeur choisi le 31/03/2026",
+          "Premiers travaux vers 2029",
+          "[1][3]"
+        ],
+        [
+          "Népliget et Planétarium",
+          "X",
+          "Proposé, financement non acquis",
+          "Pas de date",
+          "[14]"
+        ],
+        [
+          "Corvin sétány (Józsefváros)",
+          "VIII",
+          "Achevé",
+          "2022",
+          "[15]"
+        ]
+      ],
+      "en": [
+        [
+          "Buda tram, phase II (Szent Gellért tér – Budafoki út)",
+          "XI",
+          "Planned, contract signed; preparatory works from autumn 2026",
+          "End-2029",
+          "[6]"
+        ],
+        [
+          "Pest interlinked tram (Nyugati tér, Bajcsy-Zsilinszky út)",
+          "V, VI, XIII",
+          "Planned, in design",
+          "Target 2030",
+          "[7][8]"
+        ],
+        [
+          "M3 metro to Rákospalota-Újpest",
+          "IV, XV",
+          "Planned, announced 22 Jul 2026",
+          "2030 (minister’s estimate)",
+          "[9]"
+        ],
+        [
+          "M2 metro – Gödöllő HÉV link",
+          "XIV, XVI",
+          "Planned, design contract signed April 2026",
+          "2035 (estimate)",
+          "[10]"
+        ],
+        [
+          "HÉV H5, H6, H7: renewal and 42 new trains",
+          "III, IX, XXI, XXIII",
+          "Planned, tenders in preparation",
+          "First trains 2029; works within 2030",
+          "[8][10][16]"
+        ],
+        [
+          "HÉV tunnel (M5) and Danube rail tunnel",
+          "V, VIII, IX",
+          "Concept, no decision",
+          "No date",
+          "[11]"
+        ],
+        [
+          "Déli körvasút, phase II (Kelenföld – Ferencváros)",
+          "XI, IX",
+          "Suspended: contract terminated 9 Oct 2026, re-tender",
+          "Deadline extended to end-2030",
+          "[12][17]"
+        ],
+        [
+          "Galvani bridge",
+          "XI, XXI, IX",
+          "Suspended since Sept 2023; no restart published",
+          "No date",
+          "[4][5]"
+        ],
+        [
+          "Petőfi bridge renovation",
+          "IX, XI",
+          "Planned, design being procured",
+          "Works from 2029 at the earliest",
+          "[13]"
+        ],
+        [
+          "Diákváros (Student City)",
+          "IX",
+          "Planned, restarted 7 Oct 2026",
+          "No timetable published",
+          "[1][2]"
+        ],
+        [
+          "Rákosrendező",
+          "XIV",
+          "Planned, masterplan chosen 31 Mar 2026",
+          "First works around 2029",
+          "[1][3]"
+        ],
+        [
+          "Népliget and Planetarium",
+          "X",
+          "Proposed, funding not secured",
+          "No date",
+          "[14]"
+        ],
+        [
+          "Corvin Promenade (Józsefváros)",
+          "VIII",
+          "Completed",
+          "2022",
+          "[15]"
+        ]
+      ],
+      "de": [
+        [
+          "Budaer Straßenbahn, 2. Phase (Szent Gellért tér – Budafoki út)",
+          "XI",
+          "Geplant, Vertrag unterzeichnet; Vorarbeiten ab Herbst 2026",
+          "Ende 2029",
+          "[6]"
+        ],
+        [
+          "Verknüpfte Straßenbahn Pest (Nyugati tér, Bajcsy-Zsilinszky út)",
+          "V, VI, XIII",
+          "Geplant, in Planung",
+          "Ziel 2030",
+          "[7][8]"
+        ],
+        [
+          "Metro M3 bis Rákospalota-Újpest",
+          "IV, XV",
+          "Geplant, angekündigt am 22.07.2026",
+          "2030 (Schätzung des Ministers)",
+          "[9]"
+        ],
+        [
+          "Verbindung Metro M2 – HÉV Gödöllő",
+          "XIV, XVI",
+          "Geplant, Planungsvertrag April 2026",
+          "2035 (Schätzung)",
+          "[10]"
+        ],
+        [
+          "HÉV H5, H6, H7: Erneuerung und 42 neue Züge",
+          "III, IX, XXI, XXIII",
+          "Geplant, Ausschreibungen in Vorbereitung",
+          "Erste Züge 2029; Arbeiten bis 2030",
+          "[8][10][16]"
+        ],
+        [
+          "HÉV-Tunnel (M5) und Donau-Bahntunnel",
+          "V, VIII, IX",
+          "Konzept, keine Entscheidung",
+          "Kein Termin",
+          "[11]"
+        ],
+        [
+          "Déli körvasút, 2. Phase (Kelenföld – Ferencváros)",
+          "XI, IX",
+          "Ausgesetzt: Vertrag am 09.10.2026 aufgelöst, Neuausschreibung",
+          "Frist bis Ende 2030 verlängert",
+          "[12][17]"
+        ],
+        [
+          "Galvani-Brücke",
+          "XI, XXI, IX",
+          "Ausgesetzt seit Sept. 2023; keine Wiederaufnahme veröffentlicht",
+          "Kein Termin",
+          "[4][5]"
+        ],
+        [
+          "Sanierung der Petőfi-Brücke",
+          "IX, XI",
+          "Geplant, Planung wird vergeben",
+          "Bau frühestens ab 2029",
+          "[13]"
+        ],
+        [
+          "Diákváros (Studentenstadt)",
+          "IX",
+          "Geplant, am 07.10.2026 wieder aufgenommen",
+          "Kein Zeitplan veröffentlicht",
+          "[1][2]"
+        ],
+        [
+          "Rákosrendező",
+          "XIV",
+          "Geplant, Masterplan am 31.03.2026 gewählt",
+          "Erste Arbeiten um 2029",
+          "[1][3]"
+        ],
+        [
+          "Népliget und Planetarium",
+          "X",
+          "Vorgeschlagen, Finanzierung offen",
+          "Kein Termin",
+          "[14]"
+        ],
+        [
+          "Corvin-Promenade (Józsefváros)",
+          "VIII",
+          "Abgeschlossen",
+          "2022",
+          "[15]"
+        ]
+      ],
+      "hu": [
+        [
+          "Budai fonódó villamos II. ütem (Szent Gellért tér – Budafoki út)",
+          "XI",
+          "Tervezett, szerződés aláírva; előkészítés 2026 ősztől",
+          "2029 vége",
+          "[6]"
+        ],
+        [
+          "Pesti fonódó villamos (Nyugati tér, Bajcsy-Zsilinszky út)",
+          "V, VI, XIII",
+          "Tervezett, tervezés alatt",
+          "Cél: 2030",
+          "[7][8]"
+        ],
+        [
+          "M3-as metró Rákospalota-Újpestig",
+          "IV, XV",
+          "Tervezett, bejelentve 2026.07.22.",
+          "2030 (miniszteri becslés)",
+          "[9]"
+        ],
+        [
+          "M2-es metró – gödöllői HÉV összekötés",
+          "XIV, XVI",
+          "Tervezett, tervezési szerződés 2026 április",
+          "2035 (becslés)",
+          "[10]"
+        ],
+        [
+          "H5, H6, H7 HÉV: felújítás és 42 új szerelvény",
+          "III, IX, XXI, XXIII",
+          "Tervezett, közbeszerzések előkészítés alatt",
+          "Első szerelvények 2029; munkák 2030-ig",
+          "[8][10][16]"
+        ],
+        [
+          "HÉV-alagút (M5) és Duna alatti vasúti alagút",
+          "V, VIII, IX",
+          "Koncepció, döntés nélkül",
+          "Nincs időpont",
+          "[11]"
+        ],
+        [
+          "Déli körvasút II. ütem (Kelenföld – Ferencváros)",
+          "XI, IX",
+          "Felfüggesztve: szerződésbontás 2026.10.09., új közbeszerzés",
+          "Határidő 2030 végéig meghosszabbítva",
+          "[12][17]"
+        ],
+        [
+          "Galvani híd",
+          "XI, XXI, IX",
+          "2023 szeptember óta felfüggesztve; újraindításról nincs döntés",
+          "Nincs időpont",
+          "[4][5]"
+        ],
+        [
+          "A Petőfi híd felújítása",
+          "IX, XI",
+          "Tervezett, tervezési közbeszerzés",
+          "Kivitelezés legkorábban 2029",
+          "[13]"
+        ],
+        [
+          "Diákváros",
+          "IX",
+          "Tervezett, újraindítva 2026.10.07.",
+          "Ütemterv nincs",
+          "[1][2]"
+        ],
+        [
+          "Rákosrendező",
+          "XIV",
+          "Tervezett, mesterterv 2026.03.31.",
+          "Első munkák 2029 körül",
+          "[1][3]"
+        ],
+        [
+          "Népliget és Planetárium",
+          "X",
+          "Javaslat, finanszírozás nem biztos",
+          "Nincs időpont",
+          "[14]"
+        ],
+        [
+          "Corvin sétány (Józsefváros)",
+          "VIII",
+          "Elkészült",
+          "2022",
+          "[15]"
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Le pont Galvani va-t-il être construit ?",
+        "en": "Is the Galvani bridge going to be built?",
+        "de": "Wird die Galvani-Brücke gebaut?",
+        "hu": "Megépül a Galvani híd?"
+      },
+      "a": {
+        "fr": "Pas à court terme. Ses études ont été arrêtées par décret le 5 septembre 2023 [4]. Le ministre actuel juge le pont nécessaire [5], mais aucune décision de relance n’avait été publiée au 26 octobre 2026.",
+        "en": "Not in the short term. Its planning was halted by decree on 5 September 2023 [4]. The current minister considers the bridge necessary [5], but no restart decision had been published by 26 October 2026.",
+        "de": "Nicht kurzfristig. Die Planung wurde am 5. September 2023 per Verordnung gestoppt [4]. Der jetzige Minister hält die Brücke für notwendig [5], doch bis zum 26. Oktober 2026 war keine Entscheidung über eine Wiederaufnahme veröffentlicht.",
+        "hu": "Rövid távon nem. Tervezését 2023. szeptember 5-én rendelettel leállították [4]. A jelenlegi miniszter szükségesnek tartja a hidat [5], de 2026. október 26-ig nem jelent meg döntés az újraindításról."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand la Diákváros sera-t-elle construite ?",
+        "en": "When will Diákváros be built?",
+        "de": "Wann wird Diákváros gebaut?",
+        "hu": "Mikor épül meg a Diákváros?"
+      },
+      "a": {
+        "fr": "Aucun calendrier n’a été publié. La relance a été décidée en octobre 2026, avec un financement européen, et la prochaine étape est la finalisation des plans [1][2].",
+        "en": "No timetable has been published. The restart was decided in October 2026, with EU funding, and the next step is finalising the plans [1][2].",
+        "de": "Ein Zeitplan wurde nicht veröffentlicht. Die Wiederaufnahme wurde im Oktober 2026 mit EU-Finanzierung beschlossen; nächster Schritt ist die Fertigstellung der Pläne [1][2].",
+        "hu": "Ütemtervet nem tettek közzé. Az újraindításról 2026 októberében döntöttek, uniós forrással; a következő lépés a végleges tervek kidolgozása [1][2]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel projet de transport démarre en premier ?",
+        "en": "Which transport project starts first?",
+        "de": "Welches Verkehrsprojekt beginnt zuerst?",
+        "hu": "Melyik közlekedési projekt indul elsőként?"
+      },
+      "a": {
+        "fr": "La 2e phase du tramway de Buda (XIe arrondissement) : contrat signé, travaux préparatoires possibles dès l’automne 2026 et fin prévue fin 2029 [6]. Les autres projets de métro et de HÉV en sont au stade des études ou des appels d’offres [8][9][10].",
+        "en": "Phase II of the Buda tram (District XI): contract signed, preparatory works possible from autumn 2026 and completion planned for end-2029 [6]. The other metro and HÉV projects are at the design or tender stage [8][9][10].",
+        "de": "Die 2. Phase der Budaer Straßenbahn (Bezirk XI): Vertrag unterzeichnet, Vorarbeiten ab Herbst 2026 möglich, Fertigstellung Ende 2029 geplant [6]. Die übrigen Metro- und HÉV-Projekte sind in der Planungs- oder Ausschreibungsphase [8][9][10].",
+        "hu": "A Budai fonódó villamos II. üteme (XI. kerület): a szerződést aláírták, az előkészítés 2026 ősztől indulhat, a befejezés 2029 végére tervezett [6]. A többi metró- és HÉV-projekt tervezési vagy közbeszerzési szakaszban van [8][9][10]."
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Budai fonódó villamos II",
+      "district": "XI",
+      "lat": 47.479,
+      "lng": 19.0575,
+      "status": {
+        "fr": "Prévu, contrat signé",
+        "en": "Planned, contract signed",
+        "de": "Geplant, Vertrag unterzeichnet",
+        "hu": "Tervezett, szerződés aláírva"
+      },
+      "note": {
+        "fr": "2,8 km de Szent Gellért tér à Budafoki út ; fin prévue fin 2029 [6].",
+        "en": "2.8 km from Szent Gellért tér to Budafoki út; completion planned end-2029 [6].",
+        "de": "2,8 km vom Szent Gellért tér zur Budafoki út; Fertigstellung Ende 2029 geplant [6].",
+        "hu": "2,8 km a Szent Gellért tértől a Budafoki útig; tervezett befejezés 2029 vége [6]."
+      }
+    },
+    {
+      "name": "Pesti fonódó villamos",
+      "district": "V, VI, XIII",
+      "lat": 47.5105,
+      "lng": 19.0565,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "Études en cours ; objectif 2030 [7][8].",
+        "en": "In design; target 2030 [7][8].",
+        "de": "In Planung; Ziel 2030 [7][8].",
+        "hu": "Tervezés alatt; cél: 2030 [7][8]."
+      }
+    },
+    {
+      "name": "M3 – Rákospalota-Újpest",
+      "district": "IV, XV",
+      "lat": 47.5685,
+      "lng": 19.1085,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "2 nouvelles stations, 80 Mrd HUF ; 2030 selon le ministre [9].",
+        "en": "2 new stations, HUF 80 billion; 2030 according to the minister [9].",
+        "de": "2 neue Stationen, 80 Mrd. HUF; 2030 laut Minister [9].",
+        "hu": "2 új állomás, 80 milliárd Ft; a miniszter szerint 2030 [9]."
+      }
+    },
+    {
+      "name": "M2 – HÉV Gödöllő (Örs vezér tere)",
+      "district": "XIV, XVI",
+      "lat": 47.5033,
+      "lng": 19.137,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "Estimé à 270 Mrd HUF ; mise en service attendue en 2035 [10].",
+        "en": "Estimated at HUF 270 billion; opening expected in 2035 [10].",
+        "de": "Geschätzt 270 Mrd. HUF; Inbetriebnahme 2035 erwartet [10].",
+        "hu": "Becslés: 270 milliárd Ft; várható átadás 2035 [10]."
+      }
+    },
+    {
+      "name": "HÉV H6/H7 Csepel – Ráckeve",
+      "district": "IX, XXI",
+      "lat": 47.43,
+      "lng": 19.071,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "Rénovation des lignes et nouvelles rames, premières livraisons en 2029 [8][10].",
+        "en": "Line renewal and new trains, first deliveries in 2029 [8][10].",
+        "de": "Streckenerneuerung und neue Züge, erste Lieferungen 2029 [8][10].",
+        "hu": "Vonalfelújítás és új szerelvények, első szállítások 2029 [8][10]."
+      }
+    },
+    {
+      "name": "HÉV H5 Szentendre",
+      "district": "III",
+      "lat": 47.556,
+      "lng": 19.045,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "Vitesse, voies et accessibilité à améliorer d’ici 2030 [8].",
+        "en": "Speed, track and accessibility upgrades within 2030 [8].",
+        "de": "Tempo, Gleise und Barrierefreiheit bis 2030 [8].",
+        "hu": "Sebességemelés, pályafelújítás, akadálymentesítés 2030-ig [8]."
+      }
+    },
+    {
+      "name": "M5 / HÉV-alagút (Kálvin tér)",
+      "district": "V, VIII, IX",
+      "lat": 47.4897,
+      "lng": 19.0615,
+      "status": {
+        "fr": "Concept, sans décision",
+        "en": "Concept, no decision",
+        "de": "Konzept, keine Entscheidung",
+        "hu": "Koncepció, döntés nélkül"
+      },
+      "note": {
+        "fr": "Ni conçu ni décidé ; renvoyé à un futur cycle européen [11].",
+        "en": "Neither designed nor decided; deferred to a future EU cycle [11].",
+        "de": "Weder geplant noch beschlossen; auf künftigen EU-Zeitraum verschoben [11].",
+        "hu": "Nincs terv és döntés; későbbi uniós ciklusra halasztva [11]."
+      }
+    },
+    {
+      "name": "Déli körvasút (Kelenföld – Ferencváros)",
+      "district": "XI, IX",
+      "lat": 47.4655,
+      "lng": 19.064,
+      "status": {
+        "fr": "Suspendu",
+        "en": "Suspended",
+        "de": "Ausgesetzt",
+        "hu": "Felfüggesztve"
+      },
+      "note": {
+        "fr": "Contrat résilié le 9 octobre 2026, nouvel appel d’offres ; haltes Közvágóhíd et Nádorkert prévues [12].",
+        "en": "Contract terminated on 9 October 2026, re-tender; Közvágóhíd and Nádorkert stops planned [12].",
+        "de": "Vertrag am 9. Oktober 2026 aufgelöst, Neuausschreibung; Halte Közvágóhíd und Nádorkert geplant [12].",
+        "hu": "Szerződésbontás 2026. október 9-én, új közbeszerzés; Közvágóhíd és Nádorkert megálló tervezett [12]."
+      }
+    },
+    {
+      "name": "Galvani híd",
+      "district": "XI, XXI, IX",
+      "lat": 47.4445,
+      "lng": 19.057,
+      "status": {
+        "fr": "Suspendu",
+        "en": "Suspended",
+        "de": "Ausgesetzt",
+        "hu": "Felfüggesztve"
+      },
+      "note": {
+        "fr": "Études arrêtées par décret le 5 septembre 2023 ; aucune relance publiée [4][5].",
+        "en": "Planning halted by decree on 5 September 2023; no restart published [4][5].",
+        "de": "Planung am 5. September 2023 per Verordnung gestoppt; keine Wiederaufnahme veröffentlicht [4][5].",
+        "hu": "Tervezés 2023. szeptember 5-én rendelettel leállítva; újraindításról nincs döntés [4][5]."
+      }
+    },
+    {
+      "name": "Petőfi híd",
+      "district": "IX, XI",
+      "lat": 47.4795,
+      "lng": 19.0647,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "Études en cours d’attribution ; travaux en 2029 au plus tôt [13].",
+        "en": "Design being procured; works from 2029 at the earliest [13].",
+        "de": "Planung wird vergeben; Bau frühestens ab 2029 [13].",
+        "hu": "Tervezési közbeszerzés; kivitelezés legkorábban 2029 [13]."
+      }
+    },
+    {
+      "name": "Diákváros",
+      "district": "IX",
+      "lat": 47.457,
+      "lng": 19.087,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "Relancé le 7 octobre 2026 ; résidences étudiantes et logements abordables, sans calendrier [1][2].",
+        "en": "Restarted on 7 October 2026; student residences and affordable homes, no timetable [1][2].",
+        "de": "Am 7. Oktober 2026 wieder aufgenommen; Wohnheime und bezahlbare Wohnungen, kein Zeitplan [1][2].",
+        "hu": "2026. október 7-én újraindítva; kollégiumok és megfizethető lakások, ütemterv nélkül [1][2]."
+      }
+    },
+    {
+      "name": "Rákosrendező",
+      "district": "XIV",
+      "lat": 47.5345,
+      "lng": 19.106,
+      "status": {
+        "fr": "Prévu",
+        "en": "Planned",
+        "de": "Geplant",
+        "hu": "Tervezett"
+      },
+      "note": {
+        "fr": "Environ 10 000 logements et 25 ha d’espaces verts ; premiers travaux vers 2029 [3].",
+        "en": "About 10,000 homes and 25 ha of green space; first works around 2029 [3].",
+        "de": "Rund 10.000 Wohnungen und 25 ha Grünflächen; erste Arbeiten um 2029 [3].",
+        "hu": "Nagyjából 10 ezer lakás és 25 hektár zöldfelület; első munkák 2029 körül [3]."
+      }
+    },
+    {
+      "name": "Népliget",
+      "district": "X",
+      "lat": 47.4755,
+      "lng": 19.103,
+      "status": {
+        "fr": "Proposé, non décidé",
+        "en": "Proposed, not decided",
+        "de": "Vorgeschlagen, nicht beschlossen",
+        "hu": "Javaslat, döntés nélkül"
+      },
+      "note": {
+        "fr": "Plan de rénovation du parc et du Planétarium ; financement non acquis [14].",
+        "en": "Renewal plan for the park and Planetarium; funding not secured [14].",
+        "de": "Erneuerungsplan für Park und Planetarium; Finanzierung offen [14].",
+        "hu": "A park és a Planetárium megújítási terve; finanszírozás nem biztos [14]."
+      }
+    },
+    {
+      "name": "Corvin sétány",
+      "district": "VIII",
+      "lat": 47.4838,
+      "lng": 19.0745,
+      "status": {
+        "fr": "Achevé",
+        "en": "Completed",
+        "de": "Abgeschlossen",
+        "hu": "Elkészült"
+      },
+      "note": {
+        "fr": "22 ha reconvertis entre 2004 et 2022, environ 2 700 logements [15].",
+        "en": "22 ha redeveloped between 2004 and 2022, about 2,700 homes [15].",
+        "de": "22 ha zwischen 2004 und 2022 umgestaltet, rund 2.700 Wohnungen [15].",
+        "hu": "22 hektár megújítása 2004 és 2022 között, nagyjából 2700 lakás [15]."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "We Love Budapest – Fővárosi Közfejlesztések Tanácsa: Diákváros, Rákosrendező, historic baths (7 Oct 2026)",
+      "url": "https://welovebudapest.com/cikk/2026/10/07/diakvaros-rakosrendezo-tortenelmi-furdok-fovarosi-kozfejlesztesek-tanacsa/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Telex – Vitézy announces the restart of the Diákváros project (7 Oct 2026)",
+      "url": "https://telex.hu/gazdasag/2026/10/07/vitezy-david-diakvaros-fudan-egyetem-fovarosi-kozfejlesztesek-tanacsa",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "HVG – Winning masterplan for Rákosrendező (31 Mar 2026)",
+      "url": "https://hvg.hu/kkv/20260331_rakosrendezo-tervpalyazat-gyoztes-karacsony-gergely-vitezy-david",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "444 – Galvani bridge planning halted by government decree (6 Sep 2023)",
+      "url": "https://444.hu/2023/09/06/nem-megtakaritast-hanem-sokkal-tobb-kiadast-jelent-ahogy-lazar-leallitotta-az-uj-budapesti-hid-epiteset-es-a-vasut-fejleszteset-mondja-vitezy",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Átlátszó – What will be built and what won't: interview with the incoming transport minister (26 Apr 2026)",
+      "url": "https://atlatszo.hu/orszagszerte/2026/04/26/mi-epul-meg-es-mi-nem-vitezy-david-autopalyakrol-hidakrol-es-vasutvonalakrol/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "BKK – Buda interlinked tram network, phase II: works may start in autumn 2026 (Jul 2026)",
+      "url": "https://bkk.hu/hirek/2026/07/meg-az-osszel-elkezdodhet-a-budai-fonodo-villamoshalozat-masodik-utemenek-megvalositasa.16941/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Nyugati tér underpass and Pest interlinked tram design (15 Jun 2026)",
+      "url": "https://www.economx.hu/belfold/2026/06/15/nyugati-ter-aluljaro-felujitas-tervek-fovarosi-onkormanyzat/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Világgazdaság – Rail and metro projects targeted for 2030 (22 Sep 2026)",
+      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/vitezy-david-kotottpalyas-fejlesztes-2030-forgatokonyv",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Világgazdaság – M3 metro extension to Rákospalota-Újpest (22 Jul 2026)",
+      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/07/m3-metro-hosszabbitas-rakospalota-ujpest-vitezy-david",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Világgazdaság – Gödöllő HÉV and M2 link: timetable and funding (15 Jul 2026)",
+      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/07/hev-godollo-csomor-vitezy-david-rrf-unios-forras",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – M5 metro and the Danube rail tunnel: status (10 Jun 2026)",
+      "url": "https://www.economx.hu/ingatlan/2026/06/10/budapesten-kirobbant-a-kozlekedesi-haboru-mi-lesz-most-az-otos-metroval-es-az-alaguttal/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Világgazdaság – Déli Körvasút: contract to be terminated and re-tendered (9 Oct 2026)",
+      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/deli-korvasut-2-millio-embert-erinto-epitkezes-galeria",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Telex – Petőfi bridge renovation: design procurement approved (26 Feb 2026)",
+      "url": "https://telex.hu/belfold/2026/02/26/indulhat-a-petofi-hid-felujitasanak-tervezese-ha-minden-jol-megy-a-tenyleges-munka-2029-ben-kezdodhet-el",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Népliget and Planetarium renewal plans (26 Jul 2026)",
+      "url": "https://www.economx.hu/belfold/2026/07/26/karacsony-gergely-a-planetarium-megujitasaval-a-nepliget-lecsuszasa-is-megfordithato/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Világgazdaság – Last building completed on the Corvin Promenade (Oct 2022)",
+      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2022/10/duna-parti-gigaprojektbe-kezd-a-cordia-a-covin-setany-utan",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Rail development programme: new HÉV trains and line works (20 Oct 2026)",
+      "url": "https://www.economx.hu/belfold/2026/10/20/vitezy-david-vasutfejlesztes-2027-hev-intercity-beszerzes/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Origo – Déli Körvasút works stop, EU grant withdrawn (9 Oct 2026)",
+      "url": "https://www.origo.hu/belpol/2026/10/deli-korvasut-epites-leallas-unios-tamogatas-megvonas",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": false
+}
