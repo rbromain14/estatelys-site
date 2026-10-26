@@ -97,7 +97,7 @@ ${extraHead}
       <img src="${A("assets/logo-white.png")}" alt="Estatelys Budapest" width="160" height="46">
     </a>
     <nav class="nav" aria-label="Main">
-      ${nav.map(([r, n]) => `<a href="${R(r)}"${isActive(r) ? ' aria-current="page"' : ""}>${n}</a>`).join("")}
+      ${nav.filter(([r]) => r !== "contact/").map(([r, n]) => `<a href="${R(r)}"${isActive(r) ? ' aria-current="page"' : ""}>${n}</a>`).join("")}
     </nav>
     <div class="hdr-r">
       <div class="langs" aria-label="Language">${langLinks}</div>
@@ -249,7 +249,7 @@ function projectsPage(l) {
   <h1>${t.projTitle[l]}</h1>
   <p class="lead muted">${t.projIntro[l]}</p>
 </div></section>
-<section class="wrap"><div class="grid2">${FOR_SALE.map((p) => card(p, l, route)).join("")}</div></section>
+<section class="sec wrap"><div class="grid2">${FOR_SALE.map((p) => card(p, l, route)).join("")}</div></section>
 <section class="sec wrap">
   <h2 class="h3">${t.mapTitle[l]}</h2>
   ${mapBlock(FOR_SALE, l)}
@@ -366,13 +366,6 @@ function about(l) {
   <h1>${t.aboutTitle[l]}</h1>
   <p class="lead muted">${t.aboutIntro[l]}</p>
 </div></section>
-<section class="sec wrap sig">
-  <h2>${signature.title[l]}</h2>
-  <img class="sig-img" src="${asset(l, route, "assets/signature.png")}" alt="Estatelys" width="1400" height="341" loading="lazy">
-  <div class="vals vals-row">
-    ${[1, 2, 3].map((i) => `<div><h3>${t[`v${i}t`][l]}</h3><p class="muted">${t[`v${i}d`][l]}</p></div>`).join("")}
-  </div>
-</section>
 <section class="sec wrap">
   <div class="about">
     ${img(l, route, "stollar-13", cap.courtyard[l], "about-img", "(min-width: 900px) 45vw, 100vw")}
@@ -388,6 +381,13 @@ function about(l) {
   <h2>${t.jobTitle[l]}</h2>
   <div class="svc">
     ${[1, 2, 3].map((i) => `<div><p class="num">0${i}</p><h3>${t[`s${i}t`][l]}</h3><p class="muted">${t[`s${i}d`][l]}</p></div>`).join("")}
+  </div>
+</section>
+<section class="sec wrap sig">
+  <h2>${signature.title[l]}</h2>
+  <img class="sig-img" src="${asset(l, route, "assets/signature.png")}" alt="Estatelys" width="1400" height="341" loading="lazy">
+  <div class="vals vals-row">
+    ${[1, 2, 3].map((i) => `<div><h3>${t[`v${i}t`][l]}</h3><p class="muted">${t[`v${i}d`][l]}</p></div>`).join("")}
   </div>
 </section>`;
   return layout({ l, route, title: `${t.navAbout[l]} — ${SITE.name}`, desc: t.aboutIntro[l], body });
