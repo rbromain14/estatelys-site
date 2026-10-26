@@ -12,7 +12,7 @@ export const SITE = {
   // Official social accounts. A network is shown only once its url is filled in (no invented accounts).
   social: [
     { id: "linkedin", label: "LinkedIn", url: "" },
-    { id: "facebook", label: "Facebook", url: "" },
+    { id: "facebook", label: "Facebook", url: "https://www.facebook.com/estatelys" },
     { id: "instagram", label: "Instagram", url: "" },
     { id: "youtube", label: "YouTube", url: "" },
     { id: "tiktok", label: "TikTok", url: "" },
