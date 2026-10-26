@@ -154,3 +154,5 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .hero .eyebrow{font-weight:600}
 .hero-fade{background:linear-gradient(90deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.42) 45%,rgba(0,0,0,.12) 75%,rgba(0,0,0,0) 100%),linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 70%,rgba(0,0,0,.55) 100%)}
 .hero-cr{color:rgba(255,255,255,.8)}
+.hdr .nav a:not([aria-current]),.hdr .langs a:not(.on){color:#f4f3ef;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.hdr .nav a:not([aria-current]):hover,.hdr .langs a:not(.on):hover{color:var(--acc,#c8a97e)}
