@@ -1,1 +1,1 @@
-{ "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" }
+{ "fonts": "assets/fonts.css", "preload": ["assets/fonts/archivo-latin-wdth-normal.woff2"] }

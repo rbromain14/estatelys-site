@@ -26,6 +26,9 @@ export const SITE = {
   regNo: "01-09-387534",
   court: "Fővárosi Törvényszék Cégbírósága",
   taxNo: "27184192-2-42",
+  vatNo: "HU27184192", // EU VAT number (Romain, 25 Oct 2026; Game Plan A7b)
+  // Official profiles of the brand (LinkedIn, Instagram…), used in the schema.org "sameAs". Empty until they exist.
+  sameAs: [],
   director: "Yohan Royer",
 };
 
@@ -38,6 +41,7 @@ export const legal = {
   lblReg: { fr: "Numéro d'immatriculation", en: "Company registration number", de: "Firmenbuchnummer", hu: "Cégjegyzékszám" },
   lblCourt: { fr: "Tribunal d'enregistrement", en: "Registry court", de: "Registergericht", hu: "Nyilvántartó cégbíróság" },
   lblTax: { fr: "Numéro fiscal", en: "Tax number", de: "Steuernummer", hu: "Adószám" },
+  lblVat: { fr: "Numéro de TVA intracommunautaire", en: "EU VAT number", de: "USt-IdNr.", hu: "Közösségi adószám" },
   lblDir: { fr: "Gérant", en: "Managing director", de: "Geschäftsführer", hu: "Ügyvezető" },
   lblContact: { fr: "Contact", en: "Contact", de: "Kontakt", hu: "Elérhetőség" },
   brand: {
@@ -66,28 +70,28 @@ export const legal = {
       "Responsable du traitement : Investissement Immobilier Bud Kft. (coordonnées ci-dessus).",
       "Ce site n'utilise ni cookies, ni outil de mesure d'audience, ni publicité. Votre choix de langue est seulement enregistré dans votre navigateur.",
       "Le formulaire de contact n'envoie rien au site : il ouvre votre messagerie. Les messages reçus servent uniquement à répondre à votre demande et ne sont conservés que le temps nécessaire au traitement de votre demande.",
-      "Pour afficher les pages, votre navigateur charge des ressources chez des tiers, qui reçoivent votre adresse IP : Google Fonts (polices), OpenStreetMap (fond de carte), unpkg.com (bibliothèque de carte Leaflet) et Unsplash (photos de la ville).",
+      "Pour afficher les pages, votre navigateur charge des ressources chez des tiers, qui reçoivent votre adresse IP : OpenStreetMap (fond de carte), unpkg.com (bibliothèque de carte Leaflet) et Unsplash (photos de la ville).",
       "Vous pouvez demander l'accès, la rectification ou l'effacement de vos données en écrivant à l'adresse ci-dessus, et déposer une réclamation auprès de la NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
     en: [
       "Data controller: Investissement Immobilier Bud Kft. (details above).",
       "This site uses no cookies, no analytics and no advertising. Your language choice is only stored in your own browser.",
       "The contact form sends nothing to the site: it opens your email app. Messages we receive are used only to answer your request and kept only as long as needed to handle it.",
-      "To display the pages, your browser loads resources from third parties, which receive your IP address: Google Fonts (fonts), OpenStreetMap (map tiles), unpkg.com (Leaflet map library) and Unsplash (city photos).",
+      "To display the pages, your browser loads resources from third parties, which receive your IP address: OpenStreetMap (map tiles), unpkg.com (Leaflet map library) and Unsplash (city photos).",
       "You may request access to, correction or erasure of your data by writing to the address above, and lodge a complaint with the NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
     de: [
       "Verantwortlicher: Investissement Immobilier Bud Kft. (Angaben oben).",
       "Diese Website verwendet keine Cookies, keine Reichweitenmessung und keine Werbung. Ihre Sprachwahl wird nur in Ihrem eigenen Browser gespeichert.",
       "Das Kontaktformular sendet nichts an die Website, es öffnet Ihr E-Mail-Programm. Eingehende Nachrichten dienen nur der Beantwortung Ihrer Anfrage und nur so lange wie dafür nötig aufbewahrt.",
-      "Zur Anzeige lädt Ihr Browser Inhalte von Dritten, die Ihre IP-Adresse erhalten: Google Fonts (Schriften), OpenStreetMap (Kartenkacheln), unpkg.com (Kartenbibliothek Leaflet) und Unsplash (Stadtfotos).",
+      "Zur Anzeige lädt Ihr Browser Inhalte von Dritten, die Ihre IP-Adresse erhalten: OpenStreetMap (Kartenkacheln), unpkg.com (Kartenbibliothek Leaflet) und Unsplash (Stadtfotos).",
       "Sie können Auskunft, Berichtigung oder Löschung Ihrer Daten unter der obigen Adresse verlangen und Beschwerde bei der NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu) einlegen.",
     ],
     hu: [
       "Adatkezelő: Investissement Immobilier Bud Kft. (adatai fent).",
       "A honlap nem használ sütiket, látogatottságmérést vagy hirdetéseket. A választott nyelvet csak az Ön böngészője tárolja.",
       "A kapcsolatfelvételi űrlap nem küld adatot a honlapra: megnyitja az Ön levelezőprogramját. A beérkező üzeneteket kizárólag a megkeresés megválaszolására használjuk, és csak az ehhez szükséges ideig őrizzük.",
-      "Az oldalak megjelenítéséhez a böngésző harmadik felektől tölt be tartalmat, amelyek megkapják az Ön IP-címét: Google Fonts (betűtípusok), OpenStreetMap (térkép), unpkg.com (Leaflet térképkönyvtár) és Unsplash (városfotók).",
+      "Az oldalak megjelenítéséhez a böngésző harmadik felektől tölt be tartalmat, amelyek megkapják az Ön IP-címét: OpenStreetMap (térkép), unpkg.com (Leaflet térképkönyvtár) és Unsplash (városfotók).",
       "Kérheti adatai megismerését, helyesbítését vagy törlését a fenti címen, és panaszt tehet a NAIH-nál (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
   },
@@ -110,11 +114,12 @@ export const t = {
     de: "Projektmanagement · Immobilienhandel · Hochwertige Renovierung",
     hu: "Projektmenedzsment · Ingatlanbefektetés · Prémium felújítás",
   },
+  // Home meta description (Google snippet). SEO audit v1, 26 Oct 2026.
   metaDesc: {
-    fr: "Estatelys Budapest achète, rénove et vend des appartements de caractère dans les arrondissements I, II, V, VI, VII, VIII et XIII de Budapest.",
-    en: "Estatelys Budapest buys, renovates and sells character apartments in Budapest's 1st, 2nd, 5th, 6th, 7th, 8th and 13th districts.",
-    de: "Estatelys Budapest kauft, renoviert und verkauft Charakterwohnungen im 1., 2., 5., 6., 7., 8. und 13. Bezirk von Budapest.",
-    hu: "Az Estatelys Budapest karakteres lakásokat vásárol, újít fel és értékesít Budapest I., II., V., VI., VII., VIII. és XIII. kerületében.",
+    fr: "Appartements rénovés à vendre dans les immeubles historiques du centre de Budapest : résidences de prestige et investissements locatifs, prix affichés.",
+    en: "Renovated apartments for sale in historic buildings in central Budapest: prestige homes and rental investments, with prices shown upfront.",
+    de: "Renovierte Wohnungen zum Kauf in historischen Gebäuden der Budapester Innenstadt: Prestigewohnungen und Mietinvestments, Preise offen ausgewiesen.",
+    hu: "Felújított eladó lakások Budapest belvárosának történelmi épületeiben: prémium otthonok és bérleti befektetések, feltüntetett árakkal.",
   },
   heroAlt: { fr: "La basilique Saint-Étienne de Budapest entre deux rangées d'immeubles anciens, en noir et blanc", en: "St Stephen's Basilica in Budapest between two rows of historic apartment buildings, in black and white", de: "Die St.-Stephans-Basilika in Budapest zwischen zwei Reihen historischer Wohnhäuser, in Schwarzweiß", hu: "A budapesti Szent István-bazilika két sor régi bérház között, fekete-fehérben" },
   heroEyebrow: { fr: "Budapest · Immobilier de caractère", en: "Budapest · Character real estate", de: "Budapest · Charakterimmobilien", hu: "Budapest · Karakteres ingatlanok" },
@@ -651,4 +656,20 @@ export const resources = {
       { key: "dir", slug: "trusted-contacts-directory", fr: "Annuaire de contacts de confiance : avocats, notaires, artisans, comptables", en: "Directory of trusted contacts: lawyers, notaries, contractors, accountants", de: "Verzeichnis vertrauenswürdiger Kontakte: Anwälte, Notare, Handwerker, Steuerberater", hu: "Megbízható kapcsolatok jegyzéke: ügyvédek, közjegyzők, kivitelezők, könyvelők" },
     ]},
   ],
+};
+
+// Page titles for search engines (SEO audit v1, 26 Oct 2026). {n} = number of properties for sale.
+export const seo = {
+  homeTitle: {
+    fr: "Appartements rénovés à vendre à Budapest | Estatelys",
+    en: "Renovated apartments for sale in Budapest | Estatelys",
+    de: "Renovierte Wohnungen in Budapest kaufen | Estatelys",
+    hu: "Felújított eladó lakások Budapesten | Estatelys",
+  },
+  projTitle: {
+    fr: "Appartements à vendre à Budapest : {n} biens rénovés | Estatelys",
+    en: "Apartments for sale in Budapest: {n} renovated homes | Estatelys",
+    de: "Wohnungen kaufen in Budapest: {n} renovierte Objekte | Estatelys",
+    hu: "Eladó lakások Budapesten: {n} felújított ingatlan | Estatelys",
+  },
 };
