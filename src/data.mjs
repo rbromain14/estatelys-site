@@ -9,6 +9,14 @@ export const SITE = {
   domain: "www.estatelys.com",
   name: "Estatelys Budapest",
   email: "info@estatelys.com",
+  // Official social accounts. A network is shown only once its url is filled in (no invented accounts).
+  social: [
+    { id: "linkedin", label: "LinkedIn", url: "" },
+    { id: "facebook", label: "Facebook", url: "" },
+    { id: "instagram", label: "Instagram", url: "" },
+    { id: "youtube", label: "YouTube", url: "" },
+    { id: "tiktok", label: "TikTok", url: "" },
+  ],
   city: "Budapest, Magyarország",
   hufRate: 364, // HUF per EUR used for the indicative HUF amounts (Oct 2026)
   // Publisher (source: public company registry, ceginfo.hu / opten.hu)
@@ -164,6 +172,14 @@ export const t = {
     hu: "Ingatlanjaink Lipótvárosban (V.), Terézvárosban (VI.) és Erzsébetvárosban (VII.) találhatók: a Parlament, az Operaház, az Andrássy út és a zsidónegyed között, pár perc sétára a Dunától.",
   },
   ctaBandTitle: { fr: "Un projet d'achat ou d'investissement à Budapest ?", en: "Buying or investing in Budapest?", de: "Kauf oder Investition in Budapest?", hu: "Vásárolna vagy befektetne Budapesten?" },
+  followTitle: { fr: "Suivez Estatelys", en: "Follow Estatelys", de: "Folgen Sie Estatelys", hu: "Kövesse az Estatelyst" },
+  followText: {
+    fr: "Nouveaux biens, rénovations et marché immobilier de Budapest sur nos réseaux.",
+    en: "New properties, renovations and the Budapest property market on our social networks.",
+    de: "Neue Objekte, Renovierungen und der Budapester Immobilienmarkt in unseren Netzwerken.",
+    hu: "Új ingatlanok, felújítások és a budapesti ingatlanpiac a közösségi oldalainkon.",
+  },
+  soon: { fr: "bientôt", en: "soon", de: "bald", hu: "hamarosan" },
   ctaBandText: { fr: "Écrivez-nous : nous vous envoyons la brochure complète du bien.", en: "Write to us and we will send you the property's full brochure.", de: "Schreiben Sie uns, wir senden Ihnen das vollständige Exposé.", hu: "Írjon nekünk, és elküldjük az ingatlan teljes brosúráját." },
   projTitle: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlanok" },
   projIntro: {

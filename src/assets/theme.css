@@ -88,3 +88,14 @@ h2{font-size:clamp(2rem,4vw,3.4rem)}
 .stats b{height:calc(clamp(1.8rem,3.4vw,3rem)*1.1);display:flex;align-items:center;justify-content:center}
 .stats-in>*{justify-content:flex-start}
 .phdr+.sec{padding-top:clamp(40px,5vw,64px)}
+/* follow us (social networks) — same pattern as dueo.eu */
+.follow{padding:clamp(40px,5vw,64px) 0;border-top:1px solid var(--tx)}
+.follow-in{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}
+.follow h2{margin:0 0 8px;font-size:clamp(1.6rem,2.6vw,2.2rem)}
+.follow p{margin:0;max-width:44ch}
+.soc{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end;max-width:600px}
+.soc-b{display:inline-flex;align-items:center;gap:9px;height:44px;padding:0 18px;border:1px solid var(--tx);color:var(--tx);font:600 .92rem/1 var(--sans);transition:background .2s,color .2s,border-color .2s}
+a.soc-b:hover{background:var(--tx);color:var(--bg)}
+.soc-b.is-soon{opacity:.45;cursor:default}
+.soc-b em{font-style:normal;font-weight:500;font-size:.8rem}
+@media (max-width:760px){.follow-in{grid-template-columns:1fr}.soc{justify-content:flex-start}}
