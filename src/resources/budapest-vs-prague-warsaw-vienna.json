@@ -1,0 +1,582 @@
+{
+  "slug": "budapest-vs-prague-warsaw-vienna",
+  "item": "compare",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Budapest face à Prague, Varsovie et Vienne : prix, loyers, rendements et fiscalité",
+    "en": "Budapest vs Prague, Warsaw and Vienna: prices, rents, yields and taxes",
+    "de": "Budapest im Vergleich zu Prag, Warschau und Wien: Preise, Mieten, Renditen, Steuern",
+    "hu": "Budapest Prágához, Varsóhoz és Bécshez képest: árak, bérleti díjak, hozamok, adók"
+  },
+  "summary": {
+    "fr": "Prix au m² en centre, loyers, rendement brut, taxe d'achat, impôt locatif des non-résidents et restrictions pour étrangers dans quatre capitales (2025–2026).",
+    "en": "Centre price per m², rents, gross yield, purchase tax, non-resident rental tax and foreign-buyer rules in four capitals, with 2025–2026 data.",
+    "de": "Innenstadtpreis pro m², Mieten, Bruttorendite, Erwerbsteuer, Mietsteuer für Gebietsfremde und Regeln für Ausländer in vier Hauptstädten (2025–2026).",
+    "hu": "Belvárosi m²-ár, bérleti díj, bruttó hozam, vételi illeték, nem rezidensek bérleti adója és külföldi vevőkre vonatkozó szabályok négy fővárosban (2025–2026)."
+  },
+  "keyFacts": [
+    {
+      "fr": "Prix demandé au m² en centre-ville (Numbeo, oct. 2026) : environ 5 000 € à Budapest contre 12 400 € à Vienne [5][7].",
+      "en": "City-centre price per m² (Numbeo, Oct 2026): about €5,000 in Budapest against €12,400 in Vienna [5][7].",
+      "de": "Innenstadtpreis pro m² (Numbeo, Okt. 2026): rund 5.000 € in Budapest gegenüber 12.400 € in Wien [5][7].",
+      "hu": "Belvárosi m²-ár (Numbeo, 2026. október): Budapesten kb. 5000 €, Bécsben kb. 12 400 € [5][7]."
+    },
+    {
+      "fr": "Rendement locatif brut moyen (Global Property Guide, 2026) : 4,84 % à Budapest, 3,54 % à Prague, 6,65 % à Varsovie [1][2][3].",
+      "en": "Average gross rental yield (Global Property Guide, 2026): 4.84% in Budapest, 3.54% in Prague, 6.65% in Warsaw [1][2][3].",
+      "de": "Durchschnittliche Bruttomietrendite (Global Property Guide, 2026): 4,84 % in Budapest, 3,54 % in Prag, 6,65 % in Warschau [1][2][3].",
+      "hu": "Átlagos bruttó bérleti hozam (Global Property Guide, 2026): Budapest 4,84%, Prága 3,54%, Varsó 6,65% [1][2][3]."
+    },
+    {
+      "fr": "Droits d'achat : 4 % en Hongrie, aucun en Tchéquie depuis 2020, 2 % sur l'ancien en Pologne, 3,5 % + 1,1 % en Autriche [10][14][16][18].",
+      "en": "Purchase taxes: 4% in Hungary, none in the Czech Republic since 2020, 2% on resale homes in Poland, 3.5% + 1.1% in Austria [10][14][16][18].",
+      "de": "Erwerbsteuern: 4 % in Ungarn, keine in Tschechien seit 2020, 2 % auf Bestandswohnungen in Polen, 3,5 % + 1,1 % in Österreich [10][14][16][18].",
+      "hu": "Vételi illeték/adó: Magyarország 4%, Csehország 2020 óta nincs, Lengyelország 2% használt lakásnál, Ausztria 3,5% + 1,1% [10][14][16][18]."
+    },
+    {
+      "fr": "Prix du neuf en 2025 (Deloitte) : +10,9 % en Hongrie (+11,1 % à Budapest), +7,6 % en Tchéquie, +7,8 % en Pologne, +2,9 % en Autriche [8].",
+      "en": "New-build prices in 2025 (Deloitte): +10.9% in Hungary (+11.1% in Budapest), +7.6% in Czechia, +7.8% in Poland, +2.9% in Austria [8].",
+      "de": "Neubaupreise 2025 (Deloitte): +10,9 % in Ungarn (+11,1 % in Budapest), +7,6 % in Tschechien, +7,8 % in Polen, +2,9 % in Österreich [8].",
+      "hu": "Új lakások ára 2025-ben (Deloitte): Magyarország +10,9% (Budapest +11,1%), Csehország +7,6%, Lengyelország +7,8%, Ausztria +2,9% [8]."
+    },
+    {
+      "fr": "Hors UE/EEE, l'achat en Hongrie exige un permis du kormányhivatal (office gouvernemental) : 45 jours, 65 000 HUF [13].",
+      "en": "Non-EU/EEA buyers in Hungary need a permit from the kormányhivatal (government office): 45 days, HUF 65,000 [13].",
+      "de": "Käufer außerhalb EU/EWR benötigen in Ungarn eine Genehmigung des kormányhivatal (Regierungsamt): 45 Tage, 65.000 HUF [13].",
+      "hu": "EU/EGT-n kívüli vevőknek Magyarországon kormányhivatali engedély kell: 45 nap, 65 000 Ft [13]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Comment lire cette comparaison",
+        "en": "How to read this comparison",
+        "de": "Wie dieser Vergleich zu lesen ist",
+        "hu": "Hogyan olvassa ezt az összehasonlítást"
+      },
+      "body": {
+        "fr": "Les chiffres viennent de trois familles de sources, qui ne mesurent pas la même chose :\n\n- **Global Property Guide** : prix et loyers demandés par type de logement, mis à jour trimestriellement (Budapest et Varsovie au T3 2026, Prague au T2 2026 ; la page autrichienne n'est pas datée précisément) [1][2][3][4].\n- **Numbeo** : données déclarées par les internautes, avec un échantillon réduit (59 contributeurs pour Budapest sur 12 mois). Numbeo affiche ses prix au pied carré ; nous les avons convertis en m² et en euros, et arrondis. À utiliser comme ordre de grandeur, pas comme référence de transaction [5][6][7].\n- **Deloitte Property Index 2026** : prix moyens du neuf en 2025, surtout au niveau national, publiés en octobre 2026 [8].\n\nAucune de ces sources ne donne des prix de transaction pour l'ancien en centre-ville. Les rendements sont bruts : charges, vacance, entretien et impôts non déduits. Global Property Guide indique que le rendement net est en général inférieur de 1,5 à 2 points [1].",
+        "en": "The figures come from three types of source, and they do not measure the same thing:\n\n- **Global Property Guide**: asking prices and asking rents by apartment type, updated quarterly (Budapest and Warsaw Q3 2026, Prague Q2 2026; the Austrian page carries no precise date) [1][2][3][4].\n- **Numbeo**: data reported by users, from a small sample (59 contributors for Budapest over 12 months). Numbeo shows prices per square foot; we converted them to square metres and euros and rounded them. Treat them as an order of magnitude, not as a transaction benchmark [5][6][7].\n- **Deloitte Property Index 2026**: average new-build prices for 2025, mostly at national level, published in October 2026 [8].\n\nNone of these sources gives transaction prices for older flats in the city centre. Yields are gross, before service charges, vacancy, maintenance and tax. Global Property Guide notes that net yields are usually 1.5 to 2 points lower [1].",
+        "de": "Die Zahlen stammen aus drei Arten von Quellen, die nicht dasselbe messen:\n\n- **Global Property Guide**: Angebotspreise und Angebotsmieten nach Wohnungstyp, vierteljährlich aktualisiert (Budapest und Warschau Q3 2026, Prag Q2 2026; die Seite zu Österreich ist nicht genau datiert) [1][2][3][4].\n- **Numbeo**: von Nutzern gemeldete Daten mit kleiner Stichprobe (59 Beiträge für Budapest in 12 Monaten). Numbeo zeigt Preise pro Quadratfuß; wir haben sie in Quadratmeter und Euro umgerechnet und gerundet. Nur als Größenordnung verwenden, nicht als Transaktionswert [5][6][7].\n- **Deloitte Property Index 2026**: durchschnittliche Neubaupreise 2025, überwiegend auf Landesebene, veröffentlicht im Oktober 2026 [8].\n\nKeine dieser Quellen liefert Transaktionspreise für Bestandswohnungen in der Innenstadt. Die Renditen sind brutto, also vor Nebenkosten, Leerstand, Instandhaltung und Steuern. Laut Global Property Guide liegt die Nettorendite meist 1,5 bis 2 Prozentpunkte niedriger [1].",
+        "hu": "Az adatok háromféle forrásból származnak, és nem ugyanazt mérik:\n\n- **Global Property Guide**: kínálati árak és kínálati bérleti díjak lakástípusonként, negyedévente frissítve (Budapest és Varsó 2026 III. negyedév, Prága 2026 II. negyedév; az osztrák oldal nincs pontosan datálva) [1][2][3][4].\n- **Numbeo**: felhasználók által bejelentett adatok, kis mintán (Budapestre 12 hónap alatt 59 adatközlő). A Numbeo négyzetlábban adja meg az árakat; ezeket négyzetméterre és euróra számoltuk át, kerekítve. Nagyságrendként kezelendők, nem tranzakciós referenciaként [5][6][7].\n- **Deloitte Property Index 2026**: az új lakások 2025-ös átlagárai, főként országos szinten, 2026 októberében publikálva [8].\n\nEgyik forrás sem ad tényleges eladási árat a belvárosi használt lakásokra. A hozamok bruttók: a közös költség, az üresjárat, a karbantartás és az adók nincsenek levonva. A Global Property Guide szerint a nettó hozam jellemzően 1,5–2 százalékponttal alacsonyabb [1]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Prix : le ticket d'entrée",
+        "en": "Prices: the entry ticket",
+        "de": "Preise: die Einstiegshürde",
+        "hu": "Árak: a belépő szint"
+      },
+      "body": {
+        "fr": "En centre-ville, Numbeo situe le m² autour de 5 000 € à Budapest, 5 300 € à Varsovie, 8 300 € à Prague et 12 400 € à Vienne (données du 26 octobre 2026) [5][6][7]. Pour le neuf, Deloitte donne des moyennes nationales 2025 de 3 438 €/m² en Hongrie, 3 008 € en Pologne, 5 412 € en Tchéquie et 5 199 € en Autriche, et 6 711 €/m² pour Vienne [8][9].\n\nPar logement, Global Property Guide indique pour un deux-pièces (une chambre) un prix médian demandé de 218 000 € à Budapest, 172 400 € à Varsovie, 356 800 € à Prague et 325 000 € à Vienne [1][2][3][4]. Les écarts entre sources montrent qu'il faut toujours revenir à des comparables locaux, rue par rue.",
+        "en": "In the city centre, Numbeo puts the price per m² at about €5,000 in Budapest, €5,300 in Warsaw, €8,300 in Prague and €12,400 in Vienna (data of 26 October 2026) [5][6][7]. For new builds, Deloitte gives 2025 national averages of €3,438/m² in Hungary, €3,008 in Poland, €5,412 in Czechia and €5,199 in Austria, and €6,711/m² for Vienna [8][9].\n\nPer unit, Global Property Guide shows a median asking price for a one-bedroom flat of €218,000 in Budapest, €172,400 in Warsaw, €356,800 in Prague and €325,000 in Vienna [1][2][3][4]. The gaps between sources show why you always need local comparables, street by street.",
+        "de": "In der Innenstadt liegt der Quadratmeterpreis laut Numbeo bei rund 5.000 € in Budapest, 5.300 € in Warschau, 8.300 € in Prag und 12.400 € in Wien (Stand 26. Oktober 2026) [5][6][7]. Für Neubauten nennt Deloitte nationale Durchschnittswerte 2025 von 3.438 €/m² in Ungarn, 3.008 € in Polen, 5.412 € in Tschechien und 5.199 € in Österreich sowie 6.711 €/m² für Wien [8][9].\n\nPro Wohnung zeigt Global Property Guide für eine Zweizimmerwohnung (ein Schlafzimmer) einen mittleren Angebotspreis von 218.000 € in Budapest, 172.400 € in Warschau, 356.800 € in Prag und 325.000 € in Wien [1][2][3][4]. Die Abweichungen zwischen den Quellen zeigen, dass man immer lokale Vergleichsobjekte braucht, Straße für Straße.",
+        "hu": "A belvárosban a Numbeo szerint a négyzetméterár Budapesten kb. 5000 €, Varsóban 5300 €, Prágában 8300 €, Bécsben 12 400 € (2026. október 26-i adat) [5][6][7]. Új lakásokra a Deloitte 2025-ös országos átlagai: Magyarország 3438 €/m², Lengyelország 3008 €, Csehország 5412 €, Ausztria 5199 €, Bécs 6711 €/m² [8][9].\n\nLakásonként a Global Property Guide egy egyhálószobás lakás medián kínálati árát Budapesten 218 000 €-ra, Varsóban 172 400 €-ra, Prágában 356 800 €-ra, Bécsben 325 000 €-ra teszi [1][2][3][4]. A források közötti eltérések miatt mindig helyi, utcaszintű összehasonlító adatokra van szükség."
+      }
+    },
+    {
+      "h": {
+        "fr": "Loyers et rendements bruts",
+        "en": "Rents and gross yields",
+        "de": "Mieten und Bruttorenditen",
+        "hu": "Bérleti díjak és bruttó hozamok"
+      },
+      "body": {
+        "fr": "Loyer mensuel demandé pour un deux-pièces (Global Property Guide) : 770 € à Budapest, 810 € à Varsovie, 985 € à Prague, 1 200 € à Vienne [1][2][3][4]. Rendement brut moyen de la ville : 4,84 % à Budapest, 6,65 % à Varsovie (tiré vers le haut par les grands logements), 3,54 % à Prague et 4,84 % à Vienne [1][2][3][4].\n\nEn centre-ville, Numbeo donne des rendements plus bas : 3,36 % à Budapest, 4,30 % à Varsovie, 2,85 % à Prague et 2,17 % à Vienne [5][6][7]. Plus le prix d'achat au m² est élevé, plus le rendement brut baisse : c'est le schéma de Vienne et de Prague. Pour un calcul réel, partez du loyer net de charges non récupérables, d'une vacance prudente et de la fiscalité locale.",
+        "en": "Monthly asking rent for a one-bedroom flat (Global Property Guide): €770 in Budapest, €810 in Warsaw, €985 in Prague, €1,200 in Vienna [1][2][3][4]. Average gross yield for the city: 4.84% in Budapest, 6.65% in Warsaw (pulled up by larger flats), 3.54% in Prague and 4.84% in Vienna [1][2][3][4].\n\nIn the city centre, Numbeo shows lower yields: 3.36% in Budapest, 4.30% in Warsaw, 2.85% in Prague and 2.17% in Vienna [5][6][7]. The higher the purchase price per m², the lower the gross yield, which is the pattern in Vienna and Prague. For a real calculation, start from rent net of non-recoverable charges, a prudent vacancy assumption and local tax.",
+        "de": "Monatliche Angebotsmiete für eine Zweizimmerwohnung (Global Property Guide): 770 € in Budapest, 810 € in Warschau, 985 € in Prag, 1.200 € in Wien [1][2][3][4]. Durchschnittliche Bruttorendite der Stadt: 4,84 % in Budapest, 6,65 % in Warschau (durch große Wohnungen nach oben gezogen), 3,54 % in Prag und 4,84 % in Wien [1][2][3][4].\n\nIn der Innenstadt zeigt Numbeo niedrigere Werte: 3,36 % in Budapest, 4,30 % in Warschau, 2,85 % in Prag und 2,17 % in Wien [5][6][7]. Je höher der Kaufpreis pro m², desto niedriger die Bruttorendite, wie in Wien und Prag. Für eine echte Rechnung gehen Sie von der Miete abzüglich nicht umlegbarer Kosten, einer vorsichtigen Leerstandsannahme und der lokalen Steuer aus.",
+        "hu": "Egyhálószobás lakás havi kínálati bérleti díja (Global Property Guide): Budapest 770 €, Varsó 810 €, Prága 985 €, Bécs 1200 € [1][2][3][4]. A város átlagos bruttó hozama: Budapest 4,84%, Varsó 6,65% (ezt a nagyobb lakások húzzák felfelé), Prága 3,54%, Bécs 4,84% [1][2][3][4].\n\nA belvárosra a Numbeo alacsonyabb értékeket mutat: Budapest 3,36%, Varsó 4,30%, Prága 2,85%, Bécs 2,17% [5][6][7]. Minél magasabb a négyzetméterár, annál alacsonyabb a bruttó hozam – ez látszik Bécsben és Prágában. Valós számításhoz a nem áthárítható költségekkel csökkentett bérleti díjból, óvatos üresjárati feltevésből és a helyi adózásból induljon ki."
+      }
+    },
+    {
+      "h": {
+        "fr": "Fiscalité à l'achat et sur les loyers",
+        "en": "Taxes on purchase and on rental income",
+        "de": "Steuern beim Kauf und auf Mieteinnahmen",
+        "hu": "Adók vásárláskor és a bérleti jövedelemre"
+      },
+      "body": {
+        "fr": "**Hongrie.** L'acheteur paie le vagyonszerzési illeték (droit de mutation) de 4 % de la valeur vénale fixée par la NAV (administration fiscale), 2 % au-delà de 1 milliard HUF, plafonné à 200 millions HUF par bien [10][12]. Les loyers sont imposés à 15 % ; sans justificatifs, 10 % du loyer est déduit forfaitairement, soit 13,5 % du loyer brut [19]. Aucune contribution sociale (szocho) n'est due sur les revenus locatifs [11].\n\n**Tchéquie.** La taxe d'acquisition immobilière a été supprimée en 2020 [14]. Le barème de l'impôt sur le revenu est de 15 %, puis 23 % au-delà de 1 762 812 CZK de revenu annuel (2026) ; les modalités pour les non-résidents sont à confirmer avec un conseiller [15].\n\n**Pologne.** Achat dans l'ancien : taxe PCC de 2 % de la valeur de marché, perçue par le notaire. Le neuf acheté à un promoteur supporte la TVA (8 % jusqu'à 150 m²) et pas la PCC [16][17]. Loyers : forfait de 8,5 % jusqu'à 100 000 PLN, 12,5 % au-delà [17].\n\n**Autriche.** Grunderwerbsteuer (droit de mutation) de 3,5 % et droit d'inscription au registre foncier de 1,1 % [18]. L'imposition des loyers des non-résidents relève du barème progressif ; taux à confirmer avec un conseiller.",
+        "en": "**Hungary.** The buyer pays vagyonszerzési illeték (transfer duty) of 4% of the market value set by NAV (the tax authority), 2% above HUF 1 billion, capped at HUF 200 million per property [10][12]. Rent is taxed at 15%; without receipts, 10% of the rent is deducted as a flat cost, which gives 13.5% of gross rent [19]. No social contribution tax (szocho) is due on rental income [11].\n\n**Czech Republic.** The real estate acquisition tax was abolished in 2020 [14]. Income tax is 15%, then 23% above CZK 1,762,812 of annual income (2026); how this applies to non-residents is to be confirmed with an adviser [15].\n\n**Poland.** Resale purchases: PCC tax of 2% of market value, collected by the notary. New builds bought from a developer carry VAT (8% up to 150 m²) and no PCC [16][17]. Rent: flat-rate tax of 8.5% up to PLN 100,000, 12.5% above [17].\n\n**Austria.** Grunderwerbsteuer (transfer tax) of 3.5% plus a 1.1% land register entry fee [18]. Non-residents' rental income falls under the progressive income tax scale; rates to be confirmed with an adviser.",
+        "de": "**Ungarn.** Der Käufer zahlt die vagyonszerzési illeték (Grunderwerbsabgabe) von 4 % des von der NAV (Steuerbehörde) festgesetzten Verkehrswerts, 2 % über 1 Mrd. HUF, gedeckelt bei 200 Mio. HUF je Immobilie [10][12]. Mieten werden mit 15 % besteuert; ohne Belege werden pauschal 10 % abgezogen, effektiv 13,5 % der Bruttomiete [19]. Auf Mieteinnahmen fällt kein Sozialbeitrag (szocho) an [11].\n\n**Tschechien.** Die Grunderwerbsteuer wurde 2020 abgeschafft [14]. Die Einkommensteuer beträgt 15 %, über 1.762.812 CZK Jahreseinkommen 23 % (2026); die Anwendung auf Gebietsfremde ist mit einem Berater zu klären [15].\n\n**Polen.** Kauf im Bestand: PCC-Steuer von 2 % des Marktwerts, vom Notar erhoben. Neubau vom Bauträger unterliegt der Mehrwertsteuer (8 % bis 150 m²), nicht der PCC [16][17]. Mieten: Pauschalsteuer von 8,5 % bis 100.000 PLN, darüber 12,5 % [17].\n\n**Österreich.** Grunderwerbsteuer von 3,5 % plus 1,1 % Eintragungsgebühr ins Grundbuch [18]. Mieteinnahmen von Gebietsfremden unterliegen dem progressiven Tarif; Sätze mit einem Berater klären.",
+        "hu": "**Magyarország.** A vevő a NAV által megállapított forgalmi érték 4%-át fizeti vagyonszerzési illetékként, 1 milliárd Ft felett 2%-ot, ingatlanonként legfeljebb 200 millió Ft-ot [10][12]. A bérleti jövedelem adója 15%; számlák nélkül a bevétel 10%-a költségként levonható, így az adó a bruttó bérleti díj 13,5%-a [19]. A bérbeadásból származó jövedelem után nem kell szociális hozzájárulási adót (szocho) fizetni [11].\n\n**Csehország.** Az ingatlanszerzési adót 2020-ban eltörölték [14]. A személyi jövedelemadó 15%, évi 1 762 812 CZK jövedelem felett 23% (2026); a nem rezidensekre való alkalmazást tanácsadóval kell egyeztetni [15].\n\n**Lengyelország.** Használt lakás vásárlásakor 2% PCC-adó a piaci érték után, amelyet a közjegyző szed be. A fejlesztőtől vett új lakást áfa terheli (150 m²-ig 8%), PCC nincs [16][17]. Bérleti jövedelem: átalányadó 100 000 PLN-ig 8,5%, felette 12,5% [17].\n\n**Ausztria.** 3,5% Grunderwerbsteuer (vagyonszerzési adó) és 1,1% telekkönyvi bejegyzési díj [18]. A nem rezidensek bérleti jövedelmére a progresszív adótábla vonatkozik; a mértéket tanácsadóval kell egyeztetni."
+      }
+    },
+    {
+      "h": {
+        "fr": "Accès des acheteurs étrangers",
+        "en": "Access for foreign buyers",
+        "de": "Zugang für ausländische Käufer",
+        "hu": "Külföldi vevők hozzáférése"
+      },
+      "body": {
+        "fr": "En Hongrie, les citoyens de l'UE et de l'EEE achètent un logement sans autorisation. Les autres personnes physiques et morales étrangères ont besoin d'un permis de l'office gouvernemental (kormányhivatal) du lieu du bien. Délai légal de 45 jours, frais de 65 000 HUF, avis du maire sur l'intérêt local [13].\n\nEn Pologne, les acheteurs hors EEE ont besoin d'un permis du ministère de l'Intérieur pour un terrain ou une maison, mais pas pour un appartement [17]. Pour Prague et Vienne, nous n'avons pas pu vérifier les règles en vigueur auprès d'une source primaire : à confirmer avec un avocat local avant toute offre.",
+        "en": "In Hungary, EU and EEA citizens buy a home without a permit. Other foreign individuals and companies need a permit from the kormányhivatal (government office) where the property is. The legal deadline is 45 days, the fee is HUF 65,000, and the mayor gives an opinion on local interest [13].\n\nIn Poland, non-EEA buyers need a permit from the Ministry of the Interior for land or a house, but not for an apartment [17]. For Prague and Vienna we could not check the current rules against a primary source: confirm them with a local lawyer before making an offer.",
+        "de": "In Ungarn kaufen EU- und EWR-Bürger eine Wohnung ohne Genehmigung. Andere ausländische Personen und Gesellschaften brauchen eine Genehmigung des kormányhivatal (Regierungsamt) am Ort der Immobilie. Gesetzliche Frist 45 Tage, Gebühr 65.000 HUF, der Bürgermeister äußert sich zum örtlichen Interesse [13].\n\nIn Polen benötigen Käufer außerhalb des EWR eine Genehmigung des Innenministeriums für Grundstücke oder Häuser, nicht aber für eine Wohnung [17]. Für Prag und Wien konnten wir die geltenden Regeln nicht anhand einer Primärquelle prüfen: vor einem Angebot mit einem örtlichen Anwalt klären.",
+        "hu": "Magyarországon az EU- és EGT-állampolgárok engedély nélkül vehetnek lakást. A többi külföldi magánszemélynek és jogi személynek az ingatlan fekvése szerinti kormányhivatal engedélye kell. Az ügyintézési határidő 45 nap, a díj 65 000 Ft, a polgármester nyilatkozik a helyi önkormányzati érdekről [13].\n\nLengyelországban az EGT-n kívüli vevőknek telekhez vagy házhoz a belügyminisztérium engedélye kell, lakáshoz nem [17]. Prága és Bécs esetében a hatályos szabályokat nem tudtuk elsődleges forrásból ellenőrizni: ajánlattétel előtt helyi ügyvéddel egyeztesse."
+      }
+    },
+    {
+      "h": {
+        "fr": "Tendances récentes et changements annoncés",
+        "en": "Recent trends and announced changes",
+        "de": "Aktuelle Entwicklung und angekündigte Änderungen",
+        "hu": "Friss trendek és bejelentett változások"
+      },
+      "body": {
+        "fr": "En 2025, les prix du neuf ont augmenté de 10,9 % en Hongrie (11,1 % à Budapest), 7,8 % en Pologne, 7,6 % en Tchéquie et 2,9 % en Autriche, selon Deloitte [8]. Budapest part donc d'un prix au m² plus bas, mais avec une hausse récente plus forte.\n\nÀ suivre en Hongrie : un projet de loi publié le 6 octobre 2026 prévoit un impôt sur la fortune nette au-delà de 1 milliard HUF à partir de la situation au 31 décembre 2026 ; pour les non-résidents, il viserait l'immobilier hongrois [20]. Ce n'est qu'un projet à ce stade. En Autriche, les règles de droit de mutation sur les cessions de parts de sociétés immobilières ont changé le 1er juillet 2025 [18].",
+        "en": "In 2025, new-build prices rose by 10.9% in Hungary (11.1% in Budapest), 7.8% in Poland, 7.6% in Czechia and 2.9% in Austria, according to Deloitte [8]. Budapest therefore starts from a lower price per m², but with a stronger recent rise.\n\nTo watch in Hungary: a draft law published on 6 October 2026 would tax net wealth above HUF 1 billion, based on holdings on 31 December 2026; for non-residents it would cover Hungarian real estate [20]. It is only a draft at this stage. In Austria, transfer tax rules on share deals in property companies changed on 1 July 2025 [18].",
+        "de": "2025 stiegen die Neubaupreise laut Deloitte um 10,9 % in Ungarn (11,1 % in Budapest), 7,8 % in Polen, 7,6 % in Tschechien und 2,9 % in Österreich [8]. Budapest startet also von einem niedrigeren Quadratmeterpreis, mit stärkerem Anstieg zuletzt.\n\nZu beobachten in Ungarn: Ein am 6. Oktober 2026 veröffentlichter Gesetzentwurf sieht eine Steuer auf Nettovermögen über 1 Mrd. HUF vor, bezogen auf den Stand vom 31. Dezember 2026; für Gebietsfremde würde sie ungarische Immobilien erfassen [20]. Es handelt sich bisher nur um einen Entwurf. In Österreich haben sich die Regeln zur Grunderwerbsteuer bei Anteilsübertragungen an Immobiliengesellschaften am 1. Juli 2025 geändert [18].",
+        "hu": "A Deloitte szerint 2025-ben az új lakások ára Magyarországon 10,9%-kal (Budapesten 11,1%-kal), Lengyelországban 7,8%-kal, Csehországban 7,6%-kal, Ausztriában 2,9%-kal nőtt [8]. Budapest tehát alacsonyabb négyzetméterárról indul, de az utóbbi időben gyorsabban drágult.\n\nMagyarországon figyelendő: a 2026. október 6-án közzétett törvénytervezet 1 milliárd Ft feletti nettó vagyonra vetne ki adót a 2026. december 31-i állapot alapján; nem rezidenseknél a magyarországi ingatlanokra terjedne ki [20]. Ez egyelőre csak tervezet. Ausztriában az ingatlantársaságok részesedésátruházására vonatkozó vagyonszerzési adószabályok 2025. július 1-jén változtak [18]."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Budapest, Prague, Varsovie et Vienne : chiffres clés pour un investisseur résidentiel (2025–2026)",
+      "en": "Budapest, Prague, Warsaw and Vienna: key figures for a residential investor (2025–2026)",
+      "de": "Budapest, Prag, Warschau und Wien: Kennzahlen für Wohnimmobilieninvestoren (2025–2026)",
+      "hu": "Budapest, Prága, Varsó és Bécs: fő mutatók lakóingatlan-befektetőknek (2025–2026)"
+    },
+    "head": {
+      "fr": [
+        "",
+        "Budapest",
+        "Prague",
+        "Varsovie",
+        "Vienne"
+      ],
+      "en": [
+        "",
+        "Budapest",
+        "Prague",
+        "Warsaw",
+        "Vienna"
+      ],
+      "de": [
+        "",
+        "Budapest",
+        "Prag",
+        "Warschau",
+        "Wien"
+      ],
+      "hu": [
+        "",
+        "Budapest",
+        "Prága",
+        "Varsó",
+        "Bécs"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "Prix au m², centre-ville (Numbeo, oct. 2026, converti du pied carré)",
+          "≈ 5 000 € [5]",
+          "≈ 8 300 € [5]",
+          "≈ 5 300 € [6]",
+          "≈ 12 400 € [7]"
+        ],
+        [
+          "Prix moyen du neuf au m², 2025 (Deloitte, national)",
+          "3 438 € [8]",
+          "5 412 € [8]",
+          "3 008 € [8]",
+          "5 199 € ; Vienne 6 711 € [8][9]"
+        ],
+        [
+          "Loyer mensuel, deux-pièces (Global Property Guide)",
+          "770 € (T3 2026) [1]",
+          "985 € (T2 2026) [2]",
+          "810 € (T3 2026) [3]",
+          "1 200 € (2026) [4]"
+        ],
+        [
+          "Rendement brut, moyenne ville (Global Property Guide)",
+          "4,84 % (T3 2026) [1]",
+          "3,54 % (T2 2026) [2]",
+          "6,65 % (T3 2026) [3]",
+          "4,84 % (2026) [4]"
+        ],
+        [
+          "Rendement brut, centre-ville (Numbeo, oct. 2026)",
+          "3,36 % [5]",
+          "2,85 % [5]",
+          "4,30 % [6]",
+          "2,17 % [7]"
+        ],
+        [
+          "Droits à l'achat",
+          "4 % (2 % au-delà de 1 Md HUF, plafond 200 M HUF) [10][12]",
+          "Aucun depuis 2020 [14]",
+          "PCC 2 % dans l'ancien ; neuf : TVA 8 % jusqu'à 150 m² [16][17]",
+          "3,5 % + 1,1 % registre foncier [18]"
+        ],
+        [
+          "Impôt sur les loyers, non-résidents",
+          "15 % sur 90 % du loyer ou sur le net ; pas de szocho [11][19]",
+          "15 % / 23 % au-delà de 1 762 812 CZK (2026) ; à confirmer pour non-résidents [15]",
+          "Forfait 8,5 % jusqu'à 100 000 PLN, 12,5 % au-delà [17]",
+          "Barème progressif ; à confirmer avec un conseiller"
+        ],
+        [
+          "Restrictions pour étrangers",
+          "Hors UE/EEE : permis, 45 jours, 65 000 HUF [13]",
+          "À confirmer avec un avocat local",
+          "Hors EEE : permis pour terrain/maison, pas pour un appartement [17]",
+          "À confirmer avec un avocat local"
+        ],
+        [
+          "Évolution des prix du neuf, 2025 (Deloitte, national)",
+          "+10,9 % (Budapest +11,1 %) [8]",
+          "+7,6 % [8]",
+          "+7,8 % [8]",
+          "+2,9 % [8]"
+        ]
+      ],
+      "en": [
+        [
+          "Price per m², city centre (Numbeo, Oct 2026, converted from sq ft)",
+          "≈ €5,000 [5]",
+          "≈ €8,300 [5]",
+          "≈ €5,300 [6]",
+          "≈ €12,400 [7]"
+        ],
+        [
+          "Average new-build price per m², 2025 (Deloitte, national)",
+          "€3,438 [8]",
+          "€5,412 [8]",
+          "€3,008 [8]",
+          "€5,199; Vienna €6,711 [8][9]"
+        ],
+        [
+          "Monthly rent, one-bedroom (Global Property Guide)",
+          "€770 (Q3 2026) [1]",
+          "€985 (Q2 2026) [2]",
+          "€810 (Q3 2026) [3]",
+          "€1,200 (2026) [4]"
+        ],
+        [
+          "Gross yield, city average (Global Property Guide)",
+          "4.84% (Q3 2026) [1]",
+          "3.54% (Q2 2026) [2]",
+          "6.65% (Q3 2026) [3]",
+          "4.84% (2026) [4]"
+        ],
+        [
+          "Gross yield, city centre (Numbeo, Oct 2026)",
+          "3.36% [5]",
+          "2.85% [5]",
+          "4.30% [6]",
+          "2.17% [7]"
+        ],
+        [
+          "Purchase taxes",
+          "4% (2% above HUF 1bn, cap HUF 200m) [10][12]",
+          "None since 2020 [14]",
+          "PCC 2% on resale; new build: VAT 8% up to 150 m² [16][17]",
+          "3.5% + 1.1% land register fee [18]"
+        ],
+        [
+          "Rental income tax, non-residents",
+          "15% on 90% of rent or on net income; no szocho [11][19]",
+          "15% / 23% above CZK 1,762,812 (2026); to confirm for non-residents [15]",
+          "Flat rate 8.5% up to PLN 100,000, 12.5% above [17]",
+          "Progressive scale; to confirm with an adviser"
+        ],
+        [
+          "Restrictions on foreign buyers",
+          "Non-EU/EEA: permit, 45 days, HUF 65,000 [13]",
+          "To confirm with a local lawyer",
+          "Non-EEA: permit for land/houses, not for apartments [17]",
+          "To confirm with a local lawyer"
+        ],
+        [
+          "New-build price change, 2025 (Deloitte, national)",
+          "+10.9% (Budapest +11.1%) [8]",
+          "+7.6% [8]",
+          "+7.8% [8]",
+          "+2.9% [8]"
+        ]
+      ],
+      "de": [
+        [
+          "Preis pro m², Innenstadt (Numbeo, Okt. 2026, aus Quadratfuß umgerechnet)",
+          "≈ 5.000 € [5]",
+          "≈ 8.300 € [5]",
+          "≈ 5.300 € [6]",
+          "≈ 12.400 € [7]"
+        ],
+        [
+          "Durchschnittlicher Neubaupreis pro m², 2025 (Deloitte, national)",
+          "3.438 € [8]",
+          "5.412 € [8]",
+          "3.008 € [8]",
+          "5.199 €; Wien 6.711 € [8][9]"
+        ],
+        [
+          "Monatsmiete, Zweizimmerwohnung (Global Property Guide)",
+          "770 € (Q3 2026) [1]",
+          "985 € (Q2 2026) [2]",
+          "810 € (Q3 2026) [3]",
+          "1.200 € (2026) [4]"
+        ],
+        [
+          "Bruttorendite, Stadtdurchschnitt (Global Property Guide)",
+          "4,84 % (Q3 2026) [1]",
+          "3,54 % (Q2 2026) [2]",
+          "6,65 % (Q3 2026) [3]",
+          "4,84 % (2026) [4]"
+        ],
+        [
+          "Bruttorendite, Innenstadt (Numbeo, Okt. 2026)",
+          "3,36 % [5]",
+          "2,85 % [5]",
+          "4,30 % [6]",
+          "2,17 % [7]"
+        ],
+        [
+          "Steuern beim Kauf",
+          "4 % (2 % über 1 Mrd. HUF, Deckel 200 Mio. HUF) [10][12]",
+          "Keine seit 2020 [14]",
+          "PCC 2 % im Bestand; Neubau: MwSt. 8 % bis 150 m² [16][17]",
+          "3,5 % + 1,1 % Grundbuchgebühr [18]"
+        ],
+        [
+          "Steuer auf Mieteinnahmen, Gebietsfremde",
+          "15 % auf 90 % der Miete oder auf den Nettobetrag; kein szocho [11][19]",
+          "15 % / 23 % über 1.762.812 CZK (2026); für Gebietsfremde zu klären [15]",
+          "Pauschal 8,5 % bis 100.000 PLN, darüber 12,5 % [17]",
+          "Progressiver Tarif; mit Berater klären"
+        ],
+        [
+          "Beschränkungen für Ausländer",
+          "Außerhalb EU/EWR: Genehmigung, 45 Tage, 65.000 HUF [13]",
+          "Mit örtlichem Anwalt klären",
+          "Außerhalb EWR: Genehmigung für Grundstück/Haus, nicht für Wohnung [17]",
+          "Mit örtlichem Anwalt klären"
+        ],
+        [
+          "Veränderung der Neubaupreise 2025 (Deloitte, national)",
+          "+10,9 % (Budapest +11,1 %) [8]",
+          "+7,6 % [8]",
+          "+7,8 % [8]",
+          "+2,9 % [8]"
+        ]
+      ],
+      "hu": [
+        [
+          "Négyzetméterár, belváros (Numbeo, 2026. okt., négyzetlábról átszámítva)",
+          "≈ 5000 € [5]",
+          "≈ 8300 € [5]",
+          "≈ 5300 € [6]",
+          "≈ 12 400 € [7]"
+        ],
+        [
+          "Új lakás átlagos m²-ára, 2025 (Deloitte, országos)",
+          "3438 € [8]",
+          "5412 € [8]",
+          "3008 € [8]",
+          "5199 €; Bécs 6711 € [8][9]"
+        ],
+        [
+          "Havi bérleti díj, egyhálószobás lakás (Global Property Guide)",
+          "770 € (2026 III. n.év) [1]",
+          "985 € (2026 II. n.év) [2]",
+          "810 € (2026 III. n.év) [3]",
+          "1200 € (2026) [4]"
+        ],
+        [
+          "Bruttó hozam, városi átlag (Global Property Guide)",
+          "4,84% (2026 III. n.év) [1]",
+          "3,54% (2026 II. n.év) [2]",
+          "6,65% (2026 III. n.év) [3]",
+          "4,84% (2026) [4]"
+        ],
+        [
+          "Bruttó hozam, belváros (Numbeo, 2026. okt.)",
+          "3,36% [5]",
+          "2,85% [5]",
+          "4,30% [6]",
+          "2,17% [7]"
+        ],
+        [
+          "Vásárlási illeték/adó",
+          "4% (1 Mrd Ft felett 2%, felső határ 200 M Ft) [10][12]",
+          "2020 óta nincs [14]",
+          "PCC 2% használt lakásnál; új lakás: áfa 8% 150 m²-ig [16][17]",
+          "3,5% + 1,1% telekkönyvi díj [18]"
+        ],
+        [
+          "Bérleti jövedelem adója, nem rezidensek",
+          "15% a bevétel 90%-a vagy a nettó jövedelem után; nincs szocho [11][19]",
+          "15% / 23% évi 1 762 812 CZK felett (2026); nem rezidensekre egyeztetendő [15]",
+          "Átalányadó 8,5% 100 000 PLN-ig, felette 12,5% [17]",
+          "Progresszív adótábla; tanácsadóval egyeztetendő"
+        ],
+        [
+          "Korlátozások külföldi vevőkre",
+          "EU/EGT-n kívül: engedély, 45 nap, 65 000 Ft [13]",
+          "Helyi ügyvéddel egyeztetendő",
+          "EGT-n kívül: engedély telekre/házra, lakásra nem [17]",
+          "Helyi ügyvéddel egyeztetendő"
+        ],
+        [
+          "Új lakások árának változása, 2025 (Deloitte, országos)",
+          "+10,9% (Budapest +11,1%) [8]",
+          "+7,6% [8]",
+          "+7,8% [8]",
+          "+2,9% [8]"
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Pourquoi les prix diffèrent-ils autant d'une source à l'autre ?",
+        "en": "Why do prices differ so much between sources?",
+        "de": "Warum weichen die Preise zwischen den Quellen so stark ab?",
+        "hu": "Miért térnek el ennyire az árak forrásonként?"
+      },
+      "a": {
+        "fr": "Numbeo repose sur des déclarations d'internautes et vise le centre-ville [5] ; Global Property Guide utilise des annonces par type de logement [1] ; Deloitte mesure le neuf, souvent à l'échelle nationale [8]. Aucune ne donne des prix de transaction dans l'ancien.",
+        "en": "Numbeo relies on user reports and targets the city centre [5]; Global Property Guide uses listings by apartment type [1]; Deloitte measures new builds, often at national level [8]. None gives transaction prices for older flats.",
+        "de": "Numbeo beruht auf Nutzermeldungen und zielt auf die Innenstadt [5]; Global Property Guide nutzt Inserate nach Wohnungstyp [1]; Deloitte misst Neubauten, oft auf Landesebene [8]. Keine liefert Transaktionspreise für Bestandswohnungen.",
+        "hu": "A Numbeo felhasználói bejelentéseken alapul, és a belvárosra vonatkozik [5]; a Global Property Guide lakástípusonkénti hirdetéseket használ [1]; a Deloitte az új lakásokat méri, sokszor országos szinten [8]. Egyik sem ad használt lakásokra tényleges eladási árat."
+      }
+    },
+    {
+      "q": {
+        "fr": "Les revenus locatifs sont-ils soumis aux cotisations sociales en Hongrie ?",
+        "en": "Is rental income subject to social contributions in Hungary?",
+        "de": "Unterliegen Mieteinnahmen in Ungarn Sozialabgaben?",
+        "hu": "Kell szochót fizetni a bérleti jövedelem után Magyarországon?"
+      },
+      "a": {
+        "fr": "Non. La NAV liste les revenus de location immobilière parmi les revenus hors szocho (contribution sociale) en 2026 [11]. L'impôt sur le revenu de 15 % reste dû [19].",
+        "en": "No. NAV lists income from renting out property among the items outside szocho (social contribution tax) in 2026 [11]. The 15% income tax still applies [19].",
+        "de": "Nein. Die NAV führt Einkünfte aus Immobilienvermietung 2026 unter den Einkünften ohne szocho (Sozialbeitrag) [11]. Die Einkommensteuer von 15 % bleibt fällig [19].",
+        "hu": "Nem. A NAV 2026-ban az ingatlan bérbeadásából származó jövedelmet a szochofizetési kötelezettség alá nem eső jövedelmek között sorolja fel [11]. A 15%-os szja ettől még fizetendő [19]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Le droit de mutation hongrois se calcule-t-il sur le prix du contrat ?",
+        "en": "Is Hungarian transfer duty based on the contract price?",
+        "de": "Wird die ungarische Grunderwerbsabgabe auf den Vertragspreis berechnet?",
+        "hu": "A szerződéses vételár után kell illetéket fizetni?"
+      },
+      "a": {
+        "fr": "Sur la valeur vénale fixée par la NAV, qui peut différer du prix. Le paiement est dû 30 jours après réception de la décision de la NAV [10].",
+        "en": "On the market value set by NAV, which can differ from the price. Payment is due 30 days after NAV's decision is delivered [10].",
+        "de": "Auf den von der NAV festgesetzten Verkehrswert, der vom Preis abweichen kann. Zahlbar 30 Tage nach Zustellung des NAV-Bescheids [10].",
+        "hu": "A NAV által megállapított forgalmi érték után, amely eltérhet a vételártól. Az illetéket a határozat kézbesítésétől számított 30 napon belül kell megfizetni [10]."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Global Property Guide – Gross rental yields in Hungary (Q3 2026)",
+      "url": "https://www.globalpropertyguide.com/europe/hungary/rental-yields",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Global Property Guide – Gross rental yields Czech Republic (Q2 2026)",
+      "url": "https://www.globalpropertyguide.com/europe/czech-republic/rental-yields",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Global Property Guide – Gross rental yields in Poland (Q3 2026)",
+      "url": "https://www.globalpropertyguide.com/europe/poland/rental-yields",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Global Property Guide – Gross rental yields in Austria (2026)",
+      "url": "https://www.globalpropertyguide.com/europe/austria/rental-yields",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Numbeo – Property prices, Budapest vs Prague (updated 26 Oct 2026)",
+      "url": "https://www.numbeo.com/property-investment/compare_cities.jsp?country1=Hungary&city1=Budapest&country2=Czech+Republic&city2=Prague",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Numbeo – Property prices, Budapest vs Warsaw (updated 26 Oct 2026)",
+      "url": "https://www.numbeo.com/property-investment/compare_cities.jsp?country1=Hungary&city1=Budapest&country2=Poland&city2=Warsaw",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Numbeo – Property prices, Budapest vs Vienna (updated 26 Oct 2026)",
+      "url": "https://www.numbeo.com/property-investment/compare_cities.jsp?country1=Hungary&city1=Budapest&country2=Austria&city2=Vienna",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Deloitte – Property Index 2026, Overview of European Residential Markets (2025 data)",
+      "url": "https://www.deloitte.com/content/dam/assets-zone2/at/de/docs/studien/2026/deloitte-property-index-2026.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Deloitte Austria – Property Index 2026 (Vienna figures)",
+      "url": "https://www.deloitte.com/at/de/what-we-do/aktuelle-studien/property-index-studie.html",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NAV – Az ingatlan-adásvétel adózási szabályai (14 Oct 2026)",
+      "url": "https://nav.gov.hu/print/Elethelyzetek-adozasa/vagyonugyek/Ingatlan-adasvetel",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NAV – 49. információs füzet: A szociális hozzájárulási adó (16 Jan 2026)",
+      "url": "https://nav.gov.hu/pfile/file?path=%2Fugyfeliranytu%2Fnezzen-utana%2Finf_fuz%2F2026%2F49.-A-szocialis-hozzajarulasi-ado-2026.-01.-16",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Individual, Other taxes (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/individual/other-taxes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Kormányhivatalok – Külföldiek ingatlanszerzése (23 Mar 2026)",
+      "url": "https://kormanyhivatalok.hu/sites/default/files/2026-07/kulfoldiek-ingatlanszerzese.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Grant Thornton Czech Republic – Real estate acquisition tax abolished (2020)",
+      "url": "https://grantthornton.cz/en/news/real-estate-acquisition-tax-abolished",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Czech Republic, Individual (reviewed 27 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/czech-republic/individual",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Ministry of Finance of Poland – Taxes of buying a property (PCC)",
+      "url": "https://podatki-arch.mf.gov.pl/en/stay-in-eu/taxes-of-buying-a-property/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Global Property Guide – Property investment in Poland: foreigner's guide (2025 edition)",
+      "url": "https://www.globalpropertyguide.com/Europe/Poland/Buying-Guide",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Austria, Corporate, Other taxes (reviewed 23 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/austria/corporate/other-taxes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Global Property Guide – Guide to property taxes in Hungary (Sep 2026)",
+      "url": "https://www.globalpropertyguide.com/europe/hungary/taxes-and-costs",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "BDO Hungary – A magyarországi vagyonadó (draft bill, Oct 2026)",
+      "url": "https://www.bdo.hu/hu-hu/aktualitasok-blog/blog/vagyonado-2027",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": true
+}

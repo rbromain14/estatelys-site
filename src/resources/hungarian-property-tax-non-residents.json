@@ -1,0 +1,411 @@
+{
+  "slug": "hungarian-property-tax-non-residents",
+  "item": "tax",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Fiscalité immobilière hongroise pour les non-résidents",
+    "en": "Hungarian property taxation for non-residents",
+    "de": "Ungarische Immobilienbesteuerung für Gebietsfremde",
+    "hu": "Magyar ingatlanadózás nem rezidenseknek"
+  },
+  "summary": {
+    "fr": "Revenus locatifs, plus-values, droits de mutation, taxes locales, taxe de séjour et conventions France–Hongrie et Allemagne–Hongrie : les règles 2026.",
+    "en": "Rental income, capital gains, transfer duty, local taxes, tourist tax and the France–Hungary and Germany–Hungary treaties: the 2026 rules.",
+    "de": "Mieteinkünfte, Veräußerungsgewinne, Erwerbsabgabe, lokale Steuern, Kurtaxe und die DBA mit Frankreich und Deutschland: die Regeln 2026.",
+    "hu": "Bérleti jövedelem, ingatlaneladás, vagyonszerzési illeték, helyi adók, idegenforgalmi adó és a francia, illetve német egyezmény: 2026-os szabályok."
+  },
+  "keyFacts": [
+    {
+      "fr": "Revenus locatifs : 15 % d'impôt sur le revenu, sans contribution sociale, avec option pour un abattement forfaitaire de 10 % [6][7].",
+      "en": "Rental income: 15% personal income tax, no social contribution tax, with the option of a 10% flat-rate cost deduction [6][7].",
+      "de": "Mieteinkünfte: 15 % Einkommensteuer, keine Sozialbeitragssteuer, wahlweise 10 % pauschaler Kostenabzug [6][7].",
+      "hu": "Bérleti jövedelem: 15% szja, szociális hozzájárulási adó nélkül, választható 10%-os költséghányaddal [6][7]."
+    },
+    {
+      "fr": "Plus-value à la revente : 15 %, réduite progressivement puis nulle à partir de la 5e année après l'acquisition [2].",
+      "en": "Gain on resale: 15%, reduced step by step and exempt from the 5th year after acquisition [2].",
+      "de": "Veräußerungsgewinn: 15 %, stufenweise reduziert und ab dem 5. Jahr nach dem Erwerb steuerfrei [2].",
+      "hu": "Ingatlaneladásból származó jövedelem: 15%, fokozatosan csökken, a szerzést követő 5. évtől adómentes [2]."
+    },
+    {
+      "fr": "Droits de mutation payés par l'acheteur : 4 % jusqu'à 1 milliard HUF, 2 % au-delà, plafond 200 millions HUF par bien [3].",
+      "en": "Transfer duty paid by the buyer: 4% up to HUF 1 billion, 2% above, capped at HUF 200 million per property [3].",
+      "de": "Vom Käufer gezahlte Erwerbsabgabe: 4 % bis 1 Mrd. HUF, 2 % darüber, gedeckelt bei 200 Mio. HUF je Immobilie [3].",
+      "hu": "A vevő által fizetett vagyonszerzési illeték: 1 milliárd Ft-ig 4%, felette 2%, ingatlanonként legfeljebb 200 millió Ft [3]."
+    },
+    {
+      "fr": "Location courte durée à Budapest : aucun nouvel enregistrement possible du 1er janvier 2025 au 31 décembre 2026 [12].",
+      "en": "Short-term letting in Budapest: no new registrations from 1 January 2025 to 31 December 2026 [12].",
+      "de": "Kurzzeitvermietung in Budapest: keine Neuregistrierungen vom 1. Januar 2025 bis 31. Dezember 2026 [12].",
+      "hu": "Rövid távú kiadás Budapesten: 2025. január 1. és 2026. december 31. között nem vehető nyilvántartásba új szálláshely [12]."
+    },
+    {
+      "fr": "Convention France–Hongrie : la Hongrie impose les loyers et plus-values ; la France les exonère mais en tient compte pour le taux [13].",
+      "en": "France–Hungary treaty: Hungary taxes rents and gains; France exempts them but takes them into account for the rate [13].",
+      "de": "DBA Frankreich–Ungarn: Ungarn besteuert Mieten und Gewinne; Frankreich stellt sie frei, berücksichtigt sie aber beim Steuersatz [13].",
+      "hu": "Francia–magyar egyezmény: a bérleti díjat és az eladási nyereséget Magyarország adóztatja; Franciaország mentesíti, de az adókulcsnál figyelembe veszi [13]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Revenus locatifs de longue durée",
+        "en": "Long-term rental income",
+        "de": "Mieteinkünfte aus Langzeitvermietung",
+        "hu": "Hosszú távú bérbeadás jövedelme"
+      },
+      "body": {
+        "fr": "Un non-résident qui loue un appartement situé en Hongrie est imposable en Hongrie sur ce revenu de source hongroise. Il lui faut un numéro fiscal hongrois (adóazonosító jel) avant la première échéance.\n\nLes règles applicables à un particulier en 2026 :\n- **Taux :** 15 % d'impôt sur le revenu des personnes physiques (személyi jövedelemadó, szja) [6][7].\n- **Pas de contribution sociale :** la szociális hozzájárulási adó (contribution sociale) ne s'applique pas aux loyers d'habitation de longue durée [6].\n- **Abattement forfaitaire de 10 % (költséghányad) :** 90 % du loyer est imposé, sans justificatifs de dépenses [6][7].\n- **Frais réels (tételes költségelszámolás) :** déduction des dépenses facturées, par exemple travaux, réparations, charges payées par le bailleur, équipements de moins de 200 000 HUF et amortissement du bâtiment [6].\n\nLe choix entre forfait et frais réels se fait selon le niveau des dépenses : le forfait convient quand les frais réels restent inférieurs à 10 % des loyers.\n\n**Calendrier :** des acomptes trimestriels sont dus au plus tard le 12 du mois suivant chaque trimestre, et le revenu annuel figure dans la déclaration de revenus de mai [6]. La location d'habitation par un particulier est exonérée de TVA [6].",
+        "en": "A non-resident who lets a flat located in Hungary is taxable in Hungary on that Hungarian-source income. A Hungarian tax identification number (adóazonosító jel) is needed before the first payment falls due.\n\nThe rules for a private individual in 2026:\n- **Rate:** 15% personal income tax (személyi jövedelemadó, szja) [6][7].\n- **No social contribution:** szociális hozzájárulási adó (social contribution tax) does not apply to long-term residential rent [6].\n- **10% flat-rate deduction (költséghányad):** 90% of the rent is taxed, with no need to document expenses [6][7].\n- **Itemised costs (tételes költségelszámolás):** invoiced expenses are deducted, for example renovation, repairs, utilities paid by the landlord, equipment under HUF 200,000 and depreciation of the building [6].\n\nThe choice between the two methods depends on the level of expenses: the flat rate suits landlords whose actual costs stay below 10% of the rent.\n\n**Timing:** quarterly advance payments are due by the 12th of the month following each quarter, and the annual income goes into the May tax return [6]. Residential letting by a private individual is VAT-exempt [6].",
+        "de": "Wer als Gebietsfremder eine Wohnung in Ungarn vermietet, ist mit diesen ungarischen Einkünften in Ungarn steuerpflichtig. Vor der ersten Zahlung wird eine ungarische Steuer-Identifikationsnummer (adóazonosító jel) benötigt.\n\nDie Regeln für Privatpersonen im Jahr 2026:\n- **Steuersatz:** 15 % Einkommensteuer (személyi jövedelemadó, szja) [6][7].\n- **Keine Sozialbeitragssteuer:** Die szociális hozzájárulási adó (Sozialbeitragssteuer) fällt bei langfristiger Wohnraumvermietung nicht an [6].\n- **10 % Kostenpauschale (költséghányad):** Besteuert werden 90 % der Miete, ohne Belege für Ausgaben [6][7].\n- **Tatsächliche Kosten (tételes költségelszámolás):** Abzug belegter Ausgaben, zum Beispiel Renovierung, Reparaturen, vom Vermieter getragene Nebenkosten, Ausstattung unter 200.000 HUF und Gebäudeabschreibung [6].\n\nDie Wahl hängt von der Höhe der Ausgaben ab: Die Pauschale lohnt sich, wenn die tatsächlichen Kosten unter 10 % der Miete liegen.\n\n**Fristen:** Vierteljährliche Vorauszahlungen sind bis zum 12. des Folgemonats nach jedem Quartal fällig, die Jahreseinkünfte gehören in die Steuererklärung im Mai [6]. Die Wohnraumvermietung durch Privatpersonen ist umsatzsteuerfrei [6].",
+        "hu": "A Magyarországon fekvő lakást bérbe adó nem rezidens magánszemély ezt a magyar forrású jövedelmet Magyarországon adózza. Az első fizetési határidő előtt adóazonosító jelre van szükség.\n\nA magánszemélyekre vonatkozó 2026-os szabályok:\n- **Adókulcs:** 15% személyi jövedelemadó (szja) [6][7].\n- **Nincs szociális hozzájárulási adó:** a hosszú távú lakásbérbeadás jövedelmét nem terheli szocho [6].\n- **10%-os költséghányad:** a bevétel 90%-a adóköteles, költségek igazolása nélkül [6][7].\n- **Tételes költségelszámolás:** számlával igazolt kiadások vonhatók le, például felújítás, javítás, a bérbeadó által fizetett rezsi, 200 000 Ft alatti eszközök és az épület értékcsökkenése [6].\n\nA módszer megválasztása a költségek szintjétől függ: a 10%-os költséghányad akkor előnyös, ha a tényleges költségek a bevétel 10%-a alatt maradnak.\n\n**Határidők:** negyedévente adóelőleget kell fizetni a negyedévet követő hónap 12-éig, az éves jövedelmet a májusi szja-bevallásban kell szerepeltetni [6]. A magánszemély lakásbérbeadása áfamentes [6]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Location courte durée et taxe de séjour",
+        "en": "Short-term letting and tourist tax",
+        "de": "Kurzzeitvermietung und Kurtaxe",
+        "hu": "Rövid távú kiadás és idegenforgalmi adó"
+      },
+      "body": {
+        "fr": "La location touristique n'est pas une location au sens fiscal mais un service d'hébergement (szálláshely-szolgáltatás). Elle suppose une déclaration auprès du notaire municipal (jegyző), un enregistrement dans le système NTAK et un numéro fiscal [6].\n\n**Impôt sur le revenu :**\n- **Impôt forfaitaire par chambre (tételes átalányadó) :** depuis le 1er janvier 2025, 150 000 HUF par chambre et par an à Budapest, 38 400 HUF dans les autres communes [8]. Il est réservé aux particuliers qui exploitent au plus trois biens dont ils sont propriétaires ou usufruitiers [8].\n- Les autres exploitants sont imposés sur la base du forfait de 10 % ou des frais réels [6].\n- **TVA :** l'hébergement est soumis à la TVA, mais une franchise (alanyi adómentesség) peut être choisie jusqu'à 20 millions HUF de chiffre d'affaires en 2026 [6].\n\n**Restrictions à Budapest :**\n- Aucun nouvel hébergement privé ne peut être enregistré à Budapest du 1er janvier 2025 au 31 décembre 2026 ; les hébergements déjà enregistrés peuvent continuer [12].\n- Le VIe arrondissement (Terézváros) interdit la location courte durée depuis le 1er janvier 2026 [6].\n- Les arrondissements peuvent fixer leurs propres règles à partir de 2027 ; le Ier arrondissement a consulté ses habitants du 31 août au 30 septembre 2026 [12].\n\n**Taxe de séjour (idegenforgalmi adó) :** chaque arrondissement en fixe le montant, dans la limite légale de 4 % du prix de la nuitée ou d'un montant par nuit et par personne, indexé sur l'inflation [9]. Exemples : le XIIe arrondissement applique 4 % du prix de l'hébergement [11] ; le IIe applique 800 HUF par personne et par nuit depuis le 1er janvier 2026, les moins de 18 ans étant exonérés [10]. L'exploitant collecte la taxe et la reverse au plus tard le 15 du mois suivant [10].",
+        "en": "Tourist letting is not rental for tax purposes but an accommodation service (szálláshely-szolgáltatás). It requires notification to the municipal notary (jegyző), registration in the NTAK system and a tax number [6].\n\n**Income tax:**\n- **Flat-rate tax per room (tételes átalányadó):** since 1 January 2025, HUF 150,000 per room per year in Budapest and HUF 38,400 in other municipalities [8]. It is available only to private individuals operating no more than three properties they own or hold in usufruct [8].\n- Other operators are taxed using the 10% flat-rate deduction or itemised costs [6].\n- **VAT:** accommodation is subject to VAT, but a small-business exemption (alanyi adómentesség) can be chosen up to HUF 20 million of revenue in 2026 [6].\n\n**Restrictions in Budapest:**\n- No new private accommodation can be registered in Budapest from 1 January 2025 to 31 December 2026; existing registered units may continue [12].\n- District VI (Terézváros) has banned short-term letting since 1 January 2026 [6].\n- Districts may set their own rules from 2027; District I consulted its residents from 31 August to 30 September 2026 [12].\n\n**Tourist tax (idegenforgalmi adó):** each district sets the amount, within the legal ceiling of 4% of the accommodation price or a per-person, per-night amount indexed to inflation [9]. Examples: District XII charges 4% of the accommodation price [11]; District II charges HUF 800 per person per night since 1 January 2026, with guests under 18 exempt [10]. The operator collects the tax and pays it over by the 15th of the following month [10].",
+        "de": "Touristische Vermietung gilt steuerlich nicht als Vermietung, sondern als Beherbergungsleistung (szálláshely-szolgáltatás). Sie erfordert eine Anmeldung beim Gemeindenotar (jegyző), eine Registrierung im NTAK-System und eine Steuernummer [6].\n\n**Einkommensteuer:**\n- **Pauschalsteuer je Zimmer (tételes átalányadó):** seit 1. Januar 2025 in Budapest 150.000 HUF pro Zimmer und Jahr, in anderen Gemeinden 38.400 HUF [8]. Sie steht nur Privatpersonen offen, die höchstens drei eigene oder per Nießbrauch gehaltene Objekte betreiben [8].\n- Andere Betreiber werden nach der 10-%-Pauschale oder nach tatsächlichen Kosten besteuert [6].\n- **Umsatzsteuer:** Beherbergung ist umsatzsteuerpflichtig, eine Kleinunternehmerbefreiung (alanyi adómentesség) kann 2026 bis 20 Mio. HUF Umsatz gewählt werden [6].\n\n**Einschränkungen in Budapest:**\n- Vom 1. Januar 2025 bis 31. Dezember 2026 können in Budapest keine neuen Privatunterkünfte registriert werden; bestehende dürfen weiterbetrieben werden [12].\n- Der VI. Bezirk (Terézváros) verbietet die Kurzzeitvermietung seit 1. Januar 2026 [6].\n- Ab 2027 können die Bezirke eigene Regeln festlegen; der I. Bezirk hat seine Einwohner vom 31. August bis 30. September 2026 befragt [12].\n\n**Kurtaxe (idegenforgalmi adó):** Jeder Bezirk legt sie fest, innerhalb der gesetzlichen Obergrenze von 4 % des Übernachtungspreises oder eines inflationsindexierten Betrags pro Person und Nacht [9]. Beispiele: Der XII. Bezirk erhebt 4 % des Übernachtungspreises [11]; der II. Bezirk seit 1. Januar 2026 800 HUF pro Person und Nacht, Gäste unter 18 Jahren sind befreit [10]. Der Betreiber zieht die Steuer ein und führt sie bis zum 15. des Folgemonats ab [10].",
+        "hu": "A turisztikai célú kiadás adójogilag nem bérbeadás, hanem szálláshely-szolgáltatás. Ehhez be kell jelenteni a tevékenységet a jegyzőnél, regisztrálni kell az NTAK-ban, és adószám szükséges [6].\n\n**Jövedelemadó:**\n- **Tételes átalányadó:** 2025. január 1-jétől Budapesten lakószobánként évi 150 000 Ft, a többi településen 38 400 Ft [8]. Csak az a magánszemély választhatja, aki legfeljebb három, saját tulajdonú vagy haszonélvezetű ingatlanban végzi a tevékenységet [8].\n- A többi szolgáltató a 10%-os költséghányad vagy a tételes költségelszámolás szerint adózik [6].\n- **Áfa:** a szálláshely-szolgáltatás áfaköteles, de 2026-ban 20 millió Ft árbevételig alanyi adómentesség választható [6].\n\n**Budapesti korlátozások:**\n- 2025. január 1. és 2026. december 31. között Budapesten nem vehető nyilvántartásba új magánszálláshely; a már nyilvántartott szálláshelyek működhetnek tovább [12].\n- A VI. kerület (Terézváros) 2026. január 1-jétől megtiltotta a rövid távú lakáskiadást [6].\n- 2027-től a kerületek saját szabályokat alkothatnak; az I. kerület 2026. augusztus 31. és szeptember 30. között véleménynyilvánító szavazást tartott [12].\n\n**Idegenforgalmi adó:** mértékét a kerület állapítja meg, a törvényi felső határon belül, amely a szállásdíj 4%-a vagy egy inflációval indexált, személyenkénti és vendégéjszakánkénti összeg [9]. Példák: a XII. kerületben a szállásdíj 4%-a [11]; a II. kerületben 2026. január 1-jétől személyenként és vendégéjszakánként 800 Ft, a 18 év alattiak mentesek [10]. Az adót a szállásadó szedi be, és a tárgyhónapot követő hónap 15-éig fizeti meg [10]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Plus-value à la revente",
+        "en": "Capital gains on resale",
+        "de": "Veräußerungsgewinne beim Wiederverkauf",
+        "hu": "Az ingatlan eladásából származó jövedelem"
+      },
+      "body": {
+        "fr": "Le vendeur particulier paie 15 % d'impôt sur le revenu sur le gain de cession [1][2]. Le gain se calcule ainsi : prix de vente moins les coûts justifiés, puis application de la réduction liée à la durée de détention [1].\n\n**Coûts déductibles** (sur factures ou contrats) [1] :\n- le prix d'acquisition ;\n- les frais d'acquisition, par exemple les droits de mutation et les honoraires d'avocat ;\n- les travaux qui augmentent la valeur du bien ;\n- les frais de vente, par exemple annonces et honoraires.\n\n**Durée de détention :** elle se compte en années civiles. L'année d'acquisition est en principe celle du dépôt du contrat au registre foncier [2]. Le gain imposable est de 100 % l'année d'acquisition et l'année suivante, puis 90 %, 60 % et 30 % ; à partir de la 5e année, la vente est exonérée [2]. Le tableau ci-dessous résume ce barème.\n\n**Déclaration :** le revenu figure dans la déclaration de l'année de dépôt du contrat de vente au registre foncier, à remettre et payer au plus tard le 20 mai de l'année suivante [2]. Aucune déclaration n'est nécessaire si la vente est exonérée ou ne dégage pas de gain [2].\n\nCes règles s'appliquent aussi aux non-résidents : la convention France–Hongrie laisse à la Hongrie le droit d'imposer les gains sur un bien situé en Hongrie [13].",
+        "en": "A private seller pays 15% personal income tax on the gain [1][2]. The gain is calculated as the sale price minus documented costs, followed by the reduction for the holding period [1].\n\n**Deductible costs** (with invoices or contracts) [1]:\n- the purchase price;\n- acquisition costs, for example transfer duty and legal fees;\n- improvements that increase the value of the property;\n- sale costs, for example advertising and fees.\n\n**Holding period:** it is counted in calendar years. The year of acquisition is generally the year the contract was submitted to the land registry [2]. The taxable share of the gain is 100% in the year of acquisition and the following year, then 90%, 60% and 30%; from the 5th year the sale is exempt [2]. The table below summarises this schedule.\n\n**Reporting:** the income goes into the tax return for the year in which the sale contract was submitted to the land registry, filed and paid by 20 May of the following year [2]. No return is needed if the sale is exempt or produces no gain [2].\n\nThese rules also apply to non-residents: the France–Hungary treaty leaves Hungary the right to tax gains on property located in Hungary [13].",
+        "de": "Private Verkäufer zahlen 15 % Einkommensteuer auf den Gewinn [1][2]. Der Gewinn ergibt sich aus dem Verkaufspreis abzüglich belegter Kosten, danach wird die Haltedauer-Ermäßigung angewendet [1].\n\n**Abzugsfähige Kosten** (mit Rechnungen oder Verträgen) [1]:\n- der Kaufpreis;\n- Erwerbsnebenkosten, zum Beispiel Erwerbsabgabe und Anwaltshonorar;\n- wertsteigernde Investitionen;\n- Verkaufskosten, zum Beispiel Inserate und Honorare.\n\n**Haltedauer:** Sie wird in Kalenderjahren gezählt. Als Erwerbsjahr gilt grundsätzlich das Jahr, in dem der Vertrag beim Grundbuchamt eingereicht wurde [2]. Steuerpflichtig sind im Erwerbsjahr und im Folgejahr 100 % des Gewinns, danach 90 %, 60 % und 30 %; ab dem 5. Jahr ist der Verkauf steuerfrei [2]. Die Tabelle unten fasst diese Staffel zusammen.\n\n**Erklärung:** Der Gewinn gehört in die Steuererklärung des Jahres, in dem der Kaufvertrag beim Grundbuchamt eingereicht wurde; Abgabe und Zahlung bis 20. Mai des Folgejahres [2]. Ist der Verkauf steuerfrei oder entsteht kein Gewinn, ist keine Erklärung nötig [2].\n\nDiese Regeln gelten auch für Gebietsfremde: Das DBA Frankreich–Ungarn belässt Ungarn das Besteuerungsrecht für Gewinne aus in Ungarn gelegenen Immobilien [13].",
+        "hu": "A magánszemély eladó a jövedelem után 15% szja-t fizet [1][2]. A jövedelem az eladási ár és az igazolt költségek különbözete, amelyet ezután a tartási idő szerinti csökkentés módosít [1].\n\n**Levonható költségek** (számlával vagy szerződéssel igazolva) [1]:\n- a megszerzésre fordított összeg;\n- a szerzéssel kapcsolatos kiadások, például a vagyonszerzési illeték és az ügyvédi díj;\n- az értéknövelő beruházások;\n- az eladás költségei, például hirdetés és díjak.\n\n**Tartási idő:** naptári években számít. A szerzés éve általában az az év, amikor a szerződést benyújtották az ingatlanügyi hatósághoz [2]. A jövedelem a szerzés évében és az azt követő évben 100%-ban adóköteles, majd 90%, 60% és 30%; az 5. évtől az eladás adómentes [2]. Az alábbi táblázat összefoglalja a sávokat.\n\n**Bevallás:** a jövedelmet annak az évnek az szja-bevallásában kell szerepeltetni, amelyben az adásvételi szerződést benyújtották az ingatlanügyi hatósághoz; a bevallás és a befizetés határideje a következő év május 20. [2]. Adómentes vagy jövedelmet nem eredményező eladásnál nem kell bevallani [2].\n\nEzek a szabályok a nem rezidensekre is vonatkoznak: a francia–magyar egyezmény a Magyarországon fekvő ingatlan eladásából származó nyereség adóztatását Magyarországnak engedi [13]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Droits de mutation payés par l'acheteur (vagyonszerzési illeték)",
+        "en": "Transfer duty paid by the buyer (vagyonszerzési illeték)",
+        "de": "Vom Käufer gezahlte Erwerbsabgabe (vagyonszerzési illeték)",
+        "hu": "A vevő által fizetett vagyonszerzési illeték"
+      },
+      "body": {
+        "fr": "L'acheteur paie le vagyonszerzési illeték (droit de mutation) sur la valeur de marché du bien, qui correspond en général au prix du contrat [1][3].\n\n**Taux et plafond :** 4 % jusqu'à 1 milliard HUF, 2 % sur la part au-delà, avec un plafond de 200 millions HUF par bien [3]. Pour un appartement de 60 millions HUF, le droit est donc de 2,4 millions HUF.\n\n**Procédure :** le formulaire B400 est déposé avec le contrat au registre foncier [1][3]. L'administration fiscale (NAV) émet ensuite un avis de paiement ; le droit est payable dans les 30 jours suivant sa réception [1].\n\n**Réductions et exonérations principales :**\n- **Acheteur de moins de 35 ans, premier logement :** réduction de 50 % si la valeur totale ne dépasse pas 15 millions HUF [3].\n- **Logement neuf :** exonération jusqu'à 15 millions HUF lorsque la valeur ne dépasse pas 30 millions HUF ; la tranche de 15 à 30 millions est taxée à 4 % [3].\n- **Remplacement de la résidence :** si l'acheteur a vendu un logement, seule la différence de valeur est taxée. Depuis le 1er janvier 2026, la vente peut avoir eu lieu jusqu'à 5 ans avant l'achat (3 ans auparavant), ou jusqu'à 1 an après [4]. La réduction doit être demandée sur le formulaire B400 [4].\n- **Famille :** les transferts entre parents en ligne directe et entre époux sont exonérés [3].\n\n**Marchands de biens :** une société dont au moins 50 % du chiffre d'affaires de l'année précédente provient de ventes immobilières peut payer 3 % si elle s'engage à revendre dans les 2 ans à une partie non liée, ou 2 % si elle s'engage en plus à ce que la revente soit effectivement exécutée [5]. Si l'engagement n'est pas tenu, un droit supplémentaire égal à deux fois l'écart avec le taux de 4 % est dû [5].",
+        "en": "The buyer pays vagyonszerzési illeték (transfer duty) on the market value of the property, which is usually the contract price [1][3].\n\n**Rate and cap:** 4% up to HUF 1 billion and 2% on the portion above, capped at HUF 200 million per property [3]. For a flat bought for HUF 60 million, the duty is therefore HUF 2.4 million.\n\n**Procedure:** form B400 is filed together with the contract at the land registry [1][3]. The tax authority (NAV) then issues a payment notice; the duty is payable within 30 days of receiving it [1].\n\n**Main reductions and exemptions:**\n- **Buyer under 35, first home:** 50% reduction if the total value does not exceed HUF 15 million [3].\n- **New home:** exempt up to HUF 15 million where the value does not exceed HUF 30 million; the HUF 15–30 million portion is taxed at 4% [3].\n- **Replacing a home:** if the buyer has sold a home, only the difference in value is taxed. Since 1 January 2026 the sale may have taken place up to 5 years before the purchase (previously 3 years), or up to 1 year after [4]. The relief must be claimed on form B400 [4].\n- **Family:** transfers between direct relatives and between spouses are exempt [3].\n\n**Property traders:** a company that earned at least 50% of the previous year's net revenue from property sales can pay 3% if it undertakes to resell within 2 years to an unrelated party, or 2% if it also undertakes that the resale is actually completed [5]. If the undertaking is not met, a supplementary duty of twice the difference from the 4% rate is due [5].",
+        "de": "Der Käufer zahlt die vagyonszerzési illeték (Erwerbsabgabe) auf den Marktwert der Immobilie, der in der Regel dem Vertragspreis entspricht [1][3].\n\n**Satz und Deckel:** 4 % bis 1 Mrd. HUF, 2 % auf den darüber liegenden Teil, höchstens 200 Mio. HUF je Immobilie [3]. Für eine Wohnung zu 60 Mio. HUF beträgt die Abgabe also 2,4 Mio. HUF.\n\n**Verfahren:** Das Formular B400 wird zusammen mit dem Vertrag beim Grundbuchamt eingereicht [1][3]. Die Steuerbehörde (NAV) erlässt danach einen Zahlungsbescheid; zu zahlen ist innerhalb von 30 Tagen nach Zugang [1].\n\n**Wichtigste Ermäßigungen und Befreiungen:**\n- **Käufer unter 35 Jahren, erste Wohnung:** 50 % Ermäßigung, wenn der Gesamtwert 15 Mio. HUF nicht übersteigt [3].\n- **Neubauwohnung:** befreit bis 15 Mio. HUF, wenn der Wert 30 Mio. HUF nicht übersteigt; der Anteil zwischen 15 und 30 Mio. HUF wird mit 4 % belastet [3].\n- **Ersatz einer Wohnung:** Hat der Käufer eine Wohnung verkauft, wird nur die Wertdifferenz belastet. Seit 1. Januar 2026 darf der Verkauf bis zu 5 Jahre vor dem Kauf liegen (zuvor 3 Jahre) oder bis zu 1 Jahr danach [4]. Die Ermäßigung muss im Formular B400 beantragt werden [4].\n- **Familie:** Übertragungen zwischen Verwandten in gerader Linie und zwischen Ehegatten sind befreit [3].\n\n**Immobilienhändler:** Eine Gesellschaft, die im Vorjahr mindestens 50 % ihres Nettoumsatzes aus Immobilienverkäufen erzielt hat, zahlt 3 %, wenn sie sich zum Weiterverkauf innerhalb von 2 Jahren an eine nicht verbundene Partei verpflichtet, oder 2 %, wenn sie sich zusätzlich zum tatsächlichen Vollzug des Weiterverkaufs verpflichtet [5]. Wird die Verpflichtung nicht erfüllt, ist ein Zuschlag in Höhe des doppelten Unterschieds zum 4-%-Satz fällig [5].",
+        "hu": "A vevő a vagyonszerzési illetéket az ingatlan forgalmi értéke után fizeti, amely általában megegyezik a szerződéses árral [1][3].\n\n**Mérték és felső határ:** 1 milliárd Ft-ig 4%, az azt meghaladó részre 2%, ingatlanonként legfeljebb 200 millió Ft [3]. Egy 60 millió Ft-os lakásnál az illeték tehát 2,4 millió Ft.\n\n**Eljárás:** a B400-as nyomtatványt a szerződéssel együtt az ingatlanügyi hatósághoz kell benyújtani [1][3]. A NAV ezt követően fizetési meghagyást bocsát ki; az illetéket a kézhezvételtől számított 30 napon belül kell megfizetni [1].\n\n**Fontosabb kedvezmények és mentességek:**\n- **35 év alatti első lakásvásárló:** 50% kedvezmény, ha a lakás összértéke nem haladja meg a 15 millió Ft-ot [3].\n- **Új lakás:** 15 millió Ft-ig mentes, ha az érték nem haladja meg a 30 millió Ft-ot; a 15–30 millió Ft közötti rész után 4% fizetendő [3].\n- **Cserét pótló vétel:** ha a vevő lakást adott el, csak az értékkülönbözet után kell illetéket fizetni. 2026. január 1-jétől az eladás a vásárlást legfeljebb 5 évvel előzheti meg (korábban 3 év), vagy legfeljebb 1 évvel követheti [4]. A kedvezményt a B400-as nyomtatványon kell kérni [4].\n- **Család:** az egyenes ági rokonok és a házastársak közötti átruházás mentes [3].\n\n**Ingatlanforgalmazók:** az a gazdálkodó szervezet, amelynek előző évi nettó árbevétele legalább 50%-ban ingatlanértékesítésből származott, 3%-ot fizet, ha vállalja, hogy 2 éven belül nem kapcsolt félnek továbbértékesíti az ingatlant, illetve 2%-ot, ha azt is vállalja, hogy a továbbértékesítés ténylegesen teljesül [5]. Ha a vállalás nem teljesül, a 4%-os mértékhez képesti különbözet kétszeresét kell pótilletékként megfizetni [5]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Taxes locales : taxe sur les constructions et taxe communale",
+        "en": "Local taxes: building tax and communal tax",
+        "de": "Lokale Steuern: Gebäudesteuer und Kommunalsteuer",
+        "hu": "Helyi adók: építményadó és kommunális adó"
+      },
+      "body": {
+        "fr": "Il n'existe pas de taxe foncière nationale en Hongrie. À Budapest, chaque arrondissement décide par arrêté s'il lève une taxe sur les constructions (építményadó) ou une taxe communale des particuliers (magánszemélyek kommunális adója), et à quel niveau. La loi sur les impôts locaux fixe les plafonds : 1 100 HUF par m² et par an pour la taxe sur les constructions, 17 000 HUF par bien et par an pour la taxe communale, ces montants étant indexés sur l'inflation depuis 2003 [9].\n\n**Exemple du IIe arrondissement en 2026** [10] :\n- Taxe sur les constructions : 2 900 HUF par m² et par an (2 300 HUF en 2025).\n- Les logements des particuliers non utilisés à des fins professionnelles sont exonérés de cette taxe et relèvent de la taxe communale.\n- Taxe communale selon la surface : 9 000 HUF jusqu'à 80 m², 16 000 HUF de 80 à 100 m², 25 000 HUF de 100 à 150 m², 35 000 HUF au-delà.\n\nUn logement détenu par une société ou utilisé pour une activité peut donc être soumis à la taxe sur les constructions au tarif plein. Les montants varient fortement d'un arrondissement à l'autre ; avant l'achat, il faut consulter l'arrêté fiscal de l'arrondissement concerné.\n\n**Calendrier :** les impôts locaux sont généralement payés en deux échéances, le 15 mars et le 15 septembre [15].",
+        "en": "Hungary has no national property tax. In Budapest each district decides by decree whether to levy a building tax (építményadó) or a communal tax on private individuals (magánszemélyek kommunális adója), and at what level. The Local Taxes Act sets the ceilings: HUF 1,100 per m² per year for building tax and HUF 17,000 per property per year for communal tax, both indexed to inflation since 2003 [9].\n\n**Example of District II in 2026** [10]:\n- Building tax: HUF 2,900 per m² per year (HUF 2,300 in 2025).\n- Private individuals' homes not used for business are exempt from building tax and fall under the communal tax instead.\n- Communal tax by floor area: HUF 9,000 up to 80 m², HUF 16,000 for 80–100 m², HUF 25,000 for 100–150 m², HUF 35,000 above.\n\nA flat owned by a company or used for business can therefore be liable to building tax at the full rate. Amounts differ widely between districts; before buying, check the tax decree of the district concerned.\n\n**Timing:** local property taxes are generally paid in two instalments, on 15 March and 15 September [15].",
+        "de": "Eine landesweite Grundsteuer gibt es in Ungarn nicht. In Budapest entscheidet jeder Bezirk per Verordnung, ob und in welcher Höhe er eine Gebäudesteuer (építményadó) oder eine Kommunalsteuer für Privatpersonen (magánszemélyek kommunális adója) erhebt. Das Gesetz über lokale Steuern legt die Obergrenzen fest: 1.100 HUF pro m² und Jahr für die Gebäudesteuer und 17.000 HUF pro Objekt und Jahr für die Kommunalsteuer, jeweils seit 2003 inflationsindexiert [9].\n\n**Beispiel II. Bezirk 2026** [10]:\n- Gebäudesteuer: 2.900 HUF pro m² und Jahr (2025: 2.300 HUF).\n- Wohnungen von Privatpersonen, die nicht gewerblich genutzt werden, sind von der Gebäudesteuer befreit und unterliegen stattdessen der Kommunalsteuer.\n- Kommunalsteuer nach Fläche: 9.000 HUF bis 80 m², 16.000 HUF für 80–100 m², 25.000 HUF für 100–150 m², 35.000 HUF darüber.\n\nEine Wohnung im Eigentum einer Gesellschaft oder in gewerblicher Nutzung kann daher der vollen Gebäudesteuer unterliegen. Die Beträge unterscheiden sich stark zwischen den Bezirken; vor dem Kauf sollte die Steuerverordnung des betreffenden Bezirks geprüft werden.\n\n**Fälligkeit:** Lokale Steuern werden in der Regel in zwei Raten gezahlt, am 15. März und am 15. September [15].",
+        "hu": "Magyarországon nincs országos ingatlanadó. Budapesten minden kerület rendeletben dönt arról, hogy bevezet-e építményadót vagy magánszemélyek kommunális adóját, és milyen mértékben. A helyi adókról szóló törvény határozza meg a felső határokat: az építményadónál évi 1100 Ft/m², a kommunális adónál ingatlanonként évi 17 000 Ft, mindkettő 2003 óta inflációval indexálva [9].\n\n**Példa: a II. kerület 2026-ban** [10]:\n- Építményadó: évi 2900 Ft/m² (2025-ben 2300 Ft).\n- A magánszemélyek nem vállalkozási célú lakása mentes az építményadó alól, helyette kommunális adó terheli.\n- Kommunális adó a hasznos alapterület szerint: 80 m²-ig 9000 Ft, 80–100 m² között 16 000 Ft, 100–150 m² között 25 000 Ft, felette 35 000 Ft.\n\nA társaság tulajdonában lévő vagy vállalkozási célra használt lakásra tehát a teljes építményadó vonatkozhat. Az összegek kerületenként jelentősen eltérnek; vásárlás előtt érdemes az adott kerület adórendeletét megnézni.\n\n**Fizetés:** a helyi adókat általában két részletben, március 15-éig és szeptember 15-éig kell megfizetni [15]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Conventions fiscales France–Hongrie et Allemagne–Hongrie",
+        "en": "France–Hungary and Germany–Hungary tax treaties",
+        "de": "Doppelbesteuerungsabkommen Frankreich–Ungarn und Deutschland–Ungarn",
+        "hu": "A francia–magyar és a német–magyar kettős adóztatási egyezmény"
+      },
+      "body": {
+        "fr": "**France–Hongrie.** La convention signée à Paris le 28 avril 1980, modifiée par la convention multilatérale (IML) pour les périodes à partir du 1er janvier 2022, répartit le droit d'imposer ainsi [13] :\n- **Loyers (article 6)** et **plus-values immobilières (article 13)** : imposables en Hongrie, où se trouve le bien. Le protocole étend cette règle aux parts de sociétés à prépondérance immobilière.\n- **Élimination de la double imposition côté France (article 24) :** ces revenus sont exonérés d'impôt français, mais la France les prend en compte pour calculer le taux applicable aux autres revenus (règle du taux effectif). Le résident français déclare donc ses loyers et plus-values hongrois sans payer l'impôt français dessus.\n- **Dividendes (article 10) :** la retenue hongroise est limitée à 15 % (5 % pour une société détenant au moins 25 % du capital) ; la France impose le montant brut et accorde un crédit d'impôt plafonné à l'impôt français correspondant.\n\nL'application des prélèvements sociaux français à ces revenus est une question distincte, à vérifier avec un conseiller.\n\n**Allemagne–Hongrie.** La convention signée le 28 février 2011 (loi hongroise LXXXIV de 2011) s'applique depuis 2012 [14]. Elle permet à l'État de situation du bien d'imposer aussi les gains sur les parts de sociétés dont plus de 50 % de l'actif est immobilier ; la retenue sur dividendes est de 5 % pour une participation d'au moins 10 % et de 15 % dans les autres cas [14]. La méthode allemande d'élimination de la double imposition pour les loyers hongrois est à confirmer avec un conseiller.",
+        "en": "**France–Hungary.** The treaty signed in Paris on 28 April 1980, modified by the Multilateral Instrument (MLI) for periods from 1 January 2022, allocates taxing rights as follows [13]:\n- **Rent (Article 6)** and **gains on real estate (Article 13):** taxable in Hungary, where the property is located. The protocol extends this to shares in companies whose assets are mainly real estate.\n- **Relief on the French side (Article 24):** this income is exempt from French tax, but France takes it into account to calculate the rate applied to the taxpayer's other income (effective rate rule). A French resident therefore reports Hungarian rent and gains without paying French income tax on them.\n- **Dividends (Article 10):** Hungarian tax is limited to 15% (5% for a company holding at least 25% of the capital); France taxes the gross amount and grants a credit capped at the corresponding French tax.\n\nWhether French social levies apply to this income is a separate question to check with an adviser.\n\n**Germany–Hungary.** The treaty signed on 28 February 2011 (Hungarian Act LXXXIV of 2011) has applied since 2012 [14]. It lets the state where the property is located also tax gains on shares in companies whose assets are more than 50% real estate; dividend withholding is 5% for a holding of at least 10% and 15% in other cases [14]. The method Germany uses to relieve double taxation on Hungarian rent should be confirmed with an adviser.",
+        "de": "**Frankreich–Ungarn.** Das am 28. April 1980 in Paris unterzeichnete Abkommen, geändert durch das Multilaterale Instrument (MLI) für Zeiträume ab 1. Januar 2022, verteilt die Besteuerungsrechte wie folgt [13]:\n- **Mieten (Artikel 6)** und **Gewinne aus Immobilien (Artikel 13):** in Ungarn steuerpflichtig, wo die Immobilie liegt. Das Protokoll erweitert dies auf Anteile an Gesellschaften, deren Vermögen überwiegend aus Immobilien besteht.\n- **Entlastung in Frankreich (Artikel 24):** Diese Einkünfte sind von der französischen Steuer befreit, Frankreich berücksichtigt sie aber bei der Ermittlung des Steuersatzes für die übrigen Einkünfte (Progressionsvorbehalt). Französische Ansässige erklären ungarische Mieten und Gewinne also, ohne darauf französische Einkommensteuer zu zahlen.\n- **Dividenden (Artikel 10):** Die ungarische Steuer ist auf 15 % begrenzt (5 % für eine Gesellschaft mit mindestens 25 % Beteiligung); Frankreich besteuert den Bruttobetrag und rechnet die ungarische Steuer bis zur Höhe der französischen Steuer an.\n\nOb französische Sozialabgaben auf diese Einkünfte anfallen, ist gesondert mit einem Berater zu prüfen.\n\n**Deutschland–Ungarn.** Das am 28. Februar 2011 unterzeichnete Abkommen (ungarisches Gesetz LXXXIV von 2011) gilt seit 2012 [14]. Es erlaubt dem Belegenheitsstaat, auch Gewinne aus Anteilen an Gesellschaften zu besteuern, deren Vermögen zu mehr als 50 % aus Immobilien besteht; die Quellensteuer auf Dividenden beträgt 5 % bei einer Beteiligung von mindestens 10 % und sonst 15 % [14]. Wie Deutschland die Doppelbesteuerung ungarischer Mieteinkünfte vermeidet, sollte mit einem Berater geklärt werden.",
+        "hu": "**Franciaország–Magyarország.** Az 1980. április 28-án Párizsban aláírt egyezmény, amelyet a 2022. január 1-jétől kezdődő időszakokra a többoldalú egyezmény (MLI) módosított, az adóztatási jogot így osztja meg [13]:\n- **Bérleti jövedelem (6. cikk)** és **ingatlan eladásából származó nyereség (13. cikk):** Magyarországon adóztatható, ahol az ingatlan fekszik. A jegyzőkönyv ezt kiterjeszti a túlnyomórészt ingatlanvagyonnal rendelkező társaságok részesedéseire is.\n- **A kettős adóztatás megszüntetése francia oldalon (24. cikk):** ezek a jövedelmek mentesek a francia adó alól, de Franciaország figyelembe veszi őket a többi jövedelemre alkalmazandó adókulcs kiszámításánál (progresszió fenntartása). A francia rezidens tehát bevallja a magyar bérleti jövedelmet és nyereséget, de francia jövedelemadót nem fizet utánuk.\n- **Osztalék (10. cikk):** a magyar adó legfeljebb 15% (legalább 25%-os részesedéssel rendelkező társaságnál 5%); Franciaország a bruttó összeget adóztatja, és a megfelelő francia adó összegéig beszámítást ad.\n\nAz, hogy a francia társadalombiztosítási hozzájárulások (prélèvements sociaux) terhelik-e ezeket a jövedelmeket, külön kérdés, amelyet tanácsadóval érdemes tisztázni.\n\n**Németország–Magyarország.** A 2011. február 28-án aláírt egyezményt (2011. évi LXXXIV. törvény) 2012 óta alkalmazzák [14]. Az ingatlan fekvése szerinti állam azoknak a társaságoknak a részesedéseiből származó nyereséget is adóztathatja, amelyek eszközeinek több mint 50%-a ingatlan; az osztalék forrásadója legalább 10%-os részesedésnél 5%, egyéb esetben 15% [14]. Azt, hogy Németország milyen módszerrel kerüli el a magyar bérleti jövedelem kettős adóztatását, tanácsadóval kell egyeztetni."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Part imposable du gain de cession selon la durée de détention (particuliers) [2]",
+      "en": "Taxable share of the gain on sale by holding period (private individuals) [2]",
+      "de": "Steuerpflichtiger Anteil des Veräußerungsgewinns nach Haltedauer (Privatpersonen) [2]",
+      "hu": "Az ingatlaneladásból származó jövedelem adóköteles része a tartási idő szerint (magánszemélyek) [2]"
+    },
+    "head": {
+      "fr": [
+        "Année de la vente",
+        "Part imposable",
+        "Taux effectif sur le gain"
+      ],
+      "en": [
+        "Year of sale",
+        "Taxable share",
+        "Effective rate on the gain"
+      ],
+      "de": [
+        "Verkaufsjahr",
+        "Steuerpflichtiger Anteil",
+        "Effektiver Satz auf den Gewinn"
+      ],
+      "hu": [
+        "Az eladás éve",
+        "Adóköteles rész",
+        "Tényleges adóteher a jövedelemre"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "Année d'acquisition ou année suivante",
+          "100 %",
+          "15 %"
+        ],
+        [
+          "2e année après l'acquisition",
+          "90 %",
+          "13,5 %"
+        ],
+        [
+          "3e année",
+          "60 %",
+          "9 %"
+        ],
+        [
+          "4e année",
+          "30 %",
+          "4,5 %"
+        ],
+        [
+          "5e année et au-delà",
+          "0 %",
+          "0 %"
+        ]
+      ],
+      "en": [
+        [
+          "Year of acquisition or following year",
+          "100%",
+          "15%"
+        ],
+        [
+          "2nd year after acquisition",
+          "90%",
+          "13.5%"
+        ],
+        [
+          "3rd year",
+          "60%",
+          "9%"
+        ],
+        [
+          "4th year",
+          "30%",
+          "4.5%"
+        ],
+        [
+          "5th year and later",
+          "0%",
+          "0%"
+        ]
+      ],
+      "de": [
+        [
+          "Erwerbsjahr oder Folgejahr",
+          "100 %",
+          "15 %"
+        ],
+        [
+          "2. Jahr nach dem Erwerb",
+          "90 %",
+          "13,5 %"
+        ],
+        [
+          "3. Jahr",
+          "60 %",
+          "9 %"
+        ],
+        [
+          "4. Jahr",
+          "30 %",
+          "4,5 %"
+        ],
+        [
+          "Ab dem 5. Jahr",
+          "0 %",
+          "0 %"
+        ]
+      ],
+      "hu": [
+        [
+          "A szerzés éve vagy az azt követő év",
+          "100%",
+          "15%"
+        ],
+        [
+          "A szerzést követő 2. év",
+          "90%",
+          "13,5%"
+        ],
+        [
+          "3. év",
+          "60%",
+          "9%"
+        ],
+        [
+          "4. év",
+          "30%",
+          "4,5%"
+        ],
+        [
+          "5. év és később",
+          "0%",
+          "0%"
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Un non-résident doit-il payer l'impôt hongrois sur ses loyers ?",
+        "en": "Does a non-resident pay Hungarian tax on rent?",
+        "de": "Zahlt ein Gebietsfremder ungarische Steuer auf Mieteinnahmen?",
+        "hu": "Fizet-e magyar adót a nem rezidens a bérleti díj után?"
+      },
+      "a": {
+        "fr": "Oui. Les loyers d'un bien situé en Hongrie sont imposables en Hongrie à 15 % [7], et la convention France–Hongrie attribue ce droit à la Hongrie [13].",
+        "en": "Yes. Rent from property located in Hungary is taxable in Hungary at 15% [7], and the France–Hungary treaty gives this right to Hungary [13].",
+        "de": "Ja. Mieten aus einer in Ungarn gelegenen Immobilie werden in Ungarn mit 15 % besteuert [7], und das DBA Frankreich–Ungarn weist dieses Recht Ungarn zu [13].",
+        "hu": "Igen. A Magyarországon fekvő ingatlan bérleti jövedelme Magyarországon 15%-kal adózik [7], és a francia–magyar egyezmény ezt a jogot Magyarországnak adja [13]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Au bout de combien de temps la revente est-elle exonérée ?",
+        "en": "After how long is a resale tax-free?",
+        "de": "Ab wann ist ein Wiederverkauf steuerfrei?",
+        "hu": "Mennyi idő után adómentes az eladás?"
+      },
+      "a": {
+        "fr": "À partir de la 5e année civile suivant l'année d'acquisition. Avant, le gain est imposé à 100 %, 90 %, 60 % ou 30 % de son montant [2].",
+        "en": "From the 5th calendar year after the year of acquisition. Before that, 100%, 90%, 60% or 30% of the gain is taxed [2].",
+        "de": "Ab dem 5. Kalenderjahr nach dem Erwerbsjahr. Davor werden 100 %, 90 %, 60 % oder 30 % des Gewinns besteuert [2].",
+        "hu": "A szerzés évét követő 5. naptári évtől. Előtte a jövedelem 100, 90, 60 vagy 30%-a adóköteles [2]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Peut-on encore lancer une location type Airbnb à Budapest ?",
+        "en": "Can a new Airbnb-style let still be started in Budapest?",
+        "de": "Kann man in Budapest noch eine neue Airbnb-Vermietung starten?",
+        "hu": "Indítható-e még új, Airbnb-jellegű kiadás Budapesten?"
+      },
+      "a": {
+        "fr": "Pas avant 2027 : aucun nouvel hébergement privé ne peut être enregistré à Budapest jusqu'au 31 décembre 2026 [12]. Ensuite, les règles de chaque arrondissement s'appliqueront ; le VIe l'interdit déjà [6].",
+        "en": "Not before 2027: no new private accommodation can be registered in Budapest until 31 December 2026 [12]. After that, each district's rules apply; District VI already bans it [6].",
+        "de": "Nicht vor 2027: Bis 31. Dezember 2026 können in Budapest keine neuen Privatunterkünfte registriert werden [12]. Danach gelten die Regeln des jeweiligen Bezirks; der VI. Bezirk verbietet sie bereits [6].",
+        "hu": "2027 előtt nem: 2026. december 31-ig Budapesten nem vehető nyilvántartásba új magánszálláshely [12]. Ezt követően a kerületi szabályok irányadók; a VI. kerület már megtiltotta [6]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui paie les droits de mutation, et quand ?",
+        "en": "Who pays the transfer duty, and when?",
+        "de": "Wer zahlt die Erwerbsabgabe und wann?",
+        "hu": "Ki fizeti a vagyonszerzési illetéket, és mikor?"
+      },
+      "a": {
+        "fr": "L'acheteur. Il dépose le formulaire B400 avec le contrat au registre foncier, puis paie dans les 30 jours suivant l'avis de paiement de la NAV [1].",
+        "en": "The buyer. The buyer files form B400 with the contract at the land registry, then pays within 30 days of NAV's payment notice [1].",
+        "de": "Der Käufer. Er reicht das Formular B400 mit dem Vertrag beim Grundbuchamt ein und zahlt innerhalb von 30 Tagen nach dem Zahlungsbescheid der NAV [1].",
+        "hu": "A vevő. A B400-as nyomtatványt a szerződéssel együtt nyújtja be az ingatlanügyi hatósághoz, majd a NAV fizetési meghagyásának kézhezvételétől számított 30 napon belül fizet [1]."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "NAV – Az ingatlan-adásvétel adózási szabályai",
+      "url": "https://nav.gov.hu/print/ado/ingatlan-adasvetel/ingatlan_adasvetel",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Ingatlan eladás utáni adózás 2026: mennyi az SZJA? (e-ingatlanugyvedek.hu, 14 Sep 2026)",
+      "url": "https://e-ingatlanugyvedek.hu/blog/hany-ev-utan-adomentes-az-ingatlan-eladas",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Bank360 – Vagyonszerzési illeték 2026",
+      "url": "https://bank360.hu/vagyonszerzesi-illetek",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Money.hu – Könnyítés a cserét pótló vétel illetékkedvezményében (16 Jan 2026)",
+      "url": "https://tudastar.money.hu/hir/20260116/jo-hir-a-lakasvasarloknak-jelentos-konnyites-tortent-egy-illetekkedvezmenyben/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Adóvilág – Az ingatlanforgalmazással összefüggő illetékszabályok (3 Oct 2025)",
+      "url": "https://adovilag.hu/2025/10/03/az-ingatlanforgalmazassal-osszefuggo-illetekszabalyok/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "SKNB – Lakáskiadás adózása 2026",
+      "url": "https://sknb.hu/lakaskiadas-adozasa-2026/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Individual, Income determination (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/individual/income-determination",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NAV – A fizetővendéglátókat érintő változások (17 Jan 2025)",
+      "url": "https://nav.gov.hu/print/ado/szja/A_fizetovendeglatokat_erinto_valtozasok",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "1990. évi C. törvény a helyi adókról (Nemzeti Jogszabálytár, version 1 Oct 2026)",
+      "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Budapest II. kerület – Adókiadvány 2026",
+      "url": "https://masodikkerulet.hu/sites/default/files/attachments/files/masodikkerulethu/2026_01/adokiadvany_2026_0.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Budapest XII. kerület Hegyvidék – 29/2010. (XII.27.) rendelet az idegenforgalmi adóról",
+      "url": "https://njt.jog.gov.hu/jogszabaly/2010-29-SP-5Y261.1",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Budavári Önkormányzat – Tájékoztató füzet a rövid távú lakáskiadásról (2026)",
+      "url": "https://budavar.hu/wp-content/uploads/2026/08/Airbnb_Tajekoztato_fuzet.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "impots.gouv.fr – Convention fiscale France–Hongrie (version consolidée avec l'IML)",
+      "url": "https://www.impots.gouv.fr/sites/default/files/media/10_conventions/hongrie/hongrie_convention_modifiee_cml.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Hungary – Tax & Legal Alert: new German–Hungarian double tax treaty",
+      "url": "https://www.pwc.com/hu/en/publications/assets/tax-and-legal-alert-467-1024-enghu.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Corporate, Other taxes (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/corporate/other-taxes",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": true
+}

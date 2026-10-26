@@ -1,0 +1,654 @@
+{
+  "slug": "rental-yield-by-district-budapest",
+  "item": "yield",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Rendement locatif par arrondissement à Budapest",
+    "en": "Rental yield by district in Budapest",
+    "de": "Mietrendite nach Bezirk in Budapest",
+    "hu": "Bérleti hozam kerületenként Budapesten"
+  },
+  "summary": {
+    "fr": "Prix demandés, loyers et rendement brut calculé pour 12 arrondissements de Budapest (2026), avec la formule et les coûts qui séparent le brut du net.",
+    "en": "Asking prices, rents and calculated gross yield for 12 Budapest districts (2026), with the formula and the costs that separate gross from net.",
+    "de": "Angebotspreise, Mieten und berechnete Bruttorendite für 12 Budapester Bezirke (2026), mit Formel und den Kosten zwischen brutto und netto.",
+    "hu": "Kínálati árak, lakbérek és számított bruttó hozam 12 budapesti kerületben (2026), a képlettel és a bruttót nettóvá csökkentő költségekkel."
+  },
+  "keyFacts": [
+    {
+      "fr": "Le rendement locatif annuel à Budapest était de 4,4 % en septembre 2025, en baisse de 0,8 point sur un an, selon la Banque nationale de Hongrie (MNB) [6].",
+      "en": "Budapest's annual rental yield was 4.4% in September 2025, down 0.8 percentage points over the year, according to the Hungarian central bank (MNB) [6].",
+      "de": "Die jährliche Mietrendite in Budapest lag laut ungarischer Nationalbank (MNB) im September 2025 bei 4,4 %, 0,8 Prozentpunkte weniger als ein Jahr zuvor [6].",
+      "hu": "Az MNB szerint a budapesti éves lakásbérbeadási hozam 2025 szeptemberében 4,4% volt, egy év alatt 0,8 százalékponttal csökkent [6]."
+    },
+    {
+      "fr": "Prix demandé médian à Budapest début octobre 2026 : 1,41 million HUF/m², +2 % sur un an (indice ingatlan.com) [3].",
+      "en": "Median asking price in Budapest in early October 2026: HUF 1.41 million per m², up 2% year on year (ingatlan.com index) [3].",
+      "de": "Medianer Angebotspreis in Budapest Anfang Oktober 2026: 1,41 Mio. HUF/m², +2 % gegenüber dem Vorjahr (ingatlan.com-Index) [3].",
+      "hu": "A budapesti medián kínálati ár 2026. október elején 1,41 millió Ft/m² volt, 2%-kal több, mint egy évvel korábban (ingatlan.com lakásárindex) [3]."
+    },
+    {
+      "fr": "Loyer demandé médian à Budapest début octobre 2026 : 260 000 HUF par mois, autant qu’un an plus tôt [4].",
+      "en": "Median asking rent in Budapest in early October 2026: HUF 260,000 per month, the same as a year earlier [4].",
+      "de": "Mediane Angebotsmiete in Budapest Anfang Oktober 2026: 260.000 HUF pro Monat, gleich hoch wie ein Jahr zuvor [4].",
+      "hu": "A budapesti medián kínálati lakbér 2026. október elején havi 260 ezer Ft volt, ugyanannyi, mint egy évvel korábban [4]."
+    },
+    {
+      "fr": "Rendement brut calculé dans les 12 arrondissements du tableau : de 3,6 % (V) à 5,3 % (VIII) [1][2].",
+      "en": "Calculated gross yield in the 12 districts in the table: from 3.6% (V) to 5.3% (VIII) [1][2].",
+      "de": "Berechnete Bruttorendite in den 12 Bezirken der Tabelle: von 3,6 % (V) bis 5,3 % (VIII) [1][2].",
+      "hu": "A táblázat 12 kerületében a számított bruttó hozam 3,6% (V.) és 5,3% (VIII.) között van [1][2]."
+    },
+    {
+      "fr": "Ordre de grandeur cité par ingatlan.com en juin 2026 : environ 4,5 % brut, soit environ 3 % net [8].",
+      "en": "Order of magnitude quoted by ingatlan.com in June 2026: about 4.5% gross, or about 3% net [8].",
+      "de": "Von ingatlan.com im Juni 2026 genannte Größenordnung: rund 4,5 % brutto, also rund 3 % netto [8].",
+      "hu": "Az ingatlan.com 2026. júniusi becslése: nagyjából 4,5% bruttó, ami körülbelül 3% nettó hozamnak felel meg [8]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Ce que mesure le tableau",
+        "en": "What the table measures",
+        "de": "Was die Tabelle misst",
+        "hu": "Mit mutat a táblázat"
+      },
+      "body": {
+        "fr": "Le tableau ci-dessous compare, pour 12 arrondissements (I à XIV, hors IV et X, faute d’annonces de location suffisantes), le prix demandé au m² des logements à vendre et le loyer demandé des logements à louer. Les deux séries viennent de la même base d’annonces : les prix sont la médiane d’environ 27 500 annonces de vente actives, publiée en juin 2026 [1] ; les loyers proviennent des annonces de location de septembre 2026, après exclusion des chambres, des doublons et des prix aberrants [2].\n\n**Prix demandés ≠ prix de transaction.** Une annonce indique ce que le vendeur espère obtenir, pas le prix signé chez le notaire ou l’avocat. Les écarts peuvent être nets. Au premier semestre 2026, un réseau d’agences relevait un prix moyen de vente effectif des appartements en brique de 1,66 million HUF/m² dans le V, 1,74 million dans le I et 1,63 million dans le XIII [9], alors que les médianes des annonces étaient de 1,99, 1,90 et 1,68 million HUF/m² [1]. Les méthodes diffèrent (moyenne de ventes conclues d’un côté, médiane de toutes les annonces de l’autre), mais l’ordre de grandeur montre qu’un rendement calculé sur un prix demandé sous-estime le rendement sur le prix réellement payé quand la négociation aboutit à une baisse.\n\nDe même, un loyer demandé n’est pas un loyer encaissé : le bail final peut être plus bas, et l’indice KSH–ingatlan.com ne mesure lui aussi que des loyers affichés [10].",
+        "en": "The table below compares, for 12 districts (I to XIV, excluding IV and X, which have too few rental listings), the asking price per m² of flats for sale and the asking rent of flats to let. Both series come from the same listings database: prices are the median of about 27,500 active sale listings, published in June 2026 [1]; rents come from rental listings in September 2026, after room rentals, duplicates and unrealistic prices were removed [2].\n\n**Asking prices are not transaction prices.** A listing states what the seller hopes to get, not the price in the signed contract. The gap can be significant. In the first half of 2026, one agency network recorded an average achieved price for brick-built flats of HUF 1.66 million per m² in district V, 1.74 million in district I and 1.63 million in district XIII [9], while the listing medians were 1.99, 1.90 and 1.68 million HUF per m² [1]. The methods differ (average of completed sales on one side, median of all listings on the other), but the order of magnitude shows that a yield calculated on an asking price understates the yield on the price actually paid when negotiation brings the price down.\n\nLikewise, an asking rent is not the rent collected: the final lease may be lower, and the KSH–ingatlan.com rent index also measures advertised rents only [10].",
+        "de": "Die folgende Tabelle vergleicht für 12 Bezirke (I bis XIV, ohne IV und X, für die zu wenige Mietinserate vorliegen) den Angebotspreis pro m² von Wohnungen zum Verkauf mit der Angebotsmiete von Mietwohnungen. Beide Reihen stammen aus derselben Inseratsdatenbank: Die Preise sind der Median von rund 27.500 aktiven Verkaufsinseraten, veröffentlicht im Juni 2026 [1]; die Mieten stammen aus Mietinseraten vom September 2026, nach Ausschluss von Zimmervermietungen, Dubletten und unrealistischen Preisen [2].\n\n**Angebotspreise sind keine Transaktionspreise.** Ein Inserat zeigt, was der Verkäufer erzielen möchte, nicht den im Vertrag vereinbarten Preis. Der Unterschied kann deutlich sein. Im ersten Halbjahr 2026 verzeichnete ein Maklernetz für Ziegelbauwohnungen einen durchschnittlich erzielten Preis von 1,66 Mio. HUF/m² im V., 1,74 Mio. im I. und 1,63 Mio. im XIII. Bezirk [9], während die Inseratsmediane bei 1,99, 1,90 und 1,68 Mio. HUF/m² lagen [1]. Die Methoden unterscheiden sich (Durchschnitt abgeschlossener Verkäufe einerseits, Median aller Inserate andererseits), doch die Größenordnung zeigt: Eine auf den Angebotspreis berechnete Rendite unterschätzt die Rendite auf den tatsächlich gezahlten Preis, wenn die Verhandlung den Preis senkt.\n\nEbenso ist eine Angebotsmiete keine vereinnahmte Miete: Der endgültige Mietvertrag kann niedriger ausfallen, und auch der KSH–ingatlan.com-Mietindex misst nur inserierte Mieten [10].",
+        "hu": "Az alábbi táblázat 12 kerületben (I–XIV., a IV. és X. kerület nélkül, mert ott kevés a kiadó hirdetés) veti össze az eladó lakások m²-enkénti kínálati árát és a kiadó lakások kínálati lakbérét. Mindkét adatsor ugyanabból a hirdetési adatbázisból származik: az árak mintegy 27 500 aktív eladó hirdetés mediánját jelentik, 2026. júniusi közlés szerint [1]; a lakbérek a 2026. szeptemberi kiadó hirdetésekből származnak, a szobakiadások, az ismétlődő hirdetések és az irreális árak kiszűrése után [2].\n\n**A kínálati ár nem adásvételi ár.** A hirdetés azt mutatja, mennyit szeretne kapni az eladó, nem a szerződésben rögzített vételárat. A különbség jelentős lehet. 2026 első félévében egy ingatlanközvetítő hálózat a téglalakásoknál átlagosan 1,66 millió Ft/m² tényleges eladási árat mért az V., 1,74 milliót az I. és 1,63 milliót a XIII. kerületben [9], miközben a hirdetési mediánok 1,99, 1,90 és 1,68 millió Ft/m² voltak [1]. A módszerek eltérnek (lezárt eladások átlaga, illetve az összes hirdetés mediánja), de a nagyságrend jól mutatja: a kínálati árból számított hozam alábecsüli a ténylegesen kifizetett árra vetített hozamot, ha az alku lejjebb viszi az árat.\n\nUgyanígy a kínálati lakbér sem azonos a beszedett lakbérrel: a végleges bérleti szerződés alacsonyabb lehet, és a KSH–ingatlan.com lakbérindex is csak a meghirdetett lakbéreket méri [10]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Comment le rendement brut est calculé",
+        "en": "How the gross yield is calculated",
+        "de": "Wie die Bruttorendite berechnet wird",
+        "hu": "Hogyan számoljuk a bruttó hozamot"
+      },
+      "body": {
+        "fr": "Le rendement brut rapporte le loyer annuel au prix d’achat, avant toute charge et tout impôt :\n\n**Rendement brut = (loyer mensuel au m² × 12) ÷ prix au m²**\n\nTravailler au m² évite de comparer un studio loué à un grand appartement vendu. Exemple pour le VIII (Józsefváros) : 5 895 HUF/m² × 12 = 70 740 HUF par m² et par an ; 70 740 ÷ 1 328 081 = 5,3 % [1][2].\n\nPour un bien précis, la même formule s’applique avec les montants réels : loyer mensuel attendu × 12, divisé par le prix total. Un appartement de 50 m² acheté 70 millions HUF et loué 280 000 HUF par mois donne 3 360 000 ÷ 70 000 000 = 4,8 % brut (exemple arithmétique, pas une donnée de marché).\n\nDeux précautions : le loyer au m² du tableau est une moyenne, alors que le prix au m² est une médiane ; et les logements loués sont souvent plus petits que ceux mis en vente, or les petits logements se louent plus cher au m². Le rendement calculé peut donc être légèrement surestimé par rapport à celui d’un grand appartement.",
+        "en": "Gross yield relates annual rent to the purchase price, before any costs or tax:\n\n**Gross yield = (monthly rent per m² × 12) ÷ price per m²**\n\nWorking per m² avoids comparing a small studio for rent with a large flat for sale. Example for district VIII (Józsefváros): HUF 5,895 per m² × 12 = HUF 70,740 per m² per year; 70,740 ÷ 1,328,081 = 5.3% [1][2].\n\nFor a specific property, the same formula applies to actual amounts: expected monthly rent × 12, divided by the total price. A 50 m² flat bought for HUF 70 million and let at HUF 280,000 per month gives 3,360,000 ÷ 70,000,000 = 4.8% gross (an arithmetic example, not market data).\n\nTwo caveats: the rent per m² in the table is an average, while the price per m² is a median; and flats offered for rent are often smaller than flats offered for sale, and small flats let for more per m². The calculated yield may therefore be slightly overstated for a large flat.",
+        "de": "Die Bruttorendite setzt die Jahresmiete ins Verhältnis zum Kaufpreis, vor allen Kosten und Steuern:\n\n**Bruttorendite = (Monatsmiete pro m² × 12) ÷ Preis pro m²**\n\nDie Rechnung pro m² vermeidet den Vergleich eines kleinen Mietstudios mit einer großen Verkaufswohnung. Beispiel für den VIII. Bezirk (Józsefváros): 5.895 HUF/m² × 12 = 70.740 HUF pro m² und Jahr; 70.740 ÷ 1.328.081 = 5,3 % [1][2].\n\nFür ein konkretes Objekt gilt dieselbe Formel mit den tatsächlichen Beträgen: erwartete Monatsmiete × 12, geteilt durch den Gesamtpreis. Eine 50-m²-Wohnung, gekauft für 70 Mio. HUF und vermietet für 280.000 HUF im Monat, ergibt 3.360.000 ÷ 70.000.000 = 4,8 % brutto (Rechenbeispiel, keine Marktangabe).\n\nZwei Einschränkungen: Die Miete pro m² in der Tabelle ist ein Durchschnitt, der Preis pro m² ein Median; außerdem sind Mietwohnungen oft kleiner als Verkaufswohnungen, und kleine Wohnungen erzielen höhere Mieten pro m². Die berechnete Rendite kann daher für eine große Wohnung leicht überschätzt sein.",
+        "hu": "A bruttó hozam az éves lakbért a vételárhoz viszonyítja, minden költség és adó előtt:\n\n**Bruttó hozam = (havi lakbér m²-enként × 12) ÷ m²-ár**\n\nA négyzetméteres számítás elkerüli, hogy egy kis kiadó garzont egy nagy eladó lakással hasonlítsunk össze. Példa a VIII. kerületre (Józsefváros): 5 895 Ft/m² × 12 = évi 70 740 Ft/m²; 70 740 ÷ 1 328 081 = 5,3% [1][2].\n\nEgy konkrét lakásnál ugyanez a képlet a valós összegekkel: várható havi lakbér × 12, osztva a teljes vételárral. Egy 70 millió forintért vett, havi 280 ezer forintért kiadott 50 m²-es lakás esetén 3 360 000 ÷ 70 000 000 = 4,8% bruttó (számpélda, nem piaci adat).\n\nKét fenntartás: a táblázatban a m²-enkénti lakbér átlag, a m²-ár viszont medián; emellett a kiadó lakások gyakran kisebbek az eladóknál, és a kis lakások m²-re vetítve drágábban adhatók ki. Nagy lakásnál ezért a számított hozam kissé túlbecsült lehet."
+      }
+    },
+    {
+      "h": {
+        "fr": "Lecture par arrondissement",
+        "en": "Reading the districts",
+        "de": "Die Bezirke im Vergleich",
+        "hu": "Mit mutatnak a kerületi adatok"
+      },
+      "body": {
+        "fr": "Les loyers au m² varient peu d’un arrondissement central à l’autre (de 5 343 HUF dans le XIV à 6 175 HUF dans le I), alors que les prix au m² varient beaucoup plus (de 1,33 million HUF dans le VIII à 1,99 million dans le V) [1][2]. C’est donc surtout le prix d’achat qui fait le rendement :\n\n- les arrondissements les plus chers (V, I, XII) affichent les rendements bruts les plus faibles, autour de 3,6 à 4,0 % ;\n- II, XIII et XI se situent vers 4,1 à 4,3 % ;\n- VI, VII, XIV, IX et III se situent entre 4,5 et 4,8 % ;\n- le VIII arrive en tête des arrondissements du tableau avec 5,3 %.\n\nLes chiffres d’une autre source vont dans le même sens. Début octobre 2026, ingatlan.com donnait une médiane des prix demandés de 1,99 million HUF/m² dans le V, 1,87 million dans le I et 1,75 million dans le XII, en baisse d’environ 2 % sur un an dans le V et le XII [3]. Pour les loyers, ingatlan.com relevait début mai 2026 des médianes de 280 000 HUF par mois dans le VI, 270 000 dans le XI, 260 000 dans le XIII, 250 000 dans le VIII et le III, 249 000 dans le IX et 242 500 dans le VII [5], et début octobre 2026 de 350 000 HUF dans le II et le V [4]. Ces médianes sont souvent inférieures à celles du tableau (299 000 HUF dans le XIII, par exemple) : le niveau exact dépend de la base d’annonces utilisée.\n\nÀ l’échelle de la ville, la MNB estimait le rendement locatif à 4,4 % en septembre 2025, pour un appartement de 60 m² [6], et notait en mai 2026 que les investisseurs étaient devenus plus prudents en raison de rendements faibles et d’une surévaluation croissante [7].",
+        "en": "Rents per m² vary little between central districts (from HUF 5,343 in XIV to HUF 6,175 in I), while prices per m² vary much more (from HUF 1.33 million in VIII to 1.99 million in V) [1][2]. The purchase price therefore drives most of the yield:\n\n- the most expensive districts (V, I, XII) show the lowest gross yields, around 3.6 to 4.0%;\n- II, XIII and XI are around 4.1 to 4.3%;\n- VI, VII, XIV, IX and III are between 4.5 and 4.8%;\n- VIII is highest among the districts in the table at 5.3%.\n\nFigures from another source point the same way. In early October 2026, ingatlan.com put the median asking price at HUF 1.99 million per m² in V, 1.87 million in I and 1.75 million in XII, down about 2% year on year in V and XII [3]. For rents, ingatlan.com reported medians in early May 2026 of HUF 280,000 per month in VI, 270,000 in XI, 260,000 in XIII, 250,000 in VIII and III, 249,000 in IX and 242,500 in VII [5], and in early October 2026 of HUF 350,000 in II and V [4]. These medians are often lower than those in the table (HUF 299,000 in XIII, for example): the exact level depends on the listings database used.\n\nCity-wide, the MNB estimated the rental yield at 4.4% in September 2025, for a 60 m² flat [6], and noted in May 2026 that investors had become more cautious because of low yields and growing overvaluation [7].",
+        "de": "Die Mieten pro m² unterscheiden sich zwischen den zentralen Bezirken wenig (von 5.343 HUF im XIV. bis 6.175 HUF im I.), die Preise pro m² dagegen deutlich (von 1,33 Mio. HUF im VIII. bis 1,99 Mio. im V.) [1][2]. Die Rendite wird daher vor allem vom Kaufpreis bestimmt:\n\n- die teuersten Bezirke (V, I, XII) haben die niedrigsten Bruttorenditen, etwa 3,6 bis 4,0 %;\n- II, XIII und XI liegen bei etwa 4,1 bis 4,3 %;\n- VI, VII, XIV, IX und III liegen zwischen 4,5 und 4,8 %;\n- der VIII. Bezirk liegt mit 5,3 % an der Spitze der Bezirke in der Tabelle.\n\nZahlen aus einer anderen Quelle weisen in dieselbe Richtung. Anfang Oktober 2026 nannte ingatlan.com einen medianen Angebotspreis von 1,99 Mio. HUF/m² im V., 1,87 Mio. im I. und 1,75 Mio. im XII. Bezirk, im V. und XII. rund 2 % weniger als ein Jahr zuvor [3]. Bei den Mieten meldete ingatlan.com Anfang Mai 2026 Mediane von 280.000 HUF pro Monat im VI., 270.000 im XI., 260.000 im XIII., 250.000 im VIII. und III., 249.000 im IX. und 242.500 im VII. Bezirk [5] sowie Anfang Oktober 2026 von 350.000 HUF im II. und V. [4]. Diese Mediane liegen oft unter denen der Tabelle (zum Beispiel 299.000 HUF im XIII.): Das genaue Niveau hängt von der verwendeten Inseratsdatenbank ab.\n\nFür die ganze Stadt schätzte die MNB die Mietrendite im September 2025 auf 4,4 % für eine 60-m²-Wohnung [6] und stellte im Mai 2026 fest, dass Investoren wegen niedriger Renditen und zunehmender Überbewertung vorsichtiger geworden sind [7].",
+        "hu": "A m²-enkénti lakbérek a belső kerületek között kevéssé térnek el (a XIV. kerületi 5 343 Ft-tól az I. kerületi 6 175 Ft-ig), a m²-árak viszont sokkal jobban (a VIII. kerületi 1,33 millió Ft-tól az V. kerületi 1,99 millióig) [1][2]. A hozamot tehát elsősorban a vételár határozza meg:\n\n- a legdrágább kerületekben (V., I., XII.) a legalacsonyabb a bruttó hozam, nagyjából 3,6–4,0%;\n- a II., XIII. és XI. kerület 4,1–4,3% körül van;\n- a VI., VII., XIV., IX. és III. kerület 4,5–4,8% között van;\n- a táblázat kerületei közül a VIII. kerület a legmagasabb, 5,3%-kal.\n\nEgy másik forrás adatai ugyanezt az irányt mutatják. Az ingatlan.com szerint 2026. október elején a medián kínálati ár az V. kerületben 1,99 millió, az I.-ben 1,87 millió, a XII.-ben 1,75 millió Ft/m² volt, az V. és a XII. kerületben nagyjából 2%-kal kevesebb, mint egy évvel korábban [3]. A lakbéreknél az ingatlan.com 2026. május elején havi 280 ezer Ft-os mediánt mért a VI., 270 ezret a XI., 260 ezret a XIII., 250 ezret a VIII. és a III., 249 ezret a IX. és 242 500 Ft-ot a VII. kerületben [5], 2026. október elején pedig 350 ezer Ft-ot a II. és az V. kerületben [4]. Ezek a mediánok gyakran alacsonyabbak a táblázatban szereplőknél (a XIII. kerületben például 299 ezer Ft): a pontos szint attól függ, melyik hirdetési adatbázisból számolunk.\n\nVárosi szinten az MNB 2025 szeptemberére 4,4%-os lakásbérbeadási hozamot becsült egy 60 m²-es lakásra [6], 2026 májusában pedig azt írta, hogy az alacsony hozamok és a növekvő túlértékeltség miatt a befektetők óvatosabbak lettek [7]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Du rendement brut au rendement net",
+        "en": "From gross to net yield",
+        "de": "Von der Brutto- zur Nettorendite",
+        "hu": "A bruttó hozamtól a nettóig"
+      },
+      "body": {
+        "fr": "Le rendement net soustrait du loyer annuel tous les coûts supportés par le propriétaire, et rapporte le résultat au coût total d’acquisition (prix + frais d’achat + travaux éventuels) :\n\n**Rendement net = (loyer annuel encaissé − coûts annuels) ÷ coût total d’acquisition**\n\nPostes habituels qui font passer du brut au net :\n\n1. **Vacance locative** : les semaines sans locataire entre deux baux, et les loyers impayés.\n2. **közös költség (charges de copropriété)** : quand elles ne sont pas refacturées au locataire.\n3. **Entretien et réparations** : remise en état entre deux locataires, remplacement des appareils et du mobilier.\n4. **Gestion** : honoraires d’agence pour la recherche de locataire ou la gestion courante.\n5. **Assurance** du logement.\n6. **Impôts locaux** : certains arrondissements prélèvent une taxe locale : építményadó (taxe locale sur les bâtiments) ; le taux et les exonérations dépendent de l’arrondissement.\n7. **Impôt sur les revenus locatifs** : le régime dépend du statut du propriétaire (particulier ou société, résident ou non) ; le taux applicable est à confirmer avec un conseiller fiscal.\n8. **Frais d’achat** : droits de mutation, avocat et éventuels travaux augmentent le dénominateur et réduisent donc le rendement.\n\nUn ordre de grandeur publié en juin 2026 par ingatlan.com : environ 4,5 % brut correspondent à environ 3 % net [8]. Ce chiffre est indicatif ; le net réel dépend de chaque bien et de chaque situation fiscale.",
+        "en": "Net yield deducts all owner-borne costs from annual rent and divides the result by the total acquisition cost (price + purchase costs + any renovation):\n\n**Net yield = (annual rent collected − annual costs) ÷ total acquisition cost**\n\nUsual items that bring gross down to net:\n\n1. **Vacancy**: weeks without a tenant between leases, and unpaid rent.\n2. **közös költség (common charges)**: when they are not passed on to the tenant.\n3. **Maintenance and repairs**: refreshing the flat between tenants, replacing appliances and furniture.\n4. **Management**: agency fees for finding a tenant or day-to-day management.\n5. **Insurance** of the flat.\n6. **Local taxes**: some districts levy a building tax (építményadó (local building tax)); the rate and exemptions depend on the district.\n7. **Tax on rental income**: the regime depends on the owner's status (individual or company, resident or not); the applicable rate should be confirmed with a tax adviser.\n8. **Purchase costs**: transfer duty, lawyer and any renovation raise the denominator and therefore lower the yield.\n\nAn order of magnitude published by ingatlan.com in June 2026: about 4.5% gross corresponds to about 3% net [8]. This is indicative; the actual net yield depends on each property and each tax situation.",
+        "de": "Die Nettorendite zieht alle vom Eigentümer getragenen Kosten von der Jahresmiete ab und setzt das Ergebnis ins Verhältnis zu den gesamten Anschaffungskosten (Preis + Kaufnebenkosten + eventuelle Renovierung):\n\n**Nettorendite = (vereinnahmte Jahresmiete − jährliche Kosten) ÷ gesamte Anschaffungskosten**\n\nÜbliche Posten zwischen brutto und netto:\n\n1. **Leerstand**: Wochen ohne Mieter zwischen zwei Verträgen sowie Mietausfälle.\n2. **közös költség (Hausgeld)**: wenn es nicht auf den Mieter umgelegt wird.\n3. **Instandhaltung und Reparaturen**: Auffrischung zwischen Mietern, Ersatz von Geräten und Möbeln.\n4. **Verwaltung**: Maklerhonorar für die Mietersuche oder laufende Verwaltung.\n5. **Versicherung** der Wohnung.\n6. **Lokale Steuern**: Einige Bezirke erheben eine Gebäudesteuer (építményadó (kommunale Gebäudesteuer)); Satz und Befreiungen hängen vom Bezirk ab.\n7. **Steuer auf Mieteinnahmen**: Die Regelung hängt vom Status des Eigentümers ab (Privatperson oder Gesellschaft, ansässig oder nicht); der anwendbare Satz ist mit einem Steuerberater zu klären.\n8. **Kaufnebenkosten**: Grunderwerbsabgabe, Anwalt und eventuelle Renovierung erhöhen den Nenner und senken damit die Rendite.\n\nEine von ingatlan.com im Juni 2026 veröffentlichte Größenordnung: rund 4,5 % brutto entsprechen rund 3 % netto [8]. Das ist ein Richtwert; die tatsächliche Nettorendite hängt vom einzelnen Objekt und der steuerlichen Situation ab.",
+        "hu": "A nettó hozam az éves lakbérből levonja a tulajdonost terhelő összes költséget, és az eredményt a teljes beszerzési költséghez (vételár + vásárlási költségek + esetleges felújítás) viszonyítja:\n\n**Nettó hozam = (beszedett éves lakbér − éves költségek) ÷ teljes beszerzési költség**\n\nA bruttót nettóvá csökkentő szokásos tételek:\n\n1. **Üresjárat**: a két bérlő közötti hetek és a ki nem fizetett lakbér.\n2. **Közös költség**: ha nem a bérlő fizeti.\n3. **Karbantartás és javítás**: felfrissítés bérlőváltáskor, gépek és bútorok cseréje.\n4. **Kezelés**: ingatlanközvetítői díj a bérlőkeresésért vagy a folyamatos ügyintézésért.\n5. **A lakás biztosítása.**\n6. **Helyi adók**: egyes kerületek építményadót vetnek ki; a mérték és a mentességek kerületenként eltérnek.\n7. **A bérbeadásból származó jövedelem adója**: a szabályok a tulajdonos helyzetétől függnek (magánszemély vagy cég, belföldi vagy külföldi illetőségű); az alkalmazandó mértéket adótanácsadóval érdemes egyeztetni.\n8. **Vásárlási költségek**: a vagyonszerzési illeték, az ügyvédi díj és az esetleges felújítás növeli a nevezőt, így csökkenti a hozamot.\n\nAz ingatlan.com 2026. júniusi nagyságrendi becslése szerint a nagyjából 4,5%-os bruttó hozam körülbelül 3%-os nettónak felel meg [8]. Ez tájékoztató jellegű; a tényleges nettó hozam lakásonként és adózási helyzetenként eltér."
+      }
+    },
+    {
+      "h": {
+        "fr": "Limites des données et vérifications à faire",
+        "en": "Limits of the data and what to check",
+        "de": "Grenzen der Daten und was zu prüfen ist",
+        "hu": "Az adatok korlátai és mit érdemes ellenőrizni"
+      },
+      "body": {
+        "fr": "- **Échantillons** : certains arrondissements reposent sur 63 à 79 annonces de location (I, XII, XIV) ; une poignée de grands appartements peut déplacer la moyenne [2].\n- **Dates différentes** : prix de juin 2026, loyers de septembre 2026. Le marché a peu bougé entre les deux à Budapest (prix demandés +2 % sur un an début octobre [3], loyer médian stable sur un an [4]), mais l’écart existe.\n- **Moyenne d’arrondissement** : à l’intérieur d’un même arrondissement, l’écart entre rues, étages, état et exposition est souvent plus grand qu’entre deux arrondissements.\n- **Location de courte durée** : le tableau porte sur la location longue durée. Les règles locales sur la location touristique changent selon l’arrondissement et doivent être vérifiées avant tout calcul de ce type.\n\nPour un bien précis : relever 5 à 10 annonces de location comparables (même rue ou quartier, surface et état proches), demander au vendeur le montant des charges de copropriété et de la taxe locale, et refaire le calcul brut puis net avec le prix négocié plutôt qu’avec le prix affiché.",
+        "en": "- **Sample sizes**: some districts rest on 63 to 79 rental listings (I, XII, XIV); a handful of large flats can move the average [2].\n- **Different dates**: prices from June 2026, rents from September 2026. Budapest moved little between the two (asking prices +2% year on year in early October [3], median rent unchanged year on year [4]), but the gap exists.\n- **District average**: within one district, the spread between streets, floors, condition and orientation is often wider than between two districts.\n- **Short-term letting**: the table covers long-term letting. Local rules on short-term letting differ by district and must be checked before any such calculation.\n\nFor a specific flat: collect 5 to 10 comparable rental listings (same street or neighbourhood, similar size and condition), ask the seller for the common charges and the local tax, and redo the gross and net calculation using the negotiated price rather than the asking price.",
+        "de": "- **Stichproben**: Einige Bezirke beruhen auf 63 bis 79 Mietinseraten (I, XII, XIV); wenige große Wohnungen können den Durchschnitt verschieben [2].\n- **Unterschiedliche Zeitpunkte**: Preise vom Juni 2026, Mieten vom September 2026. In Budapest hat sich dazwischen wenig bewegt (Angebotspreise Anfang Oktober +2 % zum Vorjahr [3], Medianmiete gegenüber dem Vorjahr unverändert [4]), der Abstand besteht aber.\n- **Bezirksdurchschnitt**: Innerhalb eines Bezirks ist die Spanne zwischen Straßen, Etagen, Zustand und Ausrichtung oft größer als zwischen zwei Bezirken.\n- **Kurzzeitvermietung**: Die Tabelle betrifft Langzeitvermietung. Lokale Regeln zur Kurzzeitvermietung unterscheiden sich je Bezirk und müssen vor einer solchen Rechnung geprüft werden.\n\nFür eine konkrete Wohnung: 5 bis 10 vergleichbare Mietinserate sammeln (gleiche Straße oder Viertel, ähnliche Größe und Zustand), beim Verkäufer Hausgeld und lokale Steuer erfragen und die Brutto- und Nettorechnung mit dem verhandelten statt dem inserierten Preis wiederholen.",
+        "hu": "- **Mintaméret**: egyes kerületekben 63–79 kiadó hirdetés áll az adatok mögött (I., XII., XIV.); néhány nagy lakás is elmozdíthatja az átlagot [2].\n- **Eltérő időpontok**: az árak 2026. júniusiak, a lakbérek 2026. szeptemberiek. Budapesten a kettő között kevés változás történt (a kínálati árak október elején 2%-kal haladták meg az egy évvel korábbit [3], a medián lakbér egy év alatt nem változott [4]), de az eltérés létezik.\n- **Kerületi átlag**: egy kerületen belül az utcák, emeletek, műszaki állapot és tájolás közötti különbség gyakran nagyobb, mint két kerület között.\n- **Rövid távú kiadás**: a táblázat a hosszú távú bérbeadásra vonatkozik. A rövid távú lakáskiadás helyi szabályai kerületenként eltérnek, ezeket minden ilyen számítás előtt ellenőrizni kell.\n\nEgy konkrét lakásnál: gyűjtsön 5–10 hasonló kiadó hirdetést (azonos utca vagy környék, hasonló méret és állapot), kérdezze meg az eladótól a közös költséget és a helyi adót, majd számolja újra a bruttó és a nettó hozamot a meghirdetett helyett az alkudott árral."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Rendement locatif brut calculé par arrondissement, à partir des annonces (prix demandés et loyers demandés, pas de prix de transaction). Prix : médiane des annonces de vente, juin 2026 [1]. Loyers : annonces de location, septembre 2026 [2]. Les deux colonnes de loyer et la colonne de prix viennent de la même base d’annonces ; le rendement est calculé par nous : loyer moyen au m² × 12 ÷ prix médian au m².",
+      "en": "Gross rental yield calculated by district from listings (asking prices and asking rents, not transaction prices). Prices: median of sale listings, June 2026 [1]. Rents: rental listings, September 2026 [2]. Both rent columns and the price column come from the same listings database; the yield is our calculation: average rent per m² × 12 ÷ median price per m².",
+      "de": "Berechnete Bruttomietrendite nach Bezirk auf Basis von Inseraten (Angebotspreise und Angebotsmieten, keine Transaktionspreise). Preise: Median der Verkaufsinserate, Juni 2026 [1]. Mieten: Mietinserate, September 2026 [2]. Beide Mietspalten und die Preisspalte stammen aus derselben Inseratsdatenbank; die Rendite ist unsere Berechnung: durchschnittliche Miete pro m² × 12 ÷ Medianpreis pro m².",
+      "hu": "Kerületenként számított bruttó bérleti hozam hirdetési adatokból (kínálati árak és kínálati lakbérek, nem tényleges adásvételi árak). Árak: az eladó hirdetések mediánja, 2026. június [1]. Lakbérek: kiadó hirdetések, 2026. szeptember [2]. A két lakbéroszlop és az ároszlop ugyanabból a hirdetési adatbázisból származik; a hozamot mi számítottuk: átlagos m²-enkénti lakbér × 12 ÷ medián m²-ár."
+    },
+    "head": {
+      "fr": [
+        "Arrondissement",
+        "Prix demandé médian (HUF/m²)",
+        "Loyer demandé médian (HUF/mois)",
+        "Loyer demandé moyen (HUF/m²/mois)",
+        "Annonces de location",
+        "Rendement brut calculé"
+      ],
+      "en": [
+        "District",
+        "Median asking price (HUF/m²)",
+        "Median asking rent (HUF/month)",
+        "Average asking rent (HUF/m²/month)",
+        "Rental listings",
+        "Calculated gross yield"
+      ],
+      "de": [
+        "Bezirk",
+        "Medianer Angebotspreis (HUF/m²)",
+        "Mediane Angebotsmiete (HUF/Monat)",
+        "Durchschnittliche Angebotsmiete (HUF/m²/Monat)",
+        "Mietinserate",
+        "Berechnete Bruttorendite"
+      ],
+      "hu": [
+        "Kerület",
+        "Medián kínálati ár (Ft/m²)",
+        "Medián kínálati lakbér (Ft/hó)",
+        "Átlagos kínálati lakbér (Ft/m²/hó)",
+        "Kiadó hirdetések",
+        "Számított bruttó hozam"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "I",
+          "1 902 655",
+          "375 000",
+          "6 175",
+          "65",
+          "3,9 %"
+        ],
+        [
+          "II",
+          "1 744 444",
+          "445 000",
+          "6 112",
+          "91",
+          "4,2 %"
+        ],
+        [
+          "III",
+          "1 392 116",
+          "279 500",
+          "5 580",
+          "74",
+          "4,8 %"
+        ],
+        [
+          "V",
+          "1 985 294",
+          "350 000",
+          "6 033",
+          "152",
+          "3,6 %"
+        ],
+        [
+          "VI",
+          "1 566 038",
+          "300 000",
+          "5 875",
+          "154",
+          "4,5 %"
+        ],
+        [
+          "VII",
+          "1 491 045",
+          "250 000",
+          "5 595",
+          "179",
+          "4,5 %"
+        ],
+        [
+          "VIII",
+          "1 328 081",
+          "257 987",
+          "5 895",
+          "122",
+          "5,3 %"
+        ],
+        [
+          "IX",
+          "1 459 459",
+          "280 000",
+          "5 730",
+          "105",
+          "4,7 %"
+        ],
+        [
+          "XI",
+          "1 659 722",
+          "300 000",
+          "5 892",
+          "107",
+          "4,3 %"
+        ],
+        [
+          "XII",
+          "1 833 333",
+          "334 000",
+          "6 151",
+          "79",
+          "4,0 %"
+        ],
+        [
+          "XIII",
+          "1 677 011",
+          "299 000",
+          "5 775",
+          "259",
+          "4,1 %"
+        ],
+        [
+          "XIV",
+          "1 389 130",
+          "270 000",
+          "5 343",
+          "63",
+          "4,6 %"
+        ]
+      ],
+      "en": [
+        [
+          "I",
+          "1,902,655",
+          "375,000",
+          "6,175",
+          "65",
+          "3.9%"
+        ],
+        [
+          "II",
+          "1,744,444",
+          "445,000",
+          "6,112",
+          "91",
+          "4.2%"
+        ],
+        [
+          "III",
+          "1,392,116",
+          "279,500",
+          "5,580",
+          "74",
+          "4.8%"
+        ],
+        [
+          "V",
+          "1,985,294",
+          "350,000",
+          "6,033",
+          "152",
+          "3.6%"
+        ],
+        [
+          "VI",
+          "1,566,038",
+          "300,000",
+          "5,875",
+          "154",
+          "4.5%"
+        ],
+        [
+          "VII",
+          "1,491,045",
+          "250,000",
+          "5,595",
+          "179",
+          "4.5%"
+        ],
+        [
+          "VIII",
+          "1,328,081",
+          "257,987",
+          "5,895",
+          "122",
+          "5.3%"
+        ],
+        [
+          "IX",
+          "1,459,459",
+          "280,000",
+          "5,730",
+          "105",
+          "4.7%"
+        ],
+        [
+          "XI",
+          "1,659,722",
+          "300,000",
+          "5,892",
+          "107",
+          "4.3%"
+        ],
+        [
+          "XII",
+          "1,833,333",
+          "334,000",
+          "6,151",
+          "79",
+          "4.0%"
+        ],
+        [
+          "XIII",
+          "1,677,011",
+          "299,000",
+          "5,775",
+          "259",
+          "4.1%"
+        ],
+        [
+          "XIV",
+          "1,389,130",
+          "270,000",
+          "5,343",
+          "63",
+          "4.6%"
+        ]
+      ],
+      "de": [
+        [
+          "I",
+          "1.902.655",
+          "375.000",
+          "6.175",
+          "65",
+          "3,9 %"
+        ],
+        [
+          "II",
+          "1.744.444",
+          "445.000",
+          "6.112",
+          "91",
+          "4,2 %"
+        ],
+        [
+          "III",
+          "1.392.116",
+          "279.500",
+          "5.580",
+          "74",
+          "4,8 %"
+        ],
+        [
+          "V",
+          "1.985.294",
+          "350.000",
+          "6.033",
+          "152",
+          "3,6 %"
+        ],
+        [
+          "VI",
+          "1.566.038",
+          "300.000",
+          "5.875",
+          "154",
+          "4,5 %"
+        ],
+        [
+          "VII",
+          "1.491.045",
+          "250.000",
+          "5.595",
+          "179",
+          "4,5 %"
+        ],
+        [
+          "VIII",
+          "1.328.081",
+          "257.987",
+          "5.895",
+          "122",
+          "5,3 %"
+        ],
+        [
+          "IX",
+          "1.459.459",
+          "280.000",
+          "5.730",
+          "105",
+          "4,7 %"
+        ],
+        [
+          "XI",
+          "1.659.722",
+          "300.000",
+          "5.892",
+          "107",
+          "4,3 %"
+        ],
+        [
+          "XII",
+          "1.833.333",
+          "334.000",
+          "6.151",
+          "79",
+          "4,0 %"
+        ],
+        [
+          "XIII",
+          "1.677.011",
+          "299.000",
+          "5.775",
+          "259",
+          "4,1 %"
+        ],
+        [
+          "XIV",
+          "1.389.130",
+          "270.000",
+          "5.343",
+          "63",
+          "4,6 %"
+        ]
+      ],
+      "hu": [
+        [
+          "I",
+          "1 902 655",
+          "375 000",
+          "6 175",
+          "65",
+          "3,9%"
+        ],
+        [
+          "II",
+          "1 744 444",
+          "445 000",
+          "6 112",
+          "91",
+          "4,2%"
+        ],
+        [
+          "III",
+          "1 392 116",
+          "279 500",
+          "5 580",
+          "74",
+          "4,8%"
+        ],
+        [
+          "V",
+          "1 985 294",
+          "350 000",
+          "6 033",
+          "152",
+          "3,6%"
+        ],
+        [
+          "VI",
+          "1 566 038",
+          "300 000",
+          "5 875",
+          "154",
+          "4,5%"
+        ],
+        [
+          "VII",
+          "1 491 045",
+          "250 000",
+          "5 595",
+          "179",
+          "4,5%"
+        ],
+        [
+          "VIII",
+          "1 328 081",
+          "257 987",
+          "5 895",
+          "122",
+          "5,3%"
+        ],
+        [
+          "IX",
+          "1 459 459",
+          "280 000",
+          "5 730",
+          "105",
+          "4,7%"
+        ],
+        [
+          "XI",
+          "1 659 722",
+          "300 000",
+          "5 892",
+          "107",
+          "4,3%"
+        ],
+        [
+          "XII",
+          "1 833 333",
+          "334 000",
+          "6 151",
+          "79",
+          "4,0%"
+        ],
+        [
+          "XIII",
+          "1 677 011",
+          "299 000",
+          "5 775",
+          "259",
+          "4,1%"
+        ],
+        [
+          "XIV",
+          "1 389 130",
+          "270 000",
+          "5 343",
+          "63",
+          "4,6%"
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Pourquoi le rendement est-il plus faible dans le V et le I ?",
+        "en": "Why is the yield lower in districts V and I?",
+        "de": "Warum ist die Rendite im V. und I. Bezirk niedriger?",
+        "hu": "Miért alacsonyabb a hozam az V. és az I. kerületben?"
+      },
+      "a": {
+        "fr": "Parce que le loyer au m² n’y est que légèrement plus élevé qu’ailleurs (environ 6 000 à 6 200 HUF), alors que le prix au m² y est le plus élevé de la ville (1,9 à 2,0 millions HUF) [1][2].",
+        "en": "Because rent per m² there is only slightly higher than elsewhere (about HUF 6,000 to 6,200), while the price per m² is the highest in the city (HUF 1.9 to 2.0 million) [1][2].",
+        "de": "Weil die Miete pro m² dort nur wenig höher ist als anderswo (etwa 6.000 bis 6.200 HUF), der Preis pro m² aber der höchste der Stadt ist (1,9 bis 2,0 Mio. HUF) [1][2].",
+        "hu": "Mert ott a m²-enkénti lakbér csak kicsivel magasabb, mint máshol (nagyjából 6 000–6 200 Ft), a m²-ár viszont a legmagasabb a városban (1,9–2,0 millió Ft) [1][2]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Le rendement du tableau est-il celui que j’obtiendrai ?",
+        "en": "Is the yield in the table what I will get?",
+        "de": "Ist die Rendite in der Tabelle das, was ich erzielen werde?",
+        "hu": "A táblázatban szereplő hozamot fogom elérni?"
+      },
+      "a": {
+        "fr": "Non. C’est un rendement brut calculé sur des prix et des loyers demandés. Le rendement réel dépend du prix négocié, du loyer effectivement signé, de la vacance et des coûts ; ingatlan.com estimait en juin 2026 qu’environ 4,5 % brut correspondent à environ 3 % net [8].",
+        "en": "No. It is a gross yield calculated from asking prices and asking rents. The actual yield depends on the negotiated price, the rent actually signed, vacancy and costs; ingatlan.com estimated in June 2026 that about 4.5% gross corresponds to about 3% net [8].",
+        "de": "Nein. Es ist eine Bruttorendite auf Basis von Angebotspreisen und Angebotsmieten. Die tatsächliche Rendite hängt vom verhandelten Preis, der tatsächlich vereinbarten Miete, Leerstand und Kosten ab; ingatlan.com schätzte im Juni 2026, dass rund 4,5 % brutto etwa 3 % netto entsprechen [8].",
+        "hu": "Nem. Ez kínálati árakból és kínálati lakbérekből számított bruttó hozam. A tényleges hozam az alkudott vételártól, a ténylegesen aláírt lakbértől, az üresjárattól és a költségektől függ; az ingatlan.com 2026 júniusában úgy becsülte, hogy kb. 4,5% bruttó nagyjából 3% nettónak felel meg [8]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi les loyers médians diffèrent-ils selon les sources ?",
+        "en": "Why do median rents differ between sources?",
+        "de": "Warum unterscheiden sich die Medianmieten je nach Quelle?",
+        "hu": "Miért térnek el a medián lakbérek forrásonként?"
+      },
+      "a": {
+        "fr": "Chaque portail a sa propre base d’annonces, ses filtres et sa date de relevé. Dans le XIII, par exemple, la médiane est de 299 000 HUF dans une base (septembre 2026) [2] et de 260 000 HUF chez ingatlan.com (mai 2026) [5]. Il faut comparer des chiffres issus d’une même source.",
+        "en": "Each portal has its own listings base, filters and snapshot date. In district XIII, for example, the median is HUF 299,000 in one database (September 2026) [2] and HUF 260,000 at ingatlan.com (May 2026) [5]. Compare figures from the same source.",
+        "de": "Jedes Portal hat eigene Inserate, Filter und Stichtage. Im XIII. Bezirk etwa liegt der Median in einer Datenbank bei 299.000 HUF (September 2026) [2] und bei ingatlan.com bei 260.000 HUF (Mai 2026) [5]. Vergleichen Sie Zahlen aus derselben Quelle.",
+        "hu": "Minden portálnak saját hirdetésállománya, szűrése és adatfelvételi időpontja van. A XIII. kerületben például az egyik adatbázisban 299 ezer Ft a medián (2026. szeptember) [2], az ingatlan.com-on 260 ezer Ft (2026. május) [5]. Mindig azonos forrásból származó számokat hasonlítson össze."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Housiko – Budapesti lakásárak kerületenként (2026), median asking prices from ~27,500 sale listings",
+      "url": "https://housiko.com/hu-hu/blog/budapesti-lakasarak-keruletenkent",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Housiko – Albérlet árak Magyarországon (district pages, September 2026), asking rents",
+      "url": "https://housiko.com/hu-hu/alberlet-arak",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Telex – Befékezett a lakáspiac (ingatlan.com lakásárindex, September 2026; district medians early October 2026)",
+      "url": "https://telex.hu/gazdasag/2026/10/06/ingatlan-aremelkedes-csokkenes-megyeszekhely-budapest-elemzes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Pénzcentrum – KSH–ingatlan.com lakbérindex, September 2026; ingatlan.com median rents early October 2026",
+      "url": "https://www.penzcentrum.hu/otthon/20261012/ember-legyen-a-talpan-aki-most-jo-alberletet-talal-keteves-melyponton-a-kinalat-magyarorszagon-1207089",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – A világjárvány óta nem csinált ilyet a magyar albérletpiac (ingatlan.com district median rents, May 2026)",
+      "url": "https://www.economx.hu/ingatlan/2026/05/11/vilagjarvany-magyar-alberletpiac-lakasar/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Magyar Nemzeti Bank – Lakáspiaci jelentés, 2025. november",
+      "url": "https://www.mnb.hu/letoltes/laka-spiaci-jelente-s-2025-november-hun.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Magyar Nemzeti Bank – Lakáspiaci jelentés, 2026. május",
+      "url": "https://www.mnb.hu/letoltes/laka-spiaci-jelente-s-2026-ma-jus.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Döbbenetes folyamatok zajlanak a magyar albérletpiacon (KSH–ingatlan.com lakbérindex, May 2026)",
+      "url": "https://www.economx.hu/ingatlan/2026/06/11/dobbenetes-folyamatok-zajlanak-a-magyar-alberletpiacon/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Pénzcentrum – Otthon Centrum: average achieved prices of used flats by district, H1 2026",
+      "url": "https://www.penzcentrum.hu/otthon/20260803/nagyot-koppannak-a-budai-haztulajok-komoly-falba-utkoztek-az-arak-mikozben-pesten-meg-mindig-kilo-a-piac-1203330",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "KSH (HCSO) – HCSO–ingatlan.com rent index, June 2026",
+      "url": "https://www.ksh.hu/s/en/experimental-statistics/publications/hcsoingatlancom-rent-index-june-2026/",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": true
+}
