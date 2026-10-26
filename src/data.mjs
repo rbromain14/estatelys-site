@@ -363,7 +363,7 @@ export const projects = [
     lat: 47.4997, lng: 19.0577,
     district: L("VIᵉ arrondissement · Terézváros", "6th district · Terézváros", "6. Bezirk · Terézváros", "VI. kerület · Terézváros"),
     type: L("Résidence de luxe", "Luxury home", "Luxuswohnung", "Luxuslakás"),
-    price: 742000, priceHuf: "270,2 M Ft", priceFromHuf: true,
+    price: 742000,
     facts: [
       L("104 m²", "104 m²", "104 m²", "104 m²"),
       L("3ᵉ étage", "3rd floor", "3. Stock", "3. emelet"),
