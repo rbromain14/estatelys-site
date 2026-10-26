@@ -517,7 +517,7 @@ function md(text = "", nSources = 0) {
 }
 function simTool(l, r) {
   const S = resources.sim, c = (r && r.calc) || {};
-  const buy = c.defaultBuyCostsPct ?? "";
+  const buy = c.defaultBuyCostsPct ?? (c.transferDutyRate ? c.transferDutyRate * 100 : "");
   const fields = [["price", 295000, 1000], ["buyCosts", buy, 0.1], ["works", 0, 500], ["rent", 1650, 10], ["vacancy", 0, 0.5], ["charges", 0, 5], ["mgmt", 0, 0.5], ["other", 0, 50], ["tax", "", 0.5]];
   return `<form class="sim" data-sim onsubmit="return false">
   <div class="sim-f">${fields.map(([k, v, step]) => `<label><span>${S.f[k][l]}</span><input type="number" inputmode="decimal" min="0" step="${step}" name="${k}" value="${v}"></label>`).join("")}</div>
