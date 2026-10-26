@@ -1,0 +1,411 @@
+{
+  "slug": "hungarian-kft-for-property-investment",
+  "item": "kft",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Créer une Kft hongroise pour investir dans l'immobilier",
+    "en": "Setting up a Hungarian Kft for property investment",
+    "de": "Eine ungarische Kft für Immobilieninvestitionen gründen",
+    "hu": "Kft alapítása ingatlanbefektetéshez"
+  },
+  "summary": {
+    "fr": "Capital, création, IS à 9 %, taxe professionnelle, dividendes, TVA, comptabilité : quand une Kft a du sens face à la détention en nom propre.",
+    "en": "Minimum capital, set-up, 9% corporate tax, local business tax, dividends, VAT and accounting: when a Kft makes sense compared with owning personally.",
+    "de": "Mindestkapital, Gründung, 9 % Körperschaftsteuer, Gewerbesteuer, Dividenden, Umsatzsteuer, Buchhaltung: wann sich eine Kft gegenüber Privatbesitz lohnt.",
+    "hu": "Törzstőke, alapítás, 9%-os társasági adó, iparűzési adó, osztalék, áfa és számvitel: mikor éri meg a kft a magánszemélyként való tulajdonláshoz képest."
+  },
+  "keyFacts": [
+    {
+      "fr": "Capital social minimum d'une Kft : 3 millions HUF, avec un apport d'au moins 100 000 HUF par associé [1].",
+      "en": "Minimum share capital of a Kft: HUF 3 million, with at least HUF 100,000 contributed by each member [1].",
+      "de": "Mindeststammkapital einer Kft: 3 Mio. HUF, mindestens 100.000 HUF Einlage je Gesellschafter [1].",
+      "hu": "A kft legkisebb törzstőkéje 3 millió Ft, tagonként legalább 100 000 Ft törzsbetéttel [1]."
+    },
+    {
+      "fr": "Impôt sur les sociétés : taux unique de 9 % du bénéfice imposable [3].",
+      "en": "Corporate income tax: a flat 9% of taxable profit [3].",
+      "de": "Körperschaftsteuer: einheitlich 9 % des steuerpflichtigen Gewinns [3].",
+      "hu": "Társasági adó: egységesen az adóalap 9%-a [3]."
+    },
+    {
+      "fr": "Taxe professionnelle locale (iparűzési adó) : au plus 2 % de la base ; à Budapest, seule la Ville la lève, pas les arrondissements [9].",
+      "en": "Local business tax (iparűzési adó): at most 2% of the base; in Budapest only the capital levies it, not the districts [9].",
+      "de": "Lokale Gewerbesteuer (iparűzési adó): höchstens 2 % der Bemessungsgrundlage; in Budapest erhebt sie nur die Hauptstadt, nicht die Bezirke [9].",
+      "hu": "Helyi iparűzési adó: legfeljebb az adóalap 2%-a; Budapesten csak a fővárosi önkormányzat vetheti ki, a kerületek nem [9]."
+    },
+    {
+      "fr": "Dividendes versés à un associé résident : 15 % d'impôt plus 13 % de contribution sociale, plafonnée en 2026 sur une base de 7 747 200 HUF [4][5].",
+      "en": "Dividends paid to a resident member: 15% income tax plus 13% social contribution tax, capped in 2026 at a base of HUF 7,747,200 [4][5].",
+      "de": "Dividenden an ansässige Gesellschafter: 15 % Einkommensteuer plus 13 % Sozialbeitragssteuer, 2026 gedeckelt auf eine Bemessungsgrundlage von 7.747.200 HUF [4][5].",
+      "hu": "Belföldi illetőségű tagnak fizetett osztalék: 15% szja és 13% szocho, ez utóbbi 2026-ban legfeljebb 7 747 200 Ft alapig [4][5]."
+    },
+    {
+      "fr": "Aucune retenue à la source hongroise sur les dividendes versés à une société étrangère [6].",
+      "en": "No Hungarian withholding tax on dividends paid to a foreign company [6].",
+      "de": "Keine ungarische Quellensteuer auf Dividenden an ausländische Gesellschaften [6].",
+      "hu": "Külföldi társaságnak fizetett osztalékot nem terhel magyar forrásadó [6]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "La Kft : forme, capital et gouvernance",
+        "en": "The Kft: form, capital and governance",
+        "de": "Die Kft: Rechtsform, Kapital und Organe",
+        "hu": "A kft: forma, tőke és szervezet"
+      },
+      "body": {
+        "fr": "La korlátolt felelősségű társaság (Kft, société à responsabilité limitée) est la forme de société la plus utilisée en Hongrie pour détenir de l'immobilier. Les associés ne répondent des dettes qu'à hauteur de leur apport, et une seule personne, physique ou morale, résidente ou non, peut la créer [1].\n\n**Capital :** au moins 3 millions HUF de capital social (törzstőke), et au moins 100 000 HUF par associé (törzsbetét) [1]. À titre de comparaison, une société anonyme fermée (Zrt) exige 5 millions HUF et une société cotée (Nyrt) 20 millions HUF [1].\n\n**Organes :** l'assemblée des associés est l'organe suprême ; la gestion est confiée à un ou plusieurs gérants (ügyvezető). Un conseil de surveillance de trois membres est facultatif dans les petites structures [1]. Les comptes annuels sont approuvés par l'assemblée et déposés au registre du commerce [2].",
+        "en": "The korlátolt felelősségű társaság (Kft, limited liability company) is the company form most used in Hungary to hold property. Members are liable only up to their contributions, and a single person, individual or company, resident or not, can form one [1].\n\n**Capital:** at least HUF 3 million of share capital (törzstőke), and at least HUF 100,000 per member (törzsbetét) [1]. For comparison, a private company limited by shares (Zrt) requires HUF 5 million and a public company (Nyrt) HUF 20 million [1].\n\n**Bodies:** the members' meeting is the supreme body; management is entrusted to one or more managing directors (ügyvezető). A three-member supervisory board is optional in small companies [1]. The annual accounts are approved by the members' meeting and filed with the company registry [2].",
+        "de": "Die korlátolt felelősségű társaság (Kft, Gesellschaft mit beschränkter Haftung) ist in Ungarn die gebräuchlichste Gesellschaftsform für Immobilienbesitz. Die Gesellschafter haften nur bis zur Höhe ihrer Einlage, und eine einzelne natürliche oder juristische Person, ansässig oder nicht, kann sie gründen [1].\n\n**Kapital:** mindestens 3 Mio. HUF Stammkapital (törzstőke) und mindestens 100.000 HUF je Gesellschafter (törzsbetét) [1]. Zum Vergleich: Eine nicht börsennotierte Aktiengesellschaft (Zrt) erfordert 5 Mio. HUF, eine börsennotierte (Nyrt) 20 Mio. HUF [1].\n\n**Organe:** Die Gesellschafterversammlung ist das oberste Organ; die Geschäftsführung obliegt einem oder mehreren Geschäftsführern (ügyvezető). Ein dreiköpfiger Aufsichtsrat ist in kleinen Gesellschaften freiwillig [1]. Der Jahresabschluss wird von der Gesellschafterversammlung festgestellt und beim Handelsregister eingereicht [2].",
+        "hu": "A korlátolt felelősségű társaság (kft) Magyarországon a leggyakoribb társasági forma ingatlanok tartására. A tagok csak a vagyoni hozzájárulásuk erejéig felelnek, és egyetlen – természetes vagy jogi, belföldi vagy külföldi – személy is alapíthatja [1].\n\n**Tőke:** legalább 3 millió Ft törzstőke, tagonként legalább 100 000 Ft törzsbetét [1]. Összehasonlításként: a zártkörű részvénytársaság (zrt) 5 millió, a nyilvánosan működő (nyrt) 20 millió Ft alaptőkét igényel [1].\n\n**Szervek:** a legfőbb szerv a taggyűlés; az ügyvezetést egy vagy több ügyvezető látja el. Kisebb társaságoknál háromtagú felügyelőbizottság létrehozása nem kötelező [1]. A beszámolót a taggyűlés fogadja el, és azt a cégnyilvántartásba kell letétbe helyezni [2]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Étapes de création",
+        "en": "Set-up steps",
+        "de": "Gründungsschritte",
+        "hu": "Az alapítás lépései"
+      },
+      "body": {
+        "fr": "L'immatriculation se fait par voie électronique auprès du tribunal chargé du registre du commerce (cégbíróság), obligatoirement par l'intermédiaire d'un avocat ou d'un notaire. Les étapes habituelles :\n\n1. Choisir la dénomination et l'objet social (par exemple location et achat-vente de biens propres).\n2. Fixer le siège social en Hongrie : adresse propre ou service de domiciliation.\n3. Faire rédiger et contresigner par l'avocat l'acte constitutif (alapító okirat pour un associé unique, társasági szerződés pour plusieurs).\n4. Désigner le gérant ; un gérant non résident doit en général fournir une adresse de notification en Hongrie.\n5. Déposer la demande d'immatriculation ; le numéro fiscal est attribué au cours de la procédure.\n6. Ouvrir un compte bancaire et verser le capital selon l'acte constitutif.\n7. Choisir un expert-comptable et, le cas échéant, s'enregistrer à la TVA et à la taxe professionnelle locale.\n\n**Coûts :** honoraires d'avocat, droits d'immatriculation, domiciliation et comptabilité mensuelle. Ces montants n'ont pas pu être confirmés dans une source officielle à jour pour 2026 ; il faut demander un devis à un avocat et à un comptable avant de se lancer.",
+        "en": "Registration is done electronically with the court of registration (cégbíróság), and must go through a lawyer or a notary. The usual steps:\n\n1. Choose the company name and the scope of activity (for example letting and buying and selling own property).\n2. Set a registered office in Hungary: own address or a registered-office service.\n3. Have the lawyer draft and countersign the founding document (alapító okirat for a single member, társasági szerződés for several).\n4. Appoint the managing director; a non-resident director generally has to give a Hungarian address for service.\n5. File the registration application; the tax number is issued during the procedure.\n6. Open a bank account and pay in the capital as set out in the founding document.\n7. Appoint an accountant and, where relevant, register for VAT and local business tax.\n\n**Costs:** legal fees, registration fees, registered-office service and monthly bookkeeping. These amounts could not be confirmed in an up-to-date official source for 2026; ask a lawyer and an accountant for a quote before starting.",
+        "de": "Die Eintragung erfolgt elektronisch beim Registergericht (cégbíróság), zwingend über einen Anwalt oder Notar. Die üblichen Schritte:\n\n1. Firmenname und Unternehmensgegenstand festlegen (zum Beispiel Vermietung sowie Kauf und Verkauf eigener Immobilien).\n2. Sitz in Ungarn bestimmen: eigene Adresse oder Sitzdienstleister.\n3. Gründungsurkunde vom Anwalt erstellen und gegenzeichnen lassen (alapító okirat bei einem Gesellschafter, társasági szerződés bei mehreren).\n4. Geschäftsführer bestellen; ein gebietsfremder Geschäftsführer muss in der Regel eine ungarische Zustellanschrift angeben.\n5. Eintragungsantrag einreichen; die Steuernummer wird im Verfahren vergeben.\n6. Bankkonto eröffnen und das Kapital laut Gründungsurkunde einzahlen.\n7. Buchhalter beauftragen und gegebenenfalls für Umsatzsteuer und lokale Gewerbesteuer registrieren.\n\n**Kosten:** Anwaltshonorar, Eintragungsgebühren, Sitzdienstleistung und laufende Buchhaltung. Diese Beträge ließen sich für 2026 nicht in einer aktuellen amtlichen Quelle bestätigen; vor dem Start Angebote von Anwalt und Buchhalter einholen.",
+        "hu": "A cégbejegyzés elektronikusan, a cégbíróságnál történik, kötelező jogi képviselettel (ügyvéd vagy közjegyző). A szokásos lépések:\n\n1. A cégnév és a tevékenységi körök kiválasztása (például saját tulajdonú ingatlan bérbeadása, adásvétele).\n2. Magyarországi székhely kijelölése: saját cím vagy székhelyszolgáltatás.\n3. Az alapító okirat (egyszemélyes kft) vagy a társasági szerződés (több tag) elkészíttetése és ügyvédi ellenjegyzése.\n4. Az ügyvezető kijelölése; külföldi ügyvezetőnek általában magyarországi kézbesítési címet kell megadnia.\n5. A bejegyzési kérelem benyújtása; az adószámot az eljárás során kapja meg a társaság.\n6. Bankszámlanyitás és a törzstőke befizetése az alapító okirat szerint.\n7. Könyvelő megbízása, szükség esetén áfa- és iparűzésiadó-bejelentkezés.\n\n**Költségek:** ügyvédi díj, cégbejegyzési díjak, székhelyszolgáltatás és havi könyvelés. Ezeket az összegeket 2026-ra nem sikerült naprakész hivatalos forrásból megerősíteni; az indulás előtt érdemes ügyvédtől és könyvelőtől ajánlatot kérni."
+      }
+    },
+    {
+      "h": {
+        "fr": "Impôts payés par la société",
+        "en": "Taxes paid by the company",
+        "de": "Steuern der Gesellschaft",
+        "hu": "A társaság adói"
+      },
+      "body": {
+        "fr": "**Impôt sur les sociétés (társasági adó) :** 9 % du bénéfice imposable [3]. Les charges liées à l'activité, dont l'amortissement des biens et les intérêts d'emprunt, sont en principe déductibles dans certaines limites [3]. Si le bénéfice est inférieur à 2 % du chiffre d'affaires ajusté, la société paie l'impôt sur cette base minimale ou dépose une déclaration pouvant entraîner un contrôle ; la première année d'activité est exclue [3]. La déclaration est due le 31 mai pour un exercice civil, avec des acomptes trimestriels [8].\n\n**Taxe professionnelle locale (helyi iparűzési adó) :** au plus 2 % d'une base égale au chiffre d'affaires net diminué notamment du coût d'achat des marchandises vendues, de la sous-traitance et des matières [3][9]. Pour un marchand de biens, le prix d'achat de l'appartement revendu entre dans cette déduction. À Budapest, seule la municipalité de la capitale peut lever cette taxe [9]. Les petites entreprises dont le revenu annuel ne dépasse pas 25 millions HUF peuvent payer un forfait de 50 000 HUF [3].\n\n**Taxe sur les constructions :** l'exonération des logements ne vise que ceux des particuliers non utilisés à des fins professionnelles. Dans le IIe arrondissement, un appartement détenu par une société est ainsi taxé à 2 900 HUF par m² et par an en 2026 [12].\n\n**Droits de mutation à l'achat :** 4 % en règle générale [7]. Une société dont au moins 50 % du chiffre d'affaires de l'année précédente provient de ventes immobilières paie 3 % ou 2 % si elle s'engage à revendre dans les 2 ans ; une société nouvelle peut déclarer qu'elle remplira cette condition dès sa première année [11].",
+        "en": "**Corporate income tax (társasági adó):** 9% of taxable profit [3]. Business expenses, including depreciation of property and loan interest, are generally deductible within certain limits [3]. If profit is below 2% of adjusted revenue, the company either pays tax on that minimum base or files a statement that may lead to an audit; the first tax year is excluded [3]. The return is due on 31 May for a calendar year, with quarterly advance payments [8].\n\n**Local business tax (helyi iparűzési adó):** at most 2% of a base equal to net revenue less, among other items, the cost of goods sold, subcontractors and materials [3][9]. For a company that buys and resells flats, the purchase price of the flat sold falls within this deduction. In Budapest only the capital's municipality may levy this tax [9]. Small businesses with annual income up to HUF 25 million can pay a flat HUF 50,000 [3].\n\n**Building tax:** the exemption for homes covers only those of private individuals not used for business. In District II, a flat owned by a company is therefore taxed at HUF 2,900 per m² per year in 2026 [12].\n\n**Transfer duty on purchase:** 4% as a rule [7]. A company that earned at least 50% of the previous year's revenue from property sales pays 3% or 2% if it undertakes to resell within 2 years; a new company can declare that it will meet this condition in its first year [11].",
+        "de": "**Körperschaftsteuer (társasági adó):** 9 % des steuerpflichtigen Gewinns [3]. Betriebsausgaben, einschließlich Abschreibung der Immobilien und Darlehenszinsen, sind grundsätzlich in bestimmten Grenzen abziehbar [3]. Liegt der Gewinn unter 2 % des bereinigten Umsatzes, zahlt die Gesellschaft entweder Steuer auf diese Mindestbemessungsgrundlage oder reicht eine Erklärung ein, die zu einer Prüfung führen kann; das erste Geschäftsjahr ist ausgenommen [3]. Die Erklärung ist bei kalenderjahrgleichem Geschäftsjahr am 31. Mai fällig, mit vierteljährlichen Vorauszahlungen [8].\n\n**Lokale Gewerbesteuer (helyi iparűzési adó):** höchstens 2 % einer Bemessungsgrundlage aus Nettoumsatz abzüglich unter anderem Wareneinsatz, Fremdleistungen und Material [3][9]. Bei einer Gesellschaft, die Wohnungen kauft und weiterverkauft, fällt der Einkaufspreis der verkauften Wohnung unter diesen Abzug. In Budapest darf nur die Hauptstadt diese Steuer erheben [9]. Kleinunternehmen mit bis zu 25 Mio. HUF Jahreseinnahmen können pauschal 50.000 HUF zahlen [3].\n\n**Gebäudesteuer:** Die Befreiung für Wohnungen gilt nur für nicht gewerblich genutzte Wohnungen von Privatpersonen. Im II. Bezirk wird eine Wohnung im Gesellschaftseigentum daher 2026 mit 2.900 HUF pro m² und Jahr besteuert [12].\n\n**Erwerbsabgabe beim Kauf:** in der Regel 4 % [7]. Eine Gesellschaft, die im Vorjahr mindestens 50 % ihres Umsatzes aus Immobilienverkäufen erzielt hat, zahlt 3 % oder 2 %, wenn sie sich zum Weiterverkauf innerhalb von 2 Jahren verpflichtet; eine neue Gesellschaft kann erklären, dass sie diese Bedingung im ersten Jahr erfüllen wird [11].",
+        "hu": "**Társasági adó:** a pozitív adóalap 9%-a [3]. A vállalkozási tevékenységgel összefüggő ráfordítások – köztük az ingatlanok értékcsökkenése és a hitelkamat – bizonyos korlátok között általában levonhatók [3]. Ha a nyereség nem éri el a korrigált bevétel 2%-át, a társaság vagy e jövedelem-minimum után adózik, vagy nyilatkozatot tesz, amely adóellenőrzést vonhat maga után; az első adóév kivétel [3]. A bevallás naptári éves üzleti évnél május 31-ig esedékes, negyedéves előlegfizetéssel [8].\n\n**Helyi iparűzési adó:** legfeljebb az adóalap 2%-a; az adóalap a nettó árbevétel, csökkentve többek között az eladott áruk beszerzési értékével, az alvállalkozói teljesítésekkel és az anyagköltséggel [3][9]. Ingatlanforgalmazásnál az értékesített lakás beszerzési ára ebbe a levonásba tartozik. Budapesten kizárólag a fővárosi önkormányzat vetheti ki ezt az adót [9]. Az évi 25 millió Ft bevételt meg nem haladó kisvállalkozók 50 000 Ft-os egyösszegű adót fizethetnek [3].\n\n**Építményadó:** a lakásokra vonatkozó mentesség csak a magánszemélyek nem vállalkozási célú lakására terjed ki. A II. kerületben ezért a társaság tulajdonában lévő lakás után 2026-ban évi 2900 Ft/m² fizetendő [12].\n\n**Vagyonszerzési illeték vásárláskor:** főszabály szerint 4% [7]. Az a társaság, amelynek előző évi árbevétele legalább 50%-ban ingatlanértékesítésből származott, 3%-ot vagy 2%-ot fizet, ha vállalja a 2 éven belüli továbbértékesítést; új társaság nyilatkozhat úgy, hogy az első adóévében teljesíti ezt a feltételt [11]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Distribuer les bénéfices : dividendes résidents et non-résidents",
+        "en": "Paying out profits: dividends for residents and non-residents",
+        "de": "Gewinnausschüttung: Dividenden für Ansässige und Gebietsfremde",
+        "hu": "A nyereség kivétele: osztalék belföldi és külföldi tagoknak"
+      },
+      "body": {
+        "fr": "**Associé personne physique résidente en Hongrie :** le dividende supporte 15 % d'impôt sur le revenu [5] et 13 % de contribution sociale (szociális hozzájárulási adó). Cette contribution ne s'applique que jusqu'à une base de 24 fois le salaire minimum, soit 7 747 200 HUF en 2026 (salaire minimum mensuel de 322 800 HUF), diminuée des autres revenus déjà soumis à cette contribution [4].\n\n**Illustration avec ces taux :** sur 100 de bénéfice, la société paie 9 d'impôt ; sur les 91 distribués, 15 % d'impôt et, sous le plafond, 13 % de contribution laissent environ 65,5 à l'associé, soit une charge totale d'environ 34,5 %. Au-dessus du plafond, la charge tombe à environ 22,7 %.\n\n**Associé personne physique non résidente :** le dividende de source hongroise reste soumis à l'impôt hongrois de 15 % [5]. Avec la convention France–Hongrie, la Hongrie ne peut pas dépasser 15 % (5 % pour une société détenant au moins 25 %), et la France accorde un crédit d'impôt plafonné à l'impôt français dû sur ce dividende [10]. La convention Allemagne–Hongrie prévoit 15 %, ou 5 % pour une participation d'au moins 10 % [15]. L'assujettissement d'un non-résident à la contribution sociale de 13 % dépend de son affiliation à la sécurité sociale ; il faut le vérifier avec un conseiller.\n\n**Associé société étrangère :** la Hongrie ne prélève pas de retenue à la source sur les dividendes versés à des sociétés [6].\n\n**Points de vigilance :** les opérations entre la société et ses associés (vente d'un appartement à l'associé, mise à disposition gratuite) doivent se faire au prix du marché ; à défaut, l'administration peut requalifier l'écart en distribution occulte [14].",
+        "en": "**Member who is an individual resident in Hungary:** the dividend bears 15% personal income tax [5] and 13% social contribution tax (szociális hozzájárulási adó). The contribution applies only up to a base of 24 times the minimum wage, which is HUF 7,747,200 in 2026 (monthly minimum wage HUF 322,800), reduced by other income already subject to it [4].\n\n**Illustration with these rates:** on 100 of profit, the company pays 9 in tax; on the 91 distributed, 15% income tax and, below the cap, 13% contribution leave about 65.5 to the member, a total burden of about 34.5%. Above the cap, the burden falls to about 22.7%.\n\n**Member who is a non-resident individual:** a Hungarian-source dividend remains subject to Hungarian tax at 15% [5]. Under the France–Hungary treaty, Hungary may not exceed 15% (5% for a company holding at least 25%), and France grants a credit capped at the French tax due on the dividend [10]. The Germany–Hungary treaty provides 15%, or 5% for a holding of at least 10% [15]. Whether a non-resident owes the 13% social contribution tax depends on their social security coverage; check with an adviser.\n\n**Member that is a foreign company:** Hungary levies no withholding tax on dividends paid to companies [6].\n\n**Points to watch:** transactions between the company and its members (selling a flat to a member, free use of a flat) must be at market price; otherwise the tax authority can treat the difference as a hidden distribution [14].",
+        "de": "**Gesellschafter als in Ungarn ansässige natürliche Person:** Die Dividende unterliegt 15 % Einkommensteuer [5] und 13 % Sozialbeitragssteuer (szociális hozzájárulási adó). Diese fällt nur bis zu einer Bemessungsgrundlage vom 24-Fachen des Mindestlohns an, 2026 also 7.747.200 HUF (monatlicher Mindestlohn 322.800 HUF), vermindert um andere bereits belastete Einkünfte [4].\n\n**Rechenbeispiel mit diesen Sätzen:** Von 100 Gewinn zahlt die Gesellschaft 9 Steuer; von den ausgeschütteten 91 bleiben nach 15 % Einkommensteuer und, unterhalb des Deckels, 13 % Sozialbeitragssteuer etwa 65,5 beim Gesellschafter, also eine Gesamtbelastung von rund 34,5 %. Oberhalb des Deckels sinkt sie auf rund 22,7 %.\n\n**Gesellschafter als gebietsfremde natürliche Person:** Eine Dividende aus ungarischer Quelle unterliegt weiterhin der ungarischen Steuer von 15 % [5]. Nach dem DBA Frankreich–Ungarn darf Ungarn höchstens 15 % erheben (5 % für eine Gesellschaft mit mindestens 25 % Beteiligung), Frankreich rechnet die Steuer bis zur Höhe der französischen Steuer auf diese Dividende an [10]. Das DBA Deutschland–Ungarn sieht 15 % vor, oder 5 % bei einer Beteiligung von mindestens 10 % [15]. Ob ein Gebietsfremder die 13 % Sozialbeitragssteuer schuldet, hängt von seiner Sozialversicherungszugehörigkeit ab; das ist mit einem Berater zu klären.\n\n**Gesellschafter als ausländische Gesellschaft:** Ungarn erhebt keine Quellensteuer auf Dividenden an Gesellschaften [6].\n\n**Worauf zu achten ist:** Geschäfte zwischen Gesellschaft und Gesellschaftern (Verkauf einer Wohnung an den Gesellschafter, unentgeltliche Nutzung) müssen zu Marktpreisen erfolgen; sonst kann die Steuerbehörde die Differenz als verdeckte Ausschüttung behandeln [14].",
+        "hu": "**Belföldi illetőségű magánszemély tag:** az osztalékot 15% szja [5] és 13% szociális hozzájárulási adó terheli. A szocho csak a minimálbér 24-szereséig fizetendő, ami 2026-ban 7 747 200 Ft (havi minimálbér 322 800 Ft), csökkentve az egyéb, már szochóköteles jövedelmekkel [4].\n\n**Szemléltetés e kulcsokkal:** 100 egység nyereség után a társaság 9 egység adót fizet; a kifizetett 91 egységből 15% szja és – a felső határ alatt – 13% szocho után körülbelül 65,5 marad a tagnál, ez nagyjából 34,5%-os összteher. A felső határ felett a teher körülbelül 22,7%-ra csökken.\n\n**Nem belföldi illetőségű magánszemély tag:** a magyar forrású osztalékot továbbra is 15% magyar adó terheli [5]. A francia–magyar egyezmény szerint a magyar adó nem haladhatja meg a 15%-ot (legalább 25%-os részesedéssel rendelkező társaságnál 5%), Franciaország pedig az osztalékra eső francia adó összegéig beszámítást ad [10]. A német–magyar egyezmény 15%-ot, legalább 10%-os részesedésnél 5%-ot ír elő [15]. Az, hogy a külföldi tagot terheli-e a 13%-os szocho, a társadalombiztosítási hovatartozásától függ; ezt tanácsadóval kell tisztázni.\n\n**Külföldi társaság tag:** a társaságoknak fizetett osztalékot Magyarországon nem terheli forrásadó [6].\n\n**Figyelendő:** a társaság és tagjai közötti ügyleteknek (lakás eladása a tagnak, ingyenes használat) piaci áron kell történniük; ellenkező esetben az adóhatóság a különbözetet rejtett jövedelemkivonásnak minősítheti [14]."
+      }
+    },
+    {
+      "h": {
+        "fr": "TVA, comptabilité et audit",
+        "en": "VAT, accounting and audit",
+        "de": "Umsatzsteuer, Buchhaltung und Abschlussprüfung",
+        "hu": "Áfa, számvitel és könyvvizsgálat"
+      },
+      "body": {
+        "fr": "**TVA :** le taux normal est de 27 % [7]. La vente d'un bâtiment existant et la location immobilière sont en principe exonérées, avec une option pour la taxation [7]. Un bien qui change de fonction ou de nombre de lots est traité comme neuf, et sa vente est taxable si elle intervient dans les deux ans suivant le certificat officiel [7]. Un taux de 5 % s'applique aux logements neufs ; sa date de fin et ses régimes transitoires doivent être vérifiés au moment de l'opération [7]. Lorsque la revente est exonérée, la TVA payée sur les travaux de rénovation n'est en principe pas récupérable et devient un coût. Une franchise de TVA (alanyi adómentesség) est possible jusqu'à 20 millions HUF de chiffre d'affaires en 2026 [13].\n\n**Comptabilité :** une Kft tient une comptabilité en partie double, établit des comptes annuels approuvés par l'assemblée et les dépose au registre du commerce [2]. En pratique, cela suppose un expert-comptable dès la première année.\n\n**Audit :** un commissaire aux comptes est requis au-delà de certains seuils, que le guide Chambers 2026 situe à un chiffre d'affaires net moyen de 600 millions HUF et 50 salariés en moyenne sur les deux exercices précédents [2]. Les conditions exactes sont à confirmer avec le comptable.",
+        "en": "**VAT:** the standard rate is 27% [7]. The sale of an existing building and the letting of real estate are generally exempt, with an option to tax [7]. A property whose use or number of units changes is treated as new, and its sale is taxable if it takes place within two years of the official certificate [7]. A 5% rate applies to new homes; its end date and transitional rules must be checked at the time of the transaction [7]. Where the resale is exempt, VAT paid on renovation work is generally not recoverable and becomes a cost. A small-business VAT exemption (alanyi adómentesség) is available up to HUF 20 million of revenue in 2026 [13].\n\n**Accounting:** a Kft keeps double-entry books, prepares annual accounts approved by the members' meeting and files them with the company registry [2]. In practice this requires an accountant from the first year.\n\n**Audit:** an auditor is required above certain thresholds, which the Chambers 2026 guide puts at average net sales of HUF 600 million and an average of 50 employees over the two preceding years [2]. The exact conditions should be confirmed with the accountant.",
+        "de": "**Umsatzsteuer:** Der Regelsatz beträgt 27 % [7]. Der Verkauf eines Bestandsgebäudes und die Vermietung von Immobilien sind grundsätzlich steuerfrei, mit Optionsmöglichkeit [7]. Eine Immobilie, deren Nutzung oder Zahl der Einheiten sich ändert, gilt als neu; ihr Verkauf ist steuerpflichtig, wenn er innerhalb von zwei Jahren nach der behördlichen Bescheinigung erfolgt [7]. Für Neubauwohnungen gilt ein Satz von 5 %; Enddatum und Übergangsregeln sind zum Zeitpunkt des Geschäfts zu prüfen [7]. Ist der Weiterverkauf steuerfrei, ist die Umsatzsteuer auf Renovierungsarbeiten in der Regel nicht abziehbar und wird zum Kostenfaktor. Eine Kleinunternehmerbefreiung (alanyi adómentesség) ist 2026 bis 20 Mio. HUF Umsatz möglich [13].\n\n**Buchhaltung:** Eine Kft führt doppelte Buchführung, erstellt einen Jahresabschluss, den die Gesellschafterversammlung feststellt, und reicht ihn beim Handelsregister ein [2]. In der Praxis ist ab dem ersten Jahr ein Buchhalter nötig.\n\n**Abschlussprüfung:** Ein Abschlussprüfer ist oberhalb bestimmter Schwellen erforderlich, die der Chambers-Leitfaden 2026 mit durchschnittlich 600 Mio. HUF Nettoumsatz und durchschnittlich 50 Beschäftigten in den zwei vorangegangenen Geschäftsjahren angibt [2]. Die genauen Voraussetzungen sind mit dem Buchhalter zu bestätigen.",
+        "hu": "**Áfa:** az általános kulcs 27% [7]. A meglévő épület értékesítése és az ingatlan bérbeadása főszabály szerint mentes, adókötelessé tétel választható [7]. A rendeltetésében vagy rendeltetési egységeinek számában megváltozó ingatlan újnak minősül, értékesítése adóköteles, ha a hatósági igazolást követő két éven belül történik [7]. Az új lakásokra 5%-os kulcs vonatkozik; ennek végső határidejét és átmeneti szabályait az ügylet idején ellenőrizni kell [7]. Ha a továbbértékesítés áfamentes, a felújítási munkák áfája általában nem vonható le, így költséggé válik. 2026-ban 20 millió Ft árbevételig alanyi adómentesség választható [13].\n\n**Számvitel:** a kft kettős könyvvitelt vezet, éves beszámolót készít, amelyet a taggyűlés fogad el, és azt a cégnyilvántartásba letétbe helyezi [2]. A gyakorlatban ez az első évtől könyvelőt igényel.\n\n**Könyvvizsgálat:** bizonyos értékhatárok felett könyvvizsgáló szükséges; a Chambers 2026-os kiadványa ezeket az előző két üzleti év átlagában 600 millió Ft nettó árbevételben és átlagosan 50 főben adja meg [2]. A pontos feltételeket a könyvelővel kell egyeztetni."
+      }
+    },
+    {
+      "h": {
+        "fr": "Kft ou détention en nom propre",
+        "en": "Kft or personal ownership",
+        "de": "Kft oder Privatbesitz",
+        "hu": "Kft vagy magánszemélyként való tulajdonlás"
+      },
+      "body": {
+        "fr": "Le choix dépend surtout de la stratégie : achat-revente fréquent, location de longue durée ou détention d'un seul bien.\n\n**Une Kft peut se justifier :**\n- pour une activité répétée d'achat, rénovation et revente, où le particulier serait imposé sur des gains de courte durée sans réduction [2] ;\n- lorsque les bénéfices sont réinvestis dans de nouveaux biens : seul l'impôt de 9 % s'applique tant que rien n'est distribué [3] ;\n- pour accéder aux droits de mutation réduits de 3 % ou 2 % réservés aux sociétés de marchand de biens [11] ;\n- pour déduire les charges réelles, l'amortissement et les intérêts [3].\n\n**La détention en nom propre reste souvent plus simple :**\n- pour un bien conservé au moins 5 ans, dont la revente est alors exonérée [2] ;\n- pour une location de longue durée, imposée à 15 % sur 90 % du loyer avec le forfait, sans contribution sociale [6].\n\n**Limites et coûts d'une Kft :** comptabilité et déclarations obligatoires chaque année, taxe professionnelle locale [9], taxe sur les constructions au tarif plein sur les logements détenus [12], règle de l'impôt minimum [3], fiscalité des dividendes lors de la sortie des fonds [4][5], et obligation de traiter à prix de marché avec les associés [14]. Pour un non-résident s'ajoutent un siège en Hongrie et l'articulation avec la fiscalité de son pays de résidence [10].",
+        "en": "The choice depends mainly on the strategy: frequent buying and reselling, long-term letting, or holding a single property.\n\n**A Kft can make sense:**\n- for repeated buy, renovate and resell activity, where an individual would be taxed on short-term gains without reduction [2];\n- when profits are reinvested in new properties: only the 9% tax applies as long as nothing is distributed [3];\n- to access the reduced 3% or 2% transfer duty reserved for property-trading companies [11];\n- to deduct actual costs, depreciation and interest [3].\n\n**Personal ownership is often simpler:**\n- for a property held for at least 5 years, whose resale is then exempt [2];\n- for long-term letting, taxed at 15% on 90% of the rent with the flat-rate deduction and without social contribution [6].\n\n**Limits and costs of a Kft:** mandatory bookkeeping and filings every year, local business tax [9], building tax at the full rate on flats it owns [12], the minimum tax rule [3], dividend taxation when funds are taken out [4][5], and the obligation to deal with members at market price [14]. A non-resident also needs a registered office in Hungary and must fit the structure with the tax rules of their country of residence [10].",
+        "de": "Die Wahl hängt vor allem von der Strategie ab: häufiger An- und Verkauf, Langzeitvermietung oder Halten einer einzelnen Immobilie.\n\n**Eine Kft kann sinnvoll sein:**\n- bei wiederholtem Kauf, Renovierung und Weiterverkauf, wo eine Privatperson kurzfristige Gewinne ohne Ermäßigung versteuern würde [2];\n- wenn Gewinne in neue Immobilien reinvestiert werden: Solange nichts ausgeschüttet wird, fallen nur 9 % Steuer an [3];\n- um die ermäßigte Erwerbsabgabe von 3 % oder 2 % für Immobilienhandelsgesellschaften zu nutzen [11];\n- um tatsächliche Kosten, Abschreibung und Zinsen abzuziehen [3].\n\n**Privatbesitz ist oft einfacher:**\n- bei einer Immobilie, die mindestens 5 Jahre gehalten wird und deren Verkauf dann steuerfrei ist [2];\n- bei Langzeitvermietung, besteuert mit 15 % auf 90 % der Miete bei Pauschale und ohne Sozialbeitragssteuer [6].\n\n**Grenzen und Kosten einer Kft:** jährliche Pflicht zu Buchführung und Erklärungen, lokale Gewerbesteuer [9], volle Gebäudesteuer auf eigene Wohnungen [12], Mindeststeuerregel [3], Dividendenbesteuerung bei Entnahme der Mittel [4][5] und die Pflicht zu Marktpreisen gegenüber Gesellschaftern [14]. Gebietsfremde benötigen zudem einen Sitz in Ungarn und müssen die Struktur mit dem Steuerrecht ihres Wohnsitzstaats abstimmen [10].",
+        "hu": "A választás elsősorban a stratégiától függ: gyakori adásvétel, hosszú távú bérbeadás vagy egyetlen ingatlan tartása.\n\n**A kft akkor lehet indokolt:**\n- ismétlődő vásárlás–felújítás–eladás esetén, ahol magánszemélyként a rövid tartási idejű nyereség csökkentés nélkül adózna [2];\n- ha a nyereséget új ingatlanokba forgatják vissza: amíg nincs osztalékfizetés, csak a 9%-os adó terheli [3];\n- az ingatlanforgalmazó társaságoknak járó 3%-os vagy 2%-os illetékmérték igénybevételéhez [11];\n- a tényleges költségek, az értékcsökkenés és a kamatok levonásához [3].\n\n**A magánszemélyként való tulajdonlás gyakran egyszerűbb:**\n- legalább 5 évig tartott ingatlannál, amelynek eladása ekkor adómentes [2];\n- hosszú távú bérbeadásnál, ahol 10%-os költséghányaddal a bérleti díj 90%-a után 15% szja fizetendő, szocho nélkül [6].\n\n**A kft korlátai és költségei:** évente kötelező könyvelés és bevallások, helyi iparűzési adó [9], a tulajdonában lévő lakások után teljes építményadó [12], a jövedelem-minimum szabálya [3], az osztalék adója a pénz kivételekor [4][5], valamint a tagokkal való piaci áras elszámolás kötelezettsége [14]. Külföldi tag esetén ehhez jön a magyarországi székhely és a lakóhely szerinti ország adószabályaival való összehangolás [10]."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Comparaison simplifiée : détention en nom propre et Kft (règles 2026)",
+      "en": "Simplified comparison: personal ownership and Kft (2026 rules)",
+      "de": "Vereinfachter Vergleich: Privatbesitz und Kft (Regeln 2026)",
+      "hu": "Egyszerűsített összehasonlítás: magánszemély és kft (2026-os szabályok)"
+    },
+    "head": {
+      "fr": [
+        "Point",
+        "Particulier",
+        "Kft"
+      ],
+      "en": [
+        "Item",
+        "Individual",
+        "Kft"
+      ],
+      "de": [
+        "Punkt",
+        "Privatperson",
+        "Kft"
+      ],
+      "hu": [
+        "Szempont",
+        "Magánszemély",
+        "Kft"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "Loyers",
+          "15 % sur 90 % (forfait) ou après frais réels [6]",
+          "9 % sur le bénéfice [3] + taxe professionnelle locale [9]"
+        ],
+        [
+          "Plus-value de revente",
+          "15 %, réduite puis nulle dès la 5e année [2]",
+          "9 % sur le bénéfice, sans réduction liée à la durée [3]"
+        ],
+        [
+          "Droits de mutation",
+          "4 % (plafond 200 M HUF) [7]",
+          "4 %, ou 3 %/2 % pour un marchand de biens [11]"
+        ],
+        [
+          "Sortie des fonds",
+          "Aucune imposition supplémentaire",
+          "Dividende : 15 % + 13 % plafonnée (résident) [4][5]"
+        ],
+        [
+          "Obligations",
+          "Déclaration annuelle de revenus",
+          "Comptabilité, comptes annuels, déclarations [2][8]"
+        ]
+      ],
+      "en": [
+        [
+          "Rent",
+          "15% on 90% (flat rate) or after itemised costs [6]",
+          "9% on profit [3] + local business tax [9]"
+        ],
+        [
+          "Gain on resale",
+          "15%, reduced and nil from the 5th year [2]",
+          "9% on profit, no holding-period reduction [3]"
+        ],
+        [
+          "Transfer duty",
+          "4% (cap HUF 200m) [7]",
+          "4%, or 3%/2% for a property trader [11]"
+        ],
+        [
+          "Taking money out",
+          "No further tax",
+          "Dividend: 15% + capped 13% (resident) [4][5]"
+        ],
+        [
+          "Obligations",
+          "Annual income tax return",
+          "Bookkeeping, annual accounts, returns [2][8]"
+        ]
+      ],
+      "de": [
+        [
+          "Mieten",
+          "15 % auf 90 % (Pauschale) oder nach tatsächlichen Kosten [6]",
+          "9 % auf den Gewinn [3] + lokale Gewerbesteuer [9]"
+        ],
+        [
+          "Veräußerungsgewinn",
+          "15 %, ermäßigt und ab dem 5. Jahr null [2]",
+          "9 % auf den Gewinn, keine Haltedauer-Ermäßigung [3]"
+        ],
+        [
+          "Erwerbsabgabe",
+          "4 % (Deckel 200 Mio. HUF) [7]",
+          "4 % oder 3 %/2 % für Immobilienhändler [11]"
+        ],
+        [
+          "Entnahme der Mittel",
+          "Keine weitere Steuer",
+          "Dividende: 15 % + gedeckelte 13 % (Ansässige) [4][5]"
+        ],
+        [
+          "Pflichten",
+          "Jährliche Einkommensteuererklärung",
+          "Buchführung, Jahresabschluss, Erklärungen [2][8]"
+        ]
+      ],
+      "hu": [
+        [
+          "Bérleti jövedelem",
+          "15% a 90%-ra (költséghányad) vagy tételes költségek után [6]",
+          "9% a nyereségre [3] + helyi iparűzési adó [9]"
+        ],
+        [
+          "Eladási nyereség",
+          "15%, csökkenő, az 5. évtől nulla [2]",
+          "9% a nyereségre, tartási idő szerinti csökkentés nélkül [3]"
+        ],
+        [
+          "Vagyonszerzési illeték",
+          "4% (felső határ 200 millió Ft) [7]",
+          "4%, ingatlanforgalmazónál 3%/2% [11]"
+        ],
+        [
+          "A pénz kivétele",
+          "Nincs további adó",
+          "Osztalék: 15% + plafonos 13% (belföldi) [4][5]"
+        ],
+        [
+          "Kötelezettségek",
+          "Éves szja-bevallás",
+          "Könyvelés, beszámoló, bevallások [2][8]"
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Un étranger non résident peut-il être associé et gérant d'une Kft ?",
+        "en": "Can a non-resident foreigner be a member and managing director of a Kft?",
+        "de": "Kann ein gebietsfremder Ausländer Gesellschafter und Geschäftsführer einer Kft sein?",
+        "hu": "Lehet-e egy külföldi, nem rezidens személy kft tagja és ügyvezetője?"
+      },
+      "a": {
+        "fr": "Oui. Une seule personne, résidente ou non, peut créer une Kft [1]. La société doit avoir un siège en Hongrie, et l'immatriculation passe par un avocat ou un notaire.",
+        "en": "Yes. A single person, resident or not, can form a Kft [1]. The company needs a registered office in Hungary, and registration goes through a lawyer or notary.",
+        "de": "Ja. Eine einzelne Person, ansässig oder nicht, kann eine Kft gründen [1]. Die Gesellschaft braucht einen Sitz in Ungarn, und die Eintragung läuft über einen Anwalt oder Notar.",
+        "hu": "Igen. Egyetlen személy – belföldi vagy külföldi – is alapíthat kft-t [1]. A társaságnak magyarországi székhely kell, a bejegyzés ügyvéd vagy közjegyző útján történik."
+      }
+    },
+    {
+      "q": {
+        "fr": "Faut-il verser les 3 millions HUF de capital ?",
+        "en": "Do the HUF 3 million of capital have to be paid in?",
+        "de": "Müssen die 3 Mio. HUF Kapital eingezahlt werden?",
+        "hu": "Be kell-e fizetni a 3 millió Ft törzstőkét?"
+      },
+      "a": {
+        "fr": "Le capital minimum est de 3 millions HUF [1]. Les modalités et délais de libération sont fixés par l'acte constitutif dans le cadre du Code civil ; l'avocat qui le rédige les précise.",
+        "en": "The minimum capital is HUF 3 million [1]. How and when it is paid in is set by the founding document within the Civil Code rules; the lawyer drafting it will specify this.",
+        "de": "Das Mindestkapital beträgt 3 Mio. HUF [1]. Art und Frist der Einzahlung regelt die Gründungsurkunde im Rahmen des Zivilgesetzbuchs; der Anwalt legt dies bei der Erstellung fest.",
+        "hu": "A legkisebb törzstőke 3 millió Ft [1]. A befizetés módját és határidejét a Ptk. keretei között az alapító okirat rögzíti; ezt az okiratot készítő ügyvéd határozza meg."
+      }
+    },
+    {
+      "q": {
+        "fr": "Une Kft paie-t-elle la taxe sur les constructions sur ses appartements ?",
+        "en": "Does a Kft pay building tax on its flats?",
+        "de": "Zahlt eine Kft Gebäudesteuer auf ihre Wohnungen?",
+        "hu": "Fizet-e a kft építményadót a lakásai után?"
+      },
+      "a": {
+        "fr": "Oui si l'arrondissement lève cette taxe : l'exonération ne vise que les logements de particuliers non utilisés à des fins professionnelles. Exemple : 2 900 HUF par m² et par an dans le IIe arrondissement en 2026 [12].",
+        "en": "Yes, where the district levies it: the exemption covers only private individuals' homes not used for business. Example: HUF 2,900 per m² per year in District II in 2026 [12].",
+        "de": "Ja, sofern der Bezirk sie erhebt: Die Befreiung gilt nur für nicht gewerblich genutzte Wohnungen von Privatpersonen. Beispiel: 2.900 HUF pro m² und Jahr im II. Bezirk 2026 [12].",
+        "hu": "Igen, ha a kerület kivetette: a mentesség csak a magánszemélyek nem vállalkozási célú lakására vonatkozik. Példa: a II. kerületben 2026-ban évi 2900 Ft/m² [12]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Les dividendes versés à une société mère étrangère sont-ils taxés en Hongrie ?",
+        "en": "Are dividends paid to a foreign parent company taxed in Hungary?",
+        "de": "Werden Dividenden an eine ausländische Muttergesellschaft in Ungarn besteuert?",
+        "hu": "Adózik-e Magyarországon a külföldi anyavállalatnak fizetett osztalék?"
+      },
+      "a": {
+        "fr": "Non, la Hongrie ne prélève pas de retenue à la source sur les dividendes versés à des sociétés [6]. L'imposition dans le pays de la société mère dépend de son droit national.",
+        "en": "No, Hungary levies no withholding tax on dividends paid to companies [6]. Taxation in the parent's country depends on its domestic law.",
+        "de": "Nein, Ungarn erhebt keine Quellensteuer auf Dividenden an Gesellschaften [6]. Die Besteuerung im Staat der Muttergesellschaft richtet sich nach dessen Recht.",
+        "hu": "Nem, társaságnak fizetett osztalékot Magyarországon nem terhel forrásadó [6]. Az anyavállalat országában az ottani jog szerint adózik."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chambers Global Practice Guides – Real Estate 2026, Hungary, p. 309 (investment vehicles, minimum capital)",
+      "url": "https://gpg-pdf.chambers.com/Real-Estate-2026/309/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Chambers Global Practice Guides – Real Estate 2026, Hungary, p. 310 (entity maintenance, audit)",
+      "url": "https://gpg-pdf.chambers.com/Real-Estate-2026/310/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Corporate, Taxes on corporate income (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/corporate/taxes-on-corporate-income",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Individual, Other taxes (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/individual/other-taxes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Individual, Income determination (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/individual/income-determination",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Corporate, Withholding taxes (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/corporate/withholding-taxes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Corporate, Other taxes (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/corporate/other-taxes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Corporate, Tax administration (reviewed 1 Jul 2026)",
+      "url": "https://taxsummaries.pwc.com/hungary/corporate/tax-administration",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "1990. évi C. törvény a helyi adókról (Nemzeti Jogszabálytár, version 1 Oct 2026)",
+      "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "impots.gouv.fr – Convention fiscale France–Hongrie (version consolidée avec l'IML)",
+      "url": "https://www.impots.gouv.fr/sites/default/files/media/10_conventions/hongrie/hongrie_convention_modifiee_cml.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Adóvilág – Az ingatlanforgalmazással összefüggő illetékszabályok (3 Oct 2025)",
+      "url": "https://adovilag.hu/2025/10/03/az-ingatlanforgalmazassal-osszefuggo-illetekszabalyok/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Budapest II. kerület – Adókiadvány 2026",
+      "url": "https://masodikkerulet.hu/sites/default/files/attachments/files/masodikkerulethu/2026_01/adokiadvany_2026_0.pdf",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "SKNB – Lakáskiadás adózása 2026",
+      "url": "https://sknb.hu/lakaskiadas-adozasa-2026/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Céges ingatlanvásárlás 2026-ban (e-ingatlanugyvedek.hu)",
+      "url": "https://e-ingatlanugyvedek.hu/blog/ugyvedi-dij-ceges-vevo-eseten",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Hungary – Tax & Legal Alert: new German–Hungarian double tax treaty",
+      "url": "https://www.pwc.com/hu/en/publications/assets/tax-and-legal-alert-467-1024-enghu.pdf",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": true
+}
