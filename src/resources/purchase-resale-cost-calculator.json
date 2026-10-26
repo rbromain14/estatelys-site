@@ -203,10 +203,10 @@
         "hu": "A szerződéses ár után kell illetéket fizetni?"
       },
       "a": {
-        "fr": "Sur la valeur vénale fixée par la NAV, qui correspond en général au prix du contrat. Si la NAV estime le prix trop bas, elle peut retenir une valeur supérieure [1][4].",
-        "en": "On the market value set by NAV, which usually matches the contract price. If NAV considers the price too low, it can apply a higher value [1][4].",
-        "de": "Auf den von der NAV festgestellten Verkehrswert, der meist dem Vertragspreis entspricht. Hält die NAV den Preis für zu niedrig, kann sie einen höheren Wert ansetzen [1][4].",
-        "hu": "A NAV által megállapított forgalmi érték után, amely általában megegyezik a szerződéses árral. Ha a NAV túl alacsonynak tartja az árat, magasabb értéket állapíthat meg [1][4]."
+        "fr": "Sur la valeur vénale fixée par la NAV, qui correspond en général au prix du contrat, mais qui est déterminée par la NAV elle-même [1][4].",
+        "en": "On the market value set by NAV, which usually matches the contract price but is determined by NAV itself [1][4].",
+        "de": "Auf den von der NAV festgestellten Verkehrswert, der meist dem Vertragspreis entspricht, aber von der NAV selbst bestimmt wird [1][4].",
+        "hu": "A NAV által megállapított forgalmi érték után, amely általában megegyezik a szerződéses árral, de azt a NAV maga határozza meg [1][4]."
       }
     },
     {

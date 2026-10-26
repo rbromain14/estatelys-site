@@ -1,0 +1,1359 @@
+{
+  "slug": "hungarian-real-estate-glossary",
+  "item": "gloss",
+  "updated": "2026-10-26",
+  "title": {
+    "fr": "Glossaire de l'immobilier hongrois",
+    "en": "Hungarian real estate glossary",
+    "de": "Glossar der ungarischen Immobilienbegriffe",
+    "hu": "Magyar ingatlanos szószedet"
+  },
+  "summary": {
+    "fr": "Plus de 50 termes hongrois de l'achat, de la copropriété, de la fiscalité et de la location, avec leur sens et une note pratique.",
+    "en": "Over 50 Hungarian terms used in buying, condominiums, tax and renting, with their meaning and a practical note.",
+    "de": "Über 50 ungarische Begriffe zu Kauf, Wohnungseigentum, Steuern und Vermietung, mit Bedeutung und praktischem Hinweis.",
+    "hu": "Több mint 50 kifejezés a lakásvásárlás, a társasház, az adózás és a bérlés köréből, magyarázattal és gyakorlati megjegyzéssel."
+  },
+  "keyFacts": [
+    {
+      "fr": "Les droits de mutation (vagyonszerzési illeték) s'élèvent à 4 % de la valeur vénale du logement [5].",
+      "en": "Property transfer duty (vagyonszerzési illeték) is 4% of the home's market value [5].",
+      "de": "Die Grunderwerbsgebühr (vagyonszerzési illeték) beträgt 4 % des Verkehrswerts der Wohnung [5].",
+      "hu": "A vagyonszerzési illeték a lakás forgalmi értékének 4%-a [5]."
+    },
+    {
+      "fr": "Depuis le 1er janvier 2026, l'achat de remplacement peut s'appuyer sur une vente des 5 dernières années, contre 3 auparavant [6].",
+      "en": "Since 1 January 2026 the replacement purchase relief can rely on a sale in the previous 5 years, up from 3 [6].",
+      "de": "Seit 1. Januar 2026 kann sich die Ersatzerwerbsregel auf einen Verkauf der letzten 5 Jahre stützen, zuvor 3 [6].",
+      "hu": "2026. január 1-től a cserepótló vételnél 5 évre visszamenő eladás vehető figyelembe a korábbi 3 év helyett [6]."
+    },
+    {
+      "fr": "Le foglaló (arrhes) représente souvent environ 10 % du prix ; le vendeur fautif le rembourse au double [4].",
+      "en": "The foglaló (earnest money) is often about 10% of the price; a seller at fault repays it double [4].",
+      "de": "Die foglaló (Draufgabe) liegt oft bei etwa 10 % des Preises; ein schuldhafter Verkäufer zahlt sie doppelt zurück [4].",
+      "hu": "A foglaló jellemzően a vételár kb. 10%-a; ha az eladó hibájából hiúsul meg a szerződés, kétszeresen jár vissza [4]."
+    },
+    {
+      "fr": "Le certificat énergétique est valable 10 ans [7].",
+      "en": "An energy certificate is valid for 10 years [7].",
+      "de": "Ein Energieausweis gilt 10 Jahre [7].",
+      "hu": "Az energetikai tanúsítvány 10 évig érvényes [7]."
+    },
+    {
+      "fr": "Les copropriétés de plus de six logements doivent inscrire leur syndic au registre foncier avant le 31 octobre 2026 [10].",
+      "en": "Condominiums with more than six flats must register their common representative in the land register by 31 October 2026 [10].",
+      "de": "Gemeinschaften mit mehr als sechs Wohnungen müssen ihren Verwalter bis 31. Oktober 2026 im Grundbuch eintragen lassen [10].",
+      "hu": "A hat lakásnál nagyobb társasházaknak 2026. október 31-ig be kell jegyeztetniük a közös képviselőt [10]."
+    }
+  ],
+  "sections": [
+    {
+      "h": {
+        "fr": "Comment utiliser ce glossaire",
+        "en": "How to use this glossary",
+        "de": "So nutzen Sie dieses Glossar",
+        "hu": "Hogyan használja a szószedetet"
+      },
+      "body": {
+        "fr": "Les documents d'une vente immobilière en Hongrie – contrat, extrait du registre foncier, règlement de copropriété, avis d'imposition – sont rédigés en hongrois, et les termes juridiques n'ont pas toujours d'équivalent exact. Ce glossaire donne pour chaque terme le mot hongrois tel qu'il apparaît dans les documents, son sens en français et une note pratique.\n\nLes définitions décrivent l'usage courant et les règles générales au 26 octobre 2026. Elles ne remplacent pas la lecture du texte de loi ou l'avis d'un avocat. Les montants et taux cités renvoient aux sources listées en bas de page.\n\nLe tableau est classé par thème : registre foncier et contrat, droits et charges, copropriété, fiscalité et administration, location et chauffage, puis vocabulaire des annonces et du bâtiment.",
+        "en": "The documents in a Hungarian property sale – contract, land register extract, condominium rules, tax notices – are in Hungarian, and legal terms do not always have an exact equivalent. For each term, this glossary gives the Hungarian word as it appears in documents, its meaning in English and a practical note.\n\nThe definitions describe common usage and general rules as of 26 October 2026. They do not replace reading the legislation or advice from a lawyer. Amounts and rates refer to the sources listed at the bottom of the page.\n\nThe table is ordered by theme: land register and contract, rights and encumbrances, condominium, tax and administration, renting and heating, then listing and building vocabulary.",
+        "de": "Die Unterlagen eines ungarischen Immobilienkaufs – Vertrag, Grundbuchauszug, Gemeinschaftsordnung, Steuerbescheide – sind ungarisch, und Rechtsbegriffe haben nicht immer eine genaue Entsprechung. Das Glossar nennt für jeden Begriff das ungarische Wort, wie es in den Dokumenten steht, seine Bedeutung auf Deutsch und einen praktischen Hinweis.\n\nDie Definitionen beschreiben den üblichen Sprachgebrauch und die allgemeinen Regeln zum 26. Oktober 2026. Sie ersetzen weder den Gesetzestext noch anwaltlichen Rat. Beträge und Sätze verweisen auf die unten aufgeführten Quellen.\n\nDie Tabelle ist thematisch geordnet: Grundbuch und Vertrag, Rechte und Lasten, Wohnungseigentum, Steuern und Verwaltung, Miete und Heizung, danach Begriffe aus Inseraten und zum Gebäude.",
+        "hu": "Egy magyarországi ingatlanvásárlás iratai – szerződés, tulajdoni lap, társasházi szabályzat, adóhatósági határozat – magyar nyelvűek, és a jogi fogalmaknak nem mindig van pontos idegen nyelvű megfelelője. A szószedet minden kifejezésnél megadja az iratokban szereplő alakot, egy rövid magyarázatot és egy gyakorlati megjegyzést.\n\nA meghatározások a 2026. október 26-i általános szabályokat és szóhasználatot írják le. Nem helyettesítik a jogszabály szövegét vagy az ügyvédi tanácsot. Az összegek és mértékek az oldal alján felsorolt forrásokra hivatkoznak.\n\nA táblázat témák szerint halad: nyilvántartás és szerződés, jogok és terhek, társasház, adózás és ügyintézés, bérlés és fűtés, végül hirdetési és építészeti kifejezések."
+      }
+    },
+    {
+      "h": {
+        "fr": "Registre foncier et contrat",
+        "en": "Land register and contract",
+        "de": "Grundbuch und Vertrag",
+        "hu": "Ingatlan-nyilvántartás és szerződés"
+      },
+      "body": {
+        "fr": "Le tulajdoni lap est le document central. Sa partie I décrit le bien, la partie II les propriétaires et la partie III les charges et droits de tiers [1]. Une copropriété a un feuillet principal (törzslap) pour l'immeuble et un feuillet par appartement (különlap) [2]. Une mention en tête (széljegy) signale une demande en cours qui n'est pas encore inscrite [3].\n\nDeux termes sont souvent confondus : le foglaló et l'előleg. Le foglaló est soumis à des règles particulières en cas d'échec de la vente : l'acheteur fautif le perd, le vendeur fautif le rembourse au double. Tout versement que le contrat ne qualifie pas expressément de foglaló est un előleg, remboursable [4].",
+        "en": "The tulajdoni lap is the central document. Its Part I describes the property, Part II the owners and Part III encumbrances and third-party rights [1]. A condominium has a main sheet (törzslap) for the building and a separate sheet (különlap) for each flat [2]. A note at the top (széljegy) signals a pending application that is not yet registered [3].\n\nTwo terms are often confused: foglaló and előleg. The foglaló follows special rules if the sale fails: a buyer at fault loses it, a seller at fault repays it double. Any payment the contract does not expressly call foglaló is an előleg and is refundable [4].",
+        "de": "Der tulajdoni lap ist das zentrale Dokument. Teil I beschreibt die Immobilie, Teil II die Eigentümer und Teil III Lasten und Rechte Dritter [1]. Eine Eigentümergemeinschaft hat ein Hauptblatt (törzslap) für das Gebäude und ein Einzelblatt (különlap) je Wohnung [2]. Ein Vermerk oben (széljegy) zeigt einen anhängigen, noch nicht eingetragenen Antrag [3].\n\nZwei Begriffe werden oft verwechselt: foglaló und előleg. Für die foglaló gelten bei Scheitern des Kaufs besondere Regeln: Ein schuldhafter Käufer verliert sie, ein schuldhafter Verkäufer zahlt sie doppelt zurück. Jede Zahlung, die der Vertrag nicht ausdrücklich als foglaló bezeichnet, ist ein előleg und wird erstattet [4].",
+        "hu": "A tulajdoni lap a legfontosabb irat. Az I. rész az ingatlant, a II. rész a tulajdonosokat, a III. rész a terheket és mások jogait tartalmazza [1]. Társasháznál az épületnek törzslapja, a lakásoknak különlapja van [2]. A fejlécben szereplő széljegy még be nem jegyzett, folyamatban lévő kérelmet jelez [3].\n\nGyakran összekeverik a foglalót és az előleget. A foglalóra a szerződés meghiúsulásakor különleges szabályok vonatkoznak: ha a vevő a felelős, elveszíti, ha az eladó, kétszeresen kell visszafizetnie. Minden befizetés, amelyet a szerződés nem nevez kifejezetten foglalónak, előleg, és visszajár [4]."
+      }
+    },
+    {
+      "h": {
+        "fr": "Copropriété",
+        "en": "Condominium",
+        "de": "Wohnungseigentum",
+        "hu": "Társasház"
+      },
+      "body": {
+        "fr": "La plupart des appartements de Budapest sont des lots de társasház. Les obligations des copropriétaires découlent de la loi sur les copropriétés, de l'alapító okirat et du SZMSZ [11]. Les murs porteurs, colonnes et poutres sont des parties communes même lorsqu'ils se trouvent dans un appartement [11].\n\nLe közös képviselő gère l'immeuble, encaisse les közös költség et exécute les décisions de l'assemblée (közgyűlés). Depuis une modification de la loi entrée en vigueur le 1er octobre 2024, il doit être inscrit sur le törzslap de la copropriété [9] ; pour les immeubles de plus de six logements, la date limite est le 31 octobre 2026 [10].",
+        "en": "Most Budapest flats are units in a társasház. Owners' obligations derive from the Condominium Act, the alapító okirat and the SZMSZ [11]. Load-bearing walls, columns and beams are common property even when they are inside a flat [11].\n\nThe közös képviselő manages the building, collects the közös költség and carries out the decisions of the general meeting (közgyűlés). Since an amendment in force from 1 October 2024, the representative must be registered on the condominium's törzslap [9]; for buildings with more than six flats the deadline is 31 October 2026 [10].",
+        "de": "Die meisten Budapester Wohnungen sind Einheiten einer társasház. Die Pflichten der Eigentümer ergeben sich aus dem Wohnungseigentumsgesetz, der alapító okirat und der SZMSZ [11]. Tragende Wände, Stützen und Träger sind Gemeinschaftseigentum, auch wenn sie in einer Wohnung liegen [11].\n\nDer közös képviselő verwaltet das Haus, zieht den közös költség ein und setzt die Beschlüsse der Versammlung (közgyűlés) um. Seit einer am 1. Oktober 2024 in Kraft getretenen Änderung muss er im törzslap der Gemeinschaft eingetragen sein [9]; bei Häusern mit mehr als sechs Wohnungen endet die Frist am 31. Oktober 2026 [10].",
+        "hu": "A budapesti lakások többsége társasházi albetét. A tulajdonostársak kötelezettségei a társasházi törvényből, az alapító okiratból és az SZMSZ-ből erednek [11]. A teherhordó falak, oszlopok és gerendák akkor is közös tulajdonban állnak, ha egy lakáson belül vannak [11].\n\nA közös képviselő kezeli az épületet, beszedi a közös költséget, és végrehajtja a közgyűlés határozatait. A 2024. október 1-jén hatályba lépett módosítás óta a társasház törzslapjára be kell jegyezni [9]; a hat lakásnál nagyobb házaknál a határidő 2026. október 31. [10]"
+      }
+    },
+    {
+      "h": {
+        "fr": "Fiscalité, administration et location",
+        "en": "Tax, administration and renting",
+        "de": "Steuern, Verwaltung und Miete",
+        "hu": "Adózás, ügyintézés és bérlés"
+      },
+      "body": {
+        "fr": "L'acheteur paie la vagyonszerzési illeték, soit 4 % de la valeur vénale fixée par la NAV (administration fiscale et douanière) ; le contrat est déposé avec le formulaire B400 et la NAV notifie ensuite le montant [5]. Le régime de l'achat de remplacement (cserepótló vétel) a été assoupli au 1er janvier 2026 : la vente antérieure peut dater de 5 ans au lieu de 3 [6]. Pour ces démarches, une personne physique a besoin d'un adóazonosító jel délivré par la NAV [13].\n\nEn location, albérlet désigne couramment tout logement loué. Le bail précise la kaució (dépôt de garantie) et la répartition de la rezsi (énergie, eau, chauffage). Le type de chauffage – gázkonvektor, cirkó ou távfűtés – pèse sur ces charges. Le certificat énergétique est obligatoire aussi pour louer [7].",
+        "en": "The buyer pays vagyonszerzési illeték, 4% of the market value set by NAV (the National Tax and Customs Administration); the contract is filed with form B400 and NAV later notifies the amount [5]. The replacement purchase rule (cserepótló vétel) was relaxed on 1 January 2026: the earlier sale may be up to 5 years old instead of 3 [6]. For these procedures an individual needs an adóazonosító jel issued by NAV [13].\n\nIn renting, albérlet is the everyday word for any rented flat. The lease sets the kaució (security deposit) and how the rezsi (energy, water, heating) is shared. The heating type – gázkonvektor, cirkó or távfűtés – weighs on these costs. An energy certificate is also required for renting [7].",
+        "de": "Der Käufer zahlt die vagyonszerzési illeték, 4 % des von der NAV (Steuer- und Zollverwaltung) festgesetzten Verkehrswerts; der Vertrag wird mit Formular B400 eingereicht, die NAV teilt den Betrag später mit [5]. Die Ersatzerwerbsregel (cserepótló vétel) wurde zum 1. Januar 2026 gelockert: Der frühere Verkauf darf bis zu 5 statt 3 Jahre zurückliegen [6]. Für diese Verfahren braucht eine Privatperson eine adóazonosító jel der NAV [13].\n\nBei der Miete ist albérlet das Alltagswort für jede Mietwohnung. Der Mietvertrag regelt die kaució (Kaution) und die Verteilung der rezsi (Energie, Wasser, Heizung). Die Heizungsart – gázkonvektor, cirkó oder távfűtés – prägt diese Kosten. Ein Energieausweis ist auch bei Vermietung Pflicht [7].",
+        "hu": "A vevő vagyonszerzési illetéket fizet, amely a NAV által megállapított forgalmi érték 4%-a; a szerződést a B400-as nyomtatvánnyal nyújtják be, a NAV később közli az összeget [5]. A cserepótló vétel szabályai 2026. január 1-től enyhültek: a korábbi eladás 3 helyett 5 évre visszamenőleg vehető figyelembe [6]. Ezekhez az eljárásokhoz a magánszemélynek a NAV által kiadott adóazonosító jelre van szüksége [13].\n\nBérlésnél a köznyelv minden bérelt lakást albérletnek hív. A bérleti szerződés rögzíti a kauciót és a rezsi megosztását. A fűtés típusa – gázkonvektor, cirkó vagy távfűtés – jelentősen befolyásolja ezeket a költségeket. Bérbeadáshoz is kötelező az energetikai tanúsítvány [7]."
+      }
+    }
+  ],
+  "table": {
+    "caption": {
+      "fr": "Termes immobiliers hongrois",
+      "en": "Hungarian real estate terms",
+      "de": "Ungarische Immobilienbegriffe",
+      "hu": "Ingatlanos kifejezések"
+    },
+    "head": {
+      "fr": [
+        "Terme hongrois",
+        "Sens en français",
+        "Note"
+      ],
+      "en": [
+        "Hungarian term",
+        "Meaning in English",
+        "Note"
+      ],
+      "de": [
+        "Ungarischer Begriff",
+        "Bedeutung auf Deutsch",
+        "Hinweis"
+      ],
+      "hu": [
+        "Magyar kifejezés",
+        "Jelentés",
+        "Megjegyzés"
+      ]
+    },
+    "rows": {
+      "fr": [
+        [
+          "tulajdoni lap",
+          "extrait du registre foncier (titre de propriété)",
+          "Trois parties : I le bien, II les propriétaires, III les charges et droits [1]."
+        ],
+        [
+          "helyrajzi szám (hrsz)",
+          "numéro cadastral de la parcelle",
+          "Identifie le bien au registre ; en copropriété, chaque lot a un sous-numéro (ex. 12345/A/7)."
+        ],
+        [
+          "földhivatal",
+          "bureau du registre foncier",
+          "Service de l'office gouvernemental (kormányhivatal) qui tient le registre foncier."
+        ],
+        [
+          "ingatlan-nyilvántartás",
+          "registre foncier",
+          "Registre public des droits et faits relatifs aux terrains et bâtiments [2]."
+        ],
+        [
+          "széljegy",
+          "mention d'une demande en cours",
+          "Demande déposée mais pas encore inscrite ; elle fixe le rang [3]."
+        ],
+        [
+          "szemle / teljes másolat",
+          "extrait des inscriptions en vigueur / copie intégrale",
+          "La copie intégrale montre aussi les inscriptions radiées [1]."
+        ],
+        [
+          "törzslap / különlap",
+          "feuillet principal / feuillet séparé",
+          "En copropriété : un feuillet pour l'immeuble et un par appartement [2]."
+        ],
+        [
+          "adásvételi szerződés",
+          "contrat de vente",
+          "Écrit ; pour l'inscription, acte notarié ou acte sous seing privé contresigné par un avocat."
+        ],
+        [
+          "ellenjegyzés",
+          "contreseing (par un avocat)",
+          "L'avocat contresigne le contrat, qui peut alors servir à l'inscription au registre."
+        ],
+        [
+          "ügyvédi letét",
+          "séquestre chez l'avocat",
+          "Le prix est conservé par l'avocat jusqu'à la réalisation des conditions convenues."
+        ],
+        [
+          "foglaló",
+          "arrhes",
+          "Souvent env. 10 % ; perdues si l'acheteur est fautif, restituées au double si le vendeur l'est ; à désigner expressément [4]."
+        ],
+        [
+          "előleg",
+          "acompte",
+          "Remboursé si la vente n'aboutit pas ; tout versement non qualifié de foglaló est un acompte [4]."
+        ],
+        [
+          "tulajdonjog-fenntartás",
+          "réserve de propriété",
+          "Le vendeur reste propriétaire jusqu'au paiement complet ; seul ce fait est mentionné au registre."
+        ],
+        [
+          "birtokbaadás",
+          "remise des clés (prise de possession)",
+          "Avec un procès-verbal et le relevé des compteurs."
+        ],
+        [
+          "tehermentes",
+          "libre de charges",
+          "Partie III vide ou ne comportant que des droits sans effet pratique, comme un droit de passage de réseau [3]."
+        ],
+        [
+          "jelzálogjog",
+          "hypothèque",
+          "Inscrite en partie III pour le montant initial de la créance, pas la dette actuelle [3]."
+        ],
+        [
+          "elidegenítési és terhelési tilalom",
+          "interdiction d'aliéner et de grever",
+          "En général au profit de la banque prêteuse ; la vente exige son accord [3]."
+        ],
+        [
+          "végrehajtási jog",
+          "droit d'exécution forcée",
+          "Inscrit au profit d'un créancier dans une procédure d'exécution [1]."
+        ],
+        [
+          "haszonélvezet",
+          "usufruit",
+          "Survit à la vente ; prend fin au décès ou par renonciation ; la radiation doit être demandée [8]."
+        ],
+        [
+          "elővásárlási jog",
+          "droit de préemption",
+          "Légal (indivisaires ; l'État pour les logements de plus de 200 m² en zone patrimoine mondial) ou contractuel [12]."
+        ],
+        [
+          "szolgalmi jog",
+          "servitude",
+          "Par exemple un droit de passage ; inscrite en partie III [3]."
+        ],
+        [
+          "vezetékjog",
+          "servitude de réseau",
+          "Droit d'un exploitant de réseau ; en général sans gêne pour le propriétaire [3]."
+        ],
+        [
+          "társasház",
+          "copropriété (immeuble divisé en lots)",
+          "Régie par la loi 2003. évi CXXXIII., l'alapító okirat et le SZMSZ [11]."
+        ],
+        [
+          "alapító okirat",
+          "acte constitutif de la copropriété",
+          "Définit les lots, les parties communes et les quotes-parts ; déposé au registre foncier."
+        ],
+        [
+          "SZMSZ",
+          "règlement d'organisation et de fonctionnement",
+          "Szervezeti és működési szabályzat ; les copropriétés de plus de six logements en ont un [10]."
+        ],
+        [
+          "tulajdoni hányad",
+          "quote-part (dans les parties communes)",
+          "Base de répartition des charges, sauf disposition contraire du règlement."
+        ],
+        [
+          "közös képviselő",
+          "syndic (représentant de la copropriété)",
+          "Élu par l'assemblée ; dans les immeubles de plus de six logements, inscription au registre avant le 31 octobre 2026 [9][10]."
+        ],
+        [
+          "intézőbizottság",
+          "conseil de gestion",
+          "Alternative au syndic ; son président est alors inscrit au registre [9]."
+        ],
+        [
+          "közgyűlés",
+          "assemblée générale des copropriétaires",
+          "Décide du budget, des charges et des travaux ; ses procès-verbaux sont à demander avant l'achat."
+        ],
+        [
+          "közös költség",
+          "charges de copropriété",
+          "Contribution mensuelle aux frais communs ; des arriérés peuvent être garantis par une hypothèque."
+        ],
+        [
+          "felújítási alap",
+          "fonds de travaux",
+          "Réserve de la copropriété pour financer les travaux sur l'immeuble."
+        ],
+        [
+          "lichthof",
+          "courette (puits de lumière)",
+          "Petite cour intérieure fermée ; partie commune."
+        ],
+        [
+          "gang",
+          "coursive ouverte sur cour",
+          "Typique des immeubles anciens à cour de Budapest ; donne accès aux appartements."
+        ],
+        [
+          "vagyonszerzési illeték",
+          "droits de mutation",
+          "4 % de la valeur vénale, fixés par la NAV ; déclaration sur le formulaire B400 [5]."
+        ],
+        [
+          "cserepótló vétel",
+          "achat de remplacement",
+          "Droits sur la seule différence de prix ; depuis le 1er janvier 2026, prise en compte d'une vente intervenue dans les 5 ans [6]."
+        ],
+        [
+          "adóazonosító jel",
+          "numéro d'identification fiscale (personne physique)",
+          "Délivré par la NAV ; une personne étrangère qui n'en a pas peut le demander [13]."
+        ],
+        [
+          "lakcímkártya",
+          "carte d'adresse",
+          "Pièce officielle attestant l'adresse déclarée ; se demande dans un kormányablak (guichet administratif)."
+        ],
+        [
+          "energetikai tanúsítvány",
+          "certificat de performance énergétique",
+          "Valable 10 ans ; 12 classes de AA++ à JJ ; obligatoire pour vendre ou louer [7]."
+        ],
+        [
+          "albérlet",
+          "location (appartement loué)",
+          "Terme courant pour toute location ; le terme juridique est lakásbérlet."
+        ],
+        [
+          "kaució",
+          "dépôt de garantie",
+          "Garantit les créances du bailleur ; montant fixé dans le bail."
+        ],
+        [
+          "rezsi",
+          "charges courantes (énergie, eau, chauffage)",
+          "Électricité, gaz, eau, chauffage ; parfois aussi les charges de copropriété."
+        ],
+        [
+          "gázkonvektor",
+          "convecteur mural à gaz",
+          "Appareil de chauffage individuel par pièce, à ventouse en façade."
+        ],
+        [
+          "cirkó",
+          "chaudière murale à gaz",
+          "Chauffe les radiateurs et souvent l'eau ; nécessite un conduit de fumée conforme."
+        ],
+        [
+          "távfűtés",
+          "chauffage urbain",
+          "Fréquent dans les immeubles en panneaux préfabriqués ; facturé par le réseau de chaleur."
+        ],
+        [
+          "felújítandó",
+          "à rénover",
+          "Annonce d'un bien nécessitant des travaux ; l'ampleur réelle est à vérifier sur place."
+        ],
+        [
+          "újépítésű",
+          "neuf",
+          "Logement neuf ; vérifier l'autorisation d'occupation (használatbavételi engedély)."
+        ],
+        [
+          "téglalakás",
+          "appartement dans un immeuble en briques",
+          "La plupart des immeubles anciens du centre de Budapest."
+        ],
+        [
+          "panellakás",
+          "appartement en panneaux préfabriqués",
+          "Grands ensembles construits surtout des années 1960 aux années 1980."
+        ],
+        [
+          "belmagasság",
+          "hauteur sous plafond",
+          "Élevée dans les immeubles anciens ; permet parfois une mezzanine."
+        ],
+        [
+          "galéria",
+          "mezzanine",
+          "Niveau intermédiaire construit dans un appartement haut de plafond ; vérifier sa régularité et s'il est compté dans la surface."
+        ],
+        [
+          "udvari / utcai",
+          "côté cour / côté rue",
+          "Côté cour souvent plus calme, côté rue souvent plus lumineux."
+        ],
+        [
+          "erkély",
+          "balcon",
+          "francia erkély = balcon à la française (garde-corps devant une porte-fenêtre)."
+        ],
+        [
+          "hasznos alapterület",
+          "surface utile",
+          "Surface intérieure utilisable, hors murs ; base habituelle du prix au m²."
+        ],
+        [
+          "statikai szakvélemény",
+          "avis d'ingénieur structure",
+          "Exigé pour les travaux touchant aux structures porteuses."
+        ],
+        [
+          "műemlék",
+          "monument classé",
+          "Les travaux, y compris intérieurs, exigent une autorisation patrimoniale."
+        ]
+      ],
+      "en": [
+        [
+          "tulajdoni lap",
+          "title deed extract (land register sheet)",
+          "Three parts: I the property, II the owners, III encumbrances and rights [1]."
+        ],
+        [
+          "helyrajzi szám (hrsz)",
+          "land registry lot number",
+          "Identifies the property in the register; in a condominium each flat has a sub-number (e.g. 12345/A/7)."
+        ],
+        [
+          "földhivatal",
+          "land registry office",
+          "Department of the government office (kormányhivatal) that keeps the property register."
+        ],
+        [
+          "ingatlan-nyilvántartás",
+          "property register",
+          "Public register of rights and facts relating to land and buildings [2]."
+        ],
+        [
+          "széljegy",
+          "note of a pending application",
+          "Application filed but not yet decided; it fixes the order of ranking [3]."
+        ],
+        [
+          "szemle / teljes másolat",
+          "current-entries copy / full copy",
+          "The full copy also shows deleted entries [1]."
+        ],
+        [
+          "törzslap / különlap",
+          "main sheet / separate sheet",
+          "In a condominium: one sheet for the building and one per flat [2]."
+        ],
+        [
+          "adásvételi szerződés",
+          "sale and purchase contract",
+          "In writing; for registration, a notarial deed or a private deed countersigned by a lawyer."
+        ],
+        [
+          "ellenjegyzés",
+          "countersignature (by a lawyer)",
+          "The lawyer countersigns the contract, which can then be used for registration."
+        ],
+        [
+          "ügyvédi letét",
+          "lawyer's escrow",
+          "The price is held by the lawyer until the agreed conditions are met."
+        ],
+        [
+          "foglaló",
+          "earnest money deposit",
+          "Often about 10%; lost if the buyer is at fault, repaid double if the seller is; must be named as such [4]."
+        ],
+        [
+          "előleg",
+          "advance payment",
+          "Refunded if the sale fails; any payment not named foglaló counts as előleg [4]."
+        ],
+        [
+          "tulajdonjog-fenntartás",
+          "retention of title",
+          "The seller remains owner until full payment; only this fact is noted in the register."
+        ],
+        [
+          "birtokbaadás",
+          "handover of possession",
+          "With a handover protocol and meter readings."
+        ],
+        [
+          "tehermentes",
+          "free of encumbrances",
+          "Part III is empty or holds only harmless rights such as a utility line right [3]."
+        ],
+        [
+          "jelzálogjog",
+          "mortgage",
+          "Registered in Part III at the original amount of the claim, not the current debt [3]."
+        ],
+        [
+          "elidegenítési és terhelési tilalom",
+          "ban on sale and encumbrance",
+          "Usually in favour of the lending bank; a sale needs its consent [3]."
+        ],
+        [
+          "végrehajtási jog",
+          "enforcement right",
+          "Registered for a creditor in enforcement proceedings [1]."
+        ],
+        [
+          "haszonélvezet",
+          "usufruct",
+          "Survives a sale; ends on the holder's death or by consent; deletion must be requested [8]."
+        ],
+        [
+          "elővásárlási jog",
+          "pre-emption right",
+          "Statutory (co-owners; the state for dwellings over 200 m² in World Heritage areas) or contractual [12]."
+        ],
+        [
+          "szolgalmi jog",
+          "easement",
+          "For example a right of way; registered in Part III [3]."
+        ],
+        [
+          "vezetékjog",
+          "utility line right",
+          "Right of a network operator; usually no burden for the owner [3]."
+        ],
+        [
+          "társasház",
+          "condominium (building with separately owned flats)",
+          "Governed by Act CXXXIII of 2003, the alapító okirat and the SZMSZ [11]."
+        ],
+        [
+          "alapító okirat",
+          "founding deed of the condominium",
+          "Defines the flats, the common parts and the shares; filed with the land registry."
+        ],
+        [
+          "SZMSZ",
+          "organisational and operating rules",
+          "Szervezeti és működési szabályzat; condominiums with more than six flats operate under one [10]."
+        ],
+        [
+          "tulajdoni hányad",
+          "ownership share (of the common property)",
+          "Basis for splitting common charges unless the rules provide otherwise."
+        ],
+        [
+          "közös képviselő",
+          "common representative (building manager)",
+          "Elected by the general meeting; in buildings with more than six flats, registration due by 31 October 2026 [9][10]."
+        ],
+        [
+          "intézőbizottság",
+          "management committee",
+          "Alternative to a common representative; its chair is then registered [9]."
+        ],
+        [
+          "közgyűlés",
+          "general meeting of owners",
+          "Decides on the budget, charges and works; ask for its minutes before buying."
+        ],
+        [
+          "közös költség",
+          "common charge (service charge)",
+          "Monthly contribution to shared costs; arrears can be secured by a mortgage on the flat."
+        ],
+        [
+          "felújítási alap",
+          "renovation (reserve) fund",
+          "The condominium's savings for works on the building."
+        ],
+        [
+          "lichthof",
+          "light well",
+          "Small enclosed inner shaft; part of the common property."
+        ],
+        [
+          "gang",
+          "open access balcony",
+          "Typical of old Budapest courtyard buildings; gives access to the flats."
+        ],
+        [
+          "vagyonszerzési illeték",
+          "property transfer duty",
+          "4% of market value, assessed by NAV; declared on form B400 [5]."
+        ],
+        [
+          "cserepótló vétel",
+          "replacement purchase relief",
+          "Duty only on the price difference; since 1 January 2026 a sale within the previous 5 years counts [6]."
+        ],
+        [
+          "adóazonosító jel",
+          "tax identification number (individuals)",
+          "Issued by NAV; a foreign individual without one can request it [13]."
+        ],
+        [
+          "lakcímkártya",
+          "address card",
+          "Official card certifying a registered address; requested at a kormányablak (government service point)."
+        ],
+        [
+          "energetikai tanúsítvány",
+          "energy performance certificate",
+          "Valid 10 years; 12 classes from AA++ to JJ; required for sale or rental [7]."
+        ],
+        [
+          "albérlet",
+          "rental (rented flat)",
+          "Everyday word for any rental; the legal term is lakásbérlet."
+        ],
+        [
+          "kaució",
+          "security deposit",
+          "Secures the landlord's claims; amount set in the lease."
+        ],
+        [
+          "rezsi",
+          "utilities and running costs",
+          "Electricity, gas, water, heating; sometimes the common charge as well."
+        ],
+        [
+          "gázkonvektor",
+          "gas convector heater",
+          "Individual room heater with a flue through the outside wall."
+        ],
+        [
+          "cirkó",
+          "wall-mounted gas boiler",
+          "Heats the radiators and often the water; needs a compliant flue."
+        ],
+        [
+          "távfűtés",
+          "district heating",
+          "Common in prefabricated panel blocks; billed by the heat network."
+        ],
+        [
+          "felújítandó",
+          "in need of renovation",
+          "Listing label for a property needing works; check the real extent on site."
+        ],
+        [
+          "újépítésű",
+          "new-build",
+          "Newly built home; check the occupancy permit (használatbavételi engedély)."
+        ],
+        [
+          "téglalakás",
+          "flat in a brick building",
+          "Most of the older building stock in central Budapest."
+        ],
+        [
+          "panellakás",
+          "flat in a prefabricated panel block",
+          "Housing estates built mainly from the 1960s to the 1980s."
+        ],
+        [
+          "belmagasság",
+          "ceiling height",
+          "High in old buildings; sometimes allows a mezzanine."
+        ],
+        [
+          "galéria",
+          "mezzanine (gallery level)",
+          "Intermediate level built in a high-ceilinged flat; check that it is lawful and whether it counts in the floor area."
+        ],
+        [
+          "udvari / utcai",
+          "courtyard-facing / street-facing",
+          "Courtyard side often quieter, street side often brighter."
+        ],
+        [
+          "erkély",
+          "balcony",
+          "francia erkély = Juliet balcony (railing in front of a French window)."
+        ],
+        [
+          "hasznos alapterület",
+          "usable floor area",
+          "Usable interior area excluding walls; the usual basis for price per m²."
+        ],
+        [
+          "statikai szakvélemény",
+          "structural engineer's report",
+          "Required for works affecting load-bearing structures."
+        ],
+        [
+          "műemlék",
+          "listed monument",
+          "Works, including interior ones, need a heritage permit."
+        ]
+      ],
+      "de": [
+        [
+          "tulajdoni lap",
+          "Grundbuchauszug",
+          "Drei Teile: I Immobilie, II Eigentümer, III Lasten und Rechte [1]."
+        ],
+        [
+          "helyrajzi szám (hrsz)",
+          "Flurstücksnummer",
+          "Identifiziert die Immobilie im Register; in einer Gemeinschaft hat jede Wohnung eine Unternummer (z. B. 12345/A/7)."
+        ],
+        [
+          "földhivatal",
+          "Grundbuchamt",
+          "Abteilung des Regierungsamts (kormányhivatal), die das Immobilienregister führt."
+        ],
+        [
+          "ingatlan-nyilvántartás",
+          "Immobilienregister (Grundbuch)",
+          "Öffentliches Register der Rechte und Tatsachen zu Grundstücken und Gebäuden [2]."
+        ],
+        [
+          "széljegy",
+          "Vermerk eines anhängigen Antrags",
+          "Eingereichter, noch nicht entschiedener Antrag; sichert den Rang [3]."
+        ],
+        [
+          "szemle / teljes másolat",
+          "Auszug der gültigen Eintragungen / Vollauszug",
+          "Der Vollauszug zeigt auch gelöschte Eintragungen [1]."
+        ],
+        [
+          "törzslap / különlap",
+          "Hauptblatt / Einzelblatt",
+          "Bei einer Eigentümergemeinschaft: ein Blatt für das Gebäude und eines je Wohnung [2]."
+        ],
+        [
+          "adásvételi szerződés",
+          "Kaufvertrag",
+          "Schriftlich; für die Eintragung notarielle Urkunde oder anwaltlich gegengezeichnete Privaturkunde."
+        ],
+        [
+          "ellenjegyzés",
+          "Gegenzeichnung (durch einen Anwalt)",
+          "Der Anwalt zeichnet den Vertrag gegen, der dann zur Eintragung dienen kann."
+        ],
+        [
+          "ügyvédi letét",
+          "Anwaltsanderkonto (Treuhand)",
+          "Der Kaufpreis wird vom Anwalt verwahrt, bis die vereinbarten Bedingungen erfüllt sind."
+        ],
+        [
+          "foglaló",
+          "Draufgabe (Angeld)",
+          "Oft etwa 10 %; verfällt bei Verschulden des Käufers, doppelt zurück bei Verschulden des Verkäufers; ausdrücklich zu benennen [4]."
+        ],
+        [
+          "előleg",
+          "Anzahlung",
+          "Wird bei Scheitern des Kaufs erstattet; jede nicht als foglaló bezeichnete Zahlung gilt als előleg [4]."
+        ],
+        [
+          "tulajdonjog-fenntartás",
+          "Eigentumsvorbehalt",
+          "Der Verkäufer bleibt bis zur vollständigen Zahlung Eigentümer; im Register wird nur dies vermerkt."
+        ],
+        [
+          "birtokbaadás",
+          "Übergabe des Besitzes",
+          "Mit Übergabeprotokoll und Zählerständen."
+        ],
+        [
+          "tehermentes",
+          "lastenfrei",
+          "Teil III ist leer oder enthält nur unbedenkliche Rechte wie ein Leitungsrecht [3]."
+        ],
+        [
+          "jelzálogjog",
+          "Hypothek (Grundpfandrecht)",
+          "In Teil III mit dem ursprünglichen Forderungsbetrag eingetragen, nicht mit der aktuellen Schuld [3]."
+        ],
+        [
+          "elidegenítési és terhelési tilalom",
+          "Veräußerungs- und Belastungsverbot",
+          "Meist zugunsten der kreditgebenden Bank; ein Verkauf braucht ihre Zustimmung [3]."
+        ],
+        [
+          "végrehajtási jog",
+          "Vollstreckungsrecht",
+          "Zugunsten eines Gläubigers im Vollstreckungsverfahren eingetragen [1]."
+        ],
+        [
+          "haszonélvezet",
+          "Nießbrauch",
+          "Bleibt beim Verkauf bestehen; endet mit dem Tod oder durch Verzicht; Löschung ist zu beantragen [8]."
+        ],
+        [
+          "elővásárlási jog",
+          "Vorkaufsrecht",
+          "Gesetzlich (Miteigentümer; der Staat bei Wohnungen über 200 m² im Welterbegebiet) oder vertraglich [12]."
+        ],
+        [
+          "szolgalmi jog",
+          "Dienstbarkeit",
+          "Zum Beispiel ein Wegerecht; in Teil III eingetragen [3]."
+        ],
+        [
+          "vezetékjog",
+          "Leitungsrecht",
+          "Recht eines Netzbetreibers; für den Eigentümer meist ohne Nachteil [3]."
+        ],
+        [
+          "társasház",
+          "Wohnungseigentümergemeinschaft",
+          "Geregelt durch Gesetz CXXXIII/2003, die alapító okirat und die SZMSZ [11]."
+        ],
+        [
+          "alapító okirat",
+          "Gründungsurkunde (Teilungserklärung)",
+          "Legt Wohnungen, Gemeinschaftseigentum und Anteile fest; beim Grundbuchamt hinterlegt."
+        ],
+        [
+          "SZMSZ",
+          "Organisations- und Betriebsordnung",
+          "Szervezeti és működési szabályzat; Gemeinschaften mit mehr als sechs Wohnungen haben eine [10]."
+        ],
+        [
+          "tulajdoni hányad",
+          "Miteigentumsanteil",
+          "Grundlage für die Verteilung des Hausgelds, sofern die Ordnung nichts anderes bestimmt."
+        ],
+        [
+          "közös képviselő",
+          "Verwalter",
+          "Von der Versammlung gewählt; in Häusern mit mehr als sechs Wohnungen bis 31. Oktober 2026 im Grundbuch einzutragen [9][10]."
+        ],
+        [
+          "intézőbizottság",
+          "Verwaltungsausschuss",
+          "Alternative zum Verwalter; dann wird der Vorsitzende eingetragen [9]."
+        ],
+        [
+          "közgyűlés",
+          "Eigentümerversammlung",
+          "Beschließt Haushalt, Hausgeld und Arbeiten; Protokolle vor dem Kauf anfordern."
+        ],
+        [
+          "közös költség",
+          "Hausgeld",
+          "Monatlicher Beitrag zu den gemeinsamen Kosten; Rückstände können durch eine Hypothek gesichert werden."
+        ],
+        [
+          "felújítási alap",
+          "Instandhaltungsrücklage",
+          "Rücklage der Gemeinschaft für Arbeiten am Gebäude."
+        ],
+        [
+          "lichthof",
+          "Lichtschacht",
+          "Kleiner geschlossener Innenhof; Gemeinschaftseigentum."
+        ],
+        [
+          "gang",
+          "offener Laubengang",
+          "Typisch für Budapester Altbauten mit Innenhof; erschließt die Wohnungen."
+        ],
+        [
+          "vagyonszerzési illeték",
+          "Grunderwerbsgebühr",
+          "4 % des Verkehrswerts, festgesetzt von der NAV; Erklärung auf Formular B400 [5]."
+        ],
+        [
+          "cserepótló vétel",
+          "Ersatzerwerb",
+          "Gebühr nur auf die Preisdifferenz; seit 1. Januar 2026 zählt ein Verkauf innerhalb der letzten 5 Jahre [6]."
+        ],
+        [
+          "adóazonosító jel",
+          "Steueridentifikationsnummer (natürliche Personen)",
+          "Von der NAV vergeben; ausländische Personen ohne Nummer können sie beantragen [13]."
+        ],
+        [
+          "lakcímkártya",
+          "Adresskarte",
+          "Amtlicher Nachweis der gemeldeten Adresse; erhältlich in einem kormányablak (Behördenschalter)."
+        ],
+        [
+          "energetikai tanúsítvány",
+          "Energieausweis",
+          "10 Jahre gültig; 12 Klassen von AA++ bis JJ; Pflicht bei Verkauf oder Vermietung [7]."
+        ],
+        [
+          "albérlet",
+          "Mietwohnung (Miete)",
+          "Umgangssprachlich für jede Miete; der Rechtsbegriff ist lakásbérlet."
+        ],
+        [
+          "kaució",
+          "Mietkaution",
+          "Sichert Forderungen des Vermieters; Höhe im Mietvertrag festgelegt."
+        ],
+        [
+          "rezsi",
+          "Nebenkosten",
+          "Strom, Gas, Wasser, Heizung; manchmal auch das Hausgeld."
+        ],
+        [
+          "gázkonvektor",
+          "Gaskonvektor",
+          "Einzelraumheizgerät mit Abgasführung durch die Außenwand."
+        ],
+        [
+          "cirkó",
+          "Gas-Wandtherme",
+          "Beheizt Heizkörper und oft das Warmwasser; braucht eine ordnungsgemäße Abgasleitung."
+        ],
+        [
+          "távfűtés",
+          "Fernwärme",
+          "Häufig in Plattenbauten; Abrechnung durch den Fernwärmeversorger."
+        ],
+        [
+          "felújítandó",
+          "renovierungsbedürftig",
+          "Inseratsangabe für eine sanierungsbedürftige Immobilie; Umfang vor Ort prüfen."
+        ],
+        [
+          "újépítésű",
+          "Neubau",
+          "Neu gebaute Wohnung; Nutzungserlaubnis (használatbavételi engedély) prüfen."
+        ],
+        [
+          "téglalakás",
+          "Wohnung in einem Ziegelbau",
+          "Der Großteil des älteren Bestands in der Budapester Innenstadt."
+        ],
+        [
+          "panellakás",
+          "Plattenbauwohnung",
+          "Großsiedlungen, vor allem aus den 1960er- bis 1980er-Jahren."
+        ],
+        [
+          "belmagasság",
+          "Raumhöhe",
+          "In Altbauten hoch; erlaubt manchmal eine Hochebene."
+        ],
+        [
+          "galéria",
+          "Hochebene (Galerie)",
+          "Zwischenebene in einer Wohnung mit hohen Decken; Rechtmäßigkeit und Anrechnung auf die Fläche prüfen."
+        ],
+        [
+          "udvari / utcai",
+          "hofseitig / straßenseitig",
+          "Hofseite oft ruhiger, Straßenseite oft heller."
+        ],
+        [
+          "erkély",
+          "Balkon",
+          "francia erkély = französischer Balkon (Geländer vor einer Fenstertür)."
+        ],
+        [
+          "hasznos alapterület",
+          "Nutzfläche",
+          "Nutzbare Innenfläche ohne Wände; übliche Grundlage für den m²-Preis."
+        ],
+        [
+          "statikai szakvélemény",
+          "Statikgutachten",
+          "Erforderlich bei Arbeiten an tragenden Bauteilen."
+        ],
+        [
+          "műemlék",
+          "Baudenkmal",
+          "Arbeiten, auch im Inneren, brauchen eine Denkmalgenehmigung."
+        ]
+      ],
+      "hu": [
+        [
+          "tulajdoni lap",
+          "az ingatlan-nyilvántartás kivonata",
+          "Három rész: I. az ingatlan, II. a tulajdonosok, III. a terhek és jogok [1]."
+        ],
+        [
+          "helyrajzi szám (hrsz)",
+          "az ingatlan nyilvántartási azonosítója",
+          "Társasházban minden lakás albetétszámot kap (pl. 12345/A/7)."
+        ],
+        [
+          "földhivatal",
+          "az ingatlan-nyilvántartást vezető hatóság",
+          "A kormányhivatalok földhivatali főosztályai, illetve osztályai."
+        ],
+        [
+          "ingatlan-nyilvántartás",
+          "az ingatlanok egységes közhiteles nyilvántartása",
+          "Az ingatlanokhoz kapcsolódó jogokat és tényeket rögzíti [2]."
+        ],
+        [
+          "széljegy",
+          "folyamatban lévő beadvány jelzése",
+          "Még nem bejegyzés, de a ranghelyet rögzíti [3]."
+        ],
+        [
+          "szemle / teljes másolat",
+          "hatályos bejegyzések / teljes tartalom",
+          "A teljes másolat a törölt bejegyzéseket is tartalmazza [1]."
+        ],
+        [
+          "törzslap / különlap",
+          "a társasház közös lapja / a lakások saját lapja",
+          "Társasháznál az épületnek törzslapja, a lakásoknak különlapja van [2]."
+        ],
+        [
+          "adásvételi szerződés",
+          "ingatlan-adásvételi szerződés",
+          "Írásban; a bejegyzéshez közokirat vagy ügyvéd által ellenjegyzett magánokirat kell."
+        ],
+        [
+          "ellenjegyzés",
+          "ügyvédi ellenjegyzés",
+          "Az ügyvéd ellenjegyzi a magánokiratot, így az alkalmas a földhivatali bejegyzésre."
+        ],
+        [
+          "ügyvédi letét",
+          "ügyvédnél elhelyezett összeg",
+          "A vételárat az ügyvéd őrzi a feltételek teljesüléséig."
+        ],
+        [
+          "foglaló",
+          "szerződést biztosító mellékkötelezettség",
+          "Jellemzően kb. 10%; a vevő hibájából elvész, az eladó hibájából kétszeresen jár vissza; nevesíteni kell [4]."
+        ],
+        [
+          "előleg",
+          "a vételár előre fizetett része",
+          "Meghiúsulás esetén visszajár; ami nincs foglalóként nevesítve, előlegnek számít [4]."
+        ],
+        [
+          "tulajdonjog-fenntartás",
+          "tulajdonjog fenntartásával történő eladás",
+          "A teljes vételár megfizetéséig az eladó marad a tulajdonos; ezt a tényt jegyzik fel."
+        ],
+        [
+          "birtokbaadás",
+          "az ingatlan átadása",
+          "Jegyzőkönyvvel és a mérőórák állásának rögzítésével."
+        ],
+        [
+          "tehermentes",
+          "terhektől mentes",
+          "A III. rész üres, vagy csak például vezetékjogot tartalmaz [3]."
+        ],
+        [
+          "jelzálogjog",
+          "zálogjog ingatlanon",
+          "A III. részben az eredeti követeléssel szerepel, nem a mai tartozással [3]."
+        ],
+        [
+          "elidegenítési és terhelési tilalom",
+          "a jelzálogjogot biztosító tilalom",
+          "Jellemzően a hitelező bank javára; eladáshoz a hozzájárulása kell [3]."
+        ],
+        [
+          "végrehajtási jog",
+          "végrehajtási eljárásban bejegyzett jog",
+          "A hitelező javára jegyzik be a III. részbe [1]."
+        ],
+        [
+          "haszonélvezet",
+          "haszonélvezeti jog",
+          "Az eladással nem szűnik meg; a jogosult halálával vagy lemondással ér véget; törölni kell [8]."
+        ],
+        [
+          "elővásárlási jog",
+          "elsőbbségi vételi jog",
+          "Törvényen (tulajdonostársak; az állam a világörökségi területen lévő 200 m² feletti lakásokra) vagy szerződésen alapul [12]."
+        ],
+        [
+          "szolgalmi jog",
+          "szolgalom",
+          "Például átjárási jog; a III. részben szerepel [3]."
+        ],
+        [
+          "vezetékjog",
+          "közműhálózat elhelyezésére szolgáló jog",
+          "Általában nem sérti a tulajdonos érdekeit [3]."
+        ],
+        [
+          "társasház",
+          "külön tulajdonú lakásokból álló épület",
+          "A 2003. évi CXXXIII. törvény, az alapító okirat és az SZMSZ szabályozza [11]."
+        ],
+        [
+          "alapító okirat",
+          "a társasház létrehozó okirata",
+          "Rögzíti a lakásokat, a közös tulajdont és a tulajdoni hányadokat."
+        ],
+        [
+          "SZMSZ",
+          "szervezeti és működési szabályzat",
+          "A hat lakásnál nagyobb társasházak ez alapján működnek [10]."
+        ],
+        [
+          "tulajdoni hányad",
+          "a közös tulajdonból való részesedés",
+          "Eltérő szabály hiányában ez alapján oszlik meg a közös költség."
+        ],
+        [
+          "közös képviselő",
+          "a társasház ügyintéző képviselője",
+          "A közgyűlés választja; hat lakás felett 2026. október 31-ig be kell jegyeztetni [9][10]."
+        ],
+        [
+          "intézőbizottság",
+          "a közös képviselő helyett működő testület",
+          "Ilyenkor az elnökét kell bejegyeztetni [9]."
+        ],
+        [
+          "közgyűlés",
+          "a tulajdonostársak gyűlése",
+          "Dönt a költségvetésről, a közös költségről és a munkákról; vásárlás előtt kérje el a jegyzőkönyveket."
+        ],
+        [
+          "közös költség",
+          "a közös kiadásokra fizetett havi hozzájárulás",
+          "A hátralék jelzálogjoggal biztosítható."
+        ],
+        [
+          "felújítási alap",
+          "a társasház felújításokra gyűjtött tartaléka",
+          "Egyenlegét érdemes vásárlás előtt megkérdezni."
+        ],
+        [
+          "lichthof",
+          "szellőző- és fényakna",
+          "Kis, zárt belső udvar; közös tulajdon."
+        ],
+        [
+          "gang",
+          "függőfolyosó",
+          "A régi budapesti udvaros házak jellegzetessége; erről nyílnak a lakások."
+        ],
+        [
+          "vagyonszerzési illeték",
+          "visszterhes vagyonátruházási illeték",
+          "A forgalmi érték 4%-a, a NAV szabja ki; bejelentés a B400-as nyomtatványon [5]."
+        ],
+        [
+          "cserepótló vétel",
+          "lakáscsere utáni kedvezmény",
+          "Csak az értékkülönbözet után kell illetéket fizetni; 2026. január 1-től 5 évre visszamenő eladás számít [6]."
+        ],
+        [
+          "adóazonosító jel",
+          "magánszemélyek adóazonosítója",
+          "A NAV adja ki; külföldi magánszemély is igényelheti [13]."
+        ],
+        [
+          "lakcímkártya",
+          "lakcímet igazoló hatósági igazolvány",
+          "Kormányablakban intézhető."
+        ],
+        [
+          "energetikai tanúsítvány",
+          "épületenergetikai tanúsítvány",
+          "10 évig érvényes; 12 kategória AA++-tól JJ-ig; eladáshoz és bérbeadáshoz kötelező [7]."
+        ],
+        [
+          "albérlet",
+          "bérelt lakás (köznyelvi)",
+          "A köznyelvben minden bérletre használják; jogi fogalma a lakásbérlet."
+        ],
+        [
+          "kaució",
+          "óvadék",
+          "A bérbeadó követeléseit biztosítja; összegét a bérleti szerződés rögzíti."
+        ],
+        [
+          "rezsi",
+          "lakásfenntartási költségek",
+          "Villany, gáz, víz, fűtés; néha a közös költség is."
+        ],
+        [
+          "gázkonvektor",
+          "helyiségenkénti gázüzemű fűtőkészülék",
+          "Általában homlokzati vagy fali kivezetéssel."
+        ],
+        [
+          "cirkó",
+          "fali gázkazán (cirkófűtés)",
+          "Radiátorokat és gyakran a melegvizet is fűti; szabályos égéstermék-elvezetés kell."
+        ],
+        [
+          "távfűtés",
+          "távhőszolgáltatás",
+          "Főként panelházakban gyakori."
+        ],
+        [
+          "felújítandó",
+          "felújításra szoruló",
+          "Hirdetési kategória; a szükséges munka mértékét helyszínen kell felmérni."
+        ],
+        [
+          "újépítésű",
+          "új építésű lakás",
+          "Ellenőrizni kell a használatbavételi engedélyt vagy hatósági bizonyítványt."
+        ],
+        [
+          "téglalakás",
+          "tégla falazatú épületben lévő lakás",
+          "A belső kerületek régi épületeinek többsége ilyen."
+        ],
+        [
+          "panellakás",
+          "házgyári elemekből épült lakás",
+          "Főként az 1960-as és 1980-as évek között épült lakótelepeken."
+        ],
+        [
+          "belmagasság",
+          "a helyiség padlótól mennyezetig mért magassága",
+          "Régi épületekben magas, néha galéria is beépíthető."
+        ],
+        [
+          "galéria",
+          "beépített félemelet",
+          "Ellenőrizni kell a szabályosságát, és hogy beszámít-e az alapterületbe."
+        ],
+        [
+          "udvari / utcai",
+          "udvarra / utcára néző",
+          "Az udvari jellemzően csendesebb, az utcai gyakran világosabb."
+        ],
+        [
+          "erkély",
+          "épületből kiugró nyitott térrész",
+          "A francia erkély csak korlát az erkélyajtó előtt."
+        ],
+        [
+          "hasznos alapterület",
+          "a falakon belüli használható terület",
+          "A négyzetméterár szokásos alapja."
+        ],
+        [
+          "statikai szakvélemény",
+          "statikus tervező szakvéleménye",
+          "Teherhordó szerkezetet érintő munkákhoz szükséges."
+        ],
+        [
+          "műemlék",
+          "műemléki védelem alatt álló épület",
+          "A munkákhoz, a belsőket is beleértve, örökségvédelmi engedély kell."
+        ]
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": {
+        "fr": "Albérlet signifie-t-il sous-location ?",
+        "en": "Does albérlet mean sublet?",
+        "de": "Bedeutet albérlet Untermiete?",
+        "hu": "Az albérlet albérletet jelent jogi értelemben?"
+      },
+      "a": {
+        "fr": "À l'origine, oui ; dans l'usage courant, le mot désigne aujourd'hui n'importe quelle location. Le terme juridique d'un bail d'habitation est lakásbérlet.",
+        "en": "Originally yes; in everyday use the word now covers any rental. The legal term for a residential lease is lakásbérlet.",
+        "de": "Ursprünglich ja; im Alltag bezeichnet das Wort heute jede Miete. Der Rechtsbegriff für die Wohnungsmiete ist lakásbérlet.",
+        "hu": "Eredetileg igen, ma azonban a köznyelv bármilyen bérletre használja. A lakásbérlet a jogi fogalom."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « tehermentes » dans une annonce ?",
+        "en": "What does tehermentes mean in a listing?",
+        "de": "Was bedeutet tehermentes in einem Inserat?",
+        "hu": "Mit jelent a tehermentes megjelölés egy hirdetésben?"
+      },
+      "a": {
+        "fr": "Que la partie III du tulajdoni lap ne contient pas de charge gênante. Vérifiez-le sur un extrait récent : certaines inscriptions, comme une servitude de réseau, restent sans effet pratique [3].",
+        "en": "That Part III of the tulajdoni lap holds no burdensome entry. Check it on a recent extract: some entries, such as a utility line right, have no practical effect [3].",
+        "de": "Dass Teil III des tulajdoni lap keine belastende Eintragung enthält. Prüfen Sie dies an einem aktuellen Auszug: Manche Eintragungen, etwa ein Leitungsrecht, sind praktisch folgenlos [3].",
+        "hu": "Azt, hogy a tulajdoni lap III. részében nincs hátrányos bejegyzés. Friss lapon ellenőrizze: egyes bejegyzések, például a vezetékjog, gyakorlatilag nem okoznak gondot [3]."
+      }
+    },
+    {
+      "q": {
+        "fr": "Le foglaló est-il obligatoire ?",
+        "en": "Is a foglaló mandatory?",
+        "de": "Ist eine foglaló Pflicht?",
+        "hu": "Kötelező foglalót adni?"
+      },
+      "a": {
+        "fr": "Non. C'est une option contractuelle. S'il n'est pas expressément prévu, les sommes versées avant le solde sont des acomptes (előleg), remboursables en cas d'échec [4].",
+        "en": "No. It is a contractual option. If it is not expressly agreed, sums paid before completion are advances (előleg), refundable if the sale fails [4].",
+        "de": "Nein. Sie ist eine vertragliche Option. Ist sie nicht ausdrücklich vereinbart, gelten Zahlungen vor dem Restkaufpreis als Anzahlungen (előleg), die bei Scheitern erstattet werden [4].",
+        "hu": "Nem, a felek döntésén múlik. Ha a szerződés nem nevezi meg kifejezetten, a korábbi befizetések előlegnek minősülnek, és meghiúsuláskor visszajárnak [4]."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bank360 – Tulajdoni lap lekérése: típusok, díjak, a lap szerkezete",
+      "url": "https://bank360.hu/tulajdoni-lap-lekerese",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Money.hu Tudástár – Tulajdoni lap (fogalom): törzslap és különlap",
+      "url": "https://tudastar.money.hu/fogalom/tulajdoni-lap/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Bankmonitor – A tulajdoni lap rejtelmei",
+      "url": "https://bankmonitor.hu/mediatar/cikk/a-tulajdoni-lap-rejtelmei/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Bankmonitor – Minden, amit a lakásvásárlás foglalójáról tudni érdemes",
+      "url": "https://bankmonitor.hu/cikk/minden-amit-a-lakasvasarlas-foglalojarol-tudni-erdemes",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Bank360 – Vagyonszerzési illeték (frissítve 2026.01.05.)",
+      "url": "https://bank360.hu/vagyonszerzesi-illetek",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Biztosdöntés – Nagyobb mozgástér a lakásvásárlóknak: így módosult az illetéktörvény (2026)",
+      "url": "https://biztosdontes.hu/cikkek/nagyobb-mozgaster-a-lakasvasarloknak-igy-modosult-az-illetektorveny",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Bank360 – Energetikai tanúsítvány lekérdezése (frissítve 2025.11.04.)",
+      "url": "https://bank360.hu/energetikai-tanusitvany-lekerdezese",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Privátbankár – Mit jelent és hogy működik a haszonélvezeti jog?",
+      "url": "https://privatbankar.hu/cikkek/ingatlan/mit-jelent-es-hogy-mukodik-a-haszonelvezeti-jog-288481.html",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Economx – Kötelező földhivatali nyilvántartásba vétel a közös képviselőknek (2025.03.06.)",
+      "url": "https://www.economx.hu/belfold/2025/03/06/tarsashaz-lakas-kozos-kepviselok-kotelezo-nyilvantartas-foldhivatal-805496/",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Pénzcentrum – Társasházak: a közös képviselő bejegyzésének határideje 2026. október 31. (2026.04.23.)",
+      "url": "https://www.penzcentrum.hu/otthon/20260423/tobb-mint-egymillio-lakastulajdonos-kerulhet-bajba-egyetlen-mulasztas-miatt-is-elerhetetlenne-valhat-a-bankszamlajuk-1197512",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Privátbankár – Vaskos bírság a lakásfelújítás miatt: társasházi szabályok",
+      "url": "https://privatbankar.hu/ingatlan/vaskos-birsag-a-lakasfelujitas-miatt-meg-lehet-uszni-valahogy-312361",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "Telex – Az állam elővásárlási jogot szerzett a világörökségi területek 200 m² feletti lakásaira (2021.10.05.)",
+      "url": "https://telex.hu/gazdasag/2021/10/05/meglepo-ertesitest-kapott-sok-magyar-meretes-lakasaikra-az-allam-elovasarlasi-jogot-szerzett",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "NAV – Adóazonosító jel és adókártya igénylése",
+      "url": "https://nav.gov.hu/Elethelyzetek-adozasa/kezdetek/Adoazonosito-jel-es-adokartya",
+      "seen": "2026-10-26"
+    }
+  ],
+  "legalNotice": true
+}
