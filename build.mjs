@@ -91,7 +91,7 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
     `\n<link rel="alternate" hreflang="x-default" href="${abs("fr", route)}">`;
   const langLinks = LANGS.map((x) =>
     `<a href="${rel(l, route, x, route)}" hreflang="${x}" lang="${x}" title="${LANG_NAME[x]}"${x === l ? ' aria-current="true" class="on"' : ""}>${LANG_LABEL[x]}</a>`).join("");
-  // Default share image = the homepage photo (Parliament through the Fishermen's Bastion, Unsplash licence), 1200×630 for link previews
+  // Default share image = the homepage photo (St Stephen's Basilica, B&W, Unsplash licence), 1200×630 for link previews
   const ogImg = image ? `https://${SITE.domain}/img/${image}.jpg` : SHARE_IMG;
   // One JSON-LD graph per page: publisher + website on every page, breadcrumb on inner pages, page entities
   const trail = route ? [[t.navHome[l], ""], ...crumbs] : [];
