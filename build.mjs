@@ -114,6 +114,7 @@ ${alt}`;
 <html lang="${l}">
 <head>
 <meta charset="utf-8">
+<meta name="msvalidate.01" content="0BD99446D69509A07A6743A18EE2944B">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
