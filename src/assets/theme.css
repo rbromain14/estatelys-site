@@ -172,3 +172,21 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 @media (max-width:860px){.about{grid-template-columns:1.1fr .9fr;gap:28px}}
 @media (max-width:600px){.about{grid-template-columns:1fr}.about>picture,.about>img,.about .about-img{grid-column:1;grid-row:2}.about>div{grid-column:1;grid-row:1}}
 .sv{display:block;width:100%;height:clamp(320px,50vw,520px);border:1px solid var(--tx)}
+/* rentals page */
+.rents{display:grid;gap:clamp(32px,5vw,56px)}
+.rent{display:grid;grid-template-columns:.9fr 1.1fr;border:1px solid var(--tx)}
+.rent-m img{width:100%;height:100%;object-fit:cover;display:block;min-height:280px}
+.rent-b{padding:clamp(20px,3vw,36px);display:flex;flex-direction:column;gap:12px}
+.rent-b h2{margin:0;font-size:clamp(1.6rem,2.6vw,2.2rem)}
+.rent-b p{margin:0}
+.rent-p{font:700 clamp(1.8rem,3vw,2.4rem) var(--disp)}
+.rent-p span{font:500 .95rem var(--sans);color:var(--mu)}
+.rent-t{margin:6px 0}
+.rent-t table{min-width:0}
+.rent-t td,.rent-t th{white-space:nowrap}
+.rent-sum th,.rent-sum td{background:var(--bg2)}
+.rent-a{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:8px}
+@media (max-width:860px){.rent{grid-template-columns:1fr}.rent-m img{min-height:220px;max-height:320px}}
+.rent-m{position:relative;min-height:300px;overflow:hidden}
+.rent-m picture,.rent-m img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;min-height:0}
+@media (max-width:860px){.rent-m{min-height:240px}}

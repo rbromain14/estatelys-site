@@ -105,6 +105,7 @@ export const LANG_NAME = { fr: "Français", en: "English", de: "Deutsch", hu: "M
 export const t = {
   navHome: { fr: "Accueil", en: "Home", de: "Start", hu: "Kezdőlap" },
   navProjects: { fr: "Biens en vente", en: "For sale", de: "Zum Verkauf", hu: "Eladó ingatlanok" },
+  navRentals: { fr: "Location", en: "For rent", de: "Zur Miete", hu: "Kiadó" },
   navAbout: { fr: "À propos", en: "About", de: "Über uns", hu: "Rólunk" },
   navContact: { fr: "Contact", en: "Contact", de: "Kontakt", hu: "Kapcsolat" },
   contactUs: { fr: "Nous contacter", en: "Contact us", de: "Kontakt aufnehmen", hu: "Kapcsolatfelvétel" },
@@ -699,5 +700,36 @@ export const team = {
       text: { fr: "Sécurise les achats et les ventes : vérifications, contrats et inscription au registre foncier.", en: "Secures purchases and sales: checks, contracts and land registry filing.", de: "Sichert Käufe und Verkäufe ab: Prüfungen, Verträge und Grundbucheintragung.", hu: "Biztosítja az adásvételeket: ellenőrzések, szerződések és földhivatali bejegyzés." } },
     { key: "sales", name: "Csaba Z.", partner: true, title: { fr: "Agent immobilier, ventes & clientèle", en: "Estate agent, sales & clients", de: "Immobilienmakler, Verkauf & Kunden", hu: "Ingatlanközvetítő, értékesítés és ügyfelek" },
       text: { fr: "Accompagne les acheteurs : visites, offres et suivi jusqu'à la remise des clés.", en: "Guides buyers through viewings, offers and follow-up until the keys are handed over.", de: "Begleitet Käufer bei Besichtigungen, Angeboten und bis zur Schlüsselübergabe.", hu: "Végigkíséri a vevőket a megtekintéstől az ajánlaton át a kulcsátadásig." } },
+  ],
+};
+
+// Rentals (Romain, 3 Nov 2026). Paulay: whole apartment for rent. Rákóczi: rented room by room (figures from IIB's rent ledger).
+export const rentals = {
+  title: { fr: "Location à Budapest", en: "Rentals in Budapest", de: "Mietwohnungen in Budapest", hu: "Kiadó lakások Budapesten" },
+  intro: {
+    fr: "Nos appartements rénovés sont aussi proposés à la location : un grand appartement familial et une colocation de quatre chambres.",
+    en: "Our renovated apartments are also available to rent: a large family apartment and a four-bedroom flat share.",
+    de: "Unsere renovierten Wohnungen sind auch zur Miete verfügbar: eine große Familienwohnung und eine WG mit vier Zimmern.",
+    hu: "Felújított lakásaink bérelhetők is: egy nagy családi lakás és egy négyszobás közös bérlemény.",
+  },
+  monthly: { fr: "/ mois", en: "/ month", de: "/ Monat", hu: "/ hó" },
+  exVat: { fr: "HT", en: "excl. VAT", de: "zzgl. MwSt.", hu: "+ ÁFA" },
+  whole: { fr: "Appartement entier", en: "Whole apartment", de: "Ganze Wohnung", hu: "Teljes lakás" },
+  rooms: { fr: "Colocation, location par chambre", en: "Flat share, let by the room", de: "WG, zimmerweise vermietet", hu: "Közös bérlemény, szobánként kiadva" },
+  room: { fr: "Chambre", en: "Room", de: "Zimmer", hu: "Szoba" },
+  rent: { fr: "Loyer", en: "Rent", de: "Miete", hu: "Bérleti díj" },
+  charges: { fr: "Charges", en: "Charges", de: "Nebenkosten", hu: "Rezsi" },
+  total: { fr: "Total / mois", en: "Total / month", de: "Gesamt / Monat", hu: "Összesen / hó" },
+  sum: { fr: "Total appartement", en: "Whole apartment", de: "Gesamte Wohnung", hu: "Teljes lakás" },
+  ask: { fr: "Demander une visite", en: "Request a viewing", de: "Besichtigung anfragen", hu: "Megtekintést kérek" },
+  details: { fr: "Voir le bien", en: "See the property", de: "Objekt ansehen", hu: "Az ingatlan adatai" },
+  items: [
+    { slug: "paulay-ede-18", kind: "whole", rent: 3000, exVat: true },
+    { slug: "rakoczi-40", kind: "rooms", rooms: [
+      { name: "Antalya", pos: { fr: "haut gauche", en: "upper left", de: "oben links", hu: "fent balra" }, rent: 324, charges: 66 },
+      { name: "Big Room", pos: null, rent: 354, charges: 66 },
+      { name: "Turky", pos: { fr: "bas gauche", en: "lower left", de: "unten links", hu: "lent balra" }, rent: 344, charges: 66 },
+      { name: "Istanbul", pos: { fr: "haut droite", en: "upper right", de: "oben rechts", hu: "fent jobbra" }, rent: 334, charges: 66 },
+    ] },
   ],
 };

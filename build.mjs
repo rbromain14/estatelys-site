@@ -4,7 +4,7 @@
 import { readdirSync } from "node:fs";
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals } from "./src/data.mjs";
 const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
 const RES_ITEMS = resources.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g })));
 const TOOL_PAGES = new Set(["sim"]);
@@ -81,6 +81,7 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
   const nav = [
     ["", t.navHome[l]],
     ["projects/", t.navProjects[l]],
+    ["rentals/", t.navRentals[l]],
     ...(REFS.length ? [["references/", t.navRefs[l]]] : []),
     ["resources/", t.navResources[l]],
     ["about/", t.navAbout[l]],
@@ -335,6 +336,34 @@ function projectsPage(l) {
     itemListElement: FOR_SALE.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: abs(l, `projects/${p.slug}/`), name: p.name })) };
   return layout({ l, route, title: seo.projTitle[l].replace("{n}", FOR_SALE.length), desc: t.projIntro[l], body, extraHead: leafletHead,
     crumbs: [[t.navProjects[l], route]], ld: [list] });
+}
+
+function rentalsPage(l) {
+  const route = "rentals/";
+  const R = (r) => rel(l, route, l, r);
+  const blocks = rentals.items.map((it) => {
+    const p = projects.find((x) => x.slug === it.slug);
+    if (!p) return "";
+    const media = p.cover ? img(l, route, p.cover, p.name, "", "(min-width: 900px) 45vw, 100vw") : "";
+    const head = `<p class="eyebrow">${p.district[l]}</p><h2>${p.name}</h2><p class="muted">${(it.kind === "whole" ? rentals.whole : rentals.rooms)[l]} · ${p.facts.slice(0, 3).map((f) => f[l]).join(" · ")}</p>`;
+    const links = `<div class="rent-a"><a class="btn" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}">${rentals.ask[l]}</a><a class="btn btn-o" href="${R(`projects/${p.slug}/`)}">${rentals.details[l]}</a></div>`;
+    let body = "";
+    if (it.kind === "whole") {
+      body = `<p class="rent-p">${eur(it.rent, l)} <span>${it.exVat ? rentals.exVat[l] + " " : ""}${rentals.monthly[l]}</span></p>`;
+    } else {
+      const tot = it.rooms.reduce((a, r) => [a[0] + r.rent, a[1] + r.charges], [0, 0]);
+      body = `<div class="rtbl rent-t"><table><thead><tr><th>${rentals.room[l]}</th><th>${rentals.rent[l]}</th><th>${rentals.charges[l]}</th><th>${rentals.total[l]}</th></tr></thead><tbody>${it.rooms.map((r) => `<tr><th scope="row">${esc(r.name)}${r.pos ? ` <span class="muted small">(${r.pos[l]})</span>` : ""}</th><td>${eur(r.rent, l)}</td><td>${eur(r.charges, l)}</td><td><strong>${eur(r.rent + r.charges, l)}</strong></td></tr>`).join("")}<tr class="rent-sum"><th scope="row">${rentals.sum[l]}</th><td>${eur(tot[0], l)}</td><td>${eur(tot[1], l)}</td><td><strong>${eur(tot[0] + tot[1], l)}</strong></td></tr></tbody></table></div>`;
+    }
+    return `<article class="rent">${media ? `<div class="rent-m">${media}</div>` : ""}<div class="rent-b">${head}${body}${links}</div></article>`;
+  }).join("");
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow">${t.navRentals[l]}</p>
+  <h1>${rentals.title[l]}</h1>
+  <p class="lead muted">${rentals.intro[l]}</p>
+</div></section>
+<section class="sec wrap rents">${blocks}</section>`;
+  return layout({ l, route, title: `${rentals.title[l]} | Estatelys`, desc: rentals.intro[l], body, crumbs: [[t.navRentals[l], route]] });
 }
 
 function projectPage(p, l) {
@@ -708,7 +737,7 @@ cpSync("src/assets", join(OUT, "assets"), { recursive: true });
 const urls = [];
 const routes = new Set();
 for (const l of LANGS) {
-  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
+  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["rentals/", rentalsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
     ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
     ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); routes.add(route); }
