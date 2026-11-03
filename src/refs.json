@@ -13,7 +13,15 @@
    "02.jpg",
    "03.jpg",
    "04.jpg"
-  ]
+  ],
+  "year": 2024,
+  "area": 120,
+  "works": {
+   "fr": "Rénovation complète, architecte d'intérieur · 2 chambres + bureau, 2 salles de bains",
+   "en": "Full renovation, interior designer · 2 bedrooms + study, 2 bathrooms",
+   "de": "Komplettrenovierung mit Innenarchitektin · 2 Schlafzimmer + Arbeitszimmer, 2 Bäder",
+   "hu": "Teljes felújítás belsőépítésszel · 2 hálószoba + dolgozó, 2 fürdőszoba"
+  }
  },
  {
   "slug": "dessewffy-47",
@@ -29,18 +37,39 @@
    "02.jpg",
    "03.jpg",
    "04.jpg"
-  ]
+  ],
+  "year": 2023,
+  "area": 68,
+  "works": {
+   "fr": "Rénovation complète, cloison abattue · 2 chambres, 1 salle de bains",
+   "en": "Full renovation, one wall removed · 2 bedrooms, 1 bathroom",
+   "de": "Komplettrenovierung, eine Wand entfernt · 2 Schlafzimmer, 1 Bad",
+   "hu": "Teljes felújítás, egy fal bontásával · 2 hálószoba, 1 fürdőszoba"
+  }
  },
  {
   "slug": "szent-istvan-17",
   "name": "Szent István körút 17",
-  "district": null,
+  "district": {
+   "fr": "Vᵉ arrondissement",
+   "en": "5th district",
+   "de": "5. Bezirk",
+   "hu": "V. kerület"
+  },
   "photos": [
    "01.jpg",
    "02.jpg",
    "03.jpg",
    "04.jpg"
-  ]
+  ],
+  "year": 2023,
+  "area": 111,
+  "works": {
+   "fr": "Rénovation complète, nouveau plan · 3 chambres, 3 salles de bains",
+   "en": "Full renovation, new layout · 3 bedrooms, 3 bathrooms",
+   "de": "Komplettrenovierung, neuer Grundriss · 3 Schlafzimmer, 3 Bäder",
+   "hu": "Teljes felújítás, új alaprajz · 3 hálószoba, 3 fürdőszoba"
+  }
  },
  {
   "slug": "kertesz-43",
@@ -58,6 +87,14 @@
    "04.jpg",
    "05.jpg",
    "06.jpg"
-  ]
+  ],
+  "year": 2022,
+  "area": 90,
+  "works": {
+   "fr": "Rénovation complète, nouveau plan · 3 chambres, 2 salles de bains",
+   "en": "Full renovation, new layout · 3 bedrooms, 2 bathrooms",
+   "de": "Komplettrenovierung, neuer Grundriss · 3 Schlafzimmer, 2 Bäder",
+   "hu": "Teljes felújítás, új alaprajz · 3 hálószoba, 2 fürdőszoba"
+  }
  }
 ]
