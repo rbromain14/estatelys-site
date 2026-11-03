@@ -137,6 +137,8 @@ ${THEME.css ? `<link rel="stylesheet" href="${A("assets/theme.css")}">` : ""}
 ${process.env.NOINDEX && !noindex ? '<meta name="robots" content="noindex">' : ""}
 ${graph ? `<script type="application/ld+json">${JSON.stringify(graph)}</script>` : ""}
 ${extraHead}
+${PREVIEW || noindex || process.env.NOINDEX ? "" : `${SITE.metricoolHash ? `<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"${SITE.metricoolHash}"})});</script>` : ""}
+${SITE.cfBeaconToken ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${SITE.cfBeaconToken}"}'></script>` : ""}`}
 </head>
 <body class="${bodyClass}">
 <a class="skip" href="#main">${l === "fr" ? "Aller au contenu" : l === "de" ? "Zum Inhalt" : l === "hu" ? "Ugrás a tartalomra" : "Skip to content"}</a>

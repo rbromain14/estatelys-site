@@ -9,6 +9,10 @@ export const SITE = {
   domain: "www.estatelys.com",
   name: "Estatelys Budapest",
   email: "info@estatelys.com",
+  // Audience measurement. Metricool brand "Estatelys" (blogId 7325859), same tracker as dueo.eu.
+  metricoolHash: "e1345b8cbcbc3c147bef41d4ddae74d9",
+  // Cloudflare Web Analytics beacon token (no cookie). Empty until the site is added in Cloudflare.
+  cfBeaconToken: "",
   // Official social accounts. A network is shown only once its url is filled in (no invented accounts).
   social: [
     { id: "linkedin", label: "LinkedIn", url: "" },
