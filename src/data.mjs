@@ -673,3 +673,28 @@ export const seo = {
     hu: "Eladó lakások Budapesten: {n} felújított ingatlan | Estatelys",
   },
 };
+
+// Team section on the About page. Names only where Romain gave them (3 Nov 2026); no photos until real ones are supplied.
+export const team = {
+  eyebrow: { fr: "L'équipe", en: "The team", de: "Das Team", hu: "A csapat" },
+  title: { fr: "Une équipe, de l'achat à la vente", en: "One team, from purchase to sale", de: "Ein Team, vom Kauf bis zum Verkauf", hu: "Egy csapat a vásárlástól az eladásig" },
+  intro: {
+    fr: "Chaque projet est suivi par les mêmes interlocuteurs : financement, recherche du bien, droit, travaux et vente.",
+    en: "Every project is handled by the same people: financing, sourcing, legal, works and sale.",
+    de: "Jedes Projekt wird von denselben Ansprechpartnern betreut: Finanzierung, Objektsuche, Recht, Bau und Verkauf.",
+    hu: "Minden projektet ugyanazok a szakemberek kísérnek: finanszírozás, ingatlankeresés, jog, kivitelezés és értékesítés.",
+  },
+  partner: { fr: "Partenaire", en: "Partner", de: "Partner", hu: "Partner" },
+  members: [
+    { key: "funding", name: "", title: { fr: "Directeur financement & investisseurs", en: "Head of Funding & Investor Relations", de: "Leiter Finanzierung & Investorenbeziehungen", hu: "Finanszírozási és befektetői kapcsolati vezető" },
+      text: { fr: "Structure le financement de chaque projet et suit les investisseurs.", en: "Structures the financing of each project and looks after investors.", de: "Strukturiert die Finanzierung jedes Projekts und betreut die Investoren.", hu: "Megtervezi az egyes projektek finanszírozását, és kapcsolatot tart a befektetőkkel." } },
+    { key: "sourcing", name: "", title: { fr: "Responsable acquisitions & sourcing", en: "Head of Acquisitions", de: "Leiter Akquisition", hu: "Akvizíciós vezető" },
+      text: { fr: "Recherche et sélectionne les appartements et les immeubles à rénover.", en: "Finds and selects the apartments and buildings to renovate.", de: "Sucht und wählt die zu renovierenden Wohnungen und Gebäude aus.", hu: "Felkutatja és kiválasztja a felújítandó lakásokat és épületeket." } },
+    { key: "projects", name: "Romain", title: { fr: "Directeur de projets & rénovation", en: "Head of Projects & Renovation", de: "Leiter Projekte & Renovierung", hu: "Projekt- és felújítási vezető" },
+      text: { fr: "Pilote la conception, le budget, les artisans et les délais de chaque rénovation.", en: "Runs the design, budget, contractors and timeline of each renovation.", de: "Steuert Planung, Budget, Handwerker und Zeitplan jeder Renovierung.", hu: "Irányítja a felújítások tervezését, költségvetését, kivitelezőit és ütemezését." } },
+    { key: "legal", name: "Pronay", partner: true, title: { fr: "Avocate, transactions immobilières", en: "Lawyer, property transactions", de: "Rechtsanwältin, Immobilientransaktionen", hu: "Ügyvéd, ingatlanügyletek" },
+      text: { fr: "Sécurise les achats et les ventes : vérifications, contrats et inscription au registre foncier.", en: "Secures purchases and sales: checks, contracts and land registry filing.", de: "Sichert Käufe und Verkäufe ab: Prüfungen, Verträge und Grundbucheintragung.", hu: "Biztosítja az adásvételeket: ellenőrzések, szerződések és földhivatali bejegyzés." } },
+    { key: "sales", name: "Csaba Zalányi", partner: true, title: { fr: "Agent immobilier, ventes & clientèle", en: "Estate agent, sales & clients", de: "Immobilienmakler, Verkauf & Kunden", hu: "Ingatlanközvetítő, értékesítés és ügyfelek" },
+      text: { fr: "Accompagne les acheteurs : visites, offres et suivi jusqu'à la remise des clés.", en: "Guides buyers through viewings, offers and follow-up until the keys are handed over.", de: "Begleitet Käufer bei Besichtigungen, Angeboten und bis zur Schlüsselübergabe.", hu: "Végigkíséri a vevőket a megtekintéstől az ajánlaton át a kulcsátadásig." } },
+  ],
+};
