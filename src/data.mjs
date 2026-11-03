@@ -701,6 +701,8 @@ export const team = {
       text: { fr: "Sécurise les achats et les ventes : vérifications, contrats et inscription au registre foncier.", en: "Secures purchases and sales: checks, contracts and land registry filing.", de: "Sichert Käufe und Verkäufe ab: Prüfungen, Verträge und Grundbucheintragung.", hu: "Biztosítja az adásvételeket: ellenőrzések, szerződések és földhivatali bejegyzés." } },
     { key: "sales", name: "Csaba Z.", partner: true, title: { fr: "Agent immobilier, ventes & clientèle", en: "Estate agent, sales & clients", de: "Immobilienmakler, Verkauf & Kunden", hu: "Ingatlanközvetítő, értékesítés és ügyfelek" },
       text: { fr: "Accompagne les acheteurs : visites, offres et suivi jusqu'à la remise des clés.", en: "Guides buyers through viewings, offers and follow-up until the keys are handed over.", de: "Begleitet Käufer bei Besichtigungen, Angeboten und bis zur Schlüsselübergabe.", hu: "Végigkíséri a vevőket a megtekintéstől az ajánlaton át a kulcsátadásig." } },
+    { key: "rentals", name: "Hakan E.", title: { fr: "Responsable location", en: "Rental Manager", de: "Leiter Vermietung", hu: "Bérbeadási vezető" },
+      text: { fr: "Gère la location des appartements : locataires, baux, état des lieux et suivi au quotidien.", en: "Manages the apartment rentals: tenants, leases, check-ins and day-to-day follow-up.", de: "Betreut die Vermietung der Wohnungen: Mieter, Mietverträge, Übergaben und laufende Betreuung.", hu: "A lakások bérbeadását irányítja: bérlők, szerződések, átadás-átvétel és napi ügyintézés." } },
   ],
 };
 

@@ -706,7 +706,7 @@ function referencesPage(l) {
     ${REFS.filter((r) => r.photos.length).map((r) => `<figure class="ref">
       <button class="gal-i ref-m" data-full="${src(r, 0)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-1`, `${r.name}, Budapest`)}</button>
       <div class="ref-t">${r.photos.slice(1).map((_, k) => `<button class="gal-i" data-full="${src(r, k + 1)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-${k + 2}`, `${r.name}, Budapest`)}</button>`).join("")}</div>
-      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p></figcaption>
+      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p>${r.year || r.area || r.works ? `<p class="ref-f">${[r.year ? String(r.year) : "", r.area ? `${new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(r.area)} m²` : "", r.works ? esc(r.works[l]) : ""].filter(Boolean).join(" · ")}</p>` : ""}</figcaption>
     </figure>`).join("")}
   </div>
   ${REFS.some((r) => !r.photos.length) ? `<div class="refs-more">

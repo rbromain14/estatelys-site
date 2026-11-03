@@ -196,3 +196,4 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 @media (max-width:860px){.rent{grid-template-columns:.9fr 1.1fr}.rent:nth-child(even){grid-template-columns:1.1fr .9fr}.rent-m{min-height:0}}
 @media (max-width:600px){.rent,.rent:nth-child(even){grid-template-columns:1fr}.rent:nth-child(even) .rent-m{order:0}.rent-m{min-height:220px}}
 .rent-m img{max-height:none!important}
+.ref-f{margin:6px 0 0;font-size:.9rem;font-weight:500}
