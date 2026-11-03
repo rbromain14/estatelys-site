@@ -156,3 +156,12 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .hero-cr{color:rgba(255,255,255,.8)}
 .hdr .nav a:not([aria-current]),.hdr .langs a:not(.on){color:#f4f3ef;text-shadow:0 1px 8px rgba(0,0,0,.5)}
 .hdr .nav a:not([aria-current]):hover,.hdr .langs a:not(.on):hover{color:var(--acc,#c8a97e)}
+/* team (About page) */
+.team-i{max-width:60ch;margin-bottom:28px}
+.team-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));border-top:1px solid var(--tx);border-left:1px solid var(--tx)}
+.tm{padding:24px 22px;border-right:1px solid var(--tx);border-bottom:1px solid var(--tx);display:flex;flex-direction:column;gap:10px}
+.tm-a{width:72px;height:72px;border-radius:50%;background:var(--tx);color:var(--bg);display:grid;place-items:center;font:700 1.4rem var(--disp);letter-spacing:.02em;margin-bottom:6px}
+.tm-r{font-weight:600;margin:0;line-height:1.35}
+.tm-p{display:inline-block;margin-left:6px;padding:2px 7px;border:1px solid var(--acc,#c8a97e);color:var(--tx);font-size:.72rem;font-weight:600;vertical-align:middle}
+.tm h3{margin:0;font-size:1.2rem}
+.tm p.small{margin:0}

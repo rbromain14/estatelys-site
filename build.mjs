@@ -4,7 +4,7 @@
 import { readdirSync } from "node:fs";
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team } from "./src/data.mjs";
 const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
 const RES_ITEMS = resources.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g })));
 const TOOL_PAGES = new Set(["sim"]);
@@ -468,6 +468,17 @@ function about(l) {
   <div class="svc">
     ${[1, 2, 3].map((i) => `<div><p class="num">0${i}</p><h3>${t[`s${i}t`][l]}</h3><p class="muted">${t[`s${i}d`][l]}</p></div>`).join("")}
   </div>
+</section>
+<section class="sec wrap team">
+  <p class="eyebrow">${team.eyebrow[l]}</p>
+  <h2>${team.title[l]}</h2>
+  <p class="muted team-i">${team.intro[l]}</p>
+  <div class="team-g">${team.members.map((m) => `<article class="tm">
+    <div class="tm-a" aria-hidden="true">${m.name ? esc(m.name.replace(/\./g, "").split(" ").map((w) => w[0]).join("").slice(0, 2)) : "·"}</div>
+    <p class="tm-r">${m.title[l]}${m.partner ? ` <span class="tm-p">${team.partner[l]}</span>` : ""}</p>
+    ${m.name ? `<h3>${esc(m.name)}</h3>` : ""}
+    <p class="muted small">${m.text[l]}</p>
+  </article>`).join("")}</div>
 </section>
 <section class="sec wrap sig">
   <h2>${signature.title[l]}</h2>
