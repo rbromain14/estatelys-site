@@ -165,3 +165,9 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .tm-p{display:inline-block;margin-left:6px;padding:2px 7px;border:1px solid var(--acc,#c8a97e);color:var(--tx);font-size:.72rem;font-weight:600;vertical-align:middle}
 .tm h3{margin:0;font-size:1.2rem}
 .tm p.small{margin:0}
+/* About: text left, photo right (also on tablets); on phones the photo goes below the text */
+.about{grid-template-columns:1.1fr .9fr}
+.about>picture,.about>img,.about .about-img{grid-column:2;grid-row:1}
+.about>div{grid-column:1;grid-row:1}
+@media (max-width:860px){.about{grid-template-columns:1.1fr .9fr;gap:28px}}
+@media (max-width:600px){.about{grid-template-columns:1fr}.about>picture,.about>img,.about .about-img{grid-column:1;grid-row:2}.about>div{grid-column:1;grid-row:1}}
