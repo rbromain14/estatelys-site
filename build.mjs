@@ -474,7 +474,7 @@ function about(l) {
   <h2>${team.title[l]}</h2>
   <p class="muted team-i">${team.intro[l]}</p>
   <div class="team-g">${team.members.map((m) => `<article class="tm">
-    <div class="tm-a" aria-hidden="true">${m.name ? esc(m.name.split(" ").map((w) => w[0]).join("").slice(0, 2)) : "·"}</div>
+    <div class="tm-a" aria-hidden="true">${m.name ? esc(m.name.replace(/\./g, "").split(" ").map((w) => w[0]).join("").slice(0, 2)) : "·"}</div>
     <p class="tm-r">${m.title[l]}${m.partner ? ` <span class="tm-p">${team.partner[l]}</span>` : ""}</p>
     ${m.name ? `<h3>${esc(m.name)}</h3>` : ""}
     <p class="muted small">${m.text[l]}</p>
