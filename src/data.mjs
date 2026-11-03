@@ -24,7 +24,7 @@ export const SITE = {
     { id: "tiktok", label: "TikTok", url: "" },
   ],
   city: "Budapest, Magyarország",
-  hufRate: 364, // HUF per EUR used for the indicative HUF amounts (Oct 2026)
+  hufRate: 365, // HUF per EUR used for the indicative amounts (2 Nov 2026: 365.19, OFX mid-market)
   // Publisher (source: public company registry, ceginfo.hu / opten.hu)
   company: "Investissement Immobilier Bud Kft.",
   companyFull: "Investissement Immobilier Bud Korlátolt Felelősségű Társaság",
@@ -235,16 +235,16 @@ export const t = {
     hu: "Bruttó hozam a közös költség, ingatlanadó, kezelési díj, kihasználatlanság és jövedelemadó előtt.",
   },
   hufNote: {
-    fr: "Montants en forints indicatifs, au taux de 364 HUF/EUR (octobre 2026).",
-    en: "HUF amounts indicative, at 364 HUF/EUR (October 2026).",
-    de: "HUF-Beträge unverbindlich, zum Kurs von 364 HUF/EUR (Oktober 2026).",
-    hu: "A forintösszegek tájékoztató jellegűek, 364 HUF/EUR árfolyamon (2026. október).",
+    fr: "Montants en forints indicatifs, au taux de 365 HUF/EUR (novembre 2026).",
+    en: "HUF amounts indicative, at 365 HUF/EUR (November 2026).",
+    de: "HUF-Beträge unverbindlich, zum Kurs von 365 HUF/EUR (November 2026).",
+    hu: "A forintösszegek tájékoztató jellegűek, 365 HUF/EUR árfolyamon (2026. november).",
   },
   eurNote: {
-    fr: "Prix fixé en forints ; montant en euros indicatif, au taux de 364 HUF/EUR (octobre 2026).",
-    en: "Price set in HUF; EUR amount indicative, at 364 HUF/EUR (October 2026).",
-    de: "Preis in HUF festgelegt; EUR-Betrag unverbindlich, zum Kurs von 364 HUF/EUR (Oktober 2026).",
-    hu: "Az ár forintban rögzített; az euróösszeg tájékoztató jellegű, 364 HUF/EUR árfolyamon (2026. október).",
+    fr: "Prix fixé en forints ; montant en euros indicatif, au taux de 365 HUF/EUR (novembre 2026).",
+    en: "Price set in HUF; EUR amount indicative, at 365 HUF/EUR (November 2026).",
+    de: "Preis in HUF festgelegt; EUR-Betrag unverbindlich, zum Kurs von 365 HUF/EUR (November 2026).",
+    hu: "Az ár forintban rögzített; az euróösszeg tájékoztató jellegű, 365 HUF/EUR árfolyamon (2026. november).",
   },
   aboutEyebrow: { fr: "À propos", en: "About us", de: "Über uns", hu: "Rólunk" },
   aboutTitle: { fr: "L'art de rénover le patrimoine de Budapest", en: "The art of renovating Budapest's heritage", de: "Die Kunst, Budapests Erbe zu renovieren", hu: "Budapest örökségének megújítása" },
@@ -345,13 +345,14 @@ export const projects = [
     streetView: "https://www.google.com/maps/embed?pb=!4v1793703894312!6m8!1m7!1sA6cg1eTtXYrXY35SpP0CfQ!2m2!1d47.5097312054374!2d19.05409160341066!3f35.66896!4f20!5f0.7820865974627469",
     district: L("Vᵉ arrondissement · Lipótváros", "5th district · Lipótváros", "5. Bezirk · Lipótváros", "V. kerület · Lipótváros"),
     type: L("Résidence de luxe", "Luxury home", "Luxuswohnung", "Luxuslakás"),
-    price: 916750, priceM2: "≈ 8 040 €",
+    price: 950700, priceFromHuf: true, priceHuf: "347 M Ft", priceM2: "≈ 8 340 €", // Price set in HUF (Romain, 3 Nov 2026): 347 M Ft fully finished; semi-finished 310–329 M Ft
     facts: [
       L("≈ 114 m²", "≈ 114 m²", "≈ 114 m²", "≈ 114 m²"),
       L("3ᵉ étage", "3rd floor", "3. Stock", "3. emelet"),
       L("2 chambres + bureau", "2 bedrooms + study", "2 Schlafzimmer + Büro", "2 hálószoba + dolgozó"),
       L("Terrasse privée", "Private terrace", "Private Terrasse", "Saját terasz"),
       L("2 salles d'eau + WC", "2 bathrooms + WC", "2 Bäder + WC", "2 fürdő + WC"),
+      L("Option semi-finie : 310–329 M Ft (salles de bain finies ; sans cuisine, placards, mobilier ni luminaires)", "Semi-finished option: 310–329 M Ft (bathrooms finished; no kitchen, wardrobes, furniture or light fittings)", "Option teilfertig: 310–329 Mio. Ft (Bäder fertig; ohne Küche, Einbauschränke, Möbel und Leuchten)", "Félkész változat: 310–329 M Ft (kész fürdőszobák; konyha, beépített szekrények, bútorok és lámpák nélkül)"),
     ],
     short: L(
       "Entre le Parlement et Nyugati, un appartement entièrement repensé avec terrasse privée, séjour de 45 m² et cuisine avec îlot.",
@@ -395,7 +396,7 @@ export const projects = [
     lat: 47.4997, lng: 19.0577,
     district: L("VIᵉ arrondissement · Terézváros", "6th district · Terézváros", "6. Bezirk · Terézváros", "VI. kerület · Terézváros"),
     type: L("Résidence de luxe", "Luxury home", "Luxuswohnung", "Luxuslakás"),
-    price: 742000,
+    price: 739700, priceFromHuf: true, priceHuf: "270 M Ft", priceM2: "≈ 7 110 €", // Price set in HUF (Romain, 3 Nov 2026)
     facts: [
       L("104 m²", "104 m²", "104 m²", "104 m²"),
       L("3ᵉ étage", "3rd floor", "3. Stock", "3. emelet"),
@@ -444,10 +445,10 @@ export const projects = [
     lat: 47.4952, lng: 19.0655,
     district: L("VIIᵉ arrondissement · Erzsébetváros", "7th district · Erzsébetváros", "7. Bezirk · Erzsébetváros", "VII. kerület · Erzsébetváros"),
     type: L("Investissement étudiant", "Student investment", "Studenteninvestment", "Diákbefektetés"),
-    price: 295000, priceM2: "≈ 4 610 €",
+    price: 310000, priceM2: "≈ 4 840 €", // €295,000 + 4 % + VAT on the 4 % (Romain, 3 Nov 2026)
     // Actual rents from IIB's ledger (Romain, 3 Nov 2026): 324 + 354 + 344 + 334 € = 1 356 €, plus 4 × 66 € charges
     rent: 1356, rentDetail: L("4 chambres de 324 à 354 €, + 66 € de charges chacune", "4 rooms at €324–354, + €66 charges each", "4 Zimmer zu 324–354 €, + je 66 € Nebenkosten", "4 szoba 324–354 €, + szobánként 66 € rezsi"),
-    yield: 5.5,
+    yield: 5.2, // 1 356 × 12 ÷ 310 000
     facts: [
       L("64 m²", "64 m²", "64 m²", "64 m²"),
       L("2ᵉ étage", "2nd floor", "2. Stock", "2. emelet"),

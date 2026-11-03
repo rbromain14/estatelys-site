@@ -27,6 +27,7 @@ const L = {
   contact: { fr: "Contact", en: "Contact", de: "Kontakt", hu: "Kapcsolat" },
   online: { fr: "Fiche complète, carte et photos en ligne", en: "Full listing, map and photos online", de: "Vollständiges Exposé, Karte und Fotos online", hu: "Teljes adatlap, térkép és fotók online" },
   date: { fr: "Document établi le", en: "Document dated", de: "Stand", hu: "Dokumentum dátuma:" },
+  eurNote: { fr: "Prix fixé en forints ; montant en euros indicatif, au taux de", en: "Price set in HUF; EUR amount indicative, at", de: "Preis in HUF festgelegt; EUR-Betrag unverbindlich, Kurs", hu: "Az ár forintban rögzített; az euróösszeg tájékoztató jellegű, árfolyam:" },
   hufNote: { fr: "Montant en forints indicatif, au taux de", en: "HUF amount indicative, at", de: "HUF-Betrag unverbindlich, Kurs", hu: "A forintösszeg tájékoztató jellegű, árfolyam:" },
   noOffer: {
     fr: "Document d'information, sans valeur contractuelle. Surfaces et caractéristiques à vérifier lors de la visite.",
@@ -82,8 +83,8 @@ function brochure(p, l) {
   const imgs = (p.images || []).map((x) => x[0]);
   const gallery = imgs.slice(1, 7);
   const factCells = [
-    [t.price[l], `${eur(p.price, l)}`],
-    ["HUF", huf(p.price, l)],
+    [t.price[l], p.priceFromHuf ? p.priceHuf : `${eur(p.price, l)}`],
+    p.priceFromHuf ? ["EUR", `≈ ${eur(p.price, l)}`] : ["HUF", huf(p.price, l)],
     ...(p.rent ? [[t.rent[l], `${eur(p.rent, l)}`], [t.yield[l], pct(p.yield, l)]] : []),
     ...p.facts.map((f) => ["", f[l]]),
   ];
@@ -97,7 +98,7 @@ function brochure(p, l) {
     <p class="eyebrow">${esc(p.district[l])}</p>
     <h1>${esc(p.name)}</h1>
     <p class="type">${esc(p.address)}</p>
-    <div class="price"><b>${eur(p.price, l)}</b><span>${huf(p.price, l)}</span>${p.yield ? `<span>${t.yield[l]} ${pct(p.yield, l)}</span>` : ""}</div>
+    <div class="price"><b>${p.priceFromHuf ? p.priceHuf : eur(p.price, l)}</b><span>${p.priceFromHuf ? `≈ ${eur(p.price, l)}` : huf(p.price, l)}</span>${p.yield ? `<span>${t.yield[l]} ${pct(p.yield, l)}</span>` : ""}</div>
   </div>
 </section>
 <section class="pg">
@@ -128,7 +129,7 @@ function brochure(p, l) {
     <p>${SITE.email} · <a href="${url}">${url.replace("https://", "")}</a></p>
     <p class="note">${L.online[l]}.</p>
   </div>
-  <p class="note">${L.hufNote[l]} ${SITE.hufRate} HUF/EUR. ${L.noOffer[l]} ${L.date[l]} ${new Intl.DateTimeFormat(LOCALE[l], { day: "numeric", month: "long", year: "numeric" }).format(new Date())}.</p>
+  <p class="note">${(p.priceFromHuf ? L.eurNote : L.hufNote)[l]} ${SITE.hufRate} HUF/EUR. ${L.noOffer[l]} ${L.date[l]} ${new Intl.DateTimeFormat(LOCALE[l], { day: "numeric", month: "long", year: "numeric" }).format(new Date())}.</p>
   ${foot}
 </section>
 </body></html>`;
