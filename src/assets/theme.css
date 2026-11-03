@@ -190,3 +190,9 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .rent-m{position:relative;min-height:300px;overflow:hidden}
 .rent-m picture,.rent-m img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;min-height:0}
 @media (max-width:860px){.rent-m{min-height:240px}}
+/* rentals: photo and text side by side, alternating sides; stacked only on phones */
+.rent:nth-child(even){grid-template-columns:1.1fr .9fr}
+.rent:nth-child(even) .rent-m{order:2}
+@media (max-width:860px){.rent{grid-template-columns:.9fr 1.1fr}.rent:nth-child(even){grid-template-columns:1.1fr .9fr}.rent-m{min-height:0}}
+@media (max-width:600px){.rent,.rent:nth-child(even){grid-template-columns:1fr}.rent:nth-child(even) .rent-m{order:0}.rent-m{min-height:220px}}
+.rent-m img{max-height:none!important}
