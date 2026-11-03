@@ -415,6 +415,10 @@ ${gallery}
 ${building}
 ${district}
 ${plans}
+${p.streetView ? `<section class="sec wrap">
+  <h2 class="h3">${t.facade[l]}</h2>
+  <iframe class="sv" src="${esc(p.streetView)}" title="${esc(t.facade[l] + " — " + p.name)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+</section>` : ""}
 <section class="sec wrap">
   <h2 class="h3">${t.location[l]}</h2>
   ${mapBlock([p], l, "map", 380)}

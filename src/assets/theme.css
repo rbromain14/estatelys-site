@@ -171,3 +171,4 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .about>div{grid-column:1;grid-row:1}
 @media (max-width:860px){.about{grid-template-columns:1.1fr .9fr;gap:28px}}
 @media (max-width:600px){.about{grid-template-columns:1fr}.about>picture,.about>img,.about .about-img{grid-column:1;grid-row:2}.about>div{grid-column:1;grid-row:1}}
+.sv{display:block;width:100%;height:clamp(320px,50vw,520px);border:1px solid var(--tx)}

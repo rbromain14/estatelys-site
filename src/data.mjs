@@ -185,6 +185,7 @@ export const t = {
     hu: "Új ingatlanok, felújítások és a budapesti ingatlanpiac a közösségi oldalainkon.",
   },
   soon: { fr: "bientôt", en: "soon", de: "bald", hu: "hamarosan" },
+  facade: { fr: "La façade (Google Street View)", en: "The façade (Google Street View)", de: "Die Fassade (Google Street View)", hu: "A homlokzat (Google Street View)" },
   ctaBandText: { fr: "Écrivez-nous : nous vous envoyons la brochure complète du bien.", en: "Write to us and we will send you the property's full brochure.", de: "Schreiben Sie uns, wir senden Ihnen das vollständige Exposé.", hu: "Írjon nekünk, és elküldjük az ingatlan teljes brosúráját." },
   projTitle: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlanok" },
   projIntro: {
@@ -331,7 +332,9 @@ export const projects = [
     status: "for-sale", // set to "sold" to remove it from the listing and the counter
     name: "Stollár Béla 22",
     address: "Stollár Béla utca 22, 1055 Budapest",
-    lat: 47.5107, lng: 19.0513,
+    lat: 47.50979, lng: 19.05416,
+    // Façade: official Google Maps Street View embed (June 2024 imagery), no screenshot (Romain, 3 Nov 2026)
+    streetView: "https://www.google.com/maps/embed?pb=!4v1793703894312!6m8!1m7!1sA6cg1eTtXYrXY35SpP0CfQ!2m2!1d47.5097312054374!2d19.05409160341066!3f35.66896!4f20!5f0.7820865974627469",
     district: L("Vᵉ arrondissement · Lipótváros", "5th district · Lipótváros", "5. Bezirk · Lipótváros", "V. kerület · Lipótváros"),
     type: L("Résidence de luxe", "Luxury home", "Luxuswohnung", "Luxuslakás"),
     price: 916750, priceM2: "≈ 8 040 €",
