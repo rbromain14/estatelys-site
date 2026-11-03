@@ -713,7 +713,7 @@ export const team = {
   ],
 };
 
-// Rentals (Romain, 3 Nov 2026). Paulay: whole apartment for rent. Rákóczi: rented room by room (figures from IIB's rent ledger).
+// Rentals (Romain, 3 Nov 2026). Paulay: whole apartment for rent, €3,000/month excl. charges (corrected from 'excl. VAT' by Romain, 3 Nov 2026). Rákóczi: rented room by room (figures from IIB's rent ledger).
 export const rentals = {
   title: { fr: "Location à Budapest", en: "Rentals in Budapest", de: "Mietwohnungen in Budapest", hu: "Kiadó lakások Budapesten" },
   intro: {
@@ -723,7 +723,9 @@ export const rentals = {
     hu: "Felújított lakásaink bérelhetők is: egy nagy családi lakás és egy négyszobás közös bérlemény.",
   },
   monthly: { fr: "/ mois", en: "/ month", de: "/ Monat", hu: "/ hó" },
-  exVat: { fr: "HT", en: "excl. VAT", de: "zzgl. MwSt.", hu: "+ ÁFA" },
+  exCharges: { fr: "hors charges", en: "excl. charges", de: "zzgl. Nebenkosten", hu: "+ rezsi" },
+  perRoom: { fr: "par chambre et par mois, + charges", en: "per room per month, + charges", de: "pro Zimmer und Monat, + Nebenkosten", hu: "szobánként havonta, + rezsi" },
+  all: { fr: "Toutes nos locations", en: "All our rentals", de: "Alle Mietobjekte", hu: "Összes kiadó lakás" },
   whole: { fr: "Appartement entier", en: "Whole apartment", de: "Ganze Wohnung", hu: "Teljes lakás" },
   rooms: { fr: "Colocation, location par chambre", en: "Flat share, let by the room", de: "WG, zimmerweise vermietet", hu: "Közös bérlemény, szobánként kiadva" },
   room: { fr: "Chambre", en: "Room", de: "Zimmer", hu: "Szoba" },
@@ -734,7 +736,7 @@ export const rentals = {
   ask: { fr: "Demander une visite", en: "Request a viewing", de: "Besichtigung anfragen", hu: "Megtekintést kérek" },
   details: { fr: "Voir le bien", en: "See the property", de: "Objekt ansehen", hu: "Az ingatlan adatai" },
   items: [
-    { slug: "paulay-ede-18", kind: "whole", rent: 3000, exVat: true },
+    { slug: "paulay-ede-18", kind: "whole", rent: 3000, exCharges: true },
     { slug: "rakoczi-40", kind: "rooms", rooms: [
       { name: "Antalya", pos: { fr: "haut gauche", en: "upper left", de: "oben links", hu: "fent balra" }, rent: 324, charges: 66 },
       { name: "Big Room", pos: null, rent: 354, charges: 66 },

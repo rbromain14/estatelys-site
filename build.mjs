@@ -349,13 +349,12 @@ function rentalsPage(l) {
     if (!p) return "";
     const media = p.cover ? img(l, route, p.cover, p.name, "", "(min-width: 900px) 45vw, 100vw") : "";
     const head = `<p class="eyebrow">${p.district[l]}</p><h2>${p.name}</h2><p class="muted">${(it.kind === "whole" ? rentals.whole : rentals.rooms)[l]} · ${p.facts.slice(0, 3).map((f) => f[l]).join(" · ")}</p>`;
-    const links = `<div class="rent-a"><a class="btn" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}">${rentals.ask[l]}</a><a class="btn btn-o" href="${R(`projects/${p.slug}/`)}">${rentals.details[l]}</a></div>`;
+    const links = `<div class="rent-a"><a class="btn" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a><a class="btn btn-o" href="${R(`rentals/${p.slug}/`)}">${rentals.details[l]}</a></div>`;
     let body = "";
     if (it.kind === "whole") {
-      body = `<p class="rent-p">${eur(it.rent, l)} <span>${it.exVat ? rentals.exVat[l] + " " : ""}${rentals.monthly[l]}</span></p>`;
+      body = `<p class="rent-p">${eur(it.rent, l)} <span>${it.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</span></p>`;
     } else {
-      const tot = it.rooms.reduce((a, r) => [a[0] + r.rent, a[1] + r.charges], [0, 0]);
-      body = `<div class="rtbl rent-t"><table><thead><tr><th>${rentals.room[l]}</th><th>${rentals.rent[l]}</th><th>${rentals.charges[l]}</th><th>${rentals.total[l]}</th></tr></thead><tbody>${it.rooms.map((r) => `<tr><th scope="row">${esc(r.name)}${r.pos ? ` <span class="muted small">(${r.pos[l]})</span>` : ""}</th><td>${eur(r.rent, l)}</td><td>${eur(r.charges, l)}</td><td><strong>${eur(r.rent + r.charges, l)}</strong></td></tr>`).join("")}<tr class="rent-sum"><th scope="row">${rentals.sum[l]}</th><td>${eur(tot[0], l)}</td><td>${eur(tot[1], l)}</td><td><strong>${eur(tot[0] + tot[1], l)}</strong></td></tr></tbody></table></div>`;
+      body = rentTable(it, l);
     }
     return `<article class="rent">${media ? `<div class="rent-m">${media}</div>` : ""}<div class="rent-b">${head}${body}${links}</div></article>`;
   }).join("");
@@ -369,8 +368,14 @@ function rentalsPage(l) {
   return layout({ l, route, title: `${rentals.title[l]} | Estatelys`, desc: rentals.intro[l], body, crumbs: [[t.navRentals[l], route]] });
 }
 
-function projectPage(p, l) {
-  const route = `projects/${p.slug}/`;
+function rentTable(it, l) {
+      const tot = it.rooms.reduce((a, r) => [a[0] + r.rent, a[1] + r.charges], [0, 0]);
+      return `<div class="rtbl rent-t"><table><thead><tr><th>${rentals.room[l]}</th><th>${rentals.rent[l]}</th><th>${rentals.charges[l]}</th><th>${rentals.total[l]}</th></tr></thead><tbody>${it.rooms.map((r) => `<tr><th scope="row">${esc(r.name)}${r.pos ? ` <span class="muted small">(${r.pos[l]})</span>` : ""}</th><td>${eur(r.rent, l)}</td><td>${eur(r.charges, l)}</td><td><strong>${eur(r.rent + r.charges, l)}</strong></td></tr>`).join("")}<tr class="rent-sum"><th scope="row">${rentals.sum[l]}</th><td>${eur(tot[0], l)}</td><td>${eur(tot[1], l)}</td><td><strong>${eur(tot[0] + tot[1], l)}</strong></td></tr></tbody></table></div>`;
+}
+
+// rent = an item of rentals.items: renders the same property as a rental listing (no sale price) at rentals/<slug>/
+function projectPage(p, l, rent = null) {
+  const route = rent ? `rentals/${p.slug}/` : `projects/${p.slug}/`;
   const R = (r) => rel(l, route, l, r);
   const others = FOR_SALE.filter((x) => x.slug !== p.slug);
   const gallery = p.images.length ? `
@@ -382,7 +387,7 @@ function projectPage(p, l) {
   ${p.cgi ? `<p class="small muted note">${t.cgiNote[l]}</p>` : ""}
 </section>` : "";
 
-  const invest = p.rent ? `
+  const invest = !rent && p.rent ? `
 <div class="inv">
   <div><span>${t.price[l]}</span><b>${priceDuo(p, l)}</b>${p.priceM2 ? `<em>${p.priceM2} / m²</em>` : ""}</div>
   <div><span>${t.rent[l]}</span><b>${eur(p.rent, l)}</b><em>${p.rentDetail[l]} · ${eur(p.rent * 12, l)} / ${l === "fr" ? "an" : l === "de" ? "Jahr" : l === "hu" ? "év" : "year"}</em></div>
@@ -418,7 +423,7 @@ function projectPage(p, l) {
   ${p.cover ? img(l, route, p.cover, p.name, "phero-img", "100vw", true) : `<div class="phero-img phero-none"></div>`}
   <div class="hero-fade"></div>
   <div class="wrap phero-in">
-    <p class="eyebrow">${p.district[l]} · ${p.type[l]} · ${t.forSale[l]}</p>
+    <p class="eyebrow">${p.district[l]} · ${p.type[l]} · ${rent ? t.navRentals[l] : t.forSale[l]}</p>
     <h1>${p.name}</h1>
     <p class="lead">${p.address}</p>
   </div>
@@ -431,8 +436,14 @@ function projectPage(p, l) {
       <h2 class="h4">${t.keyFacts[l]}</h2>
       <ul class="chips">${p.facts.map((f) => `<li>${f[l]}</li>`).join("")}</ul>
       ${invest}
+      ${rent?.kind === "rooms" ? `<h2 class="h4">${rentals.rooms[l]}</h2>${rentTable(rent, l)}` : ""}
     </div>
-    <aside class="pbox">
+    ${rent ? `<aside class="pbox">
+      <p class="eyebrow">${rentals.rent[l]}</p>
+      ${rent.kind === "whole" ? `<p class="pbig">${eur(rent.rent, l)}</p><p class="muted">${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</p>` : `<p class="pbig">${eur(Math.min(...rent.rooms.map((r) => r.rent)), l)}+</p><p class="muted">${rentals.perRoom[l]}</p>`}
+      <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a>
+      <a class="btn btn-o wfull" href="${R("rentals/")}">${rentals.all[l]}</a>
+    </aside>` : `<aside class="pbox">
       <p class="eyebrow">${t.price[l]}</p>
       <p class="pbig">${priceDuo(p, l)}</p>
       ${!p.rent && p.priceM2 ? `<p class="muted">${p.priceM2} / m²</p>` : ""}
@@ -440,7 +451,7 @@ function projectPage(p, l) {
       ${existsSync(`src/assets/brochures/${p.slug}-${l}.pdf`) ? `<a class="btn wfull" href="${asset(l, route, `assets/brochures/${p.slug}-${l}.pdf`)}" download data-ev="brochure">${t.brochureDl[l]}</a>` : `<a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.askInfo[l]}</a>`}
       <a class="btn btn-o wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.visit[l]}</a>
       <p class="small muted">${p.rent ? "" : (p.priceFromHuf ? t.eurNote : t.hufNote)[l]}</p>
-    </aside>
+    </aside>`}
   </div>
 </section>
 ${gallery}
@@ -455,10 +466,10 @@ ${p.streetView ? `<section class="sec wrap">
   <h2 class="h3">${t.location[l]}</h2>
   ${mapBlock([p], l, "map", 380)}
 </section>
-<section class="sec wrap">
+${rent ? "" : `<section class="sec wrap">
   <h2 class="h3">${t.otherProjects[l]}</h2>
   <div class="grid3">${others.map((o) => card(o, l, route)).join("")}</div>
-</section>
+</section>`}
 <div class="lb" id="lb" hidden><button class="lb-x" aria-label="Close">×</button><button class="lb-p" aria-label="Previous">‹</button><figure><img alt=""><figcaption></figcaption></figure><button class="lb-n" aria-label="Next">›</button></div>`;
 
   // Price in the currency the property is priced in (Paulay Ede: HUF), as shown on the page
@@ -476,6 +487,14 @@ ${p.streetView ? `<section class="sec wrap">
       ...(photos.length ? { image: photos.map((n) => `https://${SITE.domain}/img/${n}.jpg`) } : {}) },
   };
   const d = districtOf(p);
+  if (rent) {
+    const monthly = rent.kind === "whole" ? rent.rent : Math.min(...rent.rooms.map((r) => r.rent));
+    const lease = { ...offer, "@id": abs(l, route) + "#offer", url: abs(l, route), businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
+      price: undefined, priceCurrency: undefined,
+      priceSpecification: { "@type": "UnitPriceSpecification", price: monthly, priceCurrency: "EUR", unitCode: "MON", referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "MON" } } };
+    return layout({ l, route, title: `${p.name}, Budapest ${d} — ${t.navRentals[l]}, ${eur(monthly, l)}${rent.kind === "whole" ? "" : "+"} ${rentals.monthly[l]} | Estatelys`, desc: p.short[l], body, image: p.cover,
+      extraHead: leafletHead, crumbs: [[t.navRentals[l], "rentals/"], [p.name, route]], ld: [JSON.parse(JSON.stringify(lease))] });
+  }
   return layout({ l, route, title: `${p.name}, Budapest ${d} — ${p.type[l]}, ${priceMain(p, l)} | Estatelys`, desc: p.short[l], body, image: p.cover,
     extraHead: leafletHead, crumbs: [[t.navProjects[l], "projects/"], [p.name, route]], ld: [offer] });
 }
@@ -742,6 +761,7 @@ const routes = new Set();
 for (const l of LANGS) {
   const pages = [["", home(l)], ["projects/", projectsPage(l)], ["rentals/", rentalsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
     ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
+    ...rentals.items.map((it) => [it, projects.find((x) => x.slug === it.slug)]).filter(([, p]) => p).map(([it, p]) => [`rentals/${p.slug}/`, projectPage(p, l, it)]),
     ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); routes.add(route); }
 }
