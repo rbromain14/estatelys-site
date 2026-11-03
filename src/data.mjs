@@ -12,7 +12,9 @@ export const SITE = {
   // Audience measurement. Metricool brand "Estatelys" (blogId 7325859), same tracker as dueo.eu.
   metricoolHash: "e1345b8cbcbc3c147bef41d4ddae74d9",
   // Cloudflare Web Analytics beacon token (no cookie). Empty until the site is added in Cloudflare.
-  cfBeaconToken: "",
+  cfBeaconToken: "ebf4d5440508454c83b8c143b8ebc087",
+  // Click events (track.js) are POSTed here: a Google Apps Script web app that appends rows to the Events sheet. Empty = off.
+  eventsEndpoint: "",
   // Official social accounts. A network is shown only once its url is filled in (no invented accounts).
   social: [
     { id: "linkedin", label: "LinkedIn", url: "" },
@@ -191,7 +193,7 @@ export const t = {
   },
   soon: { fr: "bientôt", en: "soon", de: "bald", hu: "hamarosan" },
   facade: { fr: "La façade (Google Street View)", en: "The façade (Google Street View)", de: "Die Fassade (Google Street View)", hu: "A homlokzat (Google Street View)" },
-  ctaBandText: { fr: "Écrivez-nous : nous vous envoyons la brochure complète du bien.", en: "Write to us and we will send you the property's full brochure.", de: "Schreiben Sie uns, wir senden Ihnen das vollständige Exposé.", hu: "Írjon nekünk, és elküldjük az ingatlan teljes brosúráját." },
+  ctaBandText: { fr: "Téléchargez la brochure de chaque bien depuis sa fiche, ou écrivez-nous pour organiser une visite.", en: "Download each property's brochure from its page, or write to us to book a viewing.", de: "Laden Sie das Exposé jedes Objekts auf seiner Seite herunter oder schreiben Sie uns für eine Besichtigung.", hu: "Az egyes ingatlanok brosúráját az adatlapjukról töltheti le, vagy írjon nekünk megtekintésért." },
   projTitle: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlanok" },
   projIntro: {
     fr: "Quatre appartements rénovés au cœur de Budapest, des résidences de prestige aux investissements locatifs.",
@@ -208,6 +210,7 @@ export const t = {
   perM2: { fr: "Prix au m²", en: "Price per m²", de: "Preis pro m²", hu: "Négyzetméterár" },
   discover: { fr: "Découvrir", en: "Discover", de: "Entdecken", hu: "Részletek" },
   askInfo: { fr: "Demander la brochure", en: "Request the brochure", de: "Exposé anfordern", hu: "Brosúra kérése" },
+  brochureDl: { fr: "Télécharger la brochure (PDF)", en: "Download the brochure (PDF)", de: "Exposé herunterladen (PDF)", hu: "Brosúra letöltése (PDF)" },
   visit: { fr: "Organiser une visite", en: "Book a viewing", de: "Besichtigung vereinbaren", hu: "Megtekintés egyeztetése" },
   theApartment: { fr: "L'appartement", en: "The apartment", de: "Die Wohnung", hu: "A lakás" },
   theDistrict: { fr: "Le quartier", en: "The district", de: "Das Viertel", hu: "A környék" },

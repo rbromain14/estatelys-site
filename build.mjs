@@ -112,7 +112,7 @@ ${alt}`;
     ? `<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<link rel="stylesheet" href="${fontsHref}">`
     : `${(THEME.preload || []).map((f) => `<link rel="preload" href="${A(f)}" as="font" type="font/woff2" crossorigin>`).join("\n")}\n<link rel="stylesheet" href="${fontsHref}">`;
   return `<!doctype html>
-<html lang="${l}">
+<html lang="${l}"${SITE.eventsEndpoint && !PREVIEW && !process.env.NOINDEX ? ` data-ev-url="${SITE.eventsEndpoint}"` : ""}>
 <head>
 <meta charset="utf-8">
 <meta name="msvalidate.01" content="0BD99446D69509A07A6743A18EE2944B">
@@ -195,6 +195,7 @@ ${followBlock(l)}
   </div>
 </footer>
 <script src="${A("assets/site.js")}" defer></script>
+${SITE.eventsEndpoint ? `<script src="${A("assets/track.js")}" defer></script>` : ""}
 </body>
 </html>`;
 }
@@ -436,7 +437,7 @@ function projectPage(p, l) {
       <p class="pbig">${priceDuo(p, l)}</p>
       ${!p.rent && p.priceM2 ? `<p class="muted">${p.priceM2} / m²</p>` : ""}
       ${p.yield ? `<dl><div><dt>${t.rent[l]}</dt><dd>${eur(p.rent, l)}</dd></div><div><dt>${t.yield[l]}</dt><dd>${pct(p.yield, l)}</dd></div></dl>` : ""}
-      <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.askInfo[l]}</a>
+      ${existsSync(`src/assets/brochures/${p.slug}-${l}.pdf`) ? `<a class="btn wfull" href="${asset(l, route, `assets/brochures/${p.slug}-${l}.pdf`)}" download data-ev="brochure">${t.brochureDl[l]}</a>` : `<a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.askInfo[l]}</a>`}
       <a class="btn btn-o wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name)}">${t.visit[l]}</a>
       <p class="small muted">${p.rent ? "" : (p.priceFromHuf ? t.eurNote : t.hufNote)[l]}</p>
     </aside>
