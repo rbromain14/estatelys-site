@@ -423,7 +423,7 @@ function projectPage(p, l, rent = null) {
   ${p.cover ? img(l, route, p.cover, p.name, "phero-img", "100vw", true) : `<div class="phero-img phero-none"></div>`}
   <div class="hero-fade"></div>
   <div class="wrap phero-in">
-    <p class="eyebrow">${p.district[l]} · ${p.type[l]} · ${rent ? t.navRentals[l] : t.forSale[l]}</p>
+    <p class="eyebrow">${p.district[l]} · ${rent ? (rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l]} · ${rent ? t.navRentals[l] : t.forSale[l]}</p>
     <h1>${p.name}</h1>
     <p class="lead">${p.address}</p>
   </div>
@@ -432,7 +432,7 @@ function projectPage(p, l, rent = null) {
   <div class="pgrid">
     <div>
       <p class="eyebrow">${t.theApartment[l]}</p>
-      <p class="lead2">${p.desc[l]}</p>
+      <p class="lead2">${(rent?.desc || p.desc)[l]}</p>
       <h2 class="h4">${t.keyFacts[l]}</h2>
       <ul class="chips">${p.facts.map((f) => `<li>${f[l]}</li>`).join("")}</ul>
       ${invest}
@@ -489,10 +489,10 @@ ${rent ? "" : `<section class="sec wrap">
   const d = districtOf(p);
   if (rent) {
     const monthly = rent.kind === "whole" ? rent.rent : Math.min(...rent.rooms.map((r) => r.rent));
-    const lease = { ...offer, "@id": abs(l, route) + "#offer", url: abs(l, route), businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
+    const lease = { ...offer, "@id": abs(l, route) + "#offer", url: abs(l, route), description: rent.short[l], itemOffered: { ...offer.itemOffered, description: rent.desc[l] }, businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
       price: undefined, priceCurrency: undefined,
       priceSpecification: { "@type": "UnitPriceSpecification", price: monthly, priceCurrency: "EUR", unitCode: "MON", referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "MON" } } };
-    return layout({ l, route, title: `${p.name}, Budapest ${d} — ${t.navRentals[l]}, ${eur(monthly, l)}${rent.kind === "whole" ? "" : "+"} ${rentals.monthly[l]} | Estatelys`, desc: p.short[l], body, image: p.cover,
+    return layout({ l, route, title: `${p.name}, Budapest ${d} — ${t.navRentals[l]}, ${eur(monthly, l)}${rent.kind === "whole" ? "" : "+"} ${rentals.monthly[l]} | Estatelys`, desc: rent.short[l], body, image: p.cover,
       extraHead: leafletHead, crumbs: [[t.navRentals[l], "rentals/"], [p.name, route]], ld: [JSON.parse(JSON.stringify(lease))] });
   }
   return layout({ l, route, title: `${p.name}, Budapest ${d} — ${p.type[l]}, ${priceMain(p, l)} | Estatelys`, desc: p.short[l], body, image: p.cover,
@@ -575,7 +575,7 @@ function contact(l) {
     </aside>
   </div>
 </section>`;
-  return layout({ l, route, title: `${t.navContact[l]} — ${SITE.name}`, desc: t.contactIntro[l], body, crumbs: [[t.navContact[l], route]] });
+  return layout({ l, route, title: `${t.navContact[l]} · ${t.contactTitle[l]} | ${SITE.name}`, desc: t.contactIntro[l], body, crumbs: [[t.navContact[l], route]] });
 }
 
 

@@ -737,8 +737,35 @@ export const rentals = {
   ask: { fr: "Demander une visite", en: "Request a viewing", de: "Besichtigung anfragen", hu: "Megtekintést kérek" },
   details: { fr: "Voir le bien", en: "See the property", de: "Objekt ansehen", hu: "Az ingatlan adatai" },
   items: [
-    { slug: "paulay-ede-18", kind: "whole", rent: 3000, exCharges: true },
-    { slug: "rakoczi-40", kind: "rooms", rooms: [
+    { slug: "paulay-ede-18", kind: "whole", rent: 3000, exCharges: true,
+      // Rental texts (separate from the sale texts; Romain, 3 Nov 2026 19:06). Facts only, from the property data.
+      short: L(
+        "À louer près de l'Opéra : appartement entier de 104 m², 5 pièces, 2 salles de bains, 3 000 € par mois hors charges.",
+        "For rent near the Opera: whole 104 m² apartment, 5 rooms, 2 bathrooms, €3,000 per month excl. charges.",
+        "Zur Miete nahe der Oper: ganze Wohnung mit 104 m², 5 Zimmer, 2 Bäder, 3.000 € pro Monat zzgl. Nebenkosten.",
+        "Kiadó az Opera közelében: teljes, 104 m²-es lakás, 5 szoba, 2 fürdőszoba, havi 3 000 € + rezsi.",
+      ),
+      desc: L(
+        "L'appartement entier est proposé à la location : 104 m² et 5 pièces au 3ᵉ étage d'un immeuble historique avec ascenseur, orienté sud-est. Hauts plafonds et moulures restaurées, 2 salles de bains, plancher chauffant, climatisation centrale et domotique. Le métro M1 s'arrête à Opera, à deux pas, et la place Deák Ferenc (M1, M2, M3) est à quelques minutes à pied. Loyer : 3 000 € par mois hors charges.",
+        "The whole apartment is offered for rent: 104 m² and 5 rooms on the 3rd floor of a historic building with a lift, facing South-East. High ceilings and restored mouldings, 2 bathrooms, underfloor heating, central air conditioning and smart-home controls. Metro M1 stops at Opera, steps away, and Deák Ferenc tér (M1, M2, M3) is a few minutes' walk. Rent: €3,000 per month excl. charges.",
+        "Die ganze Wohnung wird vermietet: 104 m² und 5 Zimmer im 3. Stock eines historischen Hauses mit Aufzug, Südost-Ausrichtung. Hohe Decken und restaurierter Stuck, 2 Bäder, Fußbodenheizung, zentrale Klimaanlage und Smart Home. Die Metro M1 hält an der Oper, wenige Schritte entfernt, der Deák Ferenc tér (M1, M2, M3) ist wenige Gehminuten entfernt. Miete: 3.000 € pro Monat zzgl. Nebenkosten.",
+        "A teljes lakás bérelhető: 104 m², 5 szoba, a 3. emeleten, egy liftes történelmi bérházban, délkeleti fekvéssel. Magas belmagasság és felújított stukkók, 2 fürdőszoba, padlófűtés, központi klíma és okosotthon. Az M1-es metró pár lépésre, az Operánál áll meg, a Deák Ferenc tér (M1, M2, M3) néhány perc séta. Bérleti díj: havi 3 000 € + rezsi.",
+      ),
+    },
+    { slug: "rakoczi-40", kind: "rooms",
+      short: L(
+        "Colocation près de Blaha Lujza tér : 4 chambres privées louées séparément, de 324 à 354 € par mois, + 66 € de charges.",
+        "Flat share near Blaha Lujza Square: 4 private rooms let separately, €324–354 per month, + €66 charges.",
+        "WG nahe Blaha Lujza tér: 4 separate Zimmer, einzeln vermietet, 324–354 € pro Monat, + 66 € Nebenkosten.",
+        "Közös bérlemény a Blaha Lujza tér közelében: 4 külön szoba egyenként kiadva, havi 324–354 €, + 66 € rezsi.",
+      ),
+      desc: L(
+        "Quatre chambres privées, louées séparément, dans un appartement de 64 m² au 2ᵉ étage, à quelques pas de Blaha Lujza tér. Deux chambres sont au niveau principal, deux en mezzanine par un escalier suspendu. Les colocataires partagent le séjour double hauteur, la cuisine ouverte avec comptoir, plaque à induction et lave-linge, et la salle d'eau avec douche à l'italienne ; l'appartement est climatisé. Loyer de 324 à 354 € par chambre et par mois, plus 66 € de charges. Le métro M2 (Blaha Lujza tér, Astoria) et le campus ELTE de Múzeum körút sont accessibles à pied.",
+        "Four private rooms, let separately, in a 64 m² apartment on the 2nd floor, a few steps from Blaha Lujza Square. Two rooms are on the main level and two on a mezzanine reached by a floating staircase. Tenants share the double-height living room, the open kitchen with bar counter, induction hob and washing machine, and the bathroom with walk-in shower; the apartment has air conditioning. Rent is €324–354 per room per month, plus €66 charges. Metro M2 (Blaha Lujza tér, Astoria) and ELTE University's Múzeum körút campus are within walking distance.",
+        "Vier separate Zimmer, einzeln vermietet, in einer 64 m² großen Wohnung im 2. Stock, wenige Schritte vom Blaha Lujza tér. Zwei Zimmer liegen auf der Hauptebene, zwei auf einer Galerie über eine freitragende Treppe. Gemeinsam genutzt werden der doppelt hohe Wohnraum, die offene Küche mit Bartresen, Induktionskochfeld und Waschmaschine sowie das Bad mit bodengleicher Dusche; die Wohnung ist klimatisiert. Miete 324–354 € pro Zimmer und Monat, zuzüglich 66 € Nebenkosten. Die Metro M2 (Blaha Lujza tér, Astoria) und der ELTE-Campus am Múzeum körút sind zu Fuß erreichbar.",
+        "Négy külön szoba, egyenként kiadva, egy 64 m²-es, 2. emeleti lakásban, pár lépésre a Blaha Lujza tértől. Két szoba a fő szinten, kettő a lebegő lépcsőn megközelíthető galérián található. A bérlők közösen használják a kétszintes belmagasságú nappalit, a bárpultos amerikai konyhát indukciós főzőlappal és mosógéppel, valamint a walk-in zuhanyzós fürdőt; a lakás klimatizált. Bérleti díj szobánként havi 324–354 €, plusz 66 € rezsi. Az M2-es metró (Blaha Lujza tér, Astoria) és az ELTE Múzeum körúti campusa gyalog elérhető.",
+      ),
+      rooms: [
       { name: "Antalya", pos: { fr: "haut gauche", en: "upper left", de: "oben links", hu: "fent balra" }, rent: 324, charges: 66 },
       { name: "Big Room", pos: null, rent: 354, charges: 66 },
       { name: "Turky", pos: { fr: "bas gauche", en: "lower left", de: "unten links", hu: "lent balra" }, rent: 344, charges: 66 },
