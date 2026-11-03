@@ -29,12 +29,12 @@ const huf = (n, l) => {
   return `≈ ${s} M Ft`;
 };
 const pct = (v, l) => new Intl.NumberFormat(LOCALE[l], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v) + (l === "en" ? "%" : " %");
-const priceMain = (p, l) => (p.priceFromHuf ? p.priceHuf : eur(p.price, l));
+const priceMain = (p, l) => (p.priceFromHuf ? p.priceHuf : huf(p.price, l)); // HUF is the primary price for every property (Romain, 3 Nov 2026 19:01)
 const priceAlt = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : huf(p.price, l));
-// EUR on the left, HUF on the right; the currency the price was set in carries no "≈"
+// HUF first (primary), EUR second (Romain, 3 Nov 2026 19:01); the currency the price was set in carries no "≈"
 const priceEur = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l));
 const priceFt = (p, l) => (p.priceFromHuf ? p.priceHuf : huf(p.price, l));
-const priceDuo = (p, l) => `<span class="pd"><span class="pd-e">${priceEur(p, l)}</span><span class="pd-h">${priceFt(p, l)}</span></span>`;
+const priceDuo = (p, l) => `<span class="pd"><span class="pd-1">${priceFt(p, l)}</span><span class="pd-2">${priceEur(p, l)}</span></span>`;
 
 // path helpers: a "route" is like "" | "projects/" | "projects/klauzal-23/"
 const langBase = (l) => (l === "fr" ? "" : `${l}/`);
