@@ -788,6 +788,24 @@ export const partners = {
   visit: { fr: "Visiter le site", en: "Visit the website", de: "Website besuchen", hu: "A weboldal megnyitása" },
   items: [
     {
+      name: "Home Zone",
+      url: "https://homezone.hu/",
+      logo: "assets/partners/homezone.svg", local: true, w: 1148, h: 302, // SVG logo from homezone.hu (Romain has the agreement)
+      role: {
+        fr: "Agence immobilière à Budapest, depuis 2005",
+        en: "Estate agency in Budapest since 2005",
+        de: "Immobilienagentur in Budapest seit 2005",
+        hu: "Ingatlaniroda Budapesten, 2005 óta",
+      },
+      // Facts from homezone.hu (seen 4 Nov 2026); owner as stated by Romain (4 Nov 2026)
+      text: {
+        fr: "Home Zone vend et loue des biens résidentiels à Budapest depuis 2005, surtout des appartements du centre-ville. L'agence propose aussi estimation, photographie, crédit immobilier, gestion locative, rénovation et ameublement. Elle est dirigée par Csaba Z., agent immobilier partenaire d'Estatelys.",
+        en: "Home Zone has sold and let residential property in Budapest since 2005, mainly inner-city apartments. The agency also offers valuation, photography, mortgage arrangement, property management, renovation and furnishing. It is run by Csaba Z., Estatelys' partner estate agent.",
+        de: "Home Zone verkauft und vermietet seit 2005 Wohnimmobilien in Budapest, vor allem Wohnungen in der Innenstadt. Die Agentur bietet außerdem Bewertung, Fotografie, Finanzierungsvermittlung, Hausverwaltung, Renovierung und Einrichtung an. Geleitet wird sie von Csaba Z., dem Partner-Makler von Estatelys.",
+        hu: "A Home Zone 2005 óta értékesít és ad bérbe lakóingatlanokat Budapesten, főként belvárosi lakásokat. Az iroda értékbecslést, fotózást, hitelügyintézést, ingatlankezelést, felújítást és berendezést is kínál. Vezetője Csaba Z., az Estatelys partner ingatlanügynöke.",
+      },
+    },
+    {
       name: "hngary.com",
       url: "https://www.hngary.com/hungarian-real-estate/",
       logo: "https://www.hngary.com/wp-content/uploads/2026/05/hngary-logo-inline-bold-1024x333.png", w: 1024, h: 333,
