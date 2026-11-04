@@ -76,28 +76,28 @@ export const legal = {
       "Responsable du traitement : Investissement Immobilier Bud Kft. (coordonnées ci-dessus).",
       "Ce site n'utilise ni cookies, ni outil de mesure d'audience, ni publicité. Votre choix de langue est seulement enregistré dans votre navigateur.",
       "Le formulaire de contact n'envoie rien au site : il ouvre votre messagerie. Les messages reçus servent uniquement à répondre à votre demande et ne sont conservés que le temps nécessaire au traitement de votre demande.",
-      "Pour afficher les pages, votre navigateur charge des ressources chez des tiers, qui reçoivent votre adresse IP : OpenStreetMap (fond de carte), unpkg.com (bibliothèque de carte Leaflet) Unsplash (photos de la ville) Google (vue Street View sur la page Stollár Béla 22), ainsi que Metricool et Cloudflare Web Analytics, qui mesurent l'audience (pages vues, provenance des visites).",
+      "Pour afficher les pages, votre navigateur charge des ressources chez des tiers, qui reçoivent votre adresse IP : OpenStreetMap (fond de carte), unpkg.com (bibliothèque de carte Leaflet) Unsplash (photos de la ville) Google (vue Street View sur la page Stollár Béla 22), hngary.com (logo de notre partenaire), ainsi que Metricool et Cloudflare Web Analytics, qui mesurent l'audience (pages vues, provenance des visites).",
       "Vous pouvez demander l'accès, la rectification ou l'effacement de vos données en écrivant à l'adresse ci-dessus, et déposer une réclamation auprès de la NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
     en: [
       "Data controller: Investissement Immobilier Bud Kft. (details above).",
       "This site uses no cookies, no analytics and no advertising. Your language choice is only stored in your own browser.",
       "The contact form sends nothing to the site: it opens your email app. Messages we receive are used only to answer your request and kept only as long as needed to handle it.",
-      "To display the pages, your browser loads resources from third parties, which receive your IP address: OpenStreetMap (map tiles), unpkg.com (Leaflet map library) Unsplash (city photos) Google (Street View on the Stollár Béla 22 page), and Metricool and Cloudflare Web Analytics, which measure the audience (page views, where visits come from).",
+      "To display the pages, your browser loads resources from third parties, which receive your IP address: OpenStreetMap (map tiles), unpkg.com (Leaflet map library) Unsplash (city photos) Google (Street View on the Stollár Béla 22 page), hngary.com (our partner's logo), and Metricool and Cloudflare Web Analytics, which measure the audience (page views, where visits come from).",
       "You may request access to, correction or erasure of your data by writing to the address above, and lodge a complaint with the NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
     de: [
       "Verantwortlicher: Investissement Immobilier Bud Kft. (Angaben oben).",
       "Diese Website verwendet keine Cookies, keine Reichweitenmessung und keine Werbung. Ihre Sprachwahl wird nur in Ihrem eigenen Browser gespeichert.",
       "Das Kontaktformular sendet nichts an die Website, es öffnet Ihr E-Mail-Programm. Eingehende Nachrichten dienen nur der Beantwortung Ihrer Anfrage und nur so lange wie dafür nötig aufbewahrt.",
-      "Zur Anzeige lädt Ihr Browser Inhalte von Dritten, die Ihre IP-Adresse erhalten: OpenStreetMap (Kartenkacheln), unpkg.com (Kartenbibliothek Leaflet) Unsplash (Stadtfotos) Google (Street View auf der Seite Stollár Béla 22) sowie Metricool und Cloudflare Web Analytics, die die Nutzung messen (Seitenaufrufe, Herkunft der Besuche).",
+      "Zur Anzeige lädt Ihr Browser Inhalte von Dritten, die Ihre IP-Adresse erhalten: OpenStreetMap (Kartenkacheln), unpkg.com (Kartenbibliothek Leaflet) Unsplash (Stadtfotos) Google (Street View auf der Seite Stollár Béla 22), hngary.com (Logo unseres Partners) sowie Metricool und Cloudflare Web Analytics, die die Nutzung messen (Seitenaufrufe, Herkunft der Besuche).",
       "Sie können Auskunft, Berichtigung oder Löschung Ihrer Daten unter der obigen Adresse verlangen und Beschwerde bei der NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu) einlegen.",
     ],
     hu: [
       "Adatkezelő: Investissement Immobilier Bud Kft. (adatai fent).",
       "A honlap nem használ sütiket, látogatottságmérést vagy hirdetéseket. A választott nyelvet csak az Ön böngészője tárolja.",
       "A kapcsolatfelvételi űrlap nem küld adatot a honlapra: megnyitja az Ön levelezőprogramját. A beérkező üzeneteket kizárólag a megkeresés megválaszolására használjuk, és csak az ehhez szükséges ideig őrizzük.",
-      "Az oldalak megjelenítéséhez a böngésző harmadik felektől tölt be tartalmat, amelyek megkapják az Ön IP-címét: OpenStreetMap (térkép), unpkg.com (Leaflet térképkönyvtár) Unsplash (városfotók) Google (Street View a Stollár Béla 22. oldalon), valamint a Metricool és a Cloudflare Web Analytics, amelyek a látogatottságot mérik (oldalmegtekintések, a látogatások forrása).",
+      "Az oldalak megjelenítéséhez a böngésző harmadik felektől tölt be tartalmat, amelyek megkapják az Ön IP-címét: OpenStreetMap (térkép), unpkg.com (Leaflet térképkönyvtár) Unsplash (városfotók) Google (Street View a Stollár Béla 22. oldalon), hngary.com (partnerünk logója), valamint a Metricool és a Cloudflare Web Analytics, amelyek a látogatottságot mérik (oldalmegtekintések, a látogatások forrása).",
       "Kérheti adatai megismerését, helyesbítését vagy törlését a fenti címen, és panaszt tehet a NAIH-nál (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
   },
@@ -771,5 +771,39 @@ export const rentals = {
       { name: "Turky", pos: { fr: "bas gauche", en: "lower left", de: "unten links", hu: "lent balra" }, rent: 344, charges: 66 },
       { name: "Istanbul", pos: { fr: "haut droite", en: "upper right", de: "oben rechts", hu: "fent jobbra" }, rent: 334, charges: 66 },
     ] },
+  ],
+};
+
+// Partners (Romain, 4 Nov 2026: "Our partners", hngary.com; Romain has the partner's agreement, logo included).
+// Logo hotlinked from the partner's site until a local copy is supplied (listed in the privacy text).
+export const partners = {
+  eyebrow: { fr: "Partenaires", en: "Partners", de: "Partner", hu: "Partnerek" },
+  title: { fr: "Nos partenaires", en: "Our partners", de: "Unsere Partner", hu: "Partnereink" },
+  intro: {
+    fr: "Des professionnels avec qui nous travaillons pour accompagner les acheteurs et locataires étrangers à Budapest.",
+    en: "Professionals we work with to support foreign buyers and tenants in Budapest.",
+    de: "Fachleute, mit denen wir zusammenarbeiten, um ausländische Käufer und Mieter in Budapest zu begleiten.",
+    hu: "Szakemberek, akikkel együttműködünk a külföldi vevők és bérlők támogatásában Budapesten.",
+  },
+  visit: { fr: "Visiter le site", en: "Visit the website", de: "Website besuchen", hu: "A weboldal megnyitása" },
+  items: [
+    {
+      name: "hngary.com",
+      url: "https://www.hngary.com/hungarian-real-estate/",
+      logo: "https://www.hngary.com/wp-content/uploads/2026/05/hngary-logo-inline-bold-1024x333.png", w: 1024, h: 333,
+      role: {
+        fr: "Installation et immobilier en Hongrie pour les étrangers",
+        en: "Relocation and real estate in Hungary for foreigners",
+        de: "Umzug und Immobilien in Ungarn für Ausländer",
+        hu: "Letelepedés és ingatlan Magyarországon külföldieknek",
+      },
+      // Services as listed on hngary.com (seen 4 Nov 2026)
+      text: {
+        fr: "hngary.com accompagne particuliers, familles, expatriés et investisseurs en Hongrie : recherche immobilière, visas et résidence, documents officiels, permis de travail et traductions. Notre appartement Paulay Ede 18 est aussi présenté sur hngary.com.",
+        en: "hngary.com supports individuals, families, expatriates and investors in Hungary: property search, visas and residency, official documents, work permits and translation. Our Paulay Ede 18 apartment is also presented on hngary.com.",
+        de: "hngary.com begleitet Privatpersonen, Familien, Expats und Investoren in Ungarn: Immobiliensuche, Visa und Aufenthalt, amtliche Dokumente, Arbeitserlaubnisse und Übersetzungen. Unsere Wohnung Paulay Ede 18 wird auch auf hngary.com vorgestellt.",
+        hu: "A hngary.com magánszemélyeket, családokat, expatokat és befektetőket segít Magyarországon: ingatlankeresés, vízum és tartózkodás, hivatalos iratok, munkavállalási engedélyek és fordítás. Paulay Ede 18. lakásunk a hngary.com oldalon is szerepel.",
+      },
+    },
   ],
 };

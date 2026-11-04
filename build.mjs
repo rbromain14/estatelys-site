@@ -4,7 +4,7 @@
 import { readdirSync } from "node:fs";
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners } from "./src/data.mjs";
 const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
 const RES_ITEMS = resources.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g })));
 const TOOL_PAGES = new Set(["sim"]);
@@ -211,6 +211,24 @@ const ICON = {
 };
 const svgIcon = (id) => `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor">${ICON[id]}</svg>`;
 const SOCIAL_PREVIEW = process.env.SOCIAL_PREVIEW === "1";
+function partnersBlock(l) {
+  if (!partners.items.length) return "";
+  return `<section class="sec wrap partners">
+  <p class="eyebrow">${partners.eyebrow[l]}</p>
+  <h2>${partners.title[l]}</h2>
+  <p class="muted team-i">${partners.intro[l]}</p>
+  <div class="ptn-g">${partners.items.map((p) => `<article class="ptn">
+    <a class="ptn-l" href="${esc(p.url)}" target="_blank" rel="noopener" data-ev="partner" aria-label="${esc(p.name)}"><img src="${esc(p.logo)}" alt="${esc(p.name)}" width="${p.w}" height="${p.h}" loading="lazy" referrerpolicy="no-referrer"></a>
+    <div class="ptn-b">
+      <p class="tm-r">${p.role[l]}</p>
+      <h3>${esc(p.name)}</h3>
+      <p class="muted small">${p.text[l]}</p>
+      <a class="ptn-a" href="${esc(p.url)}" target="_blank" rel="noopener" data-ev="partner">${partners.visit[l]} →</a>
+    </div>
+  </article>`).join("")}</div>
+</section>`;
+}
+
 function followBlock(l) {
   const list = SITE.social.filter((s) => s.url || SOCIAL_PREVIEW);
   if (!list.length) return "";
@@ -318,7 +336,8 @@ function home(l) {
   <div class="city">
     ${cityPhotos.map((c) => `<figure><img src="${c.src}" alt="${esc(c.label[l])}" loading="lazy" decoding="async"><figcaption><span>${c.label[l]}</span><a class="small muted" href="${c.link}" rel="noopener" target="_blank">© ${c.credit} / Unsplash</a></figcaption></figure>`).join("")}
   </div>
-</section>`;
+</section>
+${partnersBlock(l)}`;
   return layout({ l, route, title: seo.homeTitle[l], desc: t.metaDesc[l], body, bodyClass: "is-home" });
 }
 
@@ -535,6 +554,7 @@ function about(l) {
     <p class="muted small">${m.text[l]}</p>
   </article>`).join("")}</div>
 </section>
+${partnersBlock(l)}
 <section class="sec wrap sig">
   <h2>${signature.title[l]}</h2>
   <img class="sig-img" src="${asset(l, route, "assets/signature.png")}" alt="Estatelys" width="1400" height="341" loading="lazy">
