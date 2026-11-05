@@ -59,9 +59,9 @@ const m2Of = (p) => { const m = p.facts[0].en.match(/(\d+)\s*m²/); return m ? +
 const hufValue = (p) => { const m = String(p.priceHuf || "").match(/([\d.,]+)\s*M/); return m ? Math.round(parseFloat(m[1].replace(",", ".")) * 1e6) : null; };
 const ORG_ID = `https://${SITE.domain}/#organization`;
 // Homepage photo (Unsplash). Change it here: the home hero AND the default share image (og:image) both use it.
-const HERO_PHOTO = "https://images.unsplash.com/photo-1587325599468-a18a9650de2c";
-// Share image: same photo, black and white like on the site (imgix sat=-100), 1200×630 for link previews
-const SHARE_IMG = `${HERO_PHOTO}?ixlib=rb-4.1.0&fm=jpg&q=80&fit=crop&crop=entropy&w=1200&h=630&sat=-100`;
+// Homepage photo: St Stephen's Basilica, B&W (Unsplash sbyz9wX9Rrg, © Salmen Bejaoui), hosted locally since 5 Nov 2026
+// (src/img/hero-basilica-900/1600/2400 .jpg + .webp). Share image = 1200×630 crop of the same photo.
+const SHARE_IMG = `https://${SITE.domain}/img/share-basilica.jpg`;
 const WEB_ID = `https://${SITE.domain}/#website`;
 const seatParts = SITE.seat.match(/^(\d{4})\s+([^,]+),\s*(.+)$/);
 const ORG = {
@@ -292,7 +292,7 @@ function home(l) {
   const R = (r) => rel(l, route, l, r);
   const body = `
 <section class="hero dk">
-  <img class="hero-img" src="${HERO_PHOTO}?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1920" srcset="${HERO_PHOTO}?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=900 900w, ${HERO_PHOTO}?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=1600 1600w, ${HERO_PHOTO}?ixlib=rb-4.1.0&fm=jpg&q=78&fit=crop&crop=entropy&w=2400 2400w" sizes="100vw" alt="${esc(t.heroAlt[l])}" fetchpriority="high">
+  <picture><source type="image/webp" srcset="${A("img/hero-basilica-900.webp")} 900w, ${A("img/hero-basilica-1600.webp")} 1600w, ${A("img/hero-basilica-2400.webp")} 2400w" sizes="100vw"><img class="hero-img" src="${A("img/hero-basilica-1600.jpg")}" srcset="${A("img/hero-basilica-900.jpg")} 900w, ${A("img/hero-basilica-1600.jpg")} 1600w, ${A("img/hero-basilica-2400.jpg")} 2400w" sizes="100vw" width="2400" height="1350" alt="${esc(t.heroAlt[l])}" fetchpriority="high"></picture>
   <a class="hero-cr" href="https://unsplash.com/photos/sbyz9wX9Rrg" target="_blank" rel="noopener">© Salmen Bejaoui / Unsplash</a>
   <div class="hero-fade"></div>
   <div class="wrap hero-in">
