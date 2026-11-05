@@ -761,7 +761,9 @@ function blogPage(l) {
     </div>
   </article>`).join("")}</div>
 </section>`;
-  return layout({ l, route, title: `${blog.title[l]} | Estatelys`, desc: blog.intro[l], body, crumbs: [[t.navBlog[l], route]] });
+  const blogLd = { "@type": "Blog", "@id": abs(l, route) + "#blog", name: blog.title[l], url: abs(l, route), inLanguage: l, publisher: { "@id": ORG_ID },
+    blogPost: BLOG.map((a) => ({ "@type": "BlogPosting", headline: a.title[l], url: abs(l, `blog/${a.slug}/`), datePublished: a.date })) };
+  return layout({ l, route, title: seo.blogTitle[l], desc: blog.intro[l], body, crumbs: [[t.navBlog[l], route]], ld: [blogLd] });
 }
 function blogArticle(a, l) {
   const route = `blog/${a.slug}/`;
@@ -792,8 +794,13 @@ function blogArticle(a, l) {
     <a class="rback" href="${R("blog/")}"><i class="arr">←</i> ${blog.back[l]}</a>
   </aside>
 </section>`;
+  const post = { "@type": "BlogPosting", "@id": abs(l, route) + "#article", headline: a.title[l], description: a.summary[l], inLanguage: l,
+    datePublished: a.date, dateModified: a.updated || a.date, url: abs(l, route), mainEntityOfPage: abs(l, route),
+    image: [a.cover, ...(a.gallery || [])].filter(Boolean).map((n) => `https://${SITE.domain}/img/${n}.jpg`),
+    author: { "@id": ORG_ID }, publisher: { "@id": ORG_ID }, isPartOf: { "@id": abs(l, "blog/") + "#blog" },
+    ...(props.length ? { about: props.map((p) => ({ "@type": "Apartment", name: p.name, url: abs(l, `projects/${p.slug}/`) })) } : {}) };
   return layout({ l, route, title: a.seoTitle ? a.seoTitle[l] : `${a.title[l]} | Estatelys`, desc: a.summary[l], body, image: a.cover,
-    crumbs: [[t.navBlog[l], "blog/"], [a.title[l], route]] });
+    crumbs: [[t.navBlog[l], "blog/"], [a.title[l], route]], ld: [post] });
 }
 
 // ── district pages ───────────────────────────────────────────
@@ -821,7 +828,10 @@ ${refs.length ? `<section class="sec wrap"><h2 class="h3">${districts.refs[l]}</
 ${posts.length ? `<section class="sec wrap"><h2 class="h3">${blog.onBlog[l]}</h2><ul class="dlist">${posts.map((b) => `<li><a href="${R(`blog/${b.slug}/`)}">${esc(b.title[l])}</a></li>`).join("")}</ul></section>` : ""}
 <section class="sec wrap"><h2 class="h3">${districts.guides[l]}</h2><ul class="dlist dcols">${guides.map((x) => `<li><a href="${R(`resources/${x.slug}/`)}">${resTitle(x)}</a></li>`).join("")}</ul></section>
 <section class="sec wrap"><p class="eyebrow">${districts.others[l]}</p><p>${districts.items.filter((x) => x.slug !== d.slug).map((x) => `<a class="res-a" href="${R(`districts/${x.slug}/`)}">${x.name[l]} <i class="arr">→</i></a>`).join(" &nbsp; ")}</p></section>`;
-  return layout({ l, route, title: `${h1} | Estatelys`, desc: districts.intro[l], body, crumbs: [[d.name[l], route]] });
+  const place = { "@type": "CollectionPage", name: h1, url: abs(l, route), inLanguage: l,
+    about: { "@type": "Place", name: `${d.name[l]}, Budapest`, containedInPlace: { "@type": "City", name: "Budapest" } },
+    ...(props.length ? { mainEntity: { "@type": "ItemList", itemListElement: props.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: abs(l, `projects/${p.slug}/`), name: p.name })) } } : {}) };
+  return layout({ l, route, title: `${h1} | Estatelys`, desc: seo.districtDesc[l].replace("{d}", d.name[l]), body, crumbs: [[d.name[l], route]], ld: [place] });
 }
 
 function referencesPage(l) {
