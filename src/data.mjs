@@ -147,6 +147,7 @@ export const t = {
   stat2: { fr: "Arrondissements", en: "Districts", de: "Bezirke", hu: "Kerület" },
   navRefs: { fr: "Références", en: "References", de: "Referenzen", hu: "Referenciák" },
   navResources: { fr: "Ressources", en: "Resources", de: "Ressourcen", hu: "Források" },
+  navBlog: { fr: "Blog", en: "Blog", de: "Blog", hu: "Blog" },
   stat3: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlan" },
   stat4: { fr: "Langues parlées", en: "Languages spoken", de: "Gesprochene Sprachen", hu: "Beszélt nyelv" },
   featuredEyebrow: { fr: "En vente actuellement", en: "Currently for sale", de: "Aktuell zum Verkauf", hu: "Jelenleg eladó" },
@@ -833,4 +834,22 @@ export const partners = {
       },
     },
   ],
+};
+
+// Blog (SEO message SEO-1, 5 Nov 2026; Romain "fais le blog" 14:13). Articles in src/blog/*.json.
+export const blog = {
+  title: { fr: "Le blog Estatelys", en: "The Estatelys blog", de: "Der Estatelys-Blog", hu: "Az Estatelys blog" },
+  intro: {
+    fr: "Nos projets en chiffres, le marché de Budapest et ce qu'il faut savoir pour acheter, rénover et louer.",
+    en: "Our projects in figures, the Budapest market, and what to know to buy, renovate and let.",
+    de: "Unsere Projekte in Zahlen, der Budapester Markt und was man zum Kaufen, Renovieren und Vermieten wissen sollte.",
+    hu: "Projektjeink számokban, a budapesti piac, és amit a vásárláshoz, felújításhoz és bérbeadáshoz tudni érdemes.",
+  },
+  read: { fr: "Lire l'article", en: "Read the article", de: "Artikel lesen", hu: "Tovább a cikkre" },
+  minutes: { fr: "min de lecture", en: "min read", de: "Min. Lesezeit", hu: "perc olvasás" },
+  updated: { fr: "Mis à jour le", en: "Updated", de: "Aktualisiert am", hu: "Frissítve:" },
+  property: { fr: "Le bien de l'article", en: "The property in this article", de: "Das Objekt im Artikel", hu: "A cikkben szereplő ingatlan" },
+  related: { fr: "Pour aller plus loin", en: "Further reading", de: "Weiterlesen", hu: "További olvasnivaló" },
+  back: { fr: "Tous les articles", en: "All articles", de: "Alle Artikel", hu: "Összes cikk" },
+  question: { fr: "Une question sur ce sujet ?", en: "A question on this topic?", de: "Eine Frage zu diesem Thema?", hu: "Kérdése van a témában?" },
 };

@@ -4,8 +4,9 @@
 import { readdirSync } from "node:fs";
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners, blog } from "./src/data.mjs";
 const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
+const BLOG = existsSync("src/blog") ? readdirSync("src/blog").filter((f) => f.endsWith(".json")).map((f) => JSON.parse(readFileSync(join("src/blog", f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)) : [];
 const RES_ITEMS = resources.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g })));
 const TOOL_PAGES = new Set(["sim"]);
 const resReady = (it) => Boolean(RES[it.key]) || TOOL_PAGES.has(it.key);
@@ -84,6 +85,7 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
     ["rentals/", t.navRentals[l]],
     ...(REFS.length ? [["references/", t.navRefs[l]]] : []),
     ["resources/", t.navResources[l]],
+    ...(BLOG.length ? [["blog/", t.navBlog[l]]] : []),
     ["about/", t.navAbout[l]],
     ["contact/", t.navContact[l]],
   ];
@@ -734,6 +736,61 @@ function resourcePage(it, l) {
     crumbs: [[t.navResources[l], "resources/"], [title, route]], ld: ldRes });
 }
 
+// ── blog ─────────────────────────────────────────────────────
+const readMin = (a, l) => Math.max(1, Math.round(a.sections.map((x) => x.body[l]).join(" ").split(/\s+/).length / 200));
+function blogPage(l) {
+  const route = "blog/";
+  const R = (r) => rel(l, route, l, r);
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow">${t.navBlog[l]}</p>
+  <h1>${blog.title[l]}</h1>
+  <p class="lead muted">${blog.intro[l]}</p>
+</div></section>
+<section class="sec wrap">
+  <div class="blog-g">${BLOG.map((a) => `<article class="bcard">
+    <a class="bcard-m" href="${R(`blog/${a.slug}/`)}" tabindex="-1" aria-hidden="true">${img(l, route, a.cover, a.coverAlt[l], "", "(min-width: 900px) 40vw, 100vw")}</a>
+    <div class="bcard-b">
+      <p class="small muted">${DATE_FMT(a.date, l)} · ${readMin(a, l)} ${blog.minutes[l]}</p>
+      <h2 class="h3"><a href="${R(`blog/${a.slug}/`)}">${esc(a.title[l])}</a></h2>
+      <p class="muted">${esc(a.summary[l])}</p>
+      <a class="res-a" href="${R(`blog/${a.slug}/`)}">${blog.read[l]} <i class="arr">→</i></a>
+    </div>
+  </article>`).join("")}</div>
+</section>`;
+  return layout({ l, route, title: `${blog.title[l]} | Estatelys`, desc: blog.intro[l], body, crumbs: [[t.navBlog[l], route]] });
+}
+function blogArticle(a, l) {
+  const route = `blog/${a.slug}/`;
+  const R = (r) => rel(l, route, l, r);
+  const n = (a.sources || []).length;
+  const props = (a.properties || []).map((s) => projects.find((p) => p.slug === s)).filter(Boolean);
+  const res = (a.resources || []).map((k) => RES_ITEMS.find((x) => x.key === k)).filter((x) => x && resReady(x));
+  const resTitle = (x) => (RES[x.key] ? esc(RES[x.key].title[l]) : x.key === "sim" ? resources.sim.title[l] : x[l]);
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow"><a href="${R("blog/")}">${t.navBlog[l]}</a> · ${DATE_FMT(a.date, l)} · ${readMin(a, l)} ${blog.minutes[l]}</p>
+  <h1 class="rh1">${esc(a.title[l])}</h1>
+  <p class="lead muted">${esc(a.summary[l])}</p>
+</div></section>
+<section class="sec wrap rwrap">
+  <article class="rart">
+    <figure class="bfig">${img(l, route, a.cover, a.coverAlt[l], "", "(min-width: 900px) 760px, 100vw")}<figcaption class="small muted">${esc(a.coverAlt[l])}</figcaption></figure>
+    ${a.sections.map((x) => `<section class="rsec"><h2>${esc(x.h[l])}</h2>${md(x.body[l], n)}</section>`).join("")}
+    ${res.length ? `<section class="rsec"><h2 class="h4">${blog.related[l]}</h2><ul>${res.map((x) => `<li><a href="${R(`resources/${x.slug}/`)}">${resTitle(x)}</a></li>`).join("")}</ul></section>` : ""}
+    ${n ? `<section class="rsec rsrc"><h2 class="h4">${resources.ui.sources[l]}</h2><ol>${a.sources.map((x, i) => `<li id="src-${i + 1}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="muted">— ${resources.ui.seen[l]} ${DATE_FMT(x.seen, l)}</span></li>`).join("")}</ol></section>` : ""}
+    ${a.updated && a.updated !== a.date ? `<p class="small muted">${blog.updated[l]} ${DATE_FMT(a.updated, l)}</p>` : ""}
+  </article>
+  <aside class="rside">
+    ${props.length ? `<div class="bprop"><p class="small muted">${blog.property[l]}</p>${props.map((p) => card(p, l, route)).join("")}</div>` : ""}
+    <div class="rbox"><p class="h4">${blog.question[l]}</p><a class="btn" href="${R("contact/")}?r=${encodeURIComponent(a.title.en)}" data-ev="contact">${t.contactUs[l]}</a></div>
+    <a class="rback" href="${R("blog/")}"><i class="arr">←</i> ${blog.back[l]}</a>
+  </aside>
+</section>`;
+  return layout({ l, route, title: `${a.title[l]} | Estatelys`, desc: a.summary[l], body, image: a.cover,
+    crumbs: [[t.navBlog[l], "blog/"], [a.title[l], route]] });
+}
+
 function referencesPage(l) {
   const route = "references/";
   const src = (r, i) => asset(l, route, `img/refs/${r.slug}-${i + 1}.jpg`);
@@ -782,7 +839,8 @@ for (const l of LANGS) {
   const pages = [["", home(l)], ["projects/", projectsPage(l)], ["rentals/", rentalsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
     ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
     ...rentals.items.map((it) => [it, projects.find((x) => x.slug === it.slug)]).filter(([, p]) => p).map(([it, p]) => [`rentals/${p.slug}/`, projectPage(p, l, it)]),
-    ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)])];
+    ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)]),
+    ...(BLOG.length ? [["blog/", blogPage(l)], ...BLOG.map((a) => [`blog/${a.slug}/`, blogArticle(a, l)])] : [])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); routes.add(route); }
 }
 write(join(OUT, "404.html"), notFound());
