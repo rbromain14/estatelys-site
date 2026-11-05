@@ -851,5 +851,6 @@ export const blog = {
   property: { fr: "Le bien de l'article", en: "The property in this article", de: "Das Objekt im Artikel", hu: "A cikkben szereplő ingatlan" },
   related: { fr: "Pour aller plus loin", en: "Further reading", de: "Weiterlesen", hu: "További olvasnivaló" },
   back: { fr: "Tous les articles", en: "All articles", de: "Alle Artikel", hu: "Összes cikk" },
+  onBlog: { fr: "Sur le blog", en: "On the blog", de: "Im Blog", hu: "A blogon" },
   question: { fr: "Une question sur ce sujet ?", en: "A question on this topic?", de: "Eine Frage zu diesem Thema?", hu: "Kérdése van a témában?" },
 };

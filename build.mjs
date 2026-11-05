@@ -723,6 +723,7 @@ function resourcePage(it, l) {
   </article>
   <aside class="rside">
     <div class="rbox"><p class="h4">${resources.ui.question[l]}</p><a class="btn" href="${R("contact/")}?r=${encodeURIComponent(it.en)}">${t.contactUs[l]}</a></div>
+    ${(() => { const posts = BLOG.filter((b) => (b.resources || []).includes(it.key)); return posts.length ? `<div class="rbox"><p class="small muted">${blog.onBlog[l]}</p><ul>${posts.map((b) => `<li><a href="${R(`blog/${b.slug}/`)}">${esc(b.title[l])}</a></li>`).join("")}</ul></div>` : ""; })()}
     ${siblings.length ? `<div class="rbox"><p class="small muted">${resources.ui.related[l]}</p><ul>${siblings.map((x) => `<li><a href="${R(`resources/${x.slug}/`)}">${RES[x.key] ? esc(RES[x.key].title[l]) : x.key === "sim" ? resources.sim.title[l] : x[l]}</a></li>`).join("")}</ul></div>` : ""}
     <a class="rback" href="${R("resources/")}"><i class="arr">←</i> ${resources.ui.back[l]}</a>
   </aside>
