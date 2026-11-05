@@ -1,0 +1,290 @@
+{
+  "slug": "case-study-andrassy-53-renovation-budapest",
+  "date": "2026-11-05",
+  "updated": "2026-11-05",
+  "rank": 1,
+  "cover": "refs/andrassy-53-1",
+  "coverAlt": {
+    "fr": "Andrássy út 53 après rénovation, Budapest VI",
+    "en": "Andrássy út 53 after renovation, Budapest VI",
+    "de": "Andrássy út 53 nach der Renovierung, Budapest VI",
+    "hu": "Andrássy út 53 felújítás után, Budapest VI."
+  },
+  "gallery": [
+    "refs/andrassy-53-2",
+    "refs/andrassy-53-3",
+    "refs/andrassy-53-4"
+  ],
+  "reference": "andrassy-53",
+  "title": {
+    "fr": "Andrássy út 53 : rénover et revendre 117 m² sur l'avenue Andrássy",
+    "en": "Andrássy út 53: renovating and reselling 117 m² on Andrássy Avenue",
+    "de": "Andrássy út 53: 117 m² an der Andrássy út renovieren und verkaufen",
+    "hu": "Andrássy út 53: 117 m² felújítása és eladása az Andrássy úton"
+  },
+  "seoTitle": {
+    "fr": "Étude de cas : rénovation d'un 117 m² avenue Andrássy, Budapest | Estatelys",
+    "en": "Case study: renovating a 117 m² flat on Andrássy Avenue, Budapest | Estatelys",
+    "de": "Fallstudie: Renovierung einer 117-m²-Wohnung an der Andrássy út, Budapest | Estatelys",
+    "hu": "Esettanulmány: 117 m²-es lakás felújítása az Andrássy úton, Budapest | Estatelys"
+  },
+  "summary": {
+    "fr": "Achat 117 M Ft, travaux 65,6 M Ft, vente 288,5 M Ft : les chiffres réels et les deux risques d'un appartement rénové avenue Andrássy, Budapest VI.",
+    "en": "Bought for 117 M Ft, 65.6 M Ft of works, sold for 288.5 M Ft: the real figures and two risks of a flat renovated on Andrássy Avenue, Budapest VI.",
+    "de": "Kauf 117 Mio. Ft, Arbeiten 65,6 Mio. Ft, Verkauf 288,5 Mio. Ft: die echten Zahlen und zwei Risiken einer renovierten Wohnung an der Andrássy út, Budapest VI.",
+    "hu": "Vétel 117 M Ft, munkák 65,6 M Ft, eladás 288,5 M Ft: egy felújított Andrássy úti lakás valós számai és két kockázata, Budapest VI."
+  },
+  "sections": [
+    {
+      "h": {
+        "fr": "Le bien",
+        "en": "The property",
+        "de": "Das Objekt",
+        "hu": "Az ingatlan"
+      },
+      "body": {
+        "fr": "Un appartement de 117 m² au 2ᵉ étage d'un immeuble d'époque avec ascenseur, au 53 de l'avenue Andrássy, dans le VIᵉ arrondissement. L'immeuble se trouve dans un secteur protégé et est inscrit comme valeur patrimoniale sur le titre de propriété.",
+        "en": "A 117 m² flat on the 2nd floor of a period building with a lift at Andrássy út 53, in Budapest's 6th district. The building is in a protected area and is registered as a heritage asset on the title deed.",
+        "de": "Eine 117 m² große Wohnung im 2. Stock eines historischen Hauses mit Aufzug, Andrássy út 53, im 6. Bezirk von Budapest. Das Gebäude liegt in einem Schutzgebiet und ist im Grundbuch als Kulturdenkmal eingetragen.",
+        "hu": "117 m²-es lakás egy liftes, korabeli bérház 2. emeletén, az Andrássy út 53. szám alatt, Budapest VI. kerületében. Az épület védett területen áll, és a tulajdoni lapon műemléki értékként szerepel."
+      }
+    },
+    {
+      "h": {
+        "fr": "Le calendrier",
+        "en": "Timeline",
+        "de": "Zeitplan",
+        "hu": "Ütemezés"
+      },
+      "body": {
+        "fr": "- Janvier 2023 : signature du compromis.\n- 28 février 2023 : remise des clés. Plans 2D, rendus 3D et liste des matériaux validés le même mois.\n- 2023–2024 : rénovation complète : démolition, plomberie, cloisons, électricité, chauffage et climatisation, carrelage et parquet, moulures restaurées, portes, cuisine sur mesure, salles d'eau, ameublement.\n- 10 octobre 2024 : signature de la vente, environ 20 mois après la remise des clés.",
+        "en": "- January 2023: preliminary sale agreement signed.\n- 28 February 2023: keys handed over. 2D plans, 3D renderings and the materials list approved the same month.\n- 2023–2024: full renovation: demolition, plumbing, partitions, electrics, heating and air conditioning, tiles and parquet, restored mouldings, doors, made-to-measure kitchen, bathrooms, furniture.\n- 10 October 2024: sale contract signed, about 20 months after the keys.",
+        "de": "- Januar 2023: Vorvertrag unterzeichnet.\n- 28. Februar 2023: Schlüsselübergabe. 2D-Pläne, 3D-Visualisierungen und Materialliste im selben Monat freigegeben.\n- 2023–2024: Komplettrenovierung: Abbruch, Sanitär, Trennwände, Elektrik, Heizung und Klimaanlage, Fliesen und Parkett, restaurierter Stuck, Türen, maßgefertigte Küche, Bäder, Möblierung.\n- 10. Oktober 2024: Kaufvertrag unterzeichnet, rund 20 Monate nach der Schlüsselübergabe.",
+        "hu": "- 2023. január: előszerződés aláírása.\n- 2023. február 28.: kulcsátadás. A 2D tervek, a 3D látványtervek és az anyaglista ugyanabban a hónapban jóváhagyva.\n- 2023–2024: teljes felújítás: bontás, vízszerelés, válaszfalak, villany, fűtés és klíma, burkolás és parketta, felújított stukkók, ajtók, egyedi konyha, fürdőszobák, bútorozás.\n- 2024. október 10.: az adásvételi szerződés aláírása, kb. 20 hónappal a kulcsátadás után."
+      }
+    },
+    {
+      "h": {
+        "fr": "Les chiffres",
+        "en": "The figures",
+        "de": "Die Zahlen",
+        "hu": "A számok"
+      },
+      "body": {
+        "fr": "Chiffres des comptes du projet, hors impôt sur le résultat.",
+        "en": "Figures from the project accounts, before income tax.",
+        "de": "Zahlen aus der Projektabrechnung, vor Ertragsteuer.",
+        "hu": "Számok a projekt elszámolásából, nyereségadó előtt."
+      },
+      "table": {
+        "head": {
+          "fr": [
+            "",
+            "Montant",
+            "Au m²"
+          ],
+          "en": [
+            "",
+            "Amount",
+            "Per m²"
+          ],
+          "de": [
+            "",
+            "Betrag",
+            "Pro m²"
+          ],
+          "hu": [
+            "",
+            "Összeg",
+            "m²-enként"
+          ]
+        },
+        "rows": {
+          "fr": [
+            [
+              "Prix d'achat",
+              "117 000 000 Ft",
+              "1 000 000 Ft"
+            ],
+            [
+              "Frais d'acquisition et administratifs",
+              "6 965 000 Ft",
+              ""
+            ],
+            [
+              "Travaux, matériaux, cuisine et mobilier",
+              "65 631 167 Ft",
+              "≈ 561 000 Ft"
+            ],
+            [
+              "**Coût total**",
+              "**189 596 167 Ft**",
+              "≈ 1 620 000 Ft"
+            ],
+            [
+              "Prix de vente",
+              "288 500 000 Ft",
+              "≈ 2 466 000 Ft"
+            ],
+            [
+              "Frais de vente (agence 4,5 %, avocat, demandes de l'acheteur)",
+              "16 418 960 Ft",
+              ""
+            ],
+            [
+              "**Marge avant impôts**",
+              "**82 484 873 Ft**",
+              "43,5 % du coût total, 28,6 % du prix de vente"
+            ]
+          ],
+          "en": [
+            [
+              "Purchase price",
+              "117,000,000 Ft",
+              "1,000,000 Ft"
+            ],
+            [
+              "Acquisition and administrative costs",
+              "6,965,000 Ft",
+              ""
+            ],
+            [
+              "Works, materials, kitchen and furniture",
+              "65,631,167 Ft",
+              "≈ 561,000 Ft"
+            ],
+            [
+              "**Total cost**",
+              "**189,596,167 Ft**",
+              "≈ 1,620,000 Ft"
+            ],
+            [
+              "Sale price",
+              "288,500,000 Ft",
+              "≈ 2,466,000 Ft"
+            ],
+            [
+              "Selling costs (agency 4.5%, lawyer, buyer requests)",
+              "16,418,960 Ft",
+              ""
+            ],
+            [
+              "**Margin before tax**",
+              "**82,484,873 Ft**",
+              "43.5% of total cost, 28.6% of the sale price"
+            ]
+          ],
+          "de": [
+            [
+              "Kaufpreis",
+              "117.000.000 Ft",
+              "1.000.000 Ft"
+            ],
+            [
+              "Erwerbs- und Verwaltungskosten",
+              "6.965.000 Ft",
+              ""
+            ],
+            [
+              "Arbeiten, Material, Küche und Möbel",
+              "65.631.167 Ft",
+              "≈ 561.000 Ft"
+            ],
+            [
+              "**Gesamtkosten**",
+              "**189.596.167 Ft**",
+              "≈ 1.620.000 Ft"
+            ],
+            [
+              "Verkaufspreis",
+              "288.500.000 Ft",
+              "≈ 2.466.000 Ft"
+            ],
+            [
+              "Verkaufskosten (Makler 4,5 %, Anwalt, Käuferwünsche)",
+              "16.418.960 Ft",
+              ""
+            ],
+            [
+              "**Marge vor Steuern**",
+              "**82.484.873 Ft**",
+              "43,5 % der Gesamtkosten, 28,6 % des Verkaufspreises"
+            ]
+          ],
+          "hu": [
+            [
+              "Vételár",
+              "117 000 000 Ft",
+              "1 000 000 Ft"
+            ],
+            [
+              "Vételi és ügyintézési költségek",
+              "6 965 000 Ft",
+              ""
+            ],
+            [
+              "Munkák, anyagok, konyha és bútorok",
+              "65 631 167 Ft",
+              "≈ 561 000 Ft"
+            ],
+            [
+              "**Teljes költség**",
+              "**189 596 167 Ft**",
+              "≈ 1 620 000 Ft"
+            ],
+            [
+              "Eladási ár",
+              "288 500 000 Ft",
+              "≈ 2 466 000 Ft"
+            ],
+            [
+              "Eladási költségek (iroda 4,5%, ügyvéd, vevői kérések)",
+              "16 418 960 Ft",
+              ""
+            ],
+            [
+              "**Árrés adózás előtt**",
+              "**82 484 873 Ft**",
+              "a teljes költség 43,5%-a, az eladási ár 28,6%-a"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "h": {
+        "fr": "Deux risques que ce projet a confirmés",
+        "en": "Two risks this project confirmed",
+        "de": "Zwei Risiken, die dieses Projekt bestätigt hat",
+        "hu": "Két kockázat, amelyet a projekt megerősített"
+      },
+      "body": {
+        "fr": "1. **L'immeuble protégé.** Un bien inscrit au patrimoine ajoute des étapes. À la vente, la ville de Budapest, le VIᵉ arrondissement et l'État disposent d'un droit de préemption : ils doivent être informés et ont 30 jours pour y renoncer avant que la vente puisse se conclure. Les travaux doivent aussi respecter le caractère de l'immeuble (moulures, menuiseries). Il faut intégrer ces délais au calendrier dès l'achat.\n2. **Le retard et le dépassement de l'entreprise.** Le budget initial des travaux et du mobilier était de 50,8 M Ft ; le coût final a atteint 65,6 M Ft, soit 14,8 M Ft (+29 %) de plus. Certaines livraisons, dont les fenêtres, sont arrivées en retard sur le planning. Sur un projet de rénovation, la marge dépend autant du suivi de l'entreprise et des commandes que du prix d'achat.",
+        "en": "1. **The protected building.** A heritage-listed property adds steps. On resale, the City of Budapest, the 6th district and the State hold a pre-emption right: they must be notified and have 30 days to waive it before the sale can complete. Works must also respect the character of the building (mouldings, joinery). Build these delays into the schedule from the purchase.\n2. **Contractor delays and overruns.** The initial budget for works and furniture was 50.8 M Ft; the final cost reached 65.6 M Ft, 14.8 M Ft (+29%) more. Some deliveries, including the windows, arrived late against the schedule. On a renovation, the margin depends as much on managing the contractor and orders as on the purchase price.",
+        "de": "1. **Das denkmalgeschützte Gebäude.** Eine denkmalgeschützte Immobilie bringt zusätzliche Schritte. Beim Verkauf haben die Stadt Budapest, der 6. Bezirk und der Staat ein Vorkaufsrecht: Sie müssen informiert werden und haben 30 Tage, um darauf zu verzichten, bevor der Verkauf abgeschlossen werden kann. Die Arbeiten müssen außerdem den Charakter des Hauses wahren (Stuck, Fenster und Türen). Diese Fristen gehören ab dem Kauf in den Zeitplan.\n2. **Verzug und Mehrkosten der Baufirma.** Das ursprüngliche Budget für Arbeiten und Möbel lag bei 50,8 Mio. Ft; die Endkosten erreichten 65,6 Mio. Ft, also 14,8 Mio. Ft (+29 %) mehr. Einige Lieferungen, darunter die Fenster, kamen später als geplant. Bei einer Renovierung hängt die Marge ebenso von der Steuerung der Baufirma und der Bestellungen ab wie vom Kaufpreis.",
+        "hu": "1. **A védett épület.** A műemléki védettség további lépésekkel jár. Eladáskor Budapest Főváros, a VI. kerület és az állam elővásárlási joggal rendelkezik: értesíteni kell őket, és 30 napjuk van lemondani róla, mielőtt az adásvétel lezárulhat. A munkáknak az épület jellegét is tiszteletben kell tartaniuk (stukkók, nyílászárók). Ezeket a határidőket már a vásárláskor be kell tervezni.\n2. **A kivitelező késése és túllépése.** A munkák és a bútorok eredeti költségvetése 50,8 M Ft volt; a végső költség 65,6 M Ft lett, vagyis 14,8 M Ft-tal (+29%) több. Egyes szállítások, köztük az ablakok, a tervezettnél később érkeztek. Egy felújításnál az árrés ugyanannyira függ a kivitelező és a megrendelések követésétől, mint a vételártól."
+      }
+    },
+    {
+      "h": {
+        "fr": "Ce qu'on retient",
+        "en": "Takeaway",
+        "de": "Fazit",
+        "hu": "Tanulság"
+      },
+      "body": {
+        "fr": "L'adresse a porté le prix de vente au m² à près de 2,5 fois le prix d'achat au m², malgré le dépassement de budget. Les deux postes à sécuriser dès le départ : les délais administratifs liés au patrimoine, et un contrat d'entreprise avec planning et pénalités.\n\nPhotos non contractuelles. Source : comptes du projet.",
+        "en": "The address took the resale price per m² to almost 2.5 times the purchase price per m², despite the overrun. Two points to secure from day one: heritage-related administrative delays, and a contractor agreement with a schedule and penalties.\n\nPhotos are not contractual. Source: project accounts.",
+        "de": "Die Lage hat den Verkaufspreis pro m² trotz der Mehrkosten auf fast das 2,5-Fache des Kaufpreises pro m² gebracht. Zwei Punkte sind von Anfang an abzusichern: die denkmalbedingten Verwaltungsfristen und ein Bauvertrag mit Zeitplan und Vertragsstrafen.\n\nFotos unverbindlich. Quelle: Projektabrechnung.",
+        "hu": "A cím a túllépés ellenére a m²-enkénti eladási árat a m²-enkénti vételár közel 2,5-szeresére emelte. Két dolgot kell az első naptól biztosítani: a műemléki ügyintézés határidőit, és egy ütemtervet és kötbért tartalmazó kivitelezési szerződést.\n\nA fotók nem képezik szerződés részét. Forrás: a projekt elszámolása."
+      }
+    }
+  ],
+  "properties": [],
+  "resources": [
+    "reno",
+    "check",
+    "costs"
+  ],
+  "sources": []
+}

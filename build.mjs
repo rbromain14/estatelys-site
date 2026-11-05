@@ -4,9 +4,9 @@
 import { readdirSync } from "node:fs";
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners, blog } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners, blog, districts } from "./src/data.mjs";
 const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
-const BLOG = existsSync("src/blog") ? readdirSync("src/blog").filter((f) => f.endsWith(".json")).map((f) => JSON.parse(readFileSync(join("src/blog", f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)) : [];
+const BLOG = existsSync("src/blog") ? readdirSync("src/blog").filter((f) => f.endsWith(".json")).map((f) => JSON.parse(readFileSync(join("src/blog", f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date) || (b.rank || 0) - (a.rank || 0)) : [];
 const RES_ITEMS = resources.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g })));
 const TOOL_PAGES = new Set(["sim"]);
 const resReady = (it) => Boolean(RES[it.key]) || TOOL_PAGES.has(it.key);
@@ -429,7 +429,7 @@ function projectPage(p, l, rent = null) {
 <section class="sec wrap">
   <div class="split">
     <div><p class="eyebrow">${t.theDistrict[l]}</p><h2 class="h3">${p.district[l]}</h2></div>
-    <p class="muted lead2">${p.districtText[l]}</p>
+    <div><p class="muted lead2">${p.districtText[l]}</p>${(() => { const d = distOfProp(p); return d && !rent ? `<p><a class="res-a" href="${R(`districts/${d.slug}/`)}">${districts.link[l]} <i class="arr">→</i></a></p>` : ""; })()}</div>
   </div>
 </section>` : "";
 
@@ -738,6 +738,8 @@ function resourcePage(it, l) {
 }
 
 // ── blog ─────────────────────────────────────────────────────
+const bImg = (l, route, name, alt, sizes) => (name.startsWith("refs/") ? img1(l, route, name, alt) : img(l, route, name, alt, "", sizes));
+const bTable = (tb, l) => (tb && tb.rows && tb.rows[l] ? `<div class="rtbl"><table><thead><tr>${tb.head[l].map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${tb.rows[l].map((row) => `<tr>${row.map((c, i) => (i === 0 ? `<th scope="row">${md(String(c)).replace(/^<p>|<\/p>$/g, "")}</th>` : `<td>${md(String(c)).replace(/^<p>|<\/p>$/g, "")}</td>`)).join("")}</tr>`).join("")}</tbody></table></div>` : "");
 const readMin = (a, l) => Math.max(1, Math.round(a.sections.map((x) => x.body[l]).join(" ").split(/\s+/).length / 200));
 function blogPage(l) {
   const route = "blog/";
@@ -750,7 +752,7 @@ function blogPage(l) {
 </div></section>
 <section class="sec wrap">
   <div class="blog-g">${BLOG.map((a) => `<article class="bcard">
-    <a class="bcard-m" href="${R(`blog/${a.slug}/`)}" tabindex="-1" aria-hidden="true">${img(l, route, a.cover, a.coverAlt[l], "", "(min-width: 900px) 40vw, 100vw")}</a>
+    <a class="bcard-m" href="${R(`blog/${a.slug}/`)}" tabindex="-1" aria-hidden="true">${bImg(l, route, a.cover, a.coverAlt[l], "(min-width: 900px) 40vw, 100vw")}</a>
     <div class="bcard-b">
       <p class="small muted">${DATE_FMT(a.date, l)} · ${readMin(a, l)} ${blog.minutes[l]}</p>
       <h2 class="h3"><a href="${R(`blog/${a.slug}/`)}">${esc(a.title[l])}</a></h2>
@@ -776,8 +778,10 @@ function blogArticle(a, l) {
 </div></section>
 <section class="sec wrap rwrap">
   <article class="rart">
-    <figure class="bfig">${img(l, route, a.cover, a.coverAlt[l], "", "(min-width: 900px) 760px, 100vw")}<figcaption class="small muted">${esc(a.coverAlt[l])}</figcaption></figure>
-    ${a.sections.map((x) => `<section class="rsec"><h2>${esc(x.h[l])}</h2>${md(x.body[l], n)}</section>`).join("")}
+    <figure class="bfig">${bImg(l, route, a.cover, a.coverAlt[l], "(min-width: 900px) 760px, 100vw")}<figcaption class="small muted">${esc(a.coverAlt[l])}</figcaption></figure>
+    ${a.sections.map((x) => `<section class="rsec"><h2>${esc(x.h[l])}</h2>${md(x.body[l], n)}${bTable(x.table, l)}</section>`).join("")}
+    ${(a.gallery || []).length ? `<div class="bgal">${a.gallery.map((g) => `<figure>${bImg(l, route, g, a.coverAlt[l], "(min-width: 900px) 33vw, 100vw")}</figure>`).join("")}</div>` : ""}
+    ${a.reference ? `<p><a class="res-a" href="${R("references/")}#ref-${a.reference}">${blog.allPhotos[l]} <i class="arr">→</i></a></p>` : ""}
     ${res.length ? `<section class="rsec"><h2 class="h4">${blog.related[l]}</h2><ul>${res.map((x) => `<li><a href="${R(`resources/${x.slug}/`)}">${resTitle(x)}</a></li>`).join("")}</ul></section>` : ""}
     ${n ? `<section class="rsec rsrc"><h2 class="h4">${resources.ui.sources[l]}</h2><ol>${a.sources.map((x, i) => `<li id="src-${i + 1}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="muted">— ${resources.ui.seen[l]} ${DATE_FMT(x.seen, l)}</span></li>`).join("")}</ol></section>` : ""}
     ${a.updated && a.updated !== a.date ? `<p class="small muted">${blog.updated[l]} ${DATE_FMT(a.updated, l)}</p>` : ""}
@@ -788,8 +792,36 @@ function blogArticle(a, l) {
     <a class="rback" href="${R("blog/")}"><i class="arr">←</i> ${blog.back[l]}</a>
   </aside>
 </section>`;
-  return layout({ l, route, title: `${a.title[l]} | Estatelys`, desc: a.summary[l], body, image: a.cover,
+  return layout({ l, route, title: a.seoTitle ? a.seoTitle[l] : `${a.title[l]} | Estatelys`, desc: a.summary[l], body, image: a.cover,
     crumbs: [[t.navBlog[l], "blog/"], [a.title[l], route]] });
+}
+
+// ── district pages ───────────────────────────────────────────
+const distNum = (p) => { const m = p.address.match(/\b1(\d\d)\d\b/); return m ? +m[1] : 0; };
+const distOfProp = (p) => districts.items.find((d) => d.n === distNum(p));
+const refNum = (r) => { const m = String(r.district?.en || "").match(/(\d+)/); return m ? +m[1] : 0; };
+function districtPage(d, l) {
+  const route = `districts/${d.slug}/`;
+  const R = (r) => rel(l, route, l, r);
+  const props = FOR_SALE.filter((p) => distNum(p) === d.n);
+  const refs = REFS.filter((r) => r.photos.length && refNum(r) === d.n);
+  const posts = BLOG.filter((b) => (b.properties || []).some((s) => props.some((p) => p.slug === s)) || refs.some((r) => r.slug === b.reference));
+  const guides = RES_ITEMS.filter(resReady);
+  const resTitle = (x) => (RES[x.key] ? esc(RES[x.key].title[l]) : x.key === "sim" ? resources.sim.title[l] : x[l]);
+  const h1 = districts.h1[l].replace("{d}", d.name[l]);
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow">${districts.eyebrow[l]}</p>
+  <h1>${esc(h1)}</h1>
+  <p class="lead muted">${districts.intro[l]}</p>
+</div></section>
+${props.filter((p) => p.districtText).map((p) => `<section class="sec wrap"><div class="split"><div><p class="eyebrow">${districts.around[l]}</p><h2 class="h3">${esc(p.name)}</h2></div><p class="muted lead2">${p.districtText[l]}</p></div></section>`).join("")}
+${props.length ? `<section class="sec wrap"><h2 class="h3">${districts.forSale[l]}</h2><div class="grid3">${props.map((p) => card(p, l, route)).join("")}</div></section>` : ""}
+${refs.length ? `<section class="sec wrap"><h2 class="h3">${districts.refs[l]}</h2><div class="grid3">${refs.map((r) => `<a class="dref" href="${R("references/")}#ref-${r.slug}">${img1(l, route, `refs/${r.slug}-1`, `${r.name}, Budapest`)}<span><strong>${esc(r.name)}</strong>${r.year ? ` · ${r.year}` : ""}${r.area ? ` · ${r.area} m²` : ""}</span></a>`).join("")}</div></section>` : ""}
+${posts.length ? `<section class="sec wrap"><h2 class="h3">${blog.onBlog[l]}</h2><ul class="dlist">${posts.map((b) => `<li><a href="${R(`blog/${b.slug}/`)}">${esc(b.title[l])}</a></li>`).join("")}</ul></section>` : ""}
+<section class="sec wrap"><h2 class="h3">${districts.guides[l]}</h2><ul class="dlist dcols">${guides.map((x) => `<li><a href="${R(`resources/${x.slug}/`)}">${resTitle(x)}</a></li>`).join("")}</ul></section>
+<section class="sec wrap"><p class="eyebrow">${districts.others[l]}</p><p>${districts.items.filter((x) => x.slug !== d.slug).map((x) => `<a class="res-a" href="${R(`districts/${x.slug}/`)}">${x.name[l]} <i class="arr">→</i></a>`).join(" &nbsp; ")}</p></section>`;
+  return layout({ l, route, title: `${h1} | Estatelys`, desc: districts.intro[l], body, crumbs: [[d.name[l], route]] });
 }
 
 function referencesPage(l) {
@@ -803,10 +835,10 @@ function referencesPage(l) {
 </div></section>
 <section class="sec wrap">
   <div class="grid2 refs" data-gallery>
-    ${REFS.filter((r) => r.photos.length).map((r) => `<figure class="ref">
+    ${REFS.filter((r) => r.photos.length).map((r) => `<figure class="ref" id="ref-${r.slug}">
       <button class="gal-i ref-m" data-full="${src(r, 0)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-1`, `${r.name}, Budapest`)}</button>
       <div class="ref-t">${r.photos.slice(1).map((_, k) => `<button class="gal-i" data-full="${src(r, k + 1)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-${k + 2}`, `${r.name}, Budapest`)}</button>`).join("")}</div>
-      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p>${r.year || r.area || r.works ? `<p class="ref-f">${[r.year ? String(r.year) : "", r.area ? `${new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(r.area)} m²` : "", r.works ? esc(r.works[l]) : ""].filter(Boolean).join(" · ")}</p>` : ""}</figcaption>
+      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p>${r.year || r.area || r.works ? `<p class="ref-f">${[r.year ? String(r.year) : "", r.area ? `${new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(r.area)} m²` : "", r.works ? esc(r.works[l]) : ""].filter(Boolean).join(" · ")}</p>` : ""}${(() => { const cs = BLOG.find((b) => b.reference === r.slug); return cs ? `<p><a class="res-a" href="${rel(l, route, l, `blog/${cs.slug}/`)}">${blog.caseStudy[l]} <i class="arr">→</i></a></p>` : ""; })()}</figcaption>
     </figure>`).join("")}
   </div>
   ${REFS.some((r) => !r.photos.length) ? `<div class="refs-more">
@@ -841,6 +873,7 @@ for (const l of LANGS) {
     ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
     ...rentals.items.map((it) => [it, projects.find((x) => x.slug === it.slug)]).filter(([, p]) => p).map(([it, p]) => [`rentals/${p.slug}/`, projectPage(p, l, it)]),
     ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)]),
+    ...districts.items.map((d) => [`districts/${d.slug}/`, districtPage(d, l)]),
     ...(BLOG.length ? [["blog/", blogPage(l)], ...BLOG.map((a) => [`blog/${a.slug}/`, blogArticle(a, l)])] : [])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); routes.add(route); }
 }

@@ -851,6 +851,31 @@ export const blog = {
   property: { fr: "Le bien de l'article", en: "The property in this article", de: "Das Objekt im Artikel", hu: "A cikkben szereplő ingatlan" },
   related: { fr: "Pour aller plus loin", en: "Further reading", de: "Weiterlesen", hu: "További olvasnivaló" },
   back: { fr: "Tous les articles", en: "All articles", de: "Alle Artikel", hu: "Összes cikk" },
+  allPhotos: { fr: "Toutes les photos sur la page Références", en: "All photos on the References page", de: "Alle Fotos auf der Referenzseite", hu: "Az összes fotó a Referenciák oldalon" },
+  caseStudy: { fr: "Lire l'étude de cas", en: "Read the case study", de: "Fallstudie lesen", hu: "Az esettanulmány elolvasása" },
   onBlog: { fr: "Sur le blog", en: "On the blog", de: "Im Blog", hu: "A blogon" },
   question: { fr: "Une question sur ce sujet ?", en: "A question on this topic?", de: "Eine Frage zu diesem Thema?", hu: "Kérdése van a témában?" },
+};
+
+// District pages (SEO message SEO-2, Romain "okay" 5 Nov 2026 14:13). Text reused from each property's districtText.
+export const districts = {
+  eyebrow: { fr: "Quartiers", en: "Districts", de: "Bezirke", hu: "Kerületek" },
+  items: [
+    { slug: "district-v-lipotvaros", n: 5, name: { fr: "Vᵉ arrondissement · Lipótváros", en: "5th district · Lipótváros", de: "5. Bezirk · Lipótváros", hu: "V. kerület · Lipótváros" } },
+    { slug: "district-vi-terezvaros", n: 6, name: { fr: "VIᵉ arrondissement · Terézváros", en: "6th district · Terézváros", de: "6. Bezirk · Terézváros", hu: "VI. kerület · Terézváros" } },
+    { slug: "district-vii-erzsebetvaros", n: 7, name: { fr: "VIIᵉ arrondissement · Erzsébetváros", en: "7th district · Erzsébetváros", de: "7. Bezirk · Erzsébetváros", hu: "VII. kerület · Erzsébetváros" } },
+  ],
+  h1: { fr: "Acheter dans le {d}", en: "Buying in the {d}", de: "Kaufen im {d}", hu: "Vásárlás: {d}" },
+  intro: {
+    fr: "Ce que nous connaissons de ce quartier : nos biens en vente, nos rénovations passées et les guides utiles pour acheter.",
+    en: "What we know of this district: our properties for sale, our past renovations and the guides that help you buy.",
+    de: "Was wir über diesen Bezirk wissen: unsere Objekte zum Verkauf, frühere Renovierungen und hilfreiche Ratgeber zum Kauf.",
+    hu: "Amit erről a kerületről tudunk: eladó ingatlanjaink, korábbi felújításaink és a vásárlást segítő útmutatók.",
+  },
+  around: { fr: "Autour de", en: "Around", de: "Rund um", hu: "Környék:" },
+  forSale: { fr: "Nos biens dans ce quartier", en: "Our properties in this district", de: "Unsere Objekte in diesem Bezirk", hu: "Ingatlanjaink ebben a kerületben" },
+  refs: { fr: "Nos rénovations dans ce quartier", en: "Our renovations in this district", de: "Unsere Renovierungen in diesem Bezirk", hu: "Felújításaink ebben a kerületben" },
+  guides: { fr: "Guides pour acheter à Budapest", en: "Guides to buying in Budapest", de: "Ratgeber zum Kauf in Budapest", hu: "Útmutatók a budapesti vásárláshoz" },
+  others: { fr: "Autres quartiers", en: "Other districts", de: "Andere Bezirke", hu: "Más kerületek" },
+  link: { fr: "Tout sur ce quartier", en: "All about this district", de: "Alles über diesen Bezirk", hu: "Minden erről a kerületről" },
 };
