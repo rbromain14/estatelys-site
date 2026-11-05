@@ -595,7 +595,7 @@ function contact(l) {
     </aside>
   </div>
 </section>`;
-  return layout({ l, route, title: `${t.navContact[l]} · ${t.contactTitle[l]} | ${SITE.name}`, desc: t.contactIntro[l], body, crumbs: [[t.navContact[l], route]] });
+  return layout({ l, route, title: `${t.navContact[l]} · ${t.contactTitle[l]} | ${SITE.name}`, desc: seo.contactDesc[l], body, crumbs: [[t.navContact[l], route]] });
 }
 
 

@@ -685,6 +685,13 @@ export const seo = {
     de: "Wohnungen kaufen in Budapest: {n} renovierte Objekte | Estatelys",
     hu: "Eladó lakások Budapesten: {n} felújított ingatlan | Estatelys",
   },
+  // Contact page meta description (Google snippet only; the visible intro stays t.contactIntro). SEO chat, 5 Nov 2026.
+  contactDesc: {
+    fr: "Contactez Estatelys Budapest pour un appartement rénové à vendre ou à louer : brochure, visite ou question sur un bien du centre de Budapest.",
+    en: "Contact Estatelys Budapest about a renovated apartment for sale or for rent: brochure, viewing or any question on a property in central Budapest.",
+    de: "Kontakt zu Estatelys Budapest für eine renovierte Wohnung zum Kauf oder zur Miete: Exposé, Besichtigung oder Fragen zu einem Objekt in Budapest.",
+    hu: "Írjon az Estatelys Budapestnek felújított eladó vagy kiadó belvárosi lakás ügyében: brosúra, megtekintés vagy kérdés egy ingatlanról.",
+  },
 };
 
 // Team section on the About page. Names as given by Romain (3 Nov 2026); initials until real photos are supplied.
