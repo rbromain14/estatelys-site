@@ -123,10 +123,10 @@ export const t = {
   },
   // Home meta description (Google snippet). SEO audit v1, 26 Oct 2026.
   metaDesc: {
-    fr: "Appartements rénovés à vendre dans les immeubles historiques du centre de Budapest : résidences de prestige et investissements locatifs, prix affichés.",
-    en: "Renovated apartments for sale in historic buildings in central Budapest: prestige homes and rental investments, with prices shown upfront.",
-    de: "Renovierte Wohnungen zum Kauf in historischen Gebäuden der Budapester Innenstadt: Prestigewohnungen und Mietinvestments, Preise offen ausgewiesen.",
-    hu: "Felújított eladó lakások Budapest belvárosának történelmi épületeiben: prémium otthonok és bérleti befektetések, feltüntetett árakkal.",
+    fr: "Appartements rénovés à vendre dans les immeubles historiques de Budapest (I, II, V, VI, VII, VIII, XIII) : résidences de prestige et investissements locatifs.",
+    en: "Renovated apartments for sale in Budapest's historic buildings (districts I, II, V, VI, VII, VIII, XIII): prestige homes and rental investments.",
+    de: "Renovierte Wohnungen in historischen Gebäuden Budapests (Bezirke I, II, V, VI, VII, VIII, XIII): Prestigewohnungen und Mietinvestments zum Kauf.",
+    hu: "Felújított eladó lakások Budapest történelmi épületeiben (I., II., V., VI., VII., VIII., XIII. kerület): prémium otthonok és bérleti befektetések.",
   },
   heroAlt: { fr: "La basilique Saint-Étienne de Budapest entre deux rangées d'immeubles anciens, en noir et blanc", en: "St Stephen's Basilica in Budapest between two rows of historic apartment buildings, in black and white", de: "Die St.-Stephans-Basilika in Budapest zwischen zwei Reihen historischer Wohnhäuser, in Schwarzweiß", hu: "A budapesti Szent István-bazilika két sor régi bérház között, fekete-fehérben" },
   heroEyebrow: { fr: "Budapest · Immobilier de caractère", en: "Budapest · Character real estate", de: "Budapest · Charakterimmobilien", hu: "Budapest · Karakteres ingatlanok" },
