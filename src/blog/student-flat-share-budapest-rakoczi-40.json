@@ -15,6 +15,12 @@
     "de": "Studenten-WG in Budapest: was eine Vierzimmerwohnung am Blaha Lujza tér einbringt",
     "hu": "Diák közös bérlemény Budapesten: mennyit hoz egy négyszobás lakás a Blaha Lujza tér mellett"
   },
+  "seoTitle": {
+    "fr": "Colocation étudiante à Budapest : le rendement d'un 4 chambres | Estatelys",
+    "en": "Student flat share in Budapest: what a 4-room flat earns | Estatelys",
+    "de": "Studenten-WG in Budapest: Rendite einer 4-Zimmer-Wohnung | Estatelys",
+    "hu": "Diák közös bérlemény Budapesten: egy 4 szobás lakás hozama | Estatelys"
+  },
   "summary": {
     "fr": "Rákóczi 40, 64 m², quatre chambres louées à des étudiants : 1 356 € de loyer par mois et 5,3 % de rendement brut au prix de 113 M Ft.",
     "en": "Rákóczi 40, 64 m², four rooms let to students: €1,356 rent a month and a 5.3 % gross yield at the 113 M Ft asking price.",
@@ -23,7 +29,12 @@
   },
   "sections": [
     {
-      "h": { "fr": "L'appartement", "en": "The flat", "de": "Die Wohnung", "hu": "A lakás" },
+      "h": {
+        "fr": "L'appartement",
+        "en": "The flat",
+        "de": "Die Wohnung",
+        "hu": "A lakás"
+      },
       "body": {
         "fr": "Rákóczi 40 est un appartement de 64 m² au 2ᵉ étage d'un immeuble d'époque de Rákóczi út, à Erzsébetváros (VIIᵉ arrondissement), à quelques pas de Blaha Lujza tér. Il a été reconstruit autour d'un séjour double hauteur : deux chambres au niveau principal, deux autres en mezzanine, accessibles par un escalier suspendu.\n\nLes quatre locataires partagent le séjour, la cuisine ouverte avec comptoir, plaque à induction et lave-linge, et la salle d'eau avec douche à l'italienne. L'appartement est climatisé.",
         "en": "Rákóczi 40 is a 64 m² apartment on the 2nd floor of a period building on Rákóczi út, in Erzsébetváros (District VII), a few steps from Blaha Lujza tér. It was rebuilt around a double-height living room: two bedrooms on the main level and two more on a mezzanine reached by a floating staircase.\n\nThe four tenants share the living room, the open kitchen with bar counter, induction hob and washing machine, and the bathroom with walk-in shower. The flat has air conditioning.",
@@ -32,7 +43,12 @@
       }
     },
     {
-      "h": { "fr": "Pourquoi les étudiants louent ici", "en": "Why students rent here", "de": "Warum Studierende hier mieten", "hu": "Miért bérelnek itt diákok" },
+      "h": {
+        "fr": "Pourquoi les étudiants louent ici",
+        "en": "Why students rent here",
+        "de": "Warum Studierende hier mieten",
+        "hu": "Miért bérelnek itt diákok"
+      },
       "body": {
         "fr": "Le métro M2 s'arrête à Blaha Lujza tér et à Astoria, et le campus de l'université ELTE sur Múzeum körút est accessible à pied. Avec quatre chambres privées, chaque étudiant paie une chambre et non un appartement entier.",
         "en": "Metro M2 stops at Blaha Lujza tér and Astoria, and ELTE University's Múzeum körút campus is within walking distance. With four private rooms, each student pays for one room rather than a whole apartment.",
@@ -41,7 +57,12 @@
       }
     },
     {
-      "h": { "fr": "Ce que l'appartement rapporte aujourd'hui", "en": "What the flat earns today", "de": "Was die Wohnung heute einbringt", "hu": "Mennyit hoz ma a lakás" },
+      "h": {
+        "fr": "Ce que l'appartement rapporte aujourd'hui",
+        "en": "What the flat earns today",
+        "de": "Was die Wohnung heute einbringt",
+        "hu": "Mennyit hoz ma a lakás"
+      },
       "body": {
         "fr": "Les quatre chambres sont louées à quatre étudiants, une par chambre, à 324 €, 334 €, 344 € et 354 € par mois. Chaque locataire paie en plus 66 € de charges par mois.\n\n- Loyers : **1 356 € par mois**, soit 16 272 € par an.\n- Charges : 264 € par mois (4 × 66 €), en plus des loyers.\n- Total payé par les locataires : 1 620 € par mois.",
         "en": "The four rooms are let to four students, one per room, at €324, €334, €344 and €354 a month. Each tenant also pays €66 a month in charges.\n\n- Rent: **€1,356 a month**, or €16,272 a year.\n- Charges: €264 a month (4 × €66), on top of the rent.\n- Total paid by the tenants: €1,620 a month.",
@@ -50,7 +71,12 @@
       }
     },
     {
-      "h": { "fr": "Rendement brut : 5,3 %", "en": "Gross yield: 5.3 %", "de": "Bruttorendite: 5,3 %", "hu": "Bruttó hozam: 5,3%" },
+      "h": {
+        "fr": "Rendement brut : 5,3 %",
+        "en": "Gross yield: 5.3 %",
+        "de": "Bruttorendite: 5,3 %",
+        "hu": "Bruttó hozam: 5,3%"
+      },
       "body": {
         "fr": "L'appartement est en vente à **113 M Ft** (environ 309 600 € au taux de 365 HUF/EUR). Le rendement brut est le loyer annuel divisé par le prix : 16 272 € ÷ 309 600 € = **5,3 %**. Les charges ne sont pas comptées dans le calcul.",
         "en": "The flat is for sale at **113 M Ft** (about €309,600 at 365 HUF/EUR). The gross yield is the yearly rent divided by the price: €16,272 ÷ €309,600 = **5.3 %**. The charges are left out of the calculation.",
@@ -59,7 +85,12 @@
       }
     },
     {
-      "h": { "fr": "Du brut au net", "en": "From gross to net", "de": "Von brutto zu netto", "hu": "A bruttótól a nettóig" },
+      "h": {
+        "fr": "Du brut au net",
+        "en": "From gross to net",
+        "de": "Von brutto zu netto",
+        "hu": "A bruttótól a nettóig"
+      },
       "body": {
         "fr": "Le rendement brut se mesure avant les coûts. Avant d'acheter, un investisseur déduit :\n\n- les charges de copropriété (közös költség), si les charges payées par les locataires ne les couvrent pas ;\n- l'impôt local sur les logements, là où l'arrondissement en prélève un ;\n- la gestion, si quelqu'un d'autre trouve les locataires et suit le quotidien ;\n- les mois vides entre deux locataires ;\n- l'impôt sur le revenu locatif, qui dépend de la résidence fiscale du propriétaire.\n\nLe simulateur de rentabilité du site est prérempli avec le prix et les loyers de cet appartement : chaque ligne peut y être testée.",
         "en": "Gross yield is measured before costs. Before buying, an investor deducts:\n\n- the building's common charges (közös költség), if the tenants' charges do not cover them;\n- local tax on homes, where the district levies one;\n- management, if someone else finds the tenants and handles day-to-day issues;\n- empty months between two tenants;\n- income tax on the rent, which depends on the owner's tax residence.\n\nThe rental yield calculator on this site is prefilled with this flat's price and rent, so each of these lines can be tested.",
@@ -68,7 +99,12 @@
       }
     },
     {
-      "h": { "fr": "À vérifier dans une colocation", "en": "What to check in a flat share", "de": "Worauf man bei einer WG achten sollte", "hu": "Mit érdemes ellenőrizni egy közös bérleménynél" },
+      "h": {
+        "fr": "À vérifier dans une colocation",
+        "en": "What to check in a flat share",
+        "de": "Worauf man bei einer WG achten sollte",
+        "hu": "Mit érdemes ellenőrizni egy közös bérleménynél"
+      },
       "body": {
         "fr": "- Que chaque chambre peut être louée avec son propre bail.\n- Qui paie quelle facture, et ce que couvrent les charges mensuelles.\n- Le règlement de l'immeuble sur la location.\n\nLa check-list de visite de nos ressources couvre le reste.\n\nChiffres : loyers du registre des loyers d'Estatelys (novembre 2026) ; prix de vente au 5 novembre 2026. Photos non contractuelles.",
         "en": "- That each room can be let on its own lease.\n- Who pays which bill, and what the monthly charges cover.\n- The building's house rules on letting.\n\nThe viewing checklist in our resources covers the rest.\n\nFigures: rents from the Estatelys rent ledger (November 2026); asking price as of 5 November 2026. Photos are not contractual.",
@@ -77,7 +113,13 @@
       }
     }
   ],
-  "properties": ["rakoczi-40"],
-  "resources": ["sim", "check", "tax"],
+  "properties": [
+    "rakoczi-40"
+  ],
+  "resources": [
+    "sim",
+    "check",
+    "tax"
+  ],
   "sources": []
 }
