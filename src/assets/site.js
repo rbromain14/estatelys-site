@@ -16,7 +16,7 @@
   }
 
   // remember language choice
-  document.querySelectorAll(".langs a").forEach(function (a) {
+  document.querySelectorAll(".langs a, .ldd-m a").forEach(function (a) {
     a.addEventListener("click", function () { try { localStorage.setItem("lang", a.getAttribute("hreflang")); } catch (e) {} });
   });
 
