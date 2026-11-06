@@ -254,3 +254,9 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .ref-t .gal-x{display:none}
 .ref-t .gal-i{position:relative}
 .gal-more{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(18,17,15,.55);color:#fff;font-size:1.3rem;font-weight:600;pointer-events:none}
+
+/* Lien "Connexion" discret vers la plateforme Pilot (header) — 6 Nov 2026 */
+.login-l{align-self:center;white-space:nowrap;font-size:.85rem;font-weight:500;color:var(--tx);text-decoration:none}
+.hdr .login-l{color:#f4f3ef;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.hdr .login-l:hover{color:var(--acc,#c8a97e)}
+@media (max-width:1180px){.hdr-r>.login-l{display:none}}

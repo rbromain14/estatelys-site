@@ -5,7 +5,7 @@ import { readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners, blog, districts } from "./src/data.mjs";
+import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners, blog, districts, pilot } from "./src/data.mjs";
 const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
 const BLOG = existsSync("src/blog") ? readdirSync("src/blog").filter((f) => f.endsWith(".json")).map((f) => JSON.parse(readFileSync(join("src/blog", f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date) || (b.rank || 0) - (a.rank || 0)) : [];
 const RES_ITEMS = resources.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g })));
@@ -157,12 +157,15 @@ ${SITE.cfBeaconToken ? `<script defer src="https://static.cloudflareinsights.com
     </nav>
     <div class="hdr-r">
       <details class="ldd"><summary aria-label="Language: ${LANG_NAME[l]}">${LANG_LABEL[l]}<i aria-hidden="true">▾</i></summary><div class="ldd-m" role="menu">${LANGS.map((x) => `<a href="${rel(l, route, x, route)}" hreflang="${x}" lang="${x}"${x === l ? ' aria-current="true" class="on"' : ""}><b>${LANG_LABEL[x]}</b> ${LANG_NAME[x]}</a>`).join("")}</div></details>
+      <a class="login-l" href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
       <a class="btn btn-s" href="${R("contact/")}">${t.contactUs[l]}</a>
       <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
     </div>
   </div>
   <nav class="mnav" id="mnav" aria-label="Mobile">
     ${nav.map(([r, n]) => `<a href="${R(r)}"${isActive(r) ? ' aria-current="page"' : ""}>${n}</a>`).join("")}
+    <a href="${R("pilot/")}"${isActive("pilot/") ? ' aria-current="page"' : ""}>${t.navPilot[l]}</a>
+    <a href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
     <div class="langs">${langLinks}</div>
   </nav>
 </header>
@@ -191,6 +194,7 @@ ${followBlock(l)}
     </div>
     <div class="ftr-c">
       ${nav.map(([r, n]) => `<a href="${R(r)}">${n}</a>`).join("")}
+      <a href="${R("pilot/")}">${t.navPilot[l]}</a>
       <a href="${R("legal/")}">${legal.nav[l]}</a>
     </div>
   </div>
@@ -864,6 +868,58 @@ function referencesPage(l) {
   return layout({ l, route, title: `${refsText.title[l]} | Estatelys`, desc: refsText.intro[l], body, image: `refs/${REFS[0]?.slug}-1`, crumbs: [[t.navRefs[l], route]] });
 }
 
+function pilotPage(l) {
+  const route = "pilot/";
+  const R = (r) => rel(l, route, l, r);
+  const b = (arr) => arr.map((x) => `<li>${x}</li>`).join("");
+  const body = `
+<section class="phdr dk"><div class="wrap">
+  <p class="eyebrow">${pilot.eyebrow[l]}</p>
+  <h1>${pilot.h1[l]}</h1>
+  <p class="lead">${pilot.lead[l]}</p>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:26px">
+    <a class="btn" href="${R("contact/")}">${t.requestAccess[l]}</a>
+    <a class="btn btn-o" href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
+  </div>
+</div></section>
+<section class="stats"><div class="wrap stats-in">
+  ${pilot.stats.map((s) => `<div><b class="sm">${s.v[l]}</b><span>${s.k[l]}</span></div>`).join("")}
+</div></section>
+<section class="sec wrap">
+  <div class="grid2">
+    <div class="card"><div class="card-b">
+      <h3>${pilot.renoTitle[l]}</h3>
+      <ul class="dlist">${b(pilot.renoBullets[l])}</ul>
+    </div></div>
+    <div class="card"><div class="card-b">
+      <h3>${pilot.locTitle[l]}</h3>
+      <ul class="dlist">${b(pilot.locBullets[l])}</ul>
+    </div></div>
+  </div>
+</section>
+<section class="sec wrap">
+  <div class="split">
+    <h2>${pilot.proofTitle[l]}</h2>
+    <p class="lead" style="margin-top:0">${pilot.proofText[l]}</p>
+  </div>
+</section>
+<section class="sec wrap">
+  <h2 class="h3">${pilot.featTitle[l]}</h2>
+  <ul class="chips" style="margin-top:28px">${b(pilot.features[l])}</ul>
+</section>
+<section class="sec wrap">
+  <div class="pbox" style="padding:clamp(28px,4vw,48px);display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+    <h2 class="h3" style="margin:0">${pilot.ctaTitle[l]}</h2>
+    <p style="margin:0;max-width:52ch">${pilot.ctaText[l]}</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a class="btn" href="${R("contact/")}">${t.requestAccess[l]}</a>
+      <a class="btn btn-o" href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
+    </div>
+  </div>
+</section>`;
+  return layout({ l, route, title: `${pilot.h1[l]} | Estatelys`, desc: pilot.lead[l], body, crumbs: [[t.navPilot[l], route]] });
+}
+
 function notFound() {
   const l = "fr", route = "";
   const body = `<section class="phdr dk"><div class="wrap"><p class="eyebrow">404</p><h1>${t.notFound.fr} · ${t.notFound.en}</h1>
@@ -882,7 +938,7 @@ cpSync("src/assets", join(OUT, "assets"), { recursive: true });
 const urls = [];
 const routes = new Set();
 for (const l of LANGS) {
-  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["rentals/", rentalsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
+  const pages = [["", home(l)], ["projects/", projectsPage(l)], ["rentals/", rentalsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ["pilot/", pilotPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
     ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
     ...rentals.items.map((it) => [it, projects.find((x) => x.slug === it.slug)]).filter(([, p]) => p).map(([it, p]) => [`rentals/${p.slug}/`, projectPage(p, l, it)]),
     ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)]),
