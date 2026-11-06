@@ -80,7 +80,6 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
   const A = (p) => asset(l, route, p);
   const R = (r) => rel(l, route, l, r);
   const nav = [
-    ["", t.navHome[l]],
     ["projects/", t.navProjects[l]],
     ["rentals/", t.navRentals[l]],
     ...(REFS.length ? [["references/", t.navRefs[l]]] : []),
@@ -153,7 +152,7 @@ ${SITE.cfBeaconToken ? `<script defer src="https://static.cloudflareinsights.com
       ${nav.filter(([r]) => r !== "contact/").map(([r, n]) => `<a href="${R(r)}"${isActive(r) ? ' aria-current="page"' : ""}>${n}</a>`).join("")}
     </nav>
     <div class="hdr-r">
-      <div class="langs" aria-label="Language">${langLinks}</div>
+      <details class="ldd"><summary aria-label="Language: ${LANG_NAME[l]}">${LANG_LABEL[l]}<i aria-hidden="true">▾</i></summary><div class="ldd-m langs" role="menu">${LANGS.map((x) => `<a href="${rel(l, route, x, route)}" hreflang="${x}" lang="${x}"${x === l ? ' aria-current="true" class="on"' : ""}><b>${LANG_LABEL[x]}</b> ${LANG_NAME[x]}</a>`).join("")}</div></details>
       <a class="btn btn-s" href="${R("contact/")}">${t.contactUs[l]}</a>
       <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
     </div>
@@ -848,7 +847,7 @@ function referencesPage(l) {
     ${REFS.filter((r) => r.photos.length).map((r) => `<figure class="ref" id="ref-${r.slug}">
       <button class="gal-i ref-m" data-full="${src(r, 0)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-1`, `${r.name}, Budapest`)}</button>
       <div class="ref-t">${r.photos.slice(1).map((_, k) => `<button class="gal-i" data-full="${src(r, k + 1)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-${k + 2}`, `${r.name}, Budapest`)}</button>`).join("")}</div>
-      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p>${r.year || r.area || r.works ? `<p class="ref-f">${[r.year ? String(r.year) : "", r.area ? `${new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(r.area)} m²` : "", r.works ? esc(r.works[l]) : ""].filter(Boolean).join(" · ")}</p>` : ""}${(() => { const cs = BLOG.find((b) => b.reference === r.slug); return cs ? `<p><a class="res-a" href="${rel(l, route, l, `blog/${cs.slug}/`)}">${blog.caseStudy[l]} <i class="arr">→</i></a></p>` : ""; })()}</figcaption>
+      <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p>${r.year || r.area || r.works ? `<p class="ref-f">${[r.year ? String(r.year) : "", r.area ? `${new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(r.area)} m²` : "", r.works ? esc(r.works[l]) : ""].filter(Boolean).join(" · ")}</p>` : ""}${(() => { const cs = BLOG.find((b) => b.reference === r.slug); return cs ? `<p class="ref-cs"><a class="btn btn-s" href="${rel(l, route, l, `blog/${cs.slug}/`)}">${blog.caseStudy[l]} →</a></p>` : ""; })()}</figcaption>
     </figure>`).join("")}
   </div>
   ${REFS.some((r) => !r.photos.length) ? `<div class="refs-more">

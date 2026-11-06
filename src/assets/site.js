@@ -20,6 +20,12 @@
     a.addEventListener("click", function () { try { localStorage.setItem("lang", a.getAttribute("hreflang")); } catch (e) {} });
   });
 
+  // language dropdown: close on outside click or Escape
+  document.querySelectorAll("details.ldd").forEach(function (d) {
+    document.addEventListener("click", function (e) { if (d.open && !d.contains(e.target)) d.open = false; });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && d.open) { d.open = false; d.querySelector("summary").focus(); } });
+  });
+
   // gallery lightbox
   var lb = document.getElementById("lb"), items = [].slice.call(document.querySelectorAll("[data-gallery] .gal-i")), idx = 0;
   if (lb && items.length) {
