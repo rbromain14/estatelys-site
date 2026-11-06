@@ -250,3 +250,7 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .ref-cs{margin-top:12px}
 .hdr-r .btn-s{white-space:nowrap}
 @media (max-width:1180px){.hdr .nav{gap:18px}.hdr .nav a{font-size:.85rem}}
+/* Reference thumbnails: max 3, the 3rd shows +N (6 Nov 2026) */
+.ref-t .gal-x{display:none}
+.ref-t .gal-i{position:relative}
+.gal-more{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(18,17,15,.55);color:#fff;font-size:1.3rem;font-weight:600;pointer-events:none}

@@ -849,7 +849,7 @@ function referencesPage(l) {
   <div class="grid2 refs" data-gallery>
     ${REFS.filter((r) => r.photos.length).map((r) => `<figure class="ref" id="ref-${r.slug}">
       <button class="gal-i ref-m" data-full="${src(r, 0)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-1`, `${r.name}, Budapest`)}</button>
-      <div class="ref-t">${r.photos.slice(1).map((_, k) => `<button class="gal-i" data-full="${src(r, k + 1)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-${k + 2}`, `${r.name}, Budapest`)}</button>`).join("")}</div>
+      <div class="ref-t">${r.photos.slice(1).map((_, k, arr) => `<button class="gal-i${k > 2 ? " gal-x" : ""}" data-full="${src(r, k + 1)}" data-cap="${esc(r.name)}" aria-label="${esc(r.name)}">${img1(l, route, `refs/${r.slug}-${k + 2}`, `${r.name}, Budapest`)}${k === 2 && arr.length > 3 ? `<span class="gal-more">+${arr.length - 3}</span>` : ""}</button>`).join("")}</div>
       <figcaption><h3>${esc(r.name)}</h3><p class="muted small">${r.district ? r.district[l] + " · " : ""}Budapest</p>${r.year || r.area || r.works ? `<p class="ref-f">${[r.year ? String(r.year) : "", r.area ? `${new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(r.area)} m²` : "", r.works ? esc(r.works[l]) : ""].filter(Boolean).join(" · ")}</p>` : ""}${(() => { const cs = BLOG.find((b) => b.reference === r.slug); return cs ? `<p class="ref-cs"><a class="btn btn-s" href="${rel(l, route, l, `blog/${cs.slug}/`)}">${blog.caseStudy[l]} →</a></p>` : ""; })()}</figcaption>
     </figure>`).join("")}
   </div>
