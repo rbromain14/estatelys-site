@@ -1,0 +1,172 @@
+{
+  "slug": "buying-budapest-french-tax-resident",
+  "date": "2026-11-06",
+  "updated": "2026-11-06",
+  "rank": 1,
+  "cover": "rakoczi-03",
+  "coverAlt": {
+    "fr": "Rákóczi 40, appartement loué à des étudiants, Budapest VII",
+    "en": "Rákóczi 40, flat let to students, Budapest VII",
+    "de": "Rákóczi 40, an Studierende vermietete Wohnung, Budapest VII",
+    "hu": "Rákóczi 40, diákoknak kiadott lakás, Budapest VII."
+  },
+  "gallery": [],
+  "title": {
+    "fr": "Acheter un appartement à Budapest quand on est résident fiscal français",
+    "en": "Buying a flat in Budapest as a French tax resident",
+    "de": "Eine Wohnung in Budapest kaufen als in Frankreich Steueransässiger",
+    "hu": "Lakásvásárlás Budapesten francia adóügyi illetőséggel"
+  },
+  "seoTitle": {
+    "fr": "Résident fiscal français et appartement à Budapest : impôts | Estatelys",
+    "en": "French tax resident with a flat in Budapest: taxes | Estatelys",
+    "de": "In Frankreich steuerpflichtig, Wohnung in Budapest: Steuern | Estatelys",
+    "hu": "Francia adórezidens, budapesti lakás: adózás | Estatelys"
+  },
+  "summary": {
+    "fr": "Loyers et plus-value imposés en Hongrie, exonérés en France avec la règle du taux effectif : ce qu'un résident français déclare, et où.",
+    "en": "Rent and gains taxed in Hungary, exempt in France under the effective-rate rule: what a French resident declares, and where.",
+    "de": "Mieten und Gewinne in Ungarn besteuert, in Frankreich nach dem Progressionsvorbehalt befreit: was ein in Frankreich Ansässiger erklärt, und wo.",
+    "hu": "Bérleti díj és árfolyamnyereség Magyarországon adózik, Franciaországban mentes a progresszió figyelembevételével: mit és hol vall be egy francia rezidens."
+  },
+  "sections": [
+    {
+      "h": {
+        "fr": "Où sont imposés les loyers",
+        "en": "Where the rent is taxed",
+        "de": "Wo die Mieten besteuert werden",
+        "hu": "Hol adózik a bérleti díj"
+      },
+      "body": {
+        "fr": "La convention fiscale France–Hongrie du 28 avril 1980 donne à la Hongrie le droit d'imposer les revenus d'un bien situé en Hongrie (article 6) [1]. Côté hongrois, un particulier paie **15 % d'impôt sur le revenu** sur ses loyers de longue durée, avec un abattement forfaitaire de 10 % ou la déduction des frais réels, et sans contribution sociale [2][3]. Le détail est dans notre guide sur la fiscalité hongroise des non-résidents.",
+        "en": "The France–Hungary tax treaty of 28 April 1980 gives Hungary the right to tax income from property located in Hungary (Article 6) [1]. In Hungary an individual pays **15% income tax** on long-term rent, with a 10% flat-rate deduction or actual costs, and no social contribution tax [2][3]. Details in our guide to Hungarian property tax for non-residents.",
+        "de": "Das Doppelbesteuerungsabkommen Frankreich–Ungarn vom 28. April 1980 gibt Ungarn das Recht, Einkünfte aus einer in Ungarn gelegenen Immobilie zu besteuern (Artikel 6) [1]. In Ungarn zahlt eine Privatperson **15 % Einkommensteuer** auf langfristige Mieteinnahmen, mit einer Pauschale von 10 % oder den tatsächlichen Kosten, ohne Sozialbeitragssteuer [2][3]. Einzelheiten in unserem Ratgeber zur ungarischen Immobilienbesteuerung für Gebietsfremde.",
+        "hu": "Az 1980. április 28-i francia–magyar kettős adóztatási egyezmény a Magyarországon fekvő ingatlan jövedelmének adóztatását Magyarországnak adja (6. cikk) [1]. Magyarországon a magánszemély a tartós bérbeadásból származó jövedelem után **15% személyi jövedelemadót** fizet, 10%-os tételes költséghányaddal vagy tényleges költségekkel, szociális hozzájárulási adó nélkül [2][3]. A részletek a nem rezidensek ingatlanadózásáról szóló útmutatónkban."
+      }
+    },
+    {
+      "h": {
+        "fr": "Ce que fait la France",
+        "en": "What France does",
+        "de": "Was Frankreich macht",
+        "hu": "Mit tesz Franciaország"
+      },
+      "body": {
+        "fr": "L'article 24 de la convention prévoit que ces revenus sont **exonérés d'impôt français**, mais qu'ils sont pris en compte pour calculer le taux appliqué à vos autres revenus imposables en France : c'est la règle du **taux effectif** [1]. Vous ne payez pas d'impôt français sur vos loyers hongrois, mais votre taux sur vos autres revenus peut augmenter.",
+        "en": "Article 24 of the treaty exempts this income **from French tax** but takes it into account to set the rate applied to your other French-taxable income: the **effective-rate** rule [1]. You pay no French tax on the Hungarian rent, but your rate on other income may rise.",
+        "de": "Nach Artikel 24 des Abkommens sind diese Einkünfte **von der französischen Steuer befreit**, werden aber bei der Berechnung des Steuersatzes für Ihre übrigen in Frankreich steuerpflichtigen Einkünfte berücksichtigt: der **Progressionsvorbehalt** (taux effectif) [1]. Auf die ungarischen Mieten zahlen Sie keine französische Steuer, Ihr Satz auf andere Einkünfte kann aber steigen.",
+        "hu": "Az egyezmény 24. cikke szerint ez a jövedelem **mentes a francia adó alól**, de figyelembe veszik a többi, Franciaországban adóköteles jövedelmére alkalmazott kulcs kiszámításánál: ez a **progresszió fenntartása** (taux effectif) [1]. A magyar bérleti díj után nem fizet francia adót, de a többi jövedelmére vonatkozó kulcs emelkedhet."
+      }
+    },
+    {
+      "h": {
+        "fr": "Comment déclarer en France",
+        "en": "How to declare in France",
+        "de": "Wie man in Frankreich erklärt",
+        "hu": "Hogyan kell bevallani Franciaországban"
+      },
+      "body": {
+        "fr": "- Les loyers hongrois exonérés se déclarent sur la déclaration complémentaire **2042 C** : case **4EA** au régime réel, case **4EB** au micro-foncier [4][5].\n- Le formulaire **2047** (revenus de source étrangère) sert aux autres revenus étrangers ; pour ces revenus fonciers, il renvoie aux cases 4EA et 4EB [4].\n- Un compte bancaire ouvert en Hongrie doit être déclaré chaque année sur le formulaire **3916** ; l'oubli est sanctionné par une amende de 1 500 € par compte [6].",
+        "en": "- Exempt Hungarian rent goes on the supplementary return **2042 C**: box **4EA** (actual-costs regime) or **4EB** (micro-foncier) [4][5].\n- Form **2047** (foreign-source income) covers other foreign income and refers this rental income to boxes 4EA and 4EB [4].\n- A bank account opened in Hungary must be declared each year on form **3916**; failing to do so carries a €1,500 fine per account [6].",
+        "de": "- Die befreiten ungarischen Mieten werden in der Zusatzerklärung **2042 C** angegeben: Feld **4EA** (Ist-Kosten-Regelung) oder **4EB** (Micro-foncier) [4][5].\n- Das Formular **2047** (ausländische Einkünfte) gilt für andere ausländische Einkünfte und verweist für diese Mieteinnahmen auf die Felder 4EA und 4EB [4].\n- Ein in Ungarn eröffnetes Bankkonto ist jedes Jahr mit dem Formular **3916** zu melden; bei Versäumnis droht eine Geldbuße von 1.500 € pro Konto [6].",
+        "hu": "- A mentes magyar bérleti díjat a **2042 C** kiegészítő bevallásban kell feltüntetni: **4EA** rovat (tényleges költséges rendszer) vagy **4EB** (micro-foncier) [4][5].\n- A **2047**-es nyomtatvány (külföldi jövedelmek) a többi külföldi jövedelemre szolgál, ezeknél a bérleti jövedelmeknél a 4EA és 4EB rovatra utal [4].\n- A Magyarországon nyitott bankszámlát évente be kell jelenteni a **3916**-os nyomtatványon; elmulasztása számlánként 1500 eurós bírsággal jár [6]."
+      }
+    },
+    {
+      "h": {
+        "fr": "La plus-value à la revente",
+        "en": "The gain on resale",
+        "de": "Der Veräußerungsgewinn",
+        "hu": "Az eladáskori nyereség"
+      },
+      "body": {
+        "fr": "La Hongrie impose la plus-value d'un particulier à 15 %, avec une réduction selon la durée de détention, et l'exonère à partir de la 5ᵉ année après l'acquisition [2]. La convention attribue aussi ce droit à la Hongrie (article 13) [1]. L'application de l'exonération française avec taux effectif à la plus-value résulte de la lecture combinée des articles 13 et 24 : **à confirmer avec un conseiller fiscal**.",
+        "en": "Hungary taxes an individual's gain at 15%, reduced with the holding period, and exempts it from the 5th year after acquisition [2]. The treaty also gives this right to Hungary (Article 13) [1]. Applying the French exemption with effective rate to the gain follows from reading Articles 13 and 24 together: **to confirm with a tax adviser**.",
+        "de": "Ungarn besteuert den Gewinn einer Privatperson mit 15 %, ermäßigt nach Haltedauer, und befreit ihn ab dem 5. Jahr nach dem Erwerb [2]. Auch dieses Recht weist das Abkommen Ungarn zu (Artikel 13) [1]. Dass die französische Befreiung mit Progressionsvorbehalt auch für den Gewinn gilt, ergibt sich aus dem Zusammenlesen der Artikel 13 und 24: **mit einem Steuerberater zu bestätigen**.",
+        "hu": "Magyarország a magánszemély nyereségét 15%-kal adóztatja, a tartási idővel csökkenő mértékben, és a szerzést követő 5. évtől mentesíti [2]. Az egyezmény ezt a jogot is Magyarországnak adja (13. cikk) [1]. Hogy a francia mentesség a progresszió figyelembevételével a nyereségre is vonatkozik, a 13. és 24. cikk együttes olvasatából következik: **adótanácsadóval megerősítendő**."
+      }
+    },
+    {
+      "h": {
+        "fr": "Les prélèvements sociaux",
+        "en": "French social levies",
+        "de": "Französische Sozialabgaben",
+        "hu": "Francia társadalombiztosítási hozzájárulások"
+      },
+      "body": {
+        "fr": "Les sources consultées ne tranchent pas la question de savoir si les prélèvements sociaux français s'appliquent à des loyers exonérés par la convention : **à vérifier avec un conseiller fiscal** avant de déclarer.",
+        "en": "The sources checked do not settle whether French social levies apply to rent exempted by the treaty: **check with a tax adviser** before filing.",
+        "de": "Die geprüften Quellen klären nicht, ob französische Sozialabgaben auf durch das Abkommen befreite Mieten anfallen: **vor der Erklärung mit einem Steuerberater klären**.",
+        "hu": "A vizsgált források nem döntik el, hogy az egyezmény alapján mentes bérleti díjra vonatkoznak-e a francia társadalombiztosítási hozzájárulások: **bevallás előtt egyeztessen adótanácsadóval**."
+      }
+    },
+    {
+      "h": {
+        "fr": "Exemple : Rákóczi 40",
+        "en": "Example: Rákóczi 40",
+        "de": "Beispiel: Rákóczi 40",
+        "hu": "Példa: Rákóczi 40"
+      },
+      "body": {
+        "fr": "Quatre chambres louées **1 356 € par mois** au total, soit 16 272 € par an. Avec l'abattement forfaitaire de 10 %, l'impôt hongrois est d'environ **2 197 € par an** (16 272 × 90 % × 15 %). En France, ces 16 272 € se déclarent en case 4EB (micro-foncier) ou 4EA (réel) et ne sont pas imposés, mais ils entrent dans le calcul du taux effectif. Exemple simplifié, avant charges et sans prélèvements sociaux.",
+        "en": "Four rooms let for **€1,356 a month** in total, €16,272 a year. With the 10% flat-rate deduction, Hungarian tax is about **€2,197 a year** (16,272 × 90% × 15%). In France the €16,272 goes in box 4EB or 4EA and is not taxed, but it counts for the effective rate. Simplified example, before costs and without social levies.",
+        "de": "Vier Zimmer, insgesamt für **1.356 € im Monat** vermietet, also 16.272 € im Jahr. Mit der Pauschale von 10 % beträgt die ungarische Steuer rund **2.197 € im Jahr** (16.272 × 90 % × 15 %). In Frankreich werden die 16.272 € in Feld 4EB oder 4EA angegeben und nicht besteuert, zählen aber für den Progressionsvorbehalt. Vereinfachtes Beispiel, vor Kosten und ohne Sozialabgaben.",
+        "hu": "Négy szoba összesen **havi 1356 euróért** kiadva, évi 16 272 euró. A 10%-os költséghányaddal a magyar adó évente kb. **2197 euró** (16 272 × 90% × 15%). Franciaországban a 16 272 eurót a 4EB vagy 4EA rovatban kell feltüntetni, nem adózik, de beszámít a progresszióba. Egyszerűsített példa, költségek és hozzájárulások nélkül."
+      }
+    },
+    {
+      "h": {
+        "fr": "À retenir",
+        "en": "Key points",
+        "de": "Das Wichtigste",
+        "hu": "Összefoglalva"
+      },
+      "body": {
+        "fr": "1. Numéro fiscal hongrois avant la première location.\n2. Impôt payé en Hongrie, par acomptes trimestriels.\n3. En France : 2042 C (case 4EA ou 4EB) et formulaire 3916 pour le compte hongrois.\n4. Prélèvements sociaux et plus-value : validation par un conseiller fiscal.\n\n*Information générale, pas un conseil fiscal. Règles vérifiées le 6 novembre 2026.*",
+        "en": "1. Hungarian tax number before the first letting.\n2. Tax paid in Hungary, in quarterly instalments.\n3. In France: 2042 C (box 4EA or 4EB) and form 3916 for the Hungarian account.\n4. Social levies and resale gain: confirm with a tax adviser.\n\n*General information, not tax advice. Rules checked on 6 November 2026.*",
+        "de": "1. Ungarische Steuernummer vor der ersten Vermietung.\n2. Steuer in Ungarn, in vierteljährlichen Vorauszahlungen.\n3. In Frankreich: 2042 C (Feld 4EA oder 4EB) und Formular 3916 für das ungarische Konto.\n4. Sozialabgaben und Veräußerungsgewinn: mit einem Steuerberater bestätigen.\n\n*Allgemeine Information, keine Steuerberatung. Regeln geprüft am 6. November 2026.*",
+        "hu": "1. Magyar adóazonosító jel az első bérbeadás előtt.\n2. Az adó Magyarországon fizetendő, negyedéves előlegekben.\n3. Franciaországban: 2042 C (4EA vagy 4EB rovat) és 3916-os nyomtatvány a magyar számláról.\n4. Hozzájárulások és eladási nyereség: adótanácsadóval megerősítendő.\n\n*Általános tájékoztatás, nem adótanácsadás. A szabályok ellenőrzése: 2026. november 6.*"
+      }
+    }
+  ],
+  "properties": [
+    "rakoczi-40"
+  ],
+  "resources": [
+    "tax",
+    "costs",
+    "faq"
+  ],
+  "sources": [
+    {
+      "title": "impots.gouv.fr – Convention fiscale France–Hongrie, version consolidée avec l'IML (art. 6, 13, 24)",
+      "url": "https://www.impots.gouv.fr/sites/default/files/media/10_conventions/hongrie/hongrie_convention_modifiee_cml.pdf",
+      "seen": "2026-11-06"
+    },
+    {
+      "title": "NAV – Az ingatlan-adásvétel adózási szabályai",
+      "url": "https://nav.gov.hu/print/ado/ingatlan-adasvetel/ingatlan_adasvetel",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "PwC Worldwide Tax Summaries – Hungary, Individual, Income determination",
+      "url": "https://taxsummaries.pwc.com/hungary/individual/income-determination",
+      "seen": "2026-10-26"
+    },
+    {
+      "title": "impots.gouv.fr – Formulaire 2047, revenus 2025",
+      "url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2047/2026/2047_5488.pdf",
+      "seen": "2026-11-06"
+    },
+    {
+      "title": "Corrige ton impôt – SCPI et revenus fonciers étrangers : les cases 4EA et 4EB (3 Jan 2025)",
+      "url": "https://www.corrigetonimpot.fr/scpi-et-revenu-fonciers-etrangers-les-cases-4ea-et-4eb",
+      "seen": "2026-11-06"
+    },
+    {
+      "title": "impots.gouv.fr – Notice 3916",
+      "url": "https://static.impots.gouv.fr/tdir/static/2026-03-30T16:36:08Z/aide/notices/notices2023/3916/notice3916.pdf",
+      "seen": "2026-11-06"
+    }
+  ]
+}
