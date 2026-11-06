@@ -60,6 +60,7 @@ const districtOf = (p) => { const m = p.address.match(/\b1(\d\d)\d\b/); return m
 const m2Of = (p) => { const m = p.facts[0].en.match(/(\d+)\s*m²/); return m ? +m[1] : null; };
 const hufValue = (p) => { const m = String(p.priceHuf || "").match(/([\d.,]+)\s*M/); return m ? Math.round(parseFloat(m[1].replace(",", ".")) * 1e6) : null; };
 const ORG_ID = `https://${SITE.domain}/#organization`;
+const SEO_INDEXNOW_KEY = "a11f3c5df56adba6a21c80b8a5b41bde"; // public by design (IndexNow protocol)
 // Homepage photo (Unsplash). Change it here: the home hero AND the default share image (og:image) both use it.
 // Homepage photo: St Stephen's Basilica, B&W (Unsplash sbyz9wX9Rrg, © Salmen Bejaoui), hosted locally since 5 Nov 2026
 // (src/img/hero-basilica-900/1600/2400 .jpg + .webp). Share image = 1200×630 crop of the same photo.
@@ -893,6 +894,26 @@ write(join(OUT, "404.html"), notFound());
 writeFileSync(join(OUT, "CNAME"), SITE.domain + "\n");
 writeFileSync(join(OUT, ".nojekyll"), "");
 writeFileSync(join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: https://${SITE.domain}/sitemap.xml\n`);
+// IndexNow key file (Bing, Yandex…): lets .github/workflows/indexnow.yml announce changed URLs after each deploy. SEO chat, 6 Nov 2026.
+writeFileSync(join(OUT, `${SEO_INDEXNOW_KEY}.txt`), SEO_INDEXNOW_KEY);
+// llms.txt (llmstxt.org): plain-text map of the site for AI assistants, generated from the same data as the pages (English).
+const llms = [
+  `# ${SITE.name}`, "",
+  `> ${SITE.name} (legal entity: ${SITE.company}, Budapest) buys, renovates and sells or lets apartments in historic buildings in central Budapest. Website in French, English, German and Hungarian.`, "",
+  "## Properties for sale",
+  ...FOR_SALE.map((p) => `- [${p.name}, Budapest ${districtOf(p)}](${abs("en", `projects/${p.slug}/`)}): ${p.type.en}, ${p.facts[0].en}, ${p.priceFromHuf ? p.priceHuf.replace("M Ft", "million HUF") : `EUR ${p.price.toLocaleString("en-US")}`}`),
+  "", "## Rentals",
+  ...rentals.items.map((it) => projects.find((x) => x.slug === it.slug)).filter(Boolean).map((p) => `- [${p.name}](${abs("en", `rentals/${p.slug}/`)})`),
+  "", "## Guides",
+  ...RES_ITEMS.filter(resReady).map((it) => `- [${RES[it.key]?.title?.en || it.en || it.slug}](${abs("en", `resources/${it.slug}/`)})`),
+  "", "## Blog",
+  ...BLOG.map((a) => `- [${a.title.en}](${abs("en", `blog/${a.slug}/`)}) (${a.date})`),
+  "", "## Districts",
+  ...districts.items.map((d) => `- [${d.name.en}](${abs("en", `districts/${d.slug}/`)})`),
+  "", "## Company",
+  `- [About](${abs("en", "about/")})`, `- [References: past renovations](${abs("en", "references/")})`, `- [Contact](${abs("en", "contact/")})`, `- [Legal notice](${abs("en", "legal/")})`, "",
+];
+writeFileSync(join(OUT, "llms.txt"), llms.join("\n"));
 const altLinks = (route) => [...LANGS.map((x) => `    <xhtml:link rel="alternate" hreflang="${x}" href="${abs(x, route)}"/>`), `    <xhtml:link rel="alternate" hreflang="x-default" href="${abs("fr", route)}"/>`].join("\n");
 const smEntries = [...routes].flatMap((route) => LANGS.map((l) => `  <url>\n    <loc>${abs(l, route)}</loc>\n    <lastmod>${BUILT}</lastmod>\n${altLinks(route)}\n  </url>`));
 writeFileSync(join(OUT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${smEntries.join("\n")}\n</urlset>\n`);
