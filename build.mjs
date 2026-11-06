@@ -89,6 +89,7 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
     ...(REFS.length ? [["references/", t.navRefs[l]]] : []),
     ["resources/", t.navResources[l]],
     ...(BLOG.length ? [["blog/", t.navBlog[l]]] : []),
+    ["pilot/", t.navPilot[l]],
     ["about/", t.navAbout[l]],
     ["contact/", t.navContact[l]],
   ];
@@ -164,7 +165,6 @@ ${SITE.cfBeaconToken ? `<script defer src="https://static.cloudflareinsights.com
   </div>
   <nav class="mnav" id="mnav" aria-label="Mobile">
     ${nav.map(([r, n]) => `<a href="${R(r)}"${isActive(r) ? ' aria-current="page"' : ""}>${n}</a>`).join("")}
-    <a href="${R("pilot/")}"${isActive("pilot/") ? ' aria-current="page"' : ""}>${t.navPilot[l]}</a>
     <a href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
     <div class="langs">${langLinks}</div>
   </nav>
@@ -194,7 +194,6 @@ ${followBlock(l)}
     </div>
     <div class="ftr-c">
       ${nav.map(([r, n]) => `<a href="${R(r)}">${n}</a>`).join("")}
-      <a href="${R("pilot/")}">${t.navPilot[l]}</a>
       <a href="${R("legal/")}">${legal.nav[l]}</a>
     </div>
   </div>
