@@ -260,3 +260,9 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .hdr .login-l{color:#f4f3ef;text-shadow:0 1px 8px rgba(0,0,0,.5)}
 .hdr .login-l:hover{color:var(--acc,#c8a97e)}
 @media (max-width:1180px){.hdr-r>.login-l{display:none}}
+
+/* Section Pilot en page d'accueil (panneau sombre, 6 Nov 2026) */
+.phome{--bg:#000;--bg2:#0d0d0d;--bg3:#1a1a1a;--tx:#f2f2ef;--mu:#a3a39e;--gold:var(--acc);--gold2:var(--acc2);--line:rgba(242,242,239,.16);--line2:rgba(242,242,239,.4);background:#000;color:#f2f2ef;border:1px solid #000;padding:clamp(32px,5vw,64px)}
+.phome h2{margin:.15em 0 .3em}
+.phome .lead{max-width:54ch;margin-top:.6rem}
+.phome .row{display:flex;gap:12px;flex-wrap:wrap}
