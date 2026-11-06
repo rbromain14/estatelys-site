@@ -637,7 +637,7 @@ function resourcesPage(l) {
 </div></section>
 <section class="sec wrap">
   <div class="res">
-    ${resources.groups.map((g) => `<div class="res-g"><h2 class="h3">${g.t[l]}</h2><ul>${g.items.map((it) => resReady(it)
+    ${resources.groups.map((g) => `<div class="res-g"><h2 class="h3">${g.t[l]}</h2><ul>${g.items.filter(resReady).map((it) => resReady(it)
       ? `<li class="on"><a class="res-l" href="${R(`resources/${it.slug}/`)}">${it[l]}</a><a class="res-a" href="${R(`resources/${it.slug}/`)}">${resources.ui.read[l]} <i class="arr">→</i></a></li>`
       : `<li><span>${it[l]}</span><a class="res-a" href="${R("contact/")}?r=${encodeURIComponent(it.en)}"><em>${resources.soon[l]}</em> ${resources.ask[l]} <i class="arr">→</i></a></li>`).join("")}</ul></div>`).join("")}
   </div>
