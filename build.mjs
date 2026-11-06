@@ -60,7 +60,7 @@ const districtOf = (p) => { const m = p.address.match(/\b1(\d\d)\d\b/); return m
 const m2Of = (p) => { const m = p.facts[0].en.match(/(\d+)\s*m²/); return m ? +m[1] : null; };
 const hufValue = (p) => { const m = String(p.priceHuf || "").match(/([\d.,]+)\s*M/); return m ? Math.round(parseFloat(m[1].replace(",", ".")) * 1e6) : null; };
 const ORG_ID = `https://${SITE.domain}/#organization`;
-const SEO_INDEXNOW_KEY = "a11f3c5df56adba6a21c80b8a5b41bde"; // public by design (IndexNow protocol)
+const SEO_INDEXNOW_KEY = "1e40a2d42ad17b32a0814fa174ea9ca9"; // public by design (IndexNow protocol)
 // Homepage photo (Unsplash). Change it here: the home hero AND the default share image (og:image) both use it.
 // Homepage photo: St Stephen's Basilica, B&W (Unsplash sbyz9wX9Rrg, © Salmen Bejaoui), hosted locally since 5 Nov 2026
 // (src/img/hero-basilica-900/1600/2400 .jpg + .webp). Share image = 1200×630 crop of the same photo.
