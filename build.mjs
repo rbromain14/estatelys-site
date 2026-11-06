@@ -915,6 +915,7 @@ function pilotPage(l) {
       <a class="btn btn-o" href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
     </div>
   </div>
+  <p class="rnote" style="margin-top:24px">${pilot.dataNote[l]}</p>
 </section>`;
   return layout({ l, route, title: `${pilot.h1[l]} | Estatelys`, desc: pilot.lead[l], body, crumbs: [[t.navPilot[l], route]] });
 }

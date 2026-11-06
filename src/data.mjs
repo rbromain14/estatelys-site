@@ -944,6 +944,12 @@ export const pilot = {
     de: ["Klarer Blick auf die Marge vor dem Kauf", "Investoren und Zinsen automatisch verfolgt", "Baukosten Position für Position im Griff", "Mietverwaltung ohne Tabellen", "Daten je Firma getrennt und privat", "Von jedem Browser aus nutzbar"],
     hu: ["Tiszta kép az árrésről a vásárlás előtt", "Befektetők és kamataik automatikus követése", "Munkaköltségek tételenkénti kézben tartása", "Bérbeadás-kezelés táblázatok nélkül", "Cégenként elkülönített, privát adatok", "Bármely böngészőből használható"],
   },
+  dataNote: {
+    fr: "Confidentialité : les données que vous saisissez peuvent être utilisées de façon anonyme et agrégée à des fins statistiques (tendances du marché, comparatifs). Votre nom et vos informations identifiantes ne sont jamais publiés.",
+    en: "Privacy: the data you enter may be used anonymously and in aggregate for statistical purposes (market trends, benchmarks). Your name and identifying information are never published.",
+    de: "Datenschutz: Die von Ihnen eingegebenen Daten können anonym und aggregiert zu statistischen Zwecken (Markttrends, Vergleiche) verwendet werden. Ihr Name und identifizierende Angaben werden nie veröffentlicht.",
+    hu: "Adatvédelem: az Ön által megadott adatok névtelenül és összesítve, statisztikai célokra (piaci trendek, összehasonlítások) felhasználhatók. Nevét és azonosító adatait soha nem tesszük közzé.",
+  },
   ctaTitle: { fr: "Envie d'utiliser Pilot ?", en: "Want to use Pilot?", de: "Pilot nutzen?", hu: "Szeretné használni a Pilotot?" },
   ctaText: {
     fr: "Écrivez-nous pour obtenir un accès à la plateforme. Si vous avez déjà un compte, connectez-vous ci-dessous.",
