@@ -562,12 +562,13 @@ export const signature = {
 };
 
 export const refsText = {
-  title: { fr: "Nos réalisations à Budapest", en: "Our completed projects in Budapest", de: "Unsere realisierten Projekte in Budapest", hu: "Megvalósult projektjeink Budapesten" },
+  // Romain, 6 Nov 2026: "a sample of our projects" (the page shows only the projects with professional photos)
+  title: { fr: "Un aperçu de nos projets à Budapest", en: "A sample of our projects in Budapest", de: "Eine Auswahl unserer Projekte in Budapest", hu: "Válogatás budapesti projektjeinkből" },
   intro: {
-    fr: "Une sélection d'appartements que nous avons achetés et rénovés à Budapest.",
-    en: "A selection of apartments we have bought and renovated in Budapest.",
-    de: "Eine Auswahl von Wohnungen, die wir in Budapest gekauft und renoviert haben.",
-    hu: "Válogatás a Budapesten általunk megvásárolt és felújított lakásokból.",
+    fr: "Parmi plus de 60 appartements achetés et rénovés à Budapest, ceux dont nous avons des photos professionnelles.",
+    en: "Out of more than 60 apartments we have bought and renovated in Budapest, those with professional photos.",
+    de: "Von über 60 Wohnungen, die wir in Budapest gekauft und renoviert haben, diejenigen mit professionellen Fotos.",
+    hu: "A több mint 60, Budapesten általunk megvásárolt és felújított lakás közül azok, amelyekről profi fotók készültek.",
   },
   moreTitle: { fr: "Autres appartements rénovés", en: "Other renovated apartments", de: "Weitere renovierte Wohnungen", hu: "További felújított lakások" },
   moreNote: { fr: "Photos à venir.", en: "Photos coming soon.", de: "Fotos folgen.", hu: "Fotók hamarosan." },
