@@ -904,7 +904,7 @@ export const districts = {
 // Pilot — page de promotion de la plateforme de gestion (module Rénovation + Location).
 export const pilot = {
   eyebrow: { fr: "La plateforme Estatelys", en: "The Estatelys platform", de: "Die Estatelys-Plattform", hu: "Az Estatelys platform" },
-  h1: { fr: "Pilot, l'outil qui pilote nos projets", en: "Pilot, the tool that runs our projects", de: "Pilot, das Werkzeug hinter unseren Projekten", hu: "Pilot, a projektjeinket vezérlő eszköz" },
+  h1: { fr: "Pilot, l'outil qui pilote nos projets et nos locations", en: "Pilot, the tool that runs our projects and rentals", de: "Pilot, das Werkzeug hinter unseren Projekten und Vermietungen", hu: "Pilot, a projektjeinket és bérbeadásainkat vezérlő eszköz" },
   lead: {
     fr: "Pilot est la plateforme que nous avons conçue pour gérer nos projets et nos locations à Budapest : simulation financière, investisseurs, coûts et suivi des biens loués au même endroit. Nous l'ouvrons aujourd'hui à d'autres bailleurs et investisseurs.",
     en: "Pilot is the platform we built to run our projects and rentals in Budapest: financial simulation, investors, costs and rental tracking in one place. We are now opening it to other landlords and investors.",
