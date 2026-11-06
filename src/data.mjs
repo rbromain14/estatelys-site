@@ -36,6 +36,8 @@ export const SITE = {
   // Official profiles of the brand (LinkedIn, Instagram…), used in the schema.org "sameAs". Empty until they exist.
   sameAs: [],
   director: "Yohan Royer",
+  // Plateforme de gestion interne (module Rénovation + Location), accès protégé par code e-mail.
+  appUrl: "https://iib-pilot.pages.dev",
 };
 
 export const legal = {
@@ -149,6 +151,9 @@ export const t = {
   navRefs: { fr: "Références", en: "References", de: "Referenzen", hu: "Referenciák" },
   navResources: { fr: "Ressources", en: "Resources", de: "Ressourcen", hu: "Források" },
   navBlog: { fr: "Blog", en: "Blog", de: "Blog", hu: "Blog" },
+  navPilot: { fr: "Pilot", en: "Pilot", de: "Pilot", hu: "Pilot" },
+  login: { fr: "Connexion", en: "Log in", de: "Anmelden", hu: "Bejelentkezés" },
+  requestAccess: { fr: "Demander un accès", en: "Request access", de: "Zugang anfragen", hu: "Hozzáférés kérése" },
   stat3: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlan" },
   stat4: { fr: "Langues parlées", en: "Languages spoken", de: "Gesprochene Sprachen", hu: "Beszélt nyelv" },
   featuredEyebrow: { fr: "En vente actuellement", en: "Currently for sale", de: "Aktuell zum Verkauf", hu: "Jelenleg eladó" },
@@ -894,4 +899,62 @@ export const districts = {
   guides: { fr: "Guides pour acheter à Budapest", en: "Guides to buying in Budapest", de: "Ratgeber zum Kauf in Budapest", hu: "Útmutatók a budapesti vásárláshoz" },
   others: { fr: "Autres quartiers", en: "Other districts", de: "Andere Bezirke", hu: "Más kerületek" },
   link: { fr: "Tout sur ce quartier", en: "All about this district", de: "Alles über diesen Bezirk", hu: "Minden erről a kerületről" },
+};
+
+// Pilot — page de promotion de la plateforme de gestion (module Rénovation + Location).
+export const pilot = {
+  eyebrow: { fr: "La plateforme Estatelys", en: "The Estatelys platform", de: "Die Estatelys-Plattform", hu: "Az Estatelys platform" },
+  h1: { fr: "Pilot, l'outil qui pilote nos projets et nos locations", en: "Pilot, the tool that runs our projects and rentals", de: "Pilot, das Werkzeug hinter unseren Projekten und Vermietungen", hu: "Pilot, a projektjeinket és bérbeadásainkat vezérlő eszköz" },
+  lead: {
+    fr: "Pilot est la plateforme que nous avons conçue pour gérer nos projets et nos locations à Budapest : simulation financière, investisseurs, coûts et suivi des biens loués au même endroit. Nous l'ouvrons aujourd'hui à d'autres bailleurs et investisseurs.",
+    en: "Pilot is the platform we built to run our projects and rentals in Budapest: financial simulation, investors, costs and rental tracking in one place. We are now opening it to other landlords and investors.",
+    de: "Pilot ist die Plattform, die wir für unsere Projekte und Vermietungen in Budapest entwickelt haben: Finanzsimulation, Investoren, Kosten und Mietverwaltung an einem Ort. Wir öffnen sie jetzt für andere Vermieter und Investoren.",
+    hu: "A Pilot az a platform, amelyet budapesti projektjeink és bérbeadásaink kezelésére építettünk: pénzügyi szimuláció, befektetők, költségek és bérleti nyilvántartás egy helyen. Most megnyitjuk más tulajdonosok és befektetők előtt is.",
+  },
+  stats: [
+    { v: { fr: "2 modules", en: "2 modules", de: "2 Module", hu: "2 modul" }, k: { fr: "Projet &amp; Location", en: "Project &amp; Rental", de: "Projekt &amp; Vermietung", hu: "Projekt &amp; Bérbeadás" } },
+    { v: { fr: "Multi-sociétés", en: "Multi-company", de: "Mehrere Firmen", hu: "Több cég" }, k: { fr: "Données séparées par société", en: "Data separated per company", de: "Daten je Firma getrennt", hu: "Cégenként elkülönített adatok" } },
+    { v: { fr: "Accès sécurisé", en: "Secure access", de: "Sicherer Zugang", hu: "Biztonságos hozzáférés" }, k: { fr: "Connexion par code e-mail", en: "E-mail code sign-in", de: "Anmeldung per E-Mail-Code", hu: "Bejelentkezés e-mail kóddal" } },
+  ],
+  renoTitle: { fr: "Module Projet", en: "Project module", de: "Modul Projekt", hu: "Projekt modul" },
+  renoBullets: {
+    fr: ["Simulateur de marge et de bénéfice net par scénario", "Suivi des investisseurs, apports et intérêts", "Coûts détaillés (achat, travaux, frais) et budget par poste"],
+    en: ["Margin and net-profit simulator per scenario", "Tracking of investors, contributions and interest", "Detailed costs (purchase, works, fees) and budget per item"],
+    de: ["Margen- und Nettogewinn-Simulator je Szenario", "Verfolgung von Investoren, Einlagen und Zinsen", "Detaillierte Kosten (Kauf, Arbeiten, Gebühren) und Budget je Position"],
+    hu: ["Árrés- és nettó nyereség-szimulátor forgatókönyvenként", "Befektetők, hozzájárulások és kamatok követése", "Részletes költségek (vétel, munkák, díjak) és tételenkénti büdzsé"],
+  },
+  locTitle: { fr: "Module Location", en: "Rental module", de: "Modul Vermietung", hu: "Bérbeadás modul" },
+  locBullets: {
+    fr: ["Baux, locataires et échéances au même endroit", "Loyers, charges et balance mensuelle", "Rentabilité et suivi des paiements par bien"],
+    en: ["Leases, tenants and key dates in one place", "Rent, charges and monthly balance", "Yield and payment tracking per property"],
+    de: ["Mietverträge, Mieter und Fristen an einem Ort", "Miete, Nebenkosten und Monatssaldo", "Rendite und Zahlungsverfolgung je Objekt"],
+    hu: ["Bérleti szerződések, bérlők és határidők egy helyen", "Bérleti díj, költségek és havi egyenleg", "Hozam és fizetések követése ingatlanonként"],
+  },
+  proofTitle: { fr: "Éprouvé sur nos propres projets", en: "Proven on our own projects", de: "An unseren eigenen Projekten erprobt", hu: "Saját projektjeinken bizonyított" },
+  proofText: {
+    fr: "Nous utilisons Pilot chaque jour pour piloter les projets et les locations d'Estatelys. C'est le même outil, avec les mêmes chiffres, que nous mettons à disposition.",
+    en: "We use Pilot every day to run Estatelys' projects and rentals. It is the same tool, with the same figures, that we make available.",
+    de: "Wir nutzen Pilot täglich für die Projekte und Vermietungen von Estatelys. Es ist dasselbe Werkzeug, mit denselben Zahlen, das wir zur Verfügung stellen.",
+    hu: "A Pilotot minden nap használjuk az Estatelys projektjeinek és bérbeadásainak irányítására. Ugyanazt az eszközt, ugyanazokkal a számokkal tesszük elérhetővé.",
+  },
+  featTitle: { fr: "Ce que Pilot apporte", en: "What Pilot gives you", de: "Was Pilot bietet", hu: "Mit nyújt a Pilot" },
+  features: {
+    fr: ["Une vue claire de la marge avant d'acheter", "Les investisseurs et leurs intérêts suivis automatiquement", "Les coûts de travaux maîtrisés poste par poste", "La gestion locative sans tableur", "Données séparées et privées par société", "Accessible depuis n'importe quel navigateur"],
+    en: ["A clear view of the margin before you buy", "Investors and their interest tracked automatically", "Works costs controlled item by item", "Rental management without spreadsheets", "Data kept separate and private per company", "Usable from any browser"],
+    de: ["Klarer Blick auf die Marge vor dem Kauf", "Investoren und Zinsen automatisch verfolgt", "Baukosten Position für Position im Griff", "Mietverwaltung ohne Tabellen", "Daten je Firma getrennt und privat", "Von jedem Browser aus nutzbar"],
+    hu: ["Tiszta kép az árrésről a vásárlás előtt", "Befektetők és kamataik automatikus követése", "Munkaköltségek tételenkénti kézben tartása", "Bérbeadás-kezelés táblázatok nélkül", "Cégenként elkülönített, privát adatok", "Bármely böngészőből használható"],
+  },
+  dataNote: {
+    fr: "Confidentialité : les données que vous saisissez peuvent être utilisées de façon anonyme et agrégée à des fins statistiques (tendances du marché, comparatifs). Votre nom et vos informations identifiantes ne sont jamais publiés.",
+    en: "Privacy: the data you enter may be used anonymously and in aggregate for statistical purposes (market trends, benchmarks). Your name and identifying information are never published.",
+    de: "Datenschutz: Die von Ihnen eingegebenen Daten können anonym und aggregiert zu statistischen Zwecken (Markttrends, Vergleiche) verwendet werden. Ihr Name und identifizierende Angaben werden nie veröffentlicht.",
+    hu: "Adatvédelem: az Ön által megadott adatok névtelenül és összesítve, statisztikai célokra (piaci trendek, összehasonlítások) felhasználhatók. Nevét és azonosító adatait soha nem tesszük közzé.",
+  },
+  ctaTitle: { fr: "Envie d'utiliser Pilot ?", en: "Want to use Pilot?", de: "Pilot nutzen?", hu: "Szeretné használni a Pilotot?" },
+  ctaText: {
+    fr: "Écrivez-nous pour obtenir un accès à la plateforme. Si vous avez déjà un compte, connectez-vous ci-dessous.",
+    en: "Write to us to get access to the platform. If you already have an account, log in below.",
+    de: "Schreiben Sie uns für einen Zugang zur Plattform. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
+    hu: "Írjon nekünk a platform hozzáféréséért. Ha már van fiókja, jelentkezzen be lent.",
+  },
 };
