@@ -156,6 +156,7 @@ export const t = {
   requestAccess: { fr: "Demander un accès", en: "Request access", de: "Zugang anfragen", hu: "Hozzáférés kérése" },
   stat3: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlan" },
   stat4: { fr: "Langues parlées", en: "Languages spoken", de: "Gesprochene Sprachen", hu: "Beszélt nyelv" },
+  stat5: { fr: "Notre logiciel projets et locations", en: "Our projects and rentals software", de: "Unsere Software für Projekte und Vermietung", hu: "Saját projekt- és bérleménykezelő szoftverünk" },
   featuredEyebrow: { fr: "En vente actuellement", en: "Currently for sale", de: "Aktuell zum Verkauf", hu: "Jelenleg eladó" },
   featuredTitle: { fr: "Des adresses rares, entièrement repensées", en: "Rare addresses, fully reimagined", de: "Seltene Adressen, völlig neu gedacht", hu: "Ritka címek, teljesen újragondolva" },
   allProjects: { fr: "Tous les biens", en: "All properties", de: "Alle Objekte", hu: "Összes ingatlan" },

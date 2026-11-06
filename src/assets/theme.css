@@ -249,7 +249,6 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 @media (max-width:980px){.hdr-r>.ldd{display:none}}
 .ref-cs{margin-top:12px}
 .hdr-r .btn-s{white-space:nowrap}
-@media (max-width:1180px){.hdr .nav{gap:18px}.hdr .nav a{font-size:.85rem}}
 /* Reference thumbnails: max 3, the 3rd shows +N (6 Nov 2026) */
 .ref-t .gal-x{display:none}
 .ref-t .gal-i{position:relative}
@@ -259,10 +258,21 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .login-l{align-self:center;white-space:nowrap;font-size:.85rem;font-weight:500;color:var(--tx);text-decoration:none}
 .hdr .login-l{color:#f4f3ef;text-shadow:0 1px 8px rgba(0,0,0,.5)}
 .hdr .login-l:hover{color:var(--acc,#c8a97e)}
-@media (max-width:1180px){.hdr-r>.login-l{display:none}}
+
 
 /* Section Pilot en page d'accueil (panneau sombre, 6 Nov 2026) */
 .phome{--bg:#000;--bg2:#0d0d0d;--bg3:#1a1a1a;--tx:#f2f2ef;--mu:#a3a39e;--gold:var(--acc);--gold2:var(--acc2);--line:rgba(242,242,239,.16);--line2:rgba(242,242,239,.4);background:#000;color:#f2f2ef;border:1px solid #000;padding:clamp(32px,5vw,64px)}
 .phome h2{margin:.15em 0 .3em}
 .phome .lead{max-width:54ch;margin-top:.6rem}
 .phome .row{display:flex;gap:12px;flex-wrap:wrap}
+/* 6 Nov 2026: header breathing room, KPIs visible on the first screen, Pilot KPI */
+.hdr .nav{gap:30px}
+@media (max-width:1240px){.hdr-r>.ldd{display:none}}
+.hero{min-height:min(calc(100svh - 170px),760px)}
+.hero-in{padding-top:110px;padding-bottom:clamp(36px,6vh,72px)}
+@media (min-width:981px){.stats-in{grid-template-columns:repeat(5,1fr)}}
+@media (max-width:760px){.stats-in>*:last-child{grid-column:1/-1;border-right:0}}
+@media (min-width:761px) and (max-width:980px){.stats-in{grid-template-columns:repeat(5,1fr)}.stats-in b.sm{font-size:.8rem}}
+@media (max-width:760px){.stats-in>*:nth-child(3),.stats-in>*:nth-child(4){border-bottom:1px solid var(--line)}}
+@media (min-width:981px) and (max-height:900px){.hero h1{font-size:min(5.2rem,8.6vh)}.hero .lead{margin-top:14px}.hero-in{padding-top:96px}}
+.hero{min-height:min(calc(100svh - 180px),740px)}

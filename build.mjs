@@ -158,7 +158,6 @@ ${SITE.cfBeaconToken ? `<script defer src="https://static.cloudflareinsights.com
     </nav>
     <div class="hdr-r">
       <details class="ldd"><summary aria-label="Language: ${LANG_NAME[l]}">${LANG_LABEL[l]}<i aria-hidden="true">▾</i></summary><div class="ldd-m" role="menu">${LANGS.map((x) => `<a href="${rel(l, route, x, route)}" hreflang="${x}" lang="${x}"${x === l ? ' aria-current="true" class="on"' : ""}><b>${LANG_LABEL[x]}</b> ${LANG_NAME[x]}</a>`).join("")}</div></details>
-      <a class="login-l" href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
       <a class="btn btn-s" href="${R("contact/")}">${t.contactUs[l]}</a>
       <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
     </div>
@@ -336,6 +335,7 @@ function home(l) {
     <div><b class="sm">I · II · V · VI · VII · VIII · XIII</b><span>${t.stat2[l]}</span></div>
     <a class="stat-l" href="${R("projects/")}"><b>${FOR_SALE.length}</b><span>${t.stat3[l]} <i class="arr">→</i></span></a>
     <div><b class="sm">FR · EN · DE · HU</b><span>${t.stat4[l]}</span></div>
+    <a class="stat-l" href="${R("pilot/")}"><b class="sm">Estatelys Pilot</b><span>${t.stat5[l]} <i class="arr">→</i></span></a>
   </div>
 </section>
 <section class="sec wrap">
