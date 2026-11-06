@@ -294,6 +294,22 @@ const leafletHead = `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>`;
 
 // ── pages ────────────────────────────────────────────────────
+function pilotHomeBlock(l, route = "") {
+  const R = (r) => rel(l, route, l, r);
+  return `
+<section class="sec wrap">
+  <div class="phome dk">
+    <p class="eyebrow">${pilot.eyebrow[l]}</p>
+    <h2>${pilot.homeTitle[l]}</h2>
+    <p class="lead">${pilot.homeText[l]}</p>
+    <div class="row" style="margin-top:22px">
+      <a class="btn" href="${SITE.appUrl}" rel="nofollow">${pilot.tryFree[l]}</a>
+      <a class="btn btn-o" href="${R("pilot/")}">${pilot.learnMore[l]}</a>
+    </div>
+  </div>
+</section>`;
+}
+
 function home(l) {
   const route = "";
   const A = (p) => asset(l, route, p);
@@ -329,6 +345,7 @@ function home(l) {
   </div>
   <div class="grid2">${FOR_SALE.map((p) => card(p, l, route)).join("")}</div>
 </section>
+${pilotHomeBlock(l, route)}
 <section class="sec wrap">
   <p class="eyebrow">${t.jobEyebrow[l]}</p>
   <h2>${t.jobTitle[l]}</h2>
