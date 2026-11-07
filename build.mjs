@@ -894,7 +894,8 @@ function pilotPage(l) {
   <h1>${pilot.h1[l]}</h1>
   <p class="lead">${pilot.lead[l]}</p>
   <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:26px">
-    <a class="btn" href="${R("contact/")}">${t.requestAccess[l]}</a>
+    <a class="btn" href="mailto:${SITE.email}?subject=${encodeURIComponent("Estatelys Pilot – demo")}" data-ev="email">${t.requestDemo[l]}</a>
+    <a class="btn btn-o" href="https://m.me/estatelys" target="_blank" rel="noopener" data-ev="facebook">Messenger</a>
     <a class="btn btn-o" href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
   </div>
 </div></section>
@@ -928,7 +929,8 @@ function pilotPage(l) {
     <h2 class="h3" style="margin:0">${pilot.ctaTitle[l]}</h2>
     <p style="margin:0;max-width:52ch">${pilot.ctaText[l]}</p>
     <div style="display:flex;gap:12px;flex-wrap:wrap">
-      <a class="btn" href="${R("contact/")}">${t.requestAccess[l]}</a>
+      <a class="btn" href="mailto:${SITE.email}?subject=${encodeURIComponent("Estatelys Pilot – demo")}" data-ev="email">${t.requestDemo[l]}</a>
+      <a class="btn btn-o" href="https://m.me/estatelys" target="_blank" rel="noopener" data-ev="facebook">Messenger</a>
       <a class="btn btn-o" href="${SITE.appUrl}" rel="nofollow">${t.login[l]}</a>
     </div>
   </div>

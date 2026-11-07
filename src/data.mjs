@@ -153,6 +153,7 @@ export const t = {
   navBlog: { fr: "Blog", en: "Blog", de: "Blog", hu: "Blog" },
   navPilot: { fr: "Pilot", en: "Pilot", de: "Pilot", hu: "Pilot" },
   login: { fr: "Connexion", en: "Log in", de: "Anmelden", hu: "Bejelentkezés" },
+  requestDemo: { fr: "Demander une démo", en: "Request a demo", de: "Demo anfragen", hu: "Bemutató kérése" },
   requestAccess: { fr: "Demander un accès", en: "Request access", de: "Zugang anfragen", hu: "Hozzáférés kérése" },
   stat3: { fr: "Biens en vente", en: "Properties for sale", de: "Objekte zum Verkauf", hu: "Eladó ingatlan" },
   stat4: { fr: "Langues parlées", en: "Languages spoken", de: "Gesprochene Sprachen", hu: "Beszélt nyelv" },
