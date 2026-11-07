@@ -8,7 +8,7 @@ export const SITE = {
   // Custom domain bought on Hostinger. Written to dist/CNAME for GitHub Pages.
   domain: "www.estatelys.com",
   name: "Estatelys Budapest",
-  email: "info@estatelys.com",
+  email: "contact@estatelys.com", // OVH Email Pro mailbox created by Romain, 7 Nov 2026
   // Audience measurement. Metricool brand "Estatelys" (blogId 7325859), same tracker as dueo.eu.
   metricoolHash: "e1345b8cbcbc3c147bef41d4ddae74d9",
   // Cloudflare Web Analytics beacon token (no cookie). Empty until the site is added in Cloudflare.
