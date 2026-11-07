@@ -283,7 +283,7 @@ export const t = {
   v3d: { fr: "Un réseau d'artisans, d'architectes et d'avocats de confiance à Budapest.", en: "A network of trusted craftsmen, architects and lawyers in Budapest.", de: "Ein Netzwerk vertrauenswürdiger Handwerker, Architekten und Anwälte in Budapest.", hu: "Megbízható szakemberek, építészek és ügyvédek hálózata Budapesten." },
   contactTitle: { fr: "Parlons de votre projet", en: "Let's talk about your project", de: "Sprechen wir über Ihr Projekt", hu: "Beszéljünk a projektjéről" },
   contactIntro: {
-    fr: "Une question sur un bien, une demande de brochure ou de visite ? Écrivez-nous.",
+    fr: "Une question sur un bien, une demande de brochure ou de visite ? Écrivez‑nous.",
     en: "A question about a property, a brochure or a viewing? Write to us.",
     de: "Fragen zu einem Objekt, Exposé oder Besichtigung? Schreiben Sie uns.",
     hu: "Kérdése van egy ingatlanról, brosúrát vagy megtekintést szeretne? Írjon nekünk.",
@@ -962,7 +962,7 @@ export const pilot = {
   },
   ctaTitle: { fr: "Envie d'utiliser Pilot ?", en: "Want to use Pilot?", de: "Pilot nutzen?", hu: "Szeretné használni a Pilotot?" },
   ctaText: {
-    fr: "Écrivez-nous pour obtenir un accès à la plateforme. Si vous avez déjà un compte, connectez-vous ci-dessous.",
+    fr: "Écrivez‑nous pour obtenir un accès à la plateforme. Si vous avez déjà un compte, connectez-vous ci-dessous.",
     en: "Write to us to get access to the platform. If you already have an account, log in below.",
     de: "Schreiben Sie uns für einen Zugang zur Plattform. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
     hu: "Írjon nekünk a platform hozzáféréséért. Ha már van fiókja, jelentkezzen be lent.",
