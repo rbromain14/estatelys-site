@@ -225,6 +225,7 @@ export const t = {
   theDistrict: { fr: "Le quartier", en: "The district", de: "Das Viertel", hu: "A környék" },
   theBuilding: { fr: "L'immeuble", en: "The building", de: "Das Gebäude", hu: "Az épület" },
   keyFacts: { fr: "En bref", en: "Key facts", de: "Eckdaten", hu: "Főbb adatok" },
+  features: { fr: "Équipements et informations", en: "Features and information", de: "Ausstattung und Angaben", hu: "Felszereltség és adatok" },
   investment: { fr: "Investissement", en: "Investment", de: "Investment", hu: "Befektetés" },
   gallery: { fr: "Galerie", en: "Gallery", de: "Galerie", hu: "Galéria" },
   layout: { fr: "Plan", en: "Floor plan", de: "Grundriss", hu: "Alaprajz" },
@@ -363,6 +364,14 @@ export const projects = [
       L("2 salles d'eau + WC", "2 bathrooms + WC", "2 Bäder + WC", "2 fürdő + WC"),
       L("Option semi-finie : 310–329 M Ft (salles de bain finies ; sans cuisine, placards, mobilier ni luminaires)", "Semi-finished option: 310–329 M Ft (bathrooms finished; no kitchen, wardrobes, furniture or light fittings)", "Option teilfertig: 310–329 Mio. Ft (Bäder fertig; ohne Küche, Einbauschränke, Möbel und Leuchten)", "Félkész változat: 310–329 M Ft (kész fürdőszobák; konyha, beépített szekrények, bútorok és lámpák nélkül)"),
     ],
+    // D9 (Romain, 6 Nov 2026; ≈ = estimate)
+    features: [
+      { t: L("Chauffage au sol au gaz dans toutes les pièces ; eau chaude au gaz", "Gas underfloor heating in every room; gas hot water", "Gas-Fußbodenheizung in allen Räumen; Warmwasser über Gas", "Gázos padlófűtés minden helyiségben; gázos melegvíz") },
+      { t: L("Hauteur sous plafond ≈ 3,5 m", "Ceiling height ≈ 3.5 m", "Deckenhöhe ca. 3,5 m", "Belmagasság kb. 3,5 m") },
+      { t: L("Séjour orienté ouest", "Living room facing West", "Wohnzimmer nach Westen", "Nyugati fekvésű nappali") },
+      { t: L("Livraison prévue fin décembre 2026 en version semi-finie (salles de bain équipées ; sans cuisine, placards ni mobilier) ; entièrement finie et meublée sur demande (mobilier inclus dans le prix de 347 M Ft)", "Expected ready at the end of December 2026 in the semi-finished version (bathrooms equipped; no kitchen, wardrobes or furniture); fully finished and furnished on request (furniture included in the 347 M Ft price)", "Voraussichtlich Ende Dezember 2026 bezugsfertig in der teilfertigen Version (Bäder ausgestattet; ohne Küche, Einbauschränke und Möbel); auf Wunsch komplett fertig und möbliert (Möbel im Preis von 347 Mio. Ft inbegriffen)", "Várható átadás 2026. december végén félkész kivitelben (felszerelt fürdőszobák; konyha, beépített szekrények és bútorok nélkül); kérésre teljesen kész és bútorozott kivitelben (a bútorok a 347 M Ft-os árban benne vannak)") },
+      { t: L("Charges de copropriété ≈ 1 100–1 200 € par an (parties communes uniquement)", "Common charges ≈ €1,100–1,200 per year (building costs only)", "Hausgeld ca. 1.100–1.200 € pro Jahr (nur Gemeinschaftskosten)", "Közös költség kb. évi 1 100–1 200 € (csak a közös költségek)") },
+    ],
     short: L(
       "Entre le Parlement et Nyugati, un appartement entièrement repensé avec terrasse privée, séjour de 45 m² et cuisine avec îlot.",
       "Between Parliament and Nyugati, a fully redesigned apartment with private terrace, 45 m² living room and island kitchen.",
@@ -409,9 +418,15 @@ export const projects = [
     facts: [
       L("104 m²", "104 m²", "104 m²", "104 m²"),
       L("3ᵉ étage", "3rd floor", "3. Stock", "3. emelet"),
-      L("5 pièces", "5 rooms", "5 Zimmer", "5 szoba"),
+      L("2 chambres avec salle de bains, dont une avec dressing", "2 bedrooms, each with its own bathroom, one with a walk-in wardrobe", "2 Schlafzimmer mit eigenem Bad, eines mit Ankleide", "2 hálószoba saját fürdőszobával, az egyik gardróbbal"), // P-SM-7 (Romain, 4 Nov 2026)
       L("Orientation sud-est", "South-East facing", "Südost-Ausrichtung", "Délkeleti fekvés"),
-      L("2 salles de bains", "2 bathrooms", "2 Bäder", "2 fürdőszoba"),
+    ],
+    // D9 (Romain, 6 Nov 2026; ≈ = estimate). sale: true = sale pages and brochures only
+    features: [
+      { t: L("Pompe à chaleur : chauffage au sol dans toutes les pièces et plafonds rafraîchissants", "Heat pump: underfloor heating in every room and cooling ceilings", "Wärmepumpe: Fußbodenheizung in allen Räumen und Kühldecken", "Hőszivattyú: padlófűtés minden helyiségben és hűtőmennyezet") },
+      { t: L("Hauteur sous plafond ≈ 3,5 m", "Ceiling height ≈ 3.5 m", "Deckenhöhe ca. 3,5 m", "Belmagasság kb. 3,5 m") },
+      { t: L("Mobilier photographié inclus dans le prix ; peut être retiré sur demande", "Furniture shown in the photos included in the price; can be removed on request", "Abgebildete Möbel im Preis inbegriffen; auf Wunsch entfernbar", "A fotókon látható bútorok az árban benne vannak; kérésre elszállítjuk"), sale: true },
+      { t: L("Charges de copropriété ≈ 1 100–1 200 € par an (parties communes uniquement)", "Common charges ≈ €1,100–1,200 per year (building costs only)", "Hausgeld ca. 1.100–1.200 € pro Jahr (nur Gemeinschaftskosten)", "Közös költség kb. évi 1 100–1 200 € (csak a közös költségek)"), sale: true },
     ],
     short: L(
       "À deux pas de l'Opéra et de l'avenue Andrássy : 104 m², hauts plafonds, moulures restaurées et domotique.",
@@ -420,10 +435,10 @@ export const projects = [
       "Pár lépésre az Operától és az Andrássy úttól: 104 m², magas belmagasság, felújított stukkók és okosotthon.",
     ),
     desc: L(
-      "Un appartement de 104 m² et 5 pièces au 3ᵉ étage, orienté sud-est, à deux pas de l'Opéra et de l'avenue Andrássy : hauts plafonds, moulures restaurées, plancher chauffant, climatisation centrale et domotique.",
-      "A 104 m², 5-room apartment on the 3rd floor, facing South-East, steps from the Opera and Andrássy Avenue: high ceilings, restored mouldings, underfloor heating, central air conditioning and smart-home.",
-      "Eine 5-Zimmer-Wohnung mit 104 m² im 3. Stock, Südost-Ausrichtung, wenige Schritte von Oper und Andrássy út: hohe Decken, restaurierter Stuck, Fußbodenheizung, zentrale Klimaanlage und Smart Home.",
-      "104 m²-es, 5 szobás, délkeleti fekvésű lakás a 3. emeleten, pár lépésre az Operától és az Andrássy úttól: magas belmagasság, felújított stukkók, padlófűtés, központi klíma és okosotthon.",
+      "Un appartement de 104 m² au 3ᵉ étage, orienté sud-est, à deux pas de l'Opéra et de l'avenue Andrássy : deux chambres avec chacune sa salle de bains, dont une avec dressing ; hauts plafonds, moulures restaurées, pompe à chaleur avec plancher chauffant et plafonds rafraîchissants, et domotique.",
+      "A 104 m² apartment on the 3rd floor, facing South-East, steps from the Opera and Andrássy Avenue: two bedrooms, each with its own bathroom, one with a walk-in wardrobe; high ceilings, restored mouldings, a heat pump with underfloor heating and cooling ceilings, and smart-home controls.",
+      "Eine 104 m² große Wohnung im 3. Stock, Südost-Ausrichtung, wenige Schritte von Oper und Andrássy út: zwei Schlafzimmer mit jeweils eigenem Bad, eines mit Ankleide; hohe Decken, restaurierter Stuck, Wärmepumpe mit Fußbodenheizung und Kühldecken sowie Smart Home.",
+      "104 m²-es, délkeleti fekvésű lakás a 3. emeleten, pár lépésre az Operától és az Andrássy úttól: két hálószoba, mindkettő saját fürdőszobával, az egyik gardróbbal; magas belmagasság, felújított stukkók, hőszivattyú padlófűtéssel és hűtőmennyezettel, valamint okosotthon.",
     ),
     districtText: L(
       "Paulay Ede utca se trouve à Terézváros, le VIᵉ arrondissement, entre l'Opéra d'État hongrois et l'avenue Andrássy, classée au patrimoine mondial de l'UNESCO. Façades historiques, boutiques de l'avenue, restaurants et lieux culturels sont à quelques pas ; le métro M1 s'arrête à Opera et la place Deák Ferenc (M1, M2, M3) est à quelques minutes à pied.",
@@ -443,7 +458,7 @@ export const projects = [
       ["paulay-05", "wardrobe"], ["paulay-06", "living"], ["paulay-07", "moulding"], ["paulay-08", "bath"],
       ["paulay-09", "wc"], ["paulay-10", "hallway"],
     ],
-    buildingImages: [["paulay-11", "hall"], ["paulay-12", "lift"]],
+    buildingImages: [["paulay-11", "hall"], ["paulay-12", "courtyard"]],
     plans: ["paulay-plan"],
   },
   {
@@ -773,16 +788,16 @@ export const rentals = {
     { slug: "paulay-ede-18", kind: "whole", rent: 3000, exCharges: true,
       // Rental texts (separate from the sale texts; Romain, 3 Nov 2026 19:06). Facts only, from the property data.
       short: L(
-        "À louer près de l'Opéra : appartement entier de 104 m², 5 pièces, 2 salles de bains, 3 000 € par mois hors charges.",
-        "For rent near the Opera: whole 104 m² apartment, 5 rooms, 2 bathrooms, €3,000 per month excl. charges.",
-        "Zur Miete nahe der Oper: ganze Wohnung mit 104 m², 5 Zimmer, 2 Bäder, 3.000 € pro Monat zzgl. Nebenkosten.",
-        "Kiadó az Opera közelében: teljes, 104 m²-es lakás, 5 szoba, 2 fürdőszoba, havi 3 000 € + rezsi.",
+        "À louer près de l'Opéra : appartement entier de 104 m², 2 chambres avec salle de bains, 3 000 € (≈ 1 095 000 Ft) par mois hors charges, disponible immédiatement.",
+        "For rent near the Opera: whole 104 m² apartment, 2 bedrooms each with its own bathroom, €3,000 (≈ 1,095,000 Ft) per month excl. charges, available now.",
+        "Zur Miete nahe der Oper: ganze Wohnung mit 104 m², 2 Schlafzimmer mit eigenem Bad, 3.000 € (ca. 1.095.000 Ft) pro Monat zzgl. Nebenkosten, ab sofort verfügbar.",
+        "Kiadó az Opera közelében: teljes, 104 m²-es lakás, 2 hálószoba saját fürdőszobával, havi 3 000 € (kb. 1 095 000 Ft) + rezsi, azonnal beköltözhető.",
       ),
       desc: L(
-        "L'appartement entier est proposé à la location : 104 m² et 5 pièces au 3ᵉ étage d'un immeuble historique avec ascenseur, orienté sud-est. Hauts plafonds et moulures restaurées, 2 salles de bains, plancher chauffant, climatisation centrale et domotique. Le métro M1 s'arrête à Opera, à deux pas, et la place Deák Ferenc (M1, M2, M3) est à quelques minutes à pied. Loyer : 3 000 € par mois hors charges.",
-        "The whole apartment is offered for rent: 104 m² and 5 rooms on the 3rd floor of a historic building with a lift, facing South-East. High ceilings and restored mouldings, 2 bathrooms, underfloor heating, central air conditioning and smart-home controls. Metro M1 stops at Opera, steps away, and Deák Ferenc tér (M1, M2, M3) is a few minutes' walk. Rent: €3,000 per month excl. charges.",
-        "Die ganze Wohnung wird vermietet: 104 m² und 5 Zimmer im 3. Stock eines historischen Hauses mit Aufzug, Südost-Ausrichtung. Hohe Decken und restaurierter Stuck, 2 Bäder, Fußbodenheizung, zentrale Klimaanlage und Smart Home. Die Metro M1 hält an der Oper, wenige Schritte entfernt, der Deák Ferenc tér (M1, M2, M3) ist wenige Gehminuten entfernt. Miete: 3.000 € pro Monat zzgl. Nebenkosten.",
-        "A teljes lakás bérelhető: 104 m², 5 szoba, a 3. emeleten, egy liftes történelmi bérházban, délkeleti fekvéssel. Magas belmagasság és felújított stukkók, 2 fürdőszoba, padlófűtés, központi klíma és okosotthon. Az M1-es metró pár lépésre, az Operánál áll meg, a Deák Ferenc tér (M1, M2, M3) néhány perc séta. Bérleti díj: havi 3 000 € + rezsi.",
+        "L'appartement entier est proposé à la location : 104 m² au 3ᵉ étage d'un immeuble historique avec ascenseur, orienté sud-est. Deux chambres avec chacune sa salle de bains, dont une avec dressing ; hauts plafonds et moulures restaurées ; pompe à chaleur avec plancher chauffant et plafonds rafraîchissants ; domotique. Disponible immédiatement, meublé ou non meublé au même loyer. Le métro M1 s'arrête à Opera, à deux pas, et la place Deák Ferenc (M1, M2, M3) est à quelques minutes à pied. Loyer : 3 000 € (≈ 1 095 000 Ft) par mois hors charges.",
+        "The whole apartment is offered for rent: 104 m² on the 3rd floor of a historic building with a lift, facing South-East. Two bedrooms, each with its own bathroom, one with a walk-in wardrobe; high ceilings and restored mouldings; a heat pump with underfloor heating and cooling ceilings; smart-home controls. Available now, furnished or unfurnished at the same rent. Metro M1 stops at Opera, steps away, and Deák Ferenc tér (M1, M2, M3) is a few minutes' walk. Rent: €3,000 (≈ 1,095,000 Ft) per month excl. charges.",
+        "Die ganze Wohnung wird vermietet: 104 m² im 3. Stock eines historischen Hauses mit Aufzug, Südost-Ausrichtung. Zwei Schlafzimmer mit jeweils eigenem Bad, eines mit Ankleide; hohe Decken und restaurierter Stuck; Wärmepumpe mit Fußbodenheizung und Kühldecken; Smart Home. Ab sofort verfügbar, möbliert oder unmöbliert zur gleichen Miete. Die Metro M1 hält an der Oper, wenige Schritte entfernt, der Deák Ferenc tér (M1, M2, M3) ist wenige Gehminuten entfernt. Miete: 3.000 € (ca. 1.095.000 Ft) pro Monat zzgl. Nebenkosten.",
+        "A teljes lakás bérelhető: 104 m² a 3. emeleten, egy liftes történelmi bérházban, délkeleti fekvéssel. Két hálószoba, mindkettő saját fürdőszobával, az egyik gardróbbal; magas belmagasság és felújított stukkók; hőszivattyú padlófűtéssel és hűtőmennyezettel; okosotthon. Azonnal beköltözhető, bútorozottan vagy bútor nélkül, azonos bérleti díjjal. Az M1-es metró pár lépésre, az Operánál áll meg, a Deák Ferenc tér (M1, M2, M3) néhány perc séta. Bérleti díj: havi 3 000 € (kb. 1 095 000 Ft) + rezsi.",
       ),
     },
     { slug: "rakoczi-40", kind: "rooms",
@@ -906,15 +921,15 @@ export const districts = {
 // Pilot — page de promotion de la plateforme de gestion (module Rénovation + Location).
 export const pilot = {
   eyebrow: { fr: "La plateforme Estatelys", en: "The Estatelys platform", de: "Die Estatelys-Plattform", hu: "Az Estatelys platform" },
-  h1: { fr: "Pilot, l'outil qui pilote nos projets et nos locations", en: "Pilot, the tool that runs our projects and rentals", de: "Pilot, das Werkzeug hinter unseren Projekten und Vermietungen", hu: "Pilot, a projektjeinket és bérbeadásainkat vezérlő eszköz" },
-  homeTitle: { fr: "Gérez vos projets et vos locations avec Pilot", en: "Run your projects and rentals with Pilot", de: "Verwalten Sie Projekte und Vermietungen mit Pilot", hu: "Kezelje projektjeit és bérbeadásait a Pilottal" },
+  h1: { fr: "Estatelys Pilot, l'outil qui pilote nos projets et nos locations", en: "Estatelys Pilot, the tool that runs our projects and rentals", de: "Estatelys Pilot, das Werkzeug hinter unseren Projekten und Vermietungen", hu: "Estatelys Pilot, a projektjeinket és bérbeadásainkat vezérlő eszköz" },
+  homeTitle: { fr: "Gérez vos projets et vos locations avec Estatelys Pilot", en: "Run your projects and rentals with Estatelys Pilot", de: "Verwalten Sie Projekte und Vermietungen mit Estatelys Pilot", hu: "Kezelje projektjeit és bérbeadásait az Estatelys Pilottal" },
   homeText: {
-    fr: "La plateforme qui fait tourner Estatelys : simulation de marge, investisseurs, coûts et gestion locative au même endroit. Offre gratuite disponible.",
-    en: "The platform that runs Estatelys: margin simulation, investors, costs and rental management in one place. Free plan available.",
-    de: "Die Plattform hinter Estatelys: Margensimulation, Investoren, Kosten und Mietverwaltung an einem Ort. Kostenlose Version verfügbar.",
-    hu: "Az Estatelys platformja: árrés-szimuláció, befektetők, költségek és bérbeadás-kezelés egy helyen. Ingyenes verzió elérhető.",
+    fr: "La plateforme qui fait tourner Estatelys : simulation de marge, investisseurs, coûts et gestion locative au même endroit. Tarif sur demande.",
+    en: "The platform that runs Estatelys: margin simulation, investors, costs and rental management in one place. Price on request.",
+    de: "Die Plattform hinter Estatelys: Margensimulation, Investoren, Kosten und Mietverwaltung an einem Ort. Preis auf Anfrage.",
+    hu: "Az Estatelys platformja: árrés-szimuláció, befektetők, költségek és bérbeadás-kezelés egy helyen. Ár egyedi ajánlat alapján.",
   },
-  tryFree: { fr: "Essayer gratuitement", en: "Try it free", de: "Kostenlos testen", hu: "Kipróbálom ingyen" },
+  priceNote: { fr: "Tarif sur demande.", en: "Price on request.", de: "Preis auf Anfrage.", hu: "Ár egyedi ajánlat alapján." },
   learnMore: { fr: "En savoir plus", en: "Learn more", de: "Mehr erfahren", hu: "Tudjon meg többet" },
   lead: {
     fr: "Pilot est la plateforme que nous avons conçue pour gérer nos projets et nos locations à Budapest : simulation financière, investisseurs, coûts et suivi des biens loués au même endroit. Nous l'ouvrons aujourd'hui à d'autres bailleurs et investisseurs.",
@@ -963,9 +978,9 @@ export const pilot = {
   },
   ctaTitle: { fr: "Envie d'utiliser Pilot ?", en: "Want to use Pilot?", de: "Pilot nutzen?", hu: "Szeretné használni a Pilotot?" },
   ctaText: {
-    fr: "Écrivez‑nous pour obtenir un accès à la plateforme. Si vous avez déjà un compte, connectez-vous ci-dessous.",
-    en: "Write to us to get access to the platform. If you already have an account, log in below.",
-    de: "Schreiben Sie uns für einen Zugang zur Plattform. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
-    hu: "Írjon nekünk a platform hozzáféréséért. Ha már van fiókja, jelentkezzen be lent.",
+    fr: "Demandez une démonstration sur un projet de démonstration. Tarif sur demande. Si vous avez déjà un compte, connectez-vous ci-dessous.",
+    en: "Request a demo on a demonstration project. Price on request. If you already have an account, log in below.",
+    de: "Fordern Sie eine Demo an einem Beispielprojekt an. Preis auf Anfrage. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
+    hu: "Kérjen bemutatót egy mintaprojekten. Ár egyedi ajánlat alapján. Ha már van fiókja, jelentkezzen be lent.",
   },
 };

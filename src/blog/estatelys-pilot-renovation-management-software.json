@@ -1,0 +1,99 @@
+{
+  "slug": "estatelys-pilot-renovation-management-software",
+  "date": "2026-11-08",
+  "updated": "2026-11-08",
+  "cover": "paulay-01",
+  "coverAlt": {
+    "fr": "Paulay Ede 18, l'une des rénovations pilotées avec Estatelys Pilot",
+    "en": "Paulay Ede 18, one of the renovations run with Estatelys Pilot",
+    "de": "Paulay Ede 18, eine der mit Estatelys Pilot gesteuerten Renovierungen",
+    "hu": "Paulay Ede 18, az Estatelys Pilottal irányított felújítások egyike"
+  },
+  "title": {
+    "fr": "Estatelys Pilot : le logiciel que nous avons créé pour piloter nos rénovations à Budapest",
+    "en": "Estatelys Pilot: the software we built to run our Budapest renovations",
+    "de": "Estatelys Pilot: die Software, mit der wir unsere Budapester Renovierungen steuern",
+    "hu": "Estatelys Pilot: a szoftver, amellyel budapesti felújításainkat irányítjuk"
+  },
+  "seoTitle": {
+    "fr": "Estatelys Pilot — logiciel de gestion de rénovations et de locations | Estatelys",
+    "en": "Estatelys Pilot — renovation and rental management software | Estatelys",
+    "de": "Estatelys Pilot — Software für Renovierungs- und Mietverwaltung | Estatelys",
+    "hu": "Estatelys Pilot — felújítás- és bérbeadás-kezelő szoftver | Estatelys"
+  },
+  "summary": {
+    "fr": "Budget, commandes, investisseurs, business plan et locataires au même endroit. L'outil de nos propres rénovations à Budapest, désormais proposé à d'autres investisseurs et rénovateurs.",
+    "en": "Budget, orders, investors, business plan and tenants in one place. The tool behind our own renovation projects in Budapest, now available to other investors and renovators.",
+    "de": "Budget, Bestellungen, Investoren, Businessplan und Mieter an einem Ort. Das Werkzeug hinter unseren eigenen Renovierungen in Budapest, jetzt auch für andere Investoren und Renovierer.",
+    "hu": "Költségvetés, megrendelések, befektetők, üzleti terv és bérlők egy helyen. Saját budapesti felújításaink eszköze, mostantól más befektetők és felújítók számára is elérhető."
+  },
+  "sections": [
+    {
+      "h": { "fr": "Pourquoi nous l'avons créé", "en": "Why we built it", "de": "Warum wir es entwickelt haben", "hu": "Miért fejlesztettük" },
+      "body": {
+        "fr": "Chaque rénovation compte des centaines de lignes à suivre : matériaux, entreprises, factures, argent des investisseurs et, une fois l'appartement loué, locataires et dates de bail. Nous avons commencé avec des tableurs et un outil de gestion de projet. Nous avons créé Estatelys Pilot pour tout réunir au même endroit, partagé avec toute l'équipe.",
+        "en": "Each renovation we run has hundreds of lines to follow: materials, contractors, invoices, investor money and, once the flat is let, tenants and lease dates. We started with spreadsheets and a project-management tool. We built Estatelys Pilot to keep all of it in one place, shared with the whole team.",
+        "de": "Jede Renovierung umfasst Hunderte von Positionen: Material, Handwerker, Rechnungen, Geld der Investoren und, sobald die Wohnung vermietet ist, Mieter und Vertragsdaten. Wir haben mit Tabellen und einem Projektmanagement-Tool angefangen. Mit Estatelys Pilot haben wir alles an einem Ort zusammengeführt, für das ganze Team zugänglich.",
+        "hu": "Minden felújításunk több száz követendő tételt jelent: anyagok, kivitelezők, számlák, befektetői pénzek, és a kiadás után bérlők és szerződési dátumok. Táblázatokkal és egy projektkezelő eszközzel kezdtük. Az Estatelys Pilotot azért fejlesztettük, hogy mindez egy helyen legyen, a teljes csapat számára elérhetően."
+      }
+    },
+    {
+      "h": { "fr": "Rénovation", "en": "Renovation", "de": "Renovierung", "hu": "Felújítás" },
+      "body": {
+        "fr": "- **Projets** : une page par appartement, avec son calendrier et son statut.\n- **Simulateur de business plan** : achat, taxes, travaux, mobilier, financement, prix de revente et frais ; marge brute et nette ; versions enregistrées à comparer.\n- **Coûts et commandes** : chaque ligne de matériau et de service avec fournisseur, budget, commandé, payé et reste à payer ; statut de « à décider » à « installé ».\n- **Financement et investisseurs** : montant, date d'entrée et taux de chaque investisseur, avec les intérêts courus jusqu'à la fin du projet.\n- **Planning et suivi des actions** : qui fait quoi, et pour quand.\n- **Marché** : références de prix, de loyers et de rendement au m².",
+        "en": "- **Projects**: one page per flat, with its timeline and status.\n- **Business plan simulator**: purchase, taxes, renovation, furniture, financing, resale price and fees; gross and net margin; saved versions you can compare.\n- **Costs and orders**: every material and service line with supplier, budget, ordered, paid and remaining amounts; status from \"to decide\" to \"installed\".\n- **Financing and investors**: each investor's amount, entry date and rate, with interest accrued to the end of the project.\n- **Task planning and action tracker**: who does what, by when.\n- **Market**: price, rent and yield references per m².",
+        "de": "- **Projekte**: eine Seite pro Wohnung, mit Zeitplan und Status.\n- **Businessplan-Simulator**: Kauf, Steuern, Renovierung, Möbel, Finanzierung, Verkaufspreis und Gebühren; Brutto- und Nettomarge; gespeicherte Versionen zum Vergleichen.\n- **Kosten und Bestellungen**: jede Material- und Leistungsposition mit Lieferant, Budget, bestellten, bezahlten und offenen Beträgen; Status von „zu entscheiden“ bis „eingebaut“.\n- **Finanzierung und Investoren**: Betrag, Eintrittsdatum und Zinssatz jedes Investors, mit den bis Projektende aufgelaufenen Zinsen.\n- **Aufgabenplanung und Maßnahmenliste**: wer macht was, bis wann.\n- **Markt**: Referenzwerte für Preise, Mieten und Renditen pro m².",
+        "hu": "- **Projektek**: lakásonként egy oldal, ütemtervvel és státusszal.\n- **Üzletiterv-szimulátor**: vétel, adók, felújítás, bútorok, finanszírozás, eladási ár és díjak; bruttó és nettó árrés; elmentett, összehasonlítható változatok.\n- **Költségek és megrendelések**: minden anyag- és szolgáltatástétel szállítóval, keretösszeggel, megrendelt, kifizetett és fennmaradó összeggel; státusz a „döntésre vár”-tól a „beépítve”-ig.\n- **Finanszírozás és befektetők**: minden befektető összege, belépési dátuma és kamatlába, a projekt végéig felhalmozott kamattal.\n- **Feladattervezés és teendőlista**: ki mit csinál, és mikorra.\n- **Piac**: négyzetméterenkénti ár-, bérleti díj- és hozamreferenciák."
+      }
+    },
+    {
+      "h": { "fr": "Location", "en": "Rental", "de": "Vermietung", "hu": "Bérbeadás" },
+      "body": {
+        "fr": "- Appartements loués en entier ou chambre par chambre.\n- Locataires, loyers, charges et dates de début et de fin de bail, pour voir quelle chambre se libère et quand.",
+        "en": "- Apartments let as a whole or room by room.\n- Tenants, rents, charges and lease start and end dates, so you see which room becomes free and when.",
+        "de": "- Wohnungen, als Ganzes oder zimmerweise vermietet.\n- Mieter, Mieten, Nebenkosten sowie Beginn und Ende der Mietverträge, damit Sie sehen, welches Zimmer wann frei wird.",
+        "hu": "- Egészben vagy szobánként kiadott lakások.\n- Bérlők, bérleti díjak, rezsi, valamint a szerződések kezdő és záró dátuma, hogy lássa, melyik szoba mikor szabadul fel."
+      }
+    },
+    {
+      "h": { "fr": "Équipe", "en": "Team", "de": "Team", "hu": "Csapat" },
+      "body": {
+        "fr": "- Plusieurs utilisateurs travaillent en même temps, avec mise à jour en direct.\n- Accès par module et par projet : un investisseur ne voit que son projet, une entreprise que ses tâches.",
+        "en": "- Several users working at the same time, with live updates.\n- Access by module and by project: an investor can see only his project, a contractor only his tasks.",
+        "de": "- Mehrere Nutzer arbeiten gleichzeitig, mit Live-Aktualisierung.\n- Zugriff je Modul und je Projekt: Ein Investor sieht nur sein Projekt, ein Handwerker nur seine Aufgaben.",
+        "hu": "- Több felhasználó dolgozhat egyszerre, élő frissítéssel.\n- Modulonkénti és projektenkénti hozzáférés: a befektető csak a saját projektjét, a kivitelező csak a saját feladatait látja."
+      }
+    },
+    {
+      "h": { "fr": "Utilisé sur nos propres projets", "en": "Used on our own projects", "de": "Im Einsatz bei unseren eigenen Projekten", "hu": "Saját projektjeinken használjuk" },
+      "body": {
+        "fr": "Nous utilisons Estatelys Pilot pour nos rénovations à Budapest, notamment Stollár Béla utca 22 (plus de 300 lignes de coûts) et Paulay Ede utca 18 (plus de 360 lignes de coûts), ainsi que pour notre location chambre par chambre au Rákóczi út 40.",
+        "en": "We use Estatelys Pilot on our renovations in Budapest, including Stollár Béla utca 22 (more than 300 cost lines) and Paulay Ede utca 18 (more than 360 cost lines), and for our room-by-room rental at Rákóczi út 40.",
+        "de": "Wir nutzen Estatelys Pilot für unsere Renovierungen in Budapest, darunter Stollár Béla utca 22 (mehr als 300 Kostenpositionen) und Paulay Ede utca 18 (mehr als 360 Kostenpositionen), sowie für unsere zimmerweise Vermietung in der Rákóczi út 40.",
+        "hu": "Az Estatelys Pilotot budapesti felújításainkhoz használjuk, többek között a Stollár Béla utca 22. (több mint 300 költségtétel) és a Paulay Ede utca 18. (több mint 360 költségtétel) esetében, valamint a Rákóczi út 40. alatti, szobánkénti bérbeadásunkhoz."
+      }
+    },
+    {
+      "h": { "fr": "Pour qui", "en": "Who it is for", "de": "Für wen", "hu": "Kinek szól" },
+      "body": {
+        "fr": "Les investisseurs qui rénovent pour vendre ou pour louer, les petites entreprises de rénovation et les gestionnaires de biens qui doivent partager des chiffres avec des associés ou des investisseurs.",
+        "en": "Investors who renovate to sell or to rent, small renovation companies and property managers who need to share figures with partners or investors.",
+        "de": "Investoren, die zum Verkauf oder zur Vermietung renovieren, kleine Renovierungsfirmen und Hausverwalter, die Zahlen mit Partnern oder Investoren teilen müssen.",
+        "hu": "Eladásra vagy kiadásra felújító befektetők, kisebb felújító cégek és ingatlankezelők, akiknek partnereikkel vagy befektetőikkel kell megosztaniuk a számokat."
+      }
+    },
+    {
+      "h": { "fr": "Demander une démo", "en": "Request a demo", "de": "Demo anfragen", "hu": "Bemutató kérése" },
+      "body": {
+        "fr": "Écrivez-nous par e-mail ou sur Messenger : nous vous présentons Estatelys Pilot sur un projet de démonstration aux chiffres fictifs. Tarif sur demande.",
+        "en": "Write to us by email or on Messenger and we will show you Estatelys Pilot on a demo project with fictitious figures. Price on request.",
+        "de": "Schreiben Sie uns per E-Mail oder über Messenger: Wir zeigen Ihnen Estatelys Pilot an einem Demoprojekt mit fiktiven Zahlen. Preis auf Anfrage.",
+        "hu": "Írjon nekünk e-mailben vagy Messengeren, és egy fiktív számokkal készült mintaprojekten bemutatjuk az Estatelys Pilotot. Ár egyedi ajánlat alapján."
+      }
+    }
+  ],
+  "cta": "pilot",
+  "properties": [],
+  "resources": [],
+  "sources": []
+}

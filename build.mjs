@@ -30,6 +30,7 @@ const huf = (n, l) => {
   const s = new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 1, minimumFractionDigits: 1 }).format(m);
   return `≈ ${s} M Ft`;
 };
+const hufFull = (eurAmount, l) => new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(Math.round(eurAmount * SITE.hufRate / 1000) * 1000).replace(/[  ,.]/g, l === "en" ? "," : l === "de" ? "." : " ") + " Ft"; // e.g. 1 095 000 Ft
 const pct = (v, l) => new Intl.NumberFormat(LOCALE[l], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v) + (l === "en" ? "%" : " %");
 const priceMain = (p, l) => (p.priceFromHuf ? p.priceHuf : huf(p.price, l)); // HUF is the primary price for every property (Romain, 3 Nov 2026 19:01)
 const priceAlt = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : huf(p.price, l));
@@ -302,7 +303,7 @@ function pilotHomeBlock(l, route = "") {
     <h2>${pilot.homeTitle[l]}</h2>
     <p class="lead">${pilot.homeText[l]}</p>
     <div class="row" style="margin-top:22px">
-      <a class="btn" href="${SITE.appUrl}" rel="nofollow">${pilot.tryFree[l]}</a>
+      <a class="btn" href="mailto:${SITE.email}?subject=${encodeURIComponent("Estatelys Pilot – demo")}" data-ev="email">${t.requestDemo[l]}</a>
       <a class="btn btn-o" href="${R("pilot/")}">${pilot.learnMore[l]}</a>
     </div>
   </div>
@@ -396,7 +397,7 @@ function rentalsPage(l) {
     const links = `<div class="rent-a"><a class="btn" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a><a class="btn btn-o" href="${R(`rentals/${p.slug}/`)}">${rentals.details[l]}</a></div>`;
     let body = "";
     if (it.kind === "whole") {
-      body = `<p class="rent-p">${eur(it.rent, l)} <span>${it.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</span></p>`;
+      body = `<p class="rent-p">${eur(it.rent, l)} <span>≈ ${hufFull(it.rent, l)} · ${it.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</span></p>`;
     } else {
       body = rentTable(it, l);
     }
@@ -479,12 +480,13 @@ function projectPage(p, l, rent = null) {
       <p class="lead2">${(rent?.desc || p.desc)[l]}</p>
       <h2 class="h4">${t.keyFacts[l]}</h2>
       <ul class="chips">${p.facts.map((f) => `<li>${f[l]}</li>`).join("")}</ul>
+      ${(() => { const fs = (p.features || []).filter((f) => !(rent && f.sale)); return fs.length ? `<h2 class="h4">${t.features[l]}</h2><ul class="dlist feat">${fs.map((f) => `<li>${f.t[l]}</li>`).join("")}</ul>` : ""; })()}
       ${invest}
       ${rent?.kind === "rooms" ? `<h2 class="h4">${rentals.rooms[l]}</h2>${rentTable(rent, l)}` : ""}
     </div>
     ${rent ? `<aside class="pbox">
       <p class="eyebrow">${rentals.rent[l]}</p>
-      ${rent.kind === "whole" ? `<p class="pbig">${eur(rent.rent, l)}</p><p class="muted">${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</p>` : `<p class="pbig">${eur(Math.min(...rent.rooms.map((r) => r.rent)), l)}+</p><p class="muted">${rentals.perRoom[l]}</p>`}
+      ${rent.kind === "whole" ? `<p class="pbig">${eur(rent.rent, l)}</p><p class="muted">≈ ${hufFull(rent.rent, l)} · ${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</p>` : `<p class="pbig">${eur(Math.min(...rent.rooms.map((r) => r.rent)), l)}+</p><p class="muted">${rentals.perRoom[l]}</p>`}
       <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a>
       <a class="btn btn-o wfull" href="${R("rentals/")}">${rentals.all[l]}</a>
     </aside>` : `<aside class="pbox">
@@ -806,6 +808,7 @@ function blogArticle(a, l) {
     <figure class="bfig">${bImg(l, route, a.cover, a.coverAlt[l], "(min-width: 900px) 760px, 100vw")}<figcaption class="small muted">${esc(a.coverAlt[l])}</figcaption></figure>
     ${a.sections.map((x) => `<section class="rsec"><h2>${esc(x.h[l])}</h2>${md(x.body[l], n)}${bTable(x.table, l)}</section>`).join("")}
     ${(a.gallery || []).length ? `<div class="bgal">${a.gallery.map((g) => `<figure>${bImg(l, route, g, a.coverAlt[l], "(min-width: 900px) 33vw, 100vw")}</figure>`).join("")}</div>` : ""}
+    ${a.cta === "pilot" ? `<div class="row" style="margin:8px 0 28px;gap:12px;flex-wrap:wrap"><a class="btn" href="mailto:${SITE.email}?subject=${encodeURIComponent("Estatelys Pilot – demo")}" data-ev="email">${t.requestDemo[l]}</a><a class="btn btn-o" href="https://m.me/estatelys" target="_blank" rel="noopener" data-ev="facebook">Messenger</a><a class="btn btn-o" href="${R("pilot/")}">${pilot.learnMore[l]} — Estatelys Pilot</a></div>` : ""}
     ${a.reference ? `<p><a class="res-a" href="${R("references/")}#ref-${a.reference}">${blog.allPhotos[l]} <i class="arr">→</i></a></p>` : ""}
     ${res.length ? `<section class="rsec"><h2 class="h4">${blog.related[l]}</h2><ul>${res.map((x) => `<li><a href="${R(`resources/${x.slug}/`)}">${resTitle(x)}</a></li>`).join("")}</ul></section>` : ""}
     ${n ? `<section class="rsec rsrc"><h2 class="h4">${resources.ui.sources[l]}</h2><ol>${a.sources.map((x, i) => `<li id="src-${i + 1}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="muted">— ${resources.ui.seen[l]} ${DATE_FMT(x.seen, l)}</span></li>`).join("")}</ol></section>` : ""}

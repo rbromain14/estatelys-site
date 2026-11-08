@@ -76,6 +76,9 @@ h2{font-size:18pt;margin:0 0 4mm}
 .contact h3{font-size:13pt;margin-bottom:2mm}
 .contact a{color:#111}
 .note{font-size:8.5pt;color:#555;margin-top:3mm}
+.feat{list-style:none;margin:3mm 0 0;padding:0;font-size:8.5pt;line-height:1.35}
+.feat li{padding:1.2mm 0 1.2mm 4mm;border-bottom:1px solid #ddd;position:relative}
+.feat li:before{content:"";position:absolute;left:0;top:2.6mm;width:1.6mm;height:1.6mm;background:#b08d57}
 `;
 
 function brochure(p, l) {
@@ -109,6 +112,7 @@ function brochure(p, l) {
   <h3 style="font-size:12pt;margin-bottom:3mm">${L.keyFacts[l]}</h3>
   <div class="facts">${factCells.map(([k, v]) => `<div>${k ? `<span>${esc(k)}</span>` : ""}<b>${v}</b></div>`).join("")}</div>
   ${p.rent ? `<p class="note">${esc(p.rentDetail[l])}</p>` : ""}
+  ${(p.features || []).length ? `<ul class="feat">${p.features.map((f) => `<li>${esc(f.t[l])}</li>`).join("")}</ul>` : ""}
   <div class="two">${gallery.slice(0, 2).map((n) => `<div class="im"><img src="${img(n, true)}"></div>`).join("")}</div>
   ${p.cgi ? `<p class="note">${esc(t.cgiNote[l])}</p>` : ""}
   ${foot}
