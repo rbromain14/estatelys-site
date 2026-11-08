@@ -427,6 +427,9 @@ export const projects = [
       { t: L("Hauteur sous plafond ≈ 3,5 m", "Ceiling height ≈ 3.5 m", "Deckenhöhe ca. 3,5 m", "Belmagasság kb. 3,5 m") },
       { t: L("Mobilier photographié inclus dans le prix ; peut être retiré sur demande", "Furniture shown in the photos included in the price; can be removed on request", "Abgebildete Möbel im Preis inbegriffen; auf Wunsch entfernbar", "A fotókon látható bútorok az árban benne vannak; kérésre elszállítjuk"), sale: true },
       { t: L("Charges de copropriété ≈ 1 100–1 200 € par an (parties communes uniquement)", "Common charges ≈ €1,100–1,200 per year (building costs only)", "Hausgeld ca. 1.100–1.200 € pro Jahr (nur Gemeinschaftskosten)", "Közös költség kb. évi 1 100–1 200 € (csak a közös költségek)"), sale: true },
+      // D12 rental conditions (Romain, 5 Nov 2026 11:57): rental pages and rental brochures only
+      { t: L("Dépôt de garantie : 3 mois de loyer", "Deposit: 3 months' rent", "Kaution: 3 Monatsmieten", "Kaució: 3 havi bérleti díj"), rent: true },
+      { t: L("5 occupants maximum ; un petit chien accepté, pas d'autre animal", "Maximum 5 occupants; one small dog accepted, no other pets", "Höchstens 5 Bewohner; ein kleiner Hund erlaubt, keine anderen Haustiere", "Legfeljebb 5 lakó; egy kistestű kutya megengedett, más háziállat nem"), rent: true },
     ],
     short: L(
       "À deux pas de l'Opéra et de l'avenue Andrássy : 104 m², hauts plafonds, moulures restaurées et domotique.",

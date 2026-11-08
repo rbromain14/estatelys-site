@@ -481,7 +481,7 @@ function projectPage(p, l, rent = null) {
       <p class="lead2">${(rent?.desc || p.desc)[l]}</p>
       <h2 class="h4">${t.keyFacts[l]}</h2>
       <ul class="chips">${p.facts.map((f) => `<li>${f[l]}</li>`).join("")}</ul>
-      ${(() => { const fs = (p.features || []).filter((f) => !(rent && f.sale)); return fs.length ? `<h2 class="h4">${t.features[l]}</h2><ul class="dlist feat">${fs.map((f) => `<li>${f.t[l]}</li>`).join("")}</ul>` : ""; })()}
+      ${(() => { const fs = (p.features || []).filter((f) => (rent ? !f.sale : !f.rent)); return fs.length ? `<h2 class="h4">${t.features[l]}</h2><ul class="dlist feat">${fs.map((f) => `<li>${f.t[l]}</li>`).join("")}</ul>` : ""; })()}
       ${invest}
       ${rent?.kind === "rooms" ? `<h2 class="h4">${rentals.rooms[l]}</h2>${rentTable(rent, l)}` : ""}
     </div>

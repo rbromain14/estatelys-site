@@ -121,7 +121,7 @@ function brochure(p, l, rent = null) {
   <h3 style="font-size:12pt;margin-bottom:3mm">${L.keyFacts[l]}</h3>
   <div class="facts">${factCells.map(([k, v]) => `<div>${k ? `<span>${esc(k)}</span>` : ""}<b>${v}</b></div>`).join("")}</div>
   ${p.rent && !rent ? `<p class="note">${esc(p.rentDetail[l])}</p>` : ""}
-  ${(p.features || []).filter((f) => !(rent && f.sale)).length ? `<ul class="feat">${p.features.filter((f) => !(rent && f.sale)).map((f) => `<li>${esc(f.t[l])}</li>`).join("")}</ul>` : ""}
+  ${(p.features || []).filter((f) => (rent ? !f.sale : !f.rent)).length ? `<ul class="feat">${p.features.filter((f) => (rent ? !f.sale : !f.rent)).map((f) => `<li>${esc(f.t[l])}</li>`).join("")}</ul>` : ""}
   <div class="two">${gallery.slice(0, 2).map((n) => `<div class="im"><img src="${img(n, true)}"></div>`).join("")}</div>
   ${p.cgi ? `<p class="note">${esc(t.cgiNote[l])}</p>` : ""}
   ${foot}
