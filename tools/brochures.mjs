@@ -6,7 +6,7 @@ import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { createRequire } from "node:module";
 const { chromium } = createRequire(import.meta.url)(process.env.PLAYWRIGHT_PATH || "playwright");
-import { SITE, LANGS, t, projects } from "../src/data.mjs";
+import { SITE, LANGS, t, projects, rentals } from "../src/data.mjs";
 
 const ROOT = resolve(".");
 const OUT = join(ROOT, "src/assets/brochures");
@@ -15,6 +15,7 @@ const LOCALE = { fr: "fr-FR", en: "en-GB", de: "de-DE", hu: "hu-HU" };
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const eur = (n, l) => new Intl.NumberFormat(LOCALE[l], { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(n).replace(/ | /g, " ");
 const huf = (n, l) => `≈ ${new Intl.NumberFormat(LOCALE[l], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format((n * SITE.hufRate) / 1e6)} M Ft`;
+const hufFull = (e, l) => new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(Math.round(e * SITE.hufRate / 1000) * 1000).replace(/[  ,.]/g, l === "en" ? "," : l === "de" ? "." : " ") + " Ft";
 const pct = (v, l) => new Intl.NumberFormat(LOCALE[l], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v) + (l === "en" ? "%" : " %");
 const img = (n, small = false) => pathToFileURL(join(ROOT, "src/img", `${n}${small && existsSync(join(ROOT, "src/img", `${n}-s.jpg`)) ? "-s" : ""}.jpg`)).href;
 const asset = (p) => pathToFileURL(join(ROOT, "src/assets", p)).href;
@@ -81,11 +82,19 @@ h2{font-size:18pt;margin:0 0 4mm}
 .feat li:before{content:"";position:absolute;left:0;top:2.6mm;width:1.6mm;height:1.6mm;background:#b08d57}
 `;
 
-function brochure(p, l) {
-  const url = `https://${SITE.domain}/${lp(l)}projects/${p.slug}/`;
+// rent = rentals item: rental brochure (no sale price, rental texts, P-WM-1)
+function brochure(p, l, rent = null) {
+  const url = `https://${SITE.domain}/${lp(l)}${rent ? "rentals" : "projects"}/${p.slug}/`;
+  const short = (rent?.short || p.short)[l], desc = (rent?.desc || p.desc)[l];
+  const minRoom = rent?.kind === "rooms" ? Math.min(...rent.rooms.map((r) => r.rent)) : 0;
+  const rentMain = rent ? (rent.kind === "whole" ? eur(rent.rent, l) : `${eur(minRoom, l)}+`) : "";
+  const rentSub = rent ? (rent.kind === "whole" ? `≈ ${hufFull(rent.rent, l)} · ${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}` : rentals.perRoom[l]) : "";
   const imgs = (p.images || []).map((x) => x[0]);
   const gallery = imgs.slice(1, 7);
-  const factCells = [
+  const factCells = rent ? [
+    ...(rent.kind === "whole" ? [[rentals.rent[l], eur(rent.rent, l)], ["HUF", `≈ ${hufFull(rent.rent, l)}`]] : rent.rooms.map((r) => [`${rentals.room[l]} ${esc(r.name)}`, `${eur(r.rent, l)} + ${eur(r.charges, l)} ${esc(rentals.charges[l].toLowerCase())}`])),
+    ...p.facts.map((f) => ["", f[l]]),
+  ] : [
     // HUF first for every property (Romain, 3 Nov 2026 19:01)
     [t.price[l], p.priceFromHuf ? p.priceHuf : huf(p.price, l)],
     ["EUR", p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l)],
@@ -97,22 +106,22 @@ function brochure(p, l) {
 <section class="pg cover">
   <img class="ph" src="${img(p.cover)}">
   <img class="logo" src="${asset("logo-white.png")}">
-  <span class="tag">${esc(p.type[l])}</span>
+  <span class="tag">${esc(rent ? (rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l])}</span>
   <div class="in">
     <p class="eyebrow">${esc(p.district[l])}</p>
     <h1>${esc(p.name)}</h1>
     <p class="type">${esc(p.address)}</p>
-    <div class="price"><b>${p.priceFromHuf ? p.priceHuf : huf(p.price, l)}</b><span>${p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l)}</span>${p.yield ? `<span>${t.yield[l]} ${pct(p.yield, l)}</span>` : ""}</div>
+    ${rent ? `<div class="price"><b>${rentMain}</b><span>${esc(rentSub)}</span></div>` : `<div class="price"><b>${p.priceFromHuf ? p.priceHuf : huf(p.price, l)}</b><span>${p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l)}</span>${p.yield ? `<span>${t.yield[l]} ${pct(p.yield, l)}</span>` : ""}</div>`}
   </div>
 </section>
 <section class="pg">
   <p class="eyebrow">${L.brochure[l]} · ${esc(p.name)}</p>
-  <h2>${esc(p.short[l])}</h2>
-  <p class="lead">${esc(p.desc[l])}</p>
+  <h2>${esc(short)}</h2>
+  <p class="lead">${esc(desc)}</p>
   <h3 style="font-size:12pt;margin-bottom:3mm">${L.keyFacts[l]}</h3>
   <div class="facts">${factCells.map(([k, v]) => `<div>${k ? `<span>${esc(k)}</span>` : ""}<b>${v}</b></div>`).join("")}</div>
-  ${p.rent ? `<p class="note">${esc(p.rentDetail[l])}</p>` : ""}
-  ${(p.features || []).length ? `<ul class="feat">${p.features.map((f) => `<li>${esc(f.t[l])}</li>`).join("")}</ul>` : ""}
+  ${p.rent && !rent ? `<p class="note">${esc(p.rentDetail[l])}</p>` : ""}
+  ${(p.features || []).filter((f) => !(rent && f.sale)).length ? `<ul class="feat">${p.features.filter((f) => !(rent && f.sale)).map((f) => `<li>${esc(f.t[l])}</li>`).join("")}</ul>` : ""}
   <div class="two">${gallery.slice(0, 2).map((n) => `<div class="im"><img src="${img(n, true)}"></div>`).join("")}</div>
   ${p.cgi ? `<p class="note">${esc(t.cgiNote[l])}</p>` : ""}
   ${foot}
@@ -134,7 +143,7 @@ function brochure(p, l) {
     <p>${SITE.email} · <a href="${url}">${url.replace("https://", "")}</a></p>
     <p class="note">${L.online[l]}.</p>
   </div>
-  <p class="note">${(p.priceFromHuf ? L.eurNote : L.hufNote)[l]} ${SITE.hufRate} HUF/EUR. ${L.noOffer[l]} ${L.date[l]} ${new Intl.DateTimeFormat(LOCALE[l], { day: "numeric", month: "long", year: "numeric" }).format(new Date())}.</p>
+  <p class="note">${(rent ? L.hufNote : p.priceFromHuf ? L.eurNote : L.hufNote)[l]} ${SITE.hufRate} HUF/EUR. ${L.noOffer[l]} ${L.date[l]} ${new Intl.DateTimeFormat(LOCALE[l], { day: "numeric", month: "long", year: "numeric" }).format(new Date())}.</p>
   ${foot}
 </section>
 </body></html>`;
@@ -151,6 +160,20 @@ for (const p of projects.filter((x) => (x.status || "for-sale") === "for-sale"))
     await page.goto(pathToFileURL(tmp).href, { waitUntil: "load" });
     await page.evaluate(() => document.fonts.ready);
     await page.pdf({ path: join(OUT, `${p.slug}-${l}.pdf`), format: "A4", printBackground: true, preferCSSPageSize: true });
+    (await import("node:fs")).unlinkSync(tmp);
+    n++;
+  }
+}
+// Rental brochures (no sale price): <slug>-rent-<lang>.pdf
+for (const it of rentals.items) {
+  const p = projects.find((x) => x.slug === it.slug);
+  if (!p) continue;
+  for (const l of LANGS) {
+    const tmp = join(OUT, `.tmp-${p.slug}-rent-${l}.html`);
+    writeFileSync(tmp, brochure(p, l, it));
+    await page.goto(pathToFileURL(tmp).href, { waitUntil: "load" });
+    await page.evaluate(() => document.fonts.ready);
+    await page.pdf({ path: join(OUT, `${p.slug}-rent-${l}.pdf`), format: "A4", printBackground: true, preferCSSPageSize: true });
     (await import("node:fs")).unlinkSync(tmp);
     n++;
   }

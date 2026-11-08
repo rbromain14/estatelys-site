@@ -394,7 +394,7 @@ function rentalsPage(l) {
     if (!p) return "";
     const media = p.cover ? img(l, route, p.cover, p.name, "", "(min-width: 900px) 45vw, 100vw") : "";
     const head = `<p class="eyebrow">${p.district[l]}</p><h2>${p.name}</h2><p class="muted">${(it.kind === "whole" ? rentals.whole : rentals.rooms)[l]} · ${p.facts.slice(0, 3).map((f) => f[l]).join(" · ")}</p>`;
-    const links = `<div class="rent-a"><a class="btn" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a><a class="btn btn-o" href="${R(`rentals/${p.slug}/`)}">${rentals.details[l]}</a></div>`;
+    const links = `<div class="rent-a"><a class="btn" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a><a class="btn btn-o" href="${R(`rentals/${p.slug}/`)}">${rentals.details[l]}</a>${existsSync(`src/assets/brochures/${p.slug}-rent-${l}.pdf`) ? `<a class="btn btn-o" href="${asset(l, route, `assets/brochures/${p.slug}-rent-${l}.pdf`)}" download data-ev="brochure">PDF</a>` : ""}</div>`;
     let body = "";
     if (it.kind === "whole") {
       body = `<p class="rent-p">${eur(it.rent, l)} <span>≈ ${hufFull(it.rent, l)} · ${it.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</span></p>`;
@@ -488,6 +488,7 @@ function projectPage(p, l, rent = null) {
       <p class="eyebrow">${rentals.rent[l]}</p>
       ${rent.kind === "whole" ? `<p class="pbig">${eur(rent.rent, l)}</p><p class="muted">≈ ${hufFull(rent.rent, l)} · ${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</p>` : `<p class="pbig">${eur(Math.min(...rent.rooms.map((r) => r.rent)), l)}+</p><p class="muted">${rentals.perRoom[l]}</p>`}
       <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a>
+      ${existsSync(`src/assets/brochures/${p.slug}-rent-${l}.pdf`) ? `<a class="btn btn-o wfull" href="${asset(l, route, `assets/brochures/${p.slug}-rent-${l}.pdf`)}" download data-ev="brochure">${t.brochureDl[l]}</a>` : ""}
       <a class="btn btn-o wfull" href="${R("rentals/")}">${rentals.all[l]}</a>
     </aside>` : `<aside class="pbox">
       <p class="eyebrow">${t.price[l]}</p>
