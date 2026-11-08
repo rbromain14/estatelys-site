@@ -978,9 +978,9 @@ export const pilot = {
   },
   ctaTitle: { fr: "Envie d'utiliser Pilot ?", en: "Want to use Pilot?", de: "Pilot nutzen?", hu: "Szeretné használni a Pilotot?" },
   ctaText: {
-    fr: "Demandez une démonstration sur un projet de démonstration. Tarif sur demande. Si vous avez déjà un compte, connectez-vous ci-dessous.",
-    en: "Request a demo on a demonstration project. Price on request. If you already have an account, log in below.",
-    de: "Fordern Sie eine Demo an einem Beispielprojekt an. Preis auf Anfrage. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
-    hu: "Kérjen bemutatót egy mintaprojekten. Ár egyedi ajánlat alapján. Ha már van fiókja, jelentkezzen be lent.",
+    fr: "Demandez une démonstration sur un projet aux chiffres fictifs. Tarif sur demande. Si vous avez déjà un compte, connectez-vous ci-dessous.",
+    en: "Request a demo on a sample project with fictitious figures. Price on request. If you already have an account, log in below.",
+    de: "Fordern Sie eine Demo an einem Beispielprojekt mit fiktiven Zahlen an. Preis auf Anfrage. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
+    hu: "Kérjen bemutatót egy fiktív számokkal készült mintaprojekten. Ár egyedi ajánlat alapján. Ha már van fiókja, jelentkezzen be lent.",
   },
 };
