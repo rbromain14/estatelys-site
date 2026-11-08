@@ -96,7 +96,7 @@ function brochure(p, l, rent = null) {
     ...p.facts.map((f) => ["", f[l]]),
   ] : [
     // HUF first for every property (Romain, 3 Nov 2026 19:01)
-    [t.price[l], p.priceFromHuf ? p.priceHuf : huf(p.price, l)],
+    [t.price[l], p.priceFromHuf ? (typeof p.priceHuf === "object" ? p.priceHuf[l] : p.priceHuf) : huf(p.price, l)],
     ["EUR", p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l)],
     ...(p.rent ? [[t.rent[l], `${eur(p.rent, l)}`], [t.yield[l], pct(p.yield, l)]] : []),
     ...p.facts.map((f) => ["", f[l]]),
@@ -111,7 +111,7 @@ function brochure(p, l, rent = null) {
     <p class="eyebrow">${esc(p.district[l])}</p>
     <h1>${esc(p.name)}</h1>
     <p class="type">${esc(p.address)}</p>
-    ${rent ? `<div class="price"><b>${rentMain}</b><span>${esc(rentSub)}</span></div>` : `<div class="price"><b>${p.priceFromHuf ? p.priceHuf : huf(p.price, l)}</b><span>${p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l)}</span>${p.yield ? `<span>${t.yield[l]} ${pct(p.yield, l)}</span>` : ""}</div>`}
+    ${rent ? `<div class="price"><b>${rentMain}</b><span>${esc(rentSub)}</span></div>` : `<div class="price"><b>${p.priceFromHuf ? (typeof p.priceHuf === "object" ? p.priceHuf[l] : p.priceHuf) : huf(p.price, l)}</b><span>${p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l)}</span>${p.yield ? `<span>${t.yield[l]} ${pct(p.yield, l)}</span>` : ""}</div>`}
   </div>
 </section>
 <section class="pg">

@@ -32,11 +32,12 @@ const huf = (n, l) => {
 };
 const hufFull = (eurAmount, l) => new Intl.NumberFormat(LOCALE[l], { maximumFractionDigits: 0 }).format(Math.round(eurAmount * SITE.hufRate / 1000) * 1000).replace(/[  ,.]/g, l === "en" ? "," : l === "de" ? "." : " ") + " Ft"; // e.g. 1 095 000 Ft
 const pct = (v, l) => new Intl.NumberFormat(LOCALE[l], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v) + (l === "en" ? "%" : " %");
-const priceMain = (p, l) => (p.priceFromHuf ? p.priceHuf : huf(p.price, l)); // HUF is the primary price for every property (Romain, 3 Nov 2026 19:01)
+const hufStr = (p, l) => (typeof p.priceHuf === "object" ? p.priceHuf[l] : p.priceHuf);
+const priceMain = (p, l) => (p.priceFromHuf ? hufStr(p, l) : huf(p.price, l)); // HUF is the primary price for every property (Romain, 3 Nov 2026 19:01)
 const priceAlt = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : huf(p.price, l));
 // HUF first (primary), EUR second (Romain, 3 Nov 2026 19:01); the currency the price was set in carries no "≈"
 const priceEur = (p, l) => (p.priceFromHuf ? `≈ ${eur(p.price, l)}` : eur(p.price, l));
-const priceFt = (p, l) => (p.priceFromHuf ? p.priceHuf : huf(p.price, l));
+const priceFt = (p, l) => (p.priceFromHuf ? hufStr(p, l) : huf(p.price, l));
 const priceDuo = (p, l) => `<span class="pd"><span class="pd-1">${priceFt(p, l)}</span><span class="pd-2">${priceEur(p, l)}</span></span>`;
 
 // path helpers: a "route" is like "" | "projects/" | "projects/klauzal-23/"
@@ -59,7 +60,7 @@ const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", 
 // Budapest postcodes are 1DDx, DD = district (1055 -> V)
 const districtOf = (p) => { const m = p.address.match(/\b1(\d\d)\d\b/); return m ? ROMAN[+m[1]] || "" : ""; };
 const m2Of = (p) => { const m = p.facts[0].en.match(/(\d+)\s*m²/); return m ? +m[1] : null; };
-const hufValue = (p) => { const m = String(p.priceHuf || "").match(/([\d.,]+)\s*M/); return m ? Math.round(parseFloat(m[1].replace(",", ".")) * 1e6) : null; };
+const hufValue = (p) => { const m = String((typeof p.priceHuf === "object" ? p.priceHuf.fr : p.priceHuf) || "").match(/([\d.,]+)\s*M/); return m ? Math.round(parseFloat(m[1].replace(",", ".")) * 1e6) : null; };
 const ORG_ID = `https://${SITE.domain}/#organization`;
 const SEO_INDEXNOW_KEY = "1e40a2d42ad17b32a0814fa174ea9ca9"; // public by design (IndexNow protocol)
 // Homepage photo (Unsplash). Change it here: the home hero AND the default share image (og:image) both use it.
@@ -980,7 +981,7 @@ const llms = [
   `# ${SITE.name}`, "",
   `> ${SITE.name} (legal entity: ${SITE.company}, Budapest) buys, renovates and sells or lets apartments in historic buildings in central Budapest. Website in French, English, German and Hungarian.`, "",
   "## Properties for sale",
-  ...FOR_SALE.map((p) => `- [${p.name}, Budapest ${districtOf(p)}](${abs("en", `projects/${p.slug}/`)}): ${p.type.en}, ${p.facts[0].en}, ${p.priceFromHuf ? p.priceHuf.replace("M Ft", "million HUF") : `EUR ${p.price.toLocaleString("en-US")}`}`),
+  ...FOR_SALE.map((p) => `- [${p.name}, Budapest ${districtOf(p)}](${abs("en", `projects/${p.slug}/`)}): ${p.type.en}, ${p.facts[0].en}, ${p.priceFromHuf ? hufStr(p, "en").replace("M Ft", "million HUF") : `EUR ${p.price.toLocaleString("en-US")}`}`),
   "", "## Rentals",
   ...rentals.items.map((it) => projects.find((x) => x.slug === it.slug)).filter(Boolean).map((p) => `- [${p.name}](${abs("en", `rentals/${p.slug}/`)})`),
   "", "## Guides",

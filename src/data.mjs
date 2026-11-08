@@ -521,9 +521,9 @@ export const projects = [
     lat: 47.4991, lng: 19.0638,
     district: L("VIIᵉ arrondissement · Erzsébetváros", "7th district · Erzsébetváros", "7. Bezirk · Erzsébetváros", "VII. kerület · Erzsébetváros"),
     type: L("Investissement locatif", "Rental investment", "Mietinvestment", "Bérleti befektetés"),
-    price: 290400, priceFromHuf: true, priceHuf: "106 M Ft", priceM2: "≈ 4 840 €", // Price set in HUF (Romain, 3 Nov 2026 19:15): 106 M Ft (was €290,000)
+    price: 250000, priceFromHuf: true, priceHuf: L("91,25 M Ft", "91.25 M Ft", "91,25 Mio. Ft", "91,25 M Ft"), priceM2: "≈ 4 170 €", // Price (Romain, 8 Nov 2026 12:39): €250,000 = 91.25 M Ft at 365, HUF master (was 106 M Ft)
     rent: 1370, rentDetail: L("Studio A 720 € · Studio B 650 €", "Studio A €720 · Studio B €650", "Studio A 720 € · Studio B 650 €", "A stúdió 720 € · B stúdió 650 €"),
-    yield: 5.7,
+    yield: 6.6, // 1 370 × 12 ÷ 250 000
     facts: [
       L("60 m² + mezzanines", "60 m² + galleries", "60 m² + Galerien", "60 m² + galériák"),
       L("2 studios indépendants", "2 independent studios", "2 unabhängige Studios", "2 önálló stúdió"),
