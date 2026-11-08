@@ -227,7 +227,7 @@ function partnersBlock(l, route = "") {
   <h2>${partners.title[l]}</h2>
   <p class="muted team-i">${partners.intro[l]}</p>
   <div class="ptn-g">${partners.items.map((p) => `<article class="ptn">
-    <a class="ptn-l" href="${esc(p.url)}" target="_blank" rel="noopener" data-ev="partner" aria-label="${esc(p.name)}"><img src="${p.local ? asset(l, route, p.logo) : esc(p.logo)}" alt="${esc(p.name)}" width="${p.w}" height="${p.h}" loading="lazy" referrerpolicy="no-referrer"></a>
+    <a class="ptn-l" href="${esc(p.url)}"${p.bg ? ` style="background:${p.bg}"` : ""} target="_blank" rel="noopener" data-ev="partner" aria-label="${esc(p.name)}"><img src="${p.local ? asset(l, route, p.logo) : esc(p.logo)}" alt="${esc(p.name)}" width="${p.w}" height="${p.h}" loading="lazy" referrerpolicy="no-referrer"></a>
     <div class="ptn-b">
       <p class="tm-r">${p.role[l]}</p>
       <h3>${esc(p.name)}</h3>
