@@ -355,12 +355,12 @@ export const projects = [
     streetView: "https://www.google.com/maps/embed?pb=!4v1793703894312!6m8!1m7!1sA6cg1eTtXYrXY35SpP0CfQ!2m2!1d47.5097312054374!2d19.05409160341066!3f35.66896!4f20!5f0.7820865974627469",
     district: L("Vᵉ arrondissement · Lipótváros", "5th district · Lipótváros", "5. Bezirk · Lipótváros", "V. kerület · Lipótváros"),
     type: L("Résidence de luxe", "Luxury home", "Luxuswohnung", "Luxuslakás"),
-    price: 950700, priceFromHuf: true, priceHuf: "347 M Ft", priceM2: "≈ 8 340 €", // Price set in HUF (Romain, 3 Nov 2026): 347 M Ft fully finished; semi-finished 310–329 M Ft
+    price: 950700, priceFromHuf: true, priceHuf: "347 M Ft", priceM2: "≈ 8 410 €", // Price set in HUF (Romain, 3 Nov 2026): 347 M Ft fully finished; semi-finished 310–329 M Ft
     facts: [
-      L("≈ 114 m²", "≈ 114 m²", "≈ 114 m²", "≈ 114 m²"),
+      L("113 m²", "113 m²", "113 m²", "113 m²"), // land register (VA-1; Romain 8 Nov 2026 12:43)
       L("3ᵉ étage", "3rd floor", "3. Stock", "3. emelet"),
       L("2 chambres + bureau", "2 bedrooms + study", "2 Schlafzimmer + Büro", "2 hálószoba + dolgozó"),
-      L("Terrasse privée", "Private terrace", "Private Terrasse", "Saját terasz"),
+      L("Balcon 2,5 m²", "Balcony 2.5 m²", "Balkon 2,5 m²", "Erkély 2,5 m²"),
       L("2 salles d'eau + WC", "2 bathrooms + WC", "2 Bäder + WC", "2 fürdő + WC"),
       L("Option semi-finie : 310–329 M Ft (salles de bain finies ; sans cuisine, placards, mobilier ni luminaires)", "Semi-finished option: 310–329 M Ft (bathrooms finished; no kitchen, wardrobes, furniture or light fittings)", "Option teilfertig: 310–329 Mio. Ft (Bäder fertig; ohne Küche, Einbauschränke, Möbel und Leuchten)", "Félkész változat: 310–329 M Ft (kész fürdőszobák; konyha, beépített szekrények, bútorok és lámpák nélkül)"),
     ],
@@ -373,16 +373,16 @@ export const projects = [
       { t: L("Charges de copropriété ≈ 1 100–1 200 € par an (parties communes uniquement)", "Common charges ≈ €1,100–1,200 per year (building costs only)", "Hausgeld ca. 1.100–1.200 € pro Jahr (nur Gemeinschaftskosten)", "Közös költség kb. évi 1 100–1 200 € (csak a közös költségek)") },
     ],
     short: L(
-      "Entre le Parlement et Nyugati, un appartement entièrement repensé avec terrasse privée, séjour de 45 m² et cuisine avec îlot.",
-      "Between Parliament and Nyugati, a fully redesigned apartment with private terrace, 45 m² living room and island kitchen.",
-      "Zwischen Parlament und Nyugati: komplett neu gestaltete Wohnung mit Terrasse, 45 m² Wohnraum und Kücheninsel.",
-      "A Parlament és a Nyugati között teljesen újratervezett, teraszos lakás 45 m²-es nappalival és szigetes konyhával.",
+      "Entre le Parlement et Nyugati, un appartement entièrement repensé avec balcon, séjour de 45 m² et cuisine avec îlot.",
+      "Between Parliament and Nyugati, a fully redesigned apartment with balcony, 45 m² living room and island kitchen.",
+      "Zwischen Parlament und Nyugati: komplett neu gestaltete Wohnung mit Balkon, 45 m² Wohnraum und Kücheninsel.",
+      "A Parlament és a Nyugati között teljesen újratervezett, erkélyes lakás 45 m²-es nappalival és szigetes konyhával.",
     ),
     desc: L(
-      "Un appartement d'environ 114 m² au 3ᵉ étage, entièrement repensé, avec terrasse privée : séjour et salle à manger de 45 m² aux moulures restaurées et parquet point de Hongrie, cuisine séparée avec îlot, deux chambres (la plus grande avec dressing et salle de bains attenante), un bureau, une salle d'eau, un WC invités et une buanderie. Climatisation gainable et domotique.",
-      "A fully redesigned 3rd-floor apartment of about 114 m² with a private terrace: a 45 m² living and dining room with restored mouldings and chevron parquet, a separate kitchen with island, two bedrooms (the larger with walk-in wardrobe and en-suite bathroom), a study, a shower room, a guest WC and a laundry. Ducted air conditioning and smart-home controls.",
-      "Eine komplett neu gestaltete Wohnung von ca. 114 m² im 3. Stock mit privater Terrasse: 45 m² Wohn- und Essbereich mit restauriertem Stuck und Fischgrätparkett, separate Küche mit Insel, zwei Schlafzimmer (das größere mit Ankleide und En-suite-Bad), Arbeitszimmer, Duschbad, Gäste-WC und Hauswirtschaftsraum. Kanal-Klimaanlage und Smart Home.",
-      "Teljesen újratervezett, kb. 114 m²-es, 3. emeleti lakás saját terasszal: 45 m²-es nappali és étkező felújított stukkókkal és halszálkaparkettával, külön szigetes konyha, két hálószoba (a nagyobbik gardróbbal és saját fürdőszobával), dolgozószoba, zuhanyzó, vendég-WC és mosókonyha. Légcsatornás klíma és okosotthon-vezérlés.",
+      "Un appartement de 113 m² au 3ᵉ étage, entièrement repensé, avec balcon : séjour et salle à manger de 45 m² aux moulures restaurées et parquet point de Hongrie, cuisine séparée avec îlot, deux chambres (la plus grande avec dressing et salle de bains attenante), un bureau, une salle d'eau, un WC invités et une buanderie. Climatisation gainable et domotique.",
+      "A fully redesigned 113 m² apartment on the 3rd floor with a balcony: a 45 m² living and dining room with restored mouldings and chevron parquet, a separate kitchen with island, two bedrooms (the larger with walk-in wardrobe and en-suite bathroom), a study, a shower room, a guest WC and a laundry. Ducted air conditioning and smart-home controls.",
+      "Eine komplett neu gestaltete Wohnung von 113 m² im 3. Stock mit Balkon: 45 m² Wohn- und Essbereich mit restauriertem Stuck und Fischgrätparkett, separate Küche mit Insel, zwei Schlafzimmer (das größere mit Ankleide und En-suite-Bad), Arbeitszimmer, Duschbad, Gäste-WC und Hauswirtschaftsraum. Kanal-Klimaanlage und Smart Home.",
+      "Teljesen újratervezett, 113 m²-es, 3. emeleti lakás erkéllyel: 45 m²-es nappali és étkező felújított stukkókkal és halszálkaparkettával, külön szigetes konyha, két hálószoba (a nagyobbik gardróbbal és saját fürdőszobával), dolgozószoba, zuhanyzó, vendég-WC és mosókonyha. Légcsatornás klíma és okosotthon-vezérlés.",
     ),
     districtText: L(
       "Stollár Béla utca se trouve à Lipótváros, la moitié nord du Vᵉ arrondissement, entre le Parlement et la gare de Nyugati. Le quartier, c'est Falk Miksa utca, rue des galeristes et des maisons de ventes ; la pâtisserie Szalay, ouverte depuis 1917 ; le cinéma d'art Cirkó-Gejzír ; le théâtre Vígszínház sur Szent István körút et le parc Olimpia au bord du Danube.",
