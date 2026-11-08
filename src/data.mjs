@@ -14,7 +14,7 @@ export const SITE = {
   // Cloudflare Web Analytics beacon token (no cookie). Empty until the site is added in Cloudflare.
   cfBeaconToken: "ebf4d5440508454c83b8c143b8ebc087",
   // Click events (track.js) are POSTed here: a Google Apps Script web app that appends rows to the Events sheet. Empty = off.
-  eventsEndpoint: "",
+  eventsEndpoint: "https://script.google.com/macros/s/AKfycbxUJHc2IJnIu49XOtRinaYeDscHRvRve_uFWO5i-ufvRoB9PeT5zvwY0Q_Kvb6TBhmf/exec", // Apps Script web app, sheet "Estatelys – Site events" owned by Romain (8 Nov 2026)
   // Official social accounts. A network is shown only once its url is filled in (no invented accounts).
   social: [
     { id: "linkedin", label: "LinkedIn", url: "" },
@@ -78,28 +78,28 @@ export const legal = {
       "Responsable du traitement : Investissement Immobilier Bud Kft. (coordonnées ci-dessus).",
       "Ce site n'utilise ni cookies, ni outil de mesure d'audience, ni publicité. Votre choix de langue est seulement enregistré dans votre navigateur.",
       "Le formulaire de contact n'envoie rien au site : il ouvre votre messagerie. Les messages reçus servent uniquement à répondre à votre demande et ne sont conservés que le temps nécessaire au traitement de votre demande.",
-      "Pour afficher les pages, votre navigateur charge des ressources chez des tiers, qui reçoivent votre adresse IP : OpenStreetMap (fond de carte), unpkg.com (bibliothèque de carte Leaflet), Unsplash (photos de la ville), Google (vue Street View sur la page Stollár Béla 22), ainsi que Metricool et Cloudflare Web Analytics, qui mesurent l'audience (pages vues, provenance des visites).",
+      "Pour afficher les pages, votre navigateur charge des ressources chez des tiers, qui reçoivent votre adresse IP : OpenStreetMap (fond de carte), unpkg.com (bibliothèque de carte Leaflet), Unsplash (photos de la ville), Google (vue Street View sur la page Stollár Béla 22), ainsi que Metricool et Cloudflare Web Analytics, qui mesurent l'audience (pages vues, provenance des visites). Certains clics (brochure, contact, demande de visite) sont enregistrés de façon anonyme dans une feuille Google via Google Apps Script : type de clic, page et langue, sans cookie ni identifiant, et sans conservation de l'adresse IP.",
       "Vous pouvez demander l'accès, la rectification ou l'effacement de vos données en écrivant à l'adresse ci-dessus, et déposer une réclamation auprès de la NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
     en: [
       "Data controller: Investissement Immobilier Bud Kft. (details above).",
       "This site uses no cookies, no analytics and no advertising. Your language choice is only stored in your own browser.",
       "The contact form sends nothing to the site: it opens your email app. Messages we receive are used only to answer your request and kept only as long as needed to handle it.",
-      "To display the pages, your browser loads resources from third parties, which receive your IP address: OpenStreetMap (map tiles), unpkg.com (Leaflet map library), Unsplash (city photos), Google (Street View on the Stollár Béla 22 page), and Metricool and Cloudflare Web Analytics, which measure the audience (page views, where visits come from).",
+      "To display the pages, your browser loads resources from third parties, which receive your IP address: OpenStreetMap (map tiles), unpkg.com (Leaflet map library), Unsplash (city photos), Google (Street View on the Stollár Béla 22 page), and Metricool and Cloudflare Web Analytics, which measure the audience (page views, where visits come from). Some clicks (brochure, contact, viewing request) are recorded anonymously in a Google sheet through Google Apps Script: type of click, page and language, with no cookie or identifier, and the IP address is not stored.",
       "You may request access to, correction or erasure of your data by writing to the address above, and lodge a complaint with the NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
     de: [
       "Verantwortlicher: Investissement Immobilier Bud Kft. (Angaben oben).",
       "Diese Website verwendet keine Cookies, keine Reichweitenmessung und keine Werbung. Ihre Sprachwahl wird nur in Ihrem eigenen Browser gespeichert.",
       "Das Kontaktformular sendet nichts an die Website, es öffnet Ihr E-Mail-Programm. Eingehende Nachrichten dienen nur der Beantwortung Ihrer Anfrage und nur so lange wie dafür nötig aufbewahrt.",
-      "Zur Anzeige lädt Ihr Browser Inhalte von Dritten, die Ihre IP-Adresse erhalten: OpenStreetMap (Kartenkacheln), unpkg.com (Kartenbibliothek Leaflet), Unsplash (Stadtfotos), Google (Street View auf der Seite Stollár Béla 22) sowie Metricool und Cloudflare Web Analytics, die die Nutzung messen (Seitenaufrufe, Herkunft der Besuche).",
+      "Zur Anzeige lädt Ihr Browser Inhalte von Dritten, die Ihre IP-Adresse erhalten: OpenStreetMap (Kartenkacheln), unpkg.com (Kartenbibliothek Leaflet), Unsplash (Stadtfotos), Google (Street View auf der Seite Stollár Béla 22) sowie Metricool und Cloudflare Web Analytics, die die Nutzung messen (Seitenaufrufe, Herkunft der Besuche). Bestimmte Klicks (Exposé, Kontakt, Besichtigungsanfrage) werden anonym über Google Apps Script in einer Google-Tabelle erfasst: Art des Klicks, Seite und Sprache, ohne Cookie oder Kennung; die IP-Adresse wird nicht gespeichert.",
       "Sie können Auskunft, Berichtigung oder Löschung Ihrer Daten unter der obigen Adresse verlangen und Beschwerde bei der NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu) einlegen.",
     ],
     hu: [
       "Adatkezelő: Investissement Immobilier Bud Kft. (adatai fent).",
       "A honlap nem használ sütiket, látogatottságmérést vagy hirdetéseket. A választott nyelvet csak az Ön böngészője tárolja.",
       "A kapcsolatfelvételi űrlap nem küld adatot a honlapra: megnyitja az Ön levelezőprogramját. A beérkező üzeneteket kizárólag a megkeresés megválaszolására használjuk, és csak az ehhez szükséges ideig őrizzük.",
-      "Az oldalak megjelenítéséhez a böngésző harmadik felektől tölt be tartalmat, amelyek megkapják az Ön IP-címét: OpenStreetMap (térkép), unpkg.com (Leaflet térképkönyvtár), Unsplash (városfotók), Google (Street View a Stollár Béla 22. oldalon), valamint a Metricool és a Cloudflare Web Analytics, amelyek a látogatottságot mérik (oldalmegtekintések, a látogatások forrása).",
+      "Az oldalak megjelenítéséhez a böngésző harmadik felektől tölt be tartalmat, amelyek megkapják az Ön IP-címét: OpenStreetMap (térkép), unpkg.com (Leaflet térképkönyvtár), Unsplash (városfotók), Google (Street View a Stollár Béla 22. oldalon), valamint a Metricool és a Cloudflare Web Analytics, amelyek a látogatottságot mérik (oldalmegtekintések, a látogatások forrása). Egyes kattintásokat (prospektus, kapcsolat, megtekintési kérés) névtelenül rögzítünk egy Google-táblázatban a Google Apps Script segítségével: a kattintás típusa, az oldal és a nyelv, süti és azonosító nélkül; az IP-címet nem tároljuk.",
       "Kérheti adatai megismerését, helyesbítését vagy törlését a fenti címen, és panaszt tehet a NAIH-nál (Nemzeti Adatvédelmi és Információszabadság Hatóság, naih.hu).",
     ],
   },
