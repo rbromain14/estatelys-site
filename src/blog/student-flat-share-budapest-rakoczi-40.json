@@ -22,10 +22,10 @@
     "hu": "Diák közös bérlemény Budapesten: egy 4 szobás lakás hozama | Estatelys"
   },
   "summary": {
-    "fr": "Rákóczi 40, 64 m², quatre chambres louées à des étudiants : 1 620 € par mois charges comprises et 6,3 % de rendement brut au prix de 113 M Ft.",
-    "en": "Rákóczi 40, 64 m², four rooms let to students: €1,620 a month including charges and a 6.3 % gross yield at the 113 M Ft asking price.",
-    "de": "Rákóczi 40, 64 m², vier an Studierende vermietete Zimmer: 1.620 € im Monat inklusive Nebenkosten und 6,3 % Bruttorendite beim Preis von 113 Mio. Ft.",
-    "hu": "Rákóczi 40, 64 m², négy diáknak kiadott szoba: havi 1620 € rezsivel együtt és 6,3% bruttó hozam a 113 M Ft-os ár mellett."
+    "fr": "Rákóczi 40, 64 m², quatre chambres louées à des étudiants : 1 620 € par mois charges comprises et 5,3 % de rendement brut hors charges au prix de 113 M Ft.",
+    "en": "Rákóczi 40, 64 m², four rooms let to students: €1,620 a month including charges and a 5.3 % gross yield (excluding charges) at the 113 M Ft asking price.",
+    "de": "Rákóczi 40, 64 m², vier an Studierende vermietete Zimmer: 1.620 € im Monat inklusive Nebenkosten und 5,3 % Bruttorendite (ohne Nebenkosten) beim Preis von 113 Mio. Ft.",
+    "hu": "Rákóczi 40, 64 m², négy diáknak kiadott szoba: havi 1620 € rezsivel együtt és 5,3% bruttó hozam (rezsi nélkül) a 113 M Ft-os ár mellett."
   },
   "sections": [
     {
@@ -72,16 +72,16 @@
     },
     {
       "h": {
-        "fr": "Rendement brut : 6,3 %",
-        "en": "Gross yield: 6.3 %",
-        "de": "Bruttorendite: 6,3 %",
-        "hu": "Bruttó hozam: 6,3%"
+        "fr": "Rendement brut : 5,3 %",
+        "en": "Gross yield: 5.3 %",
+        "de": "Bruttorendite: 5,3 %",
+        "hu": "Bruttó hozam: 5,3%"
       },
       "body": {
-        "fr": "L'appartement est en vente à **113 M Ft** (environ 309 600 € au taux de 365 HUF/EUR). Le rendement brut est le loyer annuel charges comprises divisé par le prix : 19 440 € ÷ 309 600 € = **6,3 %**. Les charges servent à payer les dépenses de l'appartement ; calculé sur les loyers hors charges (16 272 € par an), le rendement est de 5,3 %.",
-        "en": "The flat is for sale at **113 M Ft** (about €309,600 at 365 HUF/EUR). The gross yield is the yearly rent including charges divided by the price: €19,440 ÷ €309,600 = **6.3 %**. The charges pay for the flat's running costs; on the rent excluding charges (€16,272 a year), the yield is 5.3 %.",
-        "de": "Die Wohnung steht für **113 Mio. Ft** zum Verkauf (rund 309.600 € bei 365 HUF/EUR). Die Bruttorendite ist die Jahresmiete inklusive Nebenkosten geteilt durch den Preis: 19.440 € ÷ 309.600 € = **6,3 %**. Die Nebenkosten decken die laufenden Kosten der Wohnung; auf Basis der Miete ohne Nebenkosten (16.272 € im Jahr) liegt die Rendite bei 5,3 %.",
-        "hu": "A lakás eladó, ára **113 M Ft** (365 HUF/EUR árfolyamon kb. 309 600 €). A bruttó hozam a rezsivel együtt számított éves bérleti díj osztva az árral: 19 440 € ÷ 309 600 € = **6,3%**. A rezsi a lakás működési költségeit fedezi; a rezsi nélküli bérleti díjjal (évi 16 272 €) számolva a hozam 5,3%."
+        "fr": "L'appartement est en vente à **113 M Ft** (environ 309 600 € au taux de 365 HUF/EUR). Le rendement brut est le loyer annuel hors charges divisé par le prix : 16 272 € ÷ 309 600 € = **5,3 %**. Les charges (264 € par mois) servent à payer les dépenses de l'appartement et ne sont pas comptées.",
+        "en": "The flat is for sale at **113 M Ft** (about €309,600 at 365 HUF/EUR). The gross yield is the yearly rent excluding charges divided by the price: €16,272 ÷ €309,600 = **5.3 %**. The charges (€264 a month) pay for the flat's running costs and are left out.",
+        "de": "Die Wohnung steht für **113 Mio. Ft** zum Verkauf (rund 309.600 € bei 365 HUF/EUR). Die Bruttorendite ist die Jahresmiete ohne Nebenkosten geteilt durch den Preis: 16.272 € ÷ 309.600 € = **5,3 %**. Die Nebenkosten (264 € im Monat) decken die laufenden Kosten der Wohnung und werden nicht eingerechnet.",
+        "hu": "A lakás eladó, ára **113 M Ft** (365 HUF/EUR árfolyamon kb. 309 600 €). A bruttó hozam a rezsi nélküli éves bérleti díj osztva az árral: 16 272 € ÷ 309 600 € = **5,3%**. A rezsi (havi 264 €) a lakás működési költségeit fedezi, ezért nem számít bele."
       }
     },
     {
