@@ -475,7 +475,7 @@ export const projects = [
     type: L("Investissement étudiant", "Student investment", "Studenteninvestment", "Diákbefektetés"),
     price: 309600, priceFromHuf: true, priceHuf: "113 M Ft", priceM2: "≈ 4 840 €", // Price set in HUF (Romain, 3 Nov 2026 19:15): 113 M Ft = €295,000 + 4 % + VAT on the 4 % (≈ €310,000), rounded to the million
     // Actual rents from IIB's ledger (Romain, 3 Nov 2026): 324 + 354 + 344 + 334 € = 1 356 €, plus 4 × 66 € charges
-    rent: 1356, rentDetail: L("4 chambres de 324 à 354 €, + 66 € de charges chacune", "4 rooms at €324–354, + €66 charges each", "4 Zimmer zu 324–354 €, + je 66 € Nebenkosten", "4 szoba 324–354 €, + szobánként 66 € rezsi"),
+    rent: 1356, rentDetail: L("hors charges ; 4 chambres de 390 à 420 € charges comprises, 1 620 € au total", "excl. charges; 4 rooms at €390–420 incl. charges, €1,620 in total", "ohne Nebenkosten; 4 Zimmer zu 390–420 € inkl. Nebenkosten, insgesamt 1.620 €", "rezsi nélkül; 4 szoba 390–420 € rezsivel, összesen 1 620 €"),
     yield: 5.3, // 1 356 × 12 ÷ 309 600
     facts: [
       L("64 m²", "64 m²", "64 m²", "64 m²"),
@@ -777,7 +777,8 @@ export const rentals = {
   },
   monthly: { fr: "/ mois", en: "/ month", de: "/ Monat", hu: "/ hó" },
   exCharges: { fr: "hors charges", en: "excl. charges", de: "zzgl. Nebenkosten", hu: "+ rezsi" },
-  perRoom: { fr: "par chambre et par mois, + charges", en: "per room per month, + charges", de: "pro Zimmer und Monat, + Nebenkosten", hu: "szobánként havonta, + rezsi" },
+  perRoom: { fr: "par chambre et par mois, charges comprises", en: "per room per month, charges included", de: "pro Zimmer und Monat, inkl. Nebenkosten", hu: "szobánként havonta, rezsivel együtt" }, // full rent shown (Romain, 9 Nov 2026 13:36)
+  fullRent: { fr: "Loyer charges comprises", en: "Rent incl. charges", de: "Miete inkl. Nebenkosten", hu: "Bérleti díj rezsivel" },
   all: { fr: "Toutes nos locations", en: "All our rentals", de: "Alle Mietobjekte", hu: "Összes kiadó lakás" },
   whole: { fr: "Appartement entier", en: "Whole apartment", de: "Ganze Wohnung", hu: "Teljes lakás" },
   rooms: { fr: "Colocation, location par chambre", en: "Flat share, let by the room", de: "WG, zimmerweise vermietet", hu: "Közös bérlemény, szobánként kiadva" },
@@ -806,16 +807,16 @@ export const rentals = {
     },
     { slug: "rakoczi-40", kind: "rooms",
       short: L(
-        "Colocation près de Blaha Lujza tér : 4 chambres privées louées séparément, de 324 à 354 € par mois, + 66 € de charges.",
-        "Flat share near Blaha Lujza Square: 4 private rooms let separately, €324–354 per month, + €66 charges.",
-        "WG nahe Blaha Lujza tér: 4 separate Zimmer, einzeln vermietet, 324–354 € pro Monat, + 66 € Nebenkosten.",
-        "Közös bérlemény a Blaha Lujza tér közelében: 4 külön szoba egyenként kiadva, havi 324–354 €, + 66 € rezsi.",
+        "Colocation près de Blaha Lujza tér : 4 chambres privées louées séparément, de 390 à 420 € par mois charges comprises.",
+        "Flat share near Blaha Lujza Square: 4 private rooms let separately, €390–420 per month including charges.",
+        "WG nahe Blaha Lujza tér: 4 separate Zimmer, einzeln vermietet, 390–420 € pro Monat inklusive Nebenkosten.",
+        "Közös bérlemény a Blaha Lujza tér közelében: 4 külön szoba egyenként kiadva, havi 390–420 € rezsivel együtt.",
       ),
       desc: L(
-        "Quatre chambres privées, louées séparément, dans un appartement de 64 m² au 2ᵉ étage, à quelques pas de Blaha Lujza tér. Deux chambres sont au niveau principal, deux en mezzanine par un escalier suspendu. Les colocataires partagent le séjour double hauteur, la cuisine ouverte avec comptoir, plaque à induction et lave-linge, et la salle d'eau avec douche à l'italienne ; l'appartement est climatisé. Loyer de 324 à 354 € par chambre et par mois, plus 66 € de charges. Le métro M2 (Blaha Lujza tér, Astoria) et le campus ELTE de Múzeum körút sont accessibles à pied.",
-        "Four private rooms, let separately, in a 64 m² apartment on the 2nd floor, a few steps from Blaha Lujza Square. Two rooms are on the main level and two on a mezzanine reached by a floating staircase. Tenants share the double-height living room, the open kitchen with bar counter, induction hob and washing machine, and the bathroom with walk-in shower; the apartment has air conditioning. Rent is €324–354 per room per month, plus €66 charges. Metro M2 (Blaha Lujza tér, Astoria) and ELTE University's Múzeum körút campus are within walking distance.",
-        "Vier separate Zimmer, einzeln vermietet, in einer 64 m² großen Wohnung im 2. Stock, wenige Schritte vom Blaha Lujza tér. Zwei Zimmer liegen auf der Hauptebene, zwei auf einer Galerie über eine freitragende Treppe. Gemeinsam genutzt werden der doppelt hohe Wohnraum, die offene Küche mit Bartresen, Induktionskochfeld und Waschmaschine sowie das Bad mit bodengleicher Dusche; die Wohnung ist klimatisiert. Miete 324–354 € pro Zimmer und Monat, zuzüglich 66 € Nebenkosten. Die Metro M2 (Blaha Lujza tér, Astoria) und der ELTE-Campus am Múzeum körút sind zu Fuß erreichbar.",
-        "Négy külön szoba, egyenként kiadva, egy 64 m²-es, 2. emeleti lakásban, pár lépésre a Blaha Lujza tértől. Két szoba a fő szinten, kettő a lebegő lépcsőn megközelíthető galérián található. A bérlők közösen használják a kétszintes belmagasságú nappalit, a bárpultos amerikai konyhát indukciós főzőlappal és mosógéppel, valamint a walk-in zuhanyzós fürdőt; a lakás klimatizált. Bérleti díj szobánként havi 324–354 €, plusz 66 € rezsi. Az M2-es metró (Blaha Lujza tér, Astoria) és az ELTE Múzeum körúti campusa gyalog elérhető.",
+        "Quatre chambres privées, louées séparément, dans un appartement de 64 m² au 2ᵉ étage, à quelques pas de Blaha Lujza tér. Deux chambres sont au niveau principal, deux en mezzanine par un escalier suspendu. Les colocataires partagent le séjour double hauteur, la cuisine ouverte avec comptoir, plaque à induction et lave-linge, et la salle d'eau avec douche à l'italienne ; l'appartement est climatisé. Loyer de 390 à 420 € par chambre et par mois, charges comprises. Le métro M2 (Blaha Lujza tér, Astoria) et le campus ELTE de Múzeum körút sont accessibles à pied.",
+        "Four private rooms, let separately, in a 64 m² apartment on the 2nd floor, a few steps from Blaha Lujza Square. Two rooms are on the main level and two on a mezzanine reached by a floating staircase. Tenants share the double-height living room, the open kitchen with bar counter, induction hob and washing machine, and the bathroom with walk-in shower; the apartment has air conditioning. Rent is €390–420 per room per month, charges included. Metro M2 (Blaha Lujza tér, Astoria) and ELTE University's Múzeum körút campus are within walking distance.",
+        "Vier separate Zimmer, einzeln vermietet, in einer 64 m² großen Wohnung im 2. Stock, wenige Schritte vom Blaha Lujza tér. Zwei Zimmer liegen auf der Hauptebene, zwei auf einer Galerie über eine freitragende Treppe. Gemeinsam genutzt werden der doppelt hohe Wohnraum, die offene Küche mit Bartresen, Induktionskochfeld und Waschmaschine sowie das Bad mit bodengleicher Dusche; die Wohnung ist klimatisiert. Miete 390–420 € pro Zimmer und Monat, inklusive Nebenkosten. Die Metro M2 (Blaha Lujza tér, Astoria) und der ELTE-Campus am Múzeum körút sind zu Fuß erreichbar.",
+        "Négy külön szoba, egyenként kiadva, egy 64 m²-es, 2. emeleti lakásban, pár lépésre a Blaha Lujza tértől. Két szoba a fő szinten, kettő a lebegő lépcsőn megközelíthető galérián található. A bérlők közösen használják a kétszintes belmagasságú nappalit, a bárpultos amerikai konyhát indukciós főzőlappal és mosógéppel, valamint a walk-in zuhanyzós fürdőt; a lakás klimatizált. Bérleti díj szobánként havi 390–420 €, rezsivel együtt. Az M2-es metró (Blaha Lujza tér, Astoria) és az ELTE Múzeum körúti campusa gyalog elérhető.",
       ),
       rooms: [
       { name: "Antalya", pos: { fr: "haut gauche", en: "upper left", de: "oben links", hu: "fent balra" }, rent: 324, charges: 66 },

@@ -86,13 +86,13 @@ h2{font-size:18pt;margin:0 0 4mm}
 function brochure(p, l, rent = null) {
   const url = `https://${SITE.domain}/${lp(l)}${rent ? "rentals" : "projects"}/${p.slug}/`;
   const short = (rent?.short || p.short)[l], desc = (rent?.desc || p.desc)[l];
-  const minRoom = rent?.kind === "rooms" ? Math.min(...rent.rooms.map((r) => r.rent)) : 0;
+  const minRoom = rent?.kind === "rooms" ? Math.min(...rent.rooms.map((r) => r.rent + r.charges)) : 0;
   const rentMain = rent ? (rent.kind === "whole" ? eur(rent.rent, l) : `${eur(minRoom, l)}+`) : "";
   const rentSub = rent ? (rent.kind === "whole" ? `≈ ${hufFull(rent.rent, l)} · ${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}` : rentals.perRoom[l]) : "";
   const imgs = (p.images || []).map((x) => x[0]);
   const gallery = imgs.slice(1, 7);
   const factCells = rent ? [
-    ...(rent.kind === "whole" ? [[rentals.rent[l], eur(rent.rent, l)], ["HUF", `≈ ${hufFull(rent.rent, l)}`]] : rent.rooms.map((r) => [`${rentals.room[l]} ${esc(r.name)}`, `${eur(r.rent, l)} + ${eur(r.charges, l)} ${esc(rentals.charges[l].toLowerCase())}`])),
+    ...(rent.kind === "whole" ? [[rentals.rent[l], eur(rent.rent, l)], ["HUF", `≈ ${hufFull(rent.rent, l)}`]] : [...rent.rooms.map((r) => [`${rentals.room[l]} ${esc(r.name)}`, `${eur(r.rent + r.charges, l)}`]), [rentals.sum[l], eur(rent.rooms.reduce((a, r) => a + r.rent + r.charges, 0), l)]]),
     ...p.facts.map((f) => ["", f[l]]),
   ] : [
     // HUF first for every property (Romain, 3 Nov 2026 19:01)

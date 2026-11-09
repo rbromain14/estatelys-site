@@ -416,7 +416,8 @@ function rentalsPage(l) {
 
 function rentTable(it, l) {
       const tot = it.rooms.reduce((a, r) => [a[0] + r.rent, a[1] + r.charges], [0, 0]);
-      return `<div class="rtbl rent-t"><table><thead><tr><th>${rentals.room[l]}</th><th>${rentals.rent[l]}</th><th>${rentals.charges[l]}</th><th>${rentals.total[l]}</th></tr></thead><tbody>${it.rooms.map((r) => `<tr><th scope="row">${esc(r.name)}${r.pos ? ` <span class="muted small">(${r.pos[l]})</span>` : ""}</th><td>${eur(r.rent, l)}</td><td>${eur(r.charges, l)}</td><td><strong>${eur(r.rent + r.charges, l)}</strong></td></tr>`).join("")}<tr class="rent-sum"><th scope="row">${rentals.sum[l]}</th><td>${eur(tot[0], l)}</td><td>${eur(tot[1], l)}</td><td><strong>${eur(tot[0] + tot[1], l)}</strong></td></tr></tbody></table></div>`;
+      // Full rent (charges included) shown, Romain 9 Nov 2026 13:36
+      return `<div class="rtbl rent-t"><table><thead><tr><th>${rentals.room[l]}</th><th>${rentals.fullRent[l]}</th></tr></thead><tbody>${it.rooms.map((r) => `<tr><th scope="row">${esc(r.name)}${r.pos ? ` <span class="muted small">(${r.pos[l]})</span>` : ""}</th><td><strong>${eur(r.rent + r.charges, l)}</strong></td></tr>`).join("")}<tr class="rent-sum"><th scope="row">${rentals.sum[l]}</th><td><strong>${eur(tot[0] + tot[1], l)}</strong></td></tr></tbody></table></div>`;
 }
 
 // rent = an item of rentals.items: renders the same property as a rental listing (no sale price) at rentals/<slug>/
@@ -487,7 +488,7 @@ function projectPage(p, l, rent = null) {
     </div>
     ${rent ? `<aside class="pbox">
       <p class="eyebrow">${rentals.rent[l]}</p>
-      ${rent.kind === "whole" ? `<p class="pbig">${eur(rent.rent, l)}</p><p class="muted">≈ ${hufFull(rent.rent, l)} · ${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</p>` : `<p class="pbig">${eur(Math.min(...rent.rooms.map((r) => r.rent)), l)}+</p><p class="muted">${rentals.perRoom[l]}</p>`}
+      ${rent.kind === "whole" ? `<p class="pbig">${eur(rent.rent, l)}</p><p class="muted">≈ ${hufFull(rent.rent, l)} · ${rent.exCharges ? rentals.exCharges[l] + " " : ""}${rentals.monthly[l]}</p>` : `<p class="pbig">${eur(Math.min(...rent.rooms.map((r) => r.rent + r.charges)), l)}+</p><p class="muted">${rentals.perRoom[l]}</p>`}
       <a class="btn wfull" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a>
       ${existsSync(`src/assets/brochures/${p.slug}-rent-${l}.pdf`) ? `<a class="btn btn-o wfull" href="${asset(l, route, `assets/brochures/${p.slug}-rent-${l}.pdf`)}" download data-ev="brochure">${t.brochureDl[l]}</a>` : ""}
       <a class="btn btn-o wfull" href="${R("rentals/")}">${rentals.all[l]}</a>
@@ -536,7 +537,7 @@ ${rent ? "" : `<section class="sec wrap">
   };
   const d = districtOf(p);
   if (rent) {
-    const monthly = rent.kind === "whole" ? rent.rent : Math.min(...rent.rooms.map((r) => r.rent));
+    const monthly = rent.kind === "whole" ? rent.rent : Math.min(...rent.rooms.map((r) => r.rent + r.charges)); // full rent incl. charges (Romain 9 Nov 2026)
     const lease = { ...offer, "@id": abs(l, route) + "#offer", url: abs(l, route), description: rent.short[l], itemOffered: { ...offer.itemOffered, description: rent.desc[l] }, businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
       price: undefined, priceCurrency: undefined,
       priceSpecification: { "@type": "UnitPriceSpecification", price: monthly, priceCurrency: "EUR", unitCode: "MON", referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "MON" } } };
