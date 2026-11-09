@@ -65,7 +65,7 @@ const ORG_ID = `https://${SITE.domain}/#organization`;
 const SEO_INDEXNOW_KEY = "1e40a2d42ad17b32a0814fa174ea9ca9"; // public by design (IndexNow protocol)
 // Homepage photo (Unsplash). Change it here: the home hero AND the default share image (og:image) both use it.
 // Homepage photo: St Stephen's Basilica, B&W (Unsplash sbyz9wX9Rrg, © Salmen Bejaoui), hosted locally since 5 Nov 2026
-// (src/img/hero-basilica-900/1600/2400 .jpg + .webp). Share image = 1200×630 crop of the same photo.
+// (src/img/hero-basilica-640/960/1280/1600/2400 .jpg + .webp, stored in grayscale). Share image = 1200×630 crop of the same photo.
 const SHARE_IMG = `https://${SITE.domain}/img/share-basilica.jpg`;
 const WEB_ID = `https://${SITE.domain}/#website`;
 const seatParts = SITE.seat.match(/^(\d{4})\s+([^,]+),\s*(.+)$/);
@@ -317,11 +317,10 @@ function home(l) {
   const R = (r) => rel(l, route, l, r);
   const body = `
 <section class="hero dk">
-  <picture><source type="image/webp" srcset="${A("img/hero-basilica-900.webp")} 900w, ${A("img/hero-basilica-1600.webp")} 1600w, ${A("img/hero-basilica-2400.webp")} 2400w" sizes="100vw"><img class="hero-img" src="${A("img/hero-basilica-1600.jpg")}" srcset="${A("img/hero-basilica-900.jpg")} 900w, ${A("img/hero-basilica-1600.jpg")} 1600w, ${A("img/hero-basilica-2400.jpg")} 2400w" sizes="100vw" width="2400" height="1350" alt="${esc(t.heroAlt[l])}" fetchpriority="high"></picture>
+  <picture><source type="image/webp" srcset="${A("img/hero-basilica-640.webp")} 640w, ${A("img/hero-basilica-960.webp")} 960w, ${A("img/hero-basilica-1280.webp")} 1280w, ${A("img/hero-basilica-1600.webp")} 1600w, ${A("img/hero-basilica-2400.webp")} 2400w" sizes="100vw"><img class="hero-img" src="${A("img/hero-basilica-1280.jpg")}" srcset="${A("img/hero-basilica-640.jpg")} 640w, ${A("img/hero-basilica-960.jpg")} 960w, ${A("img/hero-basilica-1280.jpg")} 1280w, ${A("img/hero-basilica-1600.jpg")} 1600w, ${A("img/hero-basilica-2400.jpg")} 2400w" sizes="100vw" width="2400" height="1350" alt="${esc(t.heroAlt[l])}" fetchpriority="high"></picture>
   <a class="hero-cr" href="https://unsplash.com/photos/sbyz9wX9Rrg" target="_blank" rel="noopener">© Salmen Bejaoui / Unsplash</a>
   <div class="hero-fade"></div>
   <div class="wrap hero-in">
-    <img class="hero-sig" src="${A("assets/signature-white.png")}" alt="" width="1400" height="341">
     <p class="eyebrow">${t.heroEyebrow[l]}</p>
     <h1>${t.heroTitle[l]}</h1>
     <p class="lead">${t.heroText[l]}</p>
@@ -365,7 +364,8 @@ ${pilotHomeBlock(l, route)}
   </div>
 </section>
 ${partnersBlock(l, route)}`;
-  return layout({ l, route, title: seo.homeTitle[l], desc: t.metaDesc[l], body, bodyClass: "is-home" });
+  const heroPreload = `<link rel="preload" as="image" type="image/webp" imagesrcset="${A("img/hero-basilica-640.webp")} 640w, ${A("img/hero-basilica-960.webp")} 960w, ${A("img/hero-basilica-1280.webp")} 1280w, ${A("img/hero-basilica-1600.webp")} 1600w, ${A("img/hero-basilica-2400.webp")} 2400w" imagesizes="100vw" fetchpriority="high">`;
+  return layout({ l, route, title: seo.homeTitle[l], desc: t.metaDesc[l], body, bodyClass: "is-home", extraHead: heroPreload });
 }
 
 function projectsPage(l) {

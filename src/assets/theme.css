@@ -146,7 +146,7 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 .sim-r b{font:700 1.25rem var(--disp);font-variant-numeric:tabular-nums}
 @media (max-width:900px){.rwrap{grid-template-columns:1fr}.rside{position:static}}
 @media (max-width:560px){.sim-f{grid-template-columns:1fr}}
-.hero-img{filter:grayscale(1)}
+.hero-img{} /* photo files stored in grayscale (9 Nov 2026), no CSS filter needed */
 .hero::after,.phero::after,.phdr::after{display:none}
 .hero .eyebrow,.hero h1,.hero p{text-shadow:0 1px 18px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.45)}
 /* hero on a light B&W photo: white text and a darker left side behind it */
