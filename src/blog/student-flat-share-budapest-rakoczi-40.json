@@ -1,7 +1,7 @@
 {
   "slug": "student-flat-share-budapest-rakoczi-40",
   "date": "2026-11-05",
-  "updated": "2026-11-05",
+  "updated": "2026-11-09",
   "cover": "rakoczi-03",
   "coverAlt": {
     "fr": "Séjour double hauteur avec mezzanine, Rákóczi 40, Budapest",
@@ -22,10 +22,10 @@
     "hu": "Diák közös bérlemény Budapesten: egy 4 szobás lakás hozama | Estatelys"
   },
   "summary": {
-    "fr": "Rákóczi 40, 64 m², quatre chambres louées à des étudiants : 1 356 € de loyer par mois et 5,3 % de rendement brut au prix de 113 M Ft.",
-    "en": "Rákóczi 40, 64 m², four rooms let to students: €1,356 rent a month and a 5.3 % gross yield at the 113 M Ft asking price.",
-    "de": "Rákóczi 40, 64 m², vier an Studierende vermietete Zimmer: 1.356 € Miete im Monat und 5,3 % Bruttorendite beim Preis von 113 Mio. Ft.",
-    "hu": "Rákóczi 40, 64 m², négy diáknak kiadott szoba: havi 1356 € bérleti díj és 5,3% bruttó hozam a 113 M Ft-os ár mellett."
+    "fr": "Rákóczi 40, 64 m², quatre chambres louées à des étudiants : 1 620 € par mois charges comprises et 6,3 % de rendement brut au prix de 113 M Ft.",
+    "en": "Rákóczi 40, 64 m², four rooms let to students: €1,620 a month including charges and a 6.3 % gross yield at the 113 M Ft asking price.",
+    "de": "Rákóczi 40, 64 m², vier an Studierende vermietete Zimmer: 1.620 € im Monat inklusive Nebenkosten und 6,3 % Bruttorendite beim Preis von 113 Mio. Ft.",
+    "hu": "Rákóczi 40, 64 m², négy diáknak kiadott szoba: havi 1620 € rezsivel együtt és 6,3% bruttó hozam a 113 M Ft-os ár mellett."
   },
   "sections": [
     {
@@ -64,24 +64,24 @@
         "hu": "Mennyit hoz ma a lakás"
       },
       "body": {
-        "fr": "Les quatre chambres sont louées à quatre étudiants, une par chambre, à 324 €, 334 €, 344 € et 354 € par mois. Chaque locataire paie en plus 66 € de charges par mois.\n\n- Loyers : **1 356 € par mois**, soit 16 272 € par an.\n- Charges : 264 € par mois (4 × 66 €), en plus des loyers.\n- Total payé par les locataires : 1 620 € par mois.",
-        "en": "The four rooms are let to four students, one per room, at €324, €334, €344 and €354 a month. Each tenant also pays €66 a month in charges.\n\n- Rent: **€1,356 a month**, or €16,272 a year.\n- Charges: €264 a month (4 × €66), on top of the rent.\n- Total paid by the tenants: €1,620 a month.",
-        "de": "Die vier Zimmer sind an vier Studierende vermietet, eines pro Person, zu 324 €, 334 €, 344 € und 354 € im Monat. Jeder Mieter zahlt zusätzlich 66 € Nebenkosten im Monat.\n\n- Miete: **1.356 € im Monat**, also 16.272 € im Jahr.\n- Nebenkosten: 264 € im Monat (4 × 66 €), zusätzlich zur Miete.\n- Gesamtzahlung der Mieter: 1.620 € im Monat.",
-        "hu": "A négy szobát négy diák bérli, szobánként egy fő, havi 324, 334, 344 és 354 euróért. Minden bérlő ezen felül havi 66 € rezsit fizet.\n\n- Bérleti díj: **havi 1356 €**, évi 16 272 €.\n- Rezsi: havi 264 € (4 × 66 €), a bérleti díjon felül.\n- A bérlők összesen: havi 1620 €."
+        "fr": "Les quatre chambres sont louées à quatre étudiants, une par chambre, à 390 €, 400 €, 410 € et 420 € par mois, charges comprises (loyer de 324 à 354 € plus 66 € de charges).\n\n- Total payé par les locataires : **1 620 € par mois** charges comprises, soit 19 440 € par an.\n- Dont charges : 264 € par mois (4 × 66 €).\n- Loyers hors charges : 1 356 € par mois.",
+        "en": "The four rooms are let to four students, one per room, at €390, €400, €410 and €420 a month including charges (rent of €324–354 plus €66 charges).\n\n- Total paid by the tenants: **€1,620 a month** including charges, or €19,440 a year.\n- Of which charges: €264 a month (4 × €66).\n- Rent excluding charges: €1,356 a month.",
+        "de": "Die vier Zimmer sind an vier Studierende vermietet, eines pro Person, zu 390 €, 400 €, 410 € und 420 € im Monat inklusive Nebenkosten (Miete 324–354 € plus 66 € Nebenkosten).\n\n- Gesamtzahlung der Mieter: **1.620 € im Monat** inklusive Nebenkosten, also 19.440 € im Jahr.\n- Davon Nebenkosten: 264 € im Monat (4 × 66 €).\n- Miete ohne Nebenkosten: 1.356 € im Monat.",
+        "hu": "A négy szobát négy diák bérli, szobánként egy fő, havi 390, 400, 410 és 420 euróért, rezsivel együtt (324–354 € bérleti díj és 66 € rezsi).\n\n- A bérlők összesen: **havi 1620 €** rezsivel együtt, évi 19 440 €.\n- Ebből rezsi: havi 264 € (4 × 66 €).\n- Bérleti díj rezsi nélkül: havi 1356 €."
       }
     },
     {
       "h": {
-        "fr": "Rendement brut : 5,3 %",
-        "en": "Gross yield: 5.3 %",
-        "de": "Bruttorendite: 5,3 %",
-        "hu": "Bruttó hozam: 5,3%"
+        "fr": "Rendement brut : 6,3 %",
+        "en": "Gross yield: 6.3 %",
+        "de": "Bruttorendite: 6,3 %",
+        "hu": "Bruttó hozam: 6,3%"
       },
       "body": {
-        "fr": "L'appartement est en vente à **113 M Ft** (environ 309 600 € au taux de 365 HUF/EUR). Le rendement brut est le loyer annuel divisé par le prix : 16 272 € ÷ 309 600 € = **5,3 %**. Les charges ne sont pas comptées dans le calcul.",
-        "en": "The flat is for sale at **113 M Ft** (about €309,600 at 365 HUF/EUR). The gross yield is the yearly rent divided by the price: €16,272 ÷ €309,600 = **5.3 %**. The charges are left out of the calculation.",
-        "de": "Die Wohnung steht für **113 Mio. Ft** zum Verkauf (rund 309.600 € bei 365 HUF/EUR). Die Bruttorendite ist die Jahresmiete geteilt durch den Preis: 16.272 € ÷ 309.600 € = **5,3 %**. Die Nebenkosten fließen nicht in die Berechnung ein.",
-        "hu": "A lakás eladó, ára **113 M Ft** (365 HUF/EUR árfolyamon kb. 309 600 €). A bruttó hozam az éves bérleti díj osztva az árral: 16 272 € ÷ 309 600 € = **5,3%**. A rezsi nem számít bele."
+        "fr": "L'appartement est en vente à **113 M Ft** (environ 309 600 € au taux de 365 HUF/EUR). Le rendement brut est le loyer annuel charges comprises divisé par le prix : 19 440 € ÷ 309 600 € = **6,3 %**. Les charges servent à payer les dépenses de l'appartement ; calculé sur les loyers hors charges (16 272 € par an), le rendement est de 5,3 %.",
+        "en": "The flat is for sale at **113 M Ft** (about €309,600 at 365 HUF/EUR). The gross yield is the yearly rent including charges divided by the price: €19,440 ÷ €309,600 = **6.3 %**. The charges pay for the flat's running costs; on the rent excluding charges (€16,272 a year), the yield is 5.3 %.",
+        "de": "Die Wohnung steht für **113 Mio. Ft** zum Verkauf (rund 309.600 € bei 365 HUF/EUR). Die Bruttorendite ist die Jahresmiete inklusive Nebenkosten geteilt durch den Preis: 19.440 € ÷ 309.600 € = **6,3 %**. Die Nebenkosten decken die laufenden Kosten der Wohnung; auf Basis der Miete ohne Nebenkosten (16.272 € im Jahr) liegt die Rendite bei 5,3 %.",
+        "hu": "A lakás eladó, ára **113 M Ft** (365 HUF/EUR árfolyamon kb. 309 600 €). A bruttó hozam a rezsivel együtt számított éves bérleti díj osztva az árral: 19 440 € ÷ 309 600 € = **6,3%**. A rezsi a lakás működési költségeit fedezi; a rezsi nélküli bérleti díjjal (évi 16 272 €) számolva a hozam 5,3%."
       }
     },
     {

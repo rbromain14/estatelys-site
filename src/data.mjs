@@ -474,9 +474,9 @@ export const projects = [
     district: L("VIIᵉ arrondissement · Erzsébetváros", "7th district · Erzsébetváros", "7. Bezirk · Erzsébetváros", "VII. kerület · Erzsébetváros"),
     type: L("Investissement étudiant", "Student investment", "Studenteninvestment", "Diákbefektetés"),
     price: 309600, priceFromHuf: true, priceHuf: "113 M Ft", priceM2: "≈ 4 840 €", // Price set in HUF (Romain, 3 Nov 2026 19:15): 113 M Ft = €295,000 + 4 % + VAT on the 4 % (≈ €310,000), rounded to the million
-    // Actual rents from IIB's ledger (Romain, 3 Nov 2026): 324 + 354 + 344 + 334 € = 1 356 €, plus 4 × 66 € charges
-    rent: 1356, rentDetail: L("hors charges ; 4 chambres de 390 à 420 € charges comprises, 1 620 € au total", "excl. charges; 4 rooms at €390–420 incl. charges, €1,620 in total", "ohne Nebenkosten; 4 Zimmer zu 390–420 € inkl. Nebenkosten, insgesamt 1.620 €", "rezsi nélkül; 4 szoba 390–420 € rezsivel, összesen 1 620 €"),
-    yield: 5.3, // 1 356 × 12 ÷ 309 600
+    // Full rent incl. charges (Romain 9 Nov 2026 13:36 and 14:51 "aligne avec la partie vente"): leases 324 + 354 + 344 + 334 € + 4 × 66 € charges = 1 620 €
+    rent: 1620, rentDetail: L("charges comprises ; 4 chambres de 390 à 420 €", "charges included; 4 rooms at €390–420", "inkl. Nebenkosten; 4 Zimmer zu 390–420 €", "rezsivel együtt; 4 szoba 390–420 €"),
+    yield: 6.3, // 1 620 × 12 ÷ 309 600 = 6.28 %
     facts: [
       L("64 m²", "64 m²", "64 m²", "64 m²"),
       L("2ᵉ étage", "2nd floor", "2. Stock", "2. emelet"),
