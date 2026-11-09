@@ -225,6 +225,7 @@ export const t = {
   theDistrict: { fr: "Le quartier", en: "The district", de: "Das Viertel", hu: "A környék" },
   theBuilding: { fr: "L'immeuble", en: "The building", de: "Das Gebäude", hu: "Az épület" },
   keyFacts: { fr: "En bref", en: "Key facts", de: "Eckdaten", hu: "Főbb adatok" },
+  photosNC: { fr: "Photos non contractuelles.", en: "Photos are not contractual.", de: "Fotos nicht vertraglich bindend.", hu: "A fotók nem képezik a szerződés részét." }, // D20 (Romain, 8 Nov 2026 14:30)
   features: { fr: "Équipements et informations", en: "Features and information", de: "Ausstattung und Angaben", hu: "Felszereltség és adatok" },
   investment: { fr: "Investissement", en: "Investment", de: "Investment", hu: "Befektetés" },
   gallery: { fr: "Galerie", en: "Gallery", de: "Galerie", hu: "Galéria" },

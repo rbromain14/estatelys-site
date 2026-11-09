@@ -143,7 +143,7 @@ function brochure(p, l, rent = null) {
     <p>${SITE.email} · <a href="${url}">${url.replace("https://", "")}</a></p>
     <p class="note">${L.online[l]}.</p>
   </div>
-  <p class="note">${(rent ? L.hufNote : p.priceFromHuf ? L.eurNote : L.hufNote)[l]} ${SITE.hufRate} HUF/EUR. ${L.noOffer[l]} ${L.date[l]} ${new Intl.DateTimeFormat(LOCALE[l], { day: "numeric", month: "long", year: "numeric" }).format(new Date())}.</p>
+  <p class="note">${(rent ? L.hufNote : p.priceFromHuf ? L.eurNote : L.hufNote)[l]} ${SITE.hufRate} HUF/EUR. ${t.photosNC[l]} ${L.noOffer[l]} ${L.date[l]} ${new Intl.DateTimeFormat(LOCALE[l], { day: "numeric", month: "long", year: "numeric" }).format(new Date())}.</p>
   ${foot}
 </section>
 </body></html>`;

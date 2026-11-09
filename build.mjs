@@ -430,7 +430,7 @@ function projectPage(p, l, rent = null) {
   <div class="gal" data-gallery>
     ${p.images.map(([n, c], i, a) => { const r = (a.length + 3) % 4, wide = r && i >= a.length - (4 - r); return `<button class="gal-i${i === 0 ? " big" : ""}${wide ? " wide" : ""}" data-full="${asset(l, route, `img/${n}.jpg`)}" data-cap="${esc(cap[c][l])}" aria-label="${esc(cap[c][l])}">${img(l, route, n, cap[c][l], "", "(min-width: 900px) 33vw, 50vw")}</button>`; }).join("")}
   </div>
-  ${p.cgi ? `<p class="small muted note">${t.cgiNote[l]}</p>` : ""}
+  <p class="small muted note">${t.photosNC[l]}${p.cgi ? ` ${t.cgiNote[l]}` : ""}</p>
 </section>` : "";
 
   const invest = !rent && p.rent ? `
