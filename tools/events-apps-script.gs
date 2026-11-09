@@ -33,7 +33,8 @@ function contact(d, clean) {
   const lang = clean(d.lang, 5), page = clean(d.page, 200).replace(/\n/g, " ");
   withLock(() => {
     const ss = SpreadsheetApp.getActiveSpreadsheet();
-    const sh = ss.getSheetByName("Contacts") || ss.insertSheet("Contacts").appendRow(["Time (Budapest)", "Name", "Email", "Phone", "Property", "Message", "Language", "Page"]) && ss.getSheetByName("Contacts");
+    let sh = ss.getSheetByName("Contacts");
+    if (!sh) { sh = ss.insertSheet("Contacts"); sh.appendRow(["Time (Budapest)", "Name", "Email", "Phone", "Property", "Message", "Language", "Page"]); }
     sh.appendRow([now(), name, email, phone, property, message, lang, page]);
   });
   MailApp.sendEmail({
