@@ -48,15 +48,32 @@
   var f = document.getElementById("cform");
   if (f) {
     var q = new URLSearchParams(location.search).get("p");
-    if (q) { var sel = f.querySelector("select"); [].forEach.call(sel.options, function (o) { if (o.text === q) sel.value = o.text; }); }
+    if (q) { var sel = f.querySelector("select"); [].forEach.call(sel.options, function (o) { if (o.value === q || o.text === q) sel.value = o.value; }); }
+    var t0 = Date.now();
     var rq = new URLSearchParams(location.search).get("r");
     if (rq) { var ta = f.querySelector("textarea"); if (ta && !ta.value) ta.value = "Resource: " + rq + "\n"; }
     f.addEventListener("submit", function (e) {
       e.preventDefault();
       var d = new FormData(f), prop = d.get("property");
-      var subject = f.dataset.subject + (prop ? " — " + prop : "") + " — " + d.get("name");
-      var body = d.get("message") + "\n\n" + d.get("name") + "\n" + d.get("email") + (d.get("phone") ? "\n" + d.get("phone") : "");
-      location.href = "mailto:" + f.dataset.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      if (d.get("website")) return; // honeypot
+      function mailto() {
+        var subject = f.dataset.subject + (prop ? " — " + prop : "") + " — " + d.get("name");
+        var body = d.get("message") + "\n\n" + d.get("name") + "\n" + d.get("email") + (d.get("phone") ? "\n" + d.get("phone") : "");
+        location.href = "mailto:" + f.dataset.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      }
+      var ep = f.dataset.endpoint;
+      if (!ep || !window.fetch) return mailto();
+      var btn = f.querySelector("button[type=submit]"), label = btn.textContent;
+      btn.disabled = true; btn.textContent = f.dataset.sending;
+      // Sent to the Apps Script web app (sheet "Contacts" + email to contact@); falls back to the email app if it does not answer "ok"
+      fetch(ep, { method: "POST", body: JSON.stringify({ type: "contact", name: d.get("name"), email: d.get("email"), phone: d.get("phone") || "", property: prop || "", message: d.get("message"), page: location.pathname, lang: document.documentElement.lang || "", ms: Date.now() - t0 }) })
+        .then(function (r) { return r.text(); })
+        .then(function (txt) {
+          if (txt.trim() !== "ok") throw new Error(txt);
+          var ok = document.createElement("p"); ok.className = "form-ok"; ok.setAttribute("role", "status"); ok.textContent = f.dataset.sent;
+          f.replaceWith(ok);
+        })
+        .catch(function () { btn.disabled = false; btn.textContent = label; mailto(); });
     });
   }
 

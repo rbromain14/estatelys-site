@@ -279,3 +279,7 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 /* Stats bands: as many equal columns as items (home 5, Pilot 3) */
 @media (min-width:761px){.stats-in{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr)}}
 @media (min-width:761px) and (max-width:980px){.stats-in b.sm{font-size:.8rem}}
+
+/* contact form: honeypot and confirmation */
+.form .hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
+.form-ok{padding:28px;border:1px solid var(--line,#ddd);border-left:4px solid #c8a97e;background:rgba(200,169,126,.08);font-size:1.05rem}

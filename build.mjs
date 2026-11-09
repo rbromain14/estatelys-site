@@ -605,14 +605,15 @@ function contact(l) {
 </div></section>
 <section class="wrap sec0">
   <div class="cgrid">
-    <form class="form" id="cform" data-email="${SITE.email}" data-subject="${esc(SITE.name)}">
+    <form class="form" id="cform" data-email="${SITE.email}" data-subject="${esc(SITE.name)}"${SITE.eventsEndpoint ? ` data-endpoint="${SITE.eventsEndpoint}"` : ""} data-sent="${esc(t.formSent[l])}" data-sending="${esc(t.formSending[l])}">
+      <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
       <label><span>${t.name[l]}</span><input name="name" required autocomplete="name"></label>
       <div class="two">
         <label><span>${t.email[l]}</span><input name="email" type="email" required autocomplete="email"></label>
         <label><span>${t.phone[l]}</span><input name="phone" type="tel" autocomplete="tel"></label>
       </div>
       <label><span>${t.property[l]}</span>
-        <select name="property"><option value="">${t.general[l]}</option>${FOR_SALE.map((p) => `<option>${p.name}</option>`).join("")}</select>
+        <select name="property"><option value="">${t.general[l]}</option>${FOR_SALE.map((p) => `<option>${p.name}</option>`).join("")}${rentals.items.map((it) => { const p = projects.find((x) => x.slug === it.slug); return p ? `<option value="${esc(p.name + " — " + rentals.title.en)}">${p.name} — ${rentals.title[l]}</option>` : ""; }).join("")}</select>
       </label>
       <label><span>${t.message[l]}</span><textarea name="message" rows="6" required></textarea></label>
       <button class="btn" type="submit">${t.send[l]}</button>
