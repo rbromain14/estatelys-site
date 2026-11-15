@@ -570,6 +570,58 @@ export const projects = [
     buildingImages: [["klauzal-12", "facade"], ["klauzal-10", "gallery"], ["klauzal-11", "entrance"]],
     plans: ["klauzal-plan"],
   },
+  {
+    // Múzeum körút 10 (Romain, 15 Nov 2026 16:46 and 17:24): IIB 100 %, 87 m² (sale contract), 112.1 M Ft, one lot with two entrances, let at €1,600/month incl. charges, gas heating. Photos: Drive "Selection Muzeum"; plan sent by Romain.
+    slug: "muzeum-korut-10",
+    status: "for-sale",
+    name: "Múzeum körút 10",
+    address: "Múzeum körút 10, 1088 Budapest",
+    lat: 47.4911, lng: 19.0610,
+    district: L("VIIIᵉ arrondissement · Palotanegyed", "8th district · Palotanegyed", "8. Bezirk · Palotanegyed", "VIII. kerület · Palotanegyed"),
+    type: L("Investissement locatif", "Rental investment", "Mietinvestment", "Bérleti befektetés"),
+    price: 307100, priceFromHuf: true, priceHuf: L("112,1 M Ft", "112.1 M Ft", "112,1 Mio. Ft", "112,1 M Ft"), priceM2: "≈ 3 530 €", // 112 100 000 Ft ÷ 365 = €307,123; ÷ 87 m²
+    rent: 1600, rentDetail: L("charges comprises ; vendu loué", "charges included; sold with the tenancy", "inkl. Nebenkosten; vermietet verkauft", "rezsivel együtt; bérlővel együtt eladó"),
+    yield: 6.3, // 1 600 × 12 ÷ 307 123 = 6.25 %, on the rent incl. charges (rent excl. charges not given)
+    facts: [
+      L("87 m²", "87 m²", "87 m²", "87 m²"),
+      L("1 lot, 2 logements avec entrée séparée", "One lot, 2 units with separate entrances", "Eine Einheit, 2 Wohnungen mit getrennten Eingängen", "Egy ingatlan, 2 lakrész külön bejárattal"),
+      L("3 chambres · 2 salles de bains", "3 bedrooms · 2 bathrooms", "3 Schlafzimmer · 2 Bäder", "3 hálószoba · 2 fürdőszoba"),
+      L("3ᵉ étage", "3rd floor", "3. Stock", "3. emelet"),
+      L("Loué", "Let", "Vermietet", "Bérbe adva"),
+    ],
+    features: [
+      { t: L("Chauffage au gaz", "Gas heating", "Gasheizung", "Gázfűtés") },
+      { t: L("Logement 1 : séjour avec cuisine américaine (18 m²), une chambre (10 m²), salle de bains", "Unit 1: living room with open kitchen (18 m²), one bedroom (10 m²), bathroom", "Wohnung 1: Wohnzimmer mit offener Küche (18 m²), ein Schlafzimmer (10 m²), Bad", "1. lakrész: nappali amerikai konyhával (18 m²), egy hálószoba (10 m²), fürdőszoba") },
+      { t: L("Logement 2 : séjour avec cuisine américaine (32 m²), deux chambres (10 et 10,4 m²) dont une avec dressing, salle de bains", "Unit 2: living room with open kitchen (32 m²), two bedrooms (10 and 10.4 m²), one with a walk-in wardrobe, bathroom", "Wohnung 2: Wohnzimmer mit offener Küche (32 m²), zwei Schlafzimmer (10 und 10,4 m²), eines mit Ankleide, Bad", "2. lakrész: nappali amerikai konyhával (32 m²), két hálószoba (10 és 10,4 m²), az egyik gardróbbal, fürdőszoba") },
+      { t: L("Vendu loué : 1 600 € par mois charges comprises", "Sold with the tenancy: €1,600 a month including charges", "Vermietet verkauft: 1.600 € im Monat inklusive Nebenkosten", "Bérlővel együtt eladó: havi 1600 € rezsivel együtt") },
+    ],
+    short: L(
+      "Sur le Múzeum körút, entre Astoria et Kálvin tér : 87 m² en un seul lot, divisés en deux logements avec entrée séparée, loués 1 600 € par mois charges comprises.",
+      "On Múzeum körút, between Astoria and Kálvin tér: 87 m² in a single lot, divided into two units with separate entrances, let at €1,600 a month including charges.",
+      "Am Múzeum körút zwischen Astoria und Kálvin tér: 87 m² als eine Einheit, aufgeteilt in zwei Wohnungen mit getrennten Eingängen, vermietet für 1.600 € im Monat inklusive Nebenkosten.",
+      "A Múzeum körúton, az Astoria és a Kálvin tér között: 87 m² egy ingatlanként, két külön bejáratú lakrészre osztva, havi 1600 € bérleti díjjal, rezsivel együtt.",
+    ),
+    desc: L(
+      "Un appartement de 87 m² au 3ᵉ étage, vendu en un seul lot et aménagé en deux logements indépendants, chacun avec sa propre entrée, son séjour avec cuisine américaine et sa salle de bains. Le premier compte une chambre, le second deux chambres, dont une avec dressing. Chauffage au gaz. L'appartement est loué 1 600 € par mois charges comprises.",
+      "An 87 m² apartment on the 3rd floor, sold as a single lot and laid out as two independent units, each with its own entrance, living room with open kitchen and bathroom. The first has one bedroom, the second two bedrooms, one with a walk-in wardrobe. Gas heating. The apartment is let at €1,600 a month including charges.",
+      "Eine 87 m² große Wohnung im 3. Stock, als eine Einheit verkauft und in zwei unabhängige Wohnungen aufgeteilt, jede mit eigenem Eingang, Wohnzimmer mit offener Küche und Bad. Die erste hat ein Schlafzimmer, die zweite zwei Schlafzimmer, eines mit Ankleide. Gasheizung. Die Wohnung ist für 1.600 € im Monat inklusive Nebenkosten vermietet.",
+      "87 m²-es lakás a 3. emeleten, egy ingatlanként eladó, két önálló lakrészre osztva: mindkettőnek saját bejárata, amerikai konyhás nappalija és fürdőszobája van. Az elsőben egy, a másodikban két hálószoba található, az egyik gardróbbal. Gázfűtés. A lakás havi 1600 €-ért van bérbe adva, rezsivel együtt.",
+    ),
+    districtText: L(
+      "Le Múzeum körút borde le Palotanegyed, le quartier des palais du VIIIᵉ arrondissement, face au Musée national hongrois. Astoria (métro M2) et Kálvin tér (M3, M4) sont à quelques minutes à pied, comme la Grande Halle et les universités du centre, ce qui fait de l'adresse un emplacement recherché par les étudiants et les jeunes actifs.",
+      "Múzeum körút runs along Palotanegyed, the Palace Quarter of the 8th District, opposite the Hungarian National Museum. Astoria (metro M2) and Kálvin tér (M3, M4) are a few minutes' walk away, as are the Great Market Hall and the city-centre universities, which makes the address sought after by students and young professionals.",
+      "Der Múzeum körút grenzt an den Palotanegyed, das Palastviertel des 8. Bezirks, gegenüber dem Ungarischen Nationalmuseum. Astoria (Metro M2) und Kálvin tér (M3, M4) sind wenige Gehminuten entfernt, ebenso die Große Markthalle und die Universitäten der Innenstadt – eine bei Studierenden und jungen Berufstätigen gefragte Lage.",
+      "A Múzeum körút a VIII. kerületi Palotanegyed szélén húzódik, a Magyar Nemzeti Múzeummal szemben. Az Astoria (M2) és a Kálvin tér (M3, M4) néhány perc séta, akárcsak a Központi Vásárcsarnok és a belvárosi egyetemek, ezért a cím keresett a diákok és a fiatal dolgozók körében.",
+    ),
+    cover: "muzeum-01",
+    images: [
+      ["muzeum-01", "living"], ["muzeum-02", "living"], ["muzeum-03", "kitchen"], ["muzeum-04", "living"],
+      ["muzeum-05", "living"], ["muzeum-06", "kitchen"], ["muzeum-07", "bedroom"], ["muzeum-08", "bedroom"],
+      ["muzeum-09", "bath"], ["muzeum-10", "shower"],
+    ],
+    buildingImages: [["muzeum-11", "facade"]],
+    plans: ["muzeum-plan"],
+  },
 ];
 
 // Budapest city photos, hot-linked from Unsplash (free licence, credit shown)
@@ -909,6 +961,7 @@ export const districts = {
     { slug: "district-v-lipotvaros", n: 5, name: { fr: "Vᵉ arrondissement · Lipótváros", en: "5th district · Lipótváros", de: "5. Bezirk · Lipótváros", hu: "V. kerület · Lipótváros" } },
     { slug: "district-vi-terezvaros", n: 6, name: { fr: "VIᵉ arrondissement · Terézváros", en: "6th district · Terézváros", de: "6. Bezirk · Terézváros", hu: "VI. kerület · Terézváros" } },
     { slug: "district-vii-erzsebetvaros", n: 7, name: { fr: "VIIᵉ arrondissement · Erzsébetváros", en: "7th district · Erzsébetváros", de: "7. Bezirk · Erzsébetváros", hu: "VII. kerület · Erzsébetváros" } },
+    { slug: "district-viii-jozsefvaros", n: 8, name: { fr: "VIIIᵉ arrondissement · Józsefváros", en: "8th district · Józsefváros", de: "8. Bezirk · Józsefváros", hu: "VIII. kerület · Józsefváros" } },
   ],
   h1: { fr: "Acheter dans le {d}", en: "Buying in the {d}", de: "Kaufen im {d}", hu: "Vásárlás: {d}" },
   intro: {
