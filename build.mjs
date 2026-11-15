@@ -394,7 +394,7 @@ function rentalsPage(l) {
     const p = projects.find((x) => x.slug === it.slug);
     if (!p) return "";
     const media = p.cover ? img(l, route, p.cover, p.name, "", "(min-width: 900px) 45vw, 100vw") : "";
-    const head = `<p class="eyebrow">${p.district[l]}</p><h2>${p.name}</h2><p class="muted">${(it.kind === "whole" ? rentals.whole : rentals.rooms)[l]} · ${p.facts.slice(0, 3).map((f) => f[l]).join(" · ")}</p>`;
+    const head = `<p class="eyebrow">${p.district[l]}</p><h2>${p.name}</h2><p class="muted">${(it.label ? rentals[it.label] : it.kind === "whole" ? rentals.whole : rentals.rooms)[l]} · ${p.facts.slice(0, 3).map((f) => f[l]).join(" · ")}</p>`;
     const links = `<div class="rent-a"><a class="btn" href="${R("contact/")}?p=${encodeURIComponent(p.name + " — " + rentals.title.en)}" data-ev="visit">${rentals.ask[l]}</a><a class="btn btn-o" href="${R(`rentals/${p.slug}/`)}">${rentals.details[l]}</a>${existsSync(`src/assets/brochures/${p.slug}-rent-${l}.pdf`) ? `<a class="btn btn-o" href="${asset(l, route, `assets/brochures/${p.slug}-rent-${l}.pdf`)}" download data-ev="brochure">PDF</a>` : ""}</div>`;
     let body = "";
     if (it.kind === "whole") {
@@ -470,7 +470,7 @@ function projectPage(p, l, rent = null) {
   ${p.cover ? img(l, route, p.cover, p.name, "phero-img", "100vw", true) : `<div class="phero-img phero-none"></div>`}
   <div class="hero-fade"></div>
   <div class="wrap phero-in">
-    <p class="eyebrow">${p.district[l]} · ${rent ? (rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l]} · ${rent ? t.navRentals[l] : t.forSale[l]}</p>
+    <p class="eyebrow">${p.district[l]} · ${rent ? (rent.label ? rentals[rent.label] : rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l]} · ${rent ? t.navRentals[l] : t.forSale[l]}</p>
     <h1>${p.name}</h1>
     <p class="lead">${p.address}</p>
   </div>
@@ -478,7 +478,7 @@ function projectPage(p, l, rent = null) {
 <section class="sec wrap">
   <div class="pgrid">
     <div>
-      <p class="eyebrow">${t.theApartment[l]}</p>
+      <p class="eyebrow">${(p.ldType === "House" ? rentals.theHouse : t.theApartment)[l]}</p>
       <p class="lead2">${(rent?.desc || p.desc)[l]}</p>
       <h2 class="h4">${t.keyFacts[l]}</h2>
       <ul class="chips">${p.facts.map((f) => `<li>${f[l]}</li>`).join("")}</ul>
@@ -511,10 +511,10 @@ ${p.streetView ? `<section class="sec wrap">
   <h2 class="h3">${t.facade[l]}</h2>
   <iframe class="sv" src="${esc(p.streetView)}" title="${esc(t.facade[l] + " — " + p.name)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
 </section>` : ""}
-<section class="sec wrap">
+${p.lat ? `<section class="sec wrap">
   <h2 class="h3">${t.location[l]}</h2>
   ${mapBlock([p], l, "map", 380)}
-</section>
+</section>` : ""}
 ${rent ? "" : `<section class="sec wrap">
   <h2 class="h3">${t.otherProjects[l]}</h2>
   <div class="grid3">${others.map((o) => card(o, l, route)).join("")}</div>
@@ -529,10 +529,10 @@ ${rent ? "" : `<section class="sec wrap">
     "@type": "Offer", "@id": abs(l, route) + "#offer", url: abs(l, route), name: p.name, description: p.short[l],
     price: huf ?? p.price, priceCurrency: huf ? "HUF" : "EUR",
     availability: "https://schema.org/InStock", seller: { "@id": ORG_ID },
-    itemOffered: { "@type": "Apartment", name: `${p.name}, Budapest ${districtOf(p)}`.trim(), description: p.desc[l],
+    itemOffered: { "@type": p.ldType || "Apartment", name: `${p.name}, Budapest ${districtOf(p)}`.trim(), description: p.desc[l],
       ...(m2 ? { floorSize: { "@type": "QuantitativeValue", value: m2, unitCode: "MTK" } } : {}),
       address: { "@type": "PostalAddress", streetAddress: p.address.split(",")[0], addressLocality: "Budapest", postalCode: p.address.match(/\d{4}/)?.[0], addressCountry: "HU" },
-      geo: { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng },
+      ...(p.lat ? { geo: { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng } } : {}),
       ...(photos.length ? { image: photos.map((n) => `https://${SITE.domain}/img/${n}.jpg`) } : {}) },
   };
   const d = districtOf(p);
@@ -965,7 +965,7 @@ const urls = [];
 const routes = new Set();
 for (const l of LANGS) {
   const pages = [["", home(l)], ["projects/", projectsPage(l)], ["rentals/", rentalsPage(l)], ["about/", about(l)], ["contact/", contact(l)], ["legal/", legalPage(l)], ["resources/", resourcesPage(l)], ["pilot/", pilotPage(l)], ...(REFS.length ? [["references/", referencesPage(l)]] : []),
-    ...projects.map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
+    ...projects.filter((p) => p.status !== "rent-only").map((p) => [`projects/${p.slug}/`, projectPage(p, l)]),
     ...rentals.items.map((it) => [it, projects.find((x) => x.slug === it.slug)]).filter(([, p]) => p).map(([it, p]) => [`rentals/${p.slug}/`, projectPage(p, l, it)]),
     ...RES_ITEMS.filter(resReady).map((it) => [`resources/${it.slug}/`, resourcePage(it, l)]),
     ...districts.items.map((d) => [`districts/${d.slug}/`, districtPage(d, l)]),

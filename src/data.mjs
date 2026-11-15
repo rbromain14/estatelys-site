@@ -343,6 +343,10 @@ export const cap = {
   wc: { fr: "WC", en: "WC", de: "WC", hu: "WC" },
   hallway: { fr: "Entrée", en: "Entrance hall", de: "Eingangsbereich", hu: "Előszoba" },
   lift: { fr: "Ascenseur", en: "Lift", de: "Aufzug", hu: "Lift" },
+  terrace: { fr: "Terrasse", en: "Terrace", de: "Terrasse", hu: "Terasz" },
+  garden: { fr: "Jardin", en: "Garden", de: "Garten", hu: "Kert" },
+  laundry: { fr: "Buanderie", en: "Laundry room", de: "Waschraum", hu: "Mosókonyha" },
+  pantry: { fr: "Cellier", en: "Pantry", de: "Speisekammer", hu: "Kamra" },
 };
 
 const L = (fr, en, de, hu) => ({ fr, en, de, hu });
@@ -622,6 +626,57 @@ export const projects = [
     buildingImages: [["muzeum-11", "facade"]],
     plans: ["muzeum-plan"],
   },
+  {
+    // Cirbolya utca house (Romain, 15 Nov 2026 17:43): rental only, not for sale. Facts from the owner's flyer "House Buda ENGLISH nov 2026" sent by Romain;
+    // photos sent by Romain (photo with a reflection of a person left out). Street number not given; no map pin (exact position not known), postcode 1025 (OpenStreetMap).
+    slug: "cirbolya-utca",
+    status: "rent-only", // listed under Rentals only: no sale page, not counted as for sale
+    ldType: "House",
+    name: "Cirbolya utca",
+    address: "Cirbolya utca, 1025 Budapest",
+    district: L("IIᵉ arrondissement · Hármashatárhegy", "2nd district · Hármashatárhegy", "2. Bezirk · Hármashatárhegy", "II. kerület · Hármashatárhegy"),
+    type: L("Maison familiale", "Family house", "Einfamilienhaus", "Családi ház"),
+    facts: [
+      L("183 m² habitables", "183 m² living area", "183 m² Wohnfläche", "183 m² lakótér"),
+      L("Maison jumelée", "Semi-detached house", "Doppelhaushälfte", "Ikerház"),
+      L("3 chambres avec salle de bains", "3 bedrooms, each with a bathroom", "3 Schlafzimmer mit eigenem Bad", "3 hálószoba saját fürdővel"),
+      L("Terrasses 40 m²", "Terraces 40 m²", "Terrassen 40 m²", "Teraszok 40 m²"),
+      L("Jardin", "Garden", "Garten", "Kert"),
+    ],
+    features: [
+      { t: L("Cuisine séparée, salle à manger et grand séjour avec cheminée", "Separate kitchen, dining room and large living room with fireplace", "Separate Küche, Esszimmer und großes Wohnzimmer mit Kamin", "Külön konyha, étkező és nagy nappali kandallóval") },
+      { t: L("WC invités, cellier, dressing et nombreux rangements", "Guest toilet, pantry, walk-in closet and plenty of storage", "Gäste-WC, Speisekammer, begehbarer Kleiderschrank und viel Stauraum", "Vendég-WC, kamra, gardrób és sok tárolóhely") },
+      { t: L("Jardin entretenu et 40 m² de terrasses", "Well-kept garden and 40 m² of terraces", "Gepflegter Garten und 40 m² Terrassen", "Gondozott kert és 40 m² terasz") },
+      { t: L("Partiellement meublée, disponible immédiatement", "Partly furnished, available now", "Teilmöbliert, ab sofort verfügbar", "Részben bútorozott, azonnal beköltözhető") },
+    ],
+    short: L(
+      "Maison familiale à louer à Hármashatárhegy (IIᵉ) : 183 m², 3 chambres avec salle de bains, jardin et 40 m² de terrasses, 2 500 € par mois hors charges.",
+      "Family house for rent in Hármashatárhegy (2nd district): 183 m², 3 bedrooms each with a bathroom, garden and 40 m² of terraces, €2,500 per month excl. charges.",
+      "Einfamilienhaus zur Miete in Hármashatárhegy (2. Bezirk): 183 m², 3 Schlafzimmer mit eigenem Bad, Garten und 40 m² Terrassen, 2.500 € pro Monat zzgl. Nebenkosten.",
+      "Kiadó családi ház Hármashatárhegyen (II. kerület): 183 m², 3 hálószoba saját fürdővel, kert és 40 m² terasz, havi 2 500 € + rezsi.",
+    ),
+    desc: L(
+      "Une maison jumelée de 183 m² sur la Cirbolya utca, dans le quartier calme et verdoyant de Hármashatárhegy, à 100 m de la réserve naturelle.",
+      "A 183 m² semi-detached house on Cirbolya utca, in the quiet, leafy neighbourhood of Hármashatárhegy, 100 m from the nature reserve.",
+      "Eine 183 m² große Doppelhaushälfte in der Cirbolya utca, im ruhigen, grünen Viertel Hármashatárhegy, 100 m vom Naturschutzgebiet.",
+      "183 m²-es ikerház a Cirbolya utcában, Hármashatárhegy csendes, zöld környékén, 100 méterre a természetvédelmi területtől.",
+    ),
+    districtText: L(
+      "Hármashatárhegy est un quartier résidentiel de collines du IIᵉ arrondissement, côté Buda, entouré de forêt. La maison est à 2 minutes à pied de l'arrêt de bus le plus proche et à environ 10 minutes en voiture du centre de Budapest.",
+      "Hármashatárhegy is a hillside residential area of the 2nd district, on the Buda side, surrounded by woodland. The house is a 2-minute walk from the nearest bus stop and about a 10-minute drive from Budapest city centre.",
+      "Hármashatárhegy ist ein Wohngebiet in Hanglage im 2. Bezirk auf der Budaer Seite, umgeben von Wald. Die nächste Bushaltestelle ist 2 Gehminuten entfernt, das Budapester Zentrum etwa 10 Autominuten.",
+      "Hármashatárhegy a II. kerület budai, erdővel körülvett, dombos lakóövezete. A legközelebbi buszmegálló 2 perc séta, Budapest belvárosa autóval körülbelül 10 perc.",
+    ),
+    cover: "cirbolya-01",
+    images: [
+      ["cirbolya-01", "garden"], ["cirbolya-02", "living"], ["cirbolya-03", "living"], ["cirbolya-04", "hall"],
+      ["cirbolya-05", "kitchen"], ["cirbolya-06", "kitchen"], ["cirbolya-07", "bedroom"], ["cirbolya-08", "bedroom"],
+      ["cirbolya-09", "bedroom"], ["cirbolya-10", "bath"], ["cirbolya-11", "bath"], ["cirbolya-12", "shower"],
+      ["cirbolya-13", "terrace"], ["cirbolya-14", "terrace"], ["cirbolya-15", "garden"], ["cirbolya-16", "garden"],
+      ["cirbolya-17", "garden"], ["cirbolya-18", "laundry"], ["cirbolya-19", "pantry"],
+    ],
+    plans: [],
+  },
 ];
 
 // Budapest city photos, hot-linked from Unsplash (free licence, credit shown)
@@ -824,16 +879,18 @@ export const team = {
 export const rentals = {
   title: { fr: "Location à Budapest", en: "Rentals in Budapest", de: "Mietwohnungen in Budapest", hu: "Kiadó lakások Budapesten" },
   intro: {
-    fr: "Nos appartements rénovés sont aussi proposés à la location : un grand appartement familial et une colocation de quatre chambres.",
-    en: "Our renovated apartments are also available to rent: a large family apartment and a four-bedroom flat share.",
-    de: "Unsere renovierten Wohnungen sind auch zur Miete verfügbar: eine große Familienwohnung und eine WG mit vier Zimmern.",
-    hu: "Felújított lakásaink bérelhetők is: egy nagy családi lakás és egy négyszobás közös bérlemény.",
+    fr: "Nos appartements rénovés sont aussi proposés à la location, un grand appartement familial et une colocation de quatre chambres, ainsi qu'une maison familiale avec jardin à Buda.",
+    en: "Our renovated apartments are also available to rent, a large family apartment and a four-bedroom flat share, along with a family house with a garden in Buda.",
+    de: "Unsere renovierten Wohnungen sind auch zur Miete verfügbar, eine große Familienwohnung und eine WG mit vier Zimmern, dazu ein Einfamilienhaus mit Garten in Buda.",
+    hu: "Felújított lakásaink bérelhetők is: egy nagy családi lakás és egy négyszobás közös bérlemény, valamint egy kertes családi ház Budán.",
   },
   monthly: { fr: "/ mois", en: "/ month", de: "/ Monat", hu: "/ hó" },
   exCharges: { fr: "hors charges", en: "excl. charges", de: "zzgl. Nebenkosten", hu: "+ rezsi" },
   perRoom: { fr: "par chambre et par mois, charges comprises", en: "per room per month, charges included", de: "pro Zimmer und Monat, inkl. Nebenkosten", hu: "szobánként havonta, rezsivel együtt" }, // full rent shown (Romain, 9 Nov 2026 13:36)
   fullRent: { fr: "Loyer charges comprises", en: "Rent incl. charges", de: "Miete inkl. Nebenkosten", hu: "Bérleti díj rezsivel" },
   all: { fr: "Toutes nos locations", en: "All our rentals", de: "Alle Mietobjekte", hu: "Összes kiadó lakás" },
+  theHouse: { fr: "La maison", en: "The house", de: "Das Haus", hu: "A ház" },
+  house: { fr: "Maison entière", en: "Whole house", de: "Ganzes Haus", hu: "Teljes ház" },
   whole: { fr: "Appartement entier", en: "Whole apartment", de: "Ganze Wohnung", hu: "Teljes lakás" },
   rooms: { fr: "Colocation, location par chambre", en: "Flat share, let by the room", de: "WG, zimmerweise vermietet", hu: "Közös bérlemény, szobánként kiadva" },
   room: { fr: "Chambre", en: "Room", de: "Zimmer", hu: "Szoba" },
@@ -857,6 +914,21 @@ export const rentals = {
         "The whole apartment is offered for rent: 104 m² on the 3rd floor of a historic building with a lift, facing South-East. Two bedrooms, each with its own bathroom, one with a walk-in wardrobe; high ceilings and restored mouldings; a heat pump with underfloor heating and cooling ceilings; smart-home controls. Available now, furnished or unfurnished at the same rent. Metro M1 stops at Opera, steps away, and Deák Ferenc tér (M1, M2, M3) is a few minutes' walk. Rent: €3,000 (≈ 1,095,000 Ft) per month excl. charges.",
         "Die ganze Wohnung wird vermietet: 104 m² im 3. Stock eines historischen Hauses mit Aufzug, Südost-Ausrichtung. Zwei Schlafzimmer mit jeweils eigenem Bad, eines mit Ankleide; hohe Decken und restaurierter Stuck; Wärmepumpe mit Fußbodenheizung und Kühldecken; Smart Home. Ab sofort verfügbar, möbliert oder unmöbliert zur gleichen Miete. Die Metro M1 hält an der Oper, wenige Schritte entfernt, der Deák Ferenc tér (M1, M2, M3) ist wenige Gehminuten entfernt. Miete: 3.000 € (ca. 1.095.000 Ft) pro Monat zzgl. Nebenkosten.",
         "A teljes lakás bérelhető: 104 m² a 3. emeleten, egy liftes történelmi bérházban, délkeleti fekvéssel. Két hálószoba, mindkettő saját fürdőszobával, az egyik gardróbbal; magas belmagasság és felújított stukkók; hőszivattyú padlófűtéssel és hűtőmennyezettel; okosotthon. Azonnal beköltözhető, bútorozottan vagy bútor nélkül, azonos bérleti díjjal. Az M1-es metró pár lépésre, az Operánál áll meg, a Deák Ferenc tér (M1, M2, M3) néhány perc séta. Bérleti díj: havi 3 000 € (kb. 1 095 000 Ft) + rezsi.",
+      ),
+    },
+    { slug: "cirbolya-utca", kind: "whole", label: "house", rent: 2500, exCharges: true,
+      // Owner's flyer (Romain, 15 Nov 2026 17:43): "Monthly rent: 2500 euros + charges", partly furnished, available immediately.
+      short: L(
+        "Maison familiale à louer à Hármashatárhegy (IIᵉ) : 183 m², 3 chambres avec salle de bains, jardin et 40 m² de terrasses, 2 500 € (≈ 913 000 Ft) par mois hors charges, disponible immédiatement.",
+        "Family house for rent in Hármashatárhegy (2nd district): 183 m², 3 bedrooms each with a bathroom, garden and 40 m² of terraces, €2,500 (≈ 913,000 Ft) per month excl. charges, available now.",
+        "Einfamilienhaus zur Miete in Hármashatárhegy (2. Bezirk): 183 m², 3 Schlafzimmer mit eigenem Bad, Garten und 40 m² Terrassen, 2.500 € (ca. 913.000 Ft) pro Monat zzgl. Nebenkosten, ab sofort verfügbar.",
+        "Kiadó családi ház Hármashatárhegyen (II. kerület): 183 m², 3 hálószoba saját fürdővel, kert és 40 m² terasz, havi 2 500 € (kb. 913 000 Ft) + rezsi, azonnal beköltözhető.",
+      ),
+      desc: L(
+        "Une maison jumelée de 183 m² sur la Cirbolya utca, dans le quartier calme et verdoyant de Hármashatárhegy, à 100 m de la réserve naturelle. Trois chambres, chacune avec sa salle de bains ; cuisine séparée, salle à manger et grand séjour avec cheminée ; WC invités, cellier, dressing et nombreux rangements. Jardin entretenu et 40 m² de terrasses avec vue sur les collines boisées. Partiellement meublée, disponible immédiatement. Arrêt de bus à 2 minutes à pied, centre-ville à environ 10 minutes en voiture. Loyer : 2 500 € (≈ 913 000 Ft) par mois hors charges.",
+        "A 183 m² semi-detached house on Cirbolya utca, in the quiet, leafy neighbourhood of Hármashatárhegy, 100 m from the nature reserve. Three bedrooms, each with its own bathroom; a separate kitchen, dining room and large living room with fireplace; guest toilet, pantry, walk-in closet and plenty of storage. A well-kept garden and 40 m² of terraces overlooking the wooded hills. Partly furnished, available now. Bus stop a 2-minute walk away, city centre about a 10-minute drive. Rent: €2,500 (≈ 913,000 Ft) per month excl. charges.",
+        "Eine 183 m² große Doppelhaushälfte in der Cirbolya utca, im ruhigen, grünen Viertel Hármashatárhegy, 100 m vom Naturschutzgebiet. Drei Schlafzimmer mit jeweils eigenem Bad; separate Küche, Esszimmer und großes Wohnzimmer mit Kamin; Gäste-WC, Speisekammer, begehbarer Kleiderschrank und viel Stauraum. Gepflegter Garten und 40 m² Terrassen mit Blick auf die bewaldeten Hügel. Teilmöbliert, ab sofort verfügbar. Bushaltestelle 2 Gehminuten entfernt, Stadtzentrum etwa 10 Autominuten. Miete: 2.500 € (ca. 913.000 Ft) pro Monat zzgl. Nebenkosten.",
+        "183 m²-es ikerház a Cirbolya utcában, Hármashatárhegy csendes, zöld környékén, 100 méterre a természetvédelmi területtől. Három hálószoba, mindegyik saját fürdőszobával; külön konyha, étkező és nagy nappali kandallóval; vendég-WC, kamra, gardrób és sok tárolóhely. Gondozott kert és 40 m² terasz kilátással az erdős dombokra. Részben bútorozott, azonnal beköltözhető. A buszmegálló 2 perc séta, a belváros autóval körülbelül 10 perc. Bérleti díj: havi 2 500 € (kb. 913 000 Ft) + rezsi.",
       ),
     },
     { slug: "rakoczi-40", kind: "rooms",

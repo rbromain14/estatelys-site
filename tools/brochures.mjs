@@ -106,7 +106,7 @@ function brochure(p, l, rent = null) {
 <section class="pg cover">
   <img class="ph" src="${img(p.cover)}">
   <img class="logo" src="${asset("logo-white.png")}">
-  <span class="tag">${esc(rent ? (rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l])}</span>
+  <span class="tag">${esc(rent ? (rent.label ? rentals[rent.label] : rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l])}</span>
   <div class="in">
     <p class="eyebrow">${esc(p.district[l])}</p>
     <h1>${esc(p.name)}</h1>
