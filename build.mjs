@@ -3,7 +3,7 @@
 // PREVIEW=1 node build.mjs  -> links end in index.html (for file:// or preview hosting)
 import { readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
-import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync } from "node:fs";
+import { mkdirSync, writeFileSync, cpSync, rmSync, existsSync, readFileSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { SITE, LANGS, LANG_LABEL, LANG_NAME, t, cap, projects, cityPhotos, legal, signature, refsText, resources, seo, team, rentals, partners, blog, districts, pilot } from "./src/data.mjs";
 const RES = existsSync("src/resources") ? Object.fromEntries(readdirSync("src/resources").filter((f) => f.endsWith(".json")).map((f) => { const r = JSON.parse(readFileSync(join("src/resources", f), "utf8")); return [r.item, r]; })) : {};
@@ -114,7 +114,7 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
     ],
   };
   const seoHead = noindex ? `<meta name="robots" content="noindex">` : `<link rel="canonical" href="${abs(l, route)}">
-${alt}`;
+${alt}${BLOG.length ? `\n<link rel="alternate" type="application/rss+xml" title="${esc(blog.title[l])} — ${SITE.name}" href="${abs(l, "blog/feed.xml")}">` : ""}`;
   const fontsHref = /^https?:/.test(THEME.fonts) ? THEME.fonts : A(THEME.fonts);
   const fontsHead = /^https?:/.test(THEME.fonts)
     ? `<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<link rel="stylesheet" href="${fontsHref}">`
@@ -778,6 +778,7 @@ function blogPage(l) {
   <p class="eyebrow">${t.navBlog[l]}</p>
   <h1>${blog.title[l]}</h1>
   <p class="lead muted">${blog.intro[l]}</p>
+  <p class="small"><a href="${R("blog/feed.xml").replace(/index\.html$/, "")}" type="application/rss+xml">RSS</a></p>
 </div></section>
 <section class="sec wrap">
   <div class="blog-g">${BLOG.map((a) => `<article class="bcard">
@@ -971,6 +972,31 @@ for (const l of LANGS) {
     ...districts.items.map((d) => [`districts/${d.slug}/`, districtPage(d, l)]),
     ...(BLOG.length ? [["blog/", blogPage(l)], ...BLOG.map((a) => [`blog/${a.slug}/`, blogArticle(a, l)])] : [])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); routes.add(route); }
+}
+// RSS 2.0 feed of the blog, one per language: /blog/feed.xml (FR), /en/blog/feed.xml, /de/…, /hu/… (Romain 16 Nov 2026, Marketing)
+const RFC822 = (d) => new Date(`${d}T08:00:00Z`).toUTCString();
+if (BLOG.length) for (const l of LANGS) {
+  const items = BLOG.map((a) => `  <item>
+    <title>${esc(a.title[l])}</title>
+    <link>${abs(l, `blog/${a.slug}/`)}</link>
+    <guid isPermaLink="true">${abs(l, `blog/${a.slug}/`)}</guid>
+    <pubDate>${RFC822(a.date)}</pubDate>
+    <description>${esc(a.summary[l])}</description>
+    ${a.cover ? `<enclosure url="https://${SITE.domain}/img/${a.cover}.jpg" length="${statSync(join("src/img", `${a.cover}.jpg`), { throwIfNoEntry: false })?.size || 0}" type="image/jpeg"/>` : ""}
+  </item>`).join("\n");
+  writeFileSync(join(OUT, langBase(l), "blog", "feed.xml"), `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>${esc(blog.title[l])} — ${esc(SITE.name)}</title>
+  <link>${abs(l, "blog/")}</link>
+  <atom:link href="${abs(l, "blog/feed.xml")}" rel="self" type="application/rss+xml"/>
+  <description>${esc(blog.intro[l])}</description>
+  <language>${l}</language>
+  <lastBuildDate>${RFC822(BLOG.map((a) => a.updated || a.date).sort().pop())}</lastBuildDate>
+${items}
+</channel>
+</rss>
+`);
 }
 write(join(OUT, "404.html"), notFound());
 writeFileSync(join(OUT, "CNAME"), SITE.domain + "\n");
