@@ -68,6 +68,7 @@ const SEO_INDEXNOW_KEY = "1e40a2d42ad17b32a0814fa174ea9ca9"; // public by design
 // (src/img/hero-basilica-640/960/1280/1600/2400 .jpg + .webp, stored in grayscale). Share image = 1200×630 crop of the same photo.
 const SHARE_IMG = `https://${SITE.domain}/img/share-basilica.jpg`;
 const WEB_ID = `https://${SITE.domain}/#website`;
+const FEED_URL = `https://${SITE.domain}/feed.xml`; // single blog RSS feed (English)
 const seatParts = SITE.seat.match(/^(\d{4})\s+([^,]+),\s*(.+)$/);
 const ORG = {
   "@type": "RealEstateAgent", "@id": ORG_ID, name: SITE.name, alternateName: "Estatelys", legalName: SITE.company,
@@ -114,7 +115,7 @@ function layout({ l, route, title, desc, body, image, extraHead = "", bodyClass 
     ],
   };
   const seoHead = noindex ? `<meta name="robots" content="noindex">` : `<link rel="canonical" href="${abs(l, route)}">
-${alt}${BLOG.length ? `\n<link rel="alternate" type="application/rss+xml" title="${esc(blog.title[l])} — ${SITE.name}" href="${abs(l, "blog/feed.xml")}">` : ""}`;
+${alt}${BLOG.length ? `\n<link rel="alternate" type="application/rss+xml" title="${esc(blog.title.en)} — ${SITE.name}" href="${FEED_URL}">` : ""}`;
   const fontsHref = /^https?:/.test(THEME.fonts) ? THEME.fonts : A(THEME.fonts);
   const fontsHead = /^https?:/.test(THEME.fonts)
     ? `<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<link rel="stylesheet" href="${fontsHref}">`
@@ -778,7 +779,7 @@ function blogPage(l) {
   <p class="eyebrow">${t.navBlog[l]}</p>
   <h1>${blog.title[l]}</h1>
   <p class="lead muted">${blog.intro[l]}</p>
-  <p class="small"><a href="${R("blog/feed.xml").replace(/index\.html$/, "")}" type="application/rss+xml">RSS</a></p>
+  <p class="small"><a href="${FEED_URL}" type="application/rss+xml">RSS</a></p>
 </div></section>
 <section class="sec wrap">
   <div class="blog-g">${BLOG.map((a) => `<article class="bcard">
@@ -973,9 +974,10 @@ for (const l of LANGS) {
     ...(BLOG.length ? [["blog/", blogPage(l)], ...BLOG.map((a) => [`blog/${a.slug}/`, blogArticle(a, l)])] : [])];
   for (const [route, html] of pages) { write(fileFor(l, route), html); urls.push(abs(l, route)); routes.add(route); }
 }
-// RSS 2.0 feed of the blog, one per language: /blog/feed.xml (FR), /en/blog/feed.xml, /de/…, /hu/… (Romain 16 Nov 2026, Marketing)
+// RSS 2.0 feed of the blog: ONE feed, in English, at /feed.xml (for Metricool auto-posting; Romain 16 Nov 2026, Marketing)
 const RFC822 = (d) => new Date(`${d}T08:00:00Z`).toUTCString();
-if (BLOG.length) for (const l of LANGS) {
+if (BLOG.length) {
+  const l = "en";
   const items = BLOG.map((a) => `  <item>
     <title>${esc(a.title[l])}</title>
     <link>${abs(l, `blog/${a.slug}/`)}</link>
@@ -984,12 +986,12 @@ if (BLOG.length) for (const l of LANGS) {
     <description>${esc(a.summary[l])}</description>
     ${a.cover ? `<enclosure url="https://${SITE.domain}/img/${a.cover}.jpg" length="${statSync(join("src/img", `${a.cover}.jpg`), { throwIfNoEntry: false })?.size || 0}" type="image/jpeg"/>` : ""}
   </item>`).join("\n");
-  writeFileSync(join(OUT, langBase(l), "blog", "feed.xml"), `<?xml version="1.0" encoding="UTF-8"?>
+  writeFileSync(join(OUT, "feed.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>${esc(blog.title[l])} — ${esc(SITE.name)}</title>
   <link>${abs(l, "blog/")}</link>
-  <atom:link href="${abs(l, "blog/feed.xml")}" rel="self" type="application/rss+xml"/>
+  <atom:link href="${FEED_URL}" rel="self" type="application/rss+xml"/>
   <description>${esc(blog.intro[l])}</description>
   <language>${l}</language>
   <lastBuildDate>${RFC822(BLOG.map((a) => a.updated || a.date).sort().pop())}</lastBuildDate>
