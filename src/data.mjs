@@ -125,11 +125,11 @@ export const t = {
   },
   // Home meta description (Google snippet). SEO audit v1, 26 Oct 2026.
   metaDesc: {
-    // Only V, VI, VII have apartments for sale; the 7 districts are renovation experience (Codex review PR #2; Romain 5 Nov 2026 17:17)
-    fr: "Appartements rénovés à vendre dans les Vᵉ, VIᵉ et VIIᵉ arrondissements de Budapest, par une équipe qui a rénové dans les I, II, V, VI, VII, VIII et XIII.",
-    en: "Renovated apartments for sale in Budapest's districts V, VI and VII, by a team that has renovated homes in districts I, II, V, VI, VII, VIII and XIII.",
-    de: "Renovierte Wohnungen zum Kauf in Budapests Bezirken V, VI und VII, von einem Team mit Renovierungen in den Bezirken I, II, V, VI, VII, VIII und XIII.",
-    hu: "Felújított eladó lakások Budapest V., VI. és VII. kerületében, egy csapattól, amely az I., II., V., VI., VII., VIII. és XIII. kerületben is felújított.",
+    // Districts with apartments for sale: V, VI, VII and VIII since Múzeum körút 10 (D42); the 7 districts are renovation experience (Romain 5 Nov 2026 17:17; VIII added on Romain's written OK, Cockpit C7, 16 Nov 2026 10:46)
+    fr: "Appartements rénovés à vendre dans les Vᵉ, VIᵉ, VIIᵉ et VIIIᵉ arrondissements de Budapest, par une équipe qui a rénové dans les I, II, V, VI, VII, VIII et XIII.",
+    en: "Renovated apartments for sale in Budapest's districts V, VI, VII and VIII, by a team that has renovated homes in districts I, II, V, VI, VII, VIII and XIII.",
+    de: "Renovierte Wohnungen zum Kauf in Budapests Bezirken V, VI, VII und VIII, von einem Team mit Renovierungen in den Bezirken I, II, V, VI, VII, VIII und XIII.",
+    hu: "Felújított eladó lakások Budapest V., VI., VII. és VIII. kerületében, egy csapattól, amely az I., II., V., VI., VII., VIII. és XIII. kerületben is felújított.",
   },
   heroAlt: { fr: "La basilique Saint-Étienne de Budapest entre deux rangées d'immeubles anciens, en noir et blanc", en: "St Stephen's Basilica in Budapest between two rows of historic apartment buildings, in black and white", de: "Die St.-Stephans-Basilika in Budapest zwischen zwei Reihen historischer Wohnhäuser, in Schwarzweiß", hu: "A budapesti Szent István-bazilika két sor régi bérház között, fekete-fehérben" },
   heroEyebrow: { fr: "Budapest · Immobilier de caractère", en: "Budapest · Character real estate", de: "Budapest · Charakterimmobilien", hu: "Budapest · Karakteres ingatlanok" },
