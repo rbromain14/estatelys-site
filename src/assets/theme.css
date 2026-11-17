@@ -283,3 +283,7 @@ a.soc-b:hover{background:var(--tx);color:var(--bg)}
 /* contact form: honeypot and confirmation */
 .form .hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
 .form-ok{padding:28px;border:1px solid var(--line,#ddd);border-left:4px solid #c8a97e;background:rgba(200,169,126,.08);font-size:1.05rem}
+
+.tag-uo{top:auto;bottom:14px;background:#7a1f1f;color:#fff}
+.uo{color:#e7c9a0;font-weight:600}
+.uo-box{display:inline-block;background:#7a1f1f;color:#fff;font-weight:600;padding:6px 10px;margin:0 0 10px}

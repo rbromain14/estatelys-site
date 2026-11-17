@@ -271,11 +271,12 @@ function noPhoto(p, l, cls = "") {
   return `<div class="nophoto ${cls}" role="img" aria-label="${esc(p.name)}"><span class="np-n">${esc(p.name)}</span><span class="np-t">${t.photosOnRequest[l]}</span></div>`;
 }
 
+const UO = { fr: "Sous compromis", en: "Under offer", de: "Reserviert", hu: "Foglalózva" };
 function card(p, l, route) {
   const href = rel(l, route, l, `projects/${p.slug}/`);
   const media = p.cover ? img(l, route, p.cover, p.name, "", "(min-width: 900px) 45vw, 100vw") : noPhoto(p, l);
   return `<a class="card" href="${href}">
-  <div class="card-m">${media}<span class="tag">${p.type[l]}</span></div>
+  <div class="card-m">${media}<span class="tag">${p.type[l]}</span>${p.underOffer ? `<span class="tag tag-uo">${UO[l]}</span>` : ""}</div>
   <div class="card-b">
     <p class="eyebrow">${p.district[l]}</p>
     <h3>${p.name}</h3>
@@ -471,7 +472,7 @@ function projectPage(p, l, rent = null) {
   ${p.cover ? img(l, route, p.cover, p.name, "phero-img", "100vw", true) : `<div class="phero-img phero-none"></div>`}
   <div class="hero-fade"></div>
   <div class="wrap phero-in">
-    <p class="eyebrow">${p.district[l]} · ${rent ? (rent.label ? rentals[rent.label] : rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l]} · ${rent ? t.navRentals[l] : t.forSale[l]}</p>
+    <p class="eyebrow">${p.district[l]} · ${rent ? (rent.label ? rentals[rent.label] : rent.kind === "whole" ? rentals.whole : rentals.rooms)[l] : p.type[l]} · ${rent ? t.navRentals[l] : t.forSale[l]}${!rent && p.underOffer ? ` · <b class="uo">${UO[l]}</b>` : ""}</p>
     <h1>${p.name}</h1>
     <p class="lead">${p.address}</p>
   </div>
@@ -494,6 +495,7 @@ function projectPage(p, l, rent = null) {
       ${existsSync(`src/assets/brochures/${p.slug}-rent-${l}.pdf`) ? `<a class="btn btn-o wfull" href="${asset(l, route, `assets/brochures/${p.slug}-rent-${l}.pdf`)}" download data-ev="brochure">${t.brochureDl[l]}</a>` : ""}
       <a class="btn btn-o wfull" href="${R("rentals/")}">${rentals.all[l]}</a>
     </aside>` : `<aside class="pbox">
+      ${p.underOffer ? `<p class="uo-box">${UO[l]}</p>` : ""}
       <p class="eyebrow">${t.price[l]}</p>
       <p class="pbig">${priceDuo(p, l)}</p>
       ${!p.rent && p.priceM2 ? `<p class="muted">${p.priceM2} / m²</p>` : ""}
