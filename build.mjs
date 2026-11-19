@@ -125,7 +125,7 @@ ${alt}${BLOG.length ? `\n<link rel="alternate" type="application/rss+xml" title=
 <head>
 <meta charset="utf-8">
 <meta name="msvalidate.01" content="0BD99446D69509A07A6743A18EE2944B">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">${l === "fr" && route === "" && !noindex ? "\n<!-- site-app test C45 -->" : ""}
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 ${seoHead}
