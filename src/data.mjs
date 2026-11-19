@@ -585,8 +585,9 @@ export const projects = [
     district: L("VIIIᵉ arrondissement · Palotanegyed", "8th district · Palotanegyed", "8. Bezirk · Palotanegyed", "VIII. kerület · Palotanegyed"),
     type: L("Investissement locatif", "Rental investment", "Mietinvestment", "Bérleti befektetés"),
     price: 307100, priceFromHuf: true, priceHuf: L("112,1 M Ft", "112.1 M Ft", "112,1 Mio. Ft", "112,1 M Ft"), priceM2: "≈ 3 530 €", // 112 100 000 Ft ÷ 365 = €307,123; ÷ 87 m²
-    rent: 1600, rentDetail: L("charges comprises ; vendu loué", "charges included; sold with the tenancy", "inkl. Nebenkosten; vermietet verkauft", "rezsivel együtt; bérlővel együtt eladó"),
-    yield: 6.3, // 1 600 × 12 ÷ 307 123 = 6.25 %, on the rent incl. charges (rent excl. charges not given)
+    // Yield on rent excl. charges, D29 method (Romain, Cockpit C35, 17 Nov 2026: "calcule loyer hors charge", "charge 200"; request RB-1): 1 600 € incl. charges − 200 € charges = 1 400 €
+    rent: 1400, rentDetail: L("hors charges ; 1 600 € charges comprises ; vendu loué", "excl. charges; €1,600 incl. charges; sold with the tenancy", "ohne Nebenkosten; 1.600 € inkl. Nebenkosten; vermietet verkauft", "rezsi nélkül; 1 600 € rezsivel; bérlővel együtt eladó"),
+    yield: 5.5, // 1 400 × 12 ÷ 307 123 = 5.47 %
     facts: [
       L("87 m²", "87 m²", "87 m²", "87 m²"),
       L("1 lot, 2 logements avec entrée séparée", "One lot, 2 units with separate entrances", "Eine Einheit, 2 Wohnungen mit getrennten Eingängen", "Egy ingatlan, 2 lakrész külön bejárattal"),
