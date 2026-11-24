@@ -1058,12 +1058,12 @@ export const pilot = {
   h1: { fr: "Estatelys Pilot, l'outil qui pilote nos projets et nos locations", en: "Estatelys Pilot, the tool that runs our projects and rentals", de: "Estatelys Pilot, das Werkzeug hinter unseren Projekten und Vermietungen", hu: "Estatelys Pilot, a projektjeinket és bérbeadásainkat vezérlő eszköz" },
   homeTitle: { fr: "Gérez vos projets et vos locations avec Estatelys Pilot", en: "Run your projects and rentals with Estatelys Pilot", de: "Verwalten Sie Projekte und Vermietungen mit Estatelys Pilot", hu: "Kezelje projektjeit és bérbeadásait az Estatelys Pilottal" },
   homeText: {
-    fr: "La plateforme qui fait tourner Estatelys : simulation de marge, investisseurs, coûts et gestion locative au même endroit. Tarif sur demande.",
-    en: "The platform that runs Estatelys: margin simulation, investors, costs and rental management in one place. Price on request.",
-    de: "Die Plattform hinter Estatelys: Margensimulation, Investoren, Kosten und Mietverwaltung an einem Ort. Preis auf Anfrage.",
-    hu: "Az Estatelys platformja: árrés-szimuláció, befektetők, költségek és bérbeadás-kezelés egy helyen. Ár egyedi ajánlat alapján.",
+    fr: "La plateforme qui fait tourner Estatelys : simulation de marge, investisseurs, coûts et gestion locative au même endroit. Gratuit : 0 €. Privé : 14,90 € par mois ou 143 € par an.",
+    en: "The platform that runs Estatelys: margin simulation, investors, costs and rental management in one place. Free: €0. Private: €14.90 per month or €143 per year.",
+    de: "Die Plattform hinter Estatelys: Margensimulation, Investoren, Kosten und Mietverwaltung an einem Ort. Kostenlos: 0 €. Privat: 14,90 € pro Monat oder 143 € pro Jahr.",
+    hu: "Az Estatelys platformja: árrés-szimuláció, befektetők, költségek és bérbeadás-kezelés egy helyen. Ingyenes: 0 €. Privát: havi 14,90 € vagy évi 143 €.",
   },
-  priceNote: { fr: "Tarif sur demande.", en: "Price on request.", de: "Preis auf Anfrage.", hu: "Ár egyedi ajánlat alapján." },
+  priceNote: { fr: "Gratuit : 0 €. Privé : 14,90 € par mois ou 143 € par an.", en: "Free: €0. Private: €14.90 per month or €143 per year.", de: "Kostenlos: 0 €. Privat: 14,90 € pro Monat oder 143 € pro Jahr.", hu: "Ingyenes: 0 €. Privát: havi 14,90 € vagy évi 143 €." },
   learnMore: { fr: "En savoir plus", en: "Learn more", de: "Mehr erfahren", hu: "Tudjon meg többet" },
   lead: {
     fr: "Pilot est la plateforme que nous avons conçue pour gérer nos projets et nos locations à Budapest : simulation financière, investisseurs, coûts et suivi des biens loués au même endroit. Nous l'ouvrons aujourd'hui à d'autres bailleurs et investisseurs.",
@@ -1112,9 +1112,9 @@ export const pilot = {
   },
   ctaTitle: { fr: "Envie d'utiliser Pilot ?", en: "Want to use Pilot?", de: "Pilot nutzen?", hu: "Szeretné használni a Pilotot?" },
   ctaText: {
-    fr: "Demandez une démonstration sur un projet aux chiffres fictifs. Tarif sur demande. Si vous avez déjà un compte, connectez-vous ci-dessous.",
-    en: "Request a demo on a sample project with fictitious figures. Price on request. If you already have an account, log in below.",
-    de: "Fordern Sie eine Demo an einem Beispielprojekt mit fiktiven Zahlen an. Preis auf Anfrage. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
-    hu: "Kérjen bemutatót egy fiktív számokkal készült mintaprojekten. Ár egyedi ajánlat alapján. Ha már van fiókja, jelentkezzen be lent.",
+    fr: "Demandez une démonstration sur un projet aux chiffres fictifs. Gratuit : 0 €. Privé : 14,90 € par mois ou 143 € par an. Si vous avez déjà un compte, connectez-vous ci-dessous.",
+    en: "Request a demo on a sample project with fictitious figures. Free: €0. Private: €14.90 per month or €143 per year. If you already have an account, log in below.",
+    de: "Fordern Sie eine Demo an einem Beispielprojekt mit fiktiven Zahlen an. Kostenlos: 0 €. Privat: 14,90 € pro Monat oder 143 € pro Jahr. Wenn Sie bereits ein Konto haben, melden Sie sich unten an.",
+    hu: "Kérjen bemutatót egy fiktív számokkal készült mintaprojekten. Ingyenes: 0 €. Privát: havi 14,90 € vagy évi 143 €. Ha már van fiókja, jelentkezzen be lent.",
   },
 };

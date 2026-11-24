@@ -85,10 +85,10 @@
     {
       "h": { "fr": "Demander une démo", "en": "Request a demo", "de": "Demo anfragen", "hu": "Bemutató kérése" },
       "body": {
-        "fr": "Écrivez-nous par e-mail ou sur Messenger : nous vous présentons Estatelys Pilot sur un projet de démonstration aux chiffres fictifs. Tarif sur demande.",
-        "en": "Write to us by email or on Messenger and we will show you Estatelys Pilot on a demo project with fictitious figures. Price on request.",
-        "de": "Schreiben Sie uns per E-Mail oder über Messenger: Wir zeigen Ihnen Estatelys Pilot an einem Demoprojekt mit fiktiven Zahlen. Preis auf Anfrage.",
-        "hu": "Írjon nekünk e-mailben vagy Messengeren, és egy fiktív számokkal készült mintaprojekten bemutatjuk az Estatelys Pilotot. Ár egyedi ajánlat alapján."
+        "fr": "Écrivez-nous par e-mail ou sur Messenger : nous vous présentons Estatelys Pilot sur un projet de démonstration aux chiffres fictifs. Gratuit : 0 €. Privé : 14,90 € par mois ou 143 € par an.",
+        "en": "Write to us by email or on Messenger and we will show you Estatelys Pilot on a demo project with fictitious figures. Free: €0. Private: €14.90 per month or €143 per year.",
+        "de": "Schreiben Sie uns per E-Mail oder über Messenger: Wir zeigen Ihnen Estatelys Pilot an einem Demoprojekt mit fiktiven Zahlen. Kostenlos: 0 €. Privat: 14,90 € pro Monat oder 143 € pro Jahr.",
+        "hu": "Írjon nekünk e-mailben vagy Messengeren, és egy fiktív számokkal készült mintaprojekten bemutatjuk az Estatelys Pilotot. Ingyenes: 0 €. Privát: havi 14,90 € vagy évi 143 €."
       }
     }
   ],
