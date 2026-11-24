@@ -415,7 +415,6 @@ export const projects = [
   },
   {
     slug: "paulay-ede-18",
-    underOffer: true, // letter of intent signed 17 Nov 2026 (Romain, Cockpit C33): badge "Under offer", everything else unchanged until final signature
     status: "for-sale", // set to "sold" to remove it from the listing and the counter
     name: "Paulay Ede 18",
     address: "Paulay Ede utca 18, 1061 Budapest",
