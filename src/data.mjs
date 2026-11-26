@@ -415,7 +415,8 @@ export const projects = [
   },
   {
     slug: "paulay-ede-18",
-    status: "for-sale", // set to "sold" to remove it from the listing and the counter
+    soldBadge: true, // Romain, Cockpit C54 (26 Nov 2026 08:11): "finalement vendu normalement", no longer for rent; sale page shows "Vendu / Sold / Verkauft / Eladva"
+    status: "sold", // removed from the listing and the counter (SA-4)
     name: "Paulay Ede 18",
     address: "Paulay Ede utca 18, 1061 Budapest",
     lat: 47.4997, lng: 19.0577,
@@ -902,21 +903,6 @@ export const rentals = {
   ask: { fr: "Demander une visite", en: "Request a viewing", de: "Besichtigung anfragen", hu: "Megtekintést kérek" },
   details: { fr: "Voir le bien", en: "See the property", de: "Objekt ansehen", hu: "Az ingatlan adatai" },
   items: [
-    { slug: "paulay-ede-18", kind: "whole", rent: 3000, exCharges: true,
-      // Rental texts (separate from the sale texts; Romain, 3 Nov 2026 19:06). Facts only, from the property data.
-      short: L(
-        "À louer près de l'Opéra : appartement entier de 104 m², 2 chambres avec salle de bains, 3 000 € (≈ 1 095 000 Ft) par mois hors charges, disponible immédiatement.",
-        "For rent near the Opera: whole 104 m² apartment, 2 bedrooms each with its own bathroom, €3,000 (≈ 1,095,000 Ft) per month excl. charges, available now.",
-        "Zur Miete nahe der Oper: ganze Wohnung mit 104 m², 2 Schlafzimmer mit eigenem Bad, 3.000 € (ca. 1.095.000 Ft) pro Monat zzgl. Nebenkosten, ab sofort verfügbar.",
-        "Kiadó az Opera közelében: teljes, 104 m²-es lakás, 2 hálószoba saját fürdőszobával, havi 3 000 € (kb. 1 095 000 Ft) + rezsi, azonnal beköltözhető.",
-      ),
-      desc: L(
-        "L'appartement entier est proposé à la location : 104 m² au 3ᵉ étage d'un immeuble historique avec ascenseur, orienté sud-est. Deux chambres avec chacune sa salle de bains, dont une avec dressing ; hauts plafonds et moulures restaurées ; pompe à chaleur avec plancher chauffant et plafonds rafraîchissants ; domotique. Disponible immédiatement, meublé ou non meublé au même loyer. Le métro M1 s'arrête à Opera, à deux pas, et la place Deák Ferenc (M1, M2, M3) est à quelques minutes à pied. Loyer : 3 000 € (≈ 1 095 000 Ft) par mois hors charges.",
-        "The whole apartment is offered for rent: 104 m² on the 3rd floor of a historic building with a lift, facing South-East. Two bedrooms, each with its own bathroom, one with a walk-in wardrobe; high ceilings and restored mouldings; a heat pump with underfloor heating and cooling ceilings; smart-home controls. Available now, furnished or unfurnished at the same rent. Metro M1 stops at Opera, steps away, and Deák Ferenc tér (M1, M2, M3) is a few minutes' walk. Rent: €3,000 (≈ 1,095,000 Ft) per month excl. charges.",
-        "Die ganze Wohnung wird vermietet: 104 m² im 3. Stock eines historischen Hauses mit Aufzug, Südost-Ausrichtung. Zwei Schlafzimmer mit jeweils eigenem Bad, eines mit Ankleide; hohe Decken und restaurierter Stuck; Wärmepumpe mit Fußbodenheizung und Kühldecken; Smart Home. Ab sofort verfügbar, möbliert oder unmöbliert zur gleichen Miete. Die Metro M1 hält an der Oper, wenige Schritte entfernt, der Deák Ferenc tér (M1, M2, M3) ist wenige Gehminuten entfernt. Miete: 3.000 € (ca. 1.095.000 Ft) pro Monat zzgl. Nebenkosten.",
-        "A teljes lakás bérelhető: 104 m² a 3. emeleten, egy liftes történelmi bérházban, délkeleti fekvéssel. Két hálószoba, mindkettő saját fürdőszobával, az egyik gardróbbal; magas belmagasság és felújított stukkók; hőszivattyú padlófűtéssel és hűtőmennyezettel; okosotthon. Azonnal beköltözhető, bútorozottan vagy bútor nélkül, azonos bérleti díjjal. Az M1-es metró pár lépésre, az Operánál áll meg, a Deák Ferenc tér (M1, M2, M3) néhány perc séta. Bérleti díj: havi 3 000 € (kb. 1 095 000 Ft) + rezsi.",
-      ),
-    },
     { slug: "cirbolya-utca", kind: "whole", label: "house", rent: 2500, exCharges: true,
       // Owner's flyer (Romain, 15 Nov 2026 17:43): "Monthly rent: 2500 euros + charges", partly furnished, available immediately.
       short: L(
